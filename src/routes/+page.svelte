@@ -63,7 +63,7 @@
             <div class="column is-8">
                 <strong class="is-size-5">{i+1}. {item.query}</strong>
             </div>
-            <div class="column has-background-info-dark">
+            <div class="column has-background-info-dark has-text-centered">
                 <span class="is-size-4 has-text-primary">{item.response}</span>
             </div>
         </div>
