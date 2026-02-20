@@ -1,0 +1,10 @@
+[
+  {
+    "query": "some large query",
+    "response": "result of the query"
+  },
+  {
+    "query": "another question",
+    "response": "another answer"
+  }
+]
