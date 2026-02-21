@@ -73,5 +73,41 @@
     {"query": "Dot matrix printer uses which paper types?", "response": "Impact paper and Tractor-fed paper"},
     {"query": "Infrastructure mode printer connection type?", "response": "Wireless"},
     {"query": "Double image on print – what should be done first?", "response": "Clean the drum."},
-    {"query": "Factors to consider when assembling new printer?", "response": "Set up location and Correctly unboxing"}
+    {"query": "Factors to consider when assembling new printer?", "response": "Set up location and Correctly unboxing"},
+  {
+    "query": "A company has a structured cable system installed by a technician. The technician uses a permanent cable that terminates to wall ports and patch panels. What is this mechanism?",
+    "response": "Punchdown block"
+  },
+  {
+    "query": "This can be used individually or in conjunction with other configurations to effectively verify email services and block the transmission of spoofed and unwanted email messages. (Select one or more.)",
+    "response": "Sender Policy Framework; DomainKeys Identified Mail; Domain-based Message Authentication, Reporting, and Conformance"
+  },
+  {
+    "query": "A company has found that specific departments are more productive when working from home. What foundational infrastructure solution should the company implement?",
+    "response": "Virtual private network"
+  },
+  {
+    "query": "Which well-known mailbox access protocols utilize mailbox servers to allow the user's client email software to retrieve messages? (Select one or more.)",
+    "response": "POP3; IMAP"
+  },
+  {
+    "query": "A technician upgrades the memory in a laptop computer. Which interface does the memory have?",
+    "response": "SODIMM"
+  },
+  {
+    "query": "A laptop user asks the IT department for computer equipment. In addition to an external monitor, the user would like to take advantage of an expansion card. What should the IT department purchase for the user?",
+    "response": "Docking station"
+  },
+  {
+    "query": "A technician troubleshoots a laptop's direct connectivity to the organization's access points connected to an internal network. Which component does the technician test?",
+    "response": "Wireless card"
+  },
+  {
+    "query": "A user has never seen a double image on a print before. However, when they print the latest report, they see a double image. What should they do first?",
+    "response": "Clean the drum"
+  },
+  {
+    "query": "A technician notices that the printer's output was not expected and needs to check the printer's control panel to investigate the problem. What should the technician check?",
+    "response": "Calibration"
+  }
 ]

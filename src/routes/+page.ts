@@ -9,14 +9,14 @@ export const load: PageLoad = async ({ fetch, url }) => {
         if (!res.ok) {
             throw new Error(`HTTP ${res.status}`);
         }
-
+/*
         const contentType = res.headers.get('content-type');
         console.log('Content-Type:', contentType);
 
         if (!contentType?.includes('application/json')) {
             throw new Error('Not JSON');
         }
-
+*/
         const data = await res.json(); // array of { query, response }
 
         return {

@@ -10,7 +10,6 @@
   let entries = $state<Entry[]>([]);
 
   let { data } = $props<{ entries: Entry[] }>();
-  let { book } = data;
 
   $effect(() => {
     entries = data.entries;
@@ -30,33 +29,39 @@
             
         <div class="columns is-vcentered">
             <div class="column">
-                <h1 class="title is-size-1">Book: {book}</h1>
+                <h1 class="title is-size-1">Symmetrical Carnival</h1>
             </div>
             <div class="column is-narrow">
-                <select class="input is-info"
+                <select class="input is-info" id="book-select"
                 onchange={(e) => {
                     const b = (e.currentTarget as HTMLSelectElement).value;
                     window.location.search = `?book=${b}`;
                 }}>
-                <option value="book1" selected={book === 'book1'}>PC14 Final Quiz</option>
-                <option value="book2" selected={book === 'book2'}>Test Option</option>
+                <option value="book2" selected={data.book === 'book2'}>Test Option</option>
+                <option value="book1" selected={data.book === 'book1'}>03-PC14 Final</option>
+                <option value="book3" selected={data.book === 'book3'}>02-CA-ITF4 Final</option>
                 </select>
             </div>
         </div>
 
-        <div class="columns is-vcentered">
-            <div class="column is-narrow">
-                <label for="search" class="label is-size-2">Search</label>
-            </div>
-            <div class="column">
+        <div class="field">
+            <p class="control has-icons-right">
                 <input id="search" type="text" placeholder="Type to search..."
                     class="input is-large is-rounded is-primary"
                     bind:value={search} />
-            </div>
+                {#if search}
+                <button 
+                    class="icon is-right is-clickable"
+                    onclick={() => search = ''}
+                    title="Clear search">
+                    <span class="is-size-3 has-text-white">&times;</span>
+                </button>
+                {/if}
+            </p>
         </div>
 
         {#if filtered.length === 0}
-            <p>No results.</p>
+            <p class="has-text-centered has-text-info">No results found</p>
         {:else}
         {#each filtered as item, i (item.query)}
             <hr>
