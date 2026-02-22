@@ -1,10 +1,103 @@
 [
-  {
-    "query": "some large query",
-    "response": "result of the query"
-  },
-  {
-    "query": "another question",
-    "response": "another answer"
-  }
+    {"query": "Module 02 CA-ITF4", "response": "Quiz 2 Answers"},
+    {
+        "query": "What is container virtualization?",
+        "response": "A lighter way to run many apps without them interfering with each other."
+    },
+    {
+        "query": "What type of hypervisor is needed to use virtualization on an existing OS?",
+        "response": "Type II hypervisor"
+    },
+    {
+        "query": "What is the purpose of network protocols?",
+        "response": "To create a common set of rules for network communication"
+    },
+    {
+        "query": "What is a VLAN?",
+        "response": "A logical network segment within a larger network"
+    },
+    {
+        "query": "The Institute of Electrical and Electronics Engineers (IEEE) established what standards for wireless communications?",
+        "response": "802.11"
+    },
+    {
+        "query": "What is the term for the device that converts fiber optic signals into a form that devices can understand?",
+        "response": "Fiber Optical Network Terminal"
+    },
+    {
+        "query": "What should you be cautious of when downloading drivers from websites other than the manufacturer's?",
+        "response": "Corrupt software or malware"
+    },
+    {
+        "query": "Which of the following is NOT a feature of Private Mode?",
+        "response": "Hiding your IP address"
+    },
+    {
+        "query": "What is one challenge of coordinating Zoom calls across large geographic areas?",
+        "response": "Different time zones"
+    },
+    {
+        "query": "What is the primary purpose of diagramming software?",
+        "response": "To create visual representations of projects"
+    },
+    {
+        "query": "What tab in Task Manager shows the resources used by each open application and process?",
+        "response": "Processes"
+    },
+    {
+        "query": "What is the benefit of regularly backing up your browser data?",
+        "response": "To ensure you have a copy of your bookmarks and settings"
+    },
+    {
+        "query": "What are Plug and Play devices?",
+        "response": "Devices that automatically get their drivers from Windows"
+    },
+    {
+        "query": "What is the main reason AI has started to take off in recent years?",
+        "response": "Better computer hardware"
+    },
+    {
+        "query": "Which productivity software suites are free?",
+        "response": "Google Docs, LibreOffice"
+    },
+    {
+        "query": "What happens if the exact right driver isn't installed on Windows?",
+        "response": "The hardware might not work properly"
+    },
+    {
+        "query": "Why are GUIs considered user-friendly?",
+        "response": "They use visual aids and natural movements."
+    },
+    {
+        "query": "Which of the following is a benefit of using a password manager?",
+        "response": "It stores and encrypts your passwords securely."
+    },
+    {
+        "query": "What happens when you delete a file from a hard disk drive (HDD)?",
+        "response": "A gap of free space is created"
+    },
+    {
+        "query": "What is software?",
+        "response": "A set of instructions that tells a computer what to do"
+    },
+    {
+        "query": "What is a file?",
+        "response": "A container for data"
+    },
+    {
+        "query": "What is artificial intelligence (AI)?",
+        "response": "A machine that can solve problems and create new content with minimal human input."
+    },
+    {
+        "query": "What is a type of AI that is easy for everyone to use?",
+        "response": "Generative AI"
+    },
+    {
+        "query": "What should you do if you want to prevent certain apps from starting automatically when your computer turns on?",
+        "response": "Use Task Manager to disable them"
+    },
+    {
+        "query": "What is the purpose of a file extension?",
+        "response": "To determine the default application to open the file"
+    }
 ]
