@@ -1,0 +1,123 @@
+[
+{
+    "query": "The electronic health records software application crashes during a busy day at a doctor's office. The IT consultant for the practice knows that the application already has the latest update installed. Which of the following options is the only one that could potentially fix the crashing issue?",
+    "response": "Uninstall and reinstall the application"
+  },
+  {
+    "query": "A user calls the help desk complaining that Windows freezes to a blue screen every time it tries to boot. When the technician arrives, what is the BEST reason the technician wants to enter Safe Mode to begin troubleshooting?",
+    "response": "Safe Mode loads only the minimum amount of drivers and services to start the system"
+  },
+  {
+    "query": "Worried about a crash, a user creates a complete backup of the system configuration and data files on their computer. Identify what the user has created.",
+    "response": "An image"
+  },
+  {
+    "query": "A user is about to join a Zoom call and plugs in USB-C headphones with a built-in microphone to the computer's USB 3 port. A message appears that there are not enough resources. Evaluate the situation and select the best fix for the problem.",
+    "response": "Close all running programs to free up memory"
+  },
+  {
+    "query": "An administrator assists the human resources department in testing access to their new cloud-based training site. Unfortunately, the site cannot be accessed due to a certificate issue. Which of the following should the administrator use to assist them?",
+    "response": "certmgr.msc"
+  },
+  {
+    "query": "A systems administrator wants to create a scheduled task throughout the environment which does a basic health check at night when users are not working. Which command would the administrator use in their scheduled task?",
+    "response": "chkdsk"
+  },
+  {
+    "query": "A healthcare provider sets up color-filter modes on client machines and tailors them to specific users who are colorblind. Where can the healthcare provider configure this?",
+    "response": "Accessibility"
+  },
+  {
+    "query": "An IT manager, who is in charge of the client image, considers enabling a data at rest solution. Where can the manager go to enable the built-in Microsoft solution?",
+    "response": "System Settings"
+  },
+  {
+    "query": "Which of the following is to use clear and concise statements that avoid jargon, abbreviations, and acronyms that a user might not understand?",
+    "response": "Proper language"
+  },
+  {
+    "query": "A security analyst notices a critical incident that has a widespread effect on customers and can eventually involve a potential data breach. The analyst creates a ticket with the vendor and sets the importance in order to trigger a faster response time. What describes what attribute of the ticket the analyst set?",
+    "response": "Severity levels"
+  },
+  {
+    "query": "What is this called when antivirus software scans a file before allowing or preventing it from opening?",
+    "response": "On-access scanning"
+  },
+  {
+    "query": "A user is only able to read data on the file. What account management policy is this?",
+    "response": "Restrict user permission"
+  },
+  {
+    "query": "A threat actor uses a technique that allows devices to connect to an open authentication and then redirect the user's browser to capture the network password. What is this technique?",
+    "response": "Evil twin"
+  },
+  {
+    "query": "A company needs to set up perimeter security to control and monitor who can approach the building. Which of the following?",
+    "response": "Guard, Access control vestibule, Fencing"
+  },
+  {
+    "query": "An employee uses a cryptographic contactless technique that allows access to a building. What is this technique?",
+    "response": "Badge reader"
+  },
+  {
+    "query": "A helpdesk technician is helping a user experiencing printer problems. After several troubleshooting steps, the technician thinks the user may have the wrong printer driver installed. Where should they go to install a different driver for the printer?",
+    "response": "Device Manager"
+  },
+  {
+    "query": "A server administrator sets up jobs that will copy over files on various servers and detect if the file was transferred successfully. Which command is optimal for server administrators to perform this task?",
+    "response": "robocopy"
+  },
+  {
+    "query": "A client administrator sets up a new system for GUID partition table (GPT) partitioning. What dependency will the administrator need?",
+    "response": "UEFI"
+  },
+  {
+    "query": "A video game development company is purchasing upgraded laptops to develop cutting-edge graphics, integrate persistent system RAM, offer Resilient File System (ReFS) support, and not require any additional license types. What type of operating system should they use?",
+    "response": "Pro for Workstations"
+  },
+  {
+    "query": "Which of the following accounts can users set up profile settings to synchronize between devices via the online portal?",
+    "response": "Microsoft account"
+  },
+    {
+    "query": "Which of the following devices come in the form of adapters, trailing sockets, or filter plugs, with the protection circuitry built in?",
+    "response": "Surge suppressor"
+  },
+  {
+    "query": "Most vendors have recycling systems for what types of products? (Select three.)",
+    "response": "Battery, Toner, Device"
+  },
+  {
+    "query": "Which of the following uses the file-copy tool in Windows using \"robocopy\"?",
+    "response": "Automated backups"
+  },
+  {
+    "query": "A company needs to ensure that both a customer's card data and the company's system are safeguarded against fraud. Which best practice best fits this need?",
+    "response": "PCI DSS"
+  },
+  {
+    "query": "A technician destroys disks by putting holes through them and smashing them with a hammer. What is this method?",
+    "response": "Drilling"
+  },
+  {
+    "query": "A user is buying software for their PC. Which of the following would the user be purchasing for individual use?",
+    "response": "Personal license"
+  },
+  {
+    "query": "An employee enters the web address of their local newspaper to check for news on the company, and a site pops up with many click-bait celebrity stories. The employee enters the address again, assuming a misspelling, but returns to the same page. When the help desk technician arrives, which of the following troubleshooting steps would they perform?",
+    "response": "Check HOSTS files for malicious entries"
+  },
+  {
+    "query": "Two friends want to share photos with each other from their iPhones. The first friend selects their photos and uses AirDrop but receives a message that there is no one nearby to share with. Why would that message appear?",
+    "response": "The second friend has Bluetooth disabled"
+  },
+  {
+    "query": "A user likes to watch Netflix on their phone while on the treadmill. The user turns the phone sideways for better viewing, but the screen does not rotate. Which of the following could cause this issue?",
+    "response": "Rotation lock is enabled"
+  },
+  {
+    "query": "What type of malware attack exploits the victim's computer to mine digital currency?",
+    "response": "Cryptominer"
+  }
+
+]

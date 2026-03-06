@@ -1,5 +1,4 @@
 [
-    {"query": "Module 03 PC14", "response": "Final Quiz"},
     {"query": "An IT technician installs a solid-state drive (SSD) into a motherboard connector that enables high-performance storage while conserving space inside the system case. What has the IT technician installed?", "response": "M.2"},
     {"query": "A user noticed that their PC is generating more heat than can be removed, and the one component designed to draw cool air from the low vents in the front of the case over the motherboard is not working. What is the impacted component?", "response": "Fan"},
     {"query": "A user who is new to computers inspects a laptop to become acquainted with all the physical features. The user finds a small hole in the top bezel of the display. What feature is this?", "response": "Microphone"},

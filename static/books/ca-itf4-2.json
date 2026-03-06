@@ -1,5 +1,4 @@
 [
-    {"query": "Module 02 CA-ITF4", "response": "Quiz 2 Answers"},
     {
         "query": "What is container virtualization?",
         "response": "A lighter way to run many apps without them interfering with each other."

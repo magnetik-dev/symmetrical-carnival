@@ -37,11 +37,12 @@
                     const b = (e.currentTarget as HTMLSelectElement).value;
                     window.location.search = `?book=${b}`;
                 }}>
-                <option value="book4" selected={data.book === 'book4'}>02-CA-ITF4 Quiz 1</option>
-                <option value="book1" selected={data.book === 'book2'}>02-CA-ITF4 Quiz 2</option>
-                <option value="book2" selected={data.book === 'book5'}>02-CA-ITF4 Quiz 3</option>
-                <option value="book5" selected={data.book === 'book3'}>02-CA-ITF4 Final Quiz</option>
-                <option value="book3" selected={data.book === 'book1'}>03-PC14 Final Quiz</option>
+                <option value="ca-itf4-1" selected={data.book === 'ca-itf4-1'}>02-CA-ITF4 Quiz 1</option>
+                <option value="ca-itf4-2" selected={data.book === 'ca-itf4-2'}>02-CA-ITF4 Quiz 2</option>
+                <option value="ca-itf4-3" selected={data.book === 'ca-itf4-3'}>02-CA-ITF4 Quiz 3</option>
+                <option value="ca-itf4-final" selected={data.book === 'ca-itf4-final'}>02-CA-ITF4 Final Quiz</option>
+                <option value="pc14-final" selected={data.book === 'pc14-final'}>03-PC14 Final Quiz</option>
+                <option value="pc24-final" selected={data.book === 'pc24-final'}>04-PC24 Final Quiz</option>
                 </select>
             </div>
         </div>
