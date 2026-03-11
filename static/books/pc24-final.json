@@ -138,7 +138,7 @@
   {
     "query": "worried about a crash, a user creates complete backup of the system configuration and data files on their computer",
     "response": "An image"
-  }
+  },
   {
     "query": "Users are curious about what is run on startup. The user finds the command 'net use M:\\shareddrive\\data /persistent:yes'",
     "response": "mapped drive"
