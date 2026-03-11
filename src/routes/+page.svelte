@@ -1,18 +1,22 @@
 <svelte:options runes />
 
 <script lang="ts">
-  interface Entry {
-    query: string;
-    response: string;
-  }
+
+  // use shared entry type declared globally
+  type Entry = App.Entry;
 
   let search = $state('');
   let entries = $state<Entry[]>([]);
 
-  let { data } = $props<{ entries: Entry[] }>();
+  let { data } = $props<{ entries: Entry[]; book: string }>();
+
+  // local rune for the selected book; initialize from load data
+  let book = $state(data.book);
 
   $effect(() => {
     entries = data.entries;
+    // keep rune in sync if the page load ever changes (rare)
+    book = data.book;
   });
 
   let filtered = $derived(
@@ -32,17 +36,19 @@
                 <h1 class="title is-size-1">Symmetrical Carnival</h1>
             </div>
             <div class="column is-narrow">
-                <select class="input is-info" id="book-select"
-                onchange={(e) => {
-                    const b = (e.currentTarget as HTMLSelectElement).value;
-                    window.location.search = `?book=${b}`;
-                }}>
-                <option value="ca-itf4-1" selected={data.book === 'ca-itf4-1'}>02-CA-ITF4 Quiz 1</option>
-                <option value="ca-itf4-2" selected={data.book === 'ca-itf4-2'}>02-CA-ITF4 Quiz 2</option>
-                <option value="ca-itf4-3" selected={data.book === 'ca-itf4-3'}>02-CA-ITF4 Quiz 3</option>
-                <option value="ca-itf4-final" selected={data.book === 'ca-itf4-final'}>02-CA-ITF4 Final Quiz</option>
-                <option value="pc14-final" selected={data.book === 'pc14-final'}>03-PC14 Final Quiz</option>
-                <option value="pc24-final" selected={data.book === 'pc24-final'}>04-PC24 Final Quiz</option>
+                <select class="input is-info is-medium" id="book-select"
+                    onchange={(e) => {
+                        const b = (e.currentTarget as HTMLSelectElement).value;
+                        window.location.search = `?book=${b}`;
+                    }}>
+                    <option value="ca-itf4-1" selected={data.book === 'ca-itf4-1'}>CA-ITF4 Quiz 1</option>
+                    <option value="ca-itf4-2" selected={data.book === 'ca-itf4-2'}>CA-ITF4 Quiz 2</option>
+                    <option value="ca-itf4-3" selected={data.book === 'ca-itf4-3'}>CA-ITF4 Quiz 3</option>
+                    <option value="ca-itf4-f" selected={data.book === 'ca-itf4-f'}>CA-ITF4 Final Quiz</option>
+                    <option value="pc24-final" selected={data.book === 'pc24-final'}>PC24 Final Quiz</option>
+                    <option value="pc14-final" selected={data.book === 'pc14-final'}>PC14 Final Quiz</option>
+                    <option value="nwpo-exam1" selected={data.book === 'nwpo-exam1'}>NWPO Exam 1</option>
+                    <option value="nwpo-exam2" selected={data.book === 'nwpo-exam2'}>NWPO Exam 2</option>
                 </select>
             </div>
         </div>

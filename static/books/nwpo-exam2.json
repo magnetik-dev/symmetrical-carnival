@@ -1,0 +1,362 @@
+[
+  {
+    "query": "Which of the following creates and manages a VM (virtual machine) and allocates hardware resources for the host and any of its guest VMs?",
+    "response": "Hypervisor"
+  },
+  {
+    "query": "In which of the following modes will a vNIC access a physical network using the host machine's NIC?",
+    "response": "Bridged mode"
+  },
+  {
+    "query": "Which of the following is a distinct network of storage devices that communicate directly with each other and with other portions of the network?",
+    "response": "A SAN"
+  },
+  {
+    "query": "James has been appointed as the service manager in one of the outlets for Grason Communication, which sells switches and routers. A client approaches James with a query from a network provider who is requesting for an alternative router that is less expensive and will work within layer 5 and layer 7 in the OSI (open systems interconnection) model. Analyze which of the following options James should present to his client in this scenario.",
+    "response": "Layer 4 switches"
+  },
+  {
+    "query": "As a network administrator of Wheeling Communications, you have to ensure that the switches used in the organization are secured and there is trusted access to the entire network. In order to maintain this security standard, you have decided to disable all the unused physical and virtual ports on your Huawei switches. Which of the following commands will you use to bring your plan to action?",
+    "response": "Shutdown"
+  },
+  {
+    "query": "You already have a running network in your organization, but because of the recent influx of network traffic and as a network engineer, you want to take a more organized approach in designing the network so that every device can function optimally. You have decided to add highly efficient multilayer switches to pass traffic in and out of a few backbone ports as quickly as possible. Which of the following layers of the network architecture will you use to bring in this change to your network?",
+    "response": "The core layer"
+  },
+  {
+    "query": "Which of the following cloud models makes resources available to users through a WAN connection?",
+    "response": "Private cloud"
+  },
+  {
+    "query": "Cloud computing offers many significant advantages and opportunities for expansion, but it has its disadvantages as well. Which of the following options is the cheapest and simplest alternative to a cloud?",
+    "response": "Internet"
+  },
+  {
+    "query": "As a developer, you need frequent access to multiple platforms during the development process. Rather than purchasing and maintaining a separate device for each platform, you have decided to avail the cloud service option. You are looking to build and test the applications within these virtual, online environments, which are tailored to the specific needs of the project. The cloud service model should have servers that provide only the resources needed to run an application and also allow customers to run their code directly in the cloud without having to manage a server environment at all. Which of the following cloud service models do you think would be appropriate considering your requirements?",
+    "response": "PaaS"
+  },
+  {
+    "query": "What is the downtime per day for a system showing 99.9% availability?",
+    "response": "1 minute and 26 seconds"
+  },
+  {
+    "query": "In order to achieve the utmost fault tolerance, as a network administrator, you want to ensure that critical devices are all equipped with redundant NICs, routers, and processors, which are able to immediately assume the duties of an identical component in case one of the components fails. Which of the following will help you ensure these devices contain the necessary components you require?",
+    "response": "Automatic failover"
+  },
+  {
+    "query": "As a network administrator of your company, you have decided to implement redundant connections between network devices to solve problems like network bottlenecks. You have decided to implement this change so that multiple network interfaces and ports can act as one",
+    "response": "NIC teaming"
+  },
+  {
+    "query": "Basil Telecommunications have hired you as a network manager for providing a network system that will include redundant processors, backup generators, and earthquake-resilient installation. You have decided that the average downtime per year cannot be more than 5 minutes 15 seconds. Which of the following will you use in this scenario?",
+    "response": "Five 9s"
+  },
+  {
+    "query": "Which of the following will help evenly distribute traffic to each device in a cluster so every device carries a portion of the load?",
+    "response": "A load balancer"
+  },
+  {
+    "query": "Krypton Spares and Parts is an MNC dealing in motorcycle spare parts. The administration department of the company has constantly been complaining of severe network issues, and you have been hired to fix the issues. On inspection, it has come to your notice that these network fluctuations are primarily because of flooding attacks from broadcast and multicast traffic. Which of the following do you plan on using to fix this issue?",
+    "response": "Storm control"
+  },
+  {
+    "query": "Identify the current name of a DMZ (demilitarized zone).",
+    "response": "Screened subnet"
+  },
+  {
+    "query": "Which of the following will allow subnets to be further subdivided into smaller and smaller groupings until each subnet is about the same size as the necessary IP address space?",
+    "response": "VLSM"
+  },
+  {
+    "query": "When a router connects to a switch that supports multiple VLANs, it is sometimes called _____.",
+    "response": "a router-on-a-stick"
+  },
+  {
+    "query": "Mason, a new network engineer in your organization, has set up the configuration of the switch ports to other network devices. On inspection, you, the network administrator, realize that the configuration has been made using access mode instead of trunk mode. What kind of a configuration error are you facing in this situation?",
+    "response": "Incorrect port mode"
+  },
+  {
+    "query": "The headquarters of BBK Solutions has detected a possible attack with the help of VLAN tags. Mathews is the head of the Network Administration department in BBK Solutions, and he has to come up with security measures to prevent such instances from occurring in the future. Which of the following security measures should Matthews consider keeping the VLAN pathway as the primary focus? be enabled.",
+    "response": "The default VLAN should not be used."
+  },
+  {
+    "query": "Globcom is a call center operating in California. It has hired you as a network administrator to set up a voice VLAN to ensure the quality of voice transmissions. Which of the following will not be of immediate priority while setting up the VLAN connection?",
+    "response": "Untagged frames"
+  },
+  {
+    "query": "You are a network analyst at a securities firm. You have to assign an identifier to each VLAN used in the network so that the connecting devices can identify which VLAN a transmission belongs to. Which of the following will you use in such a situation?",
+    "response": "SAID"
+  },
+  {
+    "query": "The part which identifies the network in an IPv4 address is known as _____.",
+    "response": "the network ID"
+  },
+  {
+    "query": "Subnetting, which alters the rules of classful IPv4 addressing, is known as _____.Network+ (NWPO) Key \u2013 Exam 2",
+    "response": "classless addressing"
+  },
+  {
+    "query": "Calculate the total number of hosts per subnet that you can derive from the network ID 192.168.1.0 255.255.255.224",
+    "response": "30"
+  },
+  {
+    "query": "The network administrator has asked you to subnet a network that has 5 subnets, each with at least 16 hosts. Which subnet mask would you use?",
+    "response": "255.255.255.240"
+  },
+  {
+    "query": "Bilmain Manufactures has recruited you as a network administrator to handle the organization's network operations. You want to set up a class A IP address. What will be the subnet mask for this class A address?",
+    "response": "255.0.0.0"
+  },
+  {
+    "query": "You are working on an IPv6 address 2608:FE10:1:AA:002:50FF:FE2B:E708. You want to create subnets within this IP address. Which of the following will you choose to alter when creating subnets for this address?",
+    "response": "AA"
+  },
+  {
+    "query": "Which of the following is a valid IP address for a network ID of 191.254.0.0 using 11 bits for subnetting?",
+    "response": "191.254.1.29"
+  },
+  {
+    "query": "Rodri has been contracted by an ISP to set up an IPv6 address for MIL Ltd. The RIR (regional Internet registry) has assigned the ISP a block of 32-bit routing prefix. The ISP will provide MIL Ltd. with a /48 site prefix. Analyze which of the following scenarios will help Rodri in calculating the total number of possible subnets.",
+    "response": "MIL Ltd. can create up to 65,536 subnets."
+  },
+  {
+    "query": "Which of the following is a more intelligent version of an NIU (network interface unit)?",
+    "response": "Smartjack"
+  },
+  {
+    "query": "You are working as a network engineer with an ISP. A query has come to you from a client who requires a guarantee of minimum uptime percentages if the service goes down. Which of the following will you choose in this scenario?",
+    "response": "DIA"
+  },
+  {
+    "query": "Bradley has been running a business in his garage for over a period of 10 years. He plans on expanding the business by opening up three new offices in three different cities. Since he has accumulated sufficient profits to move to a larger office space, he plans to upgrade his network connection to one with a dedicated and symmetrical bandwidth. Bradley approaches Mantle Solutions, an ISP. Which of the following options should be offered by the ISP in this scenario?",
+    "response": "Leased lines"
+  },
+  {
+    "query": "Which form of communication is well suited to users who receive more information from the network than they send to it?",
+    "response": "ADSL"
+  },
+  {
+    "query": "A network administrator has asked Robin, a network engineer, to use OSPF (Open Shortest Path First) along with RIP (Routing Information Protocol) on an edge router in a network so that it demands more memory and CPU power for calculations but keeps network bandwidth to a minimum with a very fast convergence time. Identify and analyze which characteristic of OSPF signifies this.",
+    "response": "Low overhead, fast convergence"
+  },
+  {
+    "query": "Beevan works as a network analyzer for an ISP. The network manager has asked him to use a protocol for the routers that can scan beyond the home territory and can instruct a group of routers to prefer one route over other available routes. Analyze which of the following should be used in this scenario.",
+    "response": "BGP"
+  },
+  {
+    "query": "You are working as a technical specialist for an ISP. The network administrator has asked you to set up a router for a client with a routing protocol that will use a distance-vector algorithm and is limited to 15 hops. Which of the following will you use?",
+    "response": "RIPv2"
+  },
+  {
+    "query": "XYZ Ltd. is a company that has 12 regional offices around the world. All the major operations of the company are carried out from the headquarters based in New York. XYZ Ltd. has approached you, a network facilitator, to install a WAN service that can manage network configurations at multiple locations throughout the world. Which of the following WAN services would you advise to XYZ Ltd. in this scenario?",
+    "response": "SD-WAN"
+  },
+  {
+    "query": "White Hawks runs a baseball stadium, and it would like to set up a network that has a reasonable level of availability and effectiveness so that fans can receive a close and strong signal throughput when they watch a game. Analyze which of the following statements will help in understanding why a 5G service is ideal in this scenario.",
+    "response": "The cell density for the network must be close."
+  },
+  {
+    "query": "Crom Breweries is an old client of HW Internet Solutions. Crom's IT department calls HW Solutions to inform that the interface is down. HW Solutions sends a network analyst to check the situation. The network analyst assumes that an employee must have shut down the interface. He applies the show interface command to get an overview of all the devices interfaces. shut down.",
+    "response": "Link state"
+  },
+  {
+    "query": "Which of the following refers to any router outside an organization's AS(autonomous system), such as a router on the Internet backbone?",
+    "response": "Exterior router"
+  },
+  {
+    "query": "Fox Agro, a small business, faces network congestion and connection failures, which affect the network. As a result, the quality of performance of the unit gets adversely affected. You are appointed as a network administrator to determine the best solution to this problem. Which type of routing path will you use to solve this problem?",
+    "response": "Dynamic route"
+  },
+  {
+    "query": "As a network administrator, a client has approached you to set up the network for MKV, a software company. The company requires sufficient amounts of data for both uploading and downloading purposes; however, it prefers a connection that has better download speed. Which of the following DSL varieties do you think is best suited for such a requirement?",
+    "response": "VDSL"
+  },
+  {
+    "query": "An ISP's headquarters is located in Philadelphia, and it has a branch office in Canada. The ISP wants to ship an edge device to the branch location where a non-technical person can plug in this scenario?",
+    "response": "SD-WAN"
+  },
+  {
+    "query": "Moses wants to update the interface of a router. He plans on having a check on the current running configuration file and then wants to copy the running configuration file to the startup configuration file. Analyze which CLI mode Moses must use in this scenario.",
+    "response": "Use the privileged EXEC mode to apply the changes"
+  },
+  {
+    "query": "Rob has enrolled himself as a network security trainee in JV Internet Securities. Which of the following terms should he know to understand the advantage taken of a software vulnerability that hasn't yet or only very recently become public?",
+    "response": "Zero-day exploit"
+  },
+  {
+    "query": "Which of the following testing tools combines known scanning and exploit techniques to explore potentially new attack routes? uninfected computers before being directed at the target?",
+    "response": "Metasploit"
+  },
+  {
+    "query": "Which of the following is a type of DoS (denial-of-service) attack that is bounced off uninfected computers before being directed at the target?",
+    "response": "DRDoS Attack"
+  },
+  {
+    "query": "Bryden is a network analyst who has been recruited into Big Bay Burger's security management. Which of the following terminologies must he use to explain to the company's employees about the possibility of someone using a deception in following them into a restricted area?",
+    "response": "Piggybacking"
+  },
+  {
+    "query": "You have been invited to the University of Bert to deliver a lecture on network security. In your presentation, you want to focus solely on malware that can harm a system or its resources by disguising itself as something useful. Which of the following categories of malware would be best suited to demonstrate such an example?",
+    "response": "Trojan horse"
+  },
+  {
+    "query": "At a security training exercise, you had to devise a strategy to penetrate into an organization's data room by accessing one of their employee's ID cards. You decided to demonstrate this exercise by offering a free gift to one of the employees in exchange for a few hours of data room access. Which kind of social engineering method have you used in such a scenario?",
+    "response": "Quid pro quo"
+  },
+  {
+    "query": "Hammond Industries has appointed Gavin as the network administrator to set up a complete secured and flawless network throughout the office premises. One of the employees has come to him to fix an error message that keeps popping up every time he tries to open the web browser. He also states that this error started popping up after the external hard drive had been used to transfer some of the necessary documents to the HR's office. Analyze what kind of malware might possibly be behind this error.",
+    "response": "Virus"
+  },
+  {
+    "query": "Must Eat is a company that allows online food delivery. Must Eat rolls out updates every month for better user interface. Recently, after one of its updates, the network team of the company detects certain unauthorized access to the main data frame of the company. On inspection, the team notices that there has been no breach of sensitive data. What kind of cybersecurity exploitation was attempted by the hackers in this scenario?",
+    "response": "A zero-day attack might have been the cause."
+  },
+  {
+    "query": "An organization hires you to handle the security policies of the organization. In order to protect the organization's network from data breaches and potential hacks, you decide to draft a policy that will require the employees of the organization to adhere to a certain set of rules while accessing the network's resources. To ensure that these rules are followed without fail, you decide to impose certain penalties for situations where violations may occur. Which of the following will help you achieve these standards?",
+    "response": "AUP"
+  },
+  {
+    "query": "As a network administrator, you have asked one of the contracted vendors of the company to ship a consignment of spare parts and components of all the network devices. You have decided to place this order to store the devices for a rainy day. Now, as the consignment has been following will you use in this scenario?",
+    "response": "Locking cabinets"
+  },
+  {
+    "query": "Chelsea is a hacker who befriends Adele McCain over lunch at the cafeteria. Adele is the senior associate of Spandangle Ltd., a private law firm based in Alabama. Chelsea manages to successfully guess Adele's password to a sensitive database in the law firm. What kind of password attack did she use?",
+    "response": "A brute-force attack"
+  },
+  {
+    "query": "Which of the following methods requires the entry of a code to open a door?",
+    "response": "Cipher lock"
+  },
+  {
+    "query": "Which of the following devices scans an individual's unique physical characters such as iris color patterns to verify the person's identity?",
+    "response": "Biometrics"
+  },
+  {
+    "query": "Ground Movers Ltd., a courier service provider, has recently encountered certain breaches that have led to packages being stolen and damaged. The company has contracted you, a network analyst, to fix this issue. You plan on installing a device that will be able to provide constant or periodic collection of information. This information can then be used by the management control software for monitoring and reporting. Which of the following devices will you install for",
+    "response": "Asset tags"
+  },
+  {
+    "query": "Robert has been working as a network security expert for Indus Grow Wealth Management, which allows its clients to view their current loan status online. With the recent cases of attempted hacks in banking systems, Robert has decided to test the security systems by hiring hackers to try and analyze the security risks at Grow Wealth Management. Analyze who among the following would best suit Robert's requirement in this scenario.",
+    "response": "White hat hackers"
+  },
+  {
+    "query": "Which of the following technologies selectively filters or blocks traffic between networks?",
+    "response": "Firewall"
+  },
+  {
+    "query": "Which of the following can capture all traffic traversing a network connection?",
+    "response": "TAP"
+  },
+  {
+    "query": "Johnathan is the network engineer of an organization that restricts the use of certain webpages. As he does not have any pending work, he decides to take a break and watch a movie him in this situation so that the IP address of the organization is not compromised.",
+    "response": "Use proxy servers to mask Internet activities"
+  },
+  {
+    "query": "The HR manager of Veep Communications notices a lot of employees waste valuable time surfing social media websites. The HR manager requests you (a network administrator) to prevent the employees' access to these websites. Which of the following firewalls will you use in this scenario?",
+    "response": "Application layer firewall"
+  },
+  {
+    "query": "Valiant is an NGO that has very strong opinions against the government. It has faced a number of legal notices and its IP address has been blocked numerous times for voicing out dissent on online forums and social media. Valiant has requested your help as a network analyst to find a way around this problem so that it won't receive any more legal notices due to IP address tracking. Which of the following methods will you use in this scenario?",
+    "response": "Proxy server"
+  },
+  {
+    "query": "Which of the following will act as a filter to instruct the router to permit or deny traffic from travelling through the network?",
+    "response": "ACL"
+  },
+  {
+    "query": "Identify which of the following terms defines the process of verifying a user's credentials.",
+    "response": "Authentication"
+  },
+  {
+    "query": "Which of the following will you use to monitor and analyze data stored in logs?",
+    "response": "SIEM"
+  },
+  {
+    "query": "You as a network administrator want a switch to determine if the message's source IP address is appropriately matched with its source MAC address according to DHCP assignments on the network. Which of the following switch security configurations will you use alongside DAI on a network switch in this scenario?",
+    "response": "DHCP snooping"
+  },
+  {
+    "query": "You are the network engineer for Muhan Mobile Services. The network administrator has asked you to separate the authentication, auditing, and authorization process. Which of the following tools will you use in such a scenario?",
+    "response": "TACACS+"
+  },
+  {
+    "query": "Which of the following is used to issue tickets to an authenticated client for access to services on the network?",
+    "response": "TGS"
+  },
+  {
+    "query": "You are employed as a network administrator of Vincent Motors. An unreleased blueprint of a new car model of Vincent Motors has been leaked on the Internet. You assume that an intruder must have succeeded in gaining access to your network in order to copy the blueprint. Which of the following access control techniques will you use so that such an activity can be detected in the future?",
+    "response": "Accounting"
+  },
+  {
+    "query": "As a network administrator, Murphy wants to add additional layers of security to prevent hackers from penetrating the network. In order to achieve this, he plans on adding additional authentication restrictions that might strengthen network security. Analyze which of the following he should do in this context.",
+    "response": "Set a limit on consecutive login attempts"
+  },
+  {
+    "query": "In which of the following do the bits work opposite of how bits in a subnet work?",
+    "response": "Wildcard mask"
+  },
+  {
+    "query": "You as a network administrator want to have a check on the ARP (address resolution protocol) vulnerabilities in your organization so that you can prevent a switch against possible ARP spoofing attacks and MAC flooding. Which of the following will you use in this scenario?",
+    "response": "DAI"
+  },
+  {
+    "query": "Which of the following monitors network traffic and might receive data from monitored devices that are configured to report their statistics?",
+    "response": "Network monitor"
+  },
+  {
+    "query": "Which of the following is used to create flow records that show relationships among various traffic types?",
+    "response": "NetFlow"
+  },
+  {
+    "query": "You have been assigned the role of a network administrator, and your first task requires you to measure the throughput between network hosts. Which of the following tools will you use in this scenario?",
+    "response": "iPerf"
+  },
+  {
+    "query": "Which KPI (key performance indicator) indicates delayed network communications while devices wait for responses or resend transmissions?",
+    "response": "Packet drops"
+  },
+  {
+    "query": "You are a network analyst who has been tasked with managing the volume of network traffic across an organization in order to prevent network congestion. On analyzing the current network, you notice that one of the primary reasons for congestion is that the switches used in the network keep resending data packets that have been lost in the transmission far too quickly. Which of the following do you think should be implemented to solve this issue?",
+    "response": "Retransmission policy"
+  },
+  {
+    "query": "Goldwin Enterprises has hired you as a network administrator to monitor the network and to ensure that the network functions reliably. To monitor the entire network, you will require a device that will display sensor data on your configurable dashboard. Which of the following software will you request from the management?",
+    "response": "Room Alert Monitor by AVTECH"
+  },
+  {
+    "query": "An organization determined that there was an increase in network latency, and it approached you, a network administrator, to solve the issue. You decide that the extra demand on the network device's CPU and memory should be lessened to solve this issue. You also plan on getting a comprehensive view of the network traffic and sample traffic as well. Which of the following will you use in this scenario?",
+    "response": "SNMP"
+  },
+  {
+    "query": "You are a network administrator at Yosaka & Associates, a private law firm. The employees have been facing various types of data errors and other transmission problems, leading to decreased productivity. You need to find an appropriate technique that will help identify locations of network bottlenecks. Which of the following techniques would you choose in such a scenario?",
+    "response": "Traffic analysis"
+  },
+  {
+    "query": "Which of the following power flaws is also called a sag?",
+    "response": "Brownout"
+  },
+  {
+    "query": "Which of the following steps of an incident response plan includes the act of limiting the damage by the team, where affected systems or areas are isolated, and response staff are called in as required by the situation?",
+    "response": "Containment"
+  },
+  {
+    "query": "Which power device prevents momentary increase in voltage due to lightning strikes, solar flares, or electrical problems?",
+    "response": "Surge protector"
+  },
+  {
+    "query": "Which of the following backs up only the data that has changed since the last backup?",
+    "response": "Incremental backup"
+  },
+  {
+    "query": "Which type of a recovery plan accounts for the worst-case scenarios and provides contingency plans for restoring or replacing computer systems, power, telephone systems, and paper-based files?",
+    "response": "A disaster recovery plan"
+  },
+  {
+    "query": "You have recently been appointed as a network analyst at Hayle Communications. Your first assignment requires you to limit the traffic between a single receiver and a single sender. Which of the following bandwidth management techniques will you use in this scenario?",
+    "response": "Flow control"
+  },
+  {
+    "query": "A network connection is congested as a result of which there are multiple network fluctuations and latency issues. You as a network administrator plan on solving this issue by using a network device to send signals to the sender or receiver of the data packets that the network is congested. Which of the following will you use in this scenario?",
+    "response": "Explicit signaling"
+  }
+]
