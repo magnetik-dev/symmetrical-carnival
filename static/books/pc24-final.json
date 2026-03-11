@@ -118,6 +118,74 @@
   {
     "query": "What type of malware attack exploits the victim's computer to mine digital currency?",
     "response": "Cryptominer"
+  },
+  {
+    "query": "which service could be used to facilitate sso and identity sync across both cloud-based applications and on-premise domain login?",
+    "response": "Microsoft Entra"
+  },
+  {
+    "query": "a security adminsitartor moves their proxy from on premises to the cloud and wants to establish a client tunnel to the cloud proxy server for web traffic. Users are protected even while out in public and not connected to the domain",
+    "response": "VPN"
+  },
+  {
+    "query": "The IT department has learned that a new employee starts.'no operating system found' message appears when the computer is rebooted after windows 10 is installed with hard drive partition style UEFI, which scenario can generate the message",
+    "response":"Damaged hard drive."
+  },
+  {
+    "query": "a server administrator experiences pe4rformance issues on a server. What can the admin use to view and log performance stats (select two)",
+    "response": "Performance Monitor (perfmon), Resource Monitor (resmon)"
+  },
+  {
+    "query": "worried about a crash, a user creates complete backup of the system configuration and data files on their computer",
+    "response": "An image"
+  }
+  {
+    "query": "Users are curious about what is run on startup. The user finds the command 'net use M:\\shareddrive\\data /persistent:yes'",
+    "response": "mapped drive"
+  },
+  {
+    "query": "an admin in charge of user endpoint images wants to slipstream and use image deployment. what boot method would be best",
+    "response": "network"
+  },
+  {
+    "query": "a user is conscientious about security. Where can the user check if they are up to date on patches for their apple computer?",
+    "response": "App Store"
+  },
+  {
+    "query": "an attacker uses a technique against wireless network that allows them to flood access points with too many packets",
+    "response":"Dos - Denial of service"
+  },
+  {
+    "query" : "An administrator uses a method that uses simultaneous authentication of equals (SAE) instead of a 4-way handshake.",
+    "response": "WPA3"
+  },
+  {
+    "query": "a technician implements a protocol used to facilitate single sign on (SSO) and allows a user account to authenticate to a domain controller (DC) over a trusted local cabled segment. What is this protocol",
+    "response": "Kerberos"
+  },
+  {
+    "query": "a user receives a dialog box pop-up that states 163 viruses were detected. when user clicks, it states that to get rid of the viruses, user needs to purchase full version of the software",
+    "response": "Rogueware"
+  },
+  {
+    "query": "The Snapchat app on an iOS phone will not close. The user rebooted the device, but that was unsuccessful. How to fix the problem",
+    "response": "Uninstall and reinstall the application"
+  },
+  {
+    "query": "a company hires a new app developer. The corporate network denies access when the developer tries to connect their phone. Why would t he network deny access from the developer's mobile phone",
+    "response": "Developer Mode"
+  },
+  {
+    "query": "What method uses the process of exposing the device to a high intensity magnetic field that leaves the object magnetically impartial", 
+    "response": "Degaussing"
+  },
+  {
+    "query": "An administrator uses a backup rotations scheme that labels the backup tapes in generations",
+    "response": "GFS"
+  },
+  {
+    "query": "A user notices that their device has a leaking component and needs to take careful measures to mionimze any risk and discard the approved component at the proper waste facility",
+    "response": "Battery"
   }
 
 ]
