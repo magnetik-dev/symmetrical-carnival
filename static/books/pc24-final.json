@@ -186,6 +186,54 @@
   {
     "query": "A user notices that their device has a leaking component and needs to take careful measures to mionimze any risk and discard the approved component at the proper waste facility",
     "response": "Battery"
+  },
+  {
+    "query": "A transportation company wants to set up software that gathers statistics from the controller area network",
+    "response": "WWAN"
+  },
+  {
+    "query": "A security engineer runs a long tail analysis to determine the frequency of services and processes communicating to the internet",
+    "response": "taskschd.msc"
+  },
+  {
+    "query": "After installing windows 11 on an old computer, continues to boot to blank screen",
+    "response": "Update the graphics adapter driver, Repair windows"
+  },
+  {
+    "query": "Which tool will distinguish client accounts and provide support for recording and reporting",
+    "response": "RMM"
+  },
+  {
+    "query": "An administrator wants to listen to music through headphones",
+    "response": "Devices"
+  },
+  {
+    "query": "An adminsitrator for Apple endpoints has heard about roaming profiles",
+    "response": "iCloud keychain"
+  },
+  {
+    "query": "A technician configures a method to run some server application from a network and make it accessoble to internet",
+    "response": "Port Forwarding"
+  },
+  {
+    "query": "A company's IT support to recomission a system as part of malware removal process. What is the last step",
+    "response": "Antivirus scan"
+  },
+  {
+    "query": "A spouse plans a surprise birthday",
+    "response": "Privacy"
+  },
+  {
+    "query": "A technician GMAIL app will not update",
+    "response": "Storage"
+  },
+  {
+    "query": "A technician creates full backups by having the chain start with an initial full backup as moral and makes a series of incremental backups.",
+    "response": "Synthetic"
+  },
+  {
+    "query": "Before ad IT team can submit an application for change",
+    "response": "Purpose of change"
   }
 
 ]
