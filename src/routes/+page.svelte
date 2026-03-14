@@ -45,8 +45,8 @@
                     <option value="ca-itf4-2" selected={data.book === 'ca-itf4-2'}>CA-ITF4 Quiz 2</option>
                     <option value="ca-itf4-3" selected={data.book === 'ca-itf4-3'}>CA-ITF4 Quiz 3</option>
                     <option value="ca-itf4-f" selected={data.book === 'ca-itf4-f'}>CA-ITF4 Final Quiz</option>
-                    <option value="pc24-final" selected={data.book === 'pc24-final'}>PC24 Final Quiz</option>
                     <option value="pc14-final" selected={data.book === 'pc14-final'}>PC14 Final Quiz</option>
+                    <option value="pc24-final" selected={data.book === 'pc24-final'}>PC24 Final Quiz</option>
                     <option value="nwpo-exam1" selected={data.book === 'nwpo-exam1'}>NWPO Exam 1</option>
                     <option value="nwpo-exam2" selected={data.book === 'nwpo-exam2'}>NWPO Exam 2</option>
                 </select>
