@@ -8,6 +8,24 @@
     {"query": "Which of the following would a technician use in small, low-power motherboards?", "response": "ITX"},
     {"query": "A traveling salesperson receives an old laptop to use while a new one is on back-order. The salesperson complains that the laptop's visuals and brightness are horrible. An IT technician states that the fluorescent backlight is failing. What powers the backlight?", "response": "Inverter"},
     {"query": "A technician needs a connector that offers high-speed standards that specify a data rate of 480 Mbps shared between the devices attached to the same host controller. What connector should the technician use?", "response": "USB 2.0"},
+    {
+        "query": "A technician did not install the full complement of modules, which would allow the system to revert to as many channels as are populated. What types of channels would allow this to happen?",
+        "response": "Dual-channel and quad-channel"
+    },
+    {
+        "query": "A projector made a loud popping noise during a presentation, and then the display went out. What will fix the problem?",
+        "response":"Use a new bulb"
+    },{
+        "query": "After running a SMART diagnosis on a computer, with extended read/write times, the input/output per second matches the vendor's baseline. What could be the problem?", "response": "Limited hard drive capacity"
+    },
+    {
+        "query": "A developer asks that hostname dev23.company.net be redirected",
+        "response": "Add an (A) record to the DNS server with the IP address of the dev23 server."
+    },
+    {
+        "query": "A new IT support technician troubleshoots a user's report of intermittent network connectivity. After inspecting the workstation, they see a label above the station's RJ-45 port wall connection.",
+        "response": "Patch Panel"
+    },
     {"query": "A display manufacturing company is evolving its current model line to offer a new model of display that does not require a backlight. What technology does not require a backlight as each individual pixel is self-illuminating?", "response": "Organic LED"},
     {"query": "What measures the PSU to meet the combined power requirements of the PC's components?", "response": "Wattage rating"},
     {"query": "A technician uses a U.2 interface on the motherboard that enables storage access and transport to deliver the highest throughput and fastest response time. What component is being used?", "response": "NVMe"},
@@ -109,5 +127,16 @@
   {
     "query": "A technician notices that the printer's output was not expected and needs to check the printer's control panel to investigate the problem. What should the technician check?",
     "response": "Calibration"
+  }, {
+    "query": "A user complains that their laptop does not hold a charge for more than 30 minuts, even after charging all night. They also mention that there is an error message when they restart their computer that states something about power. What is the likely problem?",
+    "response": "Swollen battery"
+  },
+  {
+    "query": "A user notices that their laser printer is not working and causing an error. When the technician looks at the printer, thet notice that the user was using thick paper, causing a part of the printer to overheat",
+    "response": "Fuser unit"
+  },
+  {
+    "query": "A user has been working with a large transportation company for 30 years and has never seen a double image before. However, when they print the latest report on the new printer, they see a double image on the print",
+    "response": "Clean the drum"
   }
 ]
