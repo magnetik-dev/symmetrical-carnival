@@ -10,7 +10,7 @@
     {"query": "A technician needs a connector that offers high-speed standards that specify a data rate of 480 Mbps shared between the devices attached to the same host controller. What connector should the technician use?", "response": "USB 2.0"},
     {
         "query": "A technician did not install the full complement of modules, which would allow the system to revert to as many channels as are populated. What types of channels would allow this to happen?",
-        "response": "Dual-channel and quad-channel"
+        "response": "Single-channel and quad-channel"
     },
     {
         "query": "A projector made a loud popping noise during a presentation, and then the display went out. What will fix the problem?",
@@ -154,5 +154,25 @@
     {
         "query": "A tablet user connects a Bluetooth keyboard. What would be expected in the pairing process?",
         "response": "Enter a pin"
+    },
+    {
+        "query": "Which of the following would a technician use in small, low-power motherboards?",
+        "response": "ITX"
+    },
+    {
+        "query": "What issue does constant indicator LED activity imply?",
+        "response": "Mechanical Problem"
+    },
+    {
+        "query": "A company offers a bring your own device (BYOD) program at work. Several users approach the company in an effort to receive reimbursement for changing personal phones to the company's carrier. This will be done by swapping out a subscriber identity module (SIM) card in devices with which network type?",
+        "response": "LTE"
+    },
+    {
+        "query": "A flat panel monitor has several black dots. After extensive troubleshooting, it appears to be a display problem. What can fix this?",
+        "response": "Check for warranty replacement"
+    },
+    {
+        "query": "A RAID array cannot boot, and the technician cannot reach the configuration utility. There have been no recent changes to the array. What is the likely problem?",
+        "response": "Connector failure"
     }
 ]
