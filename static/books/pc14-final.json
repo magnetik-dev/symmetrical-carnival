@@ -138,5 +138,21 @@
   {
     "query": "A user has been working with a large transportation company for 30 years and has never seen a double image before. However, when they print the latest report on the new printer, they see a double image on the print",
     "response": "Clean the drum"
-  }
+  },
+    {
+        "query": "Sandboxes can be used to analyze viruses, worms, and Trojans. Sandboxes can also provide an isolated environment for what other important function?",
+        "response": "Testing and development"
+    },
+    {
+        "query": "A network administrator is looking at a user's computer, which seems to have intermittent connectivity issues. Which of the following should they do first?",
+        "response": "Check the phyiscal cords"
+    },
+    {
+        "query": "An IT support specialist updated all the information systems in the office last week, and the users are complaining that the routinely used applications no longer work. What is most likely the issue breaking the applications?",
+        "response": "Legacy software"
+    },
+    {
+        "query": "A tablet user connects a Bluetooth keyboard. What would be expected in the pairing process?",
+        "response": "Enter a pin"
+    }
 ]
