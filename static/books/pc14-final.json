@@ -156,10 +156,6 @@
         "response": "Enter a pin"
     },
     {
-        "query": "Which of the following would a technician use in small, low-power motherboards?",
-        "response": "ITX"
-    },
-    {
         "query": "What issue does constant indicator LED activity imply?",
         "response": "Mechanical Problem"
     },
