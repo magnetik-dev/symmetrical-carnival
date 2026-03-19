@@ -70,7 +70,7 @@
         </div>
 
         {#if filtered.length === 0}
-            <p class="has-text-centered has-text-info">No results found</p>
+            <p class="has-text-centered has-text-info is-size-3">No results found</p>
         {:else}
         {#each filtered as item, i (item.query)}
             <hr>
