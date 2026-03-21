@@ -234,6 +234,30 @@
   {
     "query": "Before ad IT team can submit an application for change",
     "response": "Purpose of change"
+  },
+  {
+    "query": "which of the following devices come in the form of adapters, trailing sockets, or filter plugs",
+    "response": "surge suppressor"
+  },
+  {
+    "query": "Before an IT team can submit an application for change, it must include a document that includes an analysis of risks associated with performing the",
+    "response": "Purpose of the change"
+  },
+  {
+    "query": "Rooting is typically an action related to Android, while jailbreaking",
+    "response": "Gain unrestricted access"
+  },
+  {
+    "query": "A compamy needs to set up perimeter security to control and monitor",
+    "response": "Access control vestibule"
+  },
+  {
+    "query": "A server administrator was called in to help a VIP whose computer was accidentally infected with a virus",
+    "response": "Refresh"
+  },
+  {
+    "query": "A teacher has been assigned to research low-cost operating systems to support the educational needs",
+    "response": "ChromeOS"
   }
 
 ]
