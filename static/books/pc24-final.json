@@ -278,6 +278,22 @@
   {
     "query": "Management provides employees with written policies and procedures to help them fulfil their tasks. themselves using secure credentials",
     "response": "New-user setup checklist"
+  },
+  {
+    "query": "A company has experienced a power outage, but activation of an alternative power source has kicked in",
+    "response": "UPS"
+  },
+  {
+    "query": "A user notices that their device has a leaking component and needs to take careful measures to minimize",
+    "response": "Battery"
+  },
+  {
+    "query": "A compamy needs to ensure that both a customer's card data and the company's system are safeguarded against fraudulent purchases",
+    "response": "PCI DSS"
+  },
+  {
+    "query": "A new employee calls the help desk because their phone will not connect to the office wi-fi. iPhone 7",
+    "response": "Configuration"
   }
 
 ]
