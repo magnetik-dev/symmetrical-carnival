@@ -258,6 +258,26 @@
   {
     "query": "A teacher has been assigned to research low-cost operating systems to support the educational needs",
     "response": "ChromeOS"
+  },
+  {
+    "query": "Which of the following backup procedures state that users should have three copies of their data across two ",
+    "response": "3-2-1 backup rule"
+  },
+  {
+    "query": "what will block third-party cookies and enable strict tracking",
+    "response": "Private browsing mode"
+  },
+  {
+    "query": "what uses a 4-way handshake to allow a station to associate with an",
+    "response": "WPA2"
+  },
+  {
+    "query": "A security administrator moves their proxy from on-premises to the cloud and wants to establish a connection",
+    "response": "WWAN"
+  },
+  {
+    "query": "Management provides employees with written policies and procedures to help them fulfil their tasks. themselves using secure credentials",
+    "response": "New-user setup checklist"
   }
 
 ]
