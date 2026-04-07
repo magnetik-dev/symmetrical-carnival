@@ -169,6 +169,62 @@
     },
     {
         "query": "A RAID array cannot boot, and the technician cannot reach the configuration utility. There have been no recent changes to the array. What is the likely problem?",
-        "response": "Connector failure"
+        "response": "Controller failure"
+    },
+    {
+        "query": "A technician uses an adapter card that supplies power over the bus, resulting in no need for a separate power cable. Because the adapter can vary in different widths and lengths, the technician should check to ensure that the adapter fits on the motherboard. What type of adapter has these specifications?",
+        "response": "M.2"
+    },
+    {
+        "query": "While diagnosing a computer that is not powering on, the technician has established that the wall socket is working correctly since there is a fully plugged power strip. What is a reasonable next step?",
+        "response": "Use another power cable."
+    },
+    {
+        "query": "A network technician installs wireless access points (APs) in an office and would like to use power over Ethernet (PoE) to power the APs. The current network infrastructure is not capable of doing this. What would the network technician need to install to augment the power requirements for PoE APs?",
+        "response": "Power Injector"
+    },
+    {
+        "query": "After discovering an unlabeled wall port in an office, a technician would like to label it appropriately. Not knowing where the permanent link patches into specifically, but knowing all the other permanent links in the same area run to the same closet. When connecting a laptop, there appears to be a successful connection. What would be most helpful for the technician to use?",
+        "response": "Cable Tester"
+    },
+    {
+      "query": "A logistics company wants to streamline its workflow and track shipments as they move in and around its facilities without barcode scanners. What type of personal area networking solution would best suit this requirement?",
+      "response": "RFID"
+    },
+    {
+      "query": "Cloud provisioning models have unique characteristics that make them better or worse than on-premises models, depending on an organization's needs. Which characteristic refers to the per-use billing for resources consumed by the cloud?",
+      "response": "Metered utilization"
+    },
+    {
+      "query": "An important part of testing a new application is running it under several different OSs and resource constraints so the developer can be sure it will work for all customers regardless of their system. What term is used to identify the application testing described in this question?",
+      "response": "Cross-platform virtualization"
+    },
+    {
+      "query": "A cloud service provider (CSP) works with several organizations to establish new cloud deployments that best match their needs. Each organization has similar security needs and is open to sharing resources with other organizations to save money. Which cloud deployment sounds best for the CSP's new customers?",
+      "response": "Community cloud"
+    },
+    {
+      "query": "A laptop user has a slim laptop that has very few external ports. As there is no Ethernet port on the laptop, it only uses wireless. The user would like a low-cost solution that allows for an Ethernet connection when not traveling. What does IT purchase for the user?",
+      "response": "Port replicator"
+    },
+    {
+      "query": "A support technician replaces a Wi-Fi card in a laptop. The following day, the laptop user states that the company's Wi-Fi network signal is weaker than it was before. What does the technician find to be the likely problem?",
+      "response": "The antenna is not connected."
+    },
+    {
+      "query": "A user has a newly issued smartphone that has corporate communication software installed. What can the user expect to sync while using Microsoft Exchange?",
+      "response": "Email"
+    },
+    {
+      "query": "A user notices that their laser printer is not working and is causing an error. When the technician looks at the printer, they notice that the user was using thick paper, causing a part of the printer to overheat. Which part of the printer has overheated?",
+      "response": "Fuser unit"
+    },
+    {
+      "query": "Users at an organization prefer that any mobile devices deployed for company use have location services disabled. IT administrators agree and configure which option?",
+      "response": "Global Positioning System"
+    },
+    {
+      "query": "A user is trying to print visual graphics for an upcoming meeting, but the paper is coming out faded. What should they check first?",
+      "response": "Toner cartridge"
     }
 ]
