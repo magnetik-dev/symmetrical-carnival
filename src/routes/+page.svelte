@@ -32,7 +32,7 @@
     <div class="container">
             
         <div class="columns is-vcentered">
-            <div class="column">
+            <div class="column is-hidden-mobile">
                 <h1 class="title is-size-1">Symmetrical Carnival</h1>
             </div>
             <div class="column is-narrow">
@@ -76,7 +76,7 @@
             <hr>
             <div class="columns is-vcentered">
                 <div class="column is-8">
-                    <strong class="is-size-5">{i+1}. {item.query}</strong>
+                    <span class="is-size-5">{i+1}. {item.query}</span>
                 </div>
                 <div class="column has-background-info-dark has-text-centered">
                     <span class="is-size-4 has-text-primary">{item.response}</span>

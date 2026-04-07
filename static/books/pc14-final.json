@@ -226,5 +226,37 @@
     {
       "query": "A user is trying to print visual graphics for an upcoming meeting, but the paper is coming out faded. What should they check first?",
       "response": "Toner cartridge"
+    },
+    {
+      "query": "While trying to set up for a presentation, the wall-mounted display will not mirror the laptop display. The technician traces the long HDMI cable to find that it runs on the floor, and it is evident that users have repeatedly run over it. What will likely fix the problem?",
+      "response": "Use a new HDMI cable."
+    },
+    {
+      "query":"A user reports that their PC can not access the internet and internal network resources. The user also reports that the internet is intermittent throughout the day. A technician confirmed that the Ethernet cable is connected securely to the PC and the wall port. What tool should an engineer bring with them to investigate this further?",
+      "response": "Cable tester"
+    },
+    {
+      "query": "A company building is under construction and a technician is getting ready to install communication wires. What can a technician use to make the installation simpler?",
+      "response": "Plenum"
+    },
+    {
+      "query": "A systems engineer is doing an internal audit of their virtual environment before an annual inspection and is making sure that all the virtual machines are up to date on patches. What could the systems engineer consult to verify which patches need to be on each machine?",
+      "response": "Security requirements"
+    },
+    {
+      "query": "A government organization wants to develop its own application to process information, but they do not want to be responsible for maintaining the hardware or the database platform that the application runs on. Additionally, the organization does not want to be burdened with maintaining the integrity and availability of the database platform because it will be very busy with other responsibilities. Which service would be best for the government organization to pursue?",
+      "response": "Platform as a service (PaaS)"
+    },
+    {
+      "query": "A user complains that a laptop is slow. A technician concludes that the best solution is to remove the current mechanical disk drive with a faster solid-state drive. The technician opts to back up the user data and install a fresh operating system on a new drive. Which approach defines the technician's steps?",
+      "response": "Replacement"
+    },
+    {
+      "query": "A technician suspects a mobile device to have damage caused by liquid. What should the technician do first?",
+      "response": "Power off the device."
+    },
+    {
+      "query": "A company receives a new printer that needs assembly. What factors should the company consider when assembling it? (Select two.)",
+      "response": "Set up location; Correctly unboxing"
     }
 ]
