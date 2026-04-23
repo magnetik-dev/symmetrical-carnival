@@ -10,7 +10,7 @@
     {"query": "A technician needs a connector that offers high-speed standards that specify a data rate of 480 Mbps shared between the devices attached to the same host controller. What connector should the technician use?", "response": "USB 2.0"},
     {
         "query": "A technician did not install the full complement of modules, which would allow the system to revert to as many channels as are populated. What types of channels would allow this to happen?",
-        "response": "Single-channel and quad-channel"
+        "response": "Triple-channel and quad-channel"
     },
     {
         "query": "A projector made a loud popping noise during a presentation, and then the display went out. What will fix the problem?",
@@ -258,5 +258,29 @@
     {
       "query": "A company receives a new printer that needs assembly. What factors should the company consider when assembling it? (Select two.)",
       "response": "Set up location; Correctly unboxing"
+    },
+    {
+      "query": "A startup legal office has specific software needs that are unique to the practice of law. The law firm partner would like to pay software developers to create a custom application but is concerned that the firm does not have the funds. The firm's IT manager has recommended that it use existing applications instead of paying for a new app to be developed. What service is the IT manager suggesting to the firm's partner?",
+      "response": "Software as a service (SaaS)"
+    },
+    {
+      "query": "A smartphone user tries to connect a new set of earbuds. What is the first step that the user does with the phone?",
+      "response": "Enable Bluetooth."
+    },
+    {
+      "query": "A manager needs to electronically sign many documents while using a laptop. Precision is not required, and there is very little money in the budget to spend. What does the manager choose to use as a solution?",
+      "response": "Touchpad"
+    },
+    {
+      "query": "A technician has tested a computer with extended read/write times and found it to have IOPS reduced from vendor baselines. What should the technician do next?",
+      "response": "Make data backups"
+    },
+    {
+      "query": "A user complains that their laptop does not hold a charge for more than 30 minutes, even after charging all night. They also mention that there is an error message when they restart their computer that states something about power. What is likely the problem?",
+      "response": "Poor battery health"
+    },
+    {
+      "query": "A technician needs to upgrade components in a laptop. Which component can the technician install without the use of tools?",
+      "response": "Battery"
     }
 ]

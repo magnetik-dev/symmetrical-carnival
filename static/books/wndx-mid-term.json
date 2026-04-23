@@ -1,0 +1,122 @@
+[
+  {
+    "query": "All of your employees work remotely. One of the employees buys a notebook computer with Windows 11 Pro from an online store. The computer is to be used for company business. You need to upgrade the computer to Windows 11 Enterprise and join it to the IntImport.com domain. You have the proper Microsoft 365 subscription and all other required licenses. Which of the following is the BEST solution for upgrading the computer and joining it to the domain?",
+    "response": "Create a provisioning package and email it to the user with instructions on how to run it."
+  },
+  {
+    "query": "Your Windows workstation has an IP address of 192.168.1.35 with a subnet mask of 255.255.255.0. It also has a DNS server address of 192.168.1.1 and a default gateway router address of 192.168.1.254. Your workstation is a member of the westsim.com domain. The domain controller's address is 192.168.1.3. Your workstation needs to connect to a web server using the HTTP protocol. The web server has an IP address of 192.168.1.2 and a subnet mask of 255.255.255.0. Where will the packets be sent first?",
+    "response": "Directly to the web server."
+  },
+  {
+    "query": "You have several computers running Windows 10. The computers are members of a domain. For all computers, you want to remove access to administrative tools from the Start menu and hide notifications from the System Tray. What should you do?",
+    "response": "Use Group Policy"
+  },
+  {
+    "query": "What is the purpose of using Windows Autopilot?",
+    "response": "To make the deployment and management of new Windows devices easier."
+  },
+  {
+    "query": "Which activation processes requires one of the following thresholds to be met? 25 or more client systems (physical or virtual) must require activation. 5 or more servers (physical or virtual) must require activation.",
+    "response": "Key Management Services (KMS)"
+  },
+  {
+    "query": "How are provisioning packages distributed?",
+    "response": "Using a USB flash drive."
+  },
+  {
+    "query": "Your company has started the transition to IPv6. You need to configure records on the DNS server so that clients can submit a hostname query and receive back an IPv6 address for the specified host. What should you do?",
+    "response": "Create AAAA records."
+  },
+  {
+    "query": "You're the network administrator for a private college. You've been tasked with developing a new image that will be rolled out to all the computers in the financial aid office. The new image will contain Windows 11 Pro. Because of this, you've decided to use the Microsoft Development Toolkit to create the image. You've finished configuring the task sequence and are now configuring the image rules. You need to change the network configuration information for MDT. Which of the following would you edit?",
+    "response": "bootstrap.ini"
+  },
+  {
+    "query": "All your users work remotely. One of your users buys a notebook computer with Windows 11 Pro from an online store. The computer is to be used for company business. You need to upgrade the computer to Windows 11 Enterprise and join it to the CorpNet.local domain. You have the proper Microsoft 365 subscription and all other required licenses. What do you do?",
+    "response": "Create a provisioning package and email it to the user with instructions on how to run it."
+  },
+  {
+    "query": "Your Windows workstation has a binary IP address of 00001010.00000000.00000000.01000001 assigned to it. Which class of IP addresses does this address fall within?",
+    "response": "Class A"
+  },
+  {
+    "query": "To deploy Windows 11, you want to use the Windows 11 installation on a selected computer as a system image. After removing machine-specific information from the computer, you are ready to capture the image as a WIM file. What should you do?",
+    "response": "Boot to Windows PE and use MDT to capture the Windows installation onto a network share."
+  },
+  {
+    "query": "Which of the following LAPS features BEST helps your organization to meet security regulations such as the Payment Card Industry Data Security Standard (PCI DSS)?",
+    "response": "Compliance"
+  },
+  {
+    "query": "You have a stand-alone dual-boot system running both Windows 10 and Windows 11. The computer currently boots to Windows 10 by default. You need the computer to boot to Windows 11 by default instead. What should you do?",
+    "response": "Run\u00a0bcdedit.exe."
+  },
+  {
+    "query": "Which of the following deployment methods allows you to upgrade from Windows 11 Pro to Windows 11 Enterprise with no user intervention or reboots?",
+    "response": "Subscription activation"
+  },
+  {
+    "query": "You want to implement 802.1x authentication on your wireless network. Which of the following will be required?",
+    "response": "RADIUS"
+  },
+  {
+    "query": "You have just finished installing Windows 11 on a reference system from which you need to capture an image. You've already removed device-specific information from the system and are ready to capture the image files. Which tools can you use to do this?",
+    "response": "Deployment Image Servicing and Management"
+  },
+  {
+    "query": "Which of the following is intended for organizations that do not have an on-premises Windows Server Active Directory infrastructure?",
+    "response": "Azure Active Directory Join"
+  },
+  {
+    "query": "You have two computers. ComputerA is running Windows 10 Professional, and ComputerB is running Windows 11 Professional. You want to transfer user profiles and data files from ComputerA to ComputerB without using USMT. Which tool should you use?",
+    "response": "PCmover Express"
+  },
+  {
+    "query": "You want to deploy Windows 11 to multiple computers using a system image. You would like to use an answer file to automate the installation process on a reference computer. What should you do first?",
+    "response": "Run Windows System Image Manager (Windows SIM)."
+  },
+  {
+    "query": "You want to capture your Windows installation as a system image. You need to remove any computer-specific information from the computer prior to capturing the image. What should you do?",
+    "response": "Run Sysprep"
+  },
+  {
+    "query": "On your Windows system, you want to prevent Edge from leaving a trail of your browsing session. What should you do?",
+    "response": "Open a new InPrivate window."
+  },
+  {
+    "query": "You have fifteen Windows 11 computers in a workgroup. Your task is to create a Local User account on each computer called BackupAdmin. The account must be part of the Backup Operators Group. What should you do?",
+    "response": "Use Windows Configuration Designer to create a provisioning package. Run the package on each computer."
+  },
+  {
+    "query": "If IT administrators want to create a hybrid directory service between Azure Active Directory and Active Directory Domain Services, they must use which of the following to create this hybrid service?",
+    "response": "Azure AD Connect"
+  },
+  {
+    "query": "You manage a large number of workstations that belong to a Windows domain. You want to prevent anyone that might try to gain access to a computer from guessing login information by trying multiple passwords. Which GPO contains a policy you can enable to guard all computers in the domain against this security breach?",
+    "response": "Default Domain Policy"
+  },
+  {
+    "query": "Desktop users access an in-house application that is hosted on your intranet web server. When users click a specific option in the application, they receive an error message that the pop-up was blocked. How do you configure the security settings so that users can see the pop-up without compromising overall security?",
+    "response": "Add the URL of the website to the Local intranet zone."
+  },
+  {
+    "query": "If you need to customize the files gathered from the standard user profile folders to be migrated, it is recommended that you edit which of the following files?",
+    "response": "Config.xml"
+  },
+  {
+    "query": "Azure Active Directory accesses resources through which of the following?",
+    "response": "HTTP"
+  },
+  {
+    "query": "You've just connected a USB wireless network adapter to a Windows desktop system in your home office. You want to use the Windows Connect Now (WCN) push-button connect feature to connect your desktop to your wireless network. Which technology must be implemented on both the wireless access point and the wireless network interface to enable this feature?",
+    "response": "Wi-Fi Protected Setup (WPS)"
+  },
+  {
+    "query": "You have two computers. ComputerA is running Windows 10, and ComputerB is running Windows 11. You are using USMT to migrate the user profiles and the default date files from ComputerA to ComputerB. The user works with graphics, so you must also include .jpg files. Which of the following is the BEST solution for making sure that the migration includes all .jpg files?",
+    "response": "Create a custom XML file."
+  },
+  {
+    "query": "Which of the following measures will make your wireless network invisible to the casual attacker?",
+    "response": "Disable SSID broadcast"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "query": "Once a piece of malware is detected and reverse-engineered, its unique characteristics are identified. Anti-malware programs use these characteristics to identify malware. What do anti-malware programs call these unique characteristics of malware?",
+    "response": "Signature"
+  },
+  {
+    "query": "Which of the following is required before you can use Remote Help in Intune?",
+    "response": "Enable Remote Help in the Intune console."
+  },
+  {
+    "query": "As the network engineer for a large financial institution, you have installed Intune and enrolled your Windows 11 devices in Intune. You would now like to use an Azure tool to provide information about the health, performance, and performance of the connected devices to help you: troubleshoot, optimize device performance, reduce technical support costs, and increase end-user productivity. Which of the following Azure services or tools BEST meets your needs?",
+    "response": "Azure Endpoint Analytics"
+  },
+  {
+    "query": "Which of the following Intune enrollment options requires an MDM push certificate to enroll devices?",
+    "response": "Enable Apple device enrollment"
+  },
+  {
+    "query": "Which of the following BEST describes Remote Help in Intune?",
+    "response": "Allows IT administrators to provide remote assistance to users on devices that are managed by Intune."
+  },
+  {
+    "query": "You are viewing a list of devices in Microsoft Intune that have pending updates. What is the BEST method to push the updates to all devices immediately?",
+    "response": "Select the Deploy button."
+  },
+  {
+    "query": "You have created several Intune MDM compliance policies. You would like to assign them to manage your mobile devices and users. You can assign the compliance policies to either user groups or device groups. If you select user groups, what will happen?",
+    "response": "The MDM compliance policies will apply to every device the user uses."
+  },
+  {
+    "query": "You use a Windows desktop system. You need to configure Windows Firewall to allow traffic for a newly installed application that dynamically opens multiple ports on an as-needed basis. What should you do?",
+    "response": "Add an exception for the application."
+  },
+  {
+    "query": "Which of the following BEST describes Microsoft Intune Endpoint Protection?",
+    "response": "A cloud-based solution that provides enterprise-level endpoint protection to safeguard your organization's devices from potential threats."
+  },
+  {
+    "query": "You are a systems engineer for a software development company. Besides physical computing devices, your network includes several Hyper-V virtual machines that run a variety of services. You have installed Intune and enrolled both your physical and local virtual computers. You want to be able to collect performance and event information from the virtual machines to send to Azure Monitor for analysis. Which of the following Azure Monitor services allows you to collect the data for analysis?",
+    "response": "Azure Monitor for VMs"
+  },
+  {
+    "query": "Your company provides workstations and laptops for employees that run on Windows or macOS. You would like to start using a central app management tool with a graphical user interface that lets you perform tasks such as app deployment, automatic app updates, app security, app retirement, and monitoring app usage for a wide variety of apps. You would also like to have conditional access policies available to control the distribution of apps on these devices. Which of the following would BEST meet your app management requirements?",
+    "response": "Intune"
+  },
+  {
+    "query": "How do you configure your Windows 11 system to require all removable data drives to mount as read-only unless the device is protected with BitLocker To Go?",
+    "response": "Configure the local Group Policy."
+  },
+  {
+    "query": "Which of the following configuration or security capabilities can you use to set password requirements, limit password attempts, and set lock screen time?",
+    "response": "Configuration policies"
+  },
+  {
+    "query": "One day while trying to start your Windows 11 system, you see the following error displayed: Could not read from the selected boot disk. Check boot path and disk hardware. Which of the following will most likely fix the problem?",
+    "response": "Boot into the recovery environment and run the\u00a0bootrec /rebuildbcd\u00a0command."
+  },
+  {
+    "query": "You need to interactively access Command Prompt on a remote Windows system named WS1 from your Windows workstation. Which command should you use to do this?",
+    "response": "psexec \\\\WS1 cmd"
+  },
+  {
+    "query": "When should you disable the Windows firewall?",
+    "response": "Only if the computer is protected by a different firewall program."
+  },
+  {
+    "query": "Your Windows system has been infected with malware that has replaced the standard boot loader on the hard disk with its own malicious software. Which type of exploit is being used in this scenario?",
+    "response": "Rootkit"
+  },
+  {
+    "query": "Which of the following syntax examples is used by a PowerShell cmdlet?",
+    "response": "verb-noun"
+  },
+  {
+    "query": "A feature update includes new capabilities and improvements. What is the maximum number of days you can defer feature updates?",
+    "response": "365"
+  },
+  {
+    "query": "Which of the following default Intune device configuration profiles is only available on the macOS platform?",
+    "response": "Kernel extensions"
+  },
+  {
+    "query": "You're an administrator for a company that uses Azure AD and Microsoft Intune to manage their corporate-owned mobile devices. All devices are registered in Azure AD and enrolled in Intune. You've created several Intune device compliance policies, and you want to be notified by email when a device isn't compliant with the policy rules. Which of the following can you use to set up email notifications?",
+    "response": "Policy Actions for noncompliance"
+  },
+  {
+    "query": "Which of the following BEST describes Microsoft Intune?",
+    "response": "Intune is a tool that focuses on managing a device's lifecycle including updates, threat protection and security monitoring."
+  },
+  {
+    "query": "You're the systems administrator for a fashion design company that uses Azure Active Directory (AD) and Microsoft Intune to manage their mobile devices. All company-owned mobile devices are registered in Azure AD and enrolled in Microsoft Intune. All of your designers use an iOS, iPadOS, or macOS device. You want to allow them to use AirPrint printers from their devices, no matter who's signed into the device. Which Intune feature could you configure to meet this requirement?",
+    "response": "Device configuration profile"
+  },
+  {
+    "query": "You install the drivers to connect your new music player to your Windows 11 computer. Immediately following the device installation, you get a bluescreen error. You reboot the computer, but it displays the same bluescreen and stops the boot process. What should you try first to get the computer to boot successfully?",
+    "response": "Reboot and Repair your computer and then choose Startup Repair."
+  },
+  {
+    "query": "What are some security measures Microsoft has implemented to protect your system against users trying to use PorwerShell for malicious purposes?",
+    "response": "File extension, script's full path, and execution policies"
+  },
+  {
+    "query": "Which of the following can help you ensure that that only authorized users are accessing your organization's data and applications, and that those users are doing so from secure devices and locations?",
+    "response": "Microsoft Intune conditional access policies"
+  },
+  {
+    "query": "Your job requires a considerable amount of travel. While working in your office, you use a Windows desktop system. While on the road, you use a Windows tablet device. While traveling, you frequently need to access files stored on the desktop system from your tablet device. Which Windows service can you implement to use your tablet to access files stored on the desktop?",
+    "response": "OneDrive"
+  },
+  {
+    "query": "Which of the following types of apps can be deployed directly on a device from Intune using the by device mode?",
+    "response": "Modern Line of Business apps and offline licensed Microsoft Store for Business apps."
+  },
+  {
+    "query": "Where can you find the Windows Update settings in Windows 10?",
+    "response": "Settings > Update & Security > Windows Update"
+  },
+  {
+    "query": "You have installed Intune and enrolled your corporate devices. You want to be able to collect information about the traffic that moves between devices on your network. Which of the following Azure Monitor services allows you to collect the data for analysis?",
+    "response": "Azure Monitor for Networks"
+  }
+]

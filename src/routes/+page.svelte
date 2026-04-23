@@ -49,6 +49,9 @@
                     <option value="pc24-final" selected={data.book === 'pc24-final'}>PC24 Final Quiz</option>
                     <option value="nwpo-exam1" selected={data.book === 'nwpo-exam1'}>NWPO Exam 1</option>
                     <option value="nwpo-exam2" selected={data.book === 'nwpo-exam2'}>NWPO Exam 2</option>
+                    <option value="wndx-mid-term" selected={data.book === 'wndx-mid-term'}>WNDX Mid-Term Exam</option>
+                    <option value="wndx-final" selected={data.book === 'wndx-final'}>WNDX Final Exam</option>
+                    <option value="ca-clodp-final" selected={data.book === 'ca-clodp-final'}>CA-CLODP Final Exam</option>
                 </select>
             </div>
         </div>
