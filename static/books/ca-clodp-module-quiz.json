@@ -1,0 +1,70 @@
+[
+  {
+    "query": "You are considering two different software services for your small business. Service A offers a one-time purchase model, while Service B offers a subscription services payment model. You need immediate access to the software and prefer not to commit to long-term contracts.",
+    "response": "Service B, because it provides immediate access to the software and does not require long-term contracts."
+  },
+  {
+    "query": "A city is planning to implement a smart traffic management system that uses IoT sensors to monitor traffic flow and adjust traffic signals in real-time.",
+    "response": "AMQP"
+  },
+  {
+    "query": "Which of the following scenarios would most likely benefit from using Deep Learning (DL) over traditional Machine Learning (ML)?",
+    "response": "Diagnosing diseases from medical images"
+  },
+  {
+    "query": "A company is setting up small hardware devices used to collect data about foot traffic in their stores. They are looking to optimize the layout of the stores to allow for higher sales. These hardware devices have tiny sensors and are linked together through the network to their data aggregation application.",
+    "response": "Internet of Things"
+  },
+  {
+    "query": "What does sentiment analysis, also known as opinion mining, process to identify and quantify subjective information?",
+    "response": "Language and Text"
+  },
+  {
+    "query": "An IIS administrator is notified through their company's ticketing system that a website is no longer available.",
+    "response": "Identify Changes, Perform backups"
+  },
+  {
+    "query": "Engineers discover that a VPC has a set of misconfigured virtual routers. As a result, traffic is not passing between different network segments. Engineers establish and test a theory on the cause, which is results in a founded solution.",
+    "response": "Establish a plan of action"
+  },
+  {
+    "query": "Which of the following characterize common monitoring thresholds? (Select two.)",
+    "response": "CPU utilization, Available memory"
+  },
+  {
+    "query": "A company has recently deployed a new cloud-based application. The IT team needs to ensure that the application meets the required service levels and functions correctly after deployment.",
+    "response": "Post-deployment validation to confirm service levels and functionality."
+  },
+  {
+    "query": "A network administrator is troubleshooting issues with a Virtual Private Cloud (VPC) connection.",
+    "response": "Update name resolution, Confirm security group membership"
+  },
+  {
+    "query": "Considering the power requirements and security features, which IoT transmission protocol would be the most suitable for a battery-operated medical monitoring device?",
+    "response": "NB-IoT"
+  },
+  {
+    "query": "A sysadmin is decommissioning an old Content Relationship Management application as it no longer fulfills the company's needs. There are dozens of competing cloud service providers that would be more useful for the company.",
+    "response": "SAAS"
+  },
+  {
+    "query": "Which of the following services is categorized as Storage as a Service (STaaS) by Google Cloud Platform (GCP)?",
+    "response": "Cloud Storage"
+  },
+  {
+    "query": "Which component provides virtualization services by managing hardware allocations and controlling VM access to hardware?",
+    "response": "Hypervisor"
+  },
+  {
+    "query": "Which characteristic of cloud computing allows resources to be dynamically allocated to handle varying workloads?",
+    "response": "Elasticity"
+  },
+  {
+    "query": "EcoTech Solutions, a medium-sized company specializing in sustainable technologies, has been experiencing challenges with its cloud infrastructure, including frequent downtime, security vulnerabilities, and compliance issues. The in-house IT team is skilled but overwhelmed by the increasing demands of managing the cloud environment. The company is considering outsourcing its cloud services to a Managed Service Provider (MSP) and needs to analyze the potential impacts on its operations.Analyze the potential impacts of outsourcing cloud services to an MSP for EcoTech Solutions.",
+    "response": "An MSP can provide specialized expertise in cloud management, which can reduce downtime and improve security and compliance, but it may require a significant initial investment and ongoing costs."
+  },
+  {
+    "query": "A startup company began operations with employees working from home on individual workstations. As demand for their services increased, the company faced rapidly increasing capital expenditure costs to build out an on-premises model. Instead, they opted for a cloud-based platform that can scale rapidly to meet their exact requirements. The new license structure is billed monthly based on the number of employees using the platform.",
+    "response": "Subscription, Per User."
+  }
+]

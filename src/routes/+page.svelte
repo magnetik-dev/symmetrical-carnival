@@ -51,6 +51,7 @@
                     <option value="nwpo-exam2" selected={data.book === 'nwpo-exam2'}>NWPO Exam 2</option>
                     <option value="wndx-mid-term" selected={data.book === 'wndx-mid-term'}>WNDX Mid-Term Exam</option>
                     <option value="wndx-final" selected={data.book === 'wndx-final'}>WNDX Final Exam</option>
+                    <option value="ca-clodp-module-quiz" selected={data.book === 'ca-clodp-module-quiz'}>CA-CLODP Module Quiz</option>
                     <option value="ca-clodp-final" selected={data.book === 'ca-clodp-final'}>CA-CLODP Final Exam</option>
                 </select>
             </div>
