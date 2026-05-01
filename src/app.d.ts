@@ -3,7 +3,10 @@
 declare global {
 	namespace App {
 		// interface Error {}
-		// interface Locals {}
+		interface Locals {
+			supabase: import('@supabase/supabase-js').SupabaseClient;
+			getUser: () => Promise<import('@supabase/supabase-js').User | null>;
+		}
 		// reuse shared entry type for queries
 		interface Entry {
 			query: string;
