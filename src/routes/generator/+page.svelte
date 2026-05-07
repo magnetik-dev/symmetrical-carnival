@@ -5,8 +5,9 @@
 		response: string;
 	}
 
-	// 2. Add types to your state runes
-	let questions = $state<QuizSet[]>([]); 
+	const createInitialState = (): QuizSet[] => [];
+
+	let questions = $state<QuizSet[]>(createInitialState());
 	let currentQuery = $state('');
 	let currentResponse = $state('');
 	let copyStatus = $state('Copy JSON');
@@ -38,6 +39,14 @@
 	function removeSet(index: number) {
 		questions.splice(index, 1);
 	}
+
+
+    function clearSet(event: MouseEvent & { currentTarget: EventTarget & HTMLButtonElement; }) {
+		// Clear the current input fields
+		currentQuery = '';
+		currentResponse = '';
+		questions = createInitialState(); // Reset the questions array to its initial state
+    }
 </script>
 <div class="container section">
 	<h1 class="title">JSON Generator</h1>
@@ -67,13 +76,27 @@
 			</div>
 		</div>
 
-		<div class="control">
+		<div class="columns">
+			<div class="column is-half is-narrow">
+				<div class="control">
 			<button 
-				class="button is-info is-medium" 
+				class="button is-info" 
 				onclick={addSet} 
 				disabled={!currentQuery || !currentResponse}>
 				Add to List ({questions.length})
 			</button>
+		</div>
+
+			</div>
+			<div class="column is-half is-narrow has-text-right">
+						<div class="control">
+			<button 
+				class="button is-danger" 
+				onclick={clearSet}>
+				Clear Input
+			</button>
+		</div>
+			</div>
 		</div>
 	</div>
 
