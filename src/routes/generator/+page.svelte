@@ -49,9 +49,8 @@
     }
 </script>
 <div class="container section">
-	<h1 class="title">JSON Generator</h1>
 
-	<div class="box">
+	<div class="box has-background-dark">
 		<div class="field">
 			<label class="label" for="query">Question</label>
 			<div class="control">
@@ -100,6 +99,8 @@
 		</div>
 	</div>
 
+	<hr>
+
 	<div class="columns">
 		<div class="column is-one-third">
 			<h2 class="title is-4">Current Sets</h2>
@@ -131,8 +132,8 @@
 				</div>
 			</div>
 			
-			<div class="box has-background-black-ter">
-				<pre class="has-background-black-ter has-text-success p-0" style="border: none;"><code>{jsonOutput}</code></pre>
+			<div class="box has-background-dark">
+				<pre class="has-background-dark has-text-success p-0" style="border: none;"><code>{jsonOutput}</code></pre>
 			</div>
 		</div>
 	</div>

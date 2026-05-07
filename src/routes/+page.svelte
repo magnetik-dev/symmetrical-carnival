@@ -2,12 +2,12 @@
     let { data, form } = $props();
 </script>
 
-<section class="section">
+<section class="section is-flex is-align-items-center">
     <div class="container">
         <div class="columns is-centered">
             <div class="column is-4">
-                <div class="box">
-                    <h1 class="title has-text-centered">Symmetrical Carnival</h1>
+                <div class="box has-background-dark">
+                    <h1 class="title has-text-centered">Login</h1>
 
                     {#if form?.error}
                         <div class="notification is-danger is-light">
@@ -27,7 +27,7 @@
                             <div class="control has-icons-left">
                                 <input class="input" type="email" id="email" name="email" placeholder="e.g. alex@example.com" required>
                                 <span class="icon is-small is-left">
-                                    <i class="fas fa-envelope"></i>
+                                    <i class="fa fa-envelope"></i>
                                 </span>
                             </div>
                         </div>
@@ -37,7 +37,7 @@
                             <div class="control has-icons-left">
                                 <input class="input" type="password" id="password" name="password" placeholder="********" required>
                                 <span class="icon is-small is-left">
-                                    <i class="fas fa-lock"></i>
+                                    <i class="fa fa-lock"></i>
                                 </span>
                             </div>
                         </div>
@@ -46,9 +46,12 @@
                             <div class="control">
                                 <button class="button is-primary" formaction="?/login">Login</button>
                             </div>
+                            <!-- We don't offer a signup option right now-->
+                            <!--
                             <div class="control">
                                 <button class="button is-light" formaction="?/signup">Sign up</button>
                             </div>
+                            -->
                         </div>
                     </form>
                 </div>

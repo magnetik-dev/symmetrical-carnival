@@ -27,7 +27,8 @@ export const handle: Handle = async ({ event, resolve }) => {
   const user = await event.locals.getUser();
 
   // Auth Guards
-  const isProtectedPath = event.url.pathname.startsWith('/quiz') || event.url.pathname.startsWith('/generator');
+  const isProtectedPath = event.url.pathname.startsWith('/quiz') 
+    || event.url.pathname.startsWith('/generator');
   
   if (isProtectedPath && !user) {
     throw redirect(303, '/');

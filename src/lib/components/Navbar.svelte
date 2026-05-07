@@ -47,12 +47,14 @@
                         <div class="field is-grouped">
                             <p class="control">
                                 <span class="has-text-primary is-light mr-3">
+                                    <i class="fa fa-user"></i>
                                     {user.email}
                                 </span>
                             </p>
                             <span class="control">
                                 <form action="/logout" method="POST">
                                     <button class="button is-warning is-small">
+                                        <i class="fa fa-sign-out mr-2"></i>
                                         Logout
                                     </button>
                                 </form>
@@ -61,6 +63,7 @@
                     {:else}
                         <div class="buttons">
                             <a class="button is-light" href="/">
+                                <i class="fa fa-sign-in mr-2"></i>
                                 Log in
                             </a>
                         </div>

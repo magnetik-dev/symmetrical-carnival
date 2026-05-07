@@ -1,7 +1,6 @@
 <svelte:options runes />
 
 <script lang="ts">
-
   // use shared entry type declared globally
   type Entry = App.Entry;
 
@@ -11,7 +10,23 @@
   let { data } = $props<{ entries: Entry[]; book: string }>();
 
   // local rune for the selected book; initialize from load data
+  // svelte-ignore state_referenced_locally
   let book = $state(data.book);
+
+  const bookOptions = [
+    { value: 'ca-itf4-1', label: 'CA-ITF4 Quiz 1' },
+    { value: 'ca-itf4-2', label: 'CA-ITF4 Quiz 2' },
+    { value: 'ca-itf4-3', label: 'CA-ITF4 Quiz 3' },
+    { value: 'ca-itf4-f', label: 'CA-ITF4 Final Quiz' },
+    { value: 'pc14-final', label: 'PC14 Final Quiz' },
+    { value: 'pc24-final', label: 'PC24 Final Quiz' },
+    { value: 'nwpo-exam1', label: 'NWPO Exam 1' },
+    { value: 'nwpo-exam2', label: 'NWPO Exam 2' },
+    { value: 'wndx-mid-term', label: 'WNDX Mid-Term Exam' },
+    { value: 'wndx-final', label: 'WNDX Final Exam' },
+    { value: 'ca-clodp-module-quiz', label: 'CA-CLODP Module Quiz' },
+    { value: 'ca-clodp-final', label: 'CA-CLODP Final Exam' }
+  ];
 
   $effect(() => {
     entries = data.entries;
@@ -50,29 +65,19 @@
                 </div>
             </div>
             <div class="column is-narrow">
-                <select class="input is-info is-medium" id="book-select"
-                    onchange={(e) => {
-                        const b = (e.currentTarget as HTMLSelectElement).value;
-                        window.location.search = `?book=${b}`;
+                <select class="input is-info is-medium" id="book-select" bind:value={book}
+                    onchange={() => {
+                        window.location.search = `?book=${book}`;
                     }}>
-                    <option value="ca-itf4-1" selected={data.book === 'ca-itf4-1'}>CA-ITF4 Quiz 1</option>
-                    <option value="ca-itf4-2" selected={data.book === 'ca-itf4-2'}>CA-ITF4 Quiz 2</option>
-                    <option value="ca-itf4-3" selected={data.book === 'ca-itf4-3'}>CA-ITF4 Quiz 3</option>
-                    <option value="ca-itf4-f" selected={data.book === 'ca-itf4-f'}>CA-ITF4 Final Quiz</option>
-                    <option value="pc14-final" selected={data.book === 'pc14-final'}>PC14 Final Quiz</option>
-                    <option value="pc24-final" selected={data.book === 'pc24-final'}>PC24 Final Quiz</option>
-                    <option value="nwpo-exam1" selected={data.book === 'nwpo-exam1'}>NWPO Exam 1</option>
-                    <option value="nwpo-exam2" selected={data.book === 'nwpo-exam2'}>NWPO Exam 2</option>
-                    <option value="wndx-mid-term" selected={data.book === 'wndx-mid-term'}>WNDX Mid-Term Exam</option>
-                    <option value="wndx-final" selected={data.book === 'wndx-final'}>WNDX Final Exam</option>
-                    <option value="ca-clodp-module-quiz" selected={data.book === 'ca-clodp-module-quiz'}>CA-CLODP Module Quiz</option>
-                    <option value="ca-clodp-final" selected={data.book === 'ca-clodp-final'}>CA-CLODP Final Exam</option>
+                    {#each bookOptions as option}
+                        <option value={option.value}>{option.label}</option>
+                    {/each}
                 </select>
             </div>
         </div>
 
         {#if filtered.length === 0}
-            <p class="has-text-centered has-text-info is-size-3">No results found</p>
+            <p class="has-text-centered has-text-info is-size-3 ">No results found</p>
         {:else}
         {#each filtered as item, i (item.query)}
             <hr>
