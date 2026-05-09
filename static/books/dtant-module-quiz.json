@@ -1,0 +1,186 @@
+[
+  {
+    "query": "A database designer created a table to track book information for a school library and used a unique identifier for each book. What is the book identifier called?",
+    "response": "Primary Key"
+  },
+  {
+    "query": "A growing online retail company needs to store and manage large amounts of customer purchase data in real time. The company expects the data to be frequently updated and wants a solution that can easily scale with increasing website traffic.",
+    "response": "A non-relational database, because it allows for flexible data storage and can easily scale to handle large amounts of unstructured or frequently changing data."
+  },
+  {
+    "query": "A data analyst is using software to manage and manipulate tabular schema. What is this referred to?",
+    "response": "RDBMS"
+  },
+  {
+    "query": "A delivery company is trying to improve its route planning by analyzing the locations where drivers frequently encounter delays due to traffic or construction. The company collects latitude and longitude data of delay sites, as well as names of streets, time of day, and duration of each delay.",
+    "response": "The spatial field containing the latitude and longitude of each delay"
+  },
+  {
+    "query": "Which of the following BEST explains the Consistency principle in the context of the ACID principles for relational databases?",
+    "response": "Consistency ensures that a transaction brings the database from one valid state to another."
+  },
+  {
+    "query": "A library database uses a book table to store the information for each book in a record. The designer used the primary key in the book table to identify the book in the library loan and the library hold tables. What type of cardinality does this represent?",
+    "response": "One-to-many"
+  },
+  {
+    "query": "You are developing a sales report for an international company using data exported from a database. The \"TotalAmount\" field in the export is formatted as a numeric type, but the \"Currency\" field stores the currency symbol (such as $, €, or £) as a VARCHAR.",
+    "response": "Convert the \"TotalAmount\" to a dedicated currency data type and append the currency symbol from the \"Currency\" field for each record."
+  },
+  {
+    "query": "What is the primary purpose of a Universal Identifier (GUID/UUID) in a database system?",
+    "response": "To guarantee that each record has a globally unique key"
+  },
+  {
+    "query": "Which of the following BEST describes structured data?",
+    "response": "Data that is organized in tables with clearly defined fields such as rows and columns, making it easy to search, filter, and store"
+  },
+  {
+    "query": "You are analyzing a customer database table called CustomerPreferences that tracks whether each customer wants to receive marketing emails. The field is named EmailOptIn, and you notice it uses the Boolean data type.",
+    "response": "Filter the report to include records where EmailOptIn equals 1, because in Boolean fields, 1 typically represents a \"Yes\" or \"True\" value."
+  },
+  {
+    "query": "An organization receives many types of information for a new marketing campaign, including customer survey responses in an Excel spreadsheet, high-resolution photographs from a professional shoot, audio recordings of customer testimonials, and daily campaign schedules stored in a database table. The marketing manager must determine which type of data will require the most effort to analyze for insights about customer emotions and reactions.",
+    "response": "The high-resolution photographs."
+  },
+  {
+    "query": "When a student has their picture taken for their student ID card, the school also links the photo with the student’s school record. What kind of data is the student’s record?",
+    "response": "Structured"
+  },
+  {
+    "query": "A sales department is running a script that enters hundreds of new customer orders into a relational database. Midway through the script, the network connection drops, and half of the order entries fail. After investigating, you find that none of the new customer orders were recorded in the database.",
+    "response": "Atomicity, because it ensures that either all the order entries are recorded or none at all."
+  },
+  {
+    "query": "You are given a table showing student tuition payments for a report. The table includes columns for StudentID, FirstName, LastName, and separate columns for each tuition payment (Amt1, Amt2, Amt3, etc.). For every tuition payment recorded, the student's ID and name are entered again, even for the same student.",
+    "response": "The data is denormalized, leading to redundant entries for student information in each payment record."
+  },
+  {
+    "query": "Your company's social networking application needs to recommend new friends to users based on mutual connections, interests, and interactions. The application must efficiently analyze complex relationships between millions of users, their social interactions, and the paths that connect them.",
+    "response": "Graph store non-relational database"
+  },
+  {
+    "query": "You are tasked with generating a report that shows orders placed in the last 30 days. However, you notice that the \"OrderDate\" field in your database is stored as a string instead of a proper date type.",
+    "response": "Convert the \"OrderDate\" field from string to date data type to enable proper date comparisons and calculations."
+  },
+  {
+    "query": "A company requires users to tag all the files, images, and videos that they upload to the company portal with keywords and descriptions so that they can later find the data through the Search feature. What kind of data is the company using?",
+    "response": "Semi-structured"
+  },
+  {
+    "query": "A company has hired a data analyst to analyze their unstructured data. What systems might the analyst work with? (Select all that apply.)",
+    "response": "BLOB storage, Data lakes"
+  },
+  {
+    "query": "A customer service representative is looking at customer data on the company’s software program, which stores the data in multiple tables. The customer information is in one table, and the software interface identifies them by their customer account number. The software also uses codes, pulled from another table, to represent the different types of customer charges. What form is this data in?",
+    "response": "2NF"
+  },
+  {
+    "query": "You are working as a data analyst for a company using a relational database. Two colleagues, Alex and Jordan, are attempting to update information in the 'Employees' table at the same time. Alex is updating the salary for one employee, while Jordan is changing the job title for another employee. If the database is designed to strictly follow the ACID principle of Isolation, which outcome is most likely to occur?",
+    "response": "Alex and Jordan's transactions will both proceed, and neither will see any uncommitted changes made by the other until those changes are fully committed."
+  },
+  {
+    "query": "An employee in the HR department of a large company receives hundreds of scanned PDF resumes from job applicants each month. Their task is to identify candidates with experience in cloud security. The scanned resumes contain text, images, and even some handwritten notes from applicants.",
+    "response": "Use advanced text recognition software to extract key words from the scanned PDF resumes to search for those with 'cloud security' experience."
+  },
+  {
+    "query": "Your company's social networking application needs to recommend new friends to users based on mutual connections, interests, and interactions. The application must efficiently analyze complex relationships between millions of users, their social interactions, and the paths that connect them.",
+    "response": "Graph store non-relational database"
+  },
+  {
+    "query": "A university has two tables in its student database: tblStudents and tblGiftedEntry. The tblStudents table contains basic student information (such as StudentID, name, and date of birth), while the tblGiftedEntry table tracks which students have qualified for a gifted program. Each student can only qualify for the gifted program once, and every gifted student appears only once in the tblGiftedEntry table, with both tables using StudentID as the primary key.",
+    "response": "Create a one-to-one relationship by linking the StudentID primary key in tblStudents to the StudentID primary key in tblGiftedEntry."
+  },
+  {
+    "query": "A database architect is designing a database for real estate software and selects the smallest field type for a certain data field. What data does the smallest field type most likely hold?",
+    "response": "Number of bathrooms on the property"
+  },
+  {
+    "query": "Which of the following BEST describes the VARCHAR string data type in database design?",
+    "response": "It stores variable-length strings without padding unused space, using only the number of characters entered."
+  },
+  {
+    "query": "You are integrating two customer databases from different branches into a single central system. Both databases currently use their own numeric customer IDs, and several ID numbers overlap between the two databases.",
+    "response": "Assign a new GUID/UUID to each customer record in both databases before combining them."
+  },
+  {
+    "query": "Which of the following is a characteristic of NoSQL databases?",
+    "response": "They store data in several different ways and offer greater flexibility for unstructured data."
+  },
+  {
+    "query": "Which of the following BEST describes structured data?",
+    "response": "Data that is organized in tables with clearly defined fields such as rows and columns, making it easy to search, filter, and store"
+  },
+  {
+    "query": "A team in a marketing department wants to assess customer sentiment after launching a new product. They have collected several kinds of data:",
+    "response": "The social media posts with images and emojis."
+  },
+  {
+    "query": "You have been given a data extract from the finance department, listing each tuition payment made by students over several semesters. The data comes in a spreadsheet where each row records a complete set of student details—StudentID, FirstName, LastName—alongside the payment amount and date, even when the same student has made several payments.",
+    "response": "If a student's personal information (such as last name) changes, the update must be made in every row representing that student, increasing the likelihood of inconsistent records."
+  },
+  {
+    "query": "A data analyst is reviewing the design of a relational database used by a university to track student enrollment and tuition payments. The current design uses the StudentID as the primary key in the Students table and has indexed this field. The TuitionPayments table uses PayID as its primary key and also stores StudentID as a foreign key.",
+    "response": "Add an index on the StudentID field in the TuitionPayments table and analyze query performance after this change."
+  },
+  {
+    "query": "A construction company is piloting a reporting tool for job sites. The tool lets foremen submit reports that include a photo of a job site issue, a typed note describing the problem, and a JSON file that tags each submission with attributes like location and time. The company wants to analyze which areas have the most reported issues and what types of problems are most common.",
+    "response": "Using software to extract and quickly analyze the metadata from the JSON files, which includes location and time tags, while using the tags to sort and group the attached images and notes for further review."
+  },
+  {
+    "query": "You are a new data analyst at a company that uses multiple business applications. During your first project, you notice that employee information is available in both the payroll software and the human resources (HR) system. When asked which application should be trusted for official employee role assignments, you are required to determine the best source of truth.",
+    "response": "Consult with the HR department to confirm whether the HR system is considered the official source for employee role data."
+  },
+  {
+    "query": "As a data analyst at a retail organization, you are asked to help develop a data warehouse to improve sales reporting. The warehouse includes a fact table named Fact_ProductSales and several related tables. Your manager asks you to design a table to categorize and describe the salespersons involved in each product sale.",
+    "response": "Create a dimension table that stores details about each salesperson, such as their name, employee ID, region, and contact information. Use a key to relate this table to the Fact_ProductSales table."
+  },
+  {
+    "query": "You are updating the product names in the ToyProducts table. To make sure you can undo your changes if you find any errors, you start the process with BEGIN TRANSACTION. After performing the necessary updates, but before saving the changes, you want to verify the updates before making them permanent in the database.",
+    "response": "Run a SELECT statement to check the updates, and only use COMMIT if the data is correct."
+  },
+  {
+    "query": "A global travel agency experiences significant fluctuations in customer data access throughout the year, with traffic peaking during holiday seasons.",
+    "response": "Recommend implementing a hybrid cloud infrastructure, keeping critical and sensitive data on-premises or in a private cloud, while shifting high-volume, less sensitive workloads to a public cloud during peak seasons."
+  },
+  {
+    "query": "You work as a data analyst for a company that recently renamed one of its popular products from \"Healthy Snack Bar\" to \"Power Snack Bar.\" The sales database uses a Type 1 Slowly Changing Dimension (SCD) approach for managing product names in the dimensional table. The marketing manager asks you to generate a sales report for the past five years and is particularly interested in how the product name changes will affect your report.",
+    "response": "The report will show only \"Power Snack Bar\" as the product name for all sales, including those made before the name change."
+  },
+  {
+    "query": "Which of the following BEST describes Infrastructure as a service (IaaS)?",
+    "response": "A cloud solution where the service provider hosts servers, storage, and hardware, allowing the organization to manage much of the environment and scale resources as needed."
+  },
+  {
+    "query": "You are a data analyst at a company that recently changed the name of one of its products from 'Eco Smart Bottle' to 'Eco Elite Bottle.' Your manager asks you to update the dimension table so that all analytical reports show the new product name, regardless of when the sale occurred. However, there is no need to preserve the history of the old name.",
+    "response": "Use SCD Type 1 by overwriting the existing product name \"Eco Smart Bottle\" with \"Eco Elite Bottle\" in the dimension table so that all reports show the new name."
+  },
+  {
+    "query": "A large online retailer is experiencing spikes in web traffic during sales events and needs to increase their computing resources quickly to support higher demand. Their IT team wants to avoid buying new physical servers and prefers to manage their systems and databases directly.",
+    "response": "Infrastructure as a service (IaaS), because it allows the retailer to scale servers and storage on demand while managing operating systems, databases, and applications themselves."
+  },
+  {
+    "query": "You are a database administrator making updates to a product name in the ToyProducts table. After starting a transaction with BEGIN TRANSACTION, you correct a spelling mistake using an UPDATE statement. Before committing your changes, you run a SELECT statement and discover that you accidentally updated the wrong product.",
+    "response": "Issue the ROLLBACK command to undo the uncommitted change and correct your update."
+  },
+  {
+    "query": "A rapidly expanding retail company wants to streamline its customer relationship management (CRM) system while reducing the responsibility for maintaining servers, updating software, and troubleshooting hardware issues.",
+    "response": "Software as a service (SaaS), because it delivers a fully built CRM that the sales team can access online, with the service provider handling updates, infrastructure, and maintenance."
+  },
+  {
+    "query": "You are working in SQL Server Management Studio and have started a transaction to update the product names in the ToyProducts table. After running your UPDATE statement, you check and see that one product name was accidentally misspelled.",
+    "response": "Use the ROLLBACK command to undo the change, correct the UPDATE statement, and run it again."
+  },
+  {
+    "query": "You have just joined a retail company as a data analyst. Your manager tasks you with identifying which system to use for quickly recording and tracking sales transactions made by customers throughout the day.",
+    "response": "An Online Transactional Processing (OLTP) system that can efficiently process high volumes of sales transactions in real time."
+  },
+  {
+    "query": "You have recently joined the data analyst team at a company that stores its customer information and internal documents on an on-premise server managed by the IT department. The company is exploring whether to move some services to the cloud to better support remote employees.",
+    "response": "Identify the source and type of infrastructure for each system you use and adjust your access methods accordingly."
+  },
+  {
+    "query": "You work as a data analyst at a financial institution. Your supervisor needs you to generate monthly reports that summarize spending patterns, compare account activity across all branches, and identify emerging trends in customer behavior.",
+    "response": "An Online Analytical Processing (OLAP) system that enables complex, multi-dimensional analysis of large databases without impacting transaction processing."
+  }
+]

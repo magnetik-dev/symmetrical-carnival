@@ -25,7 +25,9 @@
     { value: 'wndx-mid-term', label: 'WNDX Mid-Term Exam' },
     { value: 'wndx-final', label: 'WNDX Final Exam' },
     { value: 'ca-clodp-module-quiz', label: 'CA-CLODP Module Quiz' },
-    { value: 'ca-clodp-final', label: 'CA-CLODP Final Exam' }
+    { value: 'ca-clodp-final', label: 'CA-CLODP Final Exam' },
+    { value: 'dtant-module-quiz', label: 'DTANT Module Quiz' },
+    { value: 'dtant-final', label: 'DTANT Final Exam' }
   ];
 
   $effect(() => {
