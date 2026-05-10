@@ -1,6 +1,8 @@
 <svelte:options runes />
 
 <script lang="ts">
+    import Sidebar from "$lib/components/Sidebar.svelte";
+
   // use shared entry type declared globally
   type Entry = App.Entry;
 
@@ -13,8 +15,8 @@
   // svelte-ignore state_referenced_locally
   let book = $state(data.book);
 
-  const bookOptions = [
-    { value: 'ca-itf4-1', label: 'CA-ITF4 Quiz 1' },
+  const cyberOptions = [
+        { value: 'ca-itf4-1', label: 'CA-ITF4 Quiz 1' },
     { value: 'ca-itf4-2', label: 'CA-ITF4 Quiz 2' },
     { value: 'ca-itf4-3', label: 'CA-ITF4 Quiz 3' },
     { value: 'ca-itf4-f', label: 'CA-ITF4 Final Quiz' },
@@ -26,9 +28,14 @@
     { value: 'wndx-final', label: 'WNDX Final Exam' },
     { value: 'ca-clodp-module-quiz', label: 'CA-CLODP Module Quiz' },
     { value: 'ca-clodp-final', label: 'CA-CLODP Final Exam' },
-    { value: 'dtant-module-quiz', label: 'DTANT Module Quiz' },
-    { value: 'dtant-final', label: 'DTANT Final Exam' }
+
   ];
+  const dataOptions = [
+        { value: 'dtant-module-quiz', label: 'DTANT Module Quiz' },
+    { value: 'dtant-final', label: 'DTANT Final Exam' }
+  ]
+
+  const bookOptions = cyberOptions.concat(dataOptions);
 
   $effect(() => {
     entries = data.entries;
@@ -47,8 +54,30 @@
 
 <section class="section">
     <div class="container">
-            
+
         <div class="columns is-vcentered">
+            <div class="column is-narrow">
+                <!-- drawer start -->
+                <Sidebar>
+                    <p class="has-text-weight-bold is-size-5">Cyber Security</p>
+                    <ul>
+                        {#each cyberOptions as option}
+                        <li class="pt-2">
+                            <a href="/quiz?book={option.value}" class="p-1 has-text-primary">{option.label}</a>
+                        </li>
+                        {/each}
+                    </ul>
+                    <p class="has-text-weight-bold is-size-5 mt-2">Data Analytics</p>
+                    <ul>
+                        {#each dataOptions as option}
+                        <li class="pt-2">
+                            <a href="/quiz?book={option.value}" class="p-1 has-text-primary">{option.label}</a>
+                        </li>
+                        {/each}
+                    </ul>
+                </Sidebar>
+                <!-- end of drawer -->
+            </div>
             <div class="column">
                 <div class="field">
                     <p class="control has-icons-right">
@@ -66,7 +95,7 @@
                     </p>
                 </div>
             </div>
-            <div class="column is-narrow">
+            <div class="column is-narrow is-hidden">
                 <select class="input is-info is-medium" id="book-select" bind:value={book}
                     onchange={() => {
                         window.location.search = `?book=${book}`;

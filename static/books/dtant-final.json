@@ -118,5 +118,89 @@
   {
     "query": "A student studying to be a data analyst is learning about types of data. Users measure one of the types in numbers and define the other one by the qualities of the data. What are these two major, high-level data types?",
     "response": "Quantitative and qualitative"
+  },
+  {
+    "query": "A software engineer is reviewing various methods of filtering visuals and data ranges. What allows the engineer to adjust a slicer or filter option on a dashboard to narrow down the data they want to see?",
+    "response": "Interactive filters"
+  },
+  {
+    "query": "A software technician wants to use advanced visuals to support their presentation of findings and elects to use a visual that consists of two variables plotted on the x-axis and y-axis, with a dot placed on the graph where the two data points converge on both of the axes.",
+    "response": "Scatter Plot"
+  },
+  {
+    "query": "A cyber consultant is reviewing the value of documenting data sources for reporting. What are the reasons why the cyber consultant documents the data sources?",
+    "response": "To account for changes in role and prepare others that might take over the work, To facilitate a return to the project, To answer questions about where the data originated"
+  },
+  {
+    "query": "A system engineer is reviewing current methods and protocols by which computers communicate with one another. What allows two unrelated computers to communicate with each other?\"",
+    "response": "API"
+  },
+  {
+    "query": "In understanding the importance of statistical testing, what do t-tests provide to analysis and testing?",
+    "response": "They compare two groups to determine if there is a significant difference between the means of both groups"
+  },
+  {
+    "query": "A software engineer is reviewing a map that uses colour to target attention to significant findings within the visual. What type of map is the engineer reviewing",
+    "response": "Heat Map"
+  },
+  {
+    "query": "In an attempt to gain details surrounding a new platform feature, the cyber team develops a survey to collect data based on the opinions of the employees. What type of response is elicited from a fill-in-the-blank question?",
+    "response": "Text-based"
+  },
+  {
+    "query": "A software engineer is reviewing the various graphical ways used to display data in shapes rather than data itself to their audience. What displays columns and rows of information, and may also include aggregate information?",
+    "response": "Table"
+  },
+  {
+    "query": "A cyber technician is developing a lecture to discuss structured, unstructured, and semi-structured data. What are examples of semi-structured data?",
+    "response": "JSON files, XML files, Web pages (HTML)"
+  },
+  {
+    "query": "When evaluating the measures commonly associated with determining the distribution of a data set, which measure represents the smallest number in the data set?",
+    "response": "Min"
+  },
+  {
+    "query": "A software engineer is reviewing available field data types for their upcoming project. What is the most versatile of all data types that allow the usage of numbers and letters?",
+    "response": "Alphanumeric"
+  },
+  {
+    "query": "A software engineer is using a join to combine data into a single reported dataset. What type of join doesn't have a direct join on a key field?",
+    "response": "Cross/Cartesian"
+  },
+  {
+    "query": "A software engineer wants to work with databases that have followed proper design theory and the principles of the normal forms. Which normal form eliminates redundant information in individual tables?",
+    "response": "First Normal Form (1NF)"
+  },
+  {
+    "query": "A cyber architect is preparing data for processing. What type of processing is used for transactional data that is mission critical to an organization?",
+    "response": "Transaction processing"
+  },
+  {
+    "query": "A software engineer is profiling data for the company. What considerations should the engineer have when conducting the data profile?",
+    "response": "Identifying and documenting the source of the data and its integrity., Identifying the field names and data types., Determining the main fields identified for reports."
+  },
+  {
+    "query": "A business consultant is developing an Excel spreadsheet that will compute numbers for the company. What best represents a number entry as a field data type?",
+    "response": "1438594834"
+  },
+  {
+    "query": "A cyber consultant is preparing an agreement for a group of users that are being assigned to a special project. What type of agreement defines the conditions under which an entity (such as a person or supplier) cannot disclose information to outside parties?",
+    "response": "NDA"
+  },
+  {
+    "query": "A cyber analyst is exploring methods to understand relationships with variables. What is the statistical association used to measure the relationship between two (or more) equal variables",
+    "response": "Correlation"
+  },
+  {
+    "query": "A software technician is conducting an analysis to ensure that the integrity of data is not skewed. What is the process of confirming the type, structure, and accurate representation of the data?",
+    "response": "Data validation"
+  },
+  {
+    "query": "A cyber consultant is reviewing aggregate functions in preparation for a new project. What aggregate function counts all the records in that column but will only count the field one time, even if it appears multiple times",
+    "response": "DISTINCT COUNT"
+  },
+  {
+    "query": "A manager for an automotive parts company is putting together a presentation and wants to use visuals that shows the proportion of sales of parts for each segment of the automotive industry using a rectangular format with smaller rectangles within the larger one representing the different segments. What should they use",
+    "response": "Treemap"
   }
 ]

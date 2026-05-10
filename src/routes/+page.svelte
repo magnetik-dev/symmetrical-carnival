@@ -6,7 +6,7 @@
     <div class="container">
         <div class="columns is-centered">
             <div class="column is-4">
-                <div class="box has-background-dark">
+                <div class="box has-background-dark is-shadowless">
                     <h1 class="title has-text-centered">Login</h1>
 
                     {#if form?.error}

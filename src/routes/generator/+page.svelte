@@ -50,7 +50,7 @@
 </script>
 <div class="container section">
 
-	<div class="box has-background-dark">
+	<div class="box has-background-dark is-shadowless">
 		<div class="field">
 			<label class="label" for="query">Question</label>
 			<div class="control">
@@ -75,28 +75,14 @@
 			</div>
 		</div>
 
-		<div class="columns">
-			<div class="column is-half is-narrow">
-				<div class="control">
-			<button 
-				class="button is-info" 
-				onclick={addSet} 
-				disabled={!currentQuery || !currentResponse}>
-				Add to List ({questions.length})
-			</button>
-		</div>
+		<button 
+			class="button is-primary is-dark" 
+			onclick={addSet} 
+			disabled={!currentQuery || !currentResponse}>
+			<i class="fa fa-plus-circle mr-2" aria-hidden="true"></i>
+			Add to List ({questions.length})
+		</button>
 
-			</div>
-			<div class="column is-half is-narrow has-text-right">
-						<div class="control">
-			<button 
-				class="button is-danger" 
-				onclick={clearSet}>
-				Clear Input
-			</button>
-		</div>
-			</div>
-		</div>
 	</div>
 
 	<hr>
@@ -124,15 +110,22 @@
 			<div class="level mb-2">
 				<div class="level-left">
 					<h2 class="title is-4 mb-0">JSON Output</h2>
+					<button 
+						class="button is-small is-danger" 
+						onclick={clearSet}>
+						<i class="fa fa-trash mr-2" aria-hidden="true"></i>
+						Clear All
+					</button>
 				</div>
 				<div class="level-right">
 					<button class="button is-small is-success" onclick={copyToClipboard}>
+						<i class="fa fa-clipboard mr-2" aria-hidden="true"></i>
 						{copyStatus}
 					</button>
 				</div>
 			</div>
 			
-			<div class="box has-background-dark">
+			<div class="box has-background-dark is-shadowless">
 				<pre class="has-background-dark has-text-success p-0" style="border: none;"><code>{jsonOutput}</code></pre>
 			</div>
 		</div>
