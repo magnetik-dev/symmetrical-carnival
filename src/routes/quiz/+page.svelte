@@ -2,6 +2,7 @@
 
 <script lang="ts">
     import Sidebar from "$lib/components/Sidebar.svelte";
+    import BackToTop from "$lib/components/BackToTop.svelte";
 
   // use shared entry type declared globally
   type Entry = App.Entry;
@@ -124,3 +125,5 @@
         {/if}
     </div>
 </section>
+
+<BackToTop />
