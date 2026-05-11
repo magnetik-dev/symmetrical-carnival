@@ -17,7 +17,7 @@
             </a>
 
             <button 
-                class="navbar-burger {isActive ? 'is-active' : ''}" 
+                class="navbar-burger has-text-primary {isActive ? 'is-active' : ''}" 
                 aria-label="menu" 
                 aria-expanded="false" 
                 onclick={toggleMenu}

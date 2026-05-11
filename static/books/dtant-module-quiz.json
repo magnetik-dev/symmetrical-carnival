@@ -1042,8 +1042,616 @@
   {
     "query": "You are a data analyst tasked with designing a dashboard for a sales department. The dashboard will be viewed by managers on both desktop monitors and mobile devices.\n\nThe managers want to easily see key performance indicators (KPIs) at a glance, interact with filters to explore specific sales regions, and quickly reset the dashboard to its default view after applying multiple filters.",
     "response": "Use cards to display KPIs, add interactive filters and slicers for region selection, and include a reset button using bookmarks for easy filter resetting."
+  },
+  {
+    "query": "9. Which of the following BEST describes the purpose of referential integrity in a relational database?",
+    "response": "To ensure that every record in a foreign key table corresponds to a valid primary key in another table."
+  },
+  {
+    "query": "10. You are tasked with preparing a report for your company that analyzes product sales figures stored in the company's database. During your review, you notice that the \"TotalSales\" field is defined as a VARCHAR data type rather than a numeric type. The report requires calculations for totals and averages.",
+    "response": "Convert the 'TotalSales' field from VARCHAR to a numeric data type within your reporting software before performing calculations, documenting the process for data accuracy."
+  },
+  {
+    "query": "A data analyst went on a job interview and discovered that SQL is a required skill for the job. Based on this requirement, what does the analyst know about the company?",
+    "response": "The company uses relational databases."
+  },
+  {
+    "query": "You are performing an update in your company's relational database, changing the status of several customer orders to \"Shipped.\" Just after you commit your transaction, a sudden power outage causes the database server to crash.",
+    "response": "The status updates that were part of the committed transaction will be permanently saved, even after the crash."
+  },
+  {
+    "query": "You are working with a dataset in which product prices have been stored as text (string) values instead of numeric values. You need to calculate the average product price for a sales report.",
+    "response": "Convert the product price strings to numeric data types before calculating the average."
+  },
+  {
+    "query": "18 Which of the following statements correctly describe relational databases? (Select two.)",
+    "response": "They use primary and foreign keys to control how data in one table relates to data in another table., They use tables to store data in rows and columns."
+  },
+  {
+    "query": "Which of the following BEST describes why a data analyst might need to perform data type conversion during data analysis?",
+    "response": "To be able to use a field correctly in reporting when its data type does not match the desired type"
+  },
+  {
+    "query": "You have been hired as a junior database designer for a small college. You are reviewing the current student database, which contains the following table:\n\nTable 1. Student Database TableStudentID FirstName LastName TuitionAmt 1 TuitionAmt 2 TutionAmt 3 1000 Susie Baker 1,500.00 1,500.00 1,500.00 1001 Daniel Bishop 1,575.00 1,575.00 1,575.00 1002 John Brown 1,475.00 1.475.00 1,475.00\n\nThe college wants the database to support students making any number of tuition payments, not just three. Your supervisor asks you to redesign the tables to follow best normalization practices.\n\nWhich of the following actions BEST applies the principle of normalization to redesign the database for the scenario above?",
+    "response": "Create a separate 'TuitionPayments' table, where each payment made by a student is a different row linked by StudentID."
+  },
+  {
+    "query": "Which data type is best suited for storing extremely large amounts of plain text, such as entire books or lengthy documents, in a database?",
+    "response": "CLOB"
+  }, 
+  {
+    "query": "1. A retail company has a main data warehouse that contains data from sales, inventory, finance, and human resources. The marketing team needs a faster way to access just the sales and customer information they use most often, without filtering through unrelated data.",
+    "response": "Build a data mart that contains only the sales and customer data needed by the marketing team, providing controlled and efficient access."
+  },
+  {
+    "query": "You have recently joined a logistics company as a data analyst. The company maintains a sales data warehouse using a star schema for its reporting needs. The warehouse includes a central fact table for shipments, surrounded by several dimension tables.\n\nYour supervisor asks you to explain how the star schema you use supports quick and efficient reporting on sales metrics by customer, product, and region.",
+    "response": "The central fact table containing shipment transactions links directly to dimension tables for customer, product, and region. This setup allows analysts to quickly query and aggregate sales data by joining to descriptive information in a simple, efficient way."
+  },
+  {
+    "query": "5 You're working for a large retail company that tracks customer membership status in its data warehouse. A customer, Alex, switched from Basic to Premium membership in January 2023. Your dimensional table for membership status uses a Type 2 Slowly Changing Dimension (SCD) approach. The marketing team asks you for reports showing the number of Premium and Basic members for each year.",
+    "response": "Alex will show as a Basic member for years before 2023 and as a Premium member for years from 2023 onward, ensuring historical accuracy."
+  },
+  {
+    "query": "A home and garden company orders supplies from a company that recently changed its name due to a merger with another supply company. The home and garden company updated the name in the database by overwriting the name of the original supply company. Which of the following dimensions did the home and garden company employ?",
+    "response": "Type 1"
+  },
+  {
+    "query": "You are assigned to prepare a quarterly report on sales performance. Your company uses a Customer Relationship Management (CRM) system to record sales activities and a separate accounting system to generate invoices and track payments.\n\nWhile reviewing the data, you notice discrepancies between the number of sales recorded in the CRM system and the invoices generated in the accounting system. You need to determine which system holds the authoritative information for the actual sale event.",
+    "response": "Evaluate which system is designated as the system of record for sales transactions and verify the process by which sales are considered complete."
+  },
+  {
+    "query": "You are managing updates to the ToyProducts table as part of a transaction in SQL Server Management Studio. You notice that after running several UPDATE statements within the open transaction, one update resulted in an unexpected product name across multiple records. You have not yet committed the changes.\n\nWhich of the following is the MOST effective approach to ensure only accurate data is recorded in the database?",
+    "response": "Use the ROLLBACK command to undo all changes made during the current transaction, review your SQL statements, and re-execute only the correct ones."
+  },
+  {
+    "query": "A data analyst is updating the product names in the company's SQL Server database. To avoid accidental errors, she wants to ensure changes are not made permanent until after validation, and she also wants the ability to undo changes if issues are found.\n\nAfter reviewing the process, she identifies four possible sequences for handling the update.\n\nWhich sequence BEST ensures that only correct updates are committed to the database according to best practices described in the lesson?",
+    "response": "Start the transaction, perform the update, verify the changes using SELECT, then COMMIT only if the changes are correct."
+  },
+  {
+    "query": "A financial services company uses several systems for client data. Currently, employees manually copy and paste new client information from emails into both the customer management platform and the billing database. Occasionally, information is missed or entered incorrectly, causing delays and errors. The company is considering RPA to address these issues.\n\nAfter reviewing their workflow and data entry patterns, they want to determine the root of the problems and identify how RPA best resolves them.",
+    "response": "RPA can be used to transfer client information systematically between the customer management platform and billing database, eliminating manual entry and reducing the risk of human error."
+  },
+  {
+    "query": "You are working as a data analyst at a logistics company. Your manager presents you with a huge collection of images from delivery trucks at different sites. You are asked to create a model that can automatically flag images that potentially show damaged goods on delivery. However, due to limited resources, only a small portion of these images have been labeled as \"damaged\" or \"not damaged.\"",
+    "response": "Recommend a semi-supervised learning approach since it can leverage the few labeled images with the large number of unlabeled images to improve model performance."
+  },
+  {
+    "query": "You are a data analyst at a company that is considering using Generative AI to summarize customer feedback from thousands of online reviews.",
+    "response": "Use Generative AI to generate summaries, then personally review and validate the content for accuracy and bias before sharing with stakeholders."
+  },
+  {
+    "query": "Which process breaks up text into sentences, words, or subwords for further analysis in Natural Language Processing?",
+    "response": "Tokenization"
+  },
+  {
+    "query": "What is the main purpose of data augmentation in machine learning?",
+    "response": "Increasing the size and diversity of a dataset."
+  },
+  {
+    "query": "What key feature distinguishes Robotic Process Automation (RPA) from artificial intelligence (AI)?",
+    "response": "RPA follows strict, rule-based workflows set by humans."
+  },
+  {
+    "query": "Why is removing unnecessary punctuation an important step in the standardization process for NLP data?",
+    "response": "It helps reduce \"noise\" and ensures the model focuses only on meaningful content."
+  },
+  {
+    "query": "A marketing company wants to better understand its customer segments for targeted advertising. The dataset available contains purchase records and customer demographics, but there are no preset labels indicating customer categories.",
+    "response": "Clustering, because it can group customers based on similarities in behavior without needing labeled categories."
+  },
+  {
+    "query": "How can regular expressions (RegEx) be most effectively used during the NLP data cleaning process?",
+    "response": "By defining patterns to locate and remove unwanted characters or specific text formats from the data"
+  }, 
+  {
+    "query": "Which neural network architecture is especially well-suited for image recognition tasks in deep learning?",
+    "response": "CNN"
+  },
+  {
+    "query": "Which technique is most commonly associated with unsupervised learning in the context of machine learning?",
+    "response": "Clustering"
+  },
+  {
+    "query": "Why might a data analyst choose semi-supervised learning over supervised learning in a project with a very large set of images but only a few labeled examples?",
+    "response": "Because semi-supervised learning can leverage both labeled and unlabeled data, making it more practical when labeling all data is costly or time-consuming."
+  },
+  {
+    "query": "What is the primary function of a Large Language Model (LLM) in Generative AI?",
+    "response": "To predict the next token in a sequence of text."
+  },
+  {
+    "query": "A mid-sized manufacturing company handles daily production data reporting manually. Each day, an analyst downloads the production data in .csv format, refreshes the relevant reports, emails them to different department heads, and notifies the management team that reports are ready.",
+    "response": "Build an RPA workflow that automatically extracts daily production data, refreshes reports, attaches them to emails, and sends notifications to relevant stakeholders at a scheduled time."
+  },
+  {
+    "query": "Which machine learning task is MOST similar to clustering in data analysis?",
+    "response": "Organizing items into groups where each group contains items with shared characteristics, without knowing categories beforehand."
+  },
+  {
+    "query": "What is the primary outcome when a tokenizer is applied to a block of text during NLP preprocessing?",
+    "response": "The text is broken up into smaller units called tokens."
+  },  {
+    "query": "A data analyst at a medium-sized organization is tasked with managing several types of databases, including Microsoft SQL Server, MySQL, and MongoDB. The analyst values open-source solutions and prefers having a unified interface for handling both relational and non-relational databases.\n\nThe analyst's main goals are to streamline database management tasks and minimize the need to switch between multiple standalone tools.",
+    "response": "dbeaver"
+  },
+  {
+    "query": "A data analyst is preparing to present the findings of a recent analysis to executive leadership. To ensure there are no technical issues with the presentation, the analyst is using a tool that wraps the data in tags that will present the data on any web browser. What language is the analyst using to present the data?",
+    "response": "HTML"
+  },
+  {
+    "query": "Which pair of keywords must be present in a basic SQL SELECT statement to retrieve data from a database table?",
+    "response": "SELECT and FROM"
+  },
+  {
+    "query": "A data analyst at your organization needs to retrieve the first and last names of all employees from a table called Employees, but only those whose last name is \"Jones\". The analyst also wants the results sorted by first name in ascending order.",
+    "response": "SELECT FirstName, LastName FROM Employees WHERE LastName = 'Jones' ORDER BY FirstName;"
+  },
+  {
+    "query": "A data analyst receives two JSON data files from different sources, each containing product inventory for a warehouse.\n\nThe analyst needs to determine which file allows for easier extraction of the total number of \"soup\" bowls in stock throughout all categories by a programming script.",
+    "response": "Using XML, because it allows for the addition of new, custom-tagged fields without affecting the basic structure of the data or breaking compatibility with parsers."
+  },
+  {
+    "query": "Jamal is working on a data analytics project with three other team members. The project involves frequent code updates and collaborating on several Python scripts.\n\nRecently, the team struggled to keep track of new changes, and some code was accidentally overwritten. Jamal is looking for a solution that allows everyone to contribute, review each other's code, and track the history of what was changed and when.",
+    "response": "Use a version control system such as GitHub integrated with their IDE so team members can commit, review, and track code changes systematically."
+  },
+  {
+    "query": "You are a new data analyst at a company that uses both Windows and Linux operating systems. Your manager asks you to run a series of SQL queries directly from the command line on both platforms to gather data from your organization's SQL Server database.",
+    "response": "SQLCMD"
+  },
+  {
+    "query": "You have exported a list of your company's inventory items, including item names and quantities, into a plain text file. Your goal is to make this data visible as a neat, organized table on the company website with minimal steps and without using any programming or additional conversion tools.",
+    "response": "Rewrite the data in an HTML file using , , and tags to create rows and columns, then upload the file to the website"
+  },
+  {
+    "query": "What is the primary purpose of the Anaconda distribution when working with Python for statistics?",
+    "response": "To manage packages and environments for data science projects."
+  },
+  {
+    "query": "A technician must provide a report that contains total and average sales and the highest and lowest sales values. What is the benefit of using Microsoft Excel in this instance?",
+    "response": "It has built-in aggregation functions, such as the pivot table, which allows it to quickly summarize data by calculating metrics of multiple items into one graphic."
+  },   {
+    "query": "A company's data warehouse was initially populated with all customer and sales history using a full load. Now, the database administrator has scheduled ongoing data loads each night to ensure new customer records and any updated sales transactions are included in the warehouse.\n\nAs a data analyst, you notice the most recent day's new data is missing from your morning reports.\n\nWhat should you do to ensure your reports always include the most up-to-date records from the previous day's business activities?",
+    "response": "Check the timing of the delta load process to confirm that it completes before you generate reports, and wait to run your reports until after the delta load finishes."
+  },
+  {
+    "query": "You receive an exported data file named customers.csv from your company's CRM system. The file is intended for use in Excel to analyze recent customer activity. When you open the file in Notepad, you see that each customer's information is on a new line, and each data point (such as first name, last name, email, and phone number) is separated by a comma.\n\nHowever, when you double-click the file to open it in Excel, you notice that all the customer information appears in a single column rather than separated into different columns.\n\nGiven this situation, what is the BEST action to take to ensure that each customer data field appears in its own column when you open the file in Excel?",
+    "response": "Use Excel's \"Text to Columns\" feature, selecting \"Comma\" as the delimiter, so that Excel splits the data into columns based on the commas in the file."
+  },
+  {
+    "query": "A data analyst is working with an inventory ordering system and needs to obtain updated product prices from separate systems maintained by global suppliers. Which method would most efficiently allow the analyst to integrate these updated prices into the inventory system?",
+    "response": "API"
+  },
+  {
+    "query": "You are developing a survey for a healthcare organization that wants to evaluate patient satisfaction with its new appointment scheduling system. You want to ensure the survey captures accurate and useful feedback so management can make data-driven improvements.",
+    "response": "Write all questions using neutral language, include a range of answer types (such as Likert scale and free-text), and avoid requiring respondents to answer sensitive questions."
+  },
+  {
+    "query": "Why is the extraction step critical when moving data from a source system to a data warehouse in the ETL process?",
+    "response": "It allows data to be accessed from the source and converted into a format suitable for transformation and loading into the data warehouse."
+  },
+  {
+    "query": "You are a data analyst at a healthcare organization. Your team receives weekly data exports from a patient management system. These files are not connected to the original system, and each new export completely replaces the previous week's data.\n\nThe exports are provided in a .csv format. Recently, a manager has asked you whether this approach is meeting the team's needs or if a more dynamic solution should be considered.\n\nGiven the characteristics of the current data export process, which of the following is the most accurate evaluation of using flat files in this scenario?",
+    "response": "Flat files are well-suited for this situation because they represent a snapshot of the data at a specific moment, but they require manual updating to stay current, which can risk using outdated information if not managed properly."
+  },
+  {
+    "query": "Which statement BEST describes the primary purpose of a research question in the context of data collection and analysis?",
+    "response": "To provide a clear focus for what you aim to answer or test in your research"
+  },
+  {
+    "query": "A data analyst has exported the files out of a database to perform calculations. Once the data in the database has updated, the analyst will have to export the data again since the exported data will not automatically update. What type of database file is the analyst working with?",
+    "response": "Flat File"
+  },
+  {
+    "query": "A data analyst at a management company is tasked with troubleshooting an issue: a lease agreement file seems to have missing edit history, and it's unclear when each party signed the document. The analyst needs to figure out when and by whom each change was made to ensure compliance with company procedures.",
+    "response": "Examine the file's metadata and system log data to determine timestamps for each modification and access event."
+  },
+  {
+    "query": "You are working for a healthcare technology startup that wants to share patient data with research partners to help develop new diagnostic tools. However, you must ensure compliance with privacy laws and want to avoid releasing any real patient records. Your team considers several approaches to meeting your goals.",
+    "response": "Generating a new dataset that statistically resembles real patient records but contains no actual patient information, then sharing it with research partners for analysis."
+  },
+  {
+    "query": "You have been asked to create a reusable report in SQL Server that displays only the ProductID, ProductName, ProductListPrice, and StarRating for your company's products. The team using this report does not need access to any other product or rating information.",
+    "response": "CREATE VIEW ProductReport AS SELECT ProductID, ProductName, ProductListPrice, StarRating FROM Products INNER JOIN Ratings ON Products.ProductID = Ratings.ProductID;"
+  },
+  {
+    "query": "A company has just implemented a new data warehouse and wants to transfer all historical employee records from their old system into the new warehouse. As a data analyst, you are asked which type of data load should be used for this initial transfer of all existing data.",
+    "response": "Recommend performing a full load to move all historical records into the new data warehouse at once."
+  },
+  {
+    "query": "Which of the following BEST describes cluster sampling?",
+    "response": "The population is divided into clusters, and all individuals within randomly selected clusters are included in the sample."
+  },
+  {
+    "query": "Federal law requires higher education institutions to publish information on how many students complete a degree program, the average amount of time it takes for students to complete the program, and the average amount of debt students graduate from the program with. What kind of data is this?",
+    "response": "Public data"
+  },
+  {
+    "query":"You have been given a dataset of employee records after your company's recent merger with another organization. While preparing a report for upper management, you notice that for the same position, some entries have the credential listed as \"PhD,\" some as \"PHD,\" and others as \"Ph.D.\"",
+    "response":"These inconsistencies indicate a lack of data consistency, which can hinder accurate grouping, analysis, and reporting, potentially leading to incorrect or misleading business conclusions."
+  },
+    {
+    "query": "During a quarterly audit of your company's sales data, you find that some products have duplicate entries with slightly different names: \"Vibrant Valley Bike\" and \"Red Valley Bike.\" Upon further review, you discover that \"Red Valley Bike\" was renamed but not updated in all systems.",
+    "response": "The report could show inaccurate total sales and customer counts for \"Vibrant Valley Bike,\" lead to under-informed business decisions, and undermine confidence in the data, because outdated and incomplete records further compound the inconsistencies."
+  },
+  {
+    "query": "What is the main goal of performing a data audit in an organization?",
+    "response": "To assess the quality of data and determine if it meets specific requirements."
+  },
+  {
+    "query": "You are a data analyst responsible for integrating data from a SharePoint list into your organization's main database using an automated workflow. After the transfer, you notice that some expected records are missing and a few unexpected records have appeared.",
+    "response": "Set up validation and verification checks within your workflow to regularly ensure that records are transferred correctly and align with the required data rules."
+  },
+  {
+    "query": "You have completed a data analysis project for the HR department, generating a dashboard that summarizes employee turnover and tenure. Before presenting your findings to leadership, you invite a peer to review your dashboard and analysis.\n\nDuring the review, your peer points out that one of your visuals labeled \"Top 5 Reasons for Turnover\" contains only four reasons and that a calculation for average tenure includes part-time contractors, which was not requested by HR.",
+    "response": "Carefully review the peer's suggestions, update the visual to include a fifth turnover reason if available, adjust the calculation to exclude part-time contractors as per the HR requirements, and verify all other dashboard elements for potential issues before finalizing the report."
+  },
+  {
+    "query": "You are a data analyst at a company that recently merged with another organization. Your manager asks you to ensure that sales contact information in the merged data set meets the company's data quality standards. The standards require that each contact's name must have a first and last name separated by a single space, the email address must end with \".com\" or \".net,\" and the state field should use standardized two-letter abbreviations.",
+    "response": "Implement system constraints to enforce name and state formatting, and establish metrics to routinely measure compliance with these rules."
+  },
+  {
+    "query": "A database administrator wants to have reasonable expectations and provide valuable information to check their work prior to working with a data set. What could they use?",
+    "response": "Profiling"
+  },
+  {
+    "query": "Your organization is considering three different approaches to ensure the quality of customer address data during the input process in a new CRM system:\n\nApproach 1: Only manual review by staff after incomplete records are entered.\nApproach 2: Rely solely on automated validation rules to enforce required address formats at the point of entry.\nApproach 3: Use automated validation rules at entry but also conduct periodic automated reports that flag potential format drift or missing values over time.",
+    "response": "Approach 3"
+  },
+    {
+    "query": "You've received a data extract containing sales quota values as text, but your data visualization tool needs them as numbers for charting and calculations.",
+    "response": "Change the data type of the sales quota column from text to a numeric type using the visualization software's conversion tool."
+  },
+  {
+    "query": "Which of the following BEST describes duplicated data?",
+    "response": "Data that is repeated within the same data set"
+  },
+  {
+    "query": "You are tasked with creating a product inventory report for your company. You notice that the same product list exists in both the company's CRM system and its accounting software.\n\nUpon closer inspection, you find some records have matching product IDs but slight differences in names and prices.",
+    "response": "Compare product records from both systems, look for inconsistencies, and trace the data back to determine which system holds the most up-to-date and accurate information."
+  },
+  {
+    "query": "You are analyzing the results of a customer satisfaction survey. The survey contains several key questions marked as mandatory for meaningful analysis. When examining the dataset, you notice that some respondents did not answer all of these key questions, resulting in null (blank) values in those fields.\n\nYour goal is to prepare the data so that your analysis accurately reflects customer feedback quality and completeness.\n\nWhich approach BEST demonstrates your ability to analyze the impact of missing values and apply logic to ensure data quality in your results?",
+    "response": "Write a logical function that flags any respondent who left key questions blank, allowing you to filter or highlight incomplete survey submissions before proceeding with analysis."
+  },
+  {
+    "query": "As a data analyst, you are analyzing an Excel file that tracks orders for your company. Some orders have not yet shipped, so the \"Ship Date\" and \"Carrier Tracking Number\" fields are blank for these records. Your manager wants two separate lists: one of orders that have shipped and one of orders that have not.",
+    "response": "Use the filter feature in Excel to display only blank cells (NULL values) in the \"Ship Date\" column to find unshipped orders, and then filter to display only non-blank cells for shipped orders."
+  },
+  {
+    "query": "You are assigned to profile a large customer survey data set that will be used in a major upcoming report for your company's executive team. The data set includes fields like customer IDs, survey responses, submission dates, and regions.\n\nUpon initial review, you are concerned about potential errors, data type inconsistencies, and missing values within some key columns.\n\nGiven your responsibility to ensure the data's quality and completeness before it is used for important business decisions, which of the following actions BEST exemplifies a critical and foundational first step in the data profiling process?",
+    "response": "Identify and document the source of the data and its integrity, including whether it was collected via an automated system or manual entry."
+  },
+  {
+    "query": "Why is it important for a data analyst to remove unnecessary fields before performing data analysis?",
+    "response": "To improve efficiency and ensure that only relevant information is processed"
+  },
+  {
+    "query": "When embarking on a new data analysis project, a data analyst must first understand the data they will be working with. Which of the following tasks is generally the initial step an analyst should perform to achieve this understanding?",
+    "response": "Profiling"
+  },
+  {
+    "query": "Which action should a data analyst take when encountering unnecessary fields in a data set before analysis?",
+    "response": "Remove the unnecessary fields to make the data set cleaner and more efficient for analysis."
+  },
+  {
+    "query": "Your team receives a new data set representing employee payroll records. You notice that some employees have missing values for department ID, and some salary figures appear unusually high. You suspect additional inconsistencies may be present and need to determine the next best course of action to uncover and interpret potential quality issues.",
+    "response": "Examine the data for key fields such as employee ID, department ID, and salary, and compare their formats, counts, and integrity; assess if missing values or unusual data points align with expected business rules."
+  },
+  {
+    "query": "You are working with a dataset of customer orders in Excel. The dataset includes information such as Order ID, Customer Name, Ship Date, and Carrier Tracking Number.\n\nAfter applying a filter to show only the blank (NULL) values in the \"Carrier Tracking Number\" field, you notice that these orders also have blank \"Ship Date\" values. Your manager asks why these records appear in both filters and what the NULL values reveal about the order fulfillment process.",
+    "response": "The records with blank \"Ship Date\" and \"Carrier Tracking Number\" fields indicate orders that have not yet been shipped, and filtering for NULL values allows the analyst to promptly identify pending orders and assess shipping progress."
+  },
+  {
+    "query": "You have just received a data extract containing sales transactions that will be used to generate a monthly financial report. The data file includes columns for transaction ID, product code, date, and amount. Before preparing your report, you decide to start profiling the data set.",
+    "response": "Review and record whether the sales data was generated directly by the company's point-of-sale (POS) application or manually keyed in from paper receipts, and note any observations about potential data entry errors."
+  },
+  {
+    "query": "You are a data analyst reviewing customer feedback collected via an online survey. When you run a report to identify all customers who mentioned \"product support\" in their comments, your results miss several responses where you can see the phrase \"product support\" clearly present.\n\nAfter some investigation, you discover that the mismatched entries have either extra leading spaces before \"product support\" or trailing spaces after the phrase.",
+    "response": "The presence of invisible characters (such as leading/trailing spaces) causes exact match functions to miss valid responses, so unaddressed, this results in inaccurate and incomplete reporting."
+  },
+  {
+    "query": "A team of analysts is trying to migrate customer contact data from a legacy CRM system into a centralized database used by the sales and marketing departments. The migration process fails, and only partial data is loaded into the new system.\n\nUpon analyzing the error logs, one analyst notices that several fields in the import template are flagged as having inconsistent data types; for example, phone numbers are stored sometimes as numbers and sometimes as text. The new database requires all phone numbers to be stored as text.",
+    "response": "Identify all fields with inconsistent data types and convert the phone number fields to text format to ensure consistency with system requirements."
+  },
+  {
+    "query": "You are analyzing a company's sales records and notice several unusual entries. One product's recorded price is $0, while others have non-printable characters in their names (such as trailing spaces), and a few customer addresses are using old postal codes that no longer exist.",
+    "response": "Data became invalid over time, manual entry introduced errors, and outlier or impossible values were not checked."
+  },
+  {
+    "query": "Which of the following is an example of survey data becoming invalid?",
+    "response": "The survey uses leading questions or responses with bias."
+  },
+    {
+    "query": "You are analyzing sales data in Excel. The table includes columns for OrderID, ProductName, Quantity, and TotalPrice. Your task is to provide the marketing team with the total revenue generated from all orders.",
+    "response": "SUM"
+  },
+  {
+    "query": "A data analyst discovers several NULL values for monthly sales totals in a company's sales spreadsheet. She decides to impute the missing values using the average monthly sales total for that product.",
+    "response": "Calculate the average sales for each product using only the available (non-missing) monthly values."
+  },
+  {
+    "query": "A company is attempting to forecast next year's monthly sales for its product lines but does not have complete sales data for every month from the previous year. They consider two options:\n\nFor each missing value, use the average sales for that product across all available months.\nFor each missing value, use the sales value from that same month in the previous year (if available).",
+    "response": "Both methods are valid, but using last year's same month data (option 2) may better preserve seasonal sales patterns."
+  },
+  {
+    "query": "A marketing analyst needs to segment sales data by the week of the year each sale was made. Each sale date is stored in cell E5, and the analyst wants to create a new column to show the corresponding week number for reporting and time-series analysis.",
+    "response": "=WEEKNUM(E5)"
+  },
+  {
+    "query": "You are preparing a customer mailing list for a marketing campaign. When you inspect the data, you notice that many phone number entries contain invisible or special characters, such as paragraph marks or non-standard spaces, which could cause issues when sending automated messages.\n\nSome entries also include incorrect formats. You need to ensure all phone numbers are correctly formatted and free of unwanted characters before use.",
+    "response": "Use a combination of the =CLEAN() function and a regular expression (RegEx) pattern to remove nonprintable characters and validate the correct phone number format."
+  },
+  {
+    "query": "You are given a customer sales table with the columns CustomerID, Product, UnitPrice, and Quantity. You are tasked with preparing a report that calculates the total amount spent by each customer on each product, but there is no current column in the table for total spent.",
+    "response": "Add a column to your report that multiplies UnitPrice by Quantity for each row."
+  },
+  {
+    "query": "A report developer wants to create a filter that the user will not be able to change. Which of the following should they use?",
+    "response": "hardcoded"
+  },
+  {
+    "query": "You are working with a dataset in Excel that includes separate columns for employees' First Name, Last Name, and Department.\n\nYour supervisor asks you to create a new column that displays each employee's full name and department together in the following format: \"FirstName LastName (Department)\".",
+    "response": "=CONCAT(A2,\" \",B2,\" (\",C2,\")\")"
+  },
+  {
+    "query": "What is a \"derived variable\" in data analysis?",
+    "response": "A data point created from existing data fields."
+  },
+  {
+    "query": "You are working as a data analyst and have imported a customer contact list into Excel. Upon inspection, you notice that many names in the \"CustomerName\" column contain strange characters that do not display properly, such as boxes and symbols, after being exported from another system.\n\nThese characters are causing issues with sorting and filtering your data. You need to clean up these non-printable characters to ensure the integrity of your analysis.",
+    "response": "=CLEAN(CustomerName)"
+  },
+    {
+    "query": "When moving customer product ratings from an import table into a historical ratings table, which SQL command structure should you use to ensure the correct data is inserted into the destination table?",
+    "response": "INSERT INTO ToyStarRatings (ProductID, StarRating, CT_Rates, RatingDate) SELECT ProductID, Star_Rating, Number_of_Ratings, Rating_Date FROM StarRatingImport;"
+  },
+  {
+    "query": "You have received a new batch of monthly star ratings from customers, which are stored in the StarRatingImport table. You need to add these ratings to the ToyStarRatings table for further marketing analysis.",
+    "response": "INSERT INTO ToyStarRatings (ProductID, StarRating, CT_Rates, RatingDate) SELECT ProductID, Star_Rating, Number_of_Ratings, Rating_Date FROM StarRatingImport;"
+  },
+  {
+    "query": "You have been given sales transaction data in SQL Server that has a long (vertical) format: each row lists a product, a month, and a sales figure.\n\nYour supervisor wants to spot seasonal sales patterns across all products and asks for your advice on which transformation would best help analyze these trends by visually comparing months side-by-side for each product.",
+    "response": "Use the PIVOT command to transform the vertical data into a wide format, making each month a separate column so product sales across different months can be easily compared."
+  },
+  {
+    "query": "You are asked to combine two tables, \"Customers\" and \"Orders,\" based on a common field \"CustomerID\" in Power Query.",
+    "response": "Use the Merge Queries tool to join the tables on \"CustomerID.\""
+  },
+  {
+    "query": "Suppose you have two tables: Customers and Orders. You use a full outer join to combine these tables in a query.\n\nWhat result will this join produce if there are customers who have not placed any orders and also some orders that do not match any customer?",
+    "response": "The query will include every customer and every order, showing nulls in the order fields for customers without orders and nulls in the customer fields for orders without a matching customer."
+  },
+  {
+    "query": "You have received a request to update multiple product prices in the ToyProducts table. You notice that the same ProductListPrice appears for different ProductIDs. Your goal is to update the ProductListPrice for only ProductID 25 to 10.\n\nWhat evaluation should you make about using the following SQL command?\n\nUPDATE ToyProducts SET ProductListPrice = 10 WHERE ProductListPrice = 8;",
+    "response": "This statement will update all products with a ProductListPrice of 8, which could include multiple products, not just ProductID 25."
+  },
+  {
+    "query": "A toy company wants to find out which product received the highest average rating this quarter. They have a table called ToyStarRatings with the fields ProductID, StarRating, and RatingDate.\n\nYou are tasked to write a query to identify the ProductID with the highest average StarRating for ratings submitted in the last quarter.",
+    "response": "Use SELECT ProductID, AVG(StarRating) AS AvgRating FROM ToyStarRatings WHERE RatingDate BETWEEN [start_of_quarter] AND [end_of_quarter] GROUP BY ProductID ORDER BY AvgRating DESC LIMIT 1"
+  },
+  {
+    "query": "While merging customer and sales tables in Power Query using \"CustomerID\" as the key, you want to ensure that your resulting data set contains every customer, even those who have no sales records.",
+    "response": "Left outer join"
+  },
+  {
+    "query": "You are reviewing the ToyProducts table, and your supervisor asks you to remove every product from the database that has a ProductCost greater than 100.",
+    "response": "DELETE FROM ToyProducts WHERE ProductCost > 100;"
+  },
+  {
+    "query": "Which of the following SQL functions can be used to calculate the total sum of values in a specific column?",
+    "response": "SUM"
+  },
+    {
+    "query": "A data analyst has received the data from a study that a fitness company conducted to determine the best time of year to advertise to free tier users to get them to purchase a subscription. Which of the following is true regarding the data? (Select all that apply.)",
+    "response": "The data analyst can note the source of the data.\nThe data analyst can note the method of data collection."
+  },
+  {
+    "query": "A data analyst is reviewing survey responses where participants indicate their favorite type of music, such as \"rock,\" \"pop,\" or \"classical.\"",
+    "response": "Group the favorite music types into categories and count the number of responses in each category."
+  },
+  {
+    "query": "You are a data analyst assigned to evaluate the performance of your company's new customer service chatbot. The business objective is to reduce the average time it takes to resolve customer inquiries.\n\nYou are provided with the following data before and after the chatbot's implementation:\n\nBefore: Average resolution time = 25 minutes; 15% of inquiries not resolved on first contact.\nAfter: Average resolution time = 18 minutes; 28% of inquiries not resolved on first contact.",
+    "response": "Report that although there is a decrease in average resolution time, the rise in unresolved inquiries indicates a new problem and recommend further investigation."
+  },
+  {
+    "query": "Which of the following is the best example of nominal data from a survey?",
+    "response": "The color each participant chooses as their favorite"
+  },
+  {
+    "query": "A large organization purchased a small company and provided a data analyst with the previous five years’ pie charts representing the small company’s revenue streams. What will the analyst need to convert that data to before analyzing it?",
+    "response": "Quantitative"
+  },
+  {
+    "query": "You are a data analyst at a university tasked with evaluating whether the implementation of additional study hours in classrooms over the past school year has led to improved student test scores. You analyze student performance data from the three years prior to the change and the current year, plotting the scores over time.\n\nThe data shows a consistent upward trend in average test scores during all four years, including before and after the additional study hours were introduced.",
+    "response": "Conclude that the upward trend in scores was already present before the intervention, so you cannot attribute the improvement solely to the extra study hours; propose gathering more contextual data or devising additional analyses to assess other contributing factors."
+  },
+  {
+    "query": "A retail company has collected two years of sales data for a popular product and wants to better prepare for the upcoming holiday season.\n\nAs a data analyst, you have been asked to determine likely sales amounts for the next three months to help the purchasing and logistics teams plan inventory and shipments efficiently. You are provided with historical sales figures, promotional schedules, and market trends.",
+    "response": "Apply predictive analytics to the sales data and market trends to estimate the likely number of units that will be sold in each of the next three months."
+  },
+    {
+    "query": "You are given the following set of exam scores: 70, 75, 80, 85, and 90.\n\nYour supervisor asks you to apply your knowledge of standard deviation to determine which statement below correctly describes the spread of these scores in relation to the mean.",
+    "response": "The standard deviation will be low, showing that most scores are close to the mean."
+  },
+  {
+    "query": "You are assessing student test score data from a recent exam. The data is stored in Excel, and you want to quickly determine how many students achieved each unique score.",
+    "response": "Create a pivot table where the row field is the test score and the value field is the count of students with that score."
+  },
+  {
+    "query": "Why is calculating the z-score helpful when analyzing a data set?",
+    "response": "It allows you to see how far a data point is from the mean in terms of standard deviation."
+  },
+  {
+    "query": "A school administrator is comparing the mean test scores of two eighth-grade classrooms to identify patterns and make recommendations for instructional improvement. In Classroom 105, the mean test score is 81.21, which is three points higher than the combined mean for both classrooms. In Classroom 106, the mean test score is 74.46, three points lower than the combined mean.\n\nThe administrator notices that Classroom 106 has a few unusually low scores, while Classroom 105's scores are more consistent.",
+    "response": "The lower mean in Classroom 106 is likely due to a few very low test scores, suggesting outliers have pulled the average down; considering both mean and median would provide a clearer picture of overall performance."
+  },
+  {
+    "query": "A teacher has calculated the mean and standard deviation for her class's test scores. One student received a score that has a z-score of -2.5.\n\nThe teacher wants to decide whether this score should be considered an outlier and whether to address any potential issues with that student's performance.",
+    "response": "Consider this score an outlier because it is more than two standard deviations below the mean, and consider investigating possible reasons for such a low performance."
+  },
+  {
+    "query": "A data analyst is calculating the number of times that a data point occurs within a data set by grouping the data and counting it up. What is this known as?",
+    "response": "Frequency"
+  },
+  {
+    "query": "A middle school principal is analyzing two eighth-grade classrooms' math test scores to determine which measure of central tendency provides the fairest assessment of student performance for determining if additional academic support is needed.\n\nClassroom 105's scores include several high scores, but two students scored significantly lower than the rest. Classroom 106's scores are more consistent, with only slight variation between students. The principal wants to ensure that the results do not overemphasize the impact of those two very low scores in Classroom 105.",
+    "response": "The median, because it identifies the middle value and is not affected by extreme scores, providing a better reflection of the typical student."
+  },
+  {
+    "query": "A data analyst is reviewing test scores from two different classrooms to decide which summary statistic to report to the school board.\n\nThe first classroom (Classroom 105) has the following scores: 55, 75, 80, 80, 88, 95, and 99. The analyst wants to present the middle value of student performance to avoid the influence of a very low or very high score in the set.\n\nWhat should the analyst report as the median score for Classroom 105?",
+    "response": "80"
+  },
+  {
+    "query": "A retail manager is analyzing the distribution of daily shoe sales over three weeks to help inform inventory restocking decisions. The daily sales numbers are: 8, 9, 8, 7, 10, 8, 11, 9, 8, 11, 10, 8, 12, 9, 8, 8, 10, 9, 8, 9, 11.\n\nAfter compiling the data, the manager notices that some numbers repeat more often than others.",
+    "response": "The mode shows that 8 is the most frequent daily sales number, indicating it is the most common sales amount, so the manager should ensure inventory can consistently handle this demand."
+  },
+  {
+    "query": "You are a data analyst reviewing test scores for two classrooms, 105 and 205, each containing 14 students. Both classrooms have a mean score of 81. After running your calculations, you find that Classroom 105 has a standard deviation of 12, while Classroom 205 has a standard deviation of 3.\n\nThe Principal asks which classroom's students have more consistent performance and which class requires intervention if the goal is to minimize large gaps in performance.",
+    "response": "Students in Classroom 205 demonstrate more consistent performance, and Classroom 105 should be prioritized for an intervention to reduce score variability."
+  },
+    {
+    "query": "An information technology architect is creating a hypothesis statement as a part of their tests to either accept or reject. Which of the following would indicate that the architect rejected a null hypothesis that was actually correct?",
+    "response": "Type I error"
+  },
+  {
+    "query": "A data analyst is working with Excel and needs to select a subset of 15 records from a list of 70 product entries, ensuring each entry has an equal chance of being picked.",
+    "response": "Use the Analysis Toolpak's random sampling function."
+  },
+  {
+    "query": "A distribution specialist compares the distribution of third-party vendor sales groupings of low, medium, or high, to determine if this summer is significantly different from the distributions observed in previous summers. Which of the following would be the best approach?",
+    "response": "Chi-square"
+  },
+  {
+    "query": "A school administrator wants to determine if there is a significant relationship between students' self-reported preparedness levels (Very Prepared, Somewhat Prepared, Not Prepared) and their test outcomes (Pass or Fail).",
+    "response": "Chi-Square Test of Independence, to evaluate whether there is an association between categorical variables such as preparedness level and test outcome."
+  },
+  {
+    "query": "A data professional wants to calculate a 95% confidence interval for the mean test score of a class using Excel.\n\nThe mean score is 78, the standard deviation is 9, and the sample size is 16. After using the CONFIDENCE function with an alpha of 0.05, the result is 4.5.",
+    "response": "73.5 to 82.5"
+  },
+  {
+    "query": "A marketing engineer is conducting a trend analysis to predict future sales performance. Which of the following is commonly required for trend analysis but is not a core component of constructing a confidence interval?",
+    "response": "Historical data"
+  },
+    {
+    "query": "Which of the following is the MOST effective approach when explaining a new data process to a mixed audience containing both technical and non-technical stakeholders?",
+    "response": "Phrase your explanation to provide clear information for all audience members by translating technical concepts into accessible language."
+  },
+  {
+    "query": "When developing views of the data for organizational reporting needs, what is the primary advantage of using a Database View as opposed to processing and joining raw tables in a data visualization tool like Power BI?",
+    "response": "Database Views organize and pre-filter the data so users get only the needed information, simplifying report creation."
+  },
+  {
+    "query": "You are preparing to design a dashboard that uses sensitive payroll data.",
+    "response": "Secure approval from appropriate managers or IT before designing and sharing the dashboard."
+  },
+  {
+    "query": "A data analyst is preparing two separate reports using company data: one report is for internal executives, and the other is for a government regulatory agency. The internal report contains detailed financial numbers, employee performance reviews, and future strategy insights, while the external report requires only high-level financial summaries.\n\nUpon reviewing the reports, the analyst notices the internal report's level of detail could expose sensitive employee and strategic information if it were accidentally sent to the regulatory agency.",
+    "response": "Carefully audit both reports to ensure only the required information for each audience is included, redacting or removing sensitive data like individual performance reviews and future strategies from the external report."
+  },
+  {
+    "query": "You are a data analyst at a mid-sized company. Your department manager asks you to prepare a report that combines sensitive payroll and human resources (HR) data to support an upcoming executive decision.\n\nThe manager also requests that you share the completed report with several team leads who do not have direct access to the underlying payroll system.",
+    "response": "Notify your manager that you must seek and receive formal approval from both department leadership and, if necessary, the IT department before sharing the report with team leads."
+  },
+  {
+    "query": "You are preparing a training session on a new dashboard your team developed. Your audience consists of both IT staff and customer service representatives.\n\nYour goal is to ensure all participants understand how to use the dashboard and what the updates mean for their daily work.",
+    "response": "Explain technical updates in plain language and demonstrate key features, using real-world scenarios relevant to both IT and customer service roles, ensuring your examples and explanations are accessible to the entire audience."
+  },
+  {
+    "query": "You are assigned to deliver a project status report that includes billing details, internal project notes, and a summary of project outcomes. The report must be sent to both your firm's internal management team and the client's project contact.",
+    "response": "Separate the report into two versions, one that includes billing details and project outcomes for the client, and the other that includes internal notes for your management team."
+  },
+  {
+    "query": "A project manager wants to ensure crucial project status updates are shared on a regular basis with the leadership team.",
+    "response": "Establish a schedule so the report is automatically generated and delivered to the leadership team at regular intervals."
+  },
+  {
+    "query": "A data analyst at a mid-sized company is tasked with preparing a report for several stakeholders: the CEO, departmental managers, and an external vendor.\n\nThe CEO wants to make strategic decisions, the managers require insight into their teams' performance, and the vendor is interested in the company's upcoming product requirements.",
+    "response": "Provide the CEO with organizational-wide summaries, the managers with department-specific detailed reports, and the vendor with only the product requirement information relevant to their contract."
+  },
+  {
+    "query": "A retail company wants to show the popularity of a product in each state using a geospatial chart. Which type would be best to recommend?",
+    "response": "Dot"
+  },
+  {
+    "query": "What is the primary purpose of using a pivot table when analyzing data?",
+    "response": "To visually organize and summarize large amounts of data into easily digestible groups."
+  },
+  {
+    "query": "Why should you be cautious when using a dual axis in a combination chart?",
+    "response": "Because dual axes can create misleading scales, making viewers think the variables are more directly comparable than they actually are."
+  },
+  {
+    "query": "What is the primary purpose of a histogram when visualizing data?",
+    "response": "To display the frequency of data values grouped into bins."
+  },
+  {
+    "query": "You are preparing a monthly sales report in Excel for your manager. The data includes sales totals for each month of the year, and your manager wants to quickly spot which months had the lowest sales figures so the team can discuss possible issues.",
+    "response": "Apply a red color scale using conditional formatting to the sales data so that months with the lowest sales are visually highlighted in red."
+  },
+  {
+    "query": "The department of transportation wants to use dedicated geospatial software to display traffic congestion. Which of the following tools has this capability?",
+    "response": "ArcGIS"
+  },
+  {
+    "query": "Why might you choose a column chart over a pie chart when presenting survey responses collected over several months?",
+    "response": "Because a column chart can easily show both the count of responses and a hierarchy within each month, offering more insight into sub-groupings."
+  },
+  {
+    "query": "You are preparing a report to compare the performance of Product A's monthly revenue to the annual average revenue for Product A. The monthly revenue numbers vary significantly from month to month, and your audience needs to easily see which months are above or below the average.",
+    "response": "A combination chart with columns for each month's revenue and a line for the annual average."
+  },
+  {
+    "query": "You are preparing a dashboard for company leadership that tracks monthly sales revenue over the past year. Leadership wants to quickly identify sales trends, such as periods of increase or decrease, and pinpoint the highest and lowest months over time.",
+    "response": "Line graph"
+  },
+  {
+    "query": "A national retail chain wants to decide where to open its next store in the state of Alabama. The company has a list of the number of current store locations in each county.\n\nThey want to clearly highlight counties with the greatest and fewest existing stores, so decision makers can easily see which regions have opportunity for growth.",
+    "response": "A geographical heat map showing each Alabama county shaded by the density of current store locations."
+  },
+  {
+    "query": "A team is deciding how to visualize survey data that includes five categories, with each category's total number of responses. They want viewers to quickly identify which category has the most responses and easily compare the differences between all categories.",
+    "response": "Bar chart, because it allows viewers to easily compare the length of bars representing each category's count."
+  },
+  {
+    "query": "You are tasked with analyzing employee performance survey results collected over four months. Each employee received a total performance score each month, and you want to visualize how frequently different score ranges occurred to determine if most employees had high, medium, or low performance.\n\nYou create a histogram, but after sharing it with your team, one member suggests that the chart is misleading because the bins are not evenly sized—some bins group a broader range of scores than others, making it hard to interpret which scores are most common.",
+    "response": "Adjust the bins so that each one covers an equal range of performance scores, ensuring consistent bin size."
+  },
+  {
+    "query": "How do dashboards enhance the user experience?",
+    "response": "By allowing interaction with data through visuals, filters, and slicers."
+  },
+  {
+    "query": "Where is it recommended to place the version number in a paginated report?",
+    "response": "In the report header or page footer."
+  },
+  {
+    "query": "You are a data analyst tasked with preparing a sales dashboard for an upcoming presentation to C-level executives at your company.\n\nThe marketing department has provided you with a style guide containing branding procedures, guidelines for logo placement, and specific requirements for presentations. You also know that this dashboard may be shared with public stakeholders later.",
+    "response": "Follow the style guide closely, ensuring correct logo usage and placement as specified, and consult the marketing team for any clarifications specific to executive or public-facing requirements."
+  },
+  {
+    "query": "Amit is designing a monthly operations report in Excel that will be shared across several departments. He wants to make it easy for everyone to see which file the report came from and to know exactly when the data was most recently updated.\n\nAmit also wants these details to appear automatically on every printed page without having to manually update each one.",
+    "response": "Insert the file path and refresh date as special fields in the header or footer, so they update automatically."
+  },
+  {
+    "query": "You have designed a dashboard in Power BI that allows business users to filter sales data by region, quarter, and product type. After applying several filters, some users are unsure how to quickly return the dashboard to its original, unfiltered state.",
+    "response": "v"
+  },
+  {
+    "query": "Jessica is finalizing a multi-page financial report in Crystal Reports for an upcoming board meeting. She wants readers to navigate the printed report easily and confirm they are viewing the complete document.\n\nJessica also wants to ensure each page clearly displays important fields for data identification. She must decide the best places to add page numbers and field labels to fulfill these needs.",
+    "response": "Place page numbers in the page footer and include field labels in the page header."
+  },
+  {
+    "query": "You are asked to create a dashboard for your department using Microsoft Excel. The company does not have a formal style guide for colors, but your manager wants the dashboard to look clean, professional, and consistent.\n\nAfter inserting your charts and visuals, you notice they automatically use Excel's default color scheme.",
+    "response": "Review several of Excel's built-in default color schemes with your manager or team, choose the most suitable one for the dashboard's audience, and apply it consistently throughout the report."
+  },
+  {
+    "query": "When you see a field labeled as \"Sum of LITOTALALLSALES\" in a report and you change its display name to \"Total Amount Sold,\" what have you accomplished?",
+    "response": "You have used captioning to enhance the field's readability and relevance for report consumers."
+  },
+  {
+    "query": "A data analyst is designing a dashboard to help decision-makers quickly identify overall sales performance as well as compare product sales across multiple categories.",
+    "response": "Use cards to display total sales and bar charts to compare product sales by category."
   }
-
-
 
 ]

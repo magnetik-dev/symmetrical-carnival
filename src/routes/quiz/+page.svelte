@@ -11,7 +11,7 @@
   let entries = $state<Entry[]>([]);
 
   let { data } = $props<{ entries: Entry[]; book: string }>();
-
+  
   // local rune for the selected book; initialize from load data
   // svelte-ignore state_referenced_locally
   let book = $state(data.book);
@@ -41,7 +41,7 @@
   $effect(() => {
     entries = data.entries;
     // keep rune in sync if the page load ever changes (rare)
-    book = data.book;
+    book = data.book; 
   });
 
   let filtered = $derived(
