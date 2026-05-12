@@ -17,7 +17,7 @@
   let book = $state(data.book);
 
   const cyberOptions = [
-        { value: 'ca-itf4-1', label: 'CA-ITF4 Quiz 1' },
+    { value: 'ca-itf4-1', label: 'CA-ITF4 Quiz 1' },
     { value: 'ca-itf4-2', label: 'CA-ITF4 Quiz 2' },
     { value: 'ca-itf4-3', label: 'CA-ITF4 Quiz 3' },
     { value: 'ca-itf4-f', label: 'CA-ITF4 Final Quiz' },
@@ -29,6 +29,10 @@
     { value: 'wndx-final', label: 'WNDX Final Exam' },
     { value: 'ca-clodp-module-quiz', label: 'CA-CLODP Module Quiz' },
     { value: 'ca-clodp-final', label: 'CA-CLODP Final Exam' },
+    { value: 'ca-serpl-quiz-1', label: 'CA-SERPL Quiz 1' },
+    { value: 'ca-serpl-quiz-2', label: 'CA-SERPL Quiz 2' },
+    { value: 'ca-serpl-quiz-3', label: 'CA-SERPL Quiz 3' },
+    { value: 'ca-serpl-final', label: 'CA-SERPL Final Exam' }
 
   ];
   const dataOptions = [
