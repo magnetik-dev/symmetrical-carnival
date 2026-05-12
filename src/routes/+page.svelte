@@ -44,7 +44,9 @@
 
                         <div class="field is-grouped is-grouped-centered mt-5">
                             <div class="control">
-                                <button class="button is-primary" formaction="?/login">Login</button>
+                                <button class="button is-primary is-dark" formaction="?/login">
+                                    <i class="fa fa-sign-in mr-2"></i> Login
+                                </button>
                             </div>
                             <!-- We don't offer a signup option right now-->
                             <!--

@@ -60,13 +60,6 @@
                                 </form>
                             </span>
                         </div>
-                    {:else}
-                        <div class="buttons">
-                            <a class="button is-light" href="/">
-                                <i class="fa fa-sign-in mr-2"></i>
-                                Log in
-                            </a>
-                        </div>
                     {/if}
                 </div>
             </div>
