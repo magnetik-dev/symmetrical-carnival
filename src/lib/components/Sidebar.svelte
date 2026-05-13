@@ -18,7 +18,11 @@
 </button>
 
 <!-- The Side Navigation -->
-<aside class="menu side-nav {isOpen ? 'is-active' : ''} has-background-dark">
+
+<aside class="menu side-nav {isOpen ? 'is-active' : ''} has-background-black-bis">
+    <button onclick={toggleMenu}  class="button has-text-danger has-background-dark is-rounded side-nav-close is-clickable" title="Close menu" aria-label="Close Menu">
+        <span class="fa fa-close" ></span>
+    </button>
 	<div class="menu-content-wrapper">
 		{@render children?.()}
 	</div>
@@ -37,7 +41,6 @@
 
 <style>
 	.menu-trigger {
-
 		z-index: 20; /* Below the navbar (30) but above content */
 	}
 
@@ -55,6 +58,15 @@
 		overflow-y: auto;
         border-right: 1px solid #0fb398;
 	}
+
+    .side-nav-close {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background: none;
+        border: none;
+        padding: 0.5rem;
+    }
 
 	/* Use transform for better performance than 'left' */
 	.side-nav.is-active {

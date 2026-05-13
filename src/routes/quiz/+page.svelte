@@ -64,19 +64,19 @@
             <div class="column is-narrow">
                 <!-- drawer start -->
                 <Sidebar>
-                    <p class="has-text-weight-bold is-size-5">Cyber Security</p>
-                    <ul>
+                    <p class="menu-label">Cyber Security</p>
+                    <ul class="menu-list">
                         {#each cyberOptions as option}
-                        <li class="pt-2">
-                            <a href="/quiz?book={option.value}" class="p-1 has-text-primary">{option.label}</a>
+                        <li>
+                            <a href="/quiz?book={option.value}" class="has-text-primary">{option.label}</a>
                         </li>
                         {/each}
                     </ul>
-                    <p class="has-text-weight-bold is-size-5 mt-2">Data Analytics</p>
-                    <ul>
+                    <p class="menu-label">Data Analytics</p>
+                    <ul class="menu-list">
                         {#each dataOptions as option}
-                        <li class="pt-2">
-                            <a href="/quiz?book={option.value}" class="p-1 has-text-primary">{option.label}</a>
+                        <li>
+                            <a href="/quiz?book={option.value}" class="has-text-primary">{option.label}</a>
                         </li>
                         {/each}
                     </ul>

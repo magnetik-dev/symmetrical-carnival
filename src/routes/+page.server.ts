@@ -43,6 +43,6 @@ export const actions: Actions = {
             return fail(400, { error: error.message });
         }
 
-        return { success: 'Check your email for the confirmation link!' };
+        return { success: 'Account created successfully!' };
     }
 };
