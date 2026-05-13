@@ -1,0 +1,250 @@
+[
+  {
+    "query": "A cyber architect wants to use a software application that assists in sharing reportable information. What application is a popular customer relationship management tool that has its own internal report builder and dashboard options?",
+    "response": "Salesforce"
+  },
+  {
+    "query": "A cyber consultant is reviewing available methods of reviewing data. What is a practical way to gain feedback on the data product before it is published or goes live?",
+    "response": "Peer review"
+  },
+  {
+    "query": "A software engineer is curious about missing values located within the team's spreadsheet after reviewing several NULL-defined fields. What can cause these NULL values?\u00a0(Select all that apply.)",
+    "response": "The value is not applicable to the field., The data set has no match for expected information., The survey data is incomplete."
+  },
+  {
+    "query": "A research consultant is reviewing various analysis styles to determine which would best fit their research project. What type of analysis is the study of a present state, desired state, and the gaps between the two?",
+    "response": "Gap analysis"
+  },
+  {
+    "query": "In preparation for teaching a class for the company, a cyber technician is collecting information on relational and non-relational databases. What are the characteristics associated with relational databases?\u00a0(Select all that apply.)",
+    "response": "They use primary and foreign keys to establish relationships that control how certain data relates to data in other tables., They have tables that store fields in columns and rows of records that hold data in RDBMS., They use traditional SQL language to query and handle transactions within the database."
+  },
+  {
+    "query": "A computer technician is creating a template that contains non-public information about the employee population. Because the technician needs a partial Social Security Number (SSN) for other requirements, the first five letters are converted to XXX-XX. What action is the technician taking with the sensitive data?",
+    "response": "Masking"
+  },
+  {
+    "query": "A data analyst is having challenges with obtaining data results on previous projects from within the company data repository. Looking externally, what is the name for public data that has already been compiled and summarized for analysis and reporting?",
+    "response": "Aggregated data"
+  },
+  {
+    "query": "A technician is conducting an analysis on data and where it is located within the company's repositories. What type of data is considered to be identical data that is stored in multiple locations?",
+    "response": "Redundant data"
+  },
+  {
+    "query": "A cyber consultant is reviewing the tenets of report writing. In what area can the consultant find an addressal to common questions that are related to the reviewed report and its data?",
+    "response": "FAQ"
+  },
+  {
+    "query": "A software consultant is reviewing various advanced methods of sorting data. What is a method of sorting where the software consultant sorts within a sort?",
+    "response": "Multi-sorting"
+  },
+  {
+    "query": "When evaluating the measures commonly associated with determining the spread of a data set, what is not considered one of the provided measures?",
+    "response": "Median"
+  },
+  {
+    "query": "A cyber technician is reviewing datasets and measuring central tendencies. What is determined by adding all the values together, counting the number of values, and dividing the sum by that number?",
+    "response": "Mean"
+  },
+  {
+    "query": "A software consultant is reviewing datasets and measuring central tendencies. What is determined by establishing the midpoint value for the data by showing how many values are above or below it?",
+    "response": "Median"
+  },
+  {
+    "query": "A cyber analyst is preparing to research a topic of interest. What is the first thing the analyst should consider?",
+    "response": "The development of research questions."
+  },
+  {
+    "query": "A cyber architect is exploring methods to understand relationships with variables. What compares the size of the difference between the expected result and the actual result, and measures how the model compares to the actual data?",
+    "response": "Chi-square statistic"
+  },
+  {
+    "query": "A cyber technician is reviewing the organization's current reporting techniques. In creating a report, which report is generated in response to a one-time request?",
+    "response": "Ad-hoc report"
+  },
+  {
+    "query": "A software consultant wants to pull data from the company website on the internet. What can the consultant use to pull this desired information?",
+    "response": "Web scraping"
+  },
+  {
+    "query": "A cyber technician is reviewing the various code languages used for data. What language is considered the most comprehensive and provides syntax that is dedicated to working with data?",
+    "response": "SQL"
+  },
+  {
+    "query": "A software engineer is reviewing the various types of data that are present in the company's working environment. What type of data can be counted and only take on a certain number of values?",
+    "response": "Discrete data"
+  },
+  {
+    "query": "A software engineer is reviewing various analysis styles to determine which would best fit their research project. What type of analysis is defined by measuring a trend on historical data to predict a future outcome and is used in all industries to determine how something is performing over time or to predict issues with a subject?",
+    "response": "Trend analysis"
+  },
+  {
+    "query": "A cyber technician is tasked with developing an agreement on sharing data. What is an agreement between two parties regarding the exchange of data that specifies what data will be shared and how that data can be used?",
+    "response": "Data Use Agreement"
+  },
+  {
+    "query": "A software engineer is building a map that focuses on capturing the business footprint across a geographical location. What type of maps are typically used to pinpoint a location, like a postal code area, or highlight an amount of data occurring within a particular point, such as within a particular state?",
+    "response": "Dot maps"
+  },
+  {
+    "query": "A cyber architect is conducting an analysis on a large data set with the goal of capturing the number of times that a data point is occurring within the set of data. What is the architect attempting to identify?",
+    "response": "Frequency"
+  },
+  {
+    "query": "A software engineer wants to learn more about the differences associated with static and dynamic report writing. What type of report reflects on a specific point in time, whether looking at data from the most recent month or data from one year prior?",
+    "response": "Point-in-time report"
+  },
+  {
+    "query": "A cyber consultant is collecting samples of available reports used by the company. What type of report is one that is run directly by the consumer?",
+    "response": "On-demand report"
+  },
+  {
+    "query": "A network engineer is reviewing common techniques for query optimization. What is a method of adding criteria to a query that can be used to filter and reduce the result set?",
+    "response": "Parameter"
+  },
+  {
+    "query": "A software consultant is reviewing various data types and wants to employ a data collection method where the data is defined by its qualities. What type of data is the consultant wanting to review?",
+    "response": "Qualitative data"
+  },
+  {
+    "query": "A cyber consultant is attempting to determine the value of a data dictionary. What are the benefits associated with using data dictionaries?\u00a0(Select all that apply.)",
+    "response": "It is a critical part of master data management and a valuable resource., It is a living tool that allows definitions to change or to have new data systems added., It can be created by hand or generated by tools that work with databases."
+  },
+  {
+    "query": "The ministry of transportation wants to use dedicated geospatial software to display traffic congestion. Which of the following tools has this capability?",
+    "response": "ArcGIS"
+  },
+  {
+    "query": "A student studying to be a data analyst is learning about types of data. Users measure one of the types in numbers and define the other one by the qualities of the data. What are these two major, high-level data types?",
+    "response": "Quantitative and qualitative"
+  },
+  {
+    "query": "A software engineer is reviewing various methods of filtering visuals and data ranges. What allows the engineer to adjust a slicer or filter option on a dashboard to narrow down the data they want to see?",
+    "response": "Interactive filters"
+  },
+  {
+    "query": "A software technician wants to use advanced visuals to support their presentation of findings and elects to use a visual that consists of two variables plotted on the x-axis and y-axis, with a dot placed on the graph where the two data points converge on both of the axes.",
+    "response": "Scatter Plot"
+  },
+  {
+    "query": "A cyber consultant is reviewing the value of documenting data sources for reporting. What are the reasons why the cyber consultant documents the data sources?",
+    "response": "To account for changes in role and prepare others that might take over the work, To facilitate a return to the project, To answer questions about where the data originated"
+  },
+  {
+    "query": "A system engineer is reviewing current methods and protocols by which computers communicate with one another. What allows two unrelated computers to communicate with each other?\"",
+    "response": "API"
+  },
+  {
+    "query": "In understanding the importance of statistical testing, what do t-tests provide to analysis and testing?",
+    "response": "They compare two groups to determine if there is a significant difference between the means of both groups"
+  },
+  {
+    "query": "A software engineer is reviewing a map that uses colour to target attention to significant findings within the visual. What type of map is the engineer reviewing",
+    "response": "Heat Map"
+  },
+  {
+    "query": "In an attempt to gain details surrounding a new platform feature, the cyber team develops a survey to collect data based on the opinions of the employees. What type of response is elicited from a fill-in-the-blank question?",
+    "response": "Text-based"
+  },
+  {
+    "query": "A software engineer is reviewing the various graphical ways used to display data in shapes rather than data itself to their audience. What displays columns and rows of information, and may also include aggregate information?",
+    "response": "Table"
+  },
+  {
+    "query": "A cyber technician is developing a lecture to discuss structured, unstructured, and semi-structured data. What are examples of semi-structured data?",
+    "response": "JSON files, XML files, Web pages (HTML)"
+  },
+  {
+    "query": "When evaluating the measures commonly associated with determining the distribution of a data set, which measure represents the smallest number in the data set?",
+    "response": "Min"
+  },
+  {
+    "query": "A software engineer is reviewing available field data types for their upcoming project. What is the most versatile of all data types that allow the usage of numbers and letters?",
+    "response": "Alphanumeric"
+  },
+  {
+    "query": "A software engineer is using a join to combine data into a single reported dataset. What type of join doesn't have a direct join on a key field?",
+    "response": "Cross/Cartesian"
+  },
+  {
+    "query": "A software engineer wants to work with databases that have followed proper design theory and the principles of the normal forms. Which normal form eliminates redundant information in individual tables?",
+    "response": "First Normal Form (1NF)"
+  },
+  {
+    "query": "A cyber architect is preparing data for processing. What type of processing is used for transactional data that is mission critical to an organization?",
+    "response": "Transaction processing"
+  },
+  {
+    "query": "A software engineer is profiling data for the company. What considerations should the engineer have when conducting the data profile?",
+    "response": "Identifying and documenting the source of the data and its integrity., Identifying the field names and data types., Determining the main fields identified for reports."
+  },
+  {
+    "query": "A business consultant is developing an Excel spreadsheet that will compute numbers for the company. What best represents a number entry as a field data type?",
+    "response": "1438594834"
+  },
+  {
+    "query": "A cyber consultant is preparing an agreement for a group of users that are being assigned to a special project. What type of agreement defines the conditions under which an entity (such as a person or supplier) cannot disclose information to outside parties?",
+    "response": "NDA"
+  },
+  {
+    "query": "A cyber analyst is exploring methods to understand relationships with variables. What is the statistical association used to measure the relationship between two (or more) equal variables",
+    "response": "Correlation"
+  },
+  {
+    "query": "A software technician is conducting an analysis to ensure that the integrity of data is not skewed. What is the process of confirming the type, structure, and accurate representation of the data?",
+    "response": "Data validation"
+  },
+  {
+    "query": "A cyber consultant is reviewing aggregate functions in preparation for a new project. What aggregate function counts all the records in that column but will only count the field one time, even if it appears multiple times",
+    "response": "DISTINCT COUNT"
+  },
+  {
+    "query": "A manager for an automotive parts company is putting together a presentation and wants to use visuals that shows the proportion of sales of parts for each segment of the automotive industry using a rectangular format with smaller rectangles within the larger one representing the different segments. What should they use",
+    "response": "Treemap"
+  },
+  {
+    "query": "A cyber technician is reviewing available processing capabilities to support large volume data sets. What type of processing takes large volume data sets and distributes them across multiple servers?",
+    "response": "Distributed Processing"
+  },
+  {
+    "query": "A cyber architect is reviewing procedures to understand deployment considerations. What should be considered before the architect deploys their ideas to work? (Select all that apply.)",
+    "response": "The correct answers are: Approval from the organization was confirmed to be granted., Required licenses were assigned to the appropriate parties., Permissions were defined and set."
+  },
+  {
+    "query": "A cyber architect is reviewing a style guide for appropriate colour schemes to be associated with the annual report. What should be considered with the selection of colour schemes? (Select all that apply.)",
+    "response": "The correct answers are: Select schemes with the audience experience in mind., Avoid distracting schemes., Use a consistent scheme."
+  },
+  {
+    "query": "A cyber architect wants to use a technology that is dedicated to the storage of company data from a wide range of sources for reporting and decision-making purposes. What can the architect use to complete this task?",
+    "response": "Data Warehouse"
+  },
+  {
+    "query": "A cyber instructor is discussing the importance of statistical tests and population with the students in the class. In statistics, what is a population?",
+    "response": "The correct answer is: It refers to the size of a group of records that meet a certain criterion."
+  },
+  {
+    "query": "A software technician is reviewing the components of a paginated report. What appears once at the top of the first page of a report?",
+    "response": "Report Header"
+  },
+  {
+    "query": "A software analyst is preparing a presentation for next year's budget and wants to incorporate various visual aids to demonstrate needs. What is considered the most basic of all visuals?",
+    "response": "Line graph"
+  },
+  {
+    "query": "A cyber architect is reviewing data and determines that an error is occurring due to an extra space being added to the end of the field data entry. What keystroke is causing the error to occur?",
+    "response": "Trail space"
+  },
+  {
+    "query": "A cyber analyst is exploring methods to understand relationships with variables. What is the statistical association used to measure the relationship between two (or more) equal variables?",
+    "response": "Correlation"
+  },
+  {
+    "query": "A cyber architect is reviewing possible benefits associated with master data management. What opportunities are presented by using master data management? (Select all that apply.)",
+    "response": "The correct answers are: It improves data quality and integrity., It ensures that data is managed by a set of rules and procedures., It supports all organizational functions by streamlining access to data."
+  },
+  {
+    "query": "A cyber consultant is attempting to determine the value of a data dictionary. What are the benefits associated with using data dictionaries? (Select all that apply.)",
+    "response": "The correct answers are: It is a critical part of master data management and a valuable resource., It is a living tool that allows definitions to change or to have new data systems added., It can be created by hand or generated by tools that work with databases."
+  }
+]

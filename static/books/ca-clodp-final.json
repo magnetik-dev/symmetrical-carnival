@@ -12,6 +12,26 @@
     "response": "IOPS, Throughput"
   },
   {
+    "query": "A server technician is attempting to streamline automation processes through configuration management. Which of the following is a configuration management tool that the technician can use to automate tasks across multiple servers?",
+    "response": "Puppet, Chef"
+  },
+  {
+    "query": "Given the need to migrate a large amount of data with minimal downtime, which factor should be prioritized to ensure a successful migration?",
+    "response": "Speed of the data transfer"
+  },
+  {
+    "query": "A company has an application hosted in a single data center in North America. They are considering migrating to the cloud to improve service availability. ",
+    "response": "After migration, the application is hosted in multiple data centers across North America, Europe, and Asia, allowing users to access the application from the nearest data center."
+  },
+  {
+    "query": "A retail company wants to implement a cloud solution to handle its e-commerce platform, which experiences significant traffic spikes during holiday seasons. They need a solution that can scale quickly to meet demand and ensure high availability. ",
+    "response": "Public cloud"
+  },
+  {
+    "query": "What is one of the overhead considerations for post-migration to cloud services?",
+    "response": "Administrators must get used to different consoles and terminology"
+  },
+  {
     "query": "Which type of storage is typically expensive but fast and efficient?",
     "response": "Block storage"
   },

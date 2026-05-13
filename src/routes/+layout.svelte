@@ -1,7 +1,14 @@
+<script>
+    import "bulma/css/bulma.css";
+    import Navbar from "$lib/components/Navbar.svelte";
+    let { data, children } = $props();
+</script>
+
 <svelte:head>
   <meta name="robots" content="noindex,nofollow" />
 </svelte:head>
 
-<slot></slot>
+<Navbar user={data.user} />
 
-<script>import "bulma/css/bulma.css";</script>
+{@render children()}
+

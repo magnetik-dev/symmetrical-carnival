@@ -5,8 +5,9 @@
 		response: string;
 	}
 
-	// 2. Add types to your state runes
-	let questions = $state<QuizSet[]>([]); 
+	const createInitialState = (): QuizSet[] => [];
+
+	let questions = $state<QuizSet[]>(createInitialState());
 	let currentQuery = $state('');
 	let currentResponse = $state('');
 	let copyStatus = $state('Copy JSON');
@@ -38,11 +39,18 @@
 	function removeSet(index: number) {
 		questions.splice(index, 1);
 	}
+
+
+    function clearSet(event: MouseEvent & { currentTarget: EventTarget & HTMLButtonElement; }) {
+		// Clear the current input fields
+		currentQuery = '';
+		currentResponse = '';
+		questions = createInitialState(); // Reset the questions array to its initial state
+    }
 </script>
 <div class="container section">
-	<h1 class="title">JSON Generator</h1>
 
-	<div class="box">
+	<div class="box has-background-dark is-shadowless">
 		<div class="field">
 			<label class="label" for="query">Question</label>
 			<div class="control">
@@ -67,15 +75,17 @@
 			</div>
 		</div>
 
-		<div class="control">
-			<button 
-				class="button is-info is-medium" 
-				onclick={addSet} 
-				disabled={!currentQuery || !currentResponse}>
-				Add to List ({questions.length})
-			</button>
-		</div>
+		<button 
+			class="button is-primary is-dark" 
+			onclick={addSet} 
+			disabled={!currentQuery || !currentResponse}>
+			<i class="fa fa-plus-circle mr-2" aria-hidden="true"></i>
+			Add to List ({questions.length})
+		</button>
+
 	</div>
+
+	<hr>
 
 	<div class="columns">
 		<div class="column is-one-third">
@@ -100,16 +110,23 @@
 			<div class="level mb-2">
 				<div class="level-left">
 					<h2 class="title is-4 mb-0">JSON Output</h2>
+					<button 
+						class="button is-small is-danger" 
+						onclick={clearSet}>
+						<i class="fa fa-trash mr-2" aria-hidden="true"></i>
+						Clear All
+					</button>
 				</div>
 				<div class="level-right">
 					<button class="button is-small is-success" onclick={copyToClipboard}>
+						<i class="fa fa-clipboard mr-2" aria-hidden="true"></i>
 						{copyStatus}
 					</button>
 				</div>
 			</div>
 			
-			<div class="box has-background-black-ter">
-				<pre class="has-background-black-ter has-text-success p-0" style="border: none;"><code>{jsonOutput}</code></pre>
+			<div class="box has-background-dark is-shadowless">
+				<pre class="has-background-dark has-text-success p-0" style="border: none;"><code>{jsonOutput}</code></pre>
 			</div>
 		</div>
 	</div>

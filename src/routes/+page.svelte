@@ -1,92 +1,63 @@
-<svelte:options runes />
-
 <script lang="ts">
-
-  // use shared entry type declared globally
-  type Entry = App.Entry;
-
-  let search = $state('');
-  let entries = $state<Entry[]>([]);
-
-  let { data } = $props<{ entries: Entry[]; book: string }>();
-
-  // local rune for the selected book; initialize from load data
-  let book = $state(data.book);
-
-  $effect(() => {
-    entries = data.entries;
-    // keep rune in sync if the page load ever changes (rare)
-    book = data.book;
-  });
-
-  let filtered = $derived(
-    search
-      ? entries.filter((item) =>
-          item.query.toLowerCase().includes(search.toLowerCase())
-        )
-      : entries
-  );
+    let { data, form } = $props();
 </script>
 
-<section class="section">
+<section class="section is-flex is-align-items-center">
     <div class="container">
-            
-        <div class="columns is-vcentered">
-            <div class="column is-hidden-mobile">
-                <h1 class="title is-size-1">Symmetrical Carnival</h1>
-            </div>
-            <div class="column is-narrow">
-                <select class="input is-info is-medium" id="book-select"
-                    onchange={(e) => {
-                        const b = (e.currentTarget as HTMLSelectElement).value;
-                        window.location.search = `?book=${b}`;
-                    }}>
-                    <option value="ca-itf4-1" selected={data.book === 'ca-itf4-1'}>CA-ITF4 Quiz 1</option>
-                    <option value="ca-itf4-2" selected={data.book === 'ca-itf4-2'}>CA-ITF4 Quiz 2</option>
-                    <option value="ca-itf4-3" selected={data.book === 'ca-itf4-3'}>CA-ITF4 Quiz 3</option>
-                    <option value="ca-itf4-f" selected={data.book === 'ca-itf4-f'}>CA-ITF4 Final Quiz</option>
-                    <option value="pc14-final" selected={data.book === 'pc14-final'}>PC14 Final Quiz</option>
-                    <option value="pc24-final" selected={data.book === 'pc24-final'}>PC24 Final Quiz</option>
-                    <option value="nwpo-exam1" selected={data.book === 'nwpo-exam1'}>NWPO Exam 1</option>
-                    <option value="nwpo-exam2" selected={data.book === 'nwpo-exam2'}>NWPO Exam 2</option>
-                    <option value="wndx-mid-term" selected={data.book === 'wndx-mid-term'}>WNDX Mid-Term Exam</option>
-                    <option value="wndx-final" selected={data.book === 'wndx-final'}>WNDX Final Exam</option>
-                    <option value="ca-clodp-module-quiz" selected={data.book === 'ca-clodp-module-quiz'}>CA-CLODP Module Quiz</option>
-                    <option value="ca-clodp-final" selected={data.book === 'ca-clodp-final'}>CA-CLODP Final Exam</option>
-                </select>
-            </div>
-        </div>
+        <div class="columns is-centered">
+            <div class="column is-4">
+                <div class="box has-background-dark is-shadowless">
+                    <h1 class="title has-text-centered">Login</h1>
 
-        <div class="field">
-            <p class="control has-icons-right">
-                <input id="search" type="text" placeholder="Type to search..."
-                    class="input is-large is-rounded is-primary"
-                    bind:value={search} />
-                {#if search}
-                <button 
-                    class="icon is-right is-clickable"
-                    onclick={() => search = ''}
-                    title="Clear search">
-                    <span class="is-size-3 has-text-white">&times;</span>
-                </button>
-                {/if}
-            </p>
-        </div>
+                    {#if form?.error}
+                        <div class="notification is-danger is-light">
+                            {form.error}
+                        </div>
+                    {/if}
 
-        {#if filtered.length === 0}
-            <p class="has-text-centered has-text-info is-size-3">No results found</p>
-        {:else}
-        {#each filtered as item, i (item.query)}
-            <hr>
-            <div class="columns is-vcentered">
-                <div class="column is-8">
-                    <span class="is-size-5">{i+1}. {item.query}</span>
-                </div>
-                <div class="column has-background-info-dark has-text-centered">
-                    <span class="is-size-4 has-text-primary">{item.response}</span>
+                    {#if form?.success}
+                        <div class="notification is-success is-light">
+                            {form.success}
+                        </div>
+                    {/if}
+
+                    <form method="POST">
+                        <div class="field">
+                            <label class="label" for="email">Email</label>
+                            <div class="control has-icons-left">
+                                <input class="input" type="email" id="email" name="email" placeholder="e.g. alex@example.com" required>
+                                <span class="icon is-small is-left">
+                                    <i class="fa fa-envelope"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label" for="password">Password</label>
+                            <div class="control has-icons-left">
+                                <input class="input" type="password" id="password" name="password" placeholder="********" required>
+                                <span class="icon is-small is-left">
+                                    <i class="fa fa-lock"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="field is-grouped is-grouped-centered mt-5">
+                            <div class="control">
+                                <button class="button is-primary is-dark" formaction="?/login">
+                                    <i class="fa fa-sign-in mr-2"></i> Login
+                                </button>
+                            </div>
+                            <!-- We don't offer a signup option right now-->
+                            
+                            <div class="control">
+                                <button class="button is-light" formaction="?/signup">Sign up</button>
+                            </div>
+                            
+                        </div>
+                    </form>
                 </div>
             </div>
-            {/each}
-        {/if}
+        </div>
     </div>
 </section>

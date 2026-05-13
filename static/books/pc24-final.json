@@ -4,7 +4,7 @@
     "response": "Uninstall and reinstall the application"
   },
   {
-    "query": "A user calls the help desk complaining that Windows freezes to a blue screen every time it tries to boot. When the technician arrives, what is the BEST reason the technician wants to enter Safe Mode to begin troubleshooting?",
+    "query": "A user calls the help desk complaining that Windows freezes to a blue screen every time it tries to boot. When the technician arrives, they boot the computer in Safe Mode. After evaluating this situation, what is the BEST reason the technician wants to enter Safe Mode to begin troubleshooting?",
     "response": "Safe Mode loads only the minimum amount of drivers and services to start the system"
   },
   {
@@ -20,7 +20,7 @@
     "response": "certmgr.msc"
   },
   {
-    "query": "A systems administrator wants to create a scheduled task throughout the environment which does a basic health check at night when users are not working. Which command would the administrator use in their scheduled task?",
+    "query": "A systems administrator wants to create a scheduled task throughout the environment, which does a basic health check at night when users are not working. Which command should the administrator use in their scheduled task?",
     "response": "chkdsk"
   },
   {
@@ -124,7 +124,7 @@
     "response": "Microsoft Entra"
   },
   {
-    "query": "a security adminsitartor moves their proxy from on premises to the cloud and wants to establish a client tunnel to the cloud proxy server for web traffic. Users are protected even while out in public and not connected to the domain",
+    "query": "A security administrator moves their proxy from on-premises to the cloud and wants to establish a client tunnel to the cloud proxy server for web traffic. This way, the users are protected even while out in public and not connected to the domain. What should the administrator set up?",
     "response": "VPN"
   },
   {
@@ -220,7 +220,7 @@
     "response": "Antivirus scan"
   },
   {
-    "query": "A spouse plans a surprise birthday",
+    "query": "A spouse plans a surprise birthday party for their significant other. The spouse wants to turn off activity history on their browser to make sure their significant other \"does not find out the surprise.\" Where can the spouse do this?",
     "response": "Privacy"
   },
   {
@@ -252,11 +252,11 @@
     "response": "Access control vestibule"
   },
   {
-    "query": "A server administrator was called in to help a VIP whose computer was accidentally infected with a virus",
+    "query": "A server administrator was called in to help a VIP whose computer was accidentally infected with a virus. The administrator wants to revert the computer but still preserve user personalization settings. What should the administrator use?",
     "response": "Refresh"
   },
   {
-    "query": "A teacher has been assigned to research low-cost operating systems to support the educational needs",
+    "query": "A teacher has been assigned to research low-cost operating systems to support the educational needs of the school system. Which one of the following is best geared towards accomplishing their goal?",
     "response": "ChromeOS"
   },
   {
@@ -270,10 +270,6 @@
   {
     "query": "what uses a 4-way handshake to allow a station to associate with an",
     "response": "WPA2"
-  },
-  {
-    "query": "A security administrator moves their proxy from on-premises to the cloud and wants to establish a connection",
-    "response": "WWAN"
   },
   {
     "query": "Management provides employees with written policies and procedures to help them fulfil their tasks. themselves using secure credentials",
@@ -294,6 +290,112 @@
   {
     "query": "A new employee calls the help desk because their phone will not connect to the office wi-fi. iPhone 7",
     "response": "Configuration"
+  }, 
+  {
+    "query": "What tool will distinguish client accounts and provide support for recording and reporting billable support activity?",
+    "response": "RMM"
+  },
+  {
+    "query": "Which of the following alternatives can a customer select from when an issue cannot be resolved remotely?",
+    "response": "Replace, Repair"
+  },
+  {
+    "query": "After starting the computer and signing in, a user notices the desktop takes a long time to load. Evaluate the following Windows operating system problems to determine the one that best diagnoses what could be causing the slowness.",
+    "response": "Corrupted user profile"
+  },
+  {
+    "query": "A server administrator experiences performance issues on a server and needs to narrow down the source of the problem. The server is an externally facing website with high visibility for the company. The longer the site is having issues, the more customers might notice and possibly damage the company's reputation. What can the administrator use to view and log performance statistics?",
+    "response": "perfmon.msc, resmon.exe"
+  },
+  {
+    "query": "What group has complete privilege control over a system?",
+    "response": "Administrator"
+  },
+  {
+    "query": "The electronic health records software application crashes during a busy day at a doctor's office. The IT consultant for the practice knows that the application backs up data in real-time and has the latest update installed. Which of the following options is the only one that could potentially fix the crashing issue?",
+    "response": "Uninstall and reinstall the application"
+  },
+  {
+    "query": "An administrator in charge of user endpoint images wants to slipstream and use image deployment. Which boot method would best support this?",
+    "response": "Network"
+  },
+  {
+    "query": "A client administrator sets up a new system for GUID partition table (GPT) partitioning. What dependency will the administrator need to set?",
+    "response": "UEFI"
+  },
+  {
+    "query": "A helpdesk technician is helping a user experiencing printer problems. After several troubleshooting steps, the technician thinks the user may have installed the wrong driver. Where can they go to install a different driver for the printer?",
+    "response": "Device Manager"
+  },
+  {
+    "query": "A company needs to set up perimeter security to control and monitor who can approach the building. Which of the following should the company use? (Select three.)\"",
+    "response": "Access control vestibule"
+  },
+  {
+    "query": "An administrator uses a method that uses simultaneous authentication of equals (SAE) instead of the 4-way handshake. What is this method?",
+    "response": "WPA3"
+  },
+  {
+    "query": "A software development team is unaware of an exploitable vulnerability in the system. What is this type of vulnerability?",
+    "response": "Zero-day attack"
+  },
+  {
+    "query": "A security awareness trainer spends a good portion of the training class talking about phishing, given its popularity as an attack vector. Phishing campaigns are getting more sophisticated, so the trainer is helping the class learn how to identify a phishing email. Which of the following is an indicator of phishing?",
+    "response": "Urgency, Disguised links, Inconsistent sender and reply to addresses"
+  },
+  {
+    "query": "A teenager hears from friends about a legitimate website to download games to their Samsung Galaxy phone that is not in the Google Play store. The teenager goes to the site and downloads some games. What best describes the teenager's behavior?",
+    "response": "APK Sideloading"
+  },
+  {
+    "query": "What are the options when a company wants to create and deliver a custom app for its employees without using a public store? (Select two.)",
+    "response": "Managed Google Play, Apple Business Manager"
+  },
+  {
+    "query": "Rooting is typically an action related to Android, while jailbreaking is associated with iOS. They are both trying to accomplish the same goal. What is that goal?",
+    "response": "Gain unrestricted access"
+  },
+  {
+    "query": "What method gets a system back up and running using the previous configuration after a change has failed during maintenance before the recommended amount of time elapses?",
+    "response": "Rollback Plan"
+  },
+  {
+    "query": "An employee is working with a substance that can potentially harm them. Which of the following should they use? (Select two.)",
+    "response": "Air filter mask, Safety goggles"
+  },
+  {
+    "query": "A technician is cleaning a computer and notices dust forming over the fan blades and ventilation slots. What can the technician use to perform dust cleanup? (Select all that apply.)",
+    "response": "PC vacuum cleaner, Natural bristle brush, Compressed air blaster"
+  },
+  {
+    "query": "A server administrator wants to run the latest technologies. What technology should the administrator start using that will replace the New Technology File System (NTFS)?",
+    "response": "ReFS"
+  },
+  {
+    "query": "A user downloaded a script, but the file was in a text file format. The user needs to change the extension to a PowerShell script to run it, but they do not see the extension. Where can the user configure this setting?",
+    "response": "File Explorer Options View tab"
+  },
+  {
+    "query": "An employee uses an option to ask for help from a technician with an invitation file protected by a passcode. What is this option?",
+    "response": "Remote Assistance"
+  },
+  {
+    "query": "Employees are expected to stay updated on skills and knowledge to cope with changing threat types. Which of the following covers this?",
+    "response": "Security-awareness training"
+  },
+  {
+    "query": "A low battery charge can cause several different problems to occur on a mobile device. Which of the following issues could stem from a low battery? (Select all that apply.)",
+    "response": "Weak Wi-Fi signal, Weak Bluetooth signal"
+  },
+  {
+    "query": "Over the course of a day, a user's computer becomes slow, and pop-ups randomly appear on the screen. Later, these pop-ups become more frequent, and the user notices that Internet searchers are using Google versus the selected default web browser, Firefox. Once the computer starts repeatedly crashing, the user calls tech support for help. Considering these data points, which is the best diagnosis for the observed problem?",
+    "response": "Adware or spyware infection"
+  },
+  {
+    "query": "A new employee is going over the site safety handbook about the correct ways of carrying objects so they do not damage the object or get injured. What is this called?",
+    "response": "Lifting techniques"
   }
+
+
 
 ]
