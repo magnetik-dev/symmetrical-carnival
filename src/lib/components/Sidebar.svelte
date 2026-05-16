@@ -1,11 +1,30 @@
-<script>
+<script lang="ts">
+	import { onMount, onDestroy } from 'svelte';
+
 	let { children } = $props(); // 'children' is the Svelte 5 way to handle slots
-	
+    
 	let isOpen = $state(false); // Reactive state rune
 
 	const toggleMenu = () => {
 		isOpen = !isOpen;
 	};
+
+	// Delegate clicks from slot content to close the menu when an anchor is activated.
+	let wrapperEl: HTMLElement | null = null;
+	let _clickHandler: (e: Event) => void;
+
+	onMount(() => {
+		_clickHandler = (e: Event) => {
+			const target = e.target as Element | null;
+			const anchor = target?.closest('a');
+			if (anchor) toggleMenu();
+		};
+		if (wrapperEl) wrapperEl.addEventListener('click', _clickHandler);
+	});
+
+	onDestroy(() => {
+		if (wrapperEl && _clickHandler) wrapperEl.removeEventListener('click', _clickHandler);
+	});
 </script>
 
 <!-- The Toggle Button -->
@@ -23,7 +42,7 @@
     <button onclick={toggleMenu}  class="button has-text-danger has-background-dark is-rounded side-nav-close is-clickable" title="Close menu" aria-label="Close Menu">
         <span class="fa fa-close" ></span>
     </button>
-	<div class="menu-content-wrapper">
+	<div class="menu-content-wrapper" bind:this={wrapperEl}>
 		{@render children?.()}
 	</div>
 </aside>

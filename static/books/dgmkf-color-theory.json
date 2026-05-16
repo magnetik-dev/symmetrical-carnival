@@ -1,0 +1,38 @@
+[
+  {
+    "query": "What is the purpose of the colour wheel?",
+    "response": "To help people make colour combinations that work well together."
+  },
+  {
+    "query": "How are secondary and tertiary colours created?",
+    "response": "Secondary: by mixing two primary colours; Tertiary: by combining secondary and primary colours."
+  },
+  {
+    "query": "If white is added to a colour, that colour becomes a_____. If black is added to a colour, that colour becomes a ____.",
+    "response": "If white is added to a colour, that colour becomes a _____. \u2192 tint, If black is added to a colour, that colour becomes a ____. \u2192 shade"
+  },
+  {
+    "query": "What are two complementary colour schemes?",
+    "response": "Blue and orange; red and green."
+  },
+  {
+    "query": "How could an analogous colour scheme be described?",
+    "response": "Serene, comfortable, harmonious, pleasing to the eye."
+  },
+  {
+    "query": "Split-complementary colour schemes utilize three colours rather than two. They have the same strong visual contrast as the complementary colour scheme, but have less tension.",
+    "response": "The correct answer is 'True'."
+  },
+  {
+    "query": "What colour scheme is especially bad for text?",
+    "response": "Complementary"
+  },
+  {
+    "query": "How many colours are included in a rectangle or square colour scheme?",
+    "response": "Four"
+  },
+  {
+    "query": "What are the three neutral colours on the colour wheel?",
+    "response": "White, Black, Grey"
+  }
+]
