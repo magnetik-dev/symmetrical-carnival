@@ -38,14 +38,21 @@
   const dataOptions = [
         { value: 'dtant-module-quiz', label: 'DTANT Module Quiz' },
     { value: 'dtant-final', label: 'DTANT Final Exam' }
-  ]
+  ];
+  const digitalDesignOptions = [
+    { value: 'dgmkf-color-theory', label: 'Color Theory' },
+    { value: 'dgmkf-mid-term', label: 'DGMKF Mid-Term Exam' },
+    { value: 'dgmkf-final-exam', label: 'DGMKF Final Exam' }
+  ];
 
-  const bookOptions = cyberOptions.concat(dataOptions);
+  const bookOptions = cyberOptions.concat(dataOptions)
+                            .concat(digitalDesignOptions);
 
   $effect(() => {
     entries = data.entries;
     // keep rune in sync if the page load ever changes (rare)
     book = data.book; 
+    search = ''; // reset search on new data load
   });
 
   let filtered = $derived(
@@ -75,6 +82,14 @@
                     <p class="menu-label">Data Analytics</p>
                     <ul class="menu-list">
                         {#each dataOptions as option}
+                        <li>
+                            <a href="/quiz?book={option.value}" class="has-text-primary">{option.label}</a>
+                        </li>
+                        {/each}
+                    </ul>
+                    <p class="menu-label">Digital Design</p>
+                    <ul class="menu-list">
+                        {#each digitalDesignOptions as option}
                         <li>
                             <a href="/quiz?book={option.value}" class="has-text-primary">{option.label}</a>
                         </li>
