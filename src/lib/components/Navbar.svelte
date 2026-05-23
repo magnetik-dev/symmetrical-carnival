@@ -12,7 +12,7 @@
 <nav class="navbar is-dark" aria-label="main navigation">
     <div class="container">
         <div class="navbar-brand">
-            <a class="navbar-item is-size-2 title mb-0" href="/">
+            <a class="navbar-item is-size-2 is-size-4-mobile title mb-0" href="/">
                 Symmetrical Carnival
             </a>
 

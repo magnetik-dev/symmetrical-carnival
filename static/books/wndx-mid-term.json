@@ -159,5 +159,25 @@
   {
     "query": "You have a computer running Windows 8.1. You want to migrate to Windows 11 using a wipe-and-load migration to transfer files and folders. Which of the following methods could you use?",
     "response": "PCmover Express"
+  },
+  {
+    "query": "An employee in your organization has started to work from home two days a week. The employee uses the same company laptop at the office and at home...",
+    "response": "Configure and alternate TCP/IP configuration"
+  },
+  {
+    "query": "What is the Windows Configuration Designer",
+    "response": "A tool used to create provisioning packages"
+  },
+  {
+    "query": "You do not use the Microsoft XPS Document Writer.",
+    "response": "Turn Windows features on or off"
+  },
+  {
+    "query": "Which of the following is available in all editions of Windows 11 and require special hardware",
+    "response": "Windows Hello"
+  },
+  {
+    "query": "You use a Windows client system on your desktop. Your company has started the migration to ipv6 on the network",
+    "response": "net use"
   }
 ]

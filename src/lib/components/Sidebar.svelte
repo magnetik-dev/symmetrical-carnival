@@ -28,13 +28,17 @@
 </script>
 
 <!-- The Toggle Button -->
-<button 
-	class="button is-primary is-dark menu-trigger" 
-	onclick={toggleMenu}
-	aria-label="Toggle navigation"
->
-	<span>☰</span>
-</button>
+<div class="has-text-centered">
+    <button 
+        class="button is-primary is-medium is-dark menu-trigger" 
+        onclick={toggleMenu} title="Show courses menu"
+        aria-label="Show courses menu">
+        <i class="fa fa-book" aria-hidden="true"></i>
+        <div class="is-hidden-desktop pl-2">
+            <span>Select Course</span>
+        </div>
+    </button>
+</div>
 
 <!-- The Side Navigation -->
 

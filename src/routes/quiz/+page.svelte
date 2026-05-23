@@ -130,7 +130,7 @@
         {#if filtered.length === 0}
             <p class="has-text-centered has-text-info is-size-3 ">No results found</p>
         {:else}
-        <p class="has-text-size-5 has-text-centered has-text-weight-bold">
+        <p class="has-text-size-5 has-text-centered has-text-weight-bold is-hidden-touch">
             <span class="tag is-info is-dark ">{bookOptions.find(opt => opt.value === book)?.label || 'All Books'}</span> 
             <span class="tag is-primary is-dark">{filtered.length} result{filtered.length > 1 ? 's' : ''}</span>
         </p>
@@ -140,8 +140,8 @@
                 <div class="column is-8">
                     <span class="is-size-5">{item.query}</span>
                 </div>
-                <div class="column has-background-info-dark has-text-centered is-rounded">
-                    <span class="is-size-4 has-text-primary">{item.response}</span>
+                <div class="column has-background-info-dark has-text-centered is-rounded box is-shadowless">
+                    <span class="is-size-5 has-text-primary">{item.response}</span>
                 </div>
             </div>
             {/each}
