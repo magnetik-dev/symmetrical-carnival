@@ -118,5 +118,61 @@
   {
     "query": "You have installed Intune and enrolled your corporate devices. You want to be able to collect information about the traffic that moves between devices on your network. Which of the following Azure Monitor services allows you to collect the data for analysis?",
     "response": "Azure Monitor for Networks"
+  },
+  {
+    "query": "Which command can be used to attempt to repair infected files?",
+    "response": "sfc"
+  },
+  {
+    "query": "You have decided to deploy an app by user from Intune to all employee Windows laptops. When will the app be installed?",
+    "response": "Only when the designated user signs into the laptop."
+  },
+  {
+    "query": "Which tool can you use to manage a system remotely using a graphical user interface?",
+    "response": "Graphical Microsoft Management Console"
+  },
+  {
+    "query": "You have installed Microsoft Intune and enrolled your company's computing devices, and you have created a policy for all Windows 11 devices. You have just updated the policy and Intune has notified all targeted devices that the update is available. What is the default setting for the devices to check for policy updates?",
+    "response": "Every 8 hours"
+  },
+  {
+    "query": "You have created a custom Storage Limits device profile for the laptops on the manufacturing floor of your company. You want to make sure that the profile applies to those laptops and all users on those laptops. Which of the following should you do to meet your requirements?",
+    "response": "Assign the profile to a device group."
+  },
+  {
+    "query": "You are using a Premium account for OneDrive. How long will your files stay in the Recycle Bin?",
+    "response": "93 days"
+  },
+  {
+    "query": "Your Windows system has two volumes defined. The C: volume contains the Windows system and is formatted with NTFS. The D: volume is formatted with FAT32. Which action must you take to create a system image backup with the D: volume as the destination?",
+    "response": "Convert the D: drive to NTFS"
+  },
+  {
+    "query": "You have decided to install a Line of Business (LOB) application on the Windows workstations in the financial department by device. In order to install the LOB app, you would normally need to assign the app to a device group in Intune. However, there is another method available that does not require a device group assignment. What is that method?",
+    "response": "You install the application in combination with an Autopilot pre-previsioning process."
+  },
+  {
+    "query": "Which of the following Intune app management capabilities is designed to let you limit the apps that can be installed on enrolled devices?",
+    "response": "Compliant and non-compliant apps"
+  },
+  {
+    "query": "Which of the following are required fields when creating a Microsoft Intune Profile?",
+    "response": "Platform, Name, Assignments, Applicability Rules"
+  },
+  {
+    "query": "You are supporting a Windows 10 computer that has the following volumes: The C: drive is the system drive with user profiles and individual user files. The D: drive holds data files common to all users. System Protection has been configured as follows: A system image backup has been created that includes both the C: and D: drives. Regular backups are scheduled to back up all user libraries. The scheduled backup includes a system image. System Restore has been used to take a snapshot. A user has edited and saved a file on the D: drive. The user doesn't like the changes and wants to revert to a previous version of the file. The user goes to the Previous Versions tab of the file and sees nothing listed. How can you help the user restore the previous version of the file?",
+    "response": "Restore the file from the system image."
+  },
+  {
+    "query": "Your Windows 10 computer has the following drives: C: (System drive with user profiles) E: (Data files) F: (External USB hard drive) You enable system protection on the C: drive. You also schedule regular backups with the following settings: Back up all user libraries Back up the C: and E: drives Include a system image Save the backup to the F: drive Last night the E: drive crashed. How can you restore the data files found in the E: drive?",
+    "response": "Use the Backup and Restore console to restore data from a backup."
+  },
+  {
+    "query": "You need to create a recovery drive for your Windows system. To do this, you've procured a USB flash drive with the following characteristics: USB version: 2.0 Capacity: 4 GB Can you create a recovery drive using this device?",
+    "response": "No. The device must be 8 GB (or larger) in size."
+  },
+  {
+    "query": "Which of the following is the most complete and correct listing of platforms on which you can update and manage Microsoft Intune policies?",
+    "response": "Windows, iOS/iPadOS, and Mac."
   }
 ]
