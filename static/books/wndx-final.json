@@ -174,5 +174,37 @@
   {
     "query": "Which of the following is the most complete and correct listing of platforms on which you can update and manage Microsoft Intune policies?",
     "response": "Windows, iOS/iPadOS, and Mac."
+  },
+ {
+    "query": "A user contacts you to let you know their Intune-enrolled device has been remotely locked. What would have caused this?",
+    "response": "The user's device is non-compliant and was remotely locked."
+  },
+  {
+    "query": "You want to use a Microsoft tool to provide remote assistance on Windows 11 laptops assigned to your employees. You also want limit the administrative tasks that Level 1 Help Desk support staff can perform on a remotely-connected laptop. You have Intune installed and are using Azure Active Directory to manage users and accounts. Which of the following tools would BEST meet your remote connection requirements?",
+    "response": "Remote Help"
+  },
+  {
+    "query": "What tool can be used to automatically fix common startup problems?",
+    "response": "Startup Repair"
+  },
+  {
+    "query": "Which of the following BEST describes the Role-Based Access Control (RBAC) feature of Remote Help in Intune?",
+    "response": "Ensures that only authorized users can initiate and receive remote help sessions."
+  },
+  {
+    "query": "Which special permission specifies whether a user can make changes to the end of the file but not change, delete, or overwrite existing data?",
+    "response": "Create folders / append data"
+  },
+    {
+    "query": "You are the Windows desktop administrator for your company. You would like to manage your computers remotely using the Windows Remote Shell. You need to enable remote management on each target computer. What should you do?",
+    "response": "Start the Telnet Client on each computer."
+  },
+  {
+    "query": "You have previously installed Windows 11 on two new computers and configured both computers with BitLocker. Both computers have a TPM installed. Because of a hardware failure, one of the computers will not boot. You replace the failed hardware, but now BitLocker is preventing the system from starting because it has failed the startup system integrity checks. Which of the following options would you use to reconfigure BitLocker so the system will start?",
+    "response": "Recovery key"
+  },
+  {
+    "query": "Where in Microsoft Intune can you go to manage and deploy device updates?",
+    "response": "Device list"
   }
 ]

@@ -1,0 +1,427 @@
+[
+    {"query": "What does the term processing speed refer to?", "response": "How fast a computer performs a given operation or task"},
+    {"query": "Which of the following is considered an input device?", "response": "Keyboard"},
+    {"query": "Why should you have the user work with the system after fixing a problem?", "response": "To make sure the issue is fully resolved"},
+    {"query": "Why is it important to document your findings after resolving an issue?", "response": "To remember what you did and help others"},
+    {"query": "Why might your actual internet speed be different from what your ISP advertises?", "response": "Because of network congestion and other factors"},
+    {"query": "What is the purpose of having the user perform their typical tasks after a fix?", "response": "To make sure the system is working properly"},
+    {"query": "What is the first step after fixing a problem?", "response": "Test the results of your fix"},
+    {"query": "What is an example of a throughput unit for a very high-speed network?", "response": "Tbps"},
+    {"query": "What should you do if you can replicate the problem?", "response": "Move on to figuring out how to fix it"},
+    {"query": "A user has entered a search string into an application and clicked on the Search icon. Which of the following is the NEXT step in the computing process?", "response": "Process"},
+    {"query": "In the computing cycle, which step makes it possible to reopen and edit a saved report?", "response": "Storage"},
+    {"query": "Which storage unit is the largest?", "response": "Petabyte (PB)"},
+    {"query": "What does a byte represent in computing?", "response": "A group of 8 bits"},
+    {"query": "In computing, why is the hexadecimal system useful?", "response": "It uses fewer digits to represent binary numbers."},
+    {"query": "Why is it important to back up important data before implementing a fix?", "response": "To avoid losing data"},
+    {"query": "What should you write down after replicating the problem?", "response": "All important symptoms and error messages"},
+    {"query": "What should you do before implementing a fix?", "response": "Make sure you have the necessary tools and permissions"},
+    {"query": "What is the first step in fixing a problem?", "response": "Identifying the problem"},
+    {"query": "What does Question the Obvious mean?", "response": "Check for easy and common issues first"},
+    {"query": "What is the maximum number a single byte can hold?", "response": "255"},
+    {"query": "What is data at rest?", "response": "Data that is saved and not currently being used"},
+    {"query": "What is defense in depth?", "response": "A layered security approach"},
+    {"query": "What is heuristic identification in antivirus software?", "response": "Looking for actions or behaviors similar to what viruses do"},
+    {"query": "Which company has two separate app stores for mobile devices and computers?", "response": "Apple"},
+    {"query": "What search engine focuses on user privacy and does not collect or store your personal information?", "response": "DuckDuckGo"},
+    {"query": "What is a primary reason websites want you to accept their cookies?", "response": "To show you more ads based on your interests"},
+    {"query": "What is a site license?", "response": "A license that allows software to be installed on multiple computers for one price."},
+    {"query": "What is an App Store?", "response": "A platform where users can search for and download apps"},
+    {"query": "What should companies do to ensure physical security of servers?", "response": "Keep servers in a locked room"},
+    {"query": "Who has a role in cybersecurity within a company?", "response": "All employees"},
+    {"query": "You receive a suspicious text message claiming to be from your phone service provider asking you to verify account details. What should you do?", "response": "Call the phone service provider using the number on their official website"},
+    {"query": "What is a lunchtime attack?", "response": "An attack that happens during lunch breaks when devices are left unattended"},
+    {"query": "What is a false positive in antivirus software?", "response": "When the software detects a virus that isn't actually harmful"},
+    {"query": "What should you do if you receive an unexpected email with an attachment?", "response": "Verify the sender before opening the attachment."},
+    {"query": "Which of the following is an example of 'Something You Know'?", "response": "Passphrase"},
+    {"query": "What is spyware?", "response": "Software that records information about a PC and its users"},
+    {"query": "Why is end-to-end encryption important for instant messaging?", "response": "It prevents third parties from reading your messages."},
+    {"query": "What is proprietary software?", "response": "Software that is made by companies and sold for profit."},
+    {
+        "query": "What is container virtualization?",
+        "response": "A lighter way to run many apps without them interfering with each other."
+    },
+    {
+        "query": "What type of hypervisor is needed to use virtualization on an existing OS?",
+        "response": "Type II hypervisor"
+    },
+    {
+        "query": "What is the purpose of network protocols?",
+        "response": "To create a common set of rules for network communication"
+    },
+    {
+        "query": "What is a VLAN?",
+        "response": "A logical network segment within a larger network"
+    },
+    {
+        "query": "The Institute of Electrical and Electronics Engineers (IEEE) established what standards for wireless communications?",
+        "response": "802.11"
+    },
+    {
+        "query": "What is the term for the device that converts fiber optic signals into a form that devices can understand?",
+        "response": "Fiber Optical Network Terminal"
+    },
+    {
+        "query": "What should you be cautious of when downloading drivers from websites other than the manufacturer's?",
+        "response": "Corrupt software or malware"
+    },
+    {
+        "query": "Which of the following is NOT a feature of Private Mode?",
+        "response": "Hiding your IP address"
+    },
+    {
+        "query": "What is one challenge of coordinating Zoom calls across large geographic areas?",
+        "response": "Different time zones"
+    },
+    {
+        "query": "What is the primary purpose of diagramming software?",
+        "response": "To create visual representations of projects"
+    },
+    {
+        "query": "What tab in Task Manager shows the resources used by each open application and process?",
+        "response": "Processes"
+    },
+    {
+        "query": "What is the benefit of regularly backing up your browser data?",
+        "response": "To ensure you have a copy of your bookmarks and settings"
+    },
+    {
+        "query": "What are Plug and Play devices?",
+        "response": "Devices that automatically get their drivers from Windows"
+    },
+    {
+        "query": "What is the main reason AI has started to take off in recent years?",
+        "response": "Better computer hardware"
+    },
+    {
+        "query": "Which productivity software suites are free?",
+        "response": "Google Docs, LibreOffice"
+    },
+    {
+        "query": "What happens if the exact right driver isn't installed on Windows?",
+        "response": "The hardware might not work properly"
+    },
+    {
+        "query": "Why are GUIs considered user-friendly?",
+        "response": "They use visual aids and natural movements."
+    },
+    {
+        "query": "Which of the following is a benefit of using a password manager?",
+        "response": "It stores and encrypts your passwords securely."
+    },
+    {
+        "query": "What happens when you delete a file from a hard disk drive (HDD)?",
+        "response": "A gap of free space is created"
+    },
+    {
+        "query": "What is software?",
+        "response": "A set of instructions that tells a computer what to do"
+    },
+    {
+        "query": "What is a file?",
+        "response": "A container for data"
+    },
+    {
+        "query": "What is artificial intelligence (AI)?",
+        "response": "A machine that can solve problems and create new content with minimal human input."
+    },
+    {
+        "query": "What is a type of AI that is easy for everyone to use?",
+        "response": "Generative AI"
+    },
+    {
+        "query": "What should you do if you want to prevent certain apps from starting automatically when your computer turns on?",
+        "response": "Use Task Manager to disable them"
+    },
+    {
+        "query": "What is the purpose of a file extension?",
+        "response": "To determine the default application to open the file"
+    },
+    {"query": "What is the main difference between managed and unmanaged switches?", "response": "Managed switches can be configured, unmanaged switches cannot"},
+    {"query": "What does the term hot-swapping refer to in the context of SATA drives?", "response": "Changing the drive while the computer is powered on"},
+    {"query": "What is the main advantage of using RAID in a NAS?", "response": "It helps prevent data loss"},
+    {"query": "What component is primarily responsible for handling graphics in a gaming console?", "response": "GPU"},
+    {"query": "What is the traditional way of setting up and running systems and software called?", "response": "On-premises management"},
+    {"query": "What does DDR stand for in memory technology?", "response": "Double Data Rate"},
+    {"query": "What is an example of Software as a Service (SaaS)?", "response": "Gmail"},
+    {"query": "What technology allows some printers to scan an image and turn it into an editable document?", "response": "OCR"},
+    {"query": "Which companies are the main manufacturers of CPUs for consumers and servers?", "response": "Intel and AMD"},
+    {"query": "Which cloud service model allows you to use a program through your web browser over the Internet?", "response": "Software as a Service (SaaS)"},
+    {"query": "What is the main goal of Plug-and-Play technology?", "response": "To make it easy for users to set up hardware without technical knowledge."},
+    {"query": "What does the XOR operation return if both conditions are True?", "response": "False"},
+    {"query": "Which of the following is an example of a floating-point number?", "response": "8.02"},
+    {"query": "What is the purpose of using functions in programming?", "response": "To avoid repeating the same code"},
+    {"query": "What is a variable in a computer program?", "response": "A container that holds data for use later"},
+    {"query": "What does SQL stand for?", "response": "Structured Query Language"},
+    {"query": "What type of variable is used to store the value True or False?", "response": "Boolean"},
+    {"query": "What should be done before starting to code a program?", "response": "Decide what the program should do"},
+    {"query": "What is a class in object-oriented programming (OOP)?", "response": "A blueprint or template for creating objects."},
+    {"query": "In what areas is assembly language still used today?", "response": "Specialized areas"},
+    {"query": "What is an object in object-oriented programming (OOP)?", "response": "A specific model built from a class."},
+    {"query": "Which symbol is used to show the logical flow of the program in a flowchart?", "response": "Arrow"},
+    {"query": "If condition A is True and condition B is False, what does the OR operation return?", "response": "True"},
+    {"query": "What is the main purpose of pseudocode?", "response": "To describe what the code will do using plain language"},
+    {"query": "Why are interpreted languages slower than compiled languages?", "response": "They translate the code into machine language as it runs"},
+    {"query": "What is a constant in a computer program?", "response": "A value that never changes"},
+    {"query": "What is the main purpose of adding comments to a program?", "response": "To explain different parts of the program"},
+    {"query": "Why are compiled languages often used for resource-intensive programs like high-end video games?", "response": "Because they run quickly and efficiently"},
+    {"query": "Which type of loop keeps running as long as a certain condition is met?", "response": "While loop"},
+    {"query": "What is a key benefit of using offline databases?", "response": "They reduce the risk of cyber attacks."},
+    {"query": "Why is it important to back up your whole computer system?", "response": "To make it easier and faster to recover your computer"},
+    {"query": "What is one advantage of local databases?", "response": "They can be accessed faster"},
+    {"query": "Which of the following can be a primary key?", "response": "Phone number"},
+    {"query": "Why are key-value databases useful for tasks that need quick data access?", "response": "They have a flexible structure"},
+    {"query": "What does a key in a key-value database represent?", "response": "A unique identifier"},
+    {"query": "What is Carbonite primarily used for in businesses?", "response": "Backing up files and folders automatically"},
+    {"query": "Which of the following correctly defines a field?", "response": "A single piece of information in a database"},
+    {"query": "What is cloud storage?", "response": "Using space on another computer through the Internet"},
+    {"query": "What type of data is divided into clear, separate categories?", "response": "Structured data"},
+    {"query": "What is the purpose of the Recycle Bin in Windows and the Trash in macOS?", "response": "To temporarily store deleted files before they are permanently removed"},
+    {"query": "How does a document database store data?", "response": "In flexible documents"},
+    {"query": "What is a database?", "response": "A highly organized, multi-table digital storage system"},
+    {"query": "What is the best way to enter large amounts of data into a database?", "response": "Importing it from other sources"},
+    {"query": "Which type of data model is the simplest?", "response": "Conceptual Data Model"},
+    {"query": "What is the purpose of forms in a database?", "response": "To reduce data entry errors"},
+    {"query": "Which action is most likely to cause a user to mistakenly believe that their files have been backed up, even though the original files have been removed?", "response": "Moving files instead of copying them"},
+    {"query": "What is one reason organizations prefer databases over spreadsheets?", "response": "Databases can handle more data points efficiently."},
+    {
+        "query": "Which of the following is a common type of archived file?",
+        "response": "zip"
+    },
+    {
+        "query": "If you use the same password on multiple sites and one site gets hacked, what should you do?",
+        "response": "Change your password on all sites."
+    },
+    {
+        "query": "What is a document database?",
+        "response": "A type of non-relational database"
+    },
+    {
+        "query": "What is targeted marketing?",
+        "response": "A method where companies show ads for things they think you'll like based on the data they collect about you"
+    },
+    {
+        "query": "What is a benefit of learning one software program?",
+        "response": "It allows you to perform common tasks in other programs"
+    },
+    {
+        "query": "Which motherboard connection is commonly used with M.2 SSDs?",
+        "response": "PCIe"
+    },
+    {
+        "query": "Which of the following is a free spreadsheet software option with limited advanced features?",
+        "response": "Google Sheets"
+    },
+    {
+        "query": "You suspect that your virtual assistant might be recording sensitive information. What is the BEST solution?",
+        "response": "Set the device Privacy settings to Don't Save Recordings."
+    },
+    {
+        "query": "Why is it easier to reinstall programs now compared to the past?",
+        "response": "Programs are available online"
+    },
+    {
+        "query": "What should you do if you hear about a data breach at a company where you have an account?",
+        "response": "Change your password immediately"
+    },
+    {
+        "query": "How many wires are inside an Ethernet cable?",
+        "response": "8"
+    },
+    {
+        "query": "What is the significance of frame rate in video output?",
+        "response": "It affects how smooth graphics and animations appear"
+    },
+    {
+        "query": "What is the primary function of the Task Manager in Microsoft Windows systems?",
+        "response": "To monitor performance and manage services"
+    },
+    {
+        "query": "Why are arrays useful?",
+        "response": "They can be used in loops to go through values one by one"
+    },
+    {
+        "query": "Which numbering system is used to represent file permissions in Linux?",
+        "response": "Octal"
+    },
+    {
+        "query": "What is the primary function of a wireless access point (AP)?",
+        "response": "To enable wireless devices to connect to the network"
+    },
+    {
+        "query": "What does bandwidth refer to in networking?",
+        "response": "The highest amount of data a network can handle at once"
+    },
+    {
+        "query": "Which word processing software is free and looks a lot like Microsoft Word?",
+        "response": "LibreOffice Writer"
+    },
+    {
+        "query": "What does \"Integrity\" in the CIA Triad guarantee?",
+        "response": "Information is stored and transferred as intended"
+    },
+    {
+        "query": "What is a key feature of 3D flash memory compared to 2D flash memory?",
+        "response": "It stacks layers of memory."
+    },
+    {
+        "query": "What unit is used to measure latency?",
+        "response": "Milliseconds (ms)"
+    },
+    {
+        "query": "Which cloud service model is usually for developers and database administrators?",
+        "response": "Platform as a Service (PaaS)"
+    },
+    {
+        "query": "Which type of CPU socket mechanism helps prevent damage to the motherboard?",
+        "response": "Zero Insertion Force (ZIF)"
+    },
+    {
+        "query": "What is a pre-shared key?",
+        "response": "A password used to access a wireless network"
+    },
+    {
+        "query": "Which of the following is a computer OS and not a mobile OS?",
+        "response": "Windows"
+    },
+    {
+        "query": "What is ciphertext?",
+        "response": "Text that has been encrypted"
+    },
+    {
+        "query": "What should you be cautious about when using browser extensions?",
+        "response": "Hackers could trick you into spoofed websites."
+    },
+    {
+        "query": "Why do CPUs need cooling systems?",
+        "response": "They process billions of instructions every second"
+    },
+    {
+        "query": "Which is a disadvantage of integrated graphics?",
+        "response": "They share system resources with the CPU"
+    },
+    {
+        "query": "What happens when the condition in a While loop is no longer met?",
+        "response": "The loop stops running."
+    },
+    {
+        "query": "What is an escape character used for in a string?",
+        "response": "To include special characters in the output"
+    },
+    {
+        "query": "Which type of cable is most commonly used in wired networks?",
+        "response": "Ethernet cable"
+    },
+    {
+        "query": "After changing the signal, where does the modem send the signal?",
+        "response": "To the router"
+    },
+    {
+        "query": "What is a data center?",
+        "response": "A dedicated location that holds thousands of servers"
+    },
+    {
+        "query": "What does \"flashing\" the UEFI mean?",
+        "response": "Updating the firmware"
+    },
+    {
+        "query": "What is a soft robot?",
+        "response": "A robot designed to handle delicate items gently with flexible materials"
+    },
+    {
+        "query": "What does 1 Megahertz (MHz) represent?",
+        "response": "1 million cycles per second"
+    },
+    {
+        "query": "What is a MAC address?",
+        "response": "A unique hexadecimal number hardcoded in a device"
+    },
+    {
+        "query": "What is a hybrid cloud?",
+        "response": "A combination of public and private cloud models"
+    },
+    {
+        "query": "What is the process of making a compiled program work on different platforms called?",
+        "response": "Porting"
+    },
+    {
+        "query": "Which of the following is a sign of a potentially fake email?",
+        "response": "The email contains spelling or grammar mistakes."
+    },
+    {
+        "query": "What should you do if there is a power outage and you have a UPS connected to your computer?",
+        "response": "Use the operating system to shut down the computer"
+    },
+    {
+        "query": "What is a loop in programming?",
+        "response": "A sequence of instructions that is executed repeatedly."
+    },
+    {
+        "query": "What does throughput measure?",
+        "response": "How much data moves through a system in one second"
+    },
+    {
+        "query": "What are data brokers?",
+        "response": "Companies that collect and sell data"
+    },
+    {
+        "query": "How do robots help keep miners safe?",
+        "response": "By exploring and mapping areas that are too dangerous for humans"
+    },
+    {
+        "query": "What does \"Availability\" in the CIA Triad ensure?",
+        "response": "Information is readily available to authorized users"
+    },
+    {
+        "query": "What is the main advantage of using bytecode?",
+        "response": "It can run on any computer with a runtime engine."
+    },
+    {
+        "query": "Who created the first computer program?",
+        "response": "Ada Lovelace"
+    },
+    {
+        "query": "What is one advantage of 5G over older versions of wireless internet?",
+        "response": "It is faster and more responsive."
+    },
+    {
+        "query": "What does the period in a filename signify?",
+        "response": "The delimiter for the file extension"
+    },
+    {
+        "query": "What type of connection can almost all modern printers use?",
+        "response": "USB and Wi-Fi"
+    },
+    {
+        "query": "What is an example of Indirect PII?",
+        "response": "Postal code or ZIP code"
+    },
+    {
+        "query": "What is the role of a hypervisor in virtualization?",
+        "response": "It manages the virtual machine environment and facilitates interaction with the host hardware and network."
+    },
+    {
+        "query": "How can individuals monetize their own data?",
+        "response": "By participating in surveys"
+    },
+    {
+        "query": "Which type of data is best stored in a relational database?",
+        "response": "Structured data"
+    },
+    {
+        "query": "What is a software license?",
+        "response": "A type of receipt that gives you permission to run the software you paid for."
+    },
+    {
+        "query": "What is the main purpose of setting permissions on files and folders?",
+        "response": "To control who can access and modify them"
+    },
+    {
+        "query": "What is a container in programming?",
+        "response": "A set of values held by an identifier"
+    },
+    {
+        "query": "What might you need to do if Windows Update does not find a driver for your hardware?",
+        "response": "Obtain the driver from the device manufacturer"
+    }
+]

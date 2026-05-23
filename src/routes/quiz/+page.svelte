@@ -17,10 +17,7 @@
   let book = $state(data.book);
 
   const cyberOptions = [
-    { value: 'ca-itf4-1', label: 'CA-ITF4 Quiz 1' },
-    { value: 'ca-itf4-2', label: 'CA-ITF4 Quiz 2' },
-    { value: 'ca-itf4-3', label: 'CA-ITF4 Quiz 3' },
-    { value: 'ca-itf4-f', label: 'CA-ITF4 Final Quiz' },
+    { value: 'ca-itf4-all', label: 'CA-ITF4 Quizes' },
     { value: 'pc14-final', label: 'PC14 Final Quiz' },
     { value: 'pc24-final', label: 'PC24 Final Quiz' },
     { value: 'nwpo-exam1', label: 'NWPO Exam 1' },
@@ -41,8 +38,7 @@
   ];
   const digitalDesignOptions = [
     { value: 'dgmkf-color-theory', label: 'Color Theory' },
-    { value: 'dgmkf-mid-term', label: 'DGMKF Mid-Term Exam' },
-    { value: 'dgmkf-final-exam', label: 'DGMKF Final Exam' }
+    { value: 'dgmkf-quizes-all', label: 'DGMKF Quizes' }
   ];
 
   const bookOptions = cyberOptions.concat(dataOptions)

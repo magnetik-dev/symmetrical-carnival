@@ -52,14 +52,6 @@
     "response": "It analyzes current trends and historical data to make predictions"
   },
   {
-    "query": "How does brand tone differ from brand voice?",
-    "response": "Brand tone adapts to different situations or campaigns while brand voice stays the same."
-  },
-  {
-    "query": "What is the primary purpose of SEO (Search Engine Optimization)?",
-    "response": "Optimizing web pages to rank in Google's organic results"
-  },
-  {
     "query": "When is the prime time to send e-mails for better open rates, click-throughs, and sales?",
     "response": "8:00 p.m. to midnight"
   },
@@ -80,14 +72,6 @@
     "response": "Templates and tools"
   },
   {
-    "query": "What is the primary focus of digital marketing?",
-    "response": "Interacting with customers to drive purchases"
-  },
-  {
-    "query": "What characterizes long-tail keywords?",
-    "response": "They have low individual search volumes"
-  },
-  {
     "query": "Which of the following is an example of B2B?",
     "response": "Sundeep's company manufactures safety goggles and sells them to construction companies."
   },
@@ -98,14 +82,6 @@
   {
     "query": "What does social listening involve in social media marketing?",
     "response": "Keeping track of brand and industry mentions"
-  },
-  {
-    "query": "What distinguishes digital marketing analytics from web analytics?",
-    "response": "Digital marketing analytics covers various online channels, while web analytics is limited to website data."
-  },
-  {
-    "query": "What is the primary goal of copywriting in the context of marketing?",
-    "response": "Generating revenue and prompting action"
   },
   {
     "query": "What is a \"relevant\" goal?",
@@ -140,10 +116,6 @@
     "response": "Saturday and Sunday"
   },
   {
-    "query": "What is the primary purpose of descriptive analytics in digital marketing?",
-    "response": "Developing insights into past campaign performance"
-  },
-  {
     "query": "An effective marketing e-mail's preheader text should be no longer than:",
     "response": "75 characters."
   },
@@ -164,20 +136,8 @@
     "response": "Allocate at least half of the budget to digital channels"
   },
   {
-    "query": "Which type of copywriting is designed to improve search results ranking for specific queries?",
-    "response": "SEO copywriting"
-  },
-  {
     "query": "What is a good practice regarding hidden marketing costs?",
     "response": "A budget spreadsheet helps avoid unexpected costs."
-  },
-  {
-    "query": "What is a key distinction between marketing and branding strategies?",
-    "response": "Marketing strategies must evolve and change over time, while branding strategies must remain consistent over the time."
-  },
-  {
-    "query": "Why is SEM considered essential for businesses?",
-    "response": "It ensures content visibility through paid advertising."
   },
   {
     "query": "Why is voice search optimization becoming crucial in digital marketing?",
@@ -192,11 +152,127 @@
     "response": "Loyalty card coupons"
   },
   {
+    "query": "What is an effective strategy to reach out to an inactive group of subscribers?",
+    "response": "Implement re-engagement campaigns"
+  },
+  {
+    "query": "Which of the following is an example of an offline touchpoint?",
+    "response": "Business card"
+  },
+  {
+    "query": "Which colour do most people say is their favorite?",
+    "response": "Blue"
+  },
+  {
+    "query": "Why do companies choose their signature typeface carefully?",
+    "response": "All of the answers are correct"
+  },
+  {
+    "query": "Which of the following individuals might consult a brand style guide?",
+    "response": "All of the answers are correct"
+  },
+  {
+    "query": "What is Barbie's target market?",
+    "response": "Girls 3 - 9 years of age"
+  },
+  {
+    "query": "What does \"reach\" refer to?",
+    "response": "How many people, in total, will be part of the viewing audience for a particular advertisement"
+  },
+  {
+    "query": "What is the minimum number of interactions an individual must have with a brand in order to remember it?",
+    "response": "3 - 5"
+  },
+  {
+    "query": "What is wrong with the following goal? Annabelle's Ice Cream Parlor wants to double its profits in the next 24 hours.",
+    "response": "It's not attainable"
+  },
+  {
+    "query": "In a B2B environment, who are transactions between?",
+    "response": "A company and another company"
+  },
+  {
+    "query": "Business owners and marketers have automated feedback mechanisms at their disposal when it comes to monitoring their online marketing efforts. What are these feedback mechanisms called?",
+    "response": "Analytics"
+  },
+  {
+    "query": "What are keywords in the context of online search?",
+    "response": "All of the answers are correct"
+  },
+  {
+    "query": "What is the primary purpose of SEO (Search Engine Optimization)?",
+    "response": "Optimizing web pages to rank in Google's organic results"
+  },
+  {
+    "query": "How can a business optimize for keywords?",
+    "response": "By matching search intent"
+  },
+  {
+    "query": "What characterizes long-tail keywords?",
+    "response": "They have low individual search volumes"
+  },
+  {
+    "query": "What is the primary goal of copywriting in the context of marketing?",
+    "response": "Generating revenue and prompting action"
+  },
+  {
+    "query": "How does B2B copywriting differ from B2C copywriting?",
+    "response": "B2B copywriting is more professional and direct due to longer sales cycles"
+  },
+  {
+    "query": "Which type of copywriting is designed to improve search results ranking for specific queries?",
+    "response": "SEO copywriting"
+  },
+  {
+    "query": "Why is SEM considered essential for businesses?",
+    "response": "It ensures content visibility through paid advertising"
+  },
+  {
+    "query": "How does SEM differ from paid search, such as PPC ads?",
+    "response": "SEM is a broader strategy that includes paid search and SEO tactics"
+  },
+  {
+    "query": "What are the core components of SEO?",
+    "response": "On-page, off-page, and technical SEO"
+  },
+  {
+    "query": "What is the main difference between SEO and SEM?",
+    "response": "SEO relies on organic tactics, while SEM uses both paid and organic strategies"
+  },
+  {
+    "query": "How does brand tone differ from brand voice?",
+    "response": "Brand tone adapts to different situations or campaigns while brand voice stays the same"
+  },
+  {
+    "query": "What is the role of brand tone in communication?",
+    "response": "To adjust to specific messages, audiences, or platforms"
+  },
+  {
+    "query": "What is the primary focus of digital marketing?",
+    "response": "Interacting with customers to drive purchases"
+  },
+  {
+    "query": "What is a key distinction between marketing and branding strategies?",
+    "response": "Marketing strategies must evolve and change over the time, while branding strategies must remain consistent over the time"
+  },
+  {
     "query": "What does digital marketing analytics involve?",
     "response": "Collecting, analyzing, and implementing insights from digital marketing channels"
   },
   {
-    "query": "What is an effective strategy to reach out to an inactive group of subscribers?",
-    "response": "Implement re-engagement campaigns"
+    "query": "How many interactions, on average, does it take before a purchase occurs?",
+    "response": "7 interactions"
+  },
+  {
+    "query": "What is the primary purpose of descriptive analytics in digital marketing?",
+    "response": "Developing insights into past campaign performance"
+  },
+  {
+    "query": "What distinguishes digital marketing analytics from web analytics?",
+    "response": "Digital marketing analytics covers various online channels, while web analytics is limited to website data"
+  },
+  {
+    "query": "What is the significance of Return on Investment (ROI) in digital marketing analytics?",
+    "response": "It evaluates the success of marketing efforts and guides future decisions"
   }
 ]
