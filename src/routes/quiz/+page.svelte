@@ -25,7 +25,7 @@
     { value: 'pc24-final', label: 'PC24 Final Quiz' },
     { value: 'nwpo-exam1', label: 'NWPO Exam 1' },
     { value: 'nwpo-exam2', label: 'NWPO Exam 2' },
-    { value: 'wndx-mid-term', label: 'WNDX Mid-Term Exam' },
+    { value: 'wndx-mid-term', label: 'WNDX Mid-Term' },
     { value: 'wndx-final', label: 'WNDX Final Exam' },
     { value: 'ca-clodp-module-quiz', label: 'CA-CLODP Module Quiz' },
     { value: 'ca-clodp-final', label: 'CA-CLODP Final Exam' },
