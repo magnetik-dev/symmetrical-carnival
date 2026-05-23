@@ -49,11 +49,11 @@
                                 </button>
                             </div>
                             <!-- We don't offer a signup option right now-->
-                            
+                            <!--
                             <div class="control">
                                 <button class="button is-light" formaction="?/signup">Sign up</button>
                             </div>
-                            
+                            -->
                         </div>
                     </form>
                 </div>

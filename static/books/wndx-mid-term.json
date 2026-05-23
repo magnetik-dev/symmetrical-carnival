@@ -118,5 +118,66 @@
   {
     "query": "Which of the following measures will make your wireless network invisible to the casual attacker?",
     "response": "Disable SSID broadcast"
+  },
+
+   {
+    "query": "Your notebook computer is configured to connect to the wireless network at work using a wireless profile named Company1. The profile is configured to connect using 802.11b. During a recent upgrade, your company added an 802.11n wireless access point. The access point is configured to support 802.11n using one radio and 802.11b/g with the other radio. You create a second profile on your computer for the 802.11n network. You notice that your computer is connecting automatically using 802.11b. You want the computer to connect to 802.11n whenever it's available and only use 802.11b if 802.11n is unavailable. What should you do?",
+    "response": "Move the 802.11n profile up in the list of preferred networks."
+  },
+  {
+    "query": "Which of the following authentication services do current subscribers of Microsoft 365, Office 365, and Dynamic CRM already have an account with?",
+    "response": "Azure Active Directory"
+  },
+  {
+    "query": "To retrieve a password for a managed account in Azure Active Directory using LAPS, you need to have the appropriate permissions in your environment. Which of the following Active Directory groups gives you those permissions?",
+    "response": "Local Admin Password Solution Readers"
+  },
+  {
+    "query": "Meagan is a system administrator for a security services company with a high number of sales representatives that work remotely in the field using company laptops running Windows 11 Professional. Most of the sales representatives work during the summer months and then return home to continue with their schooling or another job. At the end of the summer season, Meagan needs to make sure the company laptops that are turned in have all personal files, apps, and settings removed, but keep their Azure Active Directory (AD) enrollment on Intune. Which of the following Windows tools is specifically designed to perform this task automatically with minimal configuration effort?",
+    "response": "Windows Autopilot"
+  },
+  {
+    "query": "SAML, OpenID, and OAuth 2.0 can be used by which of the following for cloud-based application authentication?",
+    "response": "Azure Active Directory"
+  },
+  {
+    "query": "Which data transmission rate is defined by the IEEE 802.11b wireless standard?",
+    "response": "11 Mbps"
+  },
+  {
+    "query": "You manage a Windows network environment. As part of your IPv6 migration strategy, you have implemented Teredo on your network. You would like to test the communication of a client computer using Teredo. What should you do?",
+    "response": "Ping the address beginning with 2001:"
+  },
+  {
+    "query": "You work as a systems engineer for a hospital, which currently uses Active Directory and a local profile for each user. The hospital is rolling out new computers to each department. The current computers are running Windows 8.1, and the new computers will have Windows 11 installed. You need to ensure that the user profiles are properly migrated from the Windows 8.1 machines to the new Windows 11 machines. Which of the following would be the BEST method to complete this task?",
+    "response": "Run\u00a0scanstate.exe\u00a0on the Windows 8.1 machines, and then run\u00a0loadstate.exe\u00a0on the Windows 11 machines."
+  },
+  {
+    "query": "Which of the following would require a digital license activation type?",
+    "response": "Purchasing a genuine Windows 11 from the Microsoft Store app"
+  },
+  {
+    "query": "You have a computer running Windows 8.1. You want to migrate to Windows 11 using a wipe-and-load migration to transfer files and folders. Which of the following methods could you use?",
+    "response": "PCmover Express"
+  },
+  {
+    "query": "An employee in your organization has started to work from home two days a week. The employee uses the same company laptop at the office and at home...",
+    "response": "Configure and alternate TCP/IP configuration"
+  },
+  {
+    "query": "What is the Windows Configuration Designer",
+    "response": "A tool used to create provisioning packages"
+  },
+  {
+    "query": "You do not use the Microsoft XPS Document Writer.",
+    "response": "Turn Windows features on or off"
+  },
+  {
+    "query": "Which of the following is available in all editions of Windows 11 and require special hardware",
+    "response": "Windows Hello"
+  },
+  {
+    "query": "You use a Windows client system on your desktop. Your company has started the migration to ipv6 on the network",
+    "response": "net use"
   }
 ]
