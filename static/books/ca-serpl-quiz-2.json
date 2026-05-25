@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "query": "A server administrator is looking at a mixture of server hardware in their environment including older to newer models. All of the hardware is running on Intel. The administrator is digging into the integrated communications paths that exist across all the motherboards. Which of the following is most likely the answer?",
+    "response": "QuickPath Interconnect"
+  },
+  {
+    "query": "A technician is troubleshooting issues within a portion of the data center and finds that a device has become unusable. It does not show a blue screen error. What is the most likely scenario?",
+    "response": "Incorrect firmware update"
+  },
+  {
+    "query": "A data center technician is setting up hygrometers throughout the environment for proactive analysis of the environment. What is the normal range that the technician should set up to alert when abnormal parameters occur?",
+    "response": "40 - 60% rH"
+  },
+  {
+    "query": "A server technician finds that a server's basic input/output system (BIOS) time is not correct, but the time on the operating system (OS) is accurate. What is the most likely cause that the technician should investigate first?",
+    "response": "Complementary Metal-Oxide Semiconductor (CMOS) battery failure"
+  },
+  {
+    "query": "An upcoming project requires new server hardware. Where could a purchaser check to verify compatibility with the environment? (Select all that apply.)",
+    "response": "Red Hat Compatibility Site, Windows Server Catalog"
+  },
+  {
+    "query": "A systems administrator is architecting a new Network Attached Storage (NAS) component of the data center. The administrator is trying to provide storage for many hosts while keeping costs down. Which of the following is the best choice for this scenario?",
+    "response": "Network File System (NFS)"
+  },
+  {
+    "query": "A systems technician must set up a scalable storage strategy for the data center environment. Which of the following would be optimal choices? (Select all that apply.)",
+    "response": "Fibre Channel over Ethernet SAN, Network Attached Storage (NAS), Switched Fibre Channel Storage Area Networks (SANs)"
+  },
+  {
+    "query": "A system administrator wants to analyze for server partitions. Which of the following tools could the administrator use? (Select all that apply.)",
+    "response": "df, Parted"
+  },
+  {
+    "query": "A storage technician suspects there is a misconfigured Redundant Array of Inexpensive Disks (RAID). What are some symptoms the technician could use to diagnose? (Select all that apply).",
+    "response": "Boot errors, Read-write errors, Unable to mount physical drive, Failed backups"
+  },
+  {
+    "query": "What is the address ::1/128 in IPv6?",
+    "response": "Loopback address"
+  },
+  {
+    "query": "A network administrator is configuring a network to be segmented for security purposes. What would be a good way to implement segmentation?",
+    "response": "Virtual Local Area Network (VLAN)"
+  },
+  {
+    "query": "A hypervisor administrator needs to create a self-service environment for the development department of the company. What would installation type is the best option for this scenario?",
+    "response": "Template"
+  },
+  {
+    "query": "A server administrator needs to set up the Windows firewall to allow protocols that will enable remote administration. Which standard protocols could the administrator add? (Select all that apply.)",
+    "response": "Remote Desktop Protocol (RDP), Secure Shell (SSH), Virtual Network Computing (VNC)"
+  },
+  {
+    "query": "A system administrator is setting up a basic script for automating various tasks on the Linux servers. What software should the system administrator code in?",
+    "response": "bash"
+  },
+  {
+    "query": "A server technician needs to create a script that repeats a function 10 times. Which of the following would accomplish this? (Select all that apply.)",
+    "response": "count = 0 while count < 10: count += 1 echo count, count = 0 while count <= 9: count += 1 echo count"
+  },
+  {
+    "query": "An administrator is setting up a script to automate tasks that query system-wide variables. Which variables should the administrator use?",
+    "response": "environment"
+  },
+  {
+    "query": "A server administrator has a base virtual server build with an operating system and configurations. What would be an efficient way to stand up similar virtual machines? (Select all that apply.)",
+    "response": "Cloning, Unattended install"
+  },
+  {
+    "query": "A Windows server administrator is working with the security monitor group. They want to start monitoring the account with the highest-level privileges. Which of the following accounts should they start with?",
+    "response": "Domain administrator"
+  },
+  {
+    "query": "A server administrator is troubleshooting connectivity to a remote device but receives \"Unknown host.\" What is the most likely potential problem?",
+    "response": "Name resolution issue"
+  },
+  {
+    "query": "A systems operator is attempting to diagnose connectivity on a server. Which of the following tools would best assist for this step? (Select all that apply.)",
+    "response": "telnet, nslookup, nc"
+  }
+]

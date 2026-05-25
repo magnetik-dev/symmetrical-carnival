@@ -1,8 +1,4 @@
 [
-{
-    "query": "The electronic health records software application crashes during a busy day at a doctor's office. The IT consultant for the practice knows that the application already has the latest update installed. Which of the following options is the only one that could potentially fix the crashing issue?",
-    "response": "Uninstall and reinstall the application"
-  },
   {
     "query": "A user calls the help desk complaining that Windows freezes to a blue screen every time it tries to boot. When the technician arrives, they boot the computer in Safe Mode. After evaluating this situation, what is the BEST reason the technician wants to enter Safe Mode to begin troubleshooting?",
     "response": "Safe Mode loads only the minimum amount of drivers and services to start the system"
@@ -68,8 +64,12 @@
     "response": "robocopy"
   },
   {
-    "query": "A client administrator sets up a new system for GUID partition table (GPT) partitioning. What dependency will the administrator need?",
-    "response": "UEFI"
+    "query": "A security administrator for Linux systems in their demilitarized zone wants to ensure only some administrators can perform certain commands. Which of the following is best used to lock down certain commands?",
+    "response": "sudo"
+  },
+  {
+    "query": "An administrator wants to listen to music through headphones to help with productivity during work. However, the administrator is having issues connecting the headphones via Bluetooth. Where should they go first to look?",
+    "response": "Devices"
   },
   {
     "query": "A video game development company is purchasing upgraded laptops to develop cutting-edge graphics, integrate persistent system RAM, offer Resilient File System (ReFS) support, and not require any additional license types. What type of operating system should they use?",
@@ -188,24 +188,24 @@
     "response": "Battery"
   },
   {
-    "query": "A transportation company wants to set up software that gathers statistics from the controller area network",
+    "query": "A transportation company wants to set up software that gathers statistics from the controller area network for trailers hauling loads, enabling them to adjust processes to optimize cost savings. What type of adapter will the company need to send the statistics back to their cloud network?",
     "response": "WWAN"
+  },
+  {
+    "query": "A user disables some of the laptops' services, thinking it would speed up performance. After restarting the laptop, \"One or more services failed to start\" appears. When the IT specialist opens the Services snap-in, they identify the failed service and restart it, but that does not fix it. Which of the following scenarios best explains why the restart did not work?",
+    "response": "The user disabled a dependent service."
   },
   {
     "query": "A security engineer runs a long tail analysis to determine the frequency of services and processes communicating to the internet",
     "response": "taskschd.msc"
   },
   {
-    "query": "After installing windows 11 on an old computer, continues to boot to blank screen",
+    "query": "After installing Windows 11 on an older computer, a computer technician is stumped when the computer continues to boot to a blank screen. Determine which solutions could conceivably fix the blank screen from the list of available solutions. (Select two.)",
     "response": "Update the graphics adapter driver, Repair windows"
   },
   {
     "query": "Which tool will distinguish client accounts and provide support for recording and reporting",
     "response": "RMM"
-  },
-  {
-    "query": "An administrator wants to listen to music through headphones",
-    "response": "Devices"
   },
   {
     "query": "An adminsitrator for Apple endpoints has heard about roaming profiles",
@@ -216,8 +216,20 @@
     "response": "Port Forwarding"
   },
   {
-    "query": "A company's IT support to recomission a system as part of malware removal process. What is the last step",
+    "query": "A company's IT support specialist is ready to start recommissioning a system as part of the malware removal process. What is the last step before removing the computer from quarantine?",
     "response": "Antivirus scan"
+  },
+  {
+    "query": "A software company hires a new app developer. The corporate network denies access when the developer tries to connect their phone. Why would the network deny access from the developer's mobile phone?",
+    "response": "Developer mode"
+  },
+  {
+    "query": "A low battery charge can cause several different problems to occur on a mobile device. Which of the following issues could stem from a low battery? (Select all that apply.)",
+    "response": "Weak Wi-Fi signal, Weak Bluetooth signal"
+  },
+  {
+    "query": "A company has hundreds of employees who use the same software on their computers, so they offer a company product key to access the software. What is this product?",
+    "response": "Corporate-use license"
   },
   {
     "query": "A spouse plans a surprise birthday party for their significant other. The spouse wants to turn off activity history on their browser to make sure their significant other \"does not find out the surprise.\" Where can the spouse do this?",
@@ -268,8 +280,12 @@
     "response": "Private browsing mode"
   },
   {
-    "query": "what uses a 4-way handshake to allow a station to associate with an",
+    "query": "What uses a 4-way handshake to allow a station to associate with an access point, authenticate its credential, and exchange a key to use for data encryption?",
     "response": "WPA2"
+  },
+  {
+    "query": "An attacker imitates an IT support technician for a company. The attacker asks for a user's password to gain access to the user's system remotely. What is this called?",
+    "response": "Impersonation"
   },
   {
     "query": "Management provides employees with written policies and procedures to help them fulfil their tasks. themselves using secure credentials",
@@ -394,8 +410,15 @@
   {
     "query": "A new employee is going over the site safety handbook about the correct ways of carrying objects so they do not damage the object or get injured. What is this called?",
     "response": "Lifting techniques"
+  },
+  {
+    "query": "A senior systems administrator wants to convert the organization to a cloud-based email service. Which of the following should be considered",
+    "response": "Gmail"
+  },
+  {
+    "query": "What technique is often used to exhibit fake antivirus and security warnings or other malicious advertising?",
+    "response": "Pop-ups"
   }
-
 
 
 ]
