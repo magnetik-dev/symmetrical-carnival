@@ -206,5 +206,11 @@
   {
     "query": "Where in Microsoft Intune can you go to manage and deploy device updates?",
     "response": "Device list"
-  }
+  },
+  {"query":"You have defined an app protection policy for a Human Resources application in your company. Which of the following is the tool you need to use to configure the policy to apply it to the appropriate users?","response":"Microsoft Endpoint Manager"},
+  {"query":"Which of the following BEST describes an Intune device configuration profile?","response":"A profile with features and settings that can be enabled or disabled on the devices in your organization."},
+  {"query":"Your Windows system has two hard drives named C: and D:. For the D:\\\\Reports\\\\Finances.xls file, you explicitly grant the Mary user account the Allow Modify NTFS permission. You need to move the file from the existing folder to the C:\\\\Reports2 folder. You want to keep the existing NTFS permissions on the file. How can you accomplish this with the least amount of effort?","response":"Use the robocopy command to copy the file to the C:\\\\Reports2 folder."},
+  {"query":"Which of the following can you use to create a custom Intune device configuration profile?","response":"Microsoft Endpoint Management"},
+  {"query":"You have a Windows 10 computer configured with volumes C: and D:. You want to schedule backup jobs of the C: volume to include all user files on the C: volume as well as creating a system image of the C: volume. How do you configure the backup job and the schedule with a minimal amount of effort?","response":"Use the Backup and Restore (Windows 7) console."},
+  {"query":"With the free version of OneDrive, your files stay in the Recycle bin anywhere from 3 to 30 days as long as you don't exceed which percentage of your storage?","response":"10%"}
 ]
