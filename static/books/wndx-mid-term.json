@@ -179,5 +179,13 @@
   {
     "query": "You use a Windows client system on your desktop. Your company has started the migration to ipv6 on the network",
     "response": "net use"
+  },
+  {
+    "query" :"With Azure Active Directory Join, what does the user need to provide in order to be automatically joined to Azure Ad and enrolled in a mobile device",
+    "response": "Work or school user ID and password"
+  },
+  {
+    "query": "You want to connect a laptop computer running Windows to a wireless network. The wireless network uses multiple access points and is configured to use WPA2-Personal Security.",
+    "response": "A pre-shared key and AES encryption"
   }
 ]

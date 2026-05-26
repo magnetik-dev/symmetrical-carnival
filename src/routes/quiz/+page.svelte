@@ -24,7 +24,7 @@
     { value: 'nwpo-exam2', label: 'NWPO Exam 2' },
     { value: 'wndx-mid-term', label: 'WNDX Mid-Term' },
     { value: 'wndx-final', label: 'WNDX Final Exam' },
-    { value: 'ca-clodp-module-quiz', label: 'CA-CLODP Module Quiz' },
+    { value: 'ca-clodp-module-quiz', label: 'CA-CLODP Module Quizes' },
     { value: 'ca-clodp-final', label: 'CA-CLODP Final Exam' },
     { value: 'ca-serpl-quiz-1', label: 'CA-SERPL Quiz 1' },
     { value: 'ca-serpl-quiz-2', label: 'CA-SERPL Quiz 2' },
