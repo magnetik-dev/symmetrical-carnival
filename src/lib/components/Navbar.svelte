@@ -3,9 +3,14 @@
     
     let { user } = $props<{ user: User | null }>();
     let isActive = $state(false);
+    let dropdownActive = $state(false);
 
     function toggleMenu() {
         isActive = !isActive;
+    }
+
+    function toggleDropdown() {
+        dropdownActive = !dropdownActive;
     }
 </script>
 
@@ -44,21 +49,28 @@
             <div class="navbar-end">
                 <div class="navbar-item">
                     {#if user}
-                        <div class="field is-grouped">
-                            <p class="control">
-                                <span class="has-text-primary is-light mr-3">
-                                    <i class="fa fa-user"></i>
-                                    {user.email}
-                                </span>
-                            </p>
-                            <span class="control">
-                                <form action="/logout" method="POST">
-                                    <button class="button is-warning is-small">
-                                        <i class="fa fa-sign-out mr-2"></i>
-                                        Logout
-                                    </button>
-                                </form>
-                            </span>
+                        <div class="dropdown {dropdownActive ? 'is-active' : ''}">
+                            <div class="dropdown-trigger">
+                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" aria-expanded={dropdownActive} onclick={toggleDropdown}>
+                                    <span>
+                                        <i class="icon is-small fa fa-user"></i>
+                                        {user.email}
+                                        <i class="icon is-small fa fa-chevron-down"></i>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                                <div class="dropdown-content">
+                                    <div class="dropdown-item">
+                                        <form action="/logout" method="POST">
+                                            <button class="is-borderless is-fullwidth" type="submit">
+                                                <i class="fa fa-sign-out mr-2"></i>
+                                                Logout
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     {/if}
                 </div>

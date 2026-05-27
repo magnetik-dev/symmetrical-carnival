@@ -26,7 +26,7 @@
                             <label class="label" for="email">Email</label>
                             <div class="control has-icons-left">
                                 <input class="input" type="email" id="email" name="email" placeholder="e.g. alex@example.com" required>
-                                <span class="icon is-small is-left">
+                                <span class="icon is-small is-left has-text-primary">
                                     <i class="fa fa-envelope"></i>
                                 </span>
                             </div>
@@ -36,7 +36,7 @@
                             <label class="label" for="password">Password</label>
                             <div class="control has-icons-left">
                                 <input class="input" type="password" id="password" name="password" placeholder="********" required>
-                                <span class="icon is-small is-left">
+                                <span class="icon is-small is-left has-text-primary">
                                     <i class="fa fa-lock"></i>
                                 </span>
                             </div>
