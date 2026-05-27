@@ -3,15 +3,11 @@
     
     let { user, profile } = $props<{ user: User | null, profile: App.Profile | null }>();
     let isActive = $state(false);
-    let dropdownActive = $state(false);
 
     function toggleMenu() {
         isActive = !isActive;
     }
 
-    function toggleDropdown() {
-        dropdownActive = !dropdownActive;
-    }
 </script>
 
 <nav class="navbar is-dark" aria-label="main navigation">
@@ -49,9 +45,9 @@
             <div class="navbar-end">
                 <div class="navbar-item">
                     {#if user}
-                        <div class="dropdown {dropdownActive ? 'is-active' : ''}">
+                        <div class="dropdown is-hoverable is-right">
                             <div class="dropdown-trigger">
-                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" aria-expanded={dropdownActive} onclick={toggleDropdown}>
+                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" >
                                     <span>
                                         <i class="icon is-small fa fa-user"></i>
                                         {user.email} 
