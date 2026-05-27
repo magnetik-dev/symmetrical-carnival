@@ -39,3 +39,13 @@ You can preview the production build with `npm run preview`.
 
 ## Color
 Primary Color: #006b5b
+
+##
+```
+npm install -g @google/gemini-cli
+```
+
+
+```
+gemini
+```

@@ -8,7 +8,7 @@
   <meta name="robots" content="noindex,nofollow" />
 </svelte:head>
 
-<Navbar user={data.user} />
+<Navbar user={data.user} profile={data.profile} />
 
 {@render children()}
 

@@ -1,7 +1,7 @@
 <script lang="ts">
     import type { User } from '@supabase/supabase-js';
     
-    let { user } = $props<{ user: User | null }>();
+    let { user, profile } = $props<{ user: User | null, profile: App.Profile | null }>();
     let isActive = $state(false);
     let dropdownActive = $state(false);
 
@@ -54,8 +54,11 @@
                                 <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" aria-expanded={dropdownActive} onclick={toggleDropdown}>
                                     <span>
                                         <i class="icon is-small fa fa-user"></i>
-                                        {user.email} {user.id }
-                                        <i class="icon is-small fa fa-chevron-down"></i>
+                                        {user.email} 
+                                        {#if profile && profile.role}
+                                            <span class="tag is-primary is-light ml-2">{profile.role.toUpperCase()}</span>
+                                        {/if}
+                                        <i class="icon is-small fa fa-chevron-down ml-2"></i>
                                     </span>
                                 </button>
                             </div>

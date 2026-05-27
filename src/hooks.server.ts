@@ -24,6 +24,19 @@ export const handle: Handle = async ({ event, resolve }) => {
     return user;
   };
 
+  event.locals.getProfile = async () => {
+    const user = await event.locals.getUser();
+    if (!user) return null;
+
+    const { data: profile } = await event.locals.supabase
+      .from('profiles')
+      .select('*')
+      .eq('id', user.id)
+      .single();
+    
+    return profile as App.Profile | null;
+  };
+
   const user = await event.locals.getUser();
 
   // Auth Guards

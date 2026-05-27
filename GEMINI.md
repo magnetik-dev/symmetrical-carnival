@@ -33,7 +33,10 @@ The project utilizes Svelte 5 Runes for reactivity:
     response: string;
   }
   ```
-- Data fetching is handled in `+page.ts` using the SvelteKit `load` function, which fetches JSON files based on the `book` query parameter.
+- **User Profiles:** Authenticated users have associated profiles stored in the `public.profiles` table (linked by `id` to `auth.users`).
+  - The `Profile` interface defines the structure, including the user's `role`.
+  - Profiles are fetched on the server via `event.locals.getProfile()` and exposed globally through `src/routes/+layout.server.ts`.
+- Data fetching for quizzes is handled in `+page.ts` using the SvelteKit `load` function, which fetches JSON files based on the `book` query parameter.
 
 ### UI & Styling
 - **Bulma:** The project uses Bulma for layout and styling. It is imported globally in `src/routes/+layout.svelte`.
