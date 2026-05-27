@@ -146,5 +146,76 @@
   {
     "query": "Your organization has deployed a new cloud-based application, but users are experiencing issues with certain features not working as expected. Upon investigation, you find that the application components have not been properly refactored for cloud services. What should you do to resolve this issue?",
     "response": "Confirm applications are cloud-ready or cloud-compatible."
+  },
+    {
+    "query": "What symbol is used to indicate a comment in a Bash script?",
+    "response": "#"
+  },{
+    "query": "What is the primary focus of in-place deployments?",
+    "response": "Eliminating infrastructure changes"
+  },{
+    "query": "A server administrator requested new hardware to run a new SharePoint farm on multiple virtual machines (VMs). The hardware must be expandable and combine compute, storage, and network resources into a single component for easier management. What type of solution is the administrator most likely going to deploy for this SharePoint farm?",
+    "response": "Hyperconverged infrastructure"
+  },{
+    "query": "Your organization is currently using a cloud service provider (CSP) that has recently increased its prices significantly. You are tasked with analyzing the situation to determine the best course of action. Which of the following steps should you prioritize to address the potential vendor lock-in issue?",
+    "response": "Assess the current CSP's support for open standards and data migration paths."
+  },{
+    "query": "Assess the role of Configuration as Code (CaC) in a Continuous Integration/Continuous Deployment (CI/CD) pipeline. Which statement best evaluates its contribution?",
+    "response": "CaC integrates with the CI/CD pipeline to ensure consistent application settings across environments."
+  },{
+    "query": "Which recovery type is best suited for testing backup jobs to ensure they work as intended without affecting the production server?",
+    "response": "Alternate Location Restoral"
+  },{
+    "query": "A cloud administrator receives a \"Suspicious activity\" alert from Microsoft Azure for alerts. What are the next steps the administrator should take?",
+    "response": "Complete further investigation to determine the cause of the alert."
+  },{
+    "query": "You are tasked with designing a data management strategy for a new project that involves storing user-generated content such as documents, images, and configuration files. Which data management practices should you implement to ensure the security and integrity of this data?",
+    "response": "Encryption, backups, and permissions"
+  },
+  {
+    "query": "A security analyst is reviewing log files and needs to identify the severity of an event recorded in rsyslog. Which of the following actions should the analyst take to identify the severity of the event?",
+    "response": "Refer to the rsyslog severity levels"
+  },{
+    "query": "Which service does AWS use for alert notifications?",
+    "response": "Simple Notification Service (SNS)"
+  },{
+    "query": "An employee receives an email that appears to be from the company's IT department, requesting their password to complete a system update. The email looks legitimate and includes the company's logo and branding. The employee is unsure whether to respond. What should the employee do to apply best practices in this situation?",
+    "response": "Contact the IT department directly using a known phone number or email address to verify the request."
+  },
+  {
+    "query": "You are a network administrator for a company that uses multiple APIs to integrate various business processes. Recently, you noticed that one of the APIs is experiencing frequent downtime and slow performance. You suspect that the issue might be related to traffic management. Which of the following actions should you take to address this issue?",
+    "response": "Implement rate limiting and request throttling"
+  },
+  {
+    "query": "A consumer is creating security-sensitive data using digital signatures to guarantee the data can not be decrypted. Which of the following keys need to be employed?",
+    "response": "Private key and Public key"
+  },
+  {
+    "query": "You are tasked with securing a new cloud-based object storage system for your organization. One of your primary concerns is ensuring that data at rest is protected from unauthorized access. Which of the following actions should you apply to achieve this goal?",
+    "response": "Implementing encryption for data at rest."
+  },
+  {
+    "query": "A server technician is setting up logical privileged access controls. What are some examples the server technician could implement? (Select three.)",
+    "response": "Users' assigned roles, New Technology File System (NTFS) permissions, Object label sets"
+  },
+  {
+    "query": "An organization wants a technician to install a vulnerability scanner software that can scan individual container deployments and provide vulnerability information on Windows and Linux instances and PaaS-level services. What type of scanner is being installed?",
+    "response": "Azure Defender and Azure Security Center"
+  },
+  {
+    "query": "What type of tasks can a cloud administrator automate? (Select three.)",
+    "response": "Software updates, Scaling, Restarts"
+  },{
+    "query": "During a security review, it is discovered that the company's web servers are using HTTP for client connections. The security team needs to analyze the potential risks and recommend a solution. What should the team do to ensure secure web communications?",
+    "response": "Block HTTP connections and require HTTPS connections."
+  },
+  {
+    "query": "Which command can be used in both Windows and Linux to test name resolution?",
+    "response": "nslookup"
+  },
+  {
+    "query": "A network technician has configured a virtual private network (VPN) setup for a corporate payroll office. Incoming address collisions are occurring, and using a troubleshooting methodology, the technician determines the network address translation (NAT) configuration may be the problem. Decide the best course of action given the results of the technician's troubleshooting.",
+    "response": "Implement a NAT configuration specific to the VPN solution."
   }
+
 ]

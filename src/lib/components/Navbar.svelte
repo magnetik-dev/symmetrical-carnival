@@ -54,7 +54,7 @@
                                 <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" aria-expanded={dropdownActive} onclick={toggleDropdown}>
                                     <span>
                                         <i class="icon is-small fa fa-user"></i>
-                                        {user.email}
+                                        {user.email} {user.id }
                                         <i class="icon is-small fa fa-chevron-down"></i>
                                     </span>
                                 </button>

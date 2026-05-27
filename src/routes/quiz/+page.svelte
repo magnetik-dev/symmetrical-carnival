@@ -20,16 +20,12 @@
     { value: 'ca-itf4-all', label: 'CA-ITF4 Quizes' },
     { value: 'pc14-final', label: 'PC14 Final Quiz' },
     { value: 'pc24-final', label: 'PC24 Final Quiz' },
-    { value: 'nwpo-exam1', label: 'NWPO Exam 1' },
-    { value: 'nwpo-exam2', label: 'NWPO Exam 2' },
-    { value: 'wndx-mid-term', label: 'WNDX Mid-Term' },
-    { value: 'wndx-final', label: 'WNDX Final Exam' },
-    { value: 'ca-clodp-module-quiz', label: 'CA-CLODP Module Quizes' },
-    { value: 'ca-clodp-final', label: 'CA-CLODP Final Exam' },
-    { value: 'ca-serpl-quiz-1', label: 'CA-SERPL Quiz 1' },
-    { value: 'ca-serpl-quiz-2', label: 'CA-SERPL Quiz 2' },
-    { value: 'ca-serpl-quiz-3', label: 'CA-SERPL Quiz 3' },
-    { value: 'ca-serpl-final', label: 'CA-SERPL Final Exam' }
+    { value: 'nwpo-exams-all', label: 'NWPO Exams All' },
+    { value: 'wndx-exams-all', label: 'WNDX Exams All' },
+    { value: 'ca-clodp-module-quiz', label: 'CCLODP Module Quizes' },
+    { value: 'ca-clodp-final', label: 'CLODP Final Exam' },
+    { value: 'ca-serpl-quizes-all', label: 'SERPL Quizes All' },
+    { value: 'ca-serpl-final', label: 'SERPL Final Exam' }
 
   ];
   const dataOptions = [
