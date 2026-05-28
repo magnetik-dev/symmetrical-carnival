@@ -1170,16 +1170,70 @@
   {
     "query": "As a data steward, you are tasked with ensuring data governance and compliance for your organization.",
     "response": "Assigning clear roles and responsibilities for data management, including data owners and data stewards."
+  },
+  {
+    "query": "Which of the following is a recommended approach to mitigate the risk of zombie resources in a cloud environment?",
+    "response": "Enforce strict naming conventions and associated resource tagging."
+  },
+  {
+    "query": "Which of the following is a characteristic of a stateless firewall?",
+    "response": "It matches individual network packets against the rules."
+  },
+  {
+    "query": "A security engineer is identifying and quantifying security risks in their cloud environment to ensure risks are being mitigated. The engineer has mapped out all the systems and applications to see what kind of risks the company is potentially exposed to.",
+    "response": "Vulnerability testing"
+  },
+  {
+    "query": "How can metadata be exploited by malicious actors?",
+    "response": "By identifying services, websites, and files to detect old software versions or unpatched systems."
+  },
+  {
+    "query": "Your organization has implemented a cloud-based infrastructure. Recently, you have noticed that some systems are performing poorly and suspect they might be infected with cryptojacking software.",
+    "response": "Review log files and use performance monitoring to identify abnormal system utilization."
+  },
+  {
+    "query": "A cloud administrator is developing a security posture dashboard which tracks identified risks and mitigation efforts.",
+    "response": "Risk register"
+  },
+  {
+    "query": "A cloud administrator is assessing Amazon SSO for use in their cloud infrastructure.",
+    "response": "Security Assertion Markup Language (SAML)"
+  },
+  {
+    "query": "What organization operates the Common Vulnerabilities and Exposures (CVE) database?",
+    "response": "Mitre"
+  },
+  {
+    "query": "A systems administrator is tasked with setting up privileged access management (PAM) controls. What logical controls could the systems administrator set up? (Select three.)",
+    "response": "Users' assigned roles\nNew Technology File System (NTFS) permissions\nObject label sets"
+  },
+  {
+    "query": "A healthcare organization is required by law to protect patient data and ensure it is not improperly accessed or shared. They are looking to implement a DLP solution to comply with these regulations.",
+    "response": "Configure the DLP system to identify and monitor patient data in use, in storage, and in transit."
+  },
+  {
+    "query": "A security administrator is trying to increase host-based security by going with a solution that continually monitors the system for changes that indicate threats or exploits.",
+    "response": "Endpoint detection and response (EDR)"
+  },
+  {
+    "query": "A company has discovered that several of its virtual machine (VM) instances are unmanaged and out-of-date, posing a security risk.",
+    "response": "Update and patch all VM instances to the latest versions."
+  },
+  {
+    "query": "What is the primary goal of a Distributed Denial-of-Service (DDoS) attack?",
+    "response": "To overwhelm the target, making it inaccessible to legitimate customers"
+  },
+  {
+    "query": "An Azure server administrator is assigning roles to various administrators in the enterprise. One group needs to be able to manage virtual machines but not log into them.",
+    "response": "Virtual machine contributor"
+  },
+  {
+    "query": "How would you assess the role of the National Vulnerability Database (NVD) in enhancing cybersecurity measures?",
+    "response": "NVD provides additional analysis and criticality metrics that help organizations better understand and mitigate vulnerabilities."
+  },
+  {
+    "query": "What is the first step in the account management process?",
+    "response": "Creating user identities"
   }
-
-
-
-
-
-
-
-
-
-
 
 ]
