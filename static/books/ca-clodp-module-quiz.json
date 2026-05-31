@@ -285,7 +285,7 @@
   },
   {
     "query": "What is the first step in IP address management (IPAM)?",
-    "response": "Creating a network map that displays the Virtual Private Cloud (VPC) information."
+    "response": "Implementing a method to track IP addresses in individual subnets."
   },
   {
     "query": "Your organization has expanded to multiple Azure regions, and you need to ensure that virtual networks in different regions can communicate efficiently.",
@@ -1234,6 +1234,199 @@
   {
     "query": "What is the first step in the account management process?",
     "response": "Creating user identities"
-  }
+  },
+  {
+    "query": "You are writing a Bash script to compare two sets of variables. You need to ensure that var1 is greater than var2 and var3 is not equal to var4.\n\nWhich of the following expressions correctly implements this logic?",
+    "response": "[ $var1 -gt $var2 ] && [ $var3 -ne $var4 ]"
+  },
+  {
+    "query": "A scheduled automation task has been working properly for the past 4 months. Immediately after a recent upgrade in the automation software, the same task fails to complete. Other automation tasks are running as normal.",
+    "response": "A deprecated feature."
+  },
+  {
+    "query": "Your organization is experiencing fluctuating traffic loads on its web applications, leading to inconsistent performance. You are considering using Kubernetes to address this issue.\n\nWhich feature of Kubernetes would be most effective in managing these fluctuating traffic loads?",
+    "response": "Automatically scaling resources up and down"
+  },
+  {
+    "query": "Your team is working on a distributed software development project with members located in different parts of the world. You need a version control system that supports nonlinear and collaborative development.\n\nHow would Git meet your team's needs?",
+    "response": "Git supports nonlinear and collaborative development, making it ideal for distributed teams."
+  },
+  {
+    "query": "Which aspect of semantic versioning makes it particularly effective in communicating software updates to users and developers?",
+    "response": "Its ability to identify major, minor, and patch levels"
+  },
+  {
+    "query": "Your team has developed a new feature that needs to be tested for performance issues and integration with external APIs. You want to ensure that the feature works correctly under various conditions before it is released.",
+    "response": "Conduct a dynamic code review to test for performance issues and integration with external components."
+  },
+  {
+    "query": "In a Bash for loop, what does the variable i typically represent?",
+    "response": "The iterator that takes on each value in the list"
+  },
+  {
+    "query": "A development team is evaluating the core technology behind the search capabilities of their ELK stack deployment. They need to understand which underlying technology powers Elasticsearch to ensure it meets their performance requirements.",
+    "response": "Apache Lucerne, because it is the search engine library that Elasticsearch is built upon."
+  },
+  {
+    "query": "Which of the following events is part of an event-driven architecture in an e-commerce purchasing system?",
+    "response": "The purchaser adds an item to an online cart."
+  },
+  {
+    "query": "Which statement best describes variable assignment in a script?",
+    "response": "Variable assignment is the act of defining a variable as having a certain value."
+  },
+  {
+    "query": "Your team is tasked with deploying a new application across multiple servers.\n\nTo ensure consistency and reduce deployment time, which approach should you take?",
+    "response": "Use Infrastructure as Code (IaC) tools like Puppet or Chef"
+  },
+  {
+    "query": "New automated configuration management tasks will most likely fail on a legacy system because of which of the following reasons? (Select two.)",
+    "response": "Outdated system version, Deprecated features"
+  },
+  {
+    "query": "When collaborating on a project, why might a team prefer to use git push over git pull?",
+    "response": "To upload local changes to a remote repository, ensuring everyone has the latest updates"
+  },
+  {
+    "query": "Your team is experiencing delays in the deployment phase of your CI/CD pipeline. After analyzing the Jenkins setup, you notice that the pipeline stages are not clearly defined.",
+    "response": "Clearly define the pipeline stages such as code checkout, code builds, code tests, and deployments."
+  },
+  {
+    "query": "You are automating the deployment of a Linux-based application. The deployment process includes installing several software packages on a virtual machine.\n\nWhich tool would you use to ensure that the software packages are installed from defined and approved repositories?",
+    "response": "Package manager"
+  },
+  {
+    "query": "Which of the following statements best supports the effectiveness of using Git for managing scripts in a system administration environment?",
+    "response": "Git allows system administrators to create a centralized script repository, enabling sharing, updating, and managing scripts collaboratively."
+  },
+  {
+    "query": "Your company is preparing for a high-demand season, and you need to ensure that your web application can scale quickly and efficiently.",
+    "response": "Store your web application's configuration in code and use orchestration tools for deployment."
+  },
+  {
+    "query": "What type of tasks can a cloud administrator automate? (Select three.)",
+    "response": "Restarts, Software updates, Scaling"
+  },
+  {
+    "query": "You are writing a script to automate the backup of files. You have identified that the backup process involves several repetitive steps.\n\nAnalyze the following code snippet and determine the best way to refactor it using functions:\n\n# Original Code\n\ntar -czf backup1.tar.gz /path/to/files1\n\ntar -czf backup2.tar.gz /path/to/files2\n\ntar -czf backup3.tar.gz /path/to/files3",
+    "response": "Create a function to handle the backup process and call it for each file path."
+  },
+  {
+    "query": "What is a primary characteristic of event-driven architectures?",
+    "response": "They define specific triggers to initiate communication between decoupled services and applications."
+  },
+  {
+    "query": "A development team needs to quickly set up a testing environment that mirrors the production environment.",
+    "response": "Ansible"
+  },
+  {
+    "query": "Your organization is planning to deploy a new web application using Docker containers. You need to ensure that the deployment process is quick, consistent, and easily scalable.",
+    "response": "Use Docker Swarm to automate the deployment and management of Docker containers."
+  },
+  {
+    "query": "Which aspect of event-driven architectures would you consider most critical for ensuring scalability in a web application?",
+    "response": "The ability to define specific triggers for events."
+  },
+  {
+    "query": "You are designing an e-commerce platform using an event-driven architecture. During the checkout process, a customer places an order, and the billing system charges the customer's bank. However, the billing system fails to process the payment due to insufficient funds.",
+    "response": "The billing system should trigger an event to notify the customer of the payment failure."
+  },
+{
+"query": "Given a scenario where multiple nodes in a network are experiencing connectivity issues, which of the following would be the most logical first step in troubleshooting?",
+"response": "Identify commonalities among the affected nodes"
+},
+{
+"query": "Which of the following represents a single point of failure? (Select two.)",
+"response": "Cloud direct connection, Load balancer"
+},
+{
+"query": "A company is preparing for a compliance audit and needs to ensure that their network infrastructure is well-documented. They have a complex network that includes both on-premises and cloud components.\nWhich component of the network flow diagram should the company focus on to provide a comprehensive view of their network for the audit?",
+"response": "Network boundaries (internal, external, and DMZ)"
+},
+{
+"query": "You are using third-party IPAM tools from the Azure or AWS Marketplace for managing IP addresses in a hybrid cloud environment.\nWhich of the following statements best supports your use of these tools as useful and effective?",
+"response": "Third-party IPAM tools provide additional features and flexibility that can enhance IP address management across multiple cloud environments."
+},
+{
+"query": "An organization has a network that includes email servers, web servers, and a database server. The network administrator needs to configure the firewall to ensure that only necessary traffic is allowed while blocking all other traffic.\nWhich of the following configurations should the network administrator implement to achieve this goal?",
+"response": "Block all traffic by default and create exceptions for email, web, and database server traffic."
+},
+{
+"query": "A network administrator notices that after implementing NAT for VPN, some internal applications are experiencing IP address conflicts, leading to connectivity issues. The administrator needs to analyze the situation to find a solution.\nWhat should the network administrator do to resolve the IP address conflicts?",
+"response": "Reconfigure the NAT to ensure unique IP address translation for each session"
+},
+{
+"query": "A company wants the ability to have each virtual network in a different Azure region. Which of the following network segmentations could be used? (Select two.)",
+"response": "Multiple Virtual Networks Configured as Peers, Multiple virtual networks in a hub-and-spoke topology"
+},
+{
+"query": "Given the importance of time synchronization in network environments, which of the following scenarios would most likely result in communication issues and why?",
+"response": "An on-premises server using its internal clock without NTP synchronization."
+},
+{
+"query": "A company has reconfigured their server arrangement to group them together by units possessing the same storage and computing capabilities.\nIf load balancing, which method would make the most sense to utilize?",
+"response": "Round robin"
+},
+{
+"query": "Given a network with frequent changes and scalability requirements, which routing method would you recommend and why?",
+"response": "Dynamic routing, because it automatically updates routing tables and scales better."
+},
+{
+"query": "What is the first step in IP address management (IPAM)?",
+"response": "Implementing a method to track IP addresses in individual subnets."
+},
+{
+"query": "A company expanding into new regions would like to create fast data access response times throughout its expansion efforts. Currently, the company's headquarters maintains all accessible data.\nWhat might the company implement to best satisfy this need?",
+"response": "CDN"
+},
+{
+"query": "Which of the following statements are false concerning network flow diagrams? (Select two.)",
+"response": "Network flow diagrams are the same as data flow diagrams., Network flow diagrams do not assist with security."
+},
+{
+"query": "A new virtual private cloud includes several servers that respond to public HTTPS requests. An engineer configures the servers to utilize load balancing to respond to requests more efficiently.\nHow does load balancing work when the least busy server is configured to receive the next work cycle?",
+"response": "It uses a dynamic algorithm"
+},
+{
+"query": "Which of the following is a component that can be part of a Software-defined Network (SDN) used to create VPCs?",
+"response": "Subnets"
+},
+{
+"query": "Given a scenario where a network administrator needs to identify unauthorized devices and services on a network, which tool would be most appropriate to use and why?",
+"response": "Nmap, because it scans for advertised or available services"
+},
+{
+"query": "What is one of the primary benefits of using a dedicated connection between a business's internal network and a cloud service provider's environment?",
+"response": "Service-level agreement-based support"
+},
+{
+"query": "A cloud administrator is extending the use of virtual local area networks in their Azure cloud environment.\nWhich solution should the administrator use?",
+"response": "NVGRE"
+},
+{
+"query": "Which load balancing method is best for a cluster of web servers that will have variable workloads?",
+"response": "Dynamic"
+},
+{
+"query": "What is the first step in the DHCP lease generation process?",
+"response": "The Client sends a DHCPDiscover broadcast."
+},
+{
+"query": "What is the purpose of VLAN tagging in switches?",
+"response": "To control network communications"
+},
+{
+"query": "A CSP has asked an AWS technician to troubleshoot a connection between a client and their VPC. After determining there are no apparent hardware issues, which of the following potential issues might the technician consider? (Select two.)",
+"response": "* Faulty vNIC configuration, Duplicate IP addresses"
+},
+{
+"query": "Your company has departments that handle sensitive financial data and general marketing information. You are tasked with designing a network segmentation strategy to ensure that these two types of data are isolated from each other.\nWhich design would be most appropriate?",
+"response": "Multiple virtual networks in a hub-and-spoke topology"
+},
+{
+"query": "A cloud resources administrator has received an alert regarding high latency between resources on a private cloud network.\nSelect the main negative effect of high latency connections.",
+"response": "Reduced bandwidth"
+}
+
 
 ]
