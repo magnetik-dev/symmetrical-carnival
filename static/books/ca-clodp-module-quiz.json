@@ -1356,10 +1356,6 @@
 "response": "Dynamic routing, because it automatically updates routing tables and scales better."
 },
 {
-"query": "Given a network with frequent changes and scalability requirements, which routing method would you recommend and why?",
-"response": "Dynamic routing, because it automatically updates routing tables and scales better."
-},
-{
 "query": "A company expanding into new regions would like to create fast data access response times throughout its expansion efforts. Currently, the company's headquarters maintains all accessible data.\nWhat might the company implement to best satisfy this need?",
 "response": "CDN"
 },
