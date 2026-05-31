@@ -29,8 +29,9 @@
 
   ];
   const dataOptions = [
-        { value: 'dtant-module-quiz', label: 'DTANT Module Quiz' },
-    { value: 'dtant-final', label: 'DTANT Final Exam' }
+    { value: 'dtant-module-quiz', label: 'DTANT Module Quiz' },
+    { value: 'dtant-final', label: 'DTANT Final Exam' },
+    { value: 'ca-pldes-quiz', label: 'PLDES Quiz' }
   ];
   const digitalDesignOptions = [
     { value: 'dgmkf-color-theory', label: 'Color Theory' },
