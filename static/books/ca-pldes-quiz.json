@@ -1,0 +1,642 @@
+[
+  {
+    "query": "What type of file operations would most likely require the use of delimiters?",
+    "response": "Reading data from a file"
+  },
+  {
+    "query": "Which term describes the smallest unit of storage that holds one character?",
+    "response": "Byte"
+  },
+  {
+    "query": "What is the primary purpose of declaring a file identifier in a program?",
+    "response": "To categorize the file for input or output operations"
+  },
+  {
+    "query": "How are fields and records related in the data hierarchy?",
+    "response": "Fields are the smallest unit of data, while records are composed of multiple fields."
+  },
+  {
+    "query": "What happens if both File A and File B reach the end at the same time during merging?",
+    "response": "The end-of-file records are written and the process ends."
+  },
+  {
+    "query": "What is the purpose of the checkEnd() module in the master-transaction file processing?",
+    "response": "To determine if both master and transaction files have reached the end"
+  },
+  {
+    "query": "Which of the following reports is NOT an example of a control break report?",
+    "response": "A list of items sold in order by price"
+  },
+  {
+    "query": "What is a filename extension used for?",
+    "response": "To describe the type of file"
+  },
+  {
+    "query": "Which condition must be met before merging two sequential files?",
+    "response": "Both files must be sorted in the same order based on the same field."
+  },
+  {
+    "query": "Which of the following is NOT a purpose of the update records module?",
+    "response": "To sort the master and transaction files by customer number"
+  },
+  {
+    "query": "How is a descending sort achieved in a bubble sort algorithm?",
+    "response": "By swapping when the current element is less than the next"
+  },
+  {
+    "query": "What does the extra field in a linked list record store?",
+    "response": "The physical address of the next logical record"
+  },
+  {
+    "query": "In the selection sort algorithm, what is the initial state of the sorted sublist?",
+    "response": "Contains zero elements"
+  },
+  {
+    "query": "What is an example of a situation where you might use a two-dimensional array?",
+    "response": "Storing rental amounts for apartments based on floor and number of bedrooms"
+  },
+  {
+    "query": "What must be done when removing a record from a linked list?",
+    "response": "Update the previous record's link to bypass the deleted record."
+  },
+  {
+    "query": "How does a credit manager want to list overdue customers?",
+    "response": "In descending order by amount owed"
+  },
+  {
+    "query": "How are alphabetic sorts performed by computers?",
+    "response": "By comparing numeric codes of letters"
+  },
+  {
+    "query": "What does a two-dimensional array require to access an element?",
+    "response": "Two subscripts"
+  },
+  {
+    "query": "What is a common method to sort records composed of multiple fields?",
+    "response": "Grouping related data fields in a structure or class"
+  },
+  {
+    "query": "How does an index improve record retrieval in a large data file?",
+    "response": "It provides a list of key fields paired with storage addresses."
+  },
+  {
+    "query": "What is the purpose of an index in a large data file?",
+    "response": "To allow records to be accessed in logical order"
+  },
+  {
+    "query": "Which sorting algorithm uses two sublists: values already sorted and values not yet sorted?",
+    "response": "Selection sort"
+  },
+  {
+    "query": "How are records arranged in ascending order?",
+    "response": "From lowest to highest value"
+  },
+  {
+    "query": "What is necessary to sort parallel arrays successfully?",
+    "response": "Ensuring all items in each array are swapped in a synchronized manner"
+  },
+  {
+    "query": "If sorting a 10-element array, how many pair comparisons are made during each loop?",
+    "response": "9 pair comparisons"
+  },
+  {
+    "query": "Which of the following tools identifies and categorizes items as input, processing, or output in a method?",
+    "response": "IPO chart"
+  },
+  {
+    "query": "Which part of a method contains the implementation statements?",
+    "response": "Method body"
+  },
+  {
+    "query": "What is required if a method receives data from outside?",
+    "response": "A parameter list"
+  },
+  {
+    "query": "Which of the following scenarios can cause ambiguity in method overloading?",
+    "response": "Two methods with identical names and identical parameter lists"
+  },
+  {
+    "query": "In which programming language are method names conventionally started with a lowercase letter?",
+    "response": "Java"
+  },
+  {
+    "query": "How are multiple parameters listed within a method header's parentheses?",
+    "response": "Separated by commas"
+  },
+  {
+    "query": "When are parameters in a method header redeclared?",
+    "response": "Each time the method executes"
+  },
+  {
+    "query": "What does overloading a method in programming involve?",
+    "response": "Creating multiple methods with the same name and different parameter lists"
+  },
+  {
+    "query": "What is a significant disadvantage of using recursion in programming?",
+    "response": "It makes debugging and maintaining code more challenging."
+  },
+  {
+    "query": "Which of the following is NOT a typical characteristic of a well-written recursive method?",
+    "response": "It makes multiple recursive calls without any stopping condition."
+  },
+  {
+    "query": "What is the correct order for listing parameters in a method declaration?",
+    "response": "By data type and identifier"
+  },
+  {
+    "query": "In which scenario would you expect to see high cohesion in a method?",
+    "response": "A method that computes a single value, like a square root or cumulative sum"
+  },
+  {
+    "query": "When a method returns a value, what must match the data type of the returned value?",
+    "response": "Return type"
+  },
+  {
+    "query": "Which statement about predefined methods is true?",
+    "response": "Predefined methods are useful for performing common tasks without knowing low-level details."
+  },
+  {
+    "query": "How does overloading a method with different parameter lists resolve ambiguity?",
+    "response": "By making sure each method has a unique signature"
+  },
+  {
+    "query": "How are instance methods handled in memory when multiple objects of a class are created?",
+    "response": "Only one copy of each instance method is stored in memory, shared among all objects."
+  },
+  {
+    "query": "What does the 'this' reference in Java specifically refer to when used in a method?",
+    "response": "The object on which the method was called"
+  },
+  {
+    "query": "Which feature of OOP ensures that attributes of an object are hidden and only accessible through methods?",
+    "response": "Encapsulation"
+  },
+  {
+    "query": "Which term is used to describe a class from which objects are instantiated?",
+    "response": "Abstract data type"
+  },
+  {
+    "query": "What is the process of creating new classes that inherit traits from existing classes called?",
+    "response": "Inheritance"
+  },
+  {
+    "query": "What is the key benefit of using inheritance in object-oriented programming?",
+    "response": "It reduces code redundancy by reusing characteristics of existing classes."
+  },
+  {
+    "query": "In OOP, what concept allows objects to be categorized into classes based on shared attributes and methods?",
+    "response": "Inheritance"
+  },
+  {
+    "query": "How are objects of the same class related in terms of memory usage?",
+    "response": "Each object shares one copy of the class's methods."
+  },
+  {
+    "query": "Which statement is false regarding the organization of class components?",
+    "response": "Data fields are usually placed at the end of the class definition."
+  },
+  {
+    "query": "When organizing methods in a class, which approach is commonly used?",
+    "response": "Storing all data fields before methods"
+  },
+  {
+    "query": "What is the purpose of a mutator method?",
+    "response": "To modify or set values of data fields in a class"
+  },
+  {
+    "query": "What is the default access level for methods in a class if no access modifier is specified?",
+    "response": "Package-private"
+  },
+  {
+    "query": "Which programming language is mentioned as using a pound sign (#) to indicate protected access in a class diagram?",
+    "response": "C#"
+  },
+  {
+    "query": "When a class provides an interface to interact with its methods but hides its implementation details, what concept does this illustrate?",
+    "response": "Abstraction"
+  },
+  {
+    "query": "In which scenario would explicitly using the 'this' reference be beneficial?",
+    "response": "When differentiating between an instance field and a method parameter with the same name"
+  },
+  {
+    "query": "Where should constructors typically be placed within a class?",
+    "response": "Among the first methods"
+  },
+  {
+    "query": "What term describes multiple versions of a method with the same name but different parameter lists?",
+    "response": "Overloading"
+  },
+  {
+    "query": "When would it be appropriate to use the \"protected\" access specifier?",
+    "response": "When you want fields accessible by child classes but not by any outside classes"
+  },
+  {
+    "query": "How does inheritance help in reducing the chance for errors and inconsistencies?",
+    "response": "By centralizing changes in shared fields to the base class"
+  },
+  {
+    "query": "What is the primary benefit of polymorphism in object-oriented programming?",
+    "response": "It allows for the use of reasonable, easy-to-remember names for methods."
+  },
+  {
+    "query": "In the context of destructors, what does it mean when an object becomes eligible for destruction?",
+    "response": "It is no longer possible for any code to use it."
+  },
+  {
+    "query": "What is a derived class also known as?",
+    "response": "Child class"
+  },
+  {
+    "query": "What does the \"protected\" access specifier do in a class?",
+    "response": "It makes the field accessible to child classes but not to outside classes."
+  },
+  {
+    "query": "What is a common built-in Exception type provided by many OOP languages?",
+    "response": "DivideByZeroException"
+  },
+  {
+    "query": "If a class only has a parameterized constructor, what is true about object instantiation?",
+    "response": "Objects must be instantiated with arguments."
+  },
+  {
+    "query": "Why is it beneficial to place fields and methods at their most general level in inheritance?",
+    "response": "To avoid duplication and promote reuse"
+  },
+  {
+    "query": "What happens when a method in a parent class is overridden by a child class method with the same signature?",
+    "response": "The child class method overrides the parent class method."
+  },
+  {
+    "query": "Which statement is true about constructors in object-oriented programming languages?",
+    "response": "Constructors do not have a return type."
+  },
+  {
+    "query": "What happens if you try to access a private field of a parent class from a child class?",
+    "response": "The code does not compile."
+  },
+  {
+    "query": "Which of the following statements about destructors is true?",
+    "response": "Destructors must have an empty parameter list."
+  },
+  {
+    "query": "How did early computer users interact with operating systems?",
+    "response": "Using command prompts with exact syntax"
+  },
+  {
+    "query": "What is the term 'real estate' used to refer to in GUI design?",
+    "response": "The space occupied by screen components"
+  },
+  {
+    "query": "Which technique allows the launch of multiple threads of execution in a program?",
+    "response": "Multithreading"
+  },
+  {
+    "query": "Why has the Dvorak keyboard layout not become widely adopted?",
+    "response": "It's not predictable to users familiar with QWERTY."
+  },
+  {
+    "query": "What must programmers consider when creating event-driven programs?",
+    "response": "The possible events and their corresponding scripts"
+  },
+  {
+    "query": "A text box in a GUI is used for:",
+    "response": "Typing text"
+  },
+  {
+    "query": "What is the emphasis on in event-driven languages?",
+    "response": "Objects that users manipulate and the events they generate"
+  },
+  {
+    "query": "How do built-in classes in object-oriented languages help in creating animations?",
+    "response": "They provide methods to draw geometric figures."
+  },
+  {
+    "query": "Which method would you use to change the text on a Button object?",
+    "response": "setText()"
+  },
+  {
+    "query": "Why is it beneficial to understand the coding statements generated by an integrated development environment?",
+    "response": "To modify and debug programs more easily"
+  },
+  {
+    "query": "What action is often required after a program is put into production and changes are needed?",
+    "response": "Maintenance"
+  },
+  {
+    "query": "What process involves walking through a program's logic on paper before writing it?",
+    "response": "Desk-checking"
+  },
+  {
+    "query": "Which of the following might a programmer use to understand a problem better?",
+    "response": "Documentation"
+  },
+  {
+    "query": "How do most programmers format pseudocode statements?",
+    "response": "Indented slightly so start and stop stand out"
+  },
+  {
+    "query": "What is a preselected value that stops the execution of a program called?",
+    "response": "Dummy value or sentinel value"
+  },
+  {
+    "query": "Who are the primary people programmers write programs to satisfy?",
+    "response": "End users"
+  },
+  {
+    "query": "What is the importance of correct program logic?",
+    "response": "To ensure the program executes correctly and produces accurate output"
+  },
+  {
+    "query": "What is a better way to end a program instead of turning off the computer?",
+    "response": "Using a predetermined sentinel value"
+  },
+  {
+    "query": "What is a key focus of procedural programming?",
+    "response": "Focusing on the actions carried out by the program."
+  },
+  {
+    "query": "What is the purpose of using flowcharts for some programmers?",
+    "response": "To visualize how the program statements will connect"
+  },
+  {
+    "query": "What is desk-checking in program design?",
+    "response": "Walking through program logic on paper"
+  },
+  {
+    "query": "What is an identifier?",
+    "response": "A program component's name"
+  },
+  {
+    "query": "Which statement correctly averages two test scores?",
+    "response": "average = (score1 + score2) / 2"
+  },
+  {
+    "query": "What is a convention for naming modules mentioned in the passage?",
+    "response": "Modules must start with a letter and cannot contain spaces."
+  },
+  {
+    "query": "What does the Unified Modeling Language (UML) use to describe a system?",
+    "response": "A set of diagrams"
+  },
+  {
+    "query": "What is one benefit of modularizing a program mentioned in the passage?",
+    "response": "It makes the main program short and easy to follow."
+  },
+  {
+    "query": "What does a hierarchy chart NOT show?",
+    "response": "The tasks performed within a module"
+  },
+  {
+    "query": "Which data type cannot be used in arithmetic operations?",
+    "response": "String"
+  },
+  {
+    "query": "Where can you place variable and constant declarations in a program?",
+    "response": "Within modules"
+  },
+  {
+    "query": "What should the beginning sentinel of a module contain in a flowchart?",
+    "response": "The name of the module"
+  },
+  {
+    "query": "What does a sequence structure never contain?",
+    "response": "Conditional tests"
+  },
+  {
+    "query": "What is the primary feature of the sequence structure?",
+    "response": "It performs tasks in order, one after the other."
+  },
+  {
+    "query": "Which structure repeats actions while a tested condition remains true?",
+    "response": "Loop"
+  },
+  {
+    "query": "Which of the following is an example of a sequence structure?",
+    "response": "Instructions listed in a specific order"
+  },
+  {
+    "query": "What is the action or actions that occur within a loop called?",
+    "response": "Loop body"
+  },
+  {
+    "query": "What should you picture the flowchart as to use the \"spaghetti bowl\" method?",
+    "response": "A bowl of spaghetti"
+  },
+  {
+    "query": "How many basic structures did mathematicians prove any program can be constructed with?",
+    "response": "Three"
+  },
+  {
+    "query": "What can be eliminated when a logical path from a conditional test can never be travelled?",
+    "response": "The conditional test"
+  },
+  {
+    "query": "What method can be used to straighten out an unstructured flowchart segment?",
+    "response": "Spaghetti bowl method"
+  },
+  {
+    "query": "When combining structures, what is the process of attaching structures end to end called?",
+    "response": "Stacking structures"
+  },
+  {
+    "query": "What does a priming input do in a program?",
+    "response": "It gets the first input value."
+  },
+  {
+    "query": "If the logic never returns to a condition after its test, what does it indicate?",
+    "response": "A selection structure"
+  },
+  {
+    "query": "What is difficult to detect when beginning to learn about structured program design?",
+    "response": "The structured nature of a flowchart"
+  },
+  {
+    "query": "What is the main disadvantage of programs containing spaghetti code?",
+    "response": "They have a shorter life span."
+  },
+  {
+    "query": "Spaghetti code is the descriptive name for which type of program statements?",
+    "response": "Logically snarled programs"
+  },
+  {
+    "query": "What is the purpose of short-circuiting in an OR decision?",
+    "response": "To ignore the second condition if the first is true"
+  },
+  {
+    "query": "What logic error occurs when trying to find if a value falls between two other values using OR incorrectly?",
+    "response": "The condition is always false"
+  },
+  {
+    "query": "What is the benefit of using a case structure over a series of decisions?",
+    "response": "It can potentially execute more quickly and is easier to read."
+  },
+  {
+    "query": "The not-equal-to operator evaluates to true when:",
+    "response": "The operands are not equivalent"
+  },
+  {
+    "query": "Which condition should be evaluated first in an AND decision to improve program efficiency?",
+    "response": "The condition less likely to be true"
+  },
+  {
+    "query": "What is a significant consideration when using the NOT operator in logical expressions?",
+    "response": "It can create trivial or confusing statements."
+  },
+  {
+    "query": "The evaluation of a Boolean expression in a selection structure results in:",
+    "response": "Two possible paths of execution"
+  },
+  {
+    "query": "In the selection structure, the paths taken based on the Boolean expression's outcome are:",
+    "response": "Mutually exclusive, with only one path being executed"
+  },
+  {
+    "query": "What does the NOT operator do in a Boolean expression?",
+    "response": "Reverses the meaning of the Boolean expression"
+  },
+  {
+    "query": "What type of condition is created when multiple evaluations are needed before an outcome is determined?",
+    "response": "Compound condition"
+  },
+  {
+    "query": "Why is it important to double-check the intended meaning with the program requester?",
+    "response": "People do not always speak as precisely as a computer."
+  },
+  {
+    "query": "Which statement is easier to understand for not allowing voter registration for those under 18?",
+    "response": "if age > 18 then output \"Can register to vote\" endif"
+  },
+  {
+    "query": "In an OR decision, what happens if the first condition is true?",
+    "response": "The second condition is ignored."
+  },
+  {
+    "query": "Consistency in drawing selections in flowcharts helps:",
+    "response": "Make the flowchart easier to read"
+  },
+  {
+    "query": "What is the truth value of NOT True?",
+    "response": "False"
+  },
+  {
+    "query": "What is the outer loop in a nested loop?",
+    "response": "The loop that contains the other loop."
+  },
+  {
+    "query": "What happens if the user enters the QUIT value at the start of the program?",
+    "response": "The program ends immediately."
+  },
+  {
+    "query": "Can the step value in a for loop be negative?",
+    "response": "Yes"
+  },
+  {
+    "query": "What keyword is used in many modern languages to output data in a loop?",
+    "response": "print"
+  },
+  {
+    "query": "What ends the structure of a while loop?",
+    "response": "The keyword endwhile"
+  },
+  {
+    "query": "In Java, C++, and C#, what symbol is used to separate the three actions (initializing, evaluating, and altering) in a for loop?",
+    "response": "Semicolons"
+  },
+  {
+    "query": "What is the equivalent structure to a for loop that can always be used instead?",
+    "response": "A while loop"
+  },
+  {
+    "query": "What does the keyword \"while\" precede in a while loop?",
+    "response": "Any statements that execute when the tested condition is true"
+  },
+  {
+    "query": "What does the while expression compare in a counted while loop?",
+    "response": "The loop control variable to a predetermined number"
+  },
+  {
+    "query": "What happens if the loop control variable is not initialized?",
+    "response": "The program may produce unpredictable results."
+  },
+  {
+    "query": "What is a major advantage of having a computer perform complicated tasks?",
+    "response": "Ability to repeat tasks"
+  },
+  {
+    "query": "Words like \"while,\" \"until,\" \"as long as,\" \"during,\" \"for each,\" \"repeat,\" and \"continue\" in program requirements suggest the use of a:",
+    "response": "Loop structure"
+  },
+  {
+    "query": "In a do-while loop, where is the loop-controlling condition tested?",
+    "response": "At the end of the loop"
+  },
+  {
+    "query": "What must be provided within the loop to ensure proper execution?",
+    "response": "All of the answers"
+  },
+  {
+    "query": "What is a common mistake made when working with loops?",
+    "response": "Using the wrong type of comparison when testing the loop control variable"
+  },
+  {
+    "query": "What is not allowed when initializing an array with values?",
+    "response": "Providing more values than positions available"
+  },
+  {
+    "query": "What is an array that holds constant values usually declared with?",
+    "response": "All uppercase letters with underscores"
+  },
+  {
+    "query": "Parallel arrays usually contain the same number of elements.",
+    "response": "TRUE"
+  },
+  {
+    "query": "What should be done if items are numbered consecutively to avoid using parallel arrays?",
+    "response": "Use the item number itself as a subscript."
+  },
+  {
+    "query": "What is identified as a false statement about arrays?",
+    "response": "Each array element is accessed using a subscript, which can be a number or a string."
+  },
+  {
+    "query": "What is a named constant used for in arrays?",
+    "response": "To hold values that do not change during program execution"
+  },
+  {
+    "query": "What is a convenient tool for processing every element of an array sequentially?",
+    "response": "for loop"
+  },
+  {
+    "query": "How can the efficiency of the item finding program be improved?",
+    "response": "By stopping the loop as soon as the item is found"
+  },
+  {
+    "query": "To help locate a range within which a value falls, you can store the highest value in each range in an array.",
+    "response": "The correct answer is 'True'."
+  },
+  {
+    "query": "How does the efficient decision-making process using an array differ from the initial version?",
+    "response": "It eliminates the need for multiple decisions."
+  },
+  {
+    "query": "What happens if you attempt to access an array with a subscript that is too small in some programming languages?",
+    "response": "The program stops execution and issues an error message."
+  },
+  {
+    "query": "How are real-life arrays similar to programming arrays?",
+    "response": "Both organize objects or information"
+  },
+  {
+    "query": "Which statement is false about arrays?",
+    "response": "Only whole numbers can be stored in arrays."
+  },
+  {
+    "query": "How is an array element identified within an array?",
+    "response": "By a unique subscript or index"
+  },
+  {
+    "query": "What does each element of an array have in common?",
+    "response": "The same data type"
+  }
+]
