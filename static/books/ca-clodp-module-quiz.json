@@ -388,10 +388,6 @@
     "response": "The ability to define specific triggers for events."
   },
   {
-    "query": "In a Bash for loop, what does the variable i typically represent?",
-    "response": "The iterator that takes on each value in the list"
-  },
-  {
     "query": "Evaluate the following Bash expression: $((var1 + var2)) Which of the following statements best describes its functionality?",
     "response": "It adds the numeric values of var1 and var2."
   },
@@ -1228,10 +1224,6 @@
     "response": "Virtual machine contributor"
   },
   {
-    "query": "How would you assess the role of the National Vulnerability Database (NVD) in enhancing cybersecurity measures?",
-    "response": "NVD provides additional analysis and criticality metrics that help organizations better understand and mitigate vulnerabilities."
-  },
-  {
     "query": "What is the first step in the account management process?",
     "response": "Creating user identities"
   },
@@ -1324,17 +1316,9 @@
     "response": "Use Docker Swarm to automate the deployment and management of Docker containers."
   },
   {
-    "query": "Which aspect of event-driven architectures would you consider most critical for ensuring scalability in a web application?",
-    "response": "The ability to define specific triggers for events."
-  },
-  {
     "query": "You are designing an e-commerce platform using an event-driven architecture. During the checkout process, a customer places an order, and the billing system charges the customer's bank. However, the billing system fails to process the payment due to insufficient funds.",
     "response": "The billing system should trigger an event to notify the customer of the payment failure."
   },
-{
-"query": "Given a scenario where multiple nodes in a network are experiencing connectivity issues, which of the following would be the most logical first step in troubleshooting?",
-"response": "Identify commonalities among the affected nodes"
-},
 {
 "query": "Which of the following represents a single point of failure? (Select two.)",
 "response": "Cloud direct connection, Load balancer"
@@ -1372,8 +1356,8 @@
 "response": "Dynamic routing, because it automatically updates routing tables and scales better."
 },
 {
-"query": "What is the first step in IP address management (IPAM)?",
-"response": "Implementing a method to track IP addresses in individual subnets."
+"query": "Given a network with frequent changes and scalability requirements, which routing method would you recommend and why?",
+"response": "Dynamic routing, because it automatically updates routing tables and scales better."
 },
 {
 "query": "A company expanding into new regions would like to create fast data access response times throughout its expansion efforts. Currently, the company's headquarters maintains all accessible data.\nWhat might the company implement to best satisfy this need?",
