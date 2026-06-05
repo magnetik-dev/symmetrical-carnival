@@ -39,8 +39,14 @@
     { value: 'dgmkf-quizes-all', label: 'DGMKF Quizes' }
   ];
 
-  const bookOptions = cyberOptions.concat(dataOptions)
-                            .concat(digitalDesignOptions);
+  const businessManagementOptions = [
+    { value: 'bm-obeo', label: 'OBEO Quiz' }
+  ];
+
+  const bookOptions = cyberOptions
+                        .concat(dataOptions)
+                        .concat(digitalDesignOptions)
+                        .concat(businessManagementOptions);
 
   $effect(() => {
     entries = data.entries;
@@ -84,6 +90,14 @@
                     <p class="menu-label">Digital Design</p>
                     <ul class="menu-list">
                         {#each digitalDesignOptions as option}
+                        <li>
+                            <a href="/quiz?book={option.value}" class="has-text-primary">{option.label}</a>
+                        </li>
+                        {/each}
+                    </ul>
+                    <p class="menu-label">Business Management</p>
+                    <ul class="menu-list">
+                        {#each businessManagementOptions as option}
                         <li>
                             <a href="/quiz?book={option.value}" class="has-text-primary">{option.label}</a>
                         </li>
