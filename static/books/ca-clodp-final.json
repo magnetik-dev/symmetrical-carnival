@@ -294,5 +294,37 @@
     {
         "query": "What should be considered if there is a problem with the exposure of customer or employee personally identifiable information (PII)?",
         "response": "Data exfiltration"
-    }
+    },
+      {
+    "query": "Engineers at an organization prepare for cloud migration. The services that will move are internal and proprietary in nature.\nWhat migration type and cloud type result from this move?",
+    "response": "On premises-to-cloud, Private cloud"
+  },
+  {
+    "query": "A technician is configuring workstations for a small team of data analysts that use graphically and computationally powerful analysis programs.\nTo best optimize the constant workload, which of the following would be the best technique to maximize the ability of the workstations to handle several of these tasks?",
+    "response": "Enable GPU offloading"
+  },
+  {
+    "query": "Which of the following best supports the use of tagging resources in a cloud environment for cost management?",
+    "response": "Tags allow for the creation of detailed billing and utilization reports, aiding in accurate chargebacks to business units."
+  },
+  {
+    "query": "Considering the importance of cloud event monitoring, which of the following scenarios would most likely indicate a need for improved monitoring practices?",
+    "response": "A company consistently fails to detect unauthorized user account activity."
+  },
+  {
+    "query": "Which tools rely on files that may be stored in central repositories?",
+    "response": "Ansible and Docker"
+  },
+  {
+    "query": "A cloud engineer wants to deploy the ELK stack using container orchestration for better scalability.\nWhich deployment method should they choose, and why?",
+    "response": "Using Kubernetes, because it enables flexible scaling for monitoring variable applications and services."
+  },
+  {
+    "query": "A network administrator is troubleshooting a routing issue where certain routes are missing from the routing table. The administrator has confirmed that the routing protocols being used are compatible. However, the issue persists.\nWhat should the administrator analyze next to identify the cause of the missing routes?",
+    "response": "The manual entry of routes by administrators"
+  },
+  {
+    "query": "A user mentions that a cloud-based data entry portal is not accessible. Engineers believe they have identified the problem as a client-side issue but are unsure of how prevalent it is across the system.\nWhat step should the engineers take next to solidify the problem?",
+    "response": "Determine the scope"
+  }
 ]
