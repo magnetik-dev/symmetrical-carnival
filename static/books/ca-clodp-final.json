@@ -308,14 +308,6 @@
     "response": "Tags allow for the creation of detailed billing and utilization reports, aiding in accurate chargebacks to business units."
   },
   {
-    "query": "Considering the importance of cloud event monitoring, which of the following scenarios would most likely indicate a need for improved monitoring practices?",
-    "response": "A company consistently fails to detect unauthorized user account activity."
-  },
-  {
-    "query": "Which tools rely on files that may be stored in central repositories?",
-    "response": "Ansible and Docker"
-  },
-  {
     "query": "A cloud engineer wants to deploy the ELK stack using container orchestration for better scalability.\nWhich deployment method should they choose, and why?",
     "response": "Using Kubernetes, because it enables flexible scaling for monitoring variable applications and services."
   },
@@ -326,5 +318,33 @@
   {
     "query": "A user mentions that a cloud-based data entry portal is not accessible. Engineers believe they have identified the problem as a client-side issue but are unsure of how prevalent it is across the system.\nWhat step should the engineers take next to solidify the problem?",
     "response": "Determine the scope"
+  },
+  {
+    "query": "A company moves specific types of data into a type of short-term storage at the end of each month. This data is complete system-state information intended for fast recovery, and an administrator must consistently refresh it with up-to-date data. The administrator is saving the data on high-speed solid-state drives (SSDs) as a part of this.",
+    "response": "Snapshot"
+  },
+  {
+    "query": "In the event of a data exfiltration or breach, which of the following actions would be the most critical to perform first to ensure an effective response?",
+    "response": "Understand what information has been taken"
+  },
+  {
+    "query": "Considering the importance of cloud event monitoring, which of the following scenarios would most likely indicate a need for improved monitoring practices?",
+    "response": "A company consistently fails to detect unauthorized user account activity."
+  },
+  {
+    "query": "What is the new name for the master branch in Git?",
+    "response": "main"
+  },
+  {
+    "query": "A software developer is in the process of writing a code update for a software library with new functionality. The developer is using Git for version control and scripting to orchestrate automatic upload of weekly update patches to Git.",
+    "response": "git push"
+  },
+  {
+    "query": "Which tools rely on files that may be stored in central repositories?",
+    "response": "Ansible and Docker"
+  },
+  {
+    "query": "What should be done if vulnerabilities are found in software developed in-house?",
+    "response": "Submit a ticket to the dev team."
   }
 ]

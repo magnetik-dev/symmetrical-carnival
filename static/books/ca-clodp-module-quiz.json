@@ -2128,7 +2128,115 @@
   {
     "query": "Which cloud service model provides the highest level of control over the underlying infrastructure to the consumer?",
     "response": "Infrastructure as a Service (IaaS)"
+  },
+  {
+    "query": "Evaluate the benefits of the subscription services payment model. Which of the following is the most significant advantage for consumers?",
+    "response": "The ability to access services immediately upon subscription."
+  },
+  {
+    "query": "An IT support technician discovers that a Windows-based cloud instance requires a new driver to resolve an issue. Installing the driver pertains to which step in the troubleshooting process?",
+    "response": "Implement the Solution"
+  },
+  {
+    "query": "Which of the following would NOT be an example of appropriate consumer responsibility when patching cloud resources running on an infrastructure as a service (IaaS) solution?",
+    "response": "Patch virtual host hypervisor."
+  },
+  {
+    "query": "In following best practice, what does an engineer document throughout a service's lifecycle as it relates to troubleshooting? (Select three.)",
+    "response": "Actions, Findings, Outcomes"
+  },
+  {
+    "query": "A company is migrating to a web-based file sharing application to help transition its in-office departments to a primarily remote setup. What type of solution is the company installing?",
+    "response": "SaaS"
+  },
+  {
+    "query": "Considering the responsibilities of system administrators in a virtualized environment, which of the following would be the most critical task to ensure the security and functionality of the virtual machines?",
+    "response": "Configuring, maintaining, updating, and securing the OS and applications."
+  },
+{
+    "query": "A network technician is troubleshooting an issue. The technician has theorized about a cause and is preparing to test that cause. Prescribe the next action if the theory is not confirmed. (Select two.)",
+    "response": "Identify the problem., Escalate the issue."
+  },
+  {
+    "query": "What criteria would you use to determine if your organization should outsource cloud services to an MSP?",
+    "response": "The organization lacks the broad range of expertise needed for cloud computing."
+  },
+  {
+    "query": "Google Apps are an example of which cloud service model?",
+    "response": "Software as a Service (SaaS)"
+  },
+  {
+    "query": "A sysadmin is setting up an account with a cloud storage provider. The sysadmin needs three unique storage units set up. What cloud term refers to the primary storage unit for data objects?",
+    "response": "Buckets"
+  },
+  {
+    "query": "A Microsoft administrator must reconfigure storage by access requirements for a company. Which of the following \"tiers\" are potential options for the administrator to utilize as storage segments? (Select two.)",
+    "response": "Archive, Hot"
+  },
+  {
+    "query": "A large organization is updating its technology infrastructure by department. Currently, administrators manage all IT assets via server closets in an isolated building on the organization's campus. Following the most business-critical departments, the organizational leadership would like to reduce expenditures and streamline operations by migrating its sales and marketing teams. Which available method would make the most sense?",
+    "response": "On-premises to cloud"
+  },
+  {
+    "query": "A company is looking to balance cost and performance with a cloud service provider. One cloud service provider has three access levels, divided into hot access tier, cool access tier, and archive tier. These access levels refer to what type of cloud management service?",
+    "response": "Storage"
+  },
+  {
+    "query": "What can organizations do with the utilization information provided by resource metering?",
+    "response": "Optimize costs by configuring resources"
+  },
+  {
+    "query": "A company has received a higher-than-expected bill from their cloud service provider. They suspect that unused instances might be accruing compute costs. What action should they take to address this issue?",
+    "response": "Check the billing and accounting dashboard for unused instances"
+  },
+  {
+    "query": "Your cloud-deployed application is experiencing performance issues. You suspect API throttling might be the cause. How would you evaluate this hypothesis?",
+    "response": "Check the API source for throttling and request an increase if justified."
+  },
+  {
+    "query": "What is one benefit of on-premises virtualization?",
+    "response": "It allows administrators to increase or decrease compute capacity more easily."
+  },
+  {
+    "query": "What is one of the benefits of using managed cloud service providers CSPs?",
+    "response": "They offer specific subscription options to maximize your cloud budget."
+  },
+  {
+    "query": "A server administrator is preparing to move their organization to the cloud, so they reach out to a more experienced colleague who deals with cloud operations daily. The experienced colleague advises ensuring that remote administration is enabled as they move to the cloud. What might this help with?",
+    "response": "Failed migrations"
+  },
+  {
+    "query": "What should you check first when determining the scope of a cloud service outage?",
+    "response": "Regional or local power and Internet outages"
+  },
+  {
+    "query": "A cloud administrator needs to apply an emergency hotfix to one of the instances. What type of backup should the administrator capture before applying the hotfix to the system?",
+    "response": "Snapshot backup"
+  },
+  {
+    "query": "A cloud service provider (CSP) that provides Software as a Service (SaaS) to clients is in the decision-making phase of planning the deployment of the next cloud application and is specifically considering which geographical regions and zones to deploy first. Specify the factors that will contribute to the decision. (Select three.)",
+    "response": " Costs and expenses, Size of the user population, Service-level agreement specifications"
+  },
+  {
+    "query": "A network technician is investigating a resource access issue on a corporate network. Decide which corporate policy the technician should consult before implementing changes in order to determine whether the issue should be escalated to the cloud service provider (CSP).",
+    "response": "Service Level Agreement"
+  },
+  {
+    "query": "Top level engineers compile a document to address disaster recovery management techniques. Of interest to stakeholders is the recovery time objective (RTO). How do engineers describe this metric?",
+    "response": "The time needed to maintain an organization's business continuity"
+  },
+  {
+    "query": "An administrator has configured backup jobs for new cloud instances. What methods can the administrator use to verify that the backup data is valid? (Select all that apply.)",
+    "response": "Check the backup logs for errors and completion status., Perform a test restore of the data."
+  },{
+    "query": "What cloud records management feature or solution would be most beneficial in a use case where lawyers may want to go through years of data to convict a person suspected of money laundering? (Select two.)",
+    "response": "Write once read many, Retention"
+  },
+  {
+    "query": "Which utility is included with Windows Server 2022 for backup purposes?",
+    "response": "Windows Server Backup"
   }
+
 
 
   
