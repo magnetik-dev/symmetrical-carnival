@@ -26,7 +26,7 @@
     { value: 'ca-clodp-final', label: 'CLODP Final Exam' },
     { value: 'ca-serpl-quizes-all', label: 'SERPL Quizes All' },
     { value: 'ca-serpl-final', label: 'SERPL Final Exam' },
-    { value: 'ca-linx', label: 'LINX Exams' }
+    { value: 'ca-linx', label: 'LINX Exams' },
     { value: 'ca-serpl-quizes-all', label: 'SERPL Module Quizes' },
     { value: 'ca-serpl-final', label: 'SERPL Final Exam' }
 
