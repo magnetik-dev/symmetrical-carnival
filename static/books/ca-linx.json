@@ -1,0 +1,1050 @@
+[
+  {
+    "query": "What has come into existence with security becoming a part of the development, integration, and maintenance lifecycle?",
+    "response": "DevSecOps"
+  },
+  {
+    "query": "Users report that a recently published application installer is blocked by their operating system. What can the developer add to the installation package to ensure it installs correctly?",
+    "response": "Digital signature"
+  },
+  {
+    "query": "Which context-based permissions scheme was developed by the National Security Agency?",
+    "response": "SELinux"
+  },
+  {
+    "query": "A marketing and sales director reported an issue that the company's eCommerce website is now showing as insecure in Google Chrome. What can the DevSecOps team investigate to remediate this issue?",
+    "response": "Certificate"
+  },
+  {
+    "query": "The Chief Technology Officer requested a business justification for implementing SELinux in their environment. What is one main benefit of SELinux?",
+    "response": "Enforces mandatory access controls."
+  },
+  {
+    "query": "A developer wants to ensure users are installing the correct program. What could the developer place on their website for users to cross-reference to ensure users are installing the correct application?",
+    "response": "Digital signature"
+  },
+  {
+    "query": "What part of a Linux file is optional and meaningless?",
+    "response": "File extension"
+  },
+  {
+    "query": "A systems administrator is having trouble running a script to automate certain tasks. What might the administrator need to type to get the system to look in the current directory?",
+    "response": "./"
+  },
+  {
+    "query": "An engineer needs to write a Bash script to include a prompt for input from a user. How can the engineer accomplish this?",
+    "response": "read"
+  },
+  {
+    "query": "A network administrator needs to run a script in Linux on a set schedule. Editing a file would schedule the script to run in this fashion. What can the administrator use for this task?",
+    "response": "crontab"
+  },
+  {
+    "query": "An engineer received a request to find a specific file that includes \"html\" in the file name. What common script utility can the engineer use to find a specific string or character?",
+    "response": "regex"
+  },
+  {
+    "query": "A security engineer reviews a script found online to help automate certain tasks. The engineer notices numerous hash characters (#) in the script and does not understand it. What is the purpose of the hash (#) character in a bash script?",
+    "response": "To add a comment to certain sections of code"
+  },
+  {
+    "query": "One of the key benefits of a DevOps organization using configuration management processes is to do what?",
+    "response": "Maintain consistency."
+  },
+  {
+    "query": "A DevOps team works to simplify the ability for users to configure their application when users set it up on their own servers. What would best fit this activity?",
+    "response": "JSON"
+  },
+  {
+    "query": "A DevOps team needs a version control utility. What utility best fits the team's needs?",
+    "response": "Git"
+  },
+  {
+    "query": "What is a key difference between automation and orchestration?",
+    "response": "Automation is related to deployment tasks."
+  },
+  {
+    "query": "A system administrator sets up a new server and wants to modify settings for the server after completing the initial setup. What should the system administrator learn about to accomplish this task?",
+    "response": "Configuration management"
+  },
+  {
+    "query": "A web development team needs to implement a process that improves the turnaround time between updates. What concept refers to this process?",
+    "response": "CI/CD"
+  },
+  {
+    "query": "A consultant is working within a KVM environment and using the\u00a0virsh\u00a0command. What subcommand displays an inventory of recognized virtual machines?",
+    "response": "list"
+  },
+  {
+    "query": "An intern is reviewing the available options associated with network access for VMs. What option proves that there is network access only to other VMs on the same host?",
+    "response": "Local"
+  },
+  {
+    "query": "A technician is setting up a new office using virtual machines. While setting up virtualization, what option provides access to both the physical network and the internet?",
+    "response": "Bridged"
+  },
+  {
+    "query": "A cyber consultant is working on a Kubernetes container orchestration solution. What is the main component of a Kubernetes deployment?",
+    "response": "Pod"
+  },
+  {
+    "query": "A technician is exploring the requirements for running a container deployment for systems within the organization. What is the first step in container deployment?",
+    "response": "Selecting and installing a container engine"
+  },
+  {
+    "query": "A software engineer is evaluating the available options for network access to virtual machines. What option allows access to the host computer but not to the physical network or the internet?",
+    "response": "Host-only"
+  },
+  {
+    "query": "A technician is modifying boot settings by using GRUB2. What GRUB2 subcommand preloads the specified kernel modules with the GRUB2 boot loader?",
+    "response": "--modules {module-names}"
+  },
+  {
+    "query": "A consultant installs Linux on several of the company's devices. When considering boot processes, what is a newer firmware technology that brings the advantages of speed, its capability of working with more memory, and enhanced security?",
+    "response": "UEFI"
+  },
+  {
+    "query": "A consultant manually installed Linux on a corporate device. What are common tasks associated with post-deployment? (Select all that apply.)",
+    "response": "Create additional user accounts and groups., Configure network and firewall settings appropriate to the organization., Configure software updates. To note: automatic updates are recommended."
+  },
+  {
+    "query": "An intern is experiencing issues while attempting to boot their device. What can be caused by the introduction of typographical errors in any manually-defined storage devices and unanticipated boot device order?",
+    "response": "BIOS"
+  },
+  {
+    "query": "A technician is troubleshooting a device that is experiencing boot issues. What type of problem can result from a failed or missing storage device?",
+    "response": "Hardware"
+  },
+  {
+    "query": "A systems administrator in charge of a Rocks Cluster Linux-powered high-performance computing (HPC) cluster updates several custom configuration files used by the proprietary application software. The cluster runs updates using custom scripts that update files based on the timestamps of the last time they were accessed. If they are older than a few days, cached configuration files with last-known-good settings will replace them. The administrator does not want to lose the settings that the system has used for a few days. So, the administrator updates the timestamp on the first configuration file to mark it as current, so the update script does not update it. Then, the administrator needs to create a second file to add configuration settings to a new service for the cluster's main application. Only root users can create new files in the configuration directory, but standard users can fill in the configuration if the file already exists. Finally, determine what command-line interface (CLI) command the administrator can use to perform operations on both files.",
+    "response": "touch"
+  },
+  {
+    "query": "A Linux system administrator working for a security firm performs analysis on a collection of files. The administrator wants to keep track of the work by updating the timestamps on each file throughout the analysis. Recommend a basic Linux command that will update a file's timestamp.",
+    "response": "touch"
+  },
+  {
+    "query": "A Bash terminal accepts user input and processes that input according to a predefined syntax before providing output to the user. Bash falls under which category of software or standard?",
+    "response": "Command shell"
+  },
+  {
+    "query": "A system administrator adds addr show eth0 to the ip command to only display address information for the first ethernet port. Determine the correct terminology for the syntax used by the administrator to specify the port.",
+    "response": "Subcommand"
+  },
+  {
+    "query": "A Linux system administrator working for a cloud services company is double-checking the contents of several configuration files. Recommend a basic Linux command that the administrator might use to display the contents of a file. (Select all that apply.)",
+    "response": "cat, less"
+  },
+  {
+    "query": "An employee of a software development company asks the systems administrator in charge of the company's Linux network to change the default shell from bash to zsh. Determine which field number (under the employee's username) the systems administrator must edit to change the default shell for that user.",
+    "response": "7"
+  },
+  {
+    "query": "A systems administrator wants to create a new user account in the Debian system used by their employer. Recommend a command for creating a new user that will also prompt the administrator to set a password.",
+    "response": "The adduser command"
+  },
+  {
+    "query": "A systems administrator has added a trusted user to the /etc/sudoers file. Determine what command is associated with the /etc/sudoers file.",
+    "response": "sudo"
+  },
+  {
+    "query": "A user has forgotten their login credentials and submits a support ticket. When a user has forgotten their login credentials, what should the system administrator do to help resolve the issue?",
+    "response": "Use the passwd command to reset the password."
+  },
+  {
+    "query": "A Linux systems administrator uses the command userdel -r {username} to delete a user account. Why would the systems administrator add the -r option to the userdel command?",
+    "response": "To delete the user’s home directory."
+  },
+  {
+    "query": "The Red Hat Enterprise Linux high-performance computing (HPC) cluster administrator has recently created a new user account with the name new_241 for a new employee using the following command: useradd new_241. However, the employee is unable to log in. Deduce the cause of the employee's difficulty logging into the new account.",
+    "response": "The useradd command does not create a password for the newly created user."
+  },
+  {
+    "query": "A technician receives the exit code 8 for the groupdel command, which indicates to the technician that the system cannot remove the user's primary group. What must the technician do first to delete the group?",
+    "response": "Use the userdel command to remove the user account."
+  },
+  {
+    "query": "After using the echo$? command to verify group management options, a technician receives the exit code 6. What does this exit code indicate for the groupmod command?",
+    "response": "Specified group does not exist."
+  },
+  {
+    "query": "What command would an administrator use to add a user named \"msmith\" to a group named \"projects\" while retaining membership in all other groups?",
+    "response": "usermod -aG projects msmith"
+  },
+  {
+    "query": "A Linux systems administrator is performing a security review. Which command finds the information for this task?",
+    "response": "lastlog"
+  },
+  {
+    "query": "A system administrator troubleshoots some group management problems and decides to use the echo $? command to display the exit values for the groupadd command. What does exit code 9 indicate to the administrator?",
+    "response": "Group name not unique"
+  },
+  {
+    "query": "Describe the main difference between the su and sudo commands.",
+    "response": "The su command opens a new terminal as the root user."
+  },
+  {
+    "query": "A software-as-a-service (SaaS) company has installed SuSe Linux on their systems to manage their docker containers. These systems disable the root account by default. Conclude which commands a user or administrator would use to perform functions requiring root access. (Select all that apply.)",
+    "response": "pkexec, su, sudo"
+  },
+  {
+    "query": "A user intends to utilize the su - command followed by the name of the secondary user account but forgets to include the name of the secondary account as an argument. Deduce what the su utility will do in this case.",
+    "response": "The su utility will assume the user intended to login as root and will prompt for the root password."
+  },
+  {
+    "query": "A systems administrator changes a user's account password using the Bash command line terminal. Determine the command that will correctly update the hash of the user's password in the /etc/shadow file.",
+    "response": "sudo passwd"
+  },
+  {
+    "query": "A root user utilizes both the who and w commands to display all users currently logged in on the system. Why is the w command particularly useful?",
+    "response": "It shows a user’s idle time."
+  },
+  {
+    "query": "A Linux systems administrator wants to check whether an account exists. Which files should the systems administrator check? (Select all that apply.)",
+    "response": "wtmp, /etc/passwd, /etc/group"
+  },
+  {
+    "query": "A systems administrator changes a user's account password using the command line. Which directory or file contains users' hashed and salted passwords on Linux systems?",
+    "response": "/etc/shadow"
+  },
+  {
+    "query": "A Linux systems administrator configures their company system for remote access and for authoring new privilege escalation rules in JavaScript notation. The JavaScript references actions defined in a separate extensible markup language (XML) file. Deduce which privilege escalation tool the administrator is using.",
+    "response": "PolicyKit"
+  },
+  {
+    "query": "A help desk technician is completing a work ticket. What would the result be if the technician entered the line # groupmod -n marketing publicity?",
+    "response": "It will change the Marketing group to Publicity group."
+  },
+  {
+    "query": "Since system administrators have the option to use either the absolute mode or symbolic mode to provide permissions settings, it is crucial for new administrators to understand both modes. For example, what would the corresponding absolute mode value be for permissions expressed as u=rw,g=r,o=r in symbolic mode?",
+    "response": "644"
+  },
+  {
+    "query": "It is important for system administrators to properly interpret permissions strings to correctly manage permissions. For example, which of these permissions strings is correct for a file named projectA with the user having read, write, and execute, the group having read and write, and others having read-only permissions granted?",
+    "response": "-rwxrw-r-- projectA"
+  },
+  {
+    "query": "What special permission must an administrator set to allow a user to have similar permissions as the file's group owner?",
+    "response": "SGID"
+  },
+  {
+    "query": "A system administrator sets permissions for the company and creates a group for each department. While applying the principle of least privilege, what level of access should the administrator set for a department group whose members need the ability to access, create, and modify files?",
+    "response": "Read (r) and Write (w) access."
+  },
+  {
+    "query": "An administrator is troubleshooting and wants to confirm that the sticky bit is correctly set. When using ls -l to view the permissions, what would the administrator expect to find to confirm a correctly set sticky bit?",
+    "response": "The execute position for other users will appear as t."
+  },
+  {
+    "query": "A system administrator using Linux will sometimes want to use the special permission called a sticky bit. What is the result of using a sticky bit?",
+    "response": "Only the file or directory owner can delete that file or directory."
+  },
+  {
+    "query": "If a system administrator wishes to remove the SUID or SGID, they will set the -(minus) operator in symbolic mode. To do this in absolute mode, what would the administrator set this first permission bit to?",
+    "response": "0"
+  },
+  {
+    "query": "What would the appropriate syntax be if an administrator wanted to change the owner and group of a file using the chown command?",
+    "response": "chown {newowner}:{newgroup} {filename}"
+  },
+  {
+    "query": "A Linux systems administrator wants to assign permissions to individual users and groups that do not correspond to an object's owner or group. Since traditional file permissions concepts are insufficient, recommend a method for the administrator to assign permissions to individual users and groups outside the context of traditional file permissions concepts.",
+    "response": "Use access control lists."
+  },
+  {
+    "query": "A Linux system administrator working for a web application provider that manages file and directory permissions with Access Control Lists wants to view metadata about a file object, such as its owner, group, any SUID/SGID/sticky bit flags set, the standard permissions associated with the object, and individual permission entries for users and groups. Recommend a command that will allow the administrator to view this metadata.",
+    "response": "getfacl"
+  },
+  {
+    "query": "What would the correct syntax be to set the SGID in symbolic mode?",
+    "response": "chmod g+s {directory-names}"
+  },
+  {
+    "query": "An administrator wants to remove all existing entries from an Access Control List (ACL). Recommend an option for the administrator to add to the setfacl command to accomplish this task.",
+    "response": "-b"
+  },
+  {
+    "query": "A Linux system administrator needs to make changes to the attributes set to certain configuration files. For example, what would the administrator accomplish by entering the command chattr +i {filename}?",
+    "response": "Setting the immutable attribute"
+  },
+  {
+    "query": "An administrator working for a company with over 5000 employees wants to recursively modify existing ACL settings in a directory called \"receipts\" and all of its subdirectories to give full access to a group of users called \"sales.\" It is important that existing permissions outside that group not be removed or altered. Recommend a fully-fledged command for the administrator to use in this situation.",
+    "response": "setfacl -R -m g:sales:rwx receipts"
+  },
+  {
+    "query": "How does the -x option affect the setfacl command?",
+    "response": "It removes the existing ACL."
+  },
+  {
+    "query": "A system administrator wants to compare two text files while ignoring case differences. What command and option would the system administrator use to do this?",
+    "response": "diff -i"
+  },
+  {
+    "query": "A system administrator uses the stream editor command to modify files. Why would the administrator choose to use an address?",
+    "response": "To act only on text that matches a given regular expression pattern"
+  },
+  {
+    "query": "An organization has tasked a system administrator with auditing system access. In which directory would the system administrator likely find the information to do this?",
+    "response": "/var/log"
+  },
+  {
+    "query": "A system administrator needs to check specific metadata to ensure a compatible application is available to work with certain files. What command would the system administrator use for this task?",
+    "response": "The file command"
+  },
+  {
+    "query": "A system administrator wants to back up existing destination files using the ln command. Why would the system administrator choose to use a hard link rather than a symbolic link?",
+    "response": "The contents will still be available if the original file gets deleted."
+  },
+  {
+    "query": "A system administrator is editing configuration files. In which key directory would the system administrator be working to configure software management settings?",
+    "response": "/etc"
+  },
+  {
+    "query": "A system administrator is trying to update the index database to enable a more efficient file search. To create the index database used by the locate command, what does the system administrator need to do?",
+    "response": "Use the updatedb command."
+  },
+  {
+    "query": "A user named \"employee-user\" wants to find the absolute path to a specific file. For example, the 2022 subdirectory of the project's directory of their home folder stores the projectxyz.doc file. What would the absolute path be for this file?",
+    "response": "/home/employee-user/projects/2022/projectxyz.doc"
+  },
+  {
+    "query": "A technician uses the cd command to change to a user's home folder. What argument should the technician utilize with the cd command to navigate to the home directory?",
+    "response": "~"
+  },
+  {
+    "query": "A developer works on a computer vision project involving machine learning techniques to recognize objects in a video stream. In the absolute path of /home/USERNAME/projects/ml/objdetection.py, what is the parent directory of objdetection.py?",
+    "response": "ml"
+  },
+  {
+    "query": "A technician uses the cd command to change directories. What argument should the technician utilize with the cd command to navigate to the parent directory of the current directory?",
+    "response": ".."
+  },
+  {
+    "query": "A system administrator needs to find a lost file. Which commands would be the primary choices to perform this task? (Select all that apply.)",
+    "response": "locate, find"
+  },
+  {
+    "query": "An administrator writes a Bash script to automate some file tasks in the current directory. What argument should the administrator utilize to directly reference the current working directory in the script?",
+    "response": "."
+  },
+  {
+    "query": "An administrator works with a file system and decides to use the which command. What task is the administrator performing?",
+    "response": "Finding the location of an installed program"
+  },
+  {
+    "query": "An administrator is using the grep command to pipe pattern matches to another command. Recommend a character or symbol that will pipe the results of one command to the input of another command.",
+    "response": "|"
+  },
+  {
+    "query": "An organization has asked a Linux system administrator to move a large amount of data into cold storage in the cloud. With cloud storage coming at a cost, the goal is to use as little storage space as possible. Which Linux commands would be best to accomplish this solution when used as a standalone command? (Select all that apply.)",
+    "response": "gzip, xz"
+  },
+  {
+    "query": "An intern is learning how to navigate a Linux system that does not display a graphical user interface (GUI). When working with the Vim text editor, the intern discovers that the application can operate in which of the following primary modes? (Select all that apply.)",
+    "response": "Command mode, Insert mode, Execute mode"
+  },
+  {
+    "query": "A Linux web developer is looking to bundle multiple files as part of migrating a website. The developer needs to make a tarball, add the files, and see the verbose output. What switch will the web developer need to use as a part of the command?",
+    "response": "-cvf"
+  },
+  {
+    "query": "Which text editor has a graphical user interface (GUI) with a typical menu-based design that makes working with it easy?",
+    "response": "Gedit"
+  },
+  {
+    "query": "A user is editing a text file using Nano. The user needs to highlight a line of text to copy and paste it somewhere else in the file. After figuring out how to start the highlighting of text using Ctrl+^, the user then moves the cursor to the last character of the selected text. What key combination would copy the highlighted text?",
+    "response": "Alt + ^"
+  },
+  {
+    "query": "A system administrator is editing a configuration file in Vim. The system administrator finds it hard to view examples given in the file as they are at the top of the file, while the settings that need editing are near the bottom of the file. What Vim keystroke would call the application to split the screen into two horizontal windows?",
+    "response": "Ctrl+w, then s"
+  },
+  {
+    "query": "Which Linux command would be best to create an image file of an entire disk?",
+    "response": "dd"
+  },
+  {
+    "query": "Most Linux configuration files are of what file type?",
+    "response": "JavaScript Object Notation, Text"
+  },
+  {
+    "query": "A system administrator needs to bundle multiple files into a tarball and compress the tarball with gzip. Which switch would the system administrator use with the tar command to accomplish this?",
+    "response": "-czf"
+  },
+  {
+    "query": "A backup administrator has an internal service ticket to create a backup archive of files from a specific directory on a server named apache01. Which command would suffice for resolving this ticket?",
+    "response": "ls , cpio -o > apache01.cpio"
+  },
+  {
+    "query": "A software developer using gcc has created a program that will execute batch jobs based on the host activity that it monitors. The developer is conducting the actual compile process. What should the developer use?",
+    "response": "make"
+  },
+  {
+    "query": "An intern working with a small team responsible for software package management is learning about the various package management utilities for Linux. Given that the team only manages Debian systems, what common package managers would the intern leverage for package management? (Select all that apply.)",
+    "response": "dpkg, apt"
+  },
+  {
+    "query": "Linux system administrators can control resources that are available to package managers. What is the name for these resources that are storage locations for published software packages?",
+    "response": "Repositories"
+  },
+  {
+    "query": "A penetration tester has successfully received access to a Linux server on a network. The tester is trying to be stealthy and compiles an exploit on the server rather than risk downloading it from the internet. What should the penetration tester use to accomplish this task?",
+    "response": "gcc"
+  },
+  {
+    "query": "A Debian engineer is to harden their systems by inventorying unneeded services and then removing them. What should the engineer use to uninstall the package and remove its configuration files?",
+    "response": "purge"
+  },
+  {
+    "query": "A website administrator wants to group a set of files easily available for users to download all at once. What should the administrator use?",
+    "response": "gzip"
+  },
+  {
+    "query": "A Linux software developer uses an existing open-source application for a personal project and makes the needed modifications for it to run. However, what must the developer do with the software before executing it on a Linux system?",
+    "response": "Recompile the software."
+  },
+  {
+    "query": "A security architect wants to test sandboxing solutions, starting with the ability to manage software on a system-wide or per-user basis. What should the security architect use?",
+    "response": "Flatpak"
+  },
+  {
+    "query": "A security administrator wants to test standalone application components that run as mounted drives. Which of the following should the administrator use?",
+    "response": "AppImage"
+  },
+  {
+    "query": "A Debian-based administrator is automating their patching efforts to patch on the third Saturday evening of every month. Before Monday begins, this action will give the administrator time to diagnose anything that does not work. Which command should the administrator use?",
+    "response": "upgrade"
+  },
+  {
+    "query": "An administrator on a Linux system receives a package of files in a .tar extension. The files are both compressed and zipped. Which parameter should the administrator use to extract the files?",
+    "response": "-x"
+  },
+  {
+    "query": "A systems administrator tests out new software in a highly sensitive environment and wants to isolate the application from the rest of the system and mediate communication between hardware resources and the program. What should the administrator use?",
+    "response": "Sandbox"
+  },
+  {
+    "query": "A senior Linux engineer explains the process of package management to a junior support technician. The engineer talks about how administrators had to manually perform this particular aspect of the process many years ago. The engineer explains that most modern package managers will install these automatically. The engineer is referring to what concept?",
+    "response": "Software dependencies"
+  },
+  {
+    "query": "A server administrator needs to remove software that is compiled onto a server. What should the administrator use to remove all traces of the application?",
+    "response": "Remove all files and directories listed in the makefile."
+  },
+  {
+    "query": "There are various options for using package managers for installing and updating software on Linux systems. Which package manager is primarily for SUSE Linux?",
+    "response": "ZYpp"
+  },
+  {
+    "query": "A server administrator in charge of client images looks at Linux software for the environment. Which of the following is NOT an example of Linux applications that are available for download?",
+    "response": "ISE"
+  },
+  {
+    "query": "A penetration tester wants to create scripts that can interact and automate interactions with complex website requests and responses. Which of the following is best to use?",
+    "response": "curl"
+  },
+  {
+    "query": "A website administrator needs to allow untrusted users access to upload files to the server. Which of the following solutions will help isolate access to the rest of the system?",
+    "response": "chroot"
+  },
+  {
+    "query": "A new Linux support staff employee uses a Red Hat package manager to install a downloaded .rpm package. The employee is using the command rpm -i app.rpm, but would like to see verbose output along with a progress bar to see the progress of the installation. What switches would the support staff employee need to add to see this desired output? (Select all that apply.)",
+    "response": "-h, -v"
+  },
+  {
+    "query": "After updating Linux software packages, the system will generate and use this file type to compare configuration files on the system with default configuration files provided by vendors. (Select all that apply.)",
+    "response": ".rpmnew, .rpmsave"
+  },
+  {
+    "query": "A company's Linux team has created a new internal software package repository. A few members of the Linux team need to finalize all the packages in the repository before releasing them to production. One part of this process is ensuring that all packages have any needed software dependencies in the repository. What yum command will check this information for the internal package company.app?",
+    "response": "yum deplist company.app"
+  },
+  {
+    "query": "A systems adminstrator wants to download files recursively from the command line. What should the administrator use?",
+    "response": "wget"
+  },
+  {
+    "query": "A developer asks a server engineer to install their software on a Debian test server in the environment to see how it runs. What should the engineer use to install the software?",
+    "response": "make install"
+  },
+  {
+    "query": "A Debian manager pulls updates from a central repository. Which of the following configurations will the manager most likely need to modify to point to the local repository?",
+    "response": "/etc/apt/sources.list"
+  },
+  {
+    "query": "A mail administrator wants to open files in a virtualized environment with a risk score based on any attempts made to access system resources. What is this concept considered?",
+    "response": "Sandboxing"
+  },
+  {
+    "query": "A server administrator moved to the Linux server team and is responsible for the Debian-based systems. The administrator meets with the vulnerability management team and is looking to patch the machines. What will the administrator most likely interact with to accomplish this task?",
+    "response": "apt"
+  },
+  {
+    "query": "An organization has asked a Linux system administrator to validate that a newly built Linux host server has all the needed software packages installed. What DNF command would produce an output that would allow the system administrator to validate all the currently present packages on the system?",
+    "response": "dnf list installed"
+  },
+  {
+    "query": "A Linux system administrator has a service request to provide a deliverable file to the security operations team as part of a routine software audit. The file needs to contain all the installed software packages on host apachesvr01. What Red Hat package manager (RPM) query/command would provide this file for the system administrator?",
+    "response": "rpm -qa > softwarelist.txt"
+  },
+  {
+    "query": "A security engineer implements file integrity monitoring and comes across a developer who is compiling custom code on their machines that has many header files. The engineer is viewing what file type?",
+    "response": ".h"
+  },
+  {
+    "query": "A system administrator reviews information about software on their devices. Which of the following commands would easily display an inventory?",
+    "response": "list"
+  },
+  {
+    "query": "A server administrator attempts to optimize Input/Output Operations per Second (IOPS) and assesses schedulers. Which is the default scheduler for modern versions of the Linux kernel?",
+    "response": "CFQ"
+  },
+  {
+    "query": "A server administrator sets up a server that needs storage redundancy. The administrator wants something that uses a dedicated controller attached to the motherboard. What should the administrator use?",
+    "response": "Hardware RAID"
+  },
+  {
+    "query": "A project manager coordinates hardware procurement for an upcoming application build-out. The storage needs to be faster than normal server storage, but the manager also does not want to buy the most expensive storage. Which solution would be ideal?",
+    "response": "SCSI"
+  },
+  {
+    "query": "A Linux engineer keeps receiving an error message, \"No space left on device.\" The engineer checks the free available storage space on the system and finds plenty of storage. The engineer will probably need to migrate to which file system?",
+    "response": "XFS"
+  },
+  {
+    "query": "A system administrator wants to interact with the mapping between an encrypted device and a virtual device name that the user space software can use. What should the system administrator use?",
+    "response": "cryptsetup"
+  },
+  {
+    "query": "A server administrator experienced a hard drive failure. The administrator put in a brand new hard drive, but it is not being recognized. What command should the administrator run to confirm the proper disk type is installed and compatible with the storage controllers?",
+    "response": "hwinfo"
+  },
+  {
+    "query": "A server administrator sets up a network share in a strictly Linux environment. Which of the following should the administrator use?",
+    "response": "NFS"
+  },
+  {
+    "query": "A storage administrator plans out storage architecture for an upcoming project dealing with fairly static data. Which type of storage should the administrator use?",
+    "response": "Object"
+  },
+  {
+    "query": "A Linux engineer was called in the middle of the night about a server having issues. The engineer discovers that a file system's superblock, containing metadata about that file system, was corrupted. What can the engineer do to try to repair the superblock?",
+    "response": "fsck"
+  },
+  {
+    "query": "A server administrator sets up entries to track six different divisions of a hard drive. What should the administrator use?",
+    "response": "GPT"
+  },
+  {
+    "query": "A storage engineer attempts to detect and correct issues with a volume, but receives an error. The storage engineer is encountering what problem?",
+    "response": "Unmounting"
+  },
+  {
+    "query": "A user must reduce their files on a system within seven days. What is the user experiencing?",
+    "response": "Grace period"
+  },
+  {
+    "query": "A website administrator needs to architect the backend storage for a critical site. Which configuration should the administrator use?",
+    "response": "RAID 5"
+  },
+  {
+    "query": "A server engineer sets up file share access for both Windows and Linux recipients. Which of the following would be best for the engineer to use?",
+    "response": "SMB"
+  },
+  {
+    "query": "A server architect sets up a solution using LVM and needs to display information about configured volumes. What should the server architect use?",
+    "response": "vgdisplay"
+  },
+  {
+    "query": "A server administrator starts to run low on space on servers and wants to optimize. What will best help the administrator optimize?",
+    "response": "du"
+  },
+  {
+    "query": "A security engineer receives SSDs from Linux workstations and needs to properly remove the data. What will the engineer need to use?",
+    "response": "fstrim"
+  },
+  {
+    "query": "A server engineer notices that filesystems do not mount when the system boots. What should the engineer boot into to resolve the issue?",
+    "response": "rescue.target"
+  },
+  {
+    "query": "A Linux administrator sets up a script that runs on a cron job and checks for storage connectivity issues. What should the administrator use in their script?",
+    "response": "multipathd"
+  },
+  {
+    "query": "A server engineer added a hard drive to a server and is now at the stage where the engineer needs to redetect the storage disks and any partition changes. What should the engineer use to carry this out?",
+    "response": "partprobe"
+  },
+  {
+    "query": "A security analyst notices an outbound connection from a server that alerted against a known bad IP from threat intelligence. What does the analyst cross- reference on the host server to understand what established the outbound connection?",
+    "response": "CFQ"
+  },
+  {
+    "query": "A systems administrator is installing new servers and setting up the partitioning. Which of the following is NOT a type of swap or configuration?",
+    "response": "mkswap"
+  },
+  {
+    "query": "A server administrator experiences issues with their human resources software system and must submit a support ticket to a software vendor. Which of the following commands will the administrator probably need information from to assist in the ticket?",
+    "response": "hwinfo"
+  },
+  {
+    "query": "A systems administrator wants to list the available parameters to configure on their system. Where should the administrator look?",
+    "response": "/proc/sys"
+  },
+  {
+    "query": "A security analyst investigates a possible incident where a user on a Linux machine may have opened malware on their computer. The analyst believes malware ran a script that opens and migrates from a user-level process to a child of a kernel-level process. What can the analyst do to visualize this easily?",
+    "response": "pstree"
+  },
+  {
+    "query": "A security engineer is investigating SSH connections and wants to narrow their results. What should the security engineer use?",
+    "response": "pgrep ssh"
+  },
+  {
+    "query": "A senior systems engineer creates a presentation about their troubleshooting efforts on processes that eat up too many resources and cause the servers to crash. Which command should the senior systems engineer screenshot to provide the best-looking report?",
+    "response": "htop"
+  },
+  {
+    "query": "A security analyst believes that a system was compromised through the use of libraries that a printer uses to interface with a user's machine. Which of the following should the analyst check?",
+    "response": "Drivers"
+  },
+  {
+    "query": "A server engineer noticed that a low-criticality service eats up resources on some machines. The server engineer wants to lower the given priority level without restarting the application. What should the server engineer use?",
+    "response": "renice"
+  },
+  {
+    "query": "A user experiences a significant performance hit on their system. The user also notices that the computer keeps accessing the swap space. What should the user do to alleviate the issue?",
+    "response": "Increase the amount of memory."
+  },
+  {
+    "query": "An administrator experiences issues with recognized hardware and wants to monitor it in real time. What should the administrator use?",
+    "response": "udevadm"
+  },
+  {
+    "query": "A systems administrator has issues with a database server eating up too many resources. The administrator wants to display system information and upgrade possibilities by showing maximum processor and memory upgrades. What command should the administrator use?",
+    "response": "dmidecode"
+  },
+  {
+    "query": "A server administrator diagnoses a database server consuming memory and not releasing memory space when no longer needed. Which of the following provides the administrator with the most detailed information about memory space?",
+    "response": "lsmem"
+  },
+  {
+    "query": "An intern for a Linux team tries to move swap space to a different partition. Which of the following should the intern use?",
+    "response": "mkswap"
+  },
+  {
+    "query": "A systems administrator works with systems where memory is highly utilized, but recently had issues with processor resources that are significantly consumed. Which of the following provides the administrator with the most information available?",
+    "response": "lscpu"
+  },
+  {
+    "query": "A systems administrator experiences issues with an application quitting unexpectedly and suspects it may be the out-of-memory killer (OOM Killer). What should the administrator check to confirm?",
+    "response": "/var/log/messages"
+  },
+  {
+    "query": "A systems administrator experiences issues with an application crashing. What can the administrator use to help diagnose and troubleshoot the cause of the issue?",
+    "response": "journalctl"
+  },
+  {
+    "query": "A systems administrator experiences latency with their Linux system and tries to diagnose if there is significant use of virtual memory. Which command should the administrator use?",
+    "response": "vmstat"
+  },
+  {
+    "query": "A user on a Linux machine notices that the computer rebooted unexpectedly. Which of the following most likely happened?",
+    "response": "Kernel panic"
+  },
+  {
+    "query": "A senior Linux administrator talks about lowering memory consumption due to dynamic loading of the kernel. The administrator is discussing what concept?",
+    "response": "Kernel module"
+  },
+  {
+    "query": "When using systemctl to manage startup options, which of the following subcommands might the system administrator use correspondingly? (Select all that apply.)",
+    "response": "mask, status, enable"
+  },
+  {
+    "query": "Which directories could a system administrator use to configure time zones? (Select all that apply.)",
+    "response": "/etc/timezone, /usr/share/zoneinfo"
+  },
+  {
+    "query": "Cron jobs are very flexible and can schedule tasks for practically any time. For example, when is the following task scheduled to execute? 10 21 10 * * /path/to/command",
+    "response": "9:10 P.M. on the 10th day of the month"
+  },
+  {
+    "query": "A Linux systems administrator is identifying system processes that are non- interactive, operate in the background, and do NOT allow users to interact with them. Which system processes is the systems administrator identifying?",
+    "response": "Daemons"
+  },
+  {
+    "query": "An administrator is configuring systems and wants to synchronize time among network servers. Which service should the administrator use?",
+    "response": "NTP service"
+  },
+  {
+    "query": "What is the proper syntax for permitting inbound http connections to the firewall?",
+    "response": "sudo firewall-cmd --permanent --zone-public --add-service=http"
+  },
+  {
+    "query": "A new systems administrator has a question concerning the processes involved with server computers. The systems administrator is looking for guidance on which kind of system processes are interactive, operate in the background, and allow users to interact with them. Which of the following provides the systems administrator with the solution?",
+    "response": "Services"
+  },
+  {
+    "query": "Which of the following are viable options for the date command? (Select all that apply.)",
+    "response": "%X, %H"
+  },
+  {
+    "query": "The purpose of the essential log file /var/log/messages is which of the following?",
+    "response": "Collect general system-related logs for Debian-derived distributions."
+  },
+  {
+    "query": "A Linux administrator is using the rsyslog utility to view and manage entries. What severity level is the *crit* entry?",
+    "response": "2"
+  },
+  {
+    "query": "A Linux systems administrator is helping employees from another country configure their workstations. The employees want to adapt system components for use with the English language. What type of process is the system administrator helping the employees adapt?",
+    "response": "Localization"
+  },
+  {
+    "query": "Using the localectl command, a Linux administrator must prevent a keymap change for the console from also being applied to the X display server and vice versa. Choose the most appropriate option for this function.",
+    "response": "--no-convert"
+  },
+  {
+    "query": "The print management system for Linux, which enables a computer to function as a print server, is known as what?",
+    "response": "CUPS"
+  },
+  {
+    "query": "Which of the following is the proper syntax for displaying the name of the month?",
+    "response": "date +%B"
+  },
+  {
+    "query": "An administrator is configuring systems and wants to connect remotely to a server for administration purposes. Which service should the administrator use?",
+    "response": "SSH service"
+  },
+  {
+    "query": "After a systems administrator generates a public-private key pair, what is the command to transfer the public key user01 to remote system 192.168.2.200?",
+    "response": "ssh-copy-id user01@192.168.2.200"
+  },
+  {
+    "query": "An organization has tasked a support technician with resolving a network latency issue. Which of the following tools best addresses this issue? (Select all that apply.)",
+    "response": "iperf, traceroute, ping"
+  },
+  {
+    "query": "To help with the configuration of IP information, a system administrator uses a utility called NetworkManager. NetworkManager offers different tools to manage network settings. Which of the following is NOT a tool used by NetworkManager?",
+    "response": "network"
+  },
+  {
+    "query": "While working on a project, a Linux systems administrator had to download files from a few remote webservers using an HTTP client. Which of the following are viable options for the administrator to perform this task? (Select all that apply.)",
+    "response": "wget, curl"
+  },
+  {
+    "query": "A company has hired a Linux systems administrator for a work-from-home position. The administrator prefers GUI-based options over CLI environments. Which of the following are available tools for the administrator to configure and manage systems remotely from a GUI environment? (Select all that apply.)",
+    "response": "Cockpit, VNC, XRDP"
+  },
+  {
+    "query": "What is the most fundamental network identity and also considered a physical address?",
+    "response": "Media access control"
+  },
+  {
+    "query": "While configuring network settings, a Linux systems administrator decides to change the speed of a network interface card (NIC). Which ethtool command option can make such changes?",
+    "response": " -s"
+  },
+  {
+    "query": "A Linux systems administrator needs to use the Secure Copy Protocol (SCP) tool to copy data to a remote host. What is the default port for SCP?",
+    "response": "22"
+  },
+  {
+    "query": "A Linux trainee is studying TCP/IP and decides to put the model to memory but is getting confused between TCP/IP and another model. Determine which option does NOT come from the TCP/IP protocol suite.",
+    "response": "Session"
+  },
+  {
+    "query": "A Linux administrator is troubleshooting a connectivity issue with a particular node and determines that the ARP cache needs clearing. Choose the appropriate option used to perform this command.",
+    "response": "arp -d"
+  },
+  {
+    "query": "Installed on most Linux distributions, which tools gather information and test name resolution? (Select all that apply.)",
+    "response": "nslookup, dig, host"
+  },
+  {
+    "query": "A user creates a helpdesk ticket due to connectivity issues between a client and server. To help resolve the issue, a system administrator wants to view a display of the network path between the computing devices. Which of the following commands would the system administrator use to supply this information?",
+    "response": "traceroute"
+  },
+  {
+    "query": "A systems administrator needs to remotely configure a Linux server via Secure Shell (SSH). Which of the following files should the systems administrator earmark for SSH management? (Select all that apply.)",
+    "response": "/etc/ssh/ssh_config, /etc/ssh/sshd_config"
+  },
+  {
+    "query": "A system administrator suspects that a NIC on a network segment is sending excessive amounts of traffic. What tool should the system administrator use to determine if this is true?",
+    "response": "iftop"
+  },
+  {
+    "query": "Choose the IP address ranges reserved for internal use from the following. (Select all that apply.)",
+    "response": "10.0.0.0–10.255.255.255, 172.16.0.0–172.31.255.255, 192.168.0.0–192.168.255.255"
+  },
+  {
+    "query": "A system administrator is working on a Wi-Fi issue with the company's network. The system administrator needs to view a summary of network connectivity to troubleshoot this problem. Which of the following nmcli subcommands is ideal for this objective?",
+    "response": "general status"
+  },
+  {
+    "query": "A network administrator wants to install a device that acts as a control point for communications between network segments. Which of the following should the network administrator choose?",
+    "response": "Router"
+  },
+  {
+    "query": "A Linux power user is experiencing intermittent network connectivity issues while working. The user should investigate the issues by using which command to display the status of each interface?",
+    "response": "ip link"
+  },
+  {
+    "query": "What is the port number for Hypertext Transfer Protocol Secure?",
+    "response": "443"
+  },
+  {
+    "query": "A corporation has tasked a Linux systems administrator with configuring wireless networking for the office. First, the administrator must configure the NIC according to the network topology. Using the iwconfig command, which configuration options are available to the administrator? (Select all that apply.)",
+    "response": "mode, nick, freq"
+  },
+  {
+    "query": "A network engineer needs to employ a device that monitors inbound and outbound traffic and uses rules to permit or deny certain traffic. What device best achieves the objective of the engineer?",
+    "response": "Firewall"
+  },
+  {
+    "query": "A chief technology officer has tasked a security engineer to add a File Transfer Protocol (FTP) port to the perimeter network. What is the proper syntax for accomplishing this assignment?",
+    "response": "firewall-cmd --zone=dmz --add-port=21/tcp"
+  },
+  {
+    "query": "A Linux systems administrator wants to employ a few network monitoring tools for troubleshooting and security. Among the following tools, which can the administrator use for network monitoring? (Select all that apply.)",
+    "response": "tcpdump, Wireshark, Nmap"
+  },
+  {
+    "query": "A Linux systems administrator has multiple tools available for testing network connectivity. Which of the following is NOT one of those tools?",
+    "response": "Nmap"
+  },
+  {
+    "query": "A Linux administrator would like to add the HTTP service to the perimeter network. Which firewall-cmd command string will facilitate this objective?",
+    "response": "firewall-cmd --zone=dmz --add-service=http"
+  },
+  {
+    "query": "A security analyst plans to use the Nmap utility to conduct a TCP-connect scan. Which of the following represents the correct syntax for this command?",
+    "response": "nmap -sT"
+  },
+  {
+    "query": "A network administrator receives a new hardware firewall and examines the default firewall zones. For what purpose do firewall zones exist?",
+    "response": "Simplify administration."
+  },
+  {
+    "query": "A network administrator uses the netstat command to gather information about system transmission control protocol (TCP) connections. For example, the administrator needs to see what ports the system listens to during TCP connections. Which netstat command option will the network administrator use to achieve this?",
+    "response": "-l"
+  },
+  {
+    "query": "A Red Hat Linux systems administrator configures iptables for firewall management and wants to ensure that the rules set are not lost on reboot. After installing the iptables-services package, what command can the administrator issue to ensure that changes persist?",
+    "response": "services iptables save"
+  },
+  {
+    "query": "Management has asked a Linux administrator to document all the listening and non-listening ports for a system. What ss (socket state) command should the Linux administrator issue to display this information?",
+    "response": "ss -a"
+  },
+  {
+    "query": "A small company is looking to get in compliance to obtain insurance. The insurance company recommended that the company implement a centralized access system. What system would help centralize usernames and passwords?",
+    "response": "LDAP"
+  },
+  {
+    "query": "An Information Technology department wants to integrate the logins for all the companies' applications to improve security and management. How could implementation integrate the various logins?",
+    "response": "Single sign-on"
+  },
+  {
+    "query": "What basic concept of security involves mitigating potential security risks?",
+    "response": "Hardening"
+  },
+  {
+    "query": "A web application development team needs to ensure that login transactions are protected. What security concept would help ensure this need?",
+    "response": "Encryption"
+  },
+  {
+    "query": "A company's physical security involves a hardware device that rotates between six-digit numbers. What type of authentication concept is involved with this?",
+    "response": "One-time password"
+  },
+  {
+    "query": "A company recently switched from SELinux to AppArmor. What command would allow the company to place a profile in a mode that requires its enablement?",
+    "response": "aa-enforce"
+  },
+  {
+    "query": "Many entities responsible for issuing valid certificates had their authority taken away in recent years. Why might it be an issue if a certificate authority does not fulfill its obligations by issuing valid certificates?",
+    "response": "Loss of trust"
+  },
+  {
+    "query": "A systems administrator is trying to explain to the development manager why security is important. One concept mentioned was the CIA Triad. What makes up the CIA Triad?",
+    "response": "Confidentiality, Integrity, Availability"
+  },
+  {
+    "query": "An implementation engineer is looking to understand how to configure security in SELinux. What are the three different modes that define how SELinux applies in a system?",
+    "response": "User, Role, Type, Enforcing, Permissive, Disabled, Confidential, Secret, Top Secret"
+  },
+  {
+    "query": "A programmer complained to management that the programmer does not have access to certain parts of the web server. What security concept does this represent?",
+    "response": "Least privilege"
+  },
+  {
+    "query": "IAM is used to identify and authenticate users. What makes up IAM?",
+    "response": "Identity and Access Management"
+  },
+  {
+    "query": "What entity is responsible for issuing valid certificates?",
+    "response": "Certificate authority"
+  },
+  {
+    "query": "A security-focused web application company implemented and enforced the use of a secondary, one-time token in addition to a username and password to access their website. What security concept does this refer to?",
+    "response": "Multifactor authentication"
+  },
+  {
+    "query": "A systems engineer needs to configure SELinux. Which command would change the on/off status of various SELinux policies?",
+    "response": "setsebool"
+  },
+  {
+    "query": "A system administrator is trying to figure out how to print out all shell variables. What command can the system administrator use to accomplish this?",
+    "response": "set"
+  },
+  {
+    "query": "A system administrator needs to configure the environment variables. Where in Linux can the system administrator modify the environment variables?",
+    "response": "~/.bash_profile"
+  },
+  {
+    "query": "What component can a person use to represent a series of words when writing a Bash script?",
+    "response": "String literal"
+  },
+  {
+    "query": "A system administrator needs to display text while the script runs. What can the system administrator add to the script to carry out this action?",
+    "response": "echo"
+  },
+  {
+    "query": "A Linux engineer is looking to simplify the commands using shorthand for longer expressions. Which command could be used to simplify a command such as ls –al?",
+    "response": "alias"
+  },
+  {
+    "query": "A data scientist created a script to automate some calculations for a project. How can the data scientist output the result of that calculation?",
+    "response": "echo $calculation"
+  },
+  {
+    "query": "An engineer received a request to find a specific file that includes “html” in the file name. What common script utility can the engineer use to find a specific string or character?",
+    "response": "regex"
+  },
+  {
+    "query": "After creating a script, an engineer wants the output written out into a file to log what occurred. What is the best way to get Bash to output to a file?",
+    "response": "exec"
+  },
+  {
+    "query": "A help desk technician investigates what caused a command to fail in Linux. Which command outputs the exit code?",
+    "response": "echo $?"
+  },
+  {
+    "query": "What is the purpose of scripting in terms of device management?",
+    "response": "To streamline common tasks"
+  },
+  {
+    "query": "An administrator needs to replace much of the manual configuration process with automation to improve the DevOps team's ability to deploy new code. What concept should the administrator investigate?",
+    "response": "Orchestration"
+  },
+  {
+    "query": "A developer needs to switch the branch the developer is working on in their version control. What command would accomplish this?",
+    "response": "checkout"
+  },
+  {
+    "query": "A developer needs to create a new branch of their code in their version control. What command would accomplish this?",
+    "response": "branch"
+  },
+  {
+    "query": "What might be necessary for a Linux server administrator to understand to assist in a DevOps team?",
+    "response": "Functions, Automation ??"
+  },
+  {
+    "query": "A DevOps team needs an orchestration utility that runs on Ruby and includes both declarative and imperative methods. What utility best fits the team's needs?",
+    "response": "Chef"
+  },
+  {
+    "query": "A small developer wants to publish their script while also having a portal that shows version control information. What common version control utility would this portal rely on?",
+    "response": "Git"
+  },
+  {
+    "query": "What concept refers to a person managing Linux servers with version control and centralized management?",
+    "response": "IaC"
+  },
+  {
+    "query": "A fast-food company looks to develop a mobile application that allows customers to purchase food without coming into the store. One of the engineers suggested that the company implement backups to minimize potential downtime if an issue occurs. What concept would be implemented with the backups to ensure they consistently run?",
+    "response": "Automation"
+  },
+  {
+    "query": "A developer needs to update a program in their version control to add the developer's changes to it. What command would accomplish this?",
+    "response": "commit"
+  },
+  {
+    "query": "A software engineer is reviewing policies on the processes associated with container solutions. What is NOT part of the container solution process?",
+    "response": "Selecting and installing a container engine"
+  },
+  {
+    "query": "A software engineer is exploring the various orchestration capabilities of using an image versus a container. What is true for containers? (Select all that apply.)",
+    "response": "Many identical containers can be spawned from a single image., A container solution is comprised of three components., Containers are stateless, meaning that any changes are not preserved."
+  },
+  {
+    "query": "A consultant is working within a KVM environment and using the virsh command. What subcommand displays an inventory of recognized virtual machines?",
+    "response": "list"
+  },
+  {
+    "query": "A cyber engineer is creating a virtual machine environment for a new employee. While working, the engineer recognizes that they must force restart the VM. What subcommand can the cyber engineer use in this instance?",
+    "response": "reboot {VM}"
+  },
+  {
+    "query": "A consultant is working with the docker command to deploy a container. What subcommand uploads an image to a registry?",
+    "response": "port"
+  },
+  {
+    "query": "An intern is preparing a procedure on basic container concepts. What is NOT a basic concept with containers?",
+    "response": "Containers offer the same form of virtualization as virtual machines."
+  },
+  {
+    "query": "A technician is reviewing a company factsheet on basic container concepts. Which is true of containers? (Select all that apply.)",
+    "response": "A container warehouses the application code, runtime, libraries, settings, and other components., A container is portable and will run on any platform hosting a container solution., Containers are lightweight, share a single OS (usually Linux), and provide a single function."
+  },
+  {
+    "query": "A technician is reviewing the capabilities of the docker command while working with containers. What subcommand displays system-wide details?",
+    "response": "info"
+  },
+  {
+    "query": "An intern is deploying a container and using subcommands to support the deployment. What subcommand initiates a command in a container?",
+    "response": "run"
+  },
+  {
+    "query": "The cyber team is working on deploying a set of containers. While using the docker command, what subcommand do they use to upload an image to a registry?",
+    "response": "push"
+  },
+  {
+    "query": "A software engineer is exploring available boot options to support a Linux installation. What is a network boot option that mounts a share as its root file system rather than storing system files on a local storage drive?",
+    "response": "NFS"
+  },
+  {
+    "query": "A cyber technician is reviewing an article on the differences between UEFI and BIOS boot processes. What advantages does UEFI pose over the use of BIOS? (Select all that apply.)",
+    "response": "It is noticeably faster than the other boot process., It can access storage of currently unattainable sizes., It has improved security enhancements."
+  },
+  {
+    "query": "A technician is deploying Linux manually. What is the first step in the installation process?",
+    "response": "Select the Linux system's role and appropriate software packages., Boot to the installation media."
+  },
+  {
+    "query": "A software engineer is preparing a class for newly-hired employees on the topic of Linux boot processes. What enables a client to retrieve the necessary boot loader and system files from a server over the network?",
+    "response": "UEFI"
+  },
+  {
+    "query": "A cyber consultant is manually installing Linux on organizational systems. What are installation considerations in manually installing Linux? (Select all that apply.)",
+    "response": "Create a non-root administrative user account.,  Select the Linux system's role and appropriate software packages., Boot to the installation media."
+  },
+  {
+    "query": "A technician is manually installing Linux onto a company computer. What methods does CompTIA recommend for the installation of Linux onto the platform? (Select all that apply.)",
+    "response": "Download an image to a DVD., Download it as a startup media for a VM., Access source files from across the network."
+  },
+  {
+    "query": "A technician is reviewing team documentation on elements associated with the Linux boot process. In reviewing various components and methods, what is a standard for firmware interfaces stored on a computer motherboard's ROM chip?",
+    "response": "BIOS"
+  },
+  {
+    "query": "A software engineer is modifying boot settings on three new computers. While working with GRUB2, what subcommand installs only the specified modules and their dependencies rather than the default of installing all available modules?",
+    "response": "--install-modules {module-names}"
+  },
+  {
+    "query": "A newly-hired cyber consultant is experiencing boot issues with their company computer. What common problem includes typographical errors in the menus, kernel paths, or other settings?",
+    "response": "GRUB2 configuration"
+  },
+  {
+    "query": "A technician is reviewing the CompTIA guidance on manually installing and deploying Linux on an organizational system. What technique is NOT considered a method of installation from CompTIA's perspective?",
+    "response": "Download it by using a USB device."
+  }
+]

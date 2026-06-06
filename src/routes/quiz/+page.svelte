@@ -24,6 +24,9 @@
     { value: 'wndx-exams-all', label: 'WNDX Exams All' },
     { value: 'ca-clodp-module-quiz', label: 'CLODP Module Quizes' },
     { value: 'ca-clodp-final', label: 'CLODP Final Exam' },
+    { value: 'ca-serpl-quizes-all', label: 'SERPL Quizes All' },
+    { value: 'ca-serpl-final', label: 'SERPL Final Exam' },
+    { value: 'ca-linx', label: 'LINX Exams' },
     { value: 'ca-serpl-quizes-all', label: 'SERPL Module Quizes' },
     { value: 'ca-serpl-final', label: 'SERPL Final Exam' }
 
@@ -38,8 +41,14 @@
     { value: 'dgmkf-quizes-all', label: 'DGMKF Quizes' }
   ];
 
-  const bookOptions = cyberOptions.concat(dataOptions)
-                            .concat(digitalDesignOptions);
+  const businessManagementOptions = [
+    { value: 'bm-obeo', label: 'OBEO Quiz' }
+  ];
+
+  const bookOptions = cyberOptions
+                        .concat(dataOptions)
+                        .concat(digitalDesignOptions)
+                        .concat(businessManagementOptions);
 
   $effect(() => {
     entries = data.entries;
@@ -83,6 +92,14 @@
                     <p class="menu-label">Digital Design</p>
                     <ul class="menu-list">
                         {#each digitalDesignOptions as option}
+                        <li>
+                            <a href="/quiz?book={option.value}" class="has-text-primary">{option.label}</a>
+                        </li>
+                        {/each}
+                    </ul>
+                    <p class="menu-label">Business Management</p>
+                    <ul class="menu-list">
+                        {#each businessManagementOptions as option}
                         <li>
                             <a href="/quiz?book={option.value}" class="has-text-primary">{option.label}</a>
                         </li>
