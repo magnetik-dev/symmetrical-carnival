@@ -24,18 +24,17 @@
     { value: 'wndx-exams-all', label: 'WNDX Exams All' },
     { value: 'ca-clodp-module-quiz', label: 'CLODP Module Quizes' },
     { value: 'ca-clodp-final', label: 'CLODP Final Exam' },
-    { value: 'ca-serpl-quizes-all', label: 'SERPL Quizes All' },
-    { value: 'ca-serpl-final', label: 'SERPL Final Exam' },
-    { value: 'ca-linx', label: 'LINX Exams' },
     { value: 'ca-serpl-quizes-all', label: 'SERPL Module Quizes' },
-    { value: 'ca-serpl-final', label: 'SERPL Final Exam' }
-
+    { value: 'ca-serpl-final', label: 'SERPL Final Exam' },
+    { value: 'ca-linx', label: 'LINX Exams' }
   ];
+
   const dataOptions = [
     { value: 'dtant-module-quiz', label: 'DTANT Module Quiz' },
     { value: 'dtant-final', label: 'DTANT Final Exam' },
     { value: 'ca-pldes-quiz', label: 'PLDES Quiz' }
   ];
+  
   const digitalDesignOptions = [
     { value: 'dgmkf-color-theory', label: 'Color Theory' },
     { value: 'dgmkf-quizes-all', label: 'DGMKF Quizes' }
