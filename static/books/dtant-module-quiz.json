@@ -328,10 +328,6 @@
     "response": "Type 3"
   },
   {
-    "query": "Your organization is evaluating where to host its new customer data analytics platform. The IT director presents two options: continuing with the current on-premise solution or migrating to a cloud-based infrastructure using an external provider. As a data analyst, your insights are requested.",
-    "response": "Migrate to a cloud-based infrastructure to enable flexible, scalable, and accessible data access for remote employees, leveraging provider-managed security features."
-  },
-  {
     "query": "You are a data analyst at a company that has separate systems for sales, human resources, and accounting. The leadership team wants to view a monthly report combining total sales by salesperson, department, and month.",
     "response": "Move all source system data into a data warehouse and use it to create the combined monthly report."
   },
@@ -1631,7 +1627,7 @@
   },
   {
     "query": "You have designed a dashboard in Power BI that allows business users to filter sales data by region, quarter, and product type. After applying several filters, some users are unsure how to quickly return the dashboard to its original, unfiltered state.",
-    "response": "v"
+    "response": "Provide a reset button that users can click to clear all filters and restore the dashboard to its original view."
   },
   {
     "query": "Jessica is finalizing a multi-page financial report in Crystal Reports for an upcoming board meeting. She wants readers to navigate the printed report easily and confirm they are viewing the complete document.\n\nJessica also wants to ensure each page clearly displays important fields for data identification. She must decide the best places to add page numbers and field labels to fulfill these needs.",
@@ -2055,7 +2051,7 @@
   },
   {
     "query": "A data analyst must put together a data dictionary. What are the primary components that the analyst should focus on? (Select all that apply.)",
-    "response": "xxx"
+    "response": "Field definitions, Field attributes, Relationships"
   },
   {
     "query": "A midsize company uses several software systems to manage customer data: Salesforce (for sales), Microsoft 365 (for internal communication), and a custom ERP system (for operations). Recently, inconsistencies in customer contact information led to delays in order processing and frustrated both employees and customers.\n\nYou are given integration documentation for each software, but upon review, you notice that each system appears to update customer addresses independently and at different times.",
@@ -2092,12 +2088,467 @@
   {
     "query": "A data analyst must spearhead a master data management effort program. Which of the following will the program be most helpful with?",
     "response": "New system integration"
+  },
+  {
+    "query": "The university's database has a Students table with StudentID as the primary key and a TuitionPayments table with PayID as the primary key and StudentID as a foreign key. A report needs to be generated that quickly lists all tuition payments for a specific student. As the database administrator, how should you configure the TuitionPayments table to improve the speed of this reporting task?",
+    "response": "Add an index to the StudentID field in the TuitionPayments table."
+  },
+  {
+    "query": "A university's database contains two tables: Students and GiftedServices. Each student is assigned a unique StudentID, which is the primary key in the Students table. The GiftedServices table links to students using StudentID as a foreign key. During an audit, an error is found: a record exists in GiftedServices referencing a StudentID that is not found in the Students table. As a database administrator, what would be the MOST effective step to uphold referential integrity in this situation?",
+    "response": "Delete the record in GiftedServices that references the non-existent StudentID and enforce foreign key constraints going forward."
+  },
+  {
+    "query": "A data analyst is tasked with designing a database table for an online retail store. One of the fields must store the price of each product, which may include decimal places (for example, $19.99, $150.75, etc.). The store also sells internationally and needs to record the appropriate currency for each transaction. Which field data type should the analyst select to best accommodate these requirements?",
+    "response": "Currency"
+  },
+  {
+    "query": "A database designer is reviewing a list of requirements for a new database and has determined that the new database will be relational. Which of the following requirements did the designer see on the list that helped make this determination? (Select all that apply.)",
+    "response": "The analysts will use the database with an RDBMS., The designer will need to establish relationships between data."
+  },
+  {
+    "query": "A database designer applied the cascade update option to a foreign key. What is true about this option? (Select all that apply.)",
+    "response": "It updates all foreign key records., It is a referential integrity option."
+  },
+  {
+    "query": "You are tasked with generating a report from a database containing a field called \"OrderQuantity.\" You notice that some of the data is stored as the INTEGER data type, while other fields, such as \"DiscountRate,\" are stored as DECIMAL, and you must calculate the total discount given for a particular product. Which action should you take to correctly perform the required multiplication operation between \"OrderQuantity\" and \"DiscountRate\" for each record?",
+    "response": "Convert \"OrderQuantity\" to DECIMAL before multiplying by \"DiscountRate\" to ensure that decimal places are preserved in the result."
+  },
+  {
+    "query": "Maria is hired as a data analyst at a company that tracks employee information using a relational database. She is asked to generate a report that lists each employee's first and last name along with their department. The database is designed with separate tables for \"Employees\" (with fields for employee ID, first name, and last name) and \"Departments\" (with fields for department ID and department name). The employee's department is tracked via a department ID field in the \"Employees\" table. Which of the following actions should Maria take to accurately retrieve the required information?",
+    "response": "Write a query that joins the \"Employees\" and \"Departments\" tables using the department ID field."
+  },
+  {
+    "query": "A city's transportation department wants to analyze recent increases in bicyclist accidents to determine which intersections are the most dangerous and where to focus safety improvements. The department's analysts have access to latitude and longitude data for each accident location, as well as additional information such as accident dates, involved vehicle types, and weather conditions at the time of each accident. Which data field should the analysts prioritize using to BEST identify accident hot spots and support their spatial analysis objectives?",
+    "response": "The spatial field containing latitude and longitude coordinates for each accident"
+  },
+  {
+    "query": "Maria is a data analyst at a retail company. She is working with employee shift schedules and customer purchase records. She needs to quickly find out which employees worked during the busiest sales periods last month. The data she is using is stored in a table with columns for Employee ID, Name, Shift Start, Shift End, Number of Transactions Handled, and Total Sales During Shift. She plans to sort and filter this data using spreadsheet software to identify relevant patterns. Which of the following BEST explains why Maria is able to rapidly analyze this information?",
+    "response": "The information is structured into a clearly defined arrangement of tables with rows and columns, making searching, sorting, and filtering efficient."
+  },
+  {
+    "query": "A data analyst tracked a single data source over a one-month period to see how it would change. Which of the following statements regarding fact and dimension data are true? (Select all that apply.)",
+    "response": "Dimension data is categorical., Fact data changes more than dimension data."
+  },
+  {
+    "query": "A mid-sized marketing firm is considering moving its current email and file-sharing systems to a public cloud service offered by a major cloud provider. The IT manager seeks your input as a data analyst on potential advantages and concerns with such a move. Which action below BEST demonstrates how you would apply your understanding of public cloud infrastructure in making a recommendation for this organization's needs?",
+    "response": "Suggest using a public cloud solution because it allows multiple organizations to share resources, resulting in reduced costs and simplified upgrades, while also noting some performance and security trade-offs"
+  },
+  {
+    "query": "Which of the following statements correctly describe fact tables in data warehousing? (Select two.)",
+    "response": "Fact tables hold measurable, quantitative data about business processes or events., Fact tables contain keys that link to dimension tables in a schema."
+  },
+  {
+    "query": "You are a database administrator for a toy company. You need to update the name of a product in your database from \"Toy Soldeir\" to \"Toy Soldier\" and verify the correction before making it available to users. The company policy requires that no updates become permanent until you are sure the change is correct. Which of the following approaches should you take to BEST accomplish this task?",
+    "response": "Issue an UPDATE command followed by a COMMIT only after verifying the corrected data with a SELECT statement."
+  },
+  {
+    "query": "A software company is preparing to merge with another organization, and both have developed different applications using separate infrastructure setups. The IT team needs a solution that will simplify deploying these applications across all employee devices, regardless of the existing systems and underlying software. Which approach will best help the IT team achieve efficient, scalable deployment with minimal compatibility issues?",
+    "response": "Use containerization to package each application with its necessary dependencies, enabling consistent deployment on any infrastructure."
+  },
+  {
+    "query": "Your team is evaluating reports produced by a new Generative AI tool implemented to automate the summarization of technical research documents. After comparing the AI's output with a sample of manually written summaries, you notice that some generated summaries contain fabricated data points and unsupported conclusions, while others reflect subtle bias favoring certain products mentioned in the documents. You're asked to recommend steps to address these findings and improve trust in the AI's output. Which action BEST demonstrates an analytical approach to solving these issues?",
+    "response": "Recommend instituting a human validation process for AI-generated summaries and analyze recurring sources of bias or hallucinations to adjust prompt design or training data."
+  },
+  {
+    "query": "What kind of result is expected from applying regression techniques to analyze the relationship between two variables?",
+    "response": "An estimated value predicting the dependent variable based on the value of the independent variable."
+  },
+  {
+    "query": "In which type of problem would reinforcement learning be most appropriately applied?",
+    "response": "Training an algorithm to play a game like chess by allowing it to learn strategies through trial and error."
+  },
+  {
+    "query": "You are preparing a dataset of customer emails for an NLP project. Many of the emails contain dates in different formats (e.g., \"12/05/2024\", \"May 12, 2024\", \"2024-05-12\"). Your task is to standardize all date formats to \"YYYY-MM-DD\" using regular expressions. Which of the following actions BEST demonstrates how RegEx can help with this preprocessing step?",
+    "response": "Use a regular expression pattern to locate all date strings in different formats and replace them with a standardized \"YYYY-MM-DD\" format across the entire dataset."
+  },
+  {
+    "query": "How does a built-in text editor within an IDE, such as Visual Studio Code, help developers?",
+    "response": "It suggests code completions and visually marks errors for the programmer."
+  },
+  {
+    "query": "A data analyst at a marketing firm has collected product information and needs to present it on the company's website. The analyst wants to ensure the information is displayed in a clear table format that is readable in any standard web browser, using a language designed specifically for rendering data visually rather than transferring or exchanging it between systems. Given these requirements, which solution should the analyst choose for presenting the data and why?",
+    "response": "Use HTML tags to build the table, allowing the web browser to control the visual display of the product information."
+  },
+  {
+    "query": "A healthcare organization needs to exchange patient data among clinics that use various software platforms. In one example, a clinic receives a data file containing patient records. Each record is clearly labeled with tags like , , and . The clinic's software processes these files by reading the tags and extracting specific fields, regardless of the order or number of fields present in each record. Which data format is allowing the clinics to flexibly extract the needed information from the data file?",
+    "response": "XML"
+  },
+  {
+    "query": "A developer wants to send purchase order data from an inventory system to a shipping system and needs to include fields that the shipping system can recognize and extract, such as <OrderID>, <ShippingAddress>, and <Quantity>. Which option BEST represents how XML would be used in this scenario?",
+    "response": "By wrapping each relevant piece of data in custom tags named for its contents."
+  },
+  {
+    "query": "What is the primary purpose of PowerShell in database management for data analysts working in Windows environments?",
+    "response": "To script multiple commands and automate database tasks."
+  },
+  {
+    "query": "A data analyst receives inventory data in both XML and JSON formats from two different suppliers. The analyst prefers to work with data that is easier to parse, features less markup, and supports native mapping to data structures like arrays and objects in most modern programming languages. Which format should the analyst recommend for smoother integration with automation tools and why?",
+    "response": "JSON, because it has simplified syntax and natural representation for arrays and objects."
+  },
+  {
+    "query": "Maria has just started a new job as a data analyst at a company that uses both open source and proprietary software. She needs to query a large database and build statistical models. Her manager informs her that the company uses Microsoft SQL Server for their databases and encourages her to use a language that is free, widely used for statistical analysis, and supported by many open source libraries. Which combination of tools should Maria choose to BEST meet both of her tasks?",
+    "response": "Use T-SQL to query the Microsoft SQL Server database and use R, an open source language, to build statistical models."
+  },
+  {
+    "query": "A retail company wants to analyze large volumes of both structured sales transactions and unstructured customer feedback data as quickly as possible. They decide to set up a data system that accepts incoming data in its raw form, so analysts can later define the transformations needed for specific reports. The company's IT director must choose the most appropriate data processing approach for handling this requirement. Which of the following approaches should the IT director choose, and why?",
+    "response": "The IT director should implement the ELT process, because it allows data to be loaded immediately into a data lake and transformed later, improving availability and processing times for large and varied datasets."
+  },
+  {
+    "query": "An analyst needs to export data for analysis in another system, choosing a format that specifically uses the tab character to separate values. Given the nature of the data and the requirement for a delimiter that clearly distinguishes each field, which of the following file extensions would the analyst most likely use to ensure the file is correctly formatted for this purpose?",
+    "response": ".tsv"
+  },
+  {
+    "query": "What can an organization use to gain information from people about a topic?",
+    "response": "Survey"
+  },
+  {
+    "query": "A data professional is in the process of making source data meet the organization’s data quality standards. What is the data professional doing?",
+    "response": "Transforming"
+  },
+  {
+    "query": "A company stores their sales, staff, and customer information in separate tables within a Microsoft SQL Server database. You are a data analyst responsible for generating a monthly sales performance dashboard in Power BI. After connecting with your read-only credentials, you notice that each table contains not only the relevant information but also additional fields (columns) and a few records (rows) that aren't required for your report (e.g., inactive customers, terminated employees). Based on principles of data extraction from the ETL process, how should you analyze and approach extracting the data needed for accurate and insightful reporting?",
+    "response": "Analyze the table structures and use Power BI's query tools to extract only those fields and records from each table that are relevant to current active sales, filtering out extraneous columns and inactive data before proceeding to transformation."
+  },
+  {
+    "query": "You are part of a team that manages organizational data, and your colleague sends you a file named \"update_customers.sql.\" The project involves making structured changes to a database using approved scripts. You are asked to determine if using this file type is appropriate given your tools include Microsoft SQL Server Management Studio. Which of the following BEST explains whether the .sql file extension is suitable for this situation and why?",
+    "response": "Yes, because a .sql file is a script that contains Structured Query Language commands, which can be run in Microsoft SQL Server Management Studio."
+  },
+  {
+    "query": "A school district is conducting research to determine if students who participate in an after-school tutoring program perform better on standardized tests than those who do not. The research team can choose one of the following data collection methods. Which method should the team select to ensure high-quality, reliable data for their analysis?",
+    "response": "Using the tutoring program's attendance logs and standardized test scores from an official student information system."
+  },
+  {
+    "query": "Which of the following would be an example of machine data?",
+    "response": "Temperature readings from sensors in a pizza oven"
+  },
+  {
+    "query": "Which of the following BEST describes snowball sampling?",
+    "response": "After selecting an initial participant, additional participants are identified and recruited through referrals from those already selected for the study."
+  },
+  {
+    "query": "You are working as a data analyst for a retail company. Before conducting a quarterly sales trend analysis, you are tasked with preparing the newly received data set. After loading the data, you notice that the total sales revenue in the data is double what you expected compared to the previous quarter. To ensure your analysis is accurate, which action should you take based on data profiling best practices?",
+    "response": "Perform data profiling by checking total record counts and summed values to compare with expected numbers and investigate potential causes of discrepancies."
+  },
+  {
+    "query": "Your organization's data governance team has established the following rules for customer records in the company CRM: First and last name must be populated and separated by a single space. Email addresses must contain \"@\" and end with \".com\" or \".net\". State field must have a two-letter abbreviation. The \"Physical Location\" field can have up to 20% missing values, while the email field must have less than 5% missing values. You receive the latest data quality report: 7% of records have missing email addresses. 12% of records have missing \"Physical Location\" data. 8% of records have state names fully spelled out. 95% of records have properly formatted first and last names. Based on the established data quality rules, metrics, and the report, what is the MOST accurate analysis of the current data quality situation, and which corrective action would best address the main issues identified?",
+    "response": "The main area of concern is the missing emails, which exceeds the allowed limit; the organization should prioritize checking why emails are missing and implement stricter entry constraints for the email field."
+  },
+  {
+    "query": "A data analyst is working for a company that went through a recent acquisition of another company that sells many of the same products and wants to ensure the combined two data sets of products match up. What are they checking to ensure?",
+    "response": "Consistency"
+  },
+  {
+    "query": "You are assigned to analyze a new dataset containing survey responses collected through both online forms and manually entered paper responses. As you begin the data profiling process, you want to ensure the field types are suitable for analysis and that you can accurately interpret the results in your reports. Which practical step should you apply next?",
+    "response": "Review and identify the field names and data types, then determine if any data type conversions are needed for accurate reporting."
+  },
+  {
+    "query": "A data analyst is beginning a new project. In profiling the data, what is the analyst looking for? (Select all that apply.)",
+    "response": "The total number of records in the dataset, The origin or source of the data"
+  },
+  {
+    "query": "A data professional needs to move data from the current software to new software. What will the data professional do to complete this task?",
+    "response": "Convert file formats"
+  },
+  {
+    "query": "You are reviewing a shipping data table that includes fields for Order ID, Ship Date, and Carrier Tracking Number. You notice that some orders have NULL values in both the Ship Date and Carrier Tracking Number fields. After checking, you confirm these orders have been processed but not yet shipped. What is the MOST appropriate interpretation of the NULL values for these fields?",
+    "response": "The NULL values mean the Ship Date and Carrier Tracking Number information has not been recorded yet because the orders have not been shipped."
+  },
+  {
+    "query": "You are tasked with analyzing product order data sourced from both a CRM and an accounting system. When you attempt to match the product names between the two systems using Excel's VLOOKUP function, several products do not match, even though they appear visually identical in both lists. What is the MOST likely reason for this invalid data scenario, and what should you conclude?",
+    "response": "The product names in the CRM have hidden characters like trailing spaces, causing the data to not match exactly with the accounting system."
+  },
+  {
+    "query": "You are given a dataset with several numerical features, including \"Total Sales\" and \"Number of Customers.\" The ranges of these features are very different, and you need to prepare the data for a machine learning model that is sensitive to feature scale. After reviewing scaling techniques, you must decide which method to use. Which of the following is the MOST appropriate reason for choosing Min-Max normalization in this scenario?",
+    "response": "Min-Max normalization scales all feature values to a fixed range, typically 0 to 1, making them directly comparable for analysis or modeling."
+  },
+  {
+    "query": "A regional manager at a large retail company is preparing a quarterly performance report for upper management. The original sales database contains detailed transaction records for every sale, including customer names, individual product SKUs, and timestamps. However, upper management only wants summarized sales data by region, product category, and total sales dollars. Which of the following actions should the manager take to MOST effectively reduce the data set while ensuring that the information remains useful and valid for decision-making?",
+    "response": "Aggregate the sales records by region and product category, calculating the total sales dollars for each group."
+  },
+  {
+    "query": "You are analyzing survey data that includes the age of respondents as individual numbers (such as 22, 35, 41, etc.). The marketing team has requested information about purchase trends based on different age groups. Which approach BEST meets the team's needs for grouping numerical data in your analysis?",
+    "response": "Create new categories such as 18–24, 25–35, 36–45, 46–55, and 55+ and assign each respondent's age to a group."
+  },
+  {
+    "query": "Why is it important to use functions like =CLEAN() or regular expressions (RegEx) when preparing string data for analysis?",
+    "response": "To remove unwanted special or nonprintable characters that could interfere with accurate data processing."
+  },
+  {
+    "query": "You are working as a data analyst for an e-commerce company. Your team has access to a sales database that contains a table with the following fields: OrderID, ProductID, UnitPrice, OrderQty, and OrderDate. During a meeting, a manager requests a report that shows the total revenue generated by each order line. The manager explains that this information is not directly stored in the database, but is needed for analysis. Based on the scenario and your understanding of derived variables, which action BEST demonstrates the use of a derived variable to fulfill the manager's request?",
+    "response": "Create a new field for \"TotalLine\" by multiplying UnitPrice by OrderQty for each order line."
+  },
+  {
+    "query": "You are reviewing a sales dataset in Excel for your company's retail stores. The dataset only lists dates with recorded sales transactions, which means many dates throughout the year are missing. Your goal is to identify trends such as which specific weekdays consistently have no sales and whether there are stretches of consecutive days with no sales activity. After importing the data into Power Query, what is the BEST approach to structure your analysis so you can accurately identify and visualize these trends?",
+    "response": "Generate a complete date table for the entire year and join it to your sales data, enabling you to analyze both transaction and non-transaction days for patterns and gaps."
+  },
+  {
+    "query": "You are preparing a customer contact report in Excel. The dataset includes separate columns for First Name, Last Name, and Email. Your goal is to generate a new column that will serve as a unique contact key for each customer. The contact key should be formatted as \"FirstName.LastName-Email\" (for example: John.Smith-john.smith@email.com). Before creating the combined field, you notice that some last names contain trailing spaces and some email addresses are written in uppercase letters. Which of the following formulas BEST constructs the contact key in the desired format with cleaned data?",
+    "response": "=CONCAT(A2,\".\",TRIM(B2),\"-\",LOWER(C2))"
+  },
+  {
+    "query": "You are asked to increase the price of a product in the ToyProducts table with a ProductID of 25. Which SQL statement should you use to change the ProductCost to 5 and the ProductListPrice to 7 for only this product, making sure you do not accidentally update other products?",
+    "response": "UPDATE ToyProducts SET ProductCost = 5, ProductListPrice = 7 WHERE (ProductID = 25)"
+  },
+  {
+    "query": "A data analyst needed to merge library patrons (left table) with the books they checked out (right table) and used a cross join. What was the result of the join?",
+    "response": "Every patron was associated with every checked-out book."
+  },
+  {
+    "query": "You have found that the ProductCost for ProductID 45 in the ToyProducts table was entered incorrectly as 0. You need to correct it to 20. What should you do to ensure only this product's cost is updated?",
+    "response": "UPDATE ToyProducts SET ProductCost = 20 WHERE ProductID = 45;"
+  },
+  {
+    "query": "Suppose you need to identify all products in the ToyProducts table whose names include the word \"card\" anywhere in the product name. Which SQL statement correctly applies a filter to accomplish this?",
+    "response": "SELECT ProductName FROM ToyProducts WHERE ProductName LIKE '%card%'"
+  },
+  {
+    "query": "Suppose you have sales data for 2018, 2019, and 2020, each stored in separate tables with matching column formats. Which of the following BEST illustrates what happens if you use an Append Query function on these tables in Power Query?",
+    "response": "All records from 2018, 2019, and 2020 are combined together in a new table that lists all rows from each year, one after another."
+  },
+  {
+    "query": "You are preparing a sales report and have three separate tables: Q1_Sales, Q2_Sales, and Q3_Sales, each containing the same columns for Product ID, Product Name, and Sales Amount. You want to analyze yearly performance trends. After considering your options, which action would BEST allow you to evaluate overall annual sales performance and justify your choice?",
+    "response": "Append the Q1, Q2, and Q3 tables together so all sales records are combined into one comprehensive table for the year."
+  },
+  {
+    "query": "A regional sales director wants to know the average sales amount and the total number of sales made by each salesperson last quarter. The Sales table contains SalespersonID, SaleAmount, and SaleDate. Which SQL query would correctly provide these results?",
+    "response": "SELECT SalespersonID, AVG(SaleAmount) AS AvgSale, COUNT(*) AS TotalSales FROM Sales WHERE SaleDate BETWEEN [start_of_quarter] AND [end_of_quarter] GROUP BY SalespersonID"
+  },
+  {
+    "query": "If you use a FULL OUTER JOIN between Customers and Orders on the CustomerID field, what will your results include?",
+    "response": "All customers and all orders, including unmatched records from both tables, with NULLs in the corresponding fields where there is no match."
+  },
+  {
+    "query": "How do you merge these tables in Power Query to display each order with the corresponding customer name?",
+    "response": "Use the Merge Queries tool on \"CustomerID\" to combine the tables and select \"CustomerName\" to add to the orders."
+  },
+  {
+    "query": "Which SQL keyword is required to organize query results into categories based on a field value before using an aggregate function?",
+    "response": "GROUP BY"
+  },
+  {
+    "query": "A colleague has imported a pivot-format data set into Power BI with sales data by product (rows) and month (columns). She wants to perform a regression analysis by month and product, but Power BI's visualizations and data tools are not functioning as expected. What should she do to make the data usable for her analysis?",
+    "response": "Use the Unpivot columns feature in Power Query so that each product-month-sales trio becomes a unique record in the data set."
+  },
+  {
+    "query": "A business analyst is asked to summarize data from two departments: Department X and Department Y. Both departments recorded their weekly sales over two months. When the analyst creates a histogram for each, the histogram for Department X shows a balanced, bell-shaped curve, whereas Department Y's histogram has a long tail on the left and most data clustered on the higher end. Which initial step should the analyst take to appropriately summarize the data from each department in line with best practices for analyzing distribution shapes?",
+    "response": "Calculate and report the mean and standard deviation for Department X, and the median and range for Department Y."
+  },
+  {
+    "query": "Which Excel feature allows you to run a variety of statistical tests directly, such as regression and t-tests, by adding extra functionality to the program?",
+    "response": "Analysis ToolPak"
+  },
+  {
+    "query": "A school is testing a new study program and compares the average test scores of two classrooms: Classroom A used the new program and Classroom B did not. After collecting data and conducting a statistical test, the principal finds that the p-value is 0.03. Based on this result, what should the principal conclude about the effectiveness of the new study program?",
+    "response": "The difference in test scores is statistically significant, so it is likely that the new study program had an effect."
+  },
+  {
+    "query": "A data analyst is asked to determine if giving students five extra study hours improves their post-test scores compared to students who did not receive extra study time. Which of the following actions BEST demonstrates properly applying the initial step in building a research question for hypothesis testing?",
+    "response": "Clearly state the research question: \"Did five extra study hours result in higher post-test scores for students?\" and check if the required data is available or must be collected."
+  },
+  {
+    "query": "You are preparing a dashboard that will be viewed by three different consumer types: C-level executives, department managers, and a technical analyst from an external partner. How should you apply an approach to control the level of detail for each consumer type?",
+    "response": "Display overall company metrics for executives, department-specific trends for managers, and product integration details with restricted access to the external analyst."
+  },
+  {
+    "query": "You are reviewing a draft data analytics report intended for organization-wide distribution. The report includes charts, infographics, screenshots, and a short instructional video. The report will be viewed by a diverse audience, including team members who use assistive technologies due to visual and hearing impairments. Given this situation, which course of action BEST ensures the report will be truly accessible to all intended users and adheres to accessibility best practices?",
+    "response": "Revise the report by adding meaningful alternate text to all non-decorative images and charts, correct video captions manually for accuracy, use color-safe palettes for visuals, and label decorative images as such."
+  },
+  {
+    "query": "According to best practices, what is the most appropriate action to take before distributing a performance report that includes confidential employee salary details?",
+    "response": "Limit access to the report only to those managers who require the salary information and include a watermark indicating the data is sensitive."
+  },
+  {
+    "query": "A financial analyst is designing a schedule for a monthly revenue report. The analyst wants stakeholders to receive updated reports two days after the last day of each month so data is always current. What is the BEST approach the analyst should take to meet business requirements regarding the frequency of reporting?",
+    "response": "Set up the report to be automatically generated and delivered to stakeholders two days after the end of each month."
+  },
+  {
+    "query": "A manager for a paper company is putting together a presentation and wants to use visuals with a rectangle that shows the proportion of values using smaller rectangles within the larger one. What should they use?",
+    "response": "Treemap"
+  },
+  {
+    "query": "A company's marketing analyst has compiled monthly website traffic data for three different marketing campaigns run simultaneously throughout the year. The analyst wants to identify not only which campaign drove the most traffic each month but also how each campaign performed relative to the others over time, including periods where campaign results crossed over or diverged. The analyst must choose a visualization that will allow for this detailed comparison. Which of the following actions BEST supports the analyst's goal in analyzing these campaign results?",
+    "response": "Create a line graph with multiple lines, where each line represents a campaign, making it possible to see when performance trends cross or separate and allowing in-depth comparative analysis."
+  },
+  {
+    "query": "A manager wants to see the relationship between respondents' education levels and whether they are likely or unlikely to purchase your company's new product. You have a dataset containing both fields. Which is the BEST way to apply a pivot table to reveal this relationship?",
+    "response": "Place \"Education Type\" in the rows, \"Purchase Likelihood\" (Likely/Not Likely) in the columns, and use the count of respondents as values."
+  },
+  {
+    "query": "Which of the following BEST supports the decision to use an infographic, based on infographics benefits and limitations?",
+    "response": "Infographics are highly effective for communicating complex data as visually appealing summaries, making them an excellent choice for presentations to potential business partners."
+  },
+  {
+    "query": "Your company's finance team is trying to communicate the year's cash flow to the executive board. They have data on the starting balance for January, monthly revenue and expenses, and the ending balance for December. The team wants to show not just the total revenue and expenses, but how each month's activity contributed to changes in the account balance throughout the year. You've been asked for advice on which visual would best help the executives clearly understand the cumulative effect of each month's financial activity. Which type of chart should you recommend the finance team use, and why?",
+    "response": "Recommend a Waterfall Chart, because it highlights how each month's increase or decrease in cash contributed to the overall yearly total, making the cumulative financial impact easy to evaluate."
+  },
+  {
+    "query": "Which of the following best describes how a filled map visualizes geographic data in a data visualization tool like Tableau?",
+    "response": "A filled map colors the entire area of a geographic region, such as a state or country, based on associated data values, making it easy to distinguish which regions are included in the dataset."
+  },
+  {
+    "query": "You are a data analyst preparing a dashboard for a regional warehouse team. The data fields include \"LWB,\" \"WHLoc,\" and \"MgrID.\" During a meeting, a team member asks for clarification on the \"LWB\" field because they are not familiar with the abbreviation. You realize several team members are new and may not understand all field labels. What is the BEST action you can take to ensure everyone can accurately interpret the data fields in the dashboard?",
+    "response": "Add field definitions to the dashboard so users can easily reference what \"LWB\" and other fields represent."
+  },
+  {
+    "query": "A large healthcare provider recently merged with another hospital network, resulting in multiple information systems that all store patient data—such as Electronic Medical Records (EMR), billing, pharmacy, and inventory systems. The organization is struggling with duplicate patient records, inconsistent information (e.g., different addresses or names for the same patient), and difficulty updating patient data across all platforms when something changes. Leadership wants the IT team to recommend a technological solution for this challenge. Which solution would BEST address the organization's challenge, based on best practices for master data management software?",
+    "response": "Implement master data management software to consolidate patient data from all systems into a single, reliable master record."
+  },
+{
+    "query": "A database manager wants to set up a governance program to help make the organization and operations better. Where should they start?",
+    "response": "Policies"
+  },
+  {
+    "query": "What is a potential risk when integration between systems is not automated within an organization?",
+    "response": "Manual processes can introduce data inconsistencies as information is passed between systems."
+  },
+  {
+    "query": "What is the main goal of master data management (MDM) within an organization?",
+    "response": "To create a single, consistent source of key business information."
+  },
+  {
+    "query": "A data analyst has started at a small organization where the previous data analyst left but did not leave documentation behind. They begin looking at certain data that was used for dimension data, not transactional data. It also does not seem to change very frequently. What is the data analyst most likely looking at?",
+    "response": "Master data"
+  },
+  {
+    "query": "As a data analyst, you have finished drafting a wireframe for a new HR dashboard. You review your sketch with several key stakeholders. They express confusion about how to access specific sections of the dashboard and mention that some important filters are hard to find in your layout. What should you do next to effectively apply best practices in mockup and wireframing?",
+    "response": "Revise your wireframe to improve navigation and placement of filters, then ask stakeholders for further feedback on the updated design."
+  },
+  {
+    "query": "Which of the following is the BEST example of an effective page title for a dashboard page that displays sales trends for product categories?",
+    "response": "Product Category Sales Trends"
+  },
+{
+    "query": "You are designing a new company annual report that will include several pages of detailed financial analysis, as well as easy-to-read charts and summary visuals. The report will be distributed both as a printed booklet and a downloadable PDF. As you choose your font styles, you want to maximize readability and professionalism for both text narratives and visual elements such as chart titles and labels. Which of the following font strategies should you apply for the BEST results?",
+    "response": "Use a serif font for the narrative text and a sans serif font for the chart titles and labels."
+  },
+  {
+    "query": "A marketing analyst wants to save the departments' time by establishing a standardized color scheme for other departments to use in presentations. Assuming no existing style guide, which of the following will help them? (Select all that apply.)",
+    "response": "Theme,Template,Design guidelines"
+  },
+  {
+    "query": "You are preparing a sales dashboard that will be viewed by regional managers via their smartphones during weekly meetings. Some dashboards may also be printed as PDFs for executive review. Which of the following is the BEST approach when selecting fonts and layout for your dashboard?",
+    "response": "Choose a font that is clear and readable across both web and print, use a layout optimized for smaller screen sizes, and ensure adequate spacing to enhance readability on mobile devices."
+  },
+  {
+    "query": "You are the lead analyst for a hospital's reporting team. Hospital administrators ask you to provide weekly reports tracking patient wait times, staff efficiency, and bed occupancy to help them manage daily operations. Additionally, the hospital must submit monthly reports detailing patient safety incidents and staff training attendance to comply with national healthcare regulations. You are tasked with setting up an appropriate reporting process to meet both needs. Which course of action BEST applies the requirements for both operational and compliance reporting in this context?",
+    "response": "Create weekly operational reports for administrators to monitor internal performance metrics, and develop separate monthly compliance reports to document safety incidents and training records for regulatory authorities."
+  },
+  {
+    "query": "You are designing a sales dashboard for your organization in Power BI. Your manager wants users to view overall sales data for each salesperson but also be able to expand and see sales by individual shipping providers (such as FedEx, Loomis, and Parcel Post) for each salesperson without navigating away from the dashboard or creating extra visuals. Which approach should you implement to BEST meet these requirements?",
+    "response": "Add a visual filter to the matrix visual, allowing users to expand or collapse each salesperson row to see associated shipping provider sales within the same visual."
+  },
+  {
+    "query": "You are the IT manager for a company's help desk, which handles customer support calls. Recently, there was a sudden spike in call volume that went unnoticed until end-of-day reports were reviewed. To better manage support resources and quickly address similar incidents in the future, which reporting solution should you implement to effectively apply real-time reporting concepts?",
+    "response": "Set up a dashboard connected directly to the help desk's call tracking database that updates automatically and displays live call volumes, enabling managers to respond immediately to spikes or trends as they happen."
+  },
+  {
+    "query": "Your team has developed a set of dashboards using Power BI, and they are approved to move into production. Before you deploy, you discover that access will depend on each user having the correct license. What is the BEST action to take to ensure a successful and uninterrupted deployment?",
+    "response": "Confirm that all intended users have the appropriate licenses assigned for accessing and interacting with the dashboards before deployment."
+  },
+  {
+    "query": "A marketing director requested a report that can be run daily on the intranet. The report must look at the last month of data and compare it to the month-to-date data. What type of report is this?",
+    "response": "Point-in-time"
+  },
+  {
+    "query": "An information technology manager has received a budget to replace all the printers throughout the environment. The manager wants to build a one-time report that shows the existing printers throughout the environment to track them down, but will not need to use it again. What type of report should they use?",
+    "response": "Ad hoc"
+  },
+  {
+    "query": "What is an advantage of using custom visuals as tooltips instead of default text-based tooltips in dashboards?",
+    "response": "They can display a small chart or detailed breakdown related to the hovered item, helping users spot patterns directly within the tooltip."
+  },
+  {
+    "query": "You are responsible for designing a monthly sales report that will be used by managers at different times throughout the month. The report is scheduled to run on the first day of each month and sometimes is printed or shared as a PDF. Managers often ask whether the data reflects recent updates or changes that happened mid-month. Which system function should you include in your report to BEST address the managers' needs?",
+    "response": "Display the refresh date/time on the report."
+  },
+  {
+    "query": "A national retail chain is reviewing its business processes after a recent audit highlighted gaps in both the documentation of product returns and adherence to safety guidelines in its warehouses. The company has been generating monthly operational reports on sales trends and inventory turnover, which are regularly reviewed by store managers. However, the compliance officer discovered that reports related to employee safety meetings and workplace incidents were either missing or inconsistent in their data collection methods. As a data analyst, you are asked to assess the current reporting procedures and recommend what should change to ensure more effective operational monitoring and regulatory compliance. Which of the following actions demonstrates the BEST analytical response to address both the operational and compliance issues identified?",
+    "response": "Evaluate the existing operational report templates to identify which key safety metrics are missing, and design a new compliance report template to ensure consistent documentation of safety meetings and incidents, while continuing the monthly operational reports for business metrics."
+  },
+  {
+    "query": "An IT manager is putting together a presentation. The manager wants to hide items from view when the dashboard is published but also wants the ability to view the information on a hover. What should they set up?",
+    "response": "Tooltip"
+  },
+  {
+    "query": "Imagine you are a data analyst at a retail company. The marketing team often asks for specific customer purchase data, and you usually spend hours compiling custom reports for them each week. The company is considering implementing a self-service reporting dashboard designed for the marketing team. As part of a pilot program, you are asked to recommend how the marketing team should best use the self-service dashboard to address their ongoing data needs. Which action would MOST appropriately demonstrate effective use of self-service reporting?",
+    "response": "The marketing team learns to use the dashboard tools to independently generate and customize reports with the specific purchase data they need, whenever they need it."
+  },
+  {
+    "query": "A C-level executive for a large corporation is delegating the creation of an annual report to look back on the previous year and the performance measures that have been set. What type of report should they use?",
+    "response": "Point-in-time"
+  },
+  {
+    "query": "You are a data analyst preparing to deploy a new dashboard for your organization. You have already tested the dashboard yourself and are preparing to finalize the deployment process. Which action should you take next to ensure a smooth transition from proof of concept to production, according to best practices?",
+    "response": "Schedule User Acceptance Testing (UAT) with a group of end users who will interact with the dashboard before final approval and deployment."
+  },
+  {
+    "query": "The admissions committee at a university meets every quarter to evaluate application trends. They want a report showing the number of applications received, broken down by city and state, for each of the past three quarters. The committee will use the report during their meetings to compare application trends over time and make decisions for upcoming recruitment periods. Which reporting approach MOST appropriately applies point-in-time reporting based on their requirements?",
+    "response": "Prepare a quarterly report that captures a snapshot of application data as of the end of each quarter, comparing the three quarters side-by-side to provide historical perspective for the committee's analysis."
+  },
+  {
+    "query": "A safety manager needs to draft quarterly safety reports to stay in compliance with federal regulations. What is this type of report considered?",
+    "response": "Recurring"
+  },
+  {
+    "query": "Which situation most clearly demonstrates the use of anonymization in accordance with privacy best practices?",
+    "response": "Grouping individual ages into broad age ranges and replacing all names and addresses with unrelated placeholder values before releasing the data to the public."
+  },
+  {
+    "query": "A logistics company uses a navigation application to track delivery trucks across the country and update routes dynamically based on traffic conditions and driver actions. If a driver takes a wrong turn, the application must immediately generate an updated route to ensure timely delivery, even if the route is only approximately optimal. Which data processing approach best fits this scenario?",
+    "response": "Real-Time Processing"
+  },
+  {
+    "query": "A retail company collects customer purchase information, stores it securely, and regularly uses it to inform marketing strategies. After several years, the company determines that a portion of this data is no longer actively needed but must be retained for compliance reasons. According to the data lifecycle, what is the MOST appropriate next step the company should take with this data?",
+    "response": "Archive the data to remove it from everyday use while keeping it accessible for compliance purposes."
+  },
+  {
+    "query": "You are a data analyst working with student records for a school district. Your task is to prepare a dataset for a research project that will be shared with an external research team. The dataset contains the following fields: Student Name, Date of Birth, Student ID, Grade Level, and Test Scores. The research project only requires analysis by age groups, grade levels, and test scores. What is the MOST appropriate way to de-identify the data before sharing it?",
+    "response": "Remove Student Name and Date of Birth, then create age bands (such as 5–7, 8–10, 11–13, etc.) to replace specific ages."
+  },
+  {
+    "query": "You are a data analyst working for a healthcare organization. Your team is tasked with creating a report that tracks employee attendance at mandatory safety meetings to ensure compliance with health and safety regulations such as OSHA. The report will include names, job titles, dates of attendance, and notes about safety incidents discussed. The results will be shared with company leadership and may be submitted to regulators if requested. Which of the following actions BEST demonstrates proper data classification and protection to ensure data privacy when preparing this report?",
+    "response": "Mark the report as \"Confidential—Internal Use Only,\" remove personally identifiable information where possible, and store the report in a secure, access-controlled environment."
+  },
+  {
+    "query": "You are responsible for securing customer financial information at a multinational e-commerce firm. Your company transfers and stores private data for customers from countries with varying legal requirements regarding encryption. You need to implement an encryption standard that is widely accepted, meets regulatory compliance in many jurisdictions, and safeguards data both in transit and at rest. Which action should you take to ensure your encryption practices comply with international standards and legal requirements for data protection?",
+    "response": "Implement the Advanced Encryption Standard (AES), as it is FIPS-approved and accepted internationally, while regularly reviewing country-specific laws regarding encryption restrictions."
+  },
+  {
+    "query": "Which of the following is a responsibility of an organization's data governance or compliance team related to jurisdiction requirements?",
+    "response": "Monitoring applicable local, national, and international data laws that impact how the organization uses data."
+  },
+  {
+    "query": "After a data breach occurs in an organization, what is the MOST important first step according to policy and regulation?",
+    "response": "Notify the appropriate person or team so they can respond to the situation."
+  },
+  {
+    "query": "A healthcare organization stores large volumes of sensitive patient data, including medical records, on servers located in a secure data center. Recently, an external hard drive containing backup copies of this data was lost. As the organization's data analyst, you need to recommend the best approach to prevent unauthorized access to the data if a similar incident happens again. Which of the following actions should you recommend to protect the backup data at rest in the future?",
+    "response": "Implement symmetric encryption on all backup files, ensuring only authorized users with the correct key can access the data even if the device is lost."
+  },
+  {
+    "query": "After a company archives its tax records for the required retention period, what should be the organization's next step according to the data lifecycle?",
+    "response": "Seek authorization to destroy the records in accordance with legal requirements."
+  },
+  {
+    "query": "During a conversation with your IT department, you learn that the legal environment in your country requires all personal information sent over public networks to be protected against unauthorized access. Your company is updating its data transmission processes in response. What is the primary reason encryption should be applied specifically to data in transit?",
+    "response": "To ensure that even if intercepted, the data cannot be read by unauthorized parties."
+  },
+  {
+    "query": "Which of the following BEST demonstrates an organization operating at an effective level of data governance maturity?",
+    "response": "The organization has reached its goal of information and data management with transparency, accountability, and standardization."
+  },
+  {
+    "query": "A data analyst at Company X is preparing to transmit sensitive customer data from her workstation to a remote database server over the internet. To ensure the data remains protected during transmission, she must apply an appropriate encryption strategy. What step should she perform at the client side before sending the data to the database server using TLS?",
+    "response": "Encrypt the data at the client using a master key negotiated during the TLS handshake, then transmit the encrypted data to the server."
+  },
+  {
+    "query": "A city government is releasing traffic accident data to the public for use by researchers and journalists. The original dataset includes license plate numbers, driver names, accident locations, exact timestamps, and injury details. The city wants to ensure individuals involved in accidents cannot be re-identified from the released data. Which approach BEST applies anonymization to this situation?",
+    "response": "Remove license plate numbers and driver names, group accident times into broad intervals (such as \"morning,\" \"afternoon,\" or \"evening\"), and generalize accident location to the city district instead of the specific address."
+  },
+  {
+    "query": "A company's IT department recently adopted a new analytics tool that handles both marketing and HR data. To follow security best practices, the company set up role-based permissions in the system. Marketing managers can access HR-related data for all employees in their department, while non-management marketing staff can only view their own HR data. A non-management marketing employee attempts to view the HR records of a fellow team member using the company's new analytics tool but is denied access. What is the most likely reason the employee is denied access to this data?",
+    "response": "The employee's role on the system only allows them to access their own HR data, not others' HR data."
   }
-
-
-
-
-
 
 
 
