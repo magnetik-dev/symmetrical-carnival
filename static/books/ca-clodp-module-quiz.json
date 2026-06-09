@@ -2230,5 +2230,65 @@
     {
         "query": "Which utility is included with Windows Server 2022 for backup purposes?",
         "response": "Windows Server Backup"
+    },
+    {
+        "query": "What term is used to describe how microservices find each other in a dynamic environment?",
+        "response": "Service discovery"
+    },
+    {
+        "query": "What is one of the primary benefits of public cloud solutions for small and medium businesses?",
+        "response": "They provide cost-effective solutions with good reliability and scalability."
+    },
+    {
+        "query": "Which cloud service is known for providing word processing, spreadsheets, and presentation software as a SaaS product?",
+        "response": "Google Workspace"
+    },
+    {
+        "query": "Considering the disadvantages of traditional development methods, which of the following would be the most critical factor to address when transitioning to a cloud-native design?",
+        "response": "Simplifying the process of scaling applications."
+    },
+    {
+        "query": "An organization is considering whether to implement a private cloud or use a public cloud service. Which of the following factors would most strongly justify the implementation of a private cloud?",
+        "response": "The organization handles sensitive data and must comply with strict security and compliance requirements."
+    },
+    {
+        "query": "What is the primary focus of in-place deployments?",
+        "response": "Eliminating infrastructure changes"
+    },
+    {
+        "query": "A sysadmin is doing a business needs assessment to see where gaps are in the company. After completing detailed research, the sysadmin received the main improvement feedback, easier user interface, better scalability, and easier cloud reporting. What type of business need should the sysadmin focus on?",
+        "response": "Software"
+    },
+    {
+        "query": "An organization is upgrading all of its systems in the environment. When the upgrade is complete, the organization will switch from the upgraded environment to production, and later, upgrade all of the systems in the demoted environment. What kind of upgrade process does this represent?",
+        "response": "Blue-green upgrade"
+    },
+    {
+        "query": "What is multitenancy in the context of cloud computing?",
+        "response": "Multiple consumers share computing resources."
+    },
+    {
+        "query": "A company agrees contractually to maintain all client transaction data for a minimum of 12 months beyond the end of the contract, and 10 years for maintaining PII. If the company needed to locate the exact specifications regarding where to locate the back schedule for a client's data, where would they most easily be able to find it?",
+        "response": "SLA"
+    },
+    {
+        "query": "A healthcare organization needs to store patient records securely and ensure high availability. They are considering using a multi-cloud strategy. Which of the following actions should they take to meet their requirements?",
+        "response": "Store patient records in a private cloud and use multiple public cloud providers for redundancy."
+    },
+    {
+        "query": "Which of the following are defining benefits of migration to cloud service solutions? (Select all that apply.)",
+        "response": "Scalability, Colocation, Protection against natural disasters"
+    },
+    {
+        "query": "After testing various metrics regarding disaster recovery, a company has discerned how certain failures might impact availability times. When organizing disaster recovery protocols, what should the company define to help prioritize their recovery processes?",
+        "response": "RTO"
+    },
+    {
+        "query": "The advent of cloud solutions has created new means and mechanisms for backing up IT infrastructure. Which of the following are examples of advantages over other components (such as disk storage) provided by cloud services in backup management? (Select three.)",
+        "response": "Global accessibility, Future-proofed, Greater Speed"
+    },
+    {
+        "query": "A company backs up daily snapshots of the system state of their server onto high-speed solid-state drives (SSDs). Determine the purpose of creating daily snapshots.",
+        "response": "For quick restoration and recovery"
     }
 ]
