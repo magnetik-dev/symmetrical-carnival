@@ -295,84 +295,96 @@
         "query": "What should be considered if there is a problem with the exposure of customer or employee personally identifiable information (PII)?",
         "response": "Data exfiltration"
     },
-      {
-    "query": "Engineers at an organization prepare for cloud migration. The services that will move are internal and proprietary in nature.\nWhat migration type and cloud type result from this move?",
-    "response": "On premises-to-cloud, Private cloud"
-  },
-  {
-    "query": "A technician is configuring workstations for a small team of data analysts that use graphically and computationally powerful analysis programs.\nTo best optimize the constant workload, which of the following would be the best technique to maximize the ability of the workstations to handle several of these tasks?",
-    "response": "Enable GPU offloading"
-  },
-  {
-    "query": "Which of the following best supports the use of tagging resources in a cloud environment for cost management?",
-    "response": "Tags allow for the creation of detailed billing and utilization reports, aiding in accurate chargebacks to business units."
-  },
-  {
-    "query": "A cloud engineer wants to deploy the ELK stack using container orchestration for better scalability.\nWhich deployment method should they choose, and why?",
-    "response": "Using Kubernetes, because it enables flexible scaling for monitoring variable applications and services."
-  },
-  {
-    "query": "A network administrator is troubleshooting a routing issue where certain routes are missing from the routing table. The administrator has confirmed that the routing protocols being used are compatible. However, the issue persists.\nWhat should the administrator analyze next to identify the cause of the missing routes?",
-    "response": "The manual entry of routes by administrators"
-  },
-  {
-    "query": "A user mentions that a cloud-based data entry portal is not accessible. Engineers believe they have identified the problem as a client-side issue but are unsure of how prevalent it is across the system.\nWhat step should the engineers take next to solidify the problem?",
-    "response": "Determine the scope"
-  },
-  {
-    "query": "A company moves specific types of data into a type of short-term storage at the end of each month. This data is complete system-state information intended for fast recovery, and an administrator must consistently refresh it with up-to-date data. The administrator is saving the data on high-speed solid-state drives (SSDs) as a part of this.",
-    "response": "Snapshot"
-  },
-  {
-    "query": "In the event of a data exfiltration or breach, which of the following actions would be the most critical to perform first to ensure an effective response?",
-    "response": "Understand what information has been taken"
-  },
-  {
-    "query": "Considering the importance of cloud event monitoring, which of the following scenarios would most likely indicate a need for improved monitoring practices?",
-    "response": "A company consistently fails to detect unauthorized user account activity."
-  },
-  {
-    "query": "What is the new name for the master branch in Git?",
-    "response": "main"
-  },
-  {
-    "query": "A software developer is in the process of writing a code update for a software library with new functionality. The developer is using Git for version control and scripting to orchestrate automatic upload of weekly update patches to Git.",
-    "response": "git push"
-  },
-  {
-    "query": "Which tools rely on files that may be stored in central repositories?",
-    "response": "Ansible and Docker"
-  },
-  {
-    "query": "What should be done if vulnerabilities are found in software developed in-house?",
-    "response": "Submit a ticket to the dev team."
-  },
-  {
-    "query": "Which of the following is a component of a cloud services solution?",
-    "response": "Client Platform"
-  },
-  {
-    "query": "Your organization has implemented a new web application server. After deployment, you need to ensure that the server is secure by verifying that only the necessary ports are open. The server should only allow web traffic and no other services.",
-    "response": "53 and 123"
-  },
-  {
-    "query": "Given the scenario where a development team needs to frequently roll back changes and maintain multiple versions of their project, which Git feature would be most beneficial and why?",
-    "response": "git tag"
-  },
-  {
-    "query": "What is the primary advantage of using orchestration workflows for virtual machine deployments?",
-    "response": "They ensure that virtual machine deployments are consistent, repeatable, and scalable."
-  },
-  {
-    "query": "An existing orchestration workflow maintains a set of servers regularly using a common service account. After adding one more server to the end of that workflow, the orchestration fails at the new task. Why is the workflow failing to complete? (Select two.)",
-    "response": "The orchestration service account changed., The new automation task is invalid."
-  },
-  {
-    "query": "A network engineer needs to verify that all devices on a specific subnet are recognized and that no rogue devices are present.",
-    "response": "Nmap, by scanning the subnet for devices and services"
-  },
-  {
-    "query": "Engineers implement a redundant array of independent disks (RAID) in all production physical cloud servers after experiencing a disaster recovery issue. When considering the troubleshooting methodology, which step are the engineers following during this implementation?",
-    "response": "Implement the solution"
-  }
+    {
+        "query": "Engineers at an organization prepare for cloud migration. The services that will move are internal and proprietary in nature.\nWhat migration type and cloud type result from this move?",
+        "response": "On premises-to-cloud, Private cloud"
+    },
+    {
+        "query": "A technician is configuring workstations for a small team of data analysts that use graphically and computationally powerful analysis programs.\nTo best optimize the constant workload, which of the following would be the best technique to maximize the ability of the workstations to handle several of these tasks?",
+        "response": "Enable GPU offloading"
+    },
+    {
+        "query": "Which of the following best supports the use of tagging resources in a cloud environment for cost management?",
+        "response": "Tags allow for the creation of detailed billing and utilization reports, aiding in accurate chargebacks to business units."
+    },
+    {
+        "query": "A cloud engineer wants to deploy the ELK stack using container orchestration for better scalability.\nWhich deployment method should they choose, and why?",
+        "response": "Using Kubernetes, because it enables flexible scaling for monitoring variable applications and services."
+    },
+    {
+        "query": "A network administrator is troubleshooting a routing issue where certain routes are missing from the routing table. The administrator has confirmed that the routing protocols being used are compatible. However, the issue persists.\nWhat should the administrator analyze next to identify the cause of the missing routes?",
+        "response": "The manual entry of routes by administrators"
+    },
+    {
+        "query": "A user mentions that a cloud-based data entry portal is not accessible. Engineers believe they have identified the problem as a client-side issue but are unsure of how prevalent it is across the system.\nWhat step should the engineers take next to solidify the problem?",
+        "response": "Determine the scope"
+    },
+    {
+        "query": "A company moves specific types of data into a type of short-term storage at the end of each month. This data is complete system-state information intended for fast recovery, and an administrator must consistently refresh it with up-to-date data. The administrator is saving the data on high-speed solid-state drives (SSDs) as a part of this.",
+        "response": "Snapshot"
+    },
+    {
+        "query": "In the event of a data exfiltration or breach, which of the following actions would be the most critical to perform first to ensure an effective response?",
+        "response": "Understand what information has been taken"
+    },
+    {
+        "query": "Considering the importance of cloud event monitoring, which of the following scenarios would most likely indicate a need for improved monitoring practices?",
+        "response": "A company consistently fails to detect unauthorized user account activity."
+    },
+    {
+        "query": "What is the new name for the master branch in Git?",
+        "response": "main"
+    },
+    {
+        "query": "A software developer is in the process of writing a code update for a software library with new functionality. The developer is using Git for version control and scripting to orchestrate automatic upload of weekly update patches to Git.",
+        "response": "git push"
+    },
+    {
+        "query": "Which tools rely on files that may be stored in central repositories?",
+        "response": "Ansible and Docker"
+    },
+    {
+        "query": "What should be done if vulnerabilities are found in software developed in-house?",
+        "response": "Submit a ticket to the dev team."
+    },
+    {
+        "query": "Which of the following is a component of a cloud services solution?",
+        "response": "Client Platform"
+    },
+    {
+        "query": "Your organization has implemented a new web application server. After deployment, you need to ensure that the server is secure by verifying that only the necessary ports are open. The server should only allow web traffic and no other services.",
+        "response": "53 and 123"
+    },
+    {
+        "query": "Given the scenario where a development team needs to frequently roll back changes and maintain multiple versions of their project, which Git feature would be most beneficial and why?",
+        "response": "git tag"
+    },
+    {
+        "query": "What is the primary advantage of using orchestration workflows for virtual machine deployments?",
+        "response": "They ensure that virtual machine deployments are consistent, repeatable, and scalable."
+    },
+    {
+        "query": "An existing orchestration workflow maintains a set of servers regularly using a common service account. After adding one more server to the end of that workflow, the orchestration fails at the new task. Why is the workflow failing to complete? (Select two.)",
+        "response": "The orchestration service account changed., The new automation task is invalid."
+    },
+    {
+        "query": "A network engineer needs to verify that all devices on a specific subnet are recognized and that no rogue devices are present.",
+        "response": "Nmap, by scanning the subnet for devices and services"
+    },
+    {
+        "query": "Engineers implement a redundant array of independent disks (RAID) in all production physical cloud servers after experiencing a disaster recovery issue. When considering the troubleshooting methodology, which step are the engineers following during this implementation?",
+        "response": "Implement the solution"
+    },
+    {
+        "query": "The company's datacenter is set up to work with a cloud service provider (CSP) as a hybrid cloud environment. IT management wants to leverage cloud resources to support on-premises web servers during peak hours. What cloud feature or service can the company take advantage of to fulfill this requirement?",
+        "response": "Cloud bursting"
+    },
+    {
+        "query": "The results of a recent audit mandate that an organization hardens cloud-based server operating systems. Which steps do systems administrators take? (Select three.)",
+        "response": "Disable unused services, Perform system updates, Control remote access"
+    },
+    {
+        "query": "You are designing a web application that needs to handle a large number of client requests efficiently. The application must be able to scale easily to accommodate increasing traffic and should be flexible enough to integrate with various front-end technologies. Which API design would be most suitable for your needs?",
+        "response": "REST API, because it is scalable and flexible."
+    }
 ]

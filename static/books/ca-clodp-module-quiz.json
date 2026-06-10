@@ -913,7 +913,7 @@
     },
     {
         "query": "A cloud administrator is architecting a storage network connection to migrate data from an on-premises environment to the cloud but wants to avoid public Internet routes for security purposes.\n\nWhich of the following will help the administrator accomplish this? (Select two.)",
-        "response": "asdasd"
+        "response": "Azure ExpressRoute, GCP Cloud Interconnect"
     },
     {
         "query": "You are a cloud administrator managing a data warehouse that processes large volumes of data daily. You need to choose a storage solution that balances cost and performance for these large file transactions.",
@@ -2669,7 +2669,7 @@
     },
     {
         "query": "Your company has recently detected unauthorized access to its internal network. Upon investigation, you find that sensitive data has been transferred out of the network. Which of the following actions should you prioritize to address the issue of data exfiltration?",
-        "response": "Implementing Data Loss Prevention (DLP) infrastructure"
+        "response": "Reviewing and correcting data classification settings"
     },
     {
         "query": "You are a cloud security engineer tasked with securing a containerized application running on AWS. During a security audit, you discover that several containers are running with root privileges. You need to address this issue to comply with best security practices. Which action should you take to mitigate the security risk associated with privileged containers?",
@@ -2742,5 +2742,174 @@
     {
         "query": "An organization has decided to migrate part of its cloud solution housing client PII to an on-site storage area. Which of the following is the most likely reason for this migration?",
         "response": "Security concerns"
-    }
+    },
+    {
+        "query": "A help desk administrator was troubleshooting a service in which multiple users experienced an outage. They worked with the system owner to identify the root problem and restore services. Which of the following should the administrator do next?",
+        "response": "Document the findings"
+    },
+    {
+        "query": "Which of the following is an example of an IoT transmission protocol with low power requirements and limited security?",
+        "response": "Bluetooth"
+    },
+    {
+        "query": "What is a key characteristic of the subscription services payment model?",
+        "response": "It uses a recurring, periodic billing cycle."
+    },
+    {
+        "query": "What is a primary advantage of using a multi-cloud solution?",
+        "response": "It reduces reliance on a single vendor."
+    },
+    {
+        "query": "Which scenario would be least suitable for an in-place deployment strategy?",
+        "response": "A mission-critical application that requires high availability"
+    },
+    {
+        "query": "What must a sysadmin do to change the instance type in AWS Management Console?",
+        "response": "Change the instance type while the instance is powered off"
+    },
+    {
+        "query": "A systems technician is setting up resources for virtual machines (VMs) but only one of those VMs will utilize intensive graphics processing power for 3 dimensional designs. Which of the following options is the best type of graphics resource to use?",
+        "response": "Pass-through"
+    },
+    {
+        "query": "Your organization has experienced downtime due to a single data center failure. To prevent this in the future, what should your organization do when migrating to the cloud?",
+        "response": "Implement redundant systems and failover solutions across multiple regions."
+    },
+    {
+        "query": "Which of the following best explains why service availability generally increases when migrating applications to the cloud?",
+        "response": "Cloud providers support immense networks and data centers that optimize uptime and quick access."
+    },
+    {
+        "query": "A cloud administrator is migrating a significant amount of server data from company-controlled premises to a cloud environment. As such, capacity is a primary concern, but the company will access the data very infrequently and so, a specific data model will not be required. Which storage type would be best for this requirement?",
+        "response": "Blob"
+    },
+    {
+        "query": "An ISP has asked one of their technology officers to report the ratio of active server capacity for a specific region versus actual server usage by the customer base. The information will determine how best to redistribute resource allocations based on hardware capabilities against need. Which of the following networking methods is the ISP most likely looking to employ?",
+        "response": "Oversubscription"
+    },
+    {
+        "query": "Which cloud service provider feature can help avoid unexpected costs?",
+        "response": "AWS CloudWatch monitoring service"
+    },
+    {
+        "query": "An administrator has configured a cluster of web servers to ensure that if one server becomes unavailable, the other will continue to serve traffic. What does the cluster represent?",
+        "response": "High availability"
+    },
+    {
+        "query": "A development team needs to quickly deploy a test container instance with minimal configuration. Which cloud service and approach should they use?",
+        "response": "Azure container instances console, using Quickstart images."
+    },
+    {
+        "query": "What is the primary purpose of the docker pull command?",
+        "response": "To pull an image from a registry"
+    },
+    {
+        "query": "A company is using Nessus to scan for any weaknesses that may potentially be in the network. Which of the following solutions is Nessus?",
+        "response": "Vulnerability Scanners"
+    },
+    {
+        "query": "Your organization is transitioning to a hybrid cloud environment and needs to ensure that applications can run seamlessly across different platforms. You are tasked with selecting a technology that will provide platform independence and development flexibility. Which technology should you choose and why?",
+        "response": "Common Language Infrastructure (CLI), because it provides platform independence and development flexibility."
+    },
+    {
+        "query": "A client is using Amazon Web Services (AWS) for their cloud infrastructure and is concerned about potential DDoS attacks. They have asked you to analyze their current setup and suggest an additional service to enhance their DDoS protection. Which AWS service would you recommend to the client to enhance their DDoS protection?",
+        "response": "AWS Shield"
+    },
+    {
+        "query": "Which of the following is an example of a cloud event monitoring utility?",
+        "response": "Microsoft Azure Monitor"
+    },
+    {
+        "query": "A cloud service provider wants to reassure potential customers about their security stance by making their internal control reports publicly available. Which standard should the cloud service provider use to achieve this?",
+        "response": "SOC3"
+    },
+    {
+        "query": "A systems technician is setting up a secure solution for authentication to the corporate network. Which of the following tools will help with this?",
+        "response": "Network Access Control"
+    },
+    {
+        "query": "Why should unauthorized software not be installed on client workstations, on-premises servers, or cloud VM instances?",
+        "response": "It may remain unmanaged and unpatched."
+    },
+    {
+        "query": "You are a network administrator for a company that uses multiple APIs to integrate various business processes. Recently, you noticed that one of the APIs is experiencing frequent downtime and slow performance. You suspect that the issue might be related to traffic management. Which of the following actions should you take to address this issue?",
+        "response": "Implement rate limiting and request throttling"
+    },
+    {
+        "query": "Which protocol is used to add encryption capabilities to HTTP transfers, ensuring data confidentiality and integrity?",
+        "response": "HTTPS"
+    },
+    {
+        "query": "Which tool does Microsoft Azure provide for data classification?",
+        "response": "Azure Information Protection"
+    },
+    {
+        "query": "Which of the following BEST describes the effectiveness of using trusted registries and digital signatures for container images in enhancing security?",
+        "response": "It is effective because it ensures the authenticity and integrity of container images."
+    },
+    {
+        "query": "Which of the following is an example of data that may be regulated under data retention policies?",
+        "response": "Employee HR information"
+    },
+    {
+        "query": "Which of the following is an example of a suggested response for a high probability of unauthorized account use in Azure?",
+        "response": "Disable the account for further investigation"
+    },
+    {
+        "query": "A server technician is setting up a patching process for virtual machines but is worried about affecting services and availability. What is a good practice to help quickly restore services? (Select two.)",
+        "response": "Rolling upgrades, Snapshots"
+    },
+    {
+        "query": "At which phase of the lifecycle roadmap would a cloud application serve as a reference for upcoming services to an organization?",
+        "response": "Development  phase"
+    },
+    {
+        "query": "Which feature of Amazon Web Services (AWS) GPU instances can be disabled to increase performance?",
+        "response": "Autoboost"
+    },
+    {
+        "query": "What is the primary focus of orchestration optimization in workflow management?",
+        "response": "Ensuring tasks run in the right order and at the right time within the overall workflow."
+    },
+    {
+        "query": "A systems administrator has set up policies to send alerts based on suggested alerts from Microsoft. Which of the following will help to tune the alerting and keep from overwhelming the administrator?",
+        "response": "Maintenance mode"
+    },
+    {
+        "query": "A company is running a machine learning application on a cloud instance. They notice that the CPU usage is consistently high, and the application performance is not meeting expectations. They are considering optimizing their instance configuration. Which of the following changes would most likely improve the performance of their machine learning application?",
+        "response": "Offload processing to a GPU and disable GPU autoboost"
+    },
+    {
+        "query": "A Linux system administrator wants to forward logs from the rsyslog service to a central log retention server. Which configuration file should the administrator modify to achieve this?",
+        "response": "/etc/rsyslog.conf"
+    },
+    {
+        "query": "What is a common way of testing major revisions to operating systems, services, or applications?",
+        "response": "Blue-green deployment environments"
+    },
+    {
+        "query": "A cloud administrator is troubleshooting performance issues on an on-premises cloud environment. After checking performance metrics on a random virtual machine (VM) operating system (OS) and comparing them with cloud management console compute statistics, what could these checks have concluded were possible problems on the cloud resources? (Select three.)",
+        "response": "GPU overutilization, Memory over-allocation, CPU overutilization"
+    },
+    {
+  "query": "Considering the complexity and benefits, which scenario best justifies the use of a multi-cloud environment?",
+  "response": "A large e-commerce company seeking to ensure high availability and avoid vendor lock-in."
+},
+{
+  "query": "Your company recently deployed new web servers in the cloud. During a routine backup test, you discover that the configuration and website data files were not backed up. What is the MOST likely reason for this issue?",
+  "response": "The web servers were not added to the automated backup solution upon deployment"
+},
+{
+  "query": "A financial services company needs to replicate its transaction data to a secondary server to ensure data availability. However, they prioritize write performance over immediate data consistency between the primary and secondary servers. Which replication method should they implement?",
+  "response": "Asynchronous replication, because it provides faster write performance."
+},
+{
+  "query": "Which backup schedule should you implement for user data?",
+  "response": "Backup user data every 24 hours."
+},
+{
+  "query": "Your organization is considering different backup solutions. You have a limited budget for initial investment but need a scalable solution that can be easily expanded as your data grows. Which backup solution should you recommend?",
+  "response": "Cloud Storage"
+}
+
 ]
