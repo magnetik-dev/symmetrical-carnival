@@ -346,5 +346,33 @@
   {
     "query": "What should be done if vulnerabilities are found in software developed in-house?",
     "response": "Submit a ticket to the dev team."
+  },
+  {
+    "query": "Which of the following is a component of a cloud services solution?",
+    "response": "Client Platform"
+  },
+  {
+    "query": "Your organization has implemented a new web application server. After deployment, you need to ensure that the server is secure by verifying that only the necessary ports are open. The server should only allow web traffic and no other services.",
+    "response": "53 and 123"
+  },
+  {
+    "query": "Given the scenario where a development team needs to frequently roll back changes and maintain multiple versions of their project, which Git feature would be most beneficial and why?",
+    "response": "git tag"
+  },
+  {
+    "query": "What is the primary advantage of using orchestration workflows for virtual machine deployments?",
+    "response": "They ensure that virtual machine deployments are consistent, repeatable, and scalable."
+  },
+  {
+    "query": "An existing orchestration workflow maintains a set of servers regularly using a common service account. After adding one more server to the end of that workflow, the orchestration fails at the new task. Why is the workflow failing to complete? (Select two.)",
+    "response": "The orchestration service account changed., The new automation task is invalid."
+  },
+  {
+    "query": "A network engineer needs to verify that all devices on a specific subnet are recognized and that no rogue devices are present.",
+    "response": "Nmap, by scanning the subnet for devices and services"
+  },
+  {
+    "query": "Engineers implement a redundant array of independent disks (RAID) in all production physical cloud servers after experiencing a disaster recovery issue. When considering the troubleshooting methodology, which step are the engineers following during this implementation?",
+    "response": "Implement the solution"
   }
 ]
