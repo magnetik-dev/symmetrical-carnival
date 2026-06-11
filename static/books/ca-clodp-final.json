@@ -386,5 +386,9 @@
     {
         "query": "You are designing a web application that needs to handle a large number of client requests efficiently. The application must be able to scale easily to accommodate increasing traffic and should be flexible enough to integrate with various front-end technologies. Which API design would be most suitable for your needs?",
         "response": "REST API, because it is scalable and flexible."
+    },
+    {
+        "query": "An IT department is tasked with maintaining a critical business application. They receive a notification from the software vendor about an upcoming update that will move the application from version 4.2 to 4.3. What type of update is this likely to be, and what actions should the IT department take?",
+        "response": "It is a minor update, and the IT department can expect it to include bug fixes and incremental changes."
     }
 ]

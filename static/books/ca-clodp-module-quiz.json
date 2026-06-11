@@ -3363,5 +3363,101 @@
     {
         "query": "A popular themed park is integrating new IT networking into its daily operations. This means that the current network administrator must design and implement a backup strategy. The administrator is searching for a backup strategy that can be executed daily while using as little time and bandwidth as possible. Prescribe a backup policy that only preserves data that has changed from the previous day, and nothing more.",
         "response": "Incremental backup"
+    },
+    {
+        "query": "A company desires to make accurate predictions about the market they serve by extracting data based on learned information and experience. Their data centers house more data than they can possibly analyze in a timely fashion. What technology can harness their data to help them make better predictions?",
+        "response": "Machine Learning (ML)"
+    },
+    {
+        "query": "Support technicians establish a plan of action to resolve a cloud server issue. What should the technicians consider in this plan? (Select two.)",
+        "response": "Service interruptions, Data loss"
+    },
+    {
+        "query": "A systems administrator responded to an important web service crashing. They analyzed logs to determine the issue, restarted the service, and were able to verify system functionality. What is the next step the administrator should take?",
+        "response": "Implement preventative measures"
+    },
+    {
+        "query": "Which cloud service provider's infrastructure includes 73+ zones and 24+ regions?",
+        "response": "GCP"
+    },
+    {
+        "query": "Considering the shared responsibility model, which of the following scenarios best demonstrates a consumer effectively fulfilling their security responsibilities?",
+        "response": "A consumer regularly audits their data access logs, implements encryption, and ensures strong access controls while trusting the CSP to manage physical security."
+    },
+    {
+        "query": "Which of the following is a common application release strategy?",
+        "response": "Blue-green model"
+    },
+    {
+        "query": "Which environment is primarily used for validating cloud applications and services?",
+        "response": "Staging environment"
+    },
+    {
+        "query": "What is the primary measurement for storage performance in cloud environments?",
+        "response": "IOPS (Input/Output Operations per Second)"
+    },
+    {
+        "query": "A technician working in a software testing lab environment would like to verify various disaster recovery scenario responses. Currently, the needed recovery data is hosted virtually, and the technician would like to create mirrored backups for testing purposes. Which of the following best describes the method the technician is utilizing?",
+        "response": "VM replication"
+    },
+    {
+        "query": "An organization looks to reduce cloud-based storage costs. What hardware level features should the organization consider for reducing storage usage and costs? (Select two.)",
+        "response": "Compression, Deduplication"
+    },
+    {
+        "query": "Which of the following is a key aspect of the cloud administrator role related to containers?",
+        "response": "Maintaining container infrastructures"
+    },
+    {
+        "query": "A server administrator has recently started managing a container environment in addition to the traditional on premise infrastructure. The administrator receives notice that the container services have stopped running, but other cloud resources are still available. What should the administrator check? (Select three.)",
+        "response": "Container engine is running, Compute resources, Container images valid"
+    },
+    {
+        "query": "Your organization uses cloud services extensively, and you have been tasked with ensuring that only legitimate users access these services. You notice a pattern of failed authentication attempts in the logs. What action should you take to apply proper access management and enhance security?",
+        "response": "Investigate the failed authentication attempts to identify potential security threats"
+    },
+    {
+        "query": "What does ransomware typically do to a victim's files?",
+        "response": "Encrypts them and demands a ransom for decryption"
+    },
+    {
+        "query": "A cloud administrator receives an email alert. The alert only indicates suspicious activity and no action was taken. What type of software sent the alert?",
+        "response": "HIDS"
+    },
+    {
+        "query": "A company has noticed unexpected spikes in their cloud resource usage, leading to increased costs. They suspect unauthorized changes to their resource deployments. Which aspect of cloud event monitoring should they focus on to identify the root cause?",
+        "response": "Tracking configuration deviations"
+    },
+    {
+        "query": "A network security administrator has realized that the Network Access Control (NAC) protocols do not seem to be checking all devices. Recommend routes of investigation that will help the security administrator identify the source of the problem. (Select all that apply.)",
+        "response": "Check configuration management settings for the NAC system., Check which devices are being checked and which are excluded., Check which network entry points are checked."
+    },
+    {
+        "query": "Your team has deployed a new API that is critical for your company's internal operations. After deployment, users report that they are unable to connect to the API. You need to apply troubleshooting steps to identify the issue. Which of the following could be a potential cause of the connectivity issue?",
+        "response": "Rate limits reached"
+    },
+    {
+        "query": "Which of the following should be checked if a user's basic workstation authentication fails?",
+        "response": "User account is not expired or disabled"
+    },
+    {
+        "query": "A server administrator is setting up a hardened baseline for a single function. What are some examples of single function applications? (Select two.)",
+        "response": "Apache, MariaDB"
+    },
+    {
+        "query": "Which of the following is NOT a motivator for a cloud administrator to apply patches?",
+        "response": "Patching is scheduled"
+    },
+    {
+        "query": "What does tracing in cloud services primarily focus on?",
+        "response": "Providing detailed information about each step of the application's processing"
+    },
+    {
+        "query": "A systems architect has started a new role on a server team and begins updating the lifecycle roadmap. Which of the following are applicable items to be included? (Select three.)",
+        "response": "Old hardware, Current applications, New services"
+    },
+    {
+        "query": "ou are an IT manager responsible for ensuring the security of your company's data backups. Recently, you implemented a cloud backup solution that includes encryption. During a routine check, you need to verify that the data is protected both during transfer and while stored in the cloud. Which two types of encryption should you confirm are being used to meet this requirement?",
+        "response": "In transit encryption and at rest encryption"
     }
 ]
