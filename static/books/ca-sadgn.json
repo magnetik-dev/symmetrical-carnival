@@ -1,0 +1,162 @@
+[
+  {
+    "query": "What is a behavioral model?",
+    "response": "A model that describes the functionality of a system"
+  },
+  {
+    "query": "What are combined fragments in a sequence diagram used for?",
+    "response": "To show loops or branches in a use case"
+  },
+  {
+    "query": "What determines the choice of shape used to represent a state in UML?",
+    "response": "The modeling conventions used and the level of detail needed"
+  },
+  {
+    "query": "How are actors represented in a sequence diagram?",
+    "response": "As stick figures"
+  },
+  {
+    "query": "What is behavioral modeling in systems analysis and design?",
+    "response": "Modeling the interactions and behaviors of the system's components"
+  },
+  {
+    "query": "What is an actor in UML modeling?",
+    "response": "A user or system that interacts with the system being modeled"
+  },
+  {
+    "query": "What is an example of an external event that can trigger a state transition?",
+    "response": "An external data update received by the system"
+  },
+  {
+    "query": "Which model contains the concept of an update operation?",
+    "response": "Class Diagram"
+  },
+  {
+    "query": "What is a class in object-oriented analysis and design?",
+    "response": "A template or blueprint that defines a set of attributes, methods, and behaviors for a type of object"
+  },
+  {
+    "query": "What is the purpose of behavioral modeling in systems analysis and design?",
+    "response": "To identify potential issues and ensure that the system meets the needs of its users"
+  },
+  {
+    "query": "What do the functional models describe?",
+    "response": "What the system should do"
+  },
+  {
+    "query": "What is the purpose of an object wrapper in object-oriented programming?",
+    "response": "To encapsulate an object and provide additional functionality"
+  },
+  {
+    "query": "What is the criteria for determining if the identified packages in a package diagram make sense?",
+    "response": "They should make sense from a problem domain or functional requirements perspective"
+  },
+  {
+    "query": "What is the first step for identifying packages and creating package diagrams?",
+    "response": "Set Context"
+  },
+  {
+    "query": "How is a package dependency relationship represented in UML?",
+    "response": "With a dashed arrow pointing from the dependent package to the independent package"
+  },
+  {
+    "query": "What do the behavioral models describe?",
+    "response": "How the system behaves"
+  },
+  {
+    "query": "How are packages related to layers?",
+    "response": "Packages can be used to group classes based on the layer in which they belong"
+  },
+  {
+    "query": "How are partitions and collaborations related in object-oriented design?",
+    "response": "Partitions contain one or more collaborations, and collaborations can span multiple partitions"
+  },
+  {
+    "query": "What is the difference between high and low method cohesion?",
+    "response": "High cohesion methods perform a single, well-defined task, while low cohesion methods perform a variety of unrelated tasks"
+  },
+  {
+    "query": "What is the difference between an analysis model and a design model?",
+    "response": "The analysis model focuses on the requirements of the system and the business processes, while the design model focuses on how the system will be implemented and the technical details of the system"
+  },
+  {
+    "query": "How many different types of constraints are there?",
+    "response": "Three"
+  },
+  {
+    "query": "What should be considered when collapsing two defining classes into a single class?",
+    "response": "All of the other answers are correct"
+  },
+  {
+    "query": "What is the purpose of a contract in a collaboration?",
+    "response": "To formalize the interactions between client and server objects"
+  },
+  {
+    "query": "What is the difference between a framework and a class library?",
+    "response": "Frameworks can create coupling issues when upgrading to a new version"
+  },
+  {
+    "query": "What is the trade-off that a good practical design should manage?",
+    "response": "Between understandability and efficiency"
+  },
+  {
+    "query": "What is the purpose of adding specifications when designing a specific class?",
+    "response": "To ensure the class can fulfill its intended purpose"
+  },
+  {
+    "query": "What is a derived attribute in an object system?",
+    "response": "An attribute that is calculated based on other attributes"
+  },
+  {
+    "query": "What is the purpose of an invariant in object-oriented design?",
+    "response": "To ensure the correctness and consistency of the system"
+  },
+  {
+    "query": "What types of constraints can be captured using OCL?",
+    "response": "Preconditions, postconditions, and invariants"
+  },
+  {
+    "query": "What is structured English?",
+    "response": "A formal way of writing instructions that describe the steps of a process"
+  },
+  {
+    "query": "What happens if a user attempts to add an invalid value as a foreign key in an RDBMS that supports referential integrity?",
+    "response": "The RDBMS will return an error message to the user"
+  },
+  {
+    "query": "Which of the following is NOT an example of RDBMS software?",
+    "response": "MongoDB"
+  },
+  {
+    "query": "What is the primary purpose of data access and manipulation classes?",
+    "response": "To act as a translator between object persistence and problem domain objects"
+  },
+  {
+    "query": "What is the main difference between ORDBMS and OODBMS in terms of data types?",
+    "response": "ORDBMS supports complex object data types through user-defined types, while OODBMS supports simple data types"
+  },
+  {
+    "query": "What is the main advantage of an OODBMS over an RDBMS?",
+    "response": "Support for direct storage of objects without mapping to tables"
+  },
+  {
+    "query": "What is the primary difference between an ORDBMS and an RDBMS?",
+    "response": "ORDBMS is an extension of RDBMS and is designed to handle the storage of objects in the relational table structure"
+  },
+  {
+    "query": "What is the role of data access and manipulation classes in the software design?",
+    "response": "To provide an interface between object persistence and problem domain objects"
+  },
+  {
+    "query": "What is the role of security requirements in the design of the data management layer?",
+    "response": "They guarantee that only authorized users can modify the object storage schema"
+  },
+  {
+    "query": "What is the goal of object persistence design?",
+    "response": "To ensure that objects and their data can be stored and retrieved from a persistent storage medium in an efficient and reliable manner"
+  },
+  {
+    "query": "What are some other issues that need to be addressed when implementing object persistence in an ORDBMS?",
+    "response": "Supporting transactions and rollbacks"
+  }
+]
