@@ -32,7 +32,8 @@
   const dataOptions = [
     { value: 'dtant-module-quiz', label: 'DTANT Module Quiz' },
     { value: 'dtant-final', label: 'DTANT Final Exam' },
-    { value: 'ca-pldes-quiz', label: 'PLDES Quiz' }
+    { value: 'ca-pldes-quiz', label: 'PLDES Quiz' },
+    { value: 'ca-sadgn', label: 'SADGN Final Quiz'}
   ];
   
   const digitalDesignOptions = [
