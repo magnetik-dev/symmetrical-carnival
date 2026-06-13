@@ -36,10 +36,6 @@
     "response": "A template or blueprint that defines a set of attributes, methods, and behaviors for a type of object"
   },
   {
-    "query": "What is the purpose of behavioral modeling in systems analysis and design?",
-    "response": "To identify potential issues and ensure that the system meets the needs of its users"
-  },
-  {
     "query": "What do the functional models describe?",
     "response": "What the system should do"
   },
@@ -50,10 +46,6 @@
   {
     "query": "What is the criteria for determining if the identified packages in a package diagram make sense?",
     "response": "They should make sense from a problem domain or functional requirements perspective"
-  },
-  {
-    "query": "What is the first step for identifying packages and creating package diagrams?",
-    "response": "Set Context"
   },
   {
     "query": "How is a package dependency relationship represented in UML?",
@@ -84,10 +76,6 @@
     "response": "Three"
   },
   {
-    "query": "What should be considered when collapsing two defining classes into a single class?",
-    "response": "All of the other answers are correct"
-  },
-  {
     "query": "What is the purpose of a contract in a collaboration?",
     "response": "To formalize the interactions between client and server objects"
   },
@@ -106,10 +94,6 @@
   {
     "query": "What is a derived attribute in an object system?",
     "response": "An attribute that is calculated based on other attributes"
-  },
-  {
-    "query": "What is the purpose of an invariant in object-oriented design?",
-    "response": "To ensure the correctness and consistency of the system"
   },
   {
     "query": "What types of constraints can be captured using OCL?",
@@ -454,5 +438,137 @@
   {
     "query": "What is the purpose of an association class?",
     "response": "To model complex business rules and constraints"
+  },
+  {
+    "query": "How can a sequence diagram help an analyst?",
+    "response": "By modeling the use case and better understanding how the system will behave in different situations"
+  },
+  {
+    "query": "What is the second step in building a behavioral state machine?",
+    "response": "Identify the initial state of the object."
+  },
+  {
+    "query": "What should be included in a sequence diagram to represent any necessary conditions or loops?",
+    "response": "None of the other answers are correct"
+  },
+  {
+    "query": "How is a use case related to a sequence diagram?",
+    "response": "A use case can be represented using a sequence diagram"
+  },
+  {
+    "query": "What is the purpose of behavioral modeling in systems analysis and design?",
+    "response": "To identify potential issues and ensure that the system meets the needs of its users"
+  },
+  {
+    "query": "What is the difference between an instance sequence diagram and a use case scenario?",
+    "response": "An instance sequence diagram shows the actual objects and messages involved, while a use case scenario is a more abstract description of what needs to be accomplished"
+  },
+  {
+    "query": "What are two examples of classes that would be good candidates for a behavioral state machine?",
+    "response": "A vending machine and a traffic light"
+  },
+  {
+    "query": "How does an activity diagram relate to a use case?",
+    "response": "An activity diagram models the flow of activities within a use case scenario"
+  },
+  {
+    "query": "In which model would you find a message?",
+    "response": "Sequence Diagram"
+  },
+  {
+    "query": "What is the ideal characteristic of a visible method in a cohesive class?",
+    "response": "It should reference only attributes or methods defined within the class or its superclasses"
+  },
+  {
+    "query": "What is the first step for identifying packages and creating package diagrams?",
+    "response": "Set Context"
+  },
+  {
+    "query": "What is the fourth step for identifying packages and creating package diagrams?",
+    "response": "Identify Dependencies"
+  },
+  {
+    "query": "What is the ideal characteristic of a cohesive class?",
+    "response": "It should represent only one thing"
+  },
+  {
+    "query": "What is the main concern of the Human-Computer Interaction Layer?",
+    "response": "Providing a user-friendly interface"
+  },
+  {
+    "query": "Which model focuses on the requirements of the system and the business processes?",
+    "response": "Analysis model"
+  },
+  {
+    "query": "What is the purpose of ERP systems?",
+    "response": "To automate business processes across various functions"
+  },
+  {
+    "query": "What are the specific responsibilities of the presentation layer?",
+    "response": "Presenting information to users"
+  },
+  {
+    "query": "What is the main concern of the Problem Domain Layer?",
+    "response": "Representing concepts in the problem domain"
+  },
+  {
+    "query": "What is a potential risk associated with outsourcing?",
+    "response": "Loss of control over the project"
+  },
+  {
+    "query": "What can happen if a design focuses solely on efficiency issues?",
+    "response": "The design will sacrifice understandability for performance"
+  },
+  {
+    "query": "What happens if an hourly employee has worked more than 40 hours in a week?",
+    "response": "They are paid at their regular hourly rate for the first 40 hours and at a rate of time-and-a-half for the extra hours"
+  },
+  {
+    "query": "What is the purpose of an invariant in object-oriented design?",
+    "response": "To ensure the correctness and consistency of the system"
+  },
+  {
+    "query": "What should be considered when collapsing two defining classes into a single class?",
+    "response": "All of the other answers are correct"
+  },
+  {
+    "query": "What is the purpose of the HoursWorkedGreaterThanZero invariant?",
+    "response": "To specify that the number of hours worked must be greater than zero"
+  },
+  {
+    "query": "How can a violation of a constraint be handled in class design?",
+    "response": "By undoing the change that caused the violation"
+  },
+  {
+    "query": "What happens if an OCL constraint is violated?",
+    "response": "The system should prevent the constraint from being placed"
+  },
+  {
+    "query": "How are methods specified in object-oriented programming?",
+    "response": "Using a combination of UML diagrams and textual descriptions"
+  },
+  {
+    "query": "What is the main difference between an end-user database and an enterprise database?",
+    "response": "The scope and complexity of the database"
+  },
+  {
+    "query": "What is the advantage of a random-access file over a sequential-access file?",
+    "response": "It can access records faster"
+  },
+  {
+    "query": "How are files and databases different in terms of scalability?",
+    "response": "Databases can become unwieldy as data grows"
+  },
+  {
+    "query": "What is encapsulation and polymorphism?",
+    "response": "Techniques used for object-oriented programming"
+  },
+  {
+    "query": "Why is it important to consider the existing storage formats in an organization when selecting a storage format for a new system?",
+    "response": "To understand the technical skills that already exist and the learning curve for adopting the new storage format"
+  },
+  {
+    "query": "What is an example of a storage format that might require substantial developer training for a company familiar with RDBMS?",
+    "response": "NoSQL data store"
   }
 ]
