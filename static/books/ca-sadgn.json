@@ -244,10 +244,6 @@
     "response": "An informal interview where the interviewer has no predetermined questions"
   },
   {
-    "query": "What is a structured interview?",
-    "response": "A formal interview that follows a script"
-  },
-  {
     "query": "What is a fact?",
     "response": "A statement that can be verified through evidence or observation"
   },
@@ -318,5 +314,145 @@
   {
     "query": "What is a superclass in object-oriented programming?",
     "response": "A class that is higher in the inheritance hierarchy and provides complete implementation of its methods"
+  },
+  {
+    "query": "Which phase of the SDLC comes before the design phase?",
+    "response": "Planning phase"
+  },
+  {
+    "query": "What is the purpose of composite structure diagrams?",
+    "response": "To model the internal structure of a classifier and its collaborations"
+  },
+  {
+    "query": "What is encapsulation in object-oriented programming?",
+    "response": "The process of hiding the implementation details of an object from other objects"
+  },
+  {
+    "query": "What software development methodology is often associated with use-case driven development?",
+    "response": "Unified Modeling Language (UML)"
+  },
+  {
+    "query": "Which behaviour diagram is used to model the flow of activities or actions within a system?",
+    "response": "Activity diagram"
+  },
+  {
+    "query": "What are the major deliverables of the design phase?",
+    "response": "Detailed design documents"
+  },
+  {
+    "query": "What is the primary purpose of structure diagrams?",
+    "response": "To represent data and static relationships in a system"
+  },
+  {
+    "query": "What part of a systems analyst's role involves identifying a business problem and determining what the system should do to solve it?",
+    "response": "Gathering and analyzing requirements"
+  },
+  {
+    "query": "Which technique involves communicating project plans to the team?",
+    "response": "Clearly defining plans for the project"
+  },
+  {
+    "query": "What are the vertical bars on a Gantt chart called?",
+    "response": "Milestones"
+  },
+  {
+    "query": "What does mutual trust mean in the context of a jelled team?",
+    "response": "Trusting each other to do their jobs competently and effectively"
+  },
+  {
+    "query": "How should the project binder be organized?",
+    "response": "By project phase, document type, or subject matter"
+  },
+  {
+    "query": "What are some benefits of using timeboxing in software development projects?",
+    "response": "Limiting scope creep, managing stakeholder expectations, and maintaining team morale and productivity"
+  },
+  {
+    "query": "Which of the following is NOT a business need for a system?",
+    "response": "To reduce employee benefits"
+  },
+  {
+    "query": "What is the Kanban method of managing projects?",
+    "response": "A visual approach that emphasizes continuous delivery and a pull-based workflow"
+  },
+  {
+    "query": "How would you determine the values assigned to operational costs?",
+    "response": "Through research and analysis"
+  },
+  {
+    "query": "What is included in the system proposal to explain how the proposed system meets the needs of the stakeholders?",
+    "response": "An explanation of the proposed system's objectives, requirements, benefits, constraints, and risks"
+  },
+  {
+    "query": "What does the requirements definition identify?",
+    "response": "The functional and non-functional requirements of the system"
+  },
+  {
+    "query": "Why is the requirements analysis step sometimes skipped or done in a cursory fashion?",
+    "response": "Due to a lack of time, resources, or expertise"
+  },
+  {
+    "query": "What is a structured interview?",
+    "response": "A formal interview that follows a script"
+  },
+  {
+    "query": "What are the three basic steps of the analysis process?",
+    "response": "Requirements gathering, requirements analysis, and requirements specification"
+  },
+  {
+    "query": "What are the factors that can be used to select information-gathering techniques?",
+    "response": "Purpose of the study, scope and size of the system, available resources"
+  },
+  {
+    "query": "What is typically included in a system proposal?",
+    "response": "Information about the proposed system, its objectives, requirements, benefits, constraints, risks, costs, and schedule"
+  },
+  {
+    "query": "What is the main purpose of a real use case?",
+    "response": "To provide a detailed description of a specific task or process"
+  },
+  {
+    "query": "What is the purpose of use case diagrams and activity diagrams?",
+    "response": "To describe and visualize the use cases"
+  },
+  {
+    "query": "When are overview use cases typically used?",
+    "response": "Early in the design process to capture the main requirements of the system"
+  },
+  {
+    "query": "How does the verification and validation of functional models contribute to system development?",
+    "response": "It ensures that the system meets its functional requirements"
+  },
+  {
+    "query": "What is the purpose of business process modeling?",
+    "response": "To improve organizational performance"
+  },
+  {
+    "query": "Can an object node represent a class in a UML activity diagram?",
+    "response": "No, an object node can only represent an instance of a class or an object"
+  },
+  {
+    "query": "What is the endpoint of a UML activity diagram called?",
+    "response": "Final node"
+  },
+  {
+    "query": "What is a concrete class in object-oriented programming?",
+    "response": "A class that can be instantiated and provides complete implementation of its methods"
+  },
+  {
+    "query": "What does a multiplicity of \"one-to-many\" mean?",
+    "response": "Each instance of the first class can be associated with multiple instances of the second class, but each instance of the second class can be associated with only one instance of the first class"
+  },
+  {
+    "query": "Which of the following is an example of a derived attribute that could exist on a class diagram?",
+    "response": "Full name"
+  },
+  {
+    "query": "How is a generalization relationship depicted on a class diagram?",
+    "response": "Using an arrow pointing from the subclass to the superclass, with a hollow triangle on the side of the superclass"
+  },
+  {
+    "query": "What is the purpose of an association class?",
+    "response": "To model complex business rules and constraints"
   }
 ]
