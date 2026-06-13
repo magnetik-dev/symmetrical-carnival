@@ -158,5 +158,165 @@
   {
     "query": "What are some other issues that need to be addressed when implementing object persistence in an ORDBMS?",
     "response": "Supporting transactions and rollbacks"
+  },
+  {
+    "query": "What is the purpose of iterative and incremental development in gradual refinement?",
+    "response": "To continuously improve and refine a system throughout the development process"
+  },
+  {
+    "query": "What part of a systems analyst's role involves designing technical solutions to meet project requirements?",
+    "response": "Designing the system solution"
+  },
+  {
+    "query": "Is Scrum suitable for large and complex projects?",
+    "response": "It depends on the project and the team"
+  },
+  {
+    "query": "What is the main responsibility of a systems analyst during the implementation phase of a new system?",
+    "response": "Overseeing the implementation and testing of the system"
+  },
+  {
+    "query": "What is the purpose of the implementation phase in the SDLC?",
+    "response": "To build a system according to the design"
+  },
+  {
+    "query": "What is the first step in the implementation phase?",
+    "response": "System construction"
+  },
+  {
+    "query": "What is typically used to represent use cases graphically?",
+    "response": "UML diagrams"
+  },
+  {
+    "query": "What is the main responsibility of a business analyst?",
+    "response": "Identifying areas where technology can be used to improve business processes"
+  },
+  {
+    "query": "What should be considered when evaluating the impact of changes on a project?",
+    "response": "The impact on project cost, schedule, and resources"
+  },
+  {
+    "query": "What type of work environment can lead to team demotivation?",
+    "response": "One that is characterized by criticism, blame, or mistrust"
+  },
+  {
+    "query": "What is the main criteria that the approval committee uses to review proposed projects and systems?",
+    "response": "Alignment with strategic goals and business needs"
+  },
+  {
+    "query": "What is an example of a potential risk related to project requirements?",
+    "response": "Unforeseen changes in project requirements or scope"
+  },
+  {
+    "query": "How does a network diagram represent the sequence of tasks?",
+    "response": "As nodes"
+  },
+  {
+    "query": "What is an example of a regulatory or legal requirement that a system could help a business meet?",
+    "response": "Ensuring compliance with data privacy laws"
+  },
+  {
+    "query": "What is the purpose of the feasibility analysis techniques?",
+    "response": "To assess the benefits and risks associated with the proposed system"
+  },
+  {
+    "query": "What are two examples of intangible benefits?",
+    "response": "Improved customer satisfaction and increased employee morale"
+  },
+  {
+    "query": "What else is included in the Requirements Specification document besides requirements?",
+    "response": "Constraints and assumptions"
+  },
+  {
+    "query": "Why is it important to consider potential limitations and biases of each technique when selecting information-gathering techniques?",
+    "response": "To ensure the accuracy of the collected data"
+  },
+  {
+    "query": "When is the top-down interview approach useful?",
+    "response": "When the interviewer wants to focus on specific details"
+  },
+  {
+    "query": "What is the purpose of preparing a list of questions before the interview?",
+    "response": "To identify the purpose and objectives of the interview"
+  },
+  {
+    "query": "What is an unstructured interview?",
+    "response": "An informal interview where the interviewer has no predetermined questions"
+  },
+  {
+    "query": "What is a structured interview?",
+    "response": "A formal interview that follows a script"
+  },
+  {
+    "query": "What is a fact?",
+    "response": "A statement that can be verified through evidence or observation"
+  },
+  {
+    "query": "How do duration analysis and activity-based costing relate to each other?",
+    "response": "They are complementary methods that can be used together"
+  },
+  {
+    "query": "How can considering the viewpoint of a use case improve communication and understanding?",
+    "response": "By ensuring that all relevant aspects are being taken into account"
+  },
+  {
+    "query": "What is the main purpose of an essential use case?",
+    "response": "To identify major functions and features of the system"
+  },
+  {
+    "query": "What is the purpose of splitting a single incoming flow into multiple outgoing flows using a fork node?",
+    "response": "To represent multiple paths of execution occurring concurrently"
+  },
+  {
+    "query": "Why is iteration important in creating use cases?",
+    "response": "To refine and improve the use case model over time"
+  },
+  {
+    "query": "What is the risk of having too few use cases in a business process?",
+    "response": "It may lead to a lack of coverage of the system requirements"
+  },
+  {
+    "query": "What is the benefit of discovering new use cases during iteration?",
+    "response": "It ensures that the use case model accurately represents the system"
+  },
+  {
+    "query": "What is the main difference between an essential use case and a real use case?",
+    "response": "An essential use case provides a high-level description, while a real use case provides a more detailed description"
+  },
+  {
+    "query": "What is use-case diagramming?",
+    "response": "A technique for representing the functionality provided by a system from the user's perspective"
+  },
+  {
+    "query": "Which type of operation is used to create new instances of a class?",
+    "response": "Constructor"
+  },
+  {
+    "query": "What is the purpose of verifying and validating the models?",
+    "response": "To ensure that the models accurately represent the system being designed"
+  },
+  {
+    "query": "How can an association class be used in object-oriented modeling?",
+    "response": "To model complex business rules and constraints"
+  },
+  {
+    "query": "What is the multiplicity of movie to star in the given business rules?",
+    "response": "many to many"
+  },
+  {
+    "query": "What do the different functional models represent?",
+    "response": "The dynamic behavior of the system"
+  },
+  {
+    "query": "In a class diagram that captures information about students and the courses they have taken, what could an association class be used to represent?",
+    "response": "The enrollment of a student in a particular course"
+  },
+  {
+    "query": "How are derived attributes denoted on a class diagram?",
+    "response": "With a forward slash (/) before the attribute name"
+  },
+  {
+    "query": "What is a superclass in object-oriented programming?",
+    "response": "A class that is higher in the inheritance hierarchy and provides complete implementation of its methods"
   }
 ]
