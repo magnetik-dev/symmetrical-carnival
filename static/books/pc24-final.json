@@ -79,7 +79,7 @@
     "query": "Which of the following accounts can users set up profile settings to synchronize between devices via the online portal?",
     "response": "Microsoft account"
   },
-    {
+  {
     "query": "Which of the following devices come in the form of adapters, trailing sockets, or filter plugs, with the protection circuitry built in?",
     "response": "Surge suppressor"
   },
@@ -129,7 +129,7 @@
   },
   {
     "query": "The IT department has learned that a new employee starts.'no operating system found' message appears when the computer is rebooted after windows 10 is installed with hard drive partition style UEFI, which scenario can generate the message",
-    "response":"Damaged hard drive."
+    "response": "Damaged hard drive."
   },
   {
     "query": "a server administrator experiences pe4rformance issues on a server. What can the admin use to view and log performance stats (select two)",
@@ -153,10 +153,10 @@
   },
   {
     "query": "an attacker uses a technique against wireless network that allows them to flood access points with too many packets",
-    "response":"Dos - Denial of service"
+    "response": "Dos - Denial of service"
   },
   {
-    "query" : "An administrator uses a method that uses simultaneous authentication of equals (SAE) instead of a 4-way handshake.",
+    "query": "An administrator uses a method that uses simultaneous authentication of equals (SAE) instead of a 4-way handshake.",
     "response": "WPA3"
   },
   {
@@ -176,7 +176,7 @@
     "response": "Developer Mode"
   },
   {
-    "query": "What method uses the process of exposing the device to a high intensity magnetic field that leaves the object magnetically impartial", 
+    "query": "What method uses the process of exposing the device to a high intensity magnetic field that leaves the object magnetically impartial",
     "response": "Degaussing"
   },
   {
@@ -306,7 +306,7 @@
   {
     "query": "A new employee calls the help desk because their phone will not connect to the office wi-fi. iPhone 7",
     "response": "Configuration"
-  }, 
+  },
   {
     "query": "What tool will distinguish client accounts and provide support for recording and reporting billable support activity?",
     "response": "RMM"
@@ -400,10 +400,6 @@
     "response": "Security-awareness training"
   },
   {
-    "query": "A low battery charge can cause several different problems to occur on a mobile device. Which of the following issues could stem from a low battery? (Select all that apply.)",
-    "response": "Weak Wi-Fi signal, Weak Bluetooth signal"
-  },
-  {
     "query": "Over the course of a day, a user's computer becomes slow, and pop-ups randomly appear on the screen. Later, these pop-ups become more frequent, and the user notices that Internet searchers are using Google versus the selected default web browser, Firefox. Once the computer starts repeatedly crashing, the user calls tech support for help. Considering these data points, which is the best diagnosis for the observed problem?",
     "response": "Adware or spyware infection"
   },
@@ -419,6 +415,4 @@
     "query": "What technique is often used to exhibit fake antivirus and security warnings or other malicious advertising?",
     "response": "Pop-ups"
   }
-
-
 ]
