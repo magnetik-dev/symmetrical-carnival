@@ -2547,7 +2547,7 @@
   },
   {
     "query": "A company's IT department recently adopted a new analytics tool that handles both marketing and HR data. To follow security best practices, the company set up role-based permissions in the system. Marketing managers can access HR-related data for all employees in their department, while non-management marketing staff can only view their own HR data. A non-management marketing employee attempts to view the HR records of a fellow team member using the company's new analytics tool but is denied access. What is the most likely reason the employee is denied access to this data?",
-    "response": "The employee's role on the system only allows them to access their own HR data, not others' HR data."
+    "response": "TThe employee's role on the system only allows them to access their own HR data, not others' HR data."
   }
 
 
