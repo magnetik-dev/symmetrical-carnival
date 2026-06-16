@@ -96,10 +96,6 @@
     "response": "Synchronous"
   },
   {
-    "query": "A systems engineer works with an old server cluster to reconfigure the heartbeat connection. How would the administrator update this connection to a modern configuration?\\",
-    "response": "Use a dedicated network connection"
-  },
-  {
     "query": "A startup company requests advice on software licensing. They have full-time staff working in- house at 20 workstations. In addition, they have a variable number of subcontractors accessing their servers and software remotely. The primary considerations for licensing concern which variables? (Select all that apply.)",
     "response": "The allowable quantity of software installations, The allowable quantity of concurrent users"
   },
