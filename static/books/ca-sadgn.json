@@ -570,5 +570,237 @@
   {
     "query": "What is an example of a storage format that might require substantial developer training for a company familiar with RDBMS?",
     "response": "NoSQL data store"
+  },
+  {
+    "query": "What is the role of feedback in gradual refinement?",
+    "response": "It is used to make necessary adjustments and improvements to the system"
+  },
+  {
+    "query": "What part of a systems analyst's role involves ensuring that a project stays on track and within the defined scope, timeline, and budget?",
+    "response": "Planning and managing the project"
+  },
+  {
+    "query": "What is the use-case driven approach in software development?",
+    "response": "An approach that starts with identifying the actors and their goals, then describing the system's behaviour through use cases"
+  },
+  {
+    "query": "What is the first step in the analysis phase?",
+    "response": "Gathering detailed information about the existing system"
+  },
+  {
+    "query": "What is the purpose of the Sprint Retrospective meeting?",
+    "response": "To identify areas of improvement from the previous sprint"
+  },
+  {
+    "query": "What is the main advantage of the use-case driven approach?",
+    "response": "It provides a clear understanding of the system's behaviour from the user's perspective"
+  },
+  {
+    "query": "What is the main difference between a technical lead and a functional lead?",
+    "response": "Technical leads oversee the technical aspects, while functional leads manage the functional aspects"
+  },
+  {
+    "query": "What is the purpose of the testing phase in an iteration?",
+    "response": "To evaluate the working system or prototype"
+  },
+  {
+    "query": "What is the contribution margin per unit?",
+    "response": "The difference between the unit sales price and the variable cost per unit"
+  },
+  {
+    "query": "Who typically creates the system request?",
+    "response": "A business person"
+  },
+  {
+    "query": "How many examples of tangible value are provided in the answer?",
+    "response": "Three"
+  },
+  {
+    "query": "What does the feasibility analysis assess?",
+    "response": "Technical feasibility, financial feasibility, and operational feasibility"
+  },
+  {
+    "query": "Which technique involves developing schedule commitments ahead of time?",
+    "response": "Developing detailed operating procedures"
+  },
+  {
+    "query": "What happens during the forming stage of small group development?",
+    "response": "Members establish their goals and objectives"
+  },
+  {
+    "query": "What type of documents can be analyzed to understand the formal and informal systems?",
+    "response": "Emails, memos, and reports"
+  },
+  {
+    "query": "What is the purpose of duration analysis?",
+    "response": "To measure the time taken by each activity in a business process"
+  },
+  {
+    "query": "What is the informal system in an organization?",
+    "response": "The way people actually behave in contrast to how they are supposed to behave"
+  },
+  {
+    "query": "What is the purpose of wrapping up the interview?",
+    "response": "To summarize the key points discussed and clarify any misunderstandings"
+  },
+  {
+    "query": "Why are facts important in analysis?",
+    "response": "They help to identify objective problems and solutions"
+  },
+  {
+    "query": "When could Ms. Mary Smith be an actor in a use-case diagram?",
+    "response": "When she interacts with the system to achieve a specific goal"
+  },
+  {
+    "query": "What standardized notations are commonly used in business process modeling?",
+    "response": "BPMN"
+  },
+  {
+    "query": "What is the purpose of an overview use case?",
+    "response": "To provide a high-level view of the system's functionality and its actors"
+  },
+  {
+    "query": "What is a use case in use case diagrams?",
+    "response": "A specific piece of functionality that the system can perform"
+  },
+  {
+    "query": "What is the purpose of a merge node in a UML activity diagram?",
+    "response": "To rejoin parallel paths back into a single path"
+  },
+  {
+    "query": "What information is included in a detail use case?",
+    "response": "More specific and detailed information about a specific aspect of the system"
+  },
+  {
+    "query": "What is the purpose of designating the reading direction of a relationship in a UML class diagram?",
+    "response": "To clarify the direction of the relationship and the flow of information between the classes"
+  },
+  {
+    "query": "What is an example of a relationship between two classes with a multiplicity of \"one-to-one\"?",
+    "response": "A car and its wheels"
+  },
+  {
+    "query": "How does examining the system from multiple perspectives improve verification and validation of the model?",
+    "response": "It helps to identify inconsistencies and ensure that the model accurately represents the system"
+  },
+  {
+    "query": "In UML class diagrams, how is the reading direction of a relationship indicated?",
+    "response": "By placing an arrowhead on one end of the relationship line"
+  },
+  {
+    "query": "What are derived attributes in a class diagram?",
+    "response": "Attributes that are calculated or derived from other attributes of a class"
+  },
+  {
+    "query": "What is a state transition in a behavioral state machine?",
+    "response": "A change in the system's state triggered by an event"
+  },
+  {
+    "query": "What do the arrows in an activity diagram represent?",
+    "response": "The sequence of steps and interactions between the user and the system"
+  },
+  {
+    "query": "What is an internal actor in UML modeling?",
+    "response": "A component or module within the system being modeled"
+  },
+  {
+    "query": "What is an activity in object-oriented analysis and design?",
+    "response": "A sequence of related actions that together perform a specific function or achieve a specific result"
+  },
+  {
+    "query": "What is the \"destroy\" message represented by on a sequence diagram?",
+    "response": "An X placed over the lifeline of the object to be destroyed"
+  },
+  {
+    "query": "What is a use case?",
+    "response": "A description of a system's behavior from the perspective of an external user"
+  },
+  {
+    "query": "What is a behavioral state machine?",
+    "response": "A machine used for modeling state behavior"
+  },
+  {
+    "query": "How does cohesion relate to connascence?",
+    "response": "Components with low cohesion tend to have higher degrees of connascence"
+  },
+  {
+    "query": "What is the Law of Demeter?",
+    "response": "A law that governs the interaction coupling among methods and objects in software development"
+  },
+  {
+    "query": "What is the usefulness of the alternative matrix for discussion?",
+    "response": "It presents the alternatives being reviewed and comparable characteristics for each one"
+  },
+  {
+    "query": "When using packages to group use cases together, what should be included in the package?",
+    "response": "The use cases, the actors, and the associations they have with each other"
+  },
+  {
+    "query": "How many forms of message sending are allowed by the Law of Demeter?",
+    "response": "Five"
+  },
+  {
+    "query": "What is method cohesion a measure of?",
+    "response": "The degree to which the responsibilities of a single method are related"
+  },
+  {
+    "query": "When is an RFI typically used?",
+    "response": "To determine which vendors have the capability to perform a service"
+  },
+  {
+    "query": "When is outsourcing not appropriate?",
+    "response": "When the project requires frequent communication or collaboration with in-house teams"
+  },
+  {
+    "query": "How is the invariant for an hourly employee class modeled in OCL?",
+    "response": "By defining a constraint on the HourlyEmployee class"
+  },
+  {
+    "query": "What is UML?",
+    "response": "A formal language used for software modeling"
+  },
+  {
+    "query": "What is the difference between design patterns and analysis patterns?",
+    "response": "Design patterns aid in filling out a problem-domain representation"
+  },
+  {
+    "query": "What does mapping problem-domain classes to implementation languages involve when designing a specific class?",
+    "response": "Mapping the classes identified in the problem domain to specific programming languages and technologies"
+  },
+  {
+    "query": "What must be done with association and aggregation relationships in object system design?",
+    "response": "They must be converted to attributes in the classes."
+  },
+  {
+    "query": "What is the purpose of referential integrity in an RDBMS?",
+    "response": "To ensure that the values linking tables through primary and foreign keys are valid and synchronized"
+  },
+  {
+    "query": "What is the most popular kind of database used in application development today?",
+    "response": "Relational database"
+  },
+  {
+    "query": "What is the effect of operational requirements on the data management layer design?",
+    "response": "They affect the data management layer's speed and capacity"
+  },
+  {
+    "query": "Why is it not recommended to have data management concerns reflected in the problem domain classes?",
+    "response": "It leads to improper abstraction of the problem domain"
+  },
+  {
+    "query": "Which of the following operations are supported by both ORDBMSs and RDBMSs?",
+    "response": "Authorization"
+  },
+  {
+    "query": "Why is it important to maintain the persistence layer over time?",
+    "response": "To ensure that objects are being stored and retrieved correctly"
+  },
+  {
+    "query": "Which of the following is not an advantage of OODBMSs over RDBMSs?",
+    "response": "Better support for concurrency control"
+  },
+  {
+    "query": "How should multiple inheritance be handled when using an OODBMS?",
+    "response": "Two of the other answers are correct"
   }
 ]
