@@ -1,962 +1,962 @@
 [
-    {
-        "query": "A startup company requests advice on software licensing. They have full-time staff working in-house at 20 workstations. In addition, they have a variable number of subcontractors accessing their servers and software remotely. The primary considerations for licensing concern which variables? (Select all that apply.)",
-        "response": "The allowable quantity of software installations, The allowable quantity of concurrent users"
-    },
-    {
-        "query": "A nonprofit seeks to expand its server architecture while keeping a sharp eye on costs. What type of licensing model would serve this organization best?",
-        "response": "Free and open-source software (FOSS)"
-    },
-    {
-        "query": "After receiving service desk tickets from users, a server administrator has identified a problem with an application server. The next step is to gather additional information to determine the scope of the problem. How will the server administrator start this process? (Select all that apply.)",
-        "response": "Ask users for additional details., Check for any recent changes to the environment."
-    },
-    {
-        "query": "A user submits a service desk request showing that the workstation cannot access a file server. Other users report they can access that file server. The scope of the problem is most likely at what level?",
-        "response": "There is a problem with the computer of the user who asked for help."
-    },
-    {
-        "query": "What are advantages of on-premises deployments over cloud deployments? (Select all that apply.)",
-        "response": "The organization retains complete control of data., The organization retains complete control of administration and management."
-    },
-    {
-        "query": "A company requests consultation on a server deployment since they have no dedicated IT staff. They need a solution that offers simplified licensing, pay-as-you-go pricing, rapid deployment, and rapid elasticity. Which deployment model would serve them best?",
-        "response": "Cloud deployment"
-    },
-    {
-        "query": "A cloud engineer must recommend a server virtualization solution for a Fortune 500 company. The company wants an enterprise-class solution that features centralized management, high availability, and more features, even if it requires a much more expensive licensing structure. The company most likely requires which type of virtualization?",
-        "response": "Type 1"
-    },
-    {
-        "query": "A cloud engineer has created several new virtual machines (VMs). Before using the new machines, what must the engineer allocate for each one via the hypervisor software? (Select all that apply.)",
-        "response": "Network access, Processor time"
-    },
-    {
-        "query": "When designing physical servers that will host virtual machines, what are the appropriate considerations concerning resources such as processors, memory, networking, and storage?",
-        "response": "Physical host servers must have more resources than their virtualization guests."
-    },
-    {
-        "query": "To gain entrance into the server room, an administrator inserts a smart card into the card reader and then enters a personal identification number (PIN) on the attached keypad. What type of example is this?",
-        "response": "Multifactor Authentication"
-    },
-    {
-        "query": "An administrator must configure a firewall and virtual private network (VPN) server for remote administration via Secure Shell (SSH). Which Transmission Control Protocol (TCP) port will the administrator configure for this purpose?",
-        "response": "Port 22"
-    },
-    {
-        "query": "A network administrator needs tools to intercept network traffic and display packet header information, such as source and destination Internet Protocol (IP) addresses, source and destination Media Access Control (MAC) addresses, and transport layer protocol. What are examples of such tools? (Select all that apply.)",
-        "response": "Wireshark, Tcpdump"
-    },
-    {
-        "query": "There are four phases of the server lifecycle. Two of them are procurement and usage. What are the other two? (Select all that apply.)",
-        "response": "Planning, Decommissioning"
-    },
-    {
-        "query": "A company seeks to recapitalize its server base. The staff engages in a process to help them understand the business requirements, identify supplies, negotiate pricing and contracts, and ship their product. In what phase of the server lifecycle is the company engaged?",
-        "response": "Procurement"
-    },
-    {
-        "query": "A server administrator is looking at a mixture of server hardware in their environment including older to newer models. All of the hardware is running on Intel. The administrator is digging into the integrated communications paths that exist across all the motherboards. Which of the following is most likely the answer?",
-        "response": "QuickPath Interconnect"
-    },
-    {
-        "query": "A technician is troubleshooting issues within a portion of the data center and finds that a device has become unusable. It does not show a blue screen error. What is the most likely scenario?",
-        "response": "Incorrect firmware update"
-    },
-    {
-        "query": "A data center technician is setting up hygrometers throughout the environment for proactive analysis of the environment. What is the normal range that the technician should set up to alert when abnormal parameters occur?",
-        "response": "40 - 60% rH"
-    },
-    {
-        "query": "An organization requires a Jr. administrator to record a Windows server's uptime on a monthly basis. Evaluate the options and determine how the Jr. administrator would accomplish this.",
-        "response": "By using the Performance tab in Task Manager"
-    },
-    {
-        "query": "An IT technician who is familiar with Windows systems needs to include Linux servers in a report. The report is to cover the overall functionality of the servers as a health check. Review the technician's options and determine which tools will fill the requirements. (Select all that apply.)",
-        "response": "The top command, The sar command"
-    },
-    {
-        "query": "A server engineer deploys five new servers with a new approach to actively mitigate hardware failures and prevent downtime.\nSelect one:",
-        "response": "Redundancy"
-    },
-    {
-        "query": "When checking a remote system for open ports, which tool does an engineer find most useful?\nSelect one:",
-        "response": "telnet"
-    },
-    {
-        "query": "An organization establishes a business continuity plan. Part of the plan involves the ability to establish a base of operations at an alternate site in the event of a catastrophe that has the necessary space for a data center and business offices and some of the required computer and network hardware. Which option does the organization consider while keeping the cost as low as possible?",
-        "response": "Warm site"
-    },
-    {
-        "query": "Two servers work together in a clustered configuration. How do the servers maintain confirmation of each other's availability?\nSelect one:",
-        "response": "By using a heartbeat"
-    },
-    {
-        "query": "Engineers configure servers at two locations. The data between the locations requires replication. The desire is to inform the client machine of replication success when both locations have synchronized any data the client uses. Which replication type do the engineers configure?",
-        "response": "Synchronous"
-    },
-    {
-        "query": "A startup company requests advice on software licensing. They have full-time staff working in- house at 20 workstations. In addition, they have a variable number of subcontractors accessing their servers and software remotely. The primary considerations for licensing concern which variables? (Select all that apply.)",
-        "response": "The allowable quantity of software installations, The allowable quantity of concurrent users"
-    },
-    {
-        "query": "When following a troubleshooting plan of action, how many changes should the administrator make at one time?",
-        "response": "An administrator makes one change at a time and then tests the result."
-    },
-    {
-        "query": "Multiple users submit service desk tickets noting a lack of network connectivity. In determining the scope of the problem, the network engineer finds that several clients have incorrect IP addresses. What is the next step in the troubleshooting methodology?",
-        "response": "Establish a theory of probable cause related to the DHCP Server."
-    },
-    {
-        "query": "What type of licensing model requires one license for each software instance in use by a user?",
-        "response": "Per-concurrent-user"
-    },
-    {
-        "query": "An administrator successfully restores a user's access to a file server. What is the final step of the troubleshooting methodology?",
-        "response": "Document findings, actions, and outcomes."
-    },
-    {
-        "query": "What are the advantages of traditional proprietary licensing, such as with Microsoft Windows Server? (Select all that apply.)",
-        "response": "More likely reliable vendor support, More likely reliable documentation"
-    },
-    {
-        "query": "What are the advantages of open-source licensing, as with Linux distributions, such as RHEL or Ubuntu? (Select all that apply.)",
-        "response": "There are no-cost options available, It allows for free modification and redistribution"
-    },
-    {
-        "query": "What are advantages of cloud deployments over on-premises deployments? (Select all that apply.)",
-        "response": "The organization only pays for the cloud resources that it consumes., The organization does not bear the cost of supporting the service."
-    },
-    {
-        "query": "A startup company provides services primarily in the form of Software as a Service (SaaS). When demand rapidly grows for its services, the company provisions resources when needed without relying on the Cloud Service Provider (CSP). Which characteristic of cloud computing does this capability reflect?",
-        "response": "On-demand self-service"
-    },
-    {
-        "query": "A startup company provides services primarily in the form of Software as a Service (SaaS). When demand grows rapidly for its services, the company scales up resource usage as needed and pays only for the quantity of resources that they need at any given time. Which characteristic of cloud computing does this capability reflect?",
-        "response": "Rapid elasticity"
-    },
-    {
-        "query": "What are disadvantages of on-premises deployments over cloud deployments? (Select all that apply.)",
-        "response": "It is difficult to scale based on demand., The organization bears the entire cost of supporting the service."
-    },
-    {
-        "query": "A human resources firm maintains a database containing personally identifiable information at its central office. The company maintains its client-facing software in a cloud deployment (Software as a Service). Which type of server deployment is this?",
-        "response": "Hybrid deployment"
-    },
-    {
-        "query": "Name the type of hypervisor in which the virtualization software installs directly on the physical server without using a traditional OS layer between the hardware and the hypervisor.",
-        "response": "Type 1"
-    },
-    {
-        "query": "A systems administrator is responsible for managing the licenses for a piece of cloud-based software. Currently, there are 100 users who access the software, and the organization receives a monthly bill for these users. When the organization hires an additional 50 users who also need access, the systems administrator increases the number of licenses by using a web-based management tool, and notices that the vendor has automatically given all users access to the newly released 2.0 version of the software. This is an example of what type of licensing?",
-        "response": "Subscription"
-    },
-    {
-        "query": "Determine an example/ type of hypervisor where an administrator first installs a traditional OS, such as Windows Server, on the physical server and then adds the hypervisor software, which runs within the OS. (Select all that apply.)",
-        "response": "Type 2, Oracle VirtualBox"
-    },
-    {
-        "query": "Virtualization technologies revolutionized the delivery of IT services. Cloud computing takes the concept of virtualization a step further. How is cloud computing different from traditional computing? (Select all that apply.)",
-        "response": " Machines are located off-premises., Cloud computing consumers employ virtual machines."
-    },
-    {
-        "query": "A software development house seeks to expand its server architecture. The company wants a solution that can scale substantially and rapidly with demand by easily adding resources, such as processors or memory. Which type of server architecture would best meet their needs?",
-        "response": "Virtual Servers"
-    },
-    {
-        "query": "In the shared security model, the cloud service provider and the client organization share responsibility for various aspects of security. Who is responsible for the security of the data?",
-        "response": "The client organization"
-    },
-    {
-        "query": "A company uses modern fire suppression to protect the equipment in their server room and any people who may be present. Fire suppression uses inert gasses to reduce the oxygen level within a room from the standard 21% to a range of 10–15%, suffocating the fire but still providing oxygen for people. What are some examples of inert gasses? (Select all that apply.)",
-        "response": "Argon, Nitrogen"
-    },
-    {
-        "query": "What types of services reside on servers located in a demilitarized zone (DMZ)? (Select all that apply.)",
-        "response": "Virtual Private Network (VPN), Domain Name System (DNS)"
-    },
-    {
-        "query": "A network engineer supports a network that includes a Finance Department with strict security requirements and an Engineering Department that transfers many large files across the network. The engineer wants to provide privacy to the finance department and protect them from degraded performance induced by the Engineering Department’s large file transfers. What is one way to build the network to accomplish these objectives?",
-        "response": "Segment the network"
-    },
-    {
-        "query": "In the shared security model, the cloud service provider and the client organization share responsibility for various aspects of security. Who is responsible for the physical security of the data center?",
-        "response": "The cloud service provider"
-    },
-    {
-        "query": "The server administrator configured the internal network with the Class C range, 192.168.0.0/16. How many unique IPv4 addresses are available on this network?",
-        "response": "65534"
-    },
-    {
-        "query": "Data center architecture may integrate various forms of security. What are some examples? (Select all that apply.).",
-        "response": "Reflective glass, Deceptive signage"
-    },
-    {
-        "query": "The server administrator spends part of each day troubleshooting, planning for capacity, and planning to scale up services to meet increased demand. Which document should the server administrator consult to better understand the components of the service solution and the flow of data?",
-        "response": "Workflow diagram"
-    },
-    {
-        "query": "Which metric enables the organization to understand the amount of time between the most recent backup and a disaster, that indicates how much data they may lose in the event of a disaster?",
-        "response": " Recovery Point Objective (RPO)"
-    },
-    {
-        "query": "What are the components of the Business Continuity Plan (BCP)? (Select all that apply.)",
-        "response": "Business Impact Analysis (BIA), Disaster Recovery Plans (DRPs)"
-    },
-    {
-        "query": "An infrastructure diagram contains what type of information? (Select all that apply.)",
-        "response": "Network segments, Servers"
-    },
-    {
-        "query": "Every organization needs a consistent way of identifying the servers in its inventory. What are some of the server characteristics that server administrators use to track server inventory? (Select all that apply.)",
-        "response": " Asset tags or labels, Basic input/output system (BIOS) asset tags"
-    },
-    {
-        "query": "Which metric helps a business to understand how long it will take to return a service to fully operational status?",
-        "response": "Mean Time to Recovery (MTTR)"
-    },
-    {
-        "query": "What are some risks of not tracking inventory? (Select all that apply.)",
-        "response": "License violations, Inadequate security"
-    },
-    {
-        "query": "What are some benefits of proper inventory? (Select all that apply.)",
-        "response": "Accurate licensing, Informed purchasing"
-    },
-    {
-        "query": "A systems administrator is making a redundancy plan to administer a device in the event remote management isn't available. What should the admin set up?",
-        "response": "Console port"
-    },
-    {
-        "query": "A server administrator is setting up servers in remote small office locations to set up distribution points for various field devices. The administrator worries about having to go out to sites to turn devices back on in the event of power outages. What could the administrator do to help mitigate this issue?",
-        "response": "Use UPSs"
-    },
-    {
-        "query": "A server administrator is diagnosing issues with a server that is experiencing a kernel panic. Which tool should the administrator begin with?",
-        "response": "Memtester"
-    },
-    {
-        "query": "How can a server administrator provide redundant power to servers? (Select all that apply.)",
-        "response": "Provide power from at least two utility companies, Provide generators in addition to the utility company"
-    },
-    {
-        "query": "A systems administrator is working with data centers in the United States but learns that the company is expanding globally. The administrator begins to plan for international power requirements. What standard could assist in this endeavor?",
-        "response": "IEC C13/C14"
-    },
-    {
-        "query": "A System Center Configuration Manager (SCCM) administrator plans to set up SCCM distribution servers in remote locations to streamline patch deployment. The location settings are more of small office settings. Which type of servers should the administrator plan?",
-        "response": "Tower servers"
-    },
-    {
-        "query": "A small organization needs ten servers. They have a small, enclosed server room with space for a single rack. Which server form factor will meet their needs most efficiently?",
-        "response": "Blade form factor"
-    },
-    {
-        "query": "An upcoming project requires new server hardware. Where could a purchaser check to verify compatibility with the environment? (Select all that apply.)",
-        "response": "Windows Server Catalog, Red Hat Compatibility Site"
-    },
-    {
-        "query": "A server technician finds that a server's basic input/output system (BIOS) time is not correct, but the time on the operating system (OS) is accurate. What is the most likely cause that the technician should investigate first?",
-        "response": " Complementary Metal-Oxide Semiconductor (CMOS) battery failure"
-    },
-    {
-        "query": "A user reports a problem with a workstation and intends on using the chkdsk command to diagnose the internal hard disk. Which statement is true if the chkdsk command is to be utilized on the workstation's disk?",
-        "response": "Chkdsk only checks New Technology File System (NTFS)."
-    },
-    {
-        "query": "A Linux server technician is troubleshooting issues with server hardware. Which of the following would help the technician in this endeavor?",
-        "response": "dmesg"
-    },
-    {
-        "query": "A new server administrator is attempting to troubleshoot Dell blade servers through out-of-band management. Senior administrators told the server administrator that only Dell products can access the servers. What tool should the administrator use to connect?",
-        "response": "DRAC"
-    },
-    {
-        "query": "A storage administrator is analyzing scalable, inexpensive, and managed storage solutions that may reduce the amount of on-premises storage required. Which of the following should the administrator consider?",
-        "response": "OneDrive"
-    },
-    {
-        "query": "A systems administrator is architecting a new Network Attached Storage (NAS) component of the data center. The administrator is trying to provide storage for many hosts while keeping costs down. Which of the following is the best choice for this scenario?",
-        "response": "Internet Small Computer Systems Interface (iSCSI)"
-    },
-    {
-        "query": "A systems technician must set up a scalable storage strategy for the data center environment. Which of the following would be optimal choices? (Select all that apply.)",
-        "response": "Switched Fibre Channel Storage Area Networks (SANs), Fibre Channel over Ethernet SAN"
-    },
-    {
-        "query": "A systems technician is analyzing how much storage remains on a server. Which of the following could the technician use? (Select all that apply.)",
-        "response": "Metrics from df, Metrics from du"
-    },
-    {
-        "query": "A server administrator needs to attach a partition to a directory to allow users to access the partition. What could the server administrator use to perform this function?",
-        "response": "mount"
-    },
-    {
-        "query": "A system administrator wants to analyze for server partitions. Which of the following tools could the administrator use? (Select all that apply.)",
-        "response": "df, Parted"
-    },
-    {
-        "query": "A storage administrator is setting up Direct Attached Storage (DAS) for a database server where performance is key. Which of the following would suit the administrator's needs?",
-        "response": "Non-Volatile Memory Express (NVMe)"
-    },
-    {
-        "query": "A storage technician suspects there is a misconfigured Redundant Array of Inexpensive Disks (RAID). What are some symptoms the technician could use to diagnose? (Select all that apply).",
-        "response": "Boot errors, Unable to mount physical drive"
-    },
-    {
-        "query": "A storage technician is planning a storage environment for upcoming server projects that require speed. However, the technician must also be efficient with the project budget. Which of the following is the best option?",
-        "response": "Hybrid"
-    },
-    {
-        "query": "A storage administrator learns about the presence of corrupt boot sectors from the team lead. What is a common problem caused by this?",
-        "response": "OS not found"
-    },
-    {
-        "query": "What is the address ::1/128 in IPv6?",
-        "response": "Loopback address"
-    },
-    {
-        "query": "What is the maximum amount of partitions that a Master Boot Record (MBR) can recognize?",
-        "response": "4"
-    },
-    {
-        "query": "A network administrator is configuring a network to be segmented for security purposes. What would be a good way to implement segmentation?",
-        "response": "Virtual Local Area Network (VLAN)"
-    },
-    {
-        "query": "A conscientious systems administrator wants to create a script that another administrator will be able to understand easily. Which of the following is a good example of this?",
-        "response": "#This script displays output to the screen"
-    },
-    {
-        "query": "Request for Comment (RFC) 1918 specifies private IP address ranges. What is the class B range?",
-        "response": "172.16.0.0-172.31.255.255"
-    },
-    {
-        "query": "A server administrator needs to set up the Linux firewall to allow protocols that will enable remote administration. Which standard protocols could the administrator add? (Select all that apply.)",
-        "response": "Secure Shell (SSH), Virtual Network Computing (VNC)"
-    },
-    {
-        "query": "A system administrator is setting up a basic script for automating various tasks on the Windows servers. What software should the system administrator code in?",
-        "response": "PowerShell"
-    },
-    {
-        "query": "A Linux server administrator is setting up a new file server. What type of file system would be most suitable for the swap file?",
-        "response": "ext4"
-    },
-    {
-        "query": "A server administrator needs to set up the Windows firewall to allow protocols that will enable remote administration. Which standard protocols could the administrator add? (Select all that apply.)",
-        "response": "Virtual Network Computing (VNC), Remote Desktop Protocol (RDP)"
-    },
-    {
-        "query": "A hypervisor administrator needs to create a self-service environment for the development department of the company. What would installation type is the best option for this scenario?",
-        "response": "Template"
-    },
-    {
-        "query": "A server administrator finished building a new server and creating volumes. Which options will allow the administrator to use volumes as opposed to partitions? (Select all that apply.)",
-        "response": "Logical volume manager, Dynamic disk"
-    },
-    {
-        "query": "A server administrator is setting up partitions for a recently deployed server. What partitions should the administrator set up for the newly deployed Linux server? (Select all that apply.)",
-        "response": "[/], [/var]"
-    },
-    {
-        "query": "A system administrator is setting up a basic script for automating various tasks on the Linux servers. What software should the system administrator code in?",
-        "response": " Bash"
-    },
-    {
-        "query": "A server administrator is conducting inventories to identify old pieces of server hardware which will be approaching end of life. What would be an efficient solution to migrate services off before decommissioning?",
-        "response": "Physical to Virtual (P2V)"
-    },
-    {
-        "query": "A server technician needs to create a script that repeats a function 10 times. Which of the following would accomplish this? (Select all that apply.)",
-        "response": "count = 0 while count <= 9: count += 1 echo count, count = 0 while count < 10: count += 1 echo count"
-    },
-    {
-        "query": "An administrator is setting up a script to automate tasks that query system-wide variables. Which variables should the administrator use?",
-        "response": "environment"
-    },
-    {
-        "query": "A server administrator has a base virtual server build with an operating system and configurations. What would be an efficient way to stand up similar virtual machines? (Select all that apply.)",
-        "response": "Unattended install, Cloning"
-    },
-    {
-        "query": "An IT administrator is conducting an investigation and is looking for metadata that is only associated with one host. What type of metadata could the administrator find tied to only one host?",
-        "response": "IP Address, Media Access Control (MAC) address"
-    },
-    {
-        "query": "A storage technician is setting up a Linux server for a pool of disks installed on a server. What does the technician need to set up next for the pool of disks?",
-        "response": "Volume Group"
-    },
-    {
-        "query": "The systems administrators are troubleshooting connectivity to an internal server. They are performing an nslookup but want to capture the traffic during the nslookup. What port should they capture traffic on?",
-        "response": "53/UDP"
-    },
-    {
-        "query": "A systems administrator is troubleshooting connectivity and determines that they are receiving an Automatic Private IP Addressing (APIPA) address. Which of the following would be a good step to fix the problem?",
-        "response": "ipconfig /release"
-    },
-    {
-        "query": "A Windows server administrator is working with the security monitor group. They want to start monitoring the account with the highest-level privileges. Which of the following accounts should they start with?",
-        "response": "Domain administrator"
-    },
-    {
-        "query": "A server administrator is troubleshooting connectivity to a remote device but receives \"Unknown host.\" What is the most likely potential problem?",
-        "response": "Name resolution issue"
-    },
-    {
-        "query": "A server administrator is imaging several varying computers but wants to save time by using the same imaging process and unattend files. What issues could be caused by using the same drivers for varying types of servers? (Select all that apply.)",
-        "response": "System file corruption, Application or system freezes"
-    },
-    {
-        "query": "A Linux administrator is performing maintenance and changes configuration to a service configuration file. What should the administrator do for the configurations to take effect?",
-        "response": "Restart the service."
-    },
-    {
-        "query": "A computer technician is experiencing issues with a computer and notices that the time is incorrect. What is a potential problem this clock skew could cause if not fixed?",
-        "response": "Inability to log in"
-    },
-    {
-        "query": "A server administrator is troubleshooting connectivity to a device on the intranet but receives \"timeout.\" What are the most likely causes for this problem? (Select all that apply.)",
-        "response": "Misconfigured ping destination, Unable to reach remote subnets"
-    },
-    {
-        "query": "A server technician is attempting to conduct an inventory of servers in the environment. Which of the following would best help assist the technician in inventorying?",
-        "response": "Network Logs"
-    },
-    {
-        "query": "A systems technician has set up a new server. It was successfully set up with a static IP and can reach other areas of the intranet, but cannot reach google.com. Which of the following is the most likely cause?",
-        "response": "Firewall misconfiguration"
-    },
-    {
-        "query": "A systems operator is attempting to diagnose connectivity on a server. Which of the following tools would best assist for this step? (Select all that apply.)",
-        "response": "nc, telnet"
-    },
-    {
-        "query": "A systems engineer looks to record server metrics to justify server upgrade costs. The engineer records information that relates to the server’s overall functionality. Compare the metrics and determine which metric the engineer uses to establish a baseline for proper functionality for user needs.",
-        "response": "Availability"
-    },
-    {
-        "query": "An administrator configures a multifactor authentication (MFA) policy for access to a server. Which policy pertains to a “what you have” approach?",
-        "response": "A smartcard"
-    },
-    {
-        "query": "A hacker attempts to log into several critical servers and network devices in an organization. With the thought that IT might use the same credentials for convenience, which approach does the hacker use?",
-        "response": "Password stuffing"
-    },
-    {
-        "query": "The IT staff at a technology firm develops a matrix to track the performance of customer servers. Which list represents the major subsystems that the IT staff includes in the matrix?",
-        "response": "Processor, memory, storage, network"
-    },
-    {
-        "query": "An organization fears that its mission-critical server is a target for malicious activity. Of the many steps taken to harden the system, which will prevent unauthorized system configuration changes? (Select all that apply.)",
-        "response": "Configure UAC software on the server, Configure HIPS software on the server"
-    },
-    {
-        "query": "An administrator needs to configure a strict password policy for all users that access a Linux server. How can the administrator accomplish this on a modern Linux system?",
-        "response": "The PAM configuration file"
-    },
-    {
-        "query": "A Jr. administrator needs to observe real-time statistics for processes running on a Linux system. Evaluate the options and determine how the Jr. administrator would accomplish this.",
-        "response": "By using the top command"
-    },
-    {
-        "query": "An administrator needs to configure a strict password policy for all users within a Windows domain environment. How can the administrator accomplish this uniformly?",
-        "response": "Group policy"
-    },
-    {
-        "query": "A security consultant suggests a security policy be put in place to provide server hardening. Which step does the policy include to cover external booting?",
-        "response": "Disable any optical drives"
-    },
-    {
-        "query": "An administrator develops a routine server update schedule. Before settling on the task list, which order option should the administrator determine is a best practice to apply any patches or updates?",
-        "response": "Hardware, OS, Applications"
-    },
-    {
-        "query": "An organization requires a Jr. administrator to record a Windows server’s uptime on a monthly basis. Evaluate the options and determine how the Jr. administrator would accomplish this.",
-        "response": "By using the Performance tab in Task Manager"
-    },
-    {
-        "query": "An administrator configures a multifactor authentication (MFA) policy for access to a server. Which policy best fits the recommended approach?",
-        "response": "A password and retinal scan"
-    },
-    {
-        "query": "A systems administrator has repurposed a server that provided SQL server database services to act as a file server for a small department in an organization. In terms of server hardening, what action does the systems administrator take before deploying the server?",
-        "response": "Uninstall any database software and services"
-    },
-    {
-        "query": "A security consultant suggests a security policy be put in place to provide server hardening. What type of security does the consultant recommend with a software firewall?",
-        "response": "Change the default settings"
-    },
-    {
-        "query": "An IT technician who is familiar with Windows systems needs to include Linux servers in a report. The report is to cover the overall functionality of the servers as a health check. Review the technician’s options and determine which tools will fill the requirements. (Select all that apply.)",
-        "response": "Performance Monitor, The sar command"
-    },
-    {
-        "query": "A server engineer deploys five new servers with a new approach to actively mitigate hardware failures and prevent downtime.",
-        "response": "Redundancy"
-    },
-    {
-        "query": "An organization looks to mitigate insider threats. To prevent the possibility of fraud or errors, how does management actively approach responsibility when it comes to accessing data on a server?",
-        "response": " Separation of duties"
-    },
-    {
-        "query": "A systems administrator manages several Linux and Windows servers. Part of the management protocol is checking for any rogue processes. Which tool does the administrator use to accomplish this? (Select all that apply.)",
-        "response": "SELinux, UAC"
-    },
-    {
-        "query": "A small company discovers an issue with data on a server. Investigating the issue reveals that misconfigured permissions, a virus, or malware is to blame. What issue did the organization find to be impacting the data?",
-        "response": "Integrity"
-    },
-    {
-        "query": "An organization looks to mitigate potential theft of data. How does management approach the assignment of duties when it comes to transferring data offsite?",
-        "response": "Two-person integrity"
-    },
-    {
-        "query": "A retail organization houses a server that contains a significant amount of customer and sales data. As a result, there is an abundance of personally identifiable information (PII) at risk. If there were a breach, which non-personal data would link to PII data? (Select all that apply.)",
-        "response": "Customer number, Credit card number"
-    },
-    {
-        "query": "An IT staff looks to deploy a solution that will protect data at rest. The goal is to achieve this at the drive level for 12 mission-critical servers. The servers are a mix of Linux and Windows servers. After reviewing the possibilities, determine which solution the IT staff should use. (Select all that apply.)",
-        "response": "Bitlocker, LUKS"
-    },
-    {
-        "query": "When checking a remote system for open ports, which tool does an engineer find most useful?",
-        "response": "Telnet"
-    },
-    {
-        "query": "A large company discovers an issue with access to shared data on a server. Investigating the issue reveals that a misconfigured Group Policy is to blame. What issue did the company discover?",
-        "response": "Improper privileges"
-    },
-    {
-        "query": "An administrator is setting up a script to automate tasks that query internal systems, as well as set an administrative password. Which system could the administrator query? (Select all that apply.)",
-        "response": "UEFI, BIOS"
-    },
-    {
-        "query": "A user discovers that copying files from the server to a USB drive is failing. After confirming the USB is working properly, IT informs the user that they prohibit files from leaving the building. What solution does IT implement to manage such an activity?",
-        "response": "DLP"
-    },
-    {
-        "query": "A data security expert configures server encryption with the goal of non-repudiation for data access. The expert explains this concept to management using which summary?",
-        "response": "Setting data as private only"
-    },
-    {
-        "query": "An organization performs an audit to decide what internal information the sysadmin needs to secure. To determine which is of the most importance, what does the organization focus its efforts on?",
-        "response": "Data value prioritization"
-    },
-    {
-        "query": "A server engineer deploys a new server with varying levels of security permissions. As the Human Resources department will access this server to store employee records, there is an abundance of personally identifiable information (PII) at risk. Which data would NOT be a direct PII security concern for the engineer?",
-        "response": "Office location"
-    },
-    {
-        "query": "An organization evaluates its data storage policies. Part of the evaluation includes determining what data has any value and if it is worth protecting. During the evaluation process, which category of data risk and cost does the organization decide is expendable?",
-        "response": "Low likelihood of risk and high cost"
-    },
-    {
-        "query": "Two servers in a cluster require several patches and updates. Server 1 is active, and server 2 is passive. To maintain high availability, how does an engineer apply the patches?",
-        "response": "First, apply patches to server 2. Then, make server 2 active and server 1 passive. Next, update server 1. Finally, make server 1 active and server 2 passive."
-    },
-    {
-        "query": "An engineer designs a backup scheme that will efficiently rotate backup media. The scheme includes a weekly full backup, daily incremental backups, and a monthly full backup. Of the rotation methods possible, which does the engineer utilize?",
-        "response": "Grandfather-father-son"
-    },
-    {
-        "query": "An administrator plans to back up a critical server's OS configurations on a daily basis. The administrator targets which data type?",
-        "response": "System state"
-    },
-    {
-        "query": "A systems engineer is responsible for server backups. The current backup scheme executes a full backup every Saturday with an incremental Monday through Sunday. The backup system creates aggregated jobs throughout the week based on this scheme. If the system required a restore during the week, which would the engineer use?",
-        "response": "Synthetic"
-    },
-    {
-        "query": "An organization performs local disaster recovery testing. Engineers prepare the testing environment so that a non-production environment does not impact the production environment. Which testing scheme does the engineer use?",
-        "response": "Parallel"
-    },
-    {
-        "query": "An organization establishes a business continuity plan. Part of the plan involves the ability to establish a base of operations at an alternate site in the event of a catastrophe. Which option does the organization implement when most of the systems are already in place at the alternate site?",
-        "response": "Warm site"
-    },
-    {
-        "query": "An administrator plans to back up a critical server every 15 minutes. What type of strategy does the administrator use?",
-        "response": "NCDP"
-    },
-    {
-        "query": "Two servers work together in a clustered configuration. How do the servers maintain confirmation of each other’s availability?",
-        "response": "By using a heartbeat"
-    },
-    {
-        "query": "An organization holds a disaster recovery meeting. During the meeting, stakeholders review plans and make suggestions. Afterward, the organization performed a mock restore of data to confirm viability. The organization concluded the meeting with what type of test?",
-        "response": "The organization finalizes plans with a walk-through"
-    },
-    {
-        "query": "A server backup schedule begins over a weekend with all servers having a complete backup. During the week, a server administrator performs additional backups that reset the archive bit. Which backup type runs during the week?",
-        "response": "Incremental"
-    },
-    {
-        "query": "A systems engineer works with an old server cluster to reconfigure the heartbeat connection. How would the administrator update this connection to a modern configuration?",
-        "response": "Use the production network connection"
-    },
-    {
-        "query": "An administrator configures load balancing between two web servers. How would load balancing work if the administrator uses a round robin approach?",
-        "response": "Connections are assigned in an order"
-    },
-    {
-        "query": "A server cluster with two Windows servers is put in place by an engineer. Which resources does the cluster share and will not require configuration if one server fails? (Select all that apply.)",
-        "response": "IP address, Storage"
-    },
-    {
-        "query": "A systems administrator repurposes a system for testing disaster and recovery procedures with disk redundancy. What system type does the administrator configure for this purpose?",
-        "response": "Server"
-    },
-    {
-        "query": "While decommissioning a server, an administrator moves all data and services to a new live server. How might the administrator verify that all functionality is on the new server properly?",
-        "response": "Take the older server offline"
-    },
-    {
-        "query": "After decommissioning an aging server, an administrator destroys all hard disks by magnetically erasing the contents. What method does the administrator use to destroy the disks?",
-        "response": "Degaussing"
-    },
-    {
-        "query": "An organization moves into a new facility. Upon inspection of the computer room, an administrator discovered that all previous cabling within the ceiling needs replacing. For what reason will a wiring contractor use plenum cable for the new install?",
-        "response": "Safety"
-    },
-    {
-        "query": "To properly retire and decommission a server, what does an organization follow to ensure that it adheres to proper guidelines?",
-        "response": "Company Policy"
-    },
-    {
-        "query": "A sysadmin has to set up a new server farm that allows for easy replication of Virtual Machines to scale the company’s web application. They need to choose two types of hypervisor to allocate resources for this server farm. What are the two types of hypervisor? (Select all that apply.)",
-        "response": "Bare-metal, Hosted"
-    },
-    {
-        "query": "Many parts of a server require time to be precise to function. If, at any time, the time is no longer accurate, those parts may fail or present error messages. A sysadmin needs to ensure all devices within a domain have the proper time and date. What protocol should be used to ensure proper time and date?",
-        "response": "Network Time Protocol (NTP)"
-    },
-    {
-        "query": "A sysadmin fixed a date and time issue. Now, the server has kernel panics and crashes upon boot. The server has redundant power supply cables plugged into two separate battery backups. What may be the cause that the sysadmin should investigate?",
-        "response": "Memory failure"
-    },
-    {
-        "query": "A sysadmin needs to set up a complete backup of the system. The sysadmin is going to run it at night to not impact end-users. What type of backup is the sysadmin running?",
-        "response": "Incremental"
-    },
-    {
-        "query": "A server is being set up with a Linux operating system. It needs to have its hard disks partitioned to support very large partitions, ACL permissions, and compression. What file system should be used?",
-        "response": "ZFS"
-    },
-    {
-        "query": "A sysadmin needs to prepare the server architecture to ensure business continuity in case of a device failure. Part of that may require automation to simplify restoration. What are potential automations that can speed up restoration in the case when there are no backups available? (Select all that apply.)",
-        "response": "Group policy, Snapshot"
-    },
-    {
-        "query": "A sysadmin is configuring a server with Windows Server operating system. What is the file system typically used for security and stability?",
-        "response": "New Technology File System (NTFS)"
-    },
-    {
-        "query": "A sysadmin created a virtual machine to use as a template. The sysadmin wants to automate the deployment of new servers with this template. What should the sysadmin do to create this template?",
-        "response": "Create a snapshot."
-    },
-    {
-        "query": "A traditional Network Operations Center is not available. A sysadmin needs to order a server that may be more useful in a small office. What form factor of a server should be bought?",
-        "response": "Tower"
-    },
-    {
-        "query": "A system administrator set up a backup for the company shared drives. That sysadmin wants to also set up another backup to specifically target essential operating system configurations. What kind of backup should run?",
-        "response": "System state"
-    },
-    {
-        "query": "A systems administrator is looking to cut down on Capital Expenses (CapEx) and to limit the cost of on-premise installing, maintaining, patching, and upgrading the Content Relationship Management (CRM) software. The CRM provider sells a service that meets these requirements. What type of business model do they have?",
-        "response": "Software-as-a-Service"
-    },
-    {
-        "query": "A new form of disaster recovery service has cropped up recently. It is more cost-effective than a traditional multi-site solution and can be set up to be geographically diverse in location. What form of site is this?",
-        "response": "Cloud site"
-    },
-    {
-        "query": "An employee is trying to access an internal website. That employee reports that there is a “web page not found” error message. What is most likely the cause?",
-        "response": "Misconfigured firewall"
-    },
-    {
-        "query": "As a company expands, various services may need to be integrated to cut down the number of accounts being managed by a sysadmin. What system can be set up to link accounts?",
-        "response": "Single sign-on"
-    },
-    {
-        "query": "Upper management wants to set up a server architecture that allows for rapid deployment of servers for future expansion needs. The sysadmin wants to ensure that the servers are set up correctly, even if someone else has to do the setups on their own. What kind of document should be created that is available and usable across the entire department?",
-        "response": "Standard Operating Procedure (SOP)"
-    },
-    {
-        "query": "A boss asks a sysadmin to justify why the company needs to implement data retention for their email system. The firm is in a highly regulated industry. What is an important reason for data retention?",
-        "response": "Legal consideration"
-    },
-    {
-        "query": "A server just failed to boot. A sysadmin did a diagnostic test, and one of the hard drives has failed. Some data has been lost. What type of redundancy did the storage have?",
-        "response": "RAID 0"
-    },
-    {
-        "query": "A small organization reaches out to a junior sysadmin to recommend a centralized storage solution for its users to save files to outside their workstation. They are concerned that a device may break down or be stolen. If that happens, they will lose important and confidential data. However, they are very price conscious. What recommendation would allow for centralized data storage, may include redundancy, but is relatively inexpensive?",
-        "response": "Network Attached Storage (NAS)"
-    },
-    {
-        "query": "A sysadmin needs to make a change to a Windows server remotely and securely. What administrative interface is best suited for this action?",
-        "response": "Remote Desktop Protocol (RDP)"
-    },
-    {
-        "query": "A sysadmin is setting up a Remote Desktop Services server and needs a way to connect a user's shared drives. What is one method to accomplish this consistently while signing in?",
-        "response": "Login script"
-    },
-    {
-        "query": "A sysadmin set up a server with multiple network interface cards combining them into one single Internet Protocol address connection. This is what concept?",
-        "response": "Network Interface Card (NIC) teaming"
-    },
-    {
-        "query": "A company needs to run cabling from one building to the next. The only available piping that runs where they need it also contains high voltage power. They are worried about high attenuation caused by signal noise leaking into the cable. What form of cabling should they use?",
-        "response": "Fiber optic cable"
-    },
-    {
-        "query": "A server is being set up with 4 terabytes (TB) of storage in one partition, but the operating system only sees 2 terabytes. What type of hard disk table configuration is being used?",
-        "response": "Master Boot Record (MBR)"
-    },
-    {
-        "query": "A company approaches their sysadmin to give an assessment of the physical security of the corporate office and its data center. They ask the sysadmin to recommend a couple options to deter criminals. What are two examples of physical security? (Select all that apply.)",
-        "response": "Lighting, Fencing"
-    },
-    {
-        "query": "A sysadmin needs to protect a server by updating the Operating System, updating hardware firmware, and updating applications. Doing this may eliminate many surfaces of attack by outside hackers. What is this a concept of?",
-        "response": "Patch hardening"
-    },
-    {
-        "query": "A server has multiple forms of internally attached storage. Which is a form of internal storage?",
-        "response": "Serial Advanced Technology Attachment (SATA)"
-    },
-    {
-        "query": "A supervisor requires a bit more control over how updates and patching are handled at both the hardware and software levels. The supervisor suggested that patches need testing before being applied to the Content Relationship Management (CRM) software production environment. However, Capital Expenses (CapEx) need to be limited. The CRM provider sells a service that meets these requirements. What type of business model do they have?",
-        "response": "Infrastructure-as-a-Service"
-    },
-    {
-        "query": "For regulatory reasons, backups must be kept for seven years at a financial company. A sysadmin needs to keep these backups but needs to free up physical space to continue to create new backups. What should the sysadmin do?",
-        "response": "Archive offsite."
-    },
-    {
-        "query": "A sysadmin needs the ability to manage a server, even if it is turned off. The sysadmin learned that the server supports out-of-band management. What are some benefits of out-of-band management of a server? (Select all that apply.)",
-        "response": "Remote power on and off of server, Increased security"
-    },
-    {
-        "query": "A sysadmin is troubleshooting an issue with connectivity. The sysadmin gets an Automatic Private IP Addressing (APIPA) address. What is most likely the cause of the issue?",
-        "response": "A device fails to connect to DHCP."
-    },
-    {
-        "query": "A senior sysadmin needs to ensure that a company’s servers minimize single points of failure. The sysadmin is currently focusing on connectivity for their single server. What concept is this?",
-        "response": "Redundant networking"
-    },
-    {
-        "query": "A system architect has a project to implement: a web application that requires near-zero downtime. It is a business-critical application that would cost the company business and reputation if it failed. The system architect needs to make sure there is not one single point of failure. What is this idea called?",
-        "response": "Redundancy and high availability"
-    },
-    {
-        "query": "A sysadmin is setting up a server cluster. The sysadmin is setting up a load balancer to distribute server requests to increase availability and performance. What variation of server cluster is best for this?",
-        "response": "Active-active"
-    },
-    {
-        "query": "Physical security can include mounting servers and locking them to prevent anyone from accessing the hard drives (HDDs) or inserting a removable media device. What are servers typically mounted in?",
-        "response": "Rack"
-    },
-    {
-        "query": "An employee approaches a sysadmin with issues sending an email. The employee reports that the email client is failing to connect to the server even though the computer connects to the internet and everything else seems normal. What layer of the Open Systems Interconnect (OSI) model is the most likely cause of the issue?",
-        "response": "Layer 7"
-    },
-    {
-        "query": "A sysadmin has decommissioned a server and needs to properly dispose of the data. A third party has suggested multiple options. Which highly reliable option should the sysadmin choose to completely obliterate the data on the hard drives?",
-        "response": "Incinerate drives"
-    },
-    {
-        "query": "A sysadmin needs to protect a server by disabling features such as Universal Serial Bus (USB) ports, extra Network Interface Cards (NICs), and the Digital Video Disk (DVD) drive. By doing this, the sysadmin helps prevent some physical access to the server. What is this a concept of?",
-        "response": "Hardware hardening"
-    },
-    {
-        "query": "A server is running out of space, which is starting to cause problems for users. A sysadmin is managing the Linux server’s file system to see what is consuming much of the disk space. They used a standard storage management command but need it in a more human-readable format. What command and option should they use?",
-        "response": "df -h"
-    },
-    {
-        "query": "A recently hired junior sysadmin is filling a position that was left vacant for over a year. During the time that position was left vacant, nothing was added to the previously implemented asset tracking system. What are some of the risks associated with not tracking assets? (Select all that apply.)",
-        "response": "License violations, Misinformed purchasing decisions"
-    },
-    {
-        "query": "A sysadmin is looking to choose between bare metal and virtualized server installations. What is one benefit of bare metal installations?",
-        "response": "Better security"
-    },
-    {
-        "query": "A company purchased a new office building and needs to set up a network for employees to complete their work. What is a network device that operates on Layer 3 of the OSI model?",
-        "response": "Router"
-    },
-    {
-        "query": "A junior sysadmin in a small organization needs to order equipment. The small organization is looking to replace their aging hardware and does not know what to order. What are the four major subsystems needed for server specifications?",
-        "response": "Processor, Memory, Storage, Network"
-    },
-    {
-        "query": "There are multiple backup schemes. A sysadmin wants the backup scheme to be effective for archiving and allow for recovery of older information. What backup scheme should the sysadmin use?",
-        "response": "Tower of Hanoi"
-    },
-    {
-        "query": "A sysadmin needs to set up a brand new server that protects against data loss, even if two disks fail. What type of Redundant Array of Inexpensive Disks (RAID) could this be? (Select all that apply.)",
-        "response": "RAID 10, RAID 6"
-    },
-    {
-        "query": "A sysadmin is researching an issue where files on the shared drive are going missing. It is not believed that the issue is malicious, but awareness of what is causing the issue is important to a company to prevent data loss. What function can be enabled on a server to accomplish this?",
-        "response": "File auditing"
-    },
-    {
-        "query": "As part of an organization’s change management process, a system needs to be set up to manage patching. A sysadmin has a Windows environment and wants to ensure that all devices on the domain are updated according to a schedule and a set of criteria. What type of system should the sysadmin set up?",
-        "response": "Windows Server Update Service"
-    },
-    {
-        "query": "Risks cannot be eliminated. A sysadmin is looking for ways to mitigate risks. Which of the following would prove least effective in mitigating risk?",
-        "response": "Removing Security Information and Event Management (SIEM)"
-    },
-    {
-        "query": "A new network was set up with the Internet protocol (IP) range of 192.168.13.2-192.168.13.100. The internet service provider has set up a static IP address of 104.215.148.63. How are devices able to connect to the internet with this connection?",
-        "response": "Network Address Translation"
-    },
-    {
-        "query": "A sysadmin needs to set up a backup scheme that is relatively simple and easy to manage. The sysadmin is not looking to keep backups for archiving purposes. What backup scheme should the sysadmin use?",
-        "response": "First-In, First-Out (FIFO)"
-    },
-    {
-        "query": "A sysadmin receives a support ticket stating that an employee is causing trouble after going through the Human Resources folder on the company shared drive. How does the sysadmin efficiently resolve the issue?",
-        "response": "Principle of least privilege"
-    },
-    {
-        "query": "A senior system administrator is looking to automate the creation of virtual machines. Imaging is one solution found. What are the benefits of imaging? (Select all that apply.)",
-        "response": "Consistent, Very efficient"
-    },
-    {
-        "query": "A new systems administrator at an organization is working on a new project. The organization requires control over security and data, as the data they store is highly sensitive. They are willing to bear the increased costs and maintenance. What kind of deployment are they looking for?",
-        "response": "On-premise"
-    },
-    {
-        "query": "A fundamental concept of device access and security is the administration of user accounts. Permissions for accessing file shares are typically assigned by security group. Users are then added to security groups as necessary. In what ways can a sysadmin manage local user accounts in Windows? (Select all that apply.)",
-        "response": "Computer Management, cmd"
-    },
-    {
-        "query": "A junior sysadmin is currently ordering a new server to replace an aging server that received constant complaints about being slow. Once the server arrives, what should the sysadmin do to ensure normal behavior for that server, regardless of the specifications?",
-        "response": "Run performance baseline."
-    },
-    {
-        "query": "A sysadmin deployed a RemoteApp to each employee's computer in the Human Resources group. However, a user reports that they do not see the RemoteApp. What command should the sysadmin run on that user's computer to investigate the issue?",
-        "response": "gpedit"
-    },
-    {
-        "query": "A junior sysadmin must differentiate between devices supported in the organization. What type of device hardware is designed for high performance, redundancy, and may have multiple network interface cards?",
-        "response": "Server"
-    },
-    {
-        "query": "The office manager for a company is upset that the file server was down while the sysadmin was on paid time off (PTO). They demand that they get a key to the door to the server room in order to restart the file server. What type of security is this?",
-        "response": "Physical security"
-    },
-    {
-        "query": "A sysadmin is looking to contract a third-party vendor for disaster recovery in case the main corporate office goes down. The sysadmin wants to balance cost with speed of recovery. However, they want a more traditional multi-site option. What is the best type of site to have the vendor set up?",
-        "response": "Warm site"
-    },
-    {
-        "query": "A junior sysadmin is approached by the owner of an organization. The owner wishes to cut down on using proprietary-licensed software, because the owner heard it is the easiest way to cut down on costs. The sysadmin needs to explain to the owner that proprietary licensed software may have its benefits over free and open-source software that are worth the associated purchase cost. Choose all benefits of the proprietary software licensing model (Select all that apply).",
-        "response": "More reliable vendor support, More reliable documentation"
-    },
-    {
-        "query": "A user complains that their password has expired and they are unable to set a new password. What reasons may be preventing the user from setting a new password? (Select all that apply.)",
-        "response": "Password complexity, Password reuse"
-    },
-    {
-        "query": "A junior sysadmin is looking to set up a simple backup of a file server. The small company the sysadmin works for cannot afford to set up a full-fledged backup system, but has an unused network attached storage (NAS) device available. What is one option available to provide a consistent and scheduled way to accomplish this?",
-        "response": "Scripting"
-    },
-    {
-        "query": "A sysadmin needs to order a new server. The server has to have a vast amount of storage space and run fast, but try to be as cost-effective as possible. What type of hard drive is best to purchase?",
-        "response": "15,000 RPM Traditional Hard Drive"
-    },
-    {
-        "query": "A sysadmin is setting up a backup system to run backups every 1 hour. The sysadmin needs the backup to not take a long time, because if it takes longer than the interval, the backups will start to fail. What type of backup should the sysadmin set up after the first initial backup?",
-        "response": "Incremental"
-    },
-    {
-        "query": "An employee was let go from a company and all the let-go employee's emails have been deleted. A sysadmin needs to prevent this from happening in the future. What type of policy should be set up to prevent data loss?",
-        "response": "Retention"
-    },
-    {
-        "query": "A server’s file share is running out of storage space, and the server does not currently have any additional disk space available to expand the file share. The server has a few additional hard drive slots available. A sysadmin has just finished testing a theory on how to resolve the issue. However, before a sysadmin can make changes, what do they need to do, according to the fifth step in the troubleshooting methodology?",
-        "response": "Establish a plan of action"
-    },
-    {
-        "query": "During a normal audit of software installed on users’ workstations, a sysadmin found a user with a piece of unauthorized software installed on their computer. The sysadmin needs to set up a way to prevent this from happening in the future. What should the sysadmin implement?",
-        "response": "Enable user access controls"
-    },
-    {
-        "query": "A sysadmin needs to make a change to a Linux server remotely and securely. What administrative interface is best for this action?",
-        "response": "Secure Shell (SSH)"
-    },
-    {
-        "query": "A sysadmin is installing a new Wireless Access Point (WAP). Devices cannot find the WAP to connect to it. The sysadmin tests the ethernet connection the WAP connects to, and it has connectivity. This issue is most likely at which layer of the Open Systems Interconnect (OSI) model?",
-        "response": "Layer 2"
-    },
-    {
-        "query": "A sysadmin is receiving numerous tickets about Remote Desktop Services sessions showing the wrong time and date. This is a reoccurring issue that happens every time the server reboots. During troubleshooting, the sysadmin identified the cause. What is one possibility as to why the time and date are wrong?",
-        "response": "CMOS battery failure"
-    },
-    {
-        "query": "There are various ways to protect data from unauthorized access and distribution. A sysadmin is looking to protect a company's data. The protection method must ensure confidentiality, integrity, and non-repudiation. What method would best solve this need?",
-        "response": "Encryption"
-    },
-    {
-        "query": "A sysadmin needs to set up two separate networks within the same physical location and needs to use the same hardwired connections for both networks. However, the network equipment is very basic, and there is no budget. How would the sysadmin accomplish this?",
-        "response": "Segmentation"
-    },
-    {
-        "query": "A sysadmin needs to create a backup script that will check if a specific folder path on 1000s of servers needs to be backed up or not. What type of code should the sysadmin use?",
-        "response": "Loop"
-    },
-    {
-        "query": "A sysadmin has a brand new server that has a Linux Operating System installed. They need to manage the disk partitions. What commands could be used? (Select all that apply.)",
-        "response": "parted, fdisk"
-    },
-    {
-        "query": "A company has a dedicated network operations center. They have several server enclosures to manage their consumer-facing web applications. These server enclosures consume less horizontal space and are easily secured. What form factor of server do they have?",
-        "response": "Rack"
-    },
-    {
-        "query": "A sysadmin is advising the owners of a company on cloud computing. They are looking to revolutionize how Information Technology (IT) services are provided at their company. What is not something the admin will discuss based on the NIST?",
-        "response": "Server Redundancy"
-    },
-    {
-        "query": "A sysadmin is wiring a new office for internet access and needs to ensure that proper building codes and connectivity quality expectations are followed when wiring network connectivity in the overhead space in the ceiling. What type of cable should the sysadmin use that will be the most reliable method to accomplish this?",
-        "response": "Plenum"
-    },
-    {
-        "query": "There are many parts to take into account when using cloud services. As such, this complicates the troubleshooting of issues as they arise. A sysadmin is troubleshooting a company's email service outage and verifies that the internet connection, software, and end-user devices are working perfectly fine. What type of an issue is this?",
-        "response": "External"
-    },
-    {
-        "query": "A sysadmin is setting up a new wireless access point (WAP). When a device connects to the WAP, it cannot connect to the internet. The sysadmin runs ipconfig and sees the Internet Protocol (IP) Address 169.254.0.13. What kind of address is this?",
-        "response": "Automatic Private IP Addressing (APIPA)"
-    },
-    {
-        "query": "A hardware firewall is having issues completing Virtual Private Network (VPN) connections. A sysadmin needs to determine what step of the connection process it fails. What software can sniff the traffic and display the contents of that transmission?",
-        "response": "Wireshark"
-    },
-    {
-        "query": "A major part of a sysadmin’s role is to troubleshoot issues in a consistent manner that can eliminate possible future reoccurrences. What should a sysadmin do throughout the troubleshooting process?",
-        "response": "Document findings, actions, and outcomes"
-    },
-    {
-        "query": "A server recently crashed and refuses to boot back up. The company’s shared drives are not affected. A sysadmin is running a system state backup restore. The sysadmin is not worried about replacing existing data during the restoration. What type of restoration should the sysadmin do?",
-        "response": "Overwrite"
-    },
-    {
-        "query": "A company wants to reduce Capital Expenses (CapEx) and total cost of ownership (TCO). They want to ensure the company does not have to maintain obsolete equipment. They do not want to move to a cloud provider and, instead, want to keep servers on-premise. What is an attractive option for this company?",
-        "response": "Leasing"
-    },
-    {
-        "query": "A system administrator is troubleshooting issues in their environment. What is one command line tool that can assist in intercepting network traffic?",
-        "response": "tcpdump"
-    },
-    {
-        "query": "A sysadmin is participating in an office remodel, adding an additional floor of workspace. They are running network cabling to that floor, but it is 125 meters away from the main network closet. The connection must not be accessible by people outside of the two floors the company occupies. What is one type of media that can run between the two network closets?",
-        "response": "Fiber optic"
-    }
+  {
+    "query": "A startup company requests advice on software licensing. They have full-time staff working in-house at 20 workstations. In addition, they have a variable number of subcontractors accessing their servers and software remotely. The primary considerations for licensing concern which variables? (Select all that apply.)",
+    "response": "The allowable quantity of software installations, The allowable quantity of concurrent users"
+  },
+  {
+    "query": "A nonprofit seeks to expand its server architecture while keeping a sharp eye on costs. What type of licensing model would serve this organization best?",
+    "response": "Free and open-source software (FOSS)"
+  },
+  {
+    "query": "After receiving service desk tickets from users, a server administrator has identified a problem with an application server. The next step is to gather additional information to determine the scope of the problem. How will the server administrator start this process? (Select all that apply.)",
+    "response": "Ask users for additional details., Check for any recent changes to the environment."
+  },
+  {
+    "query": "A user submits a service desk request showing that the workstation cannot access a file server. Other users report they can access that file server. The scope of the problem is most likely at what level?",
+    "response": "There is a problem with the computer of the user who asked for help."
+  },
+  {
+    "query": "What are advantages of on-premises deployments over cloud deployments? (Select all that apply.)",
+    "response": "The organization retains complete control of data., The organization retains complete control of administration and management."
+  },
+  {
+    "query": "A company requests consultation on a server deployment since they have no dedicated IT staff. They need a solution that offers simplified licensing, pay-as-you-go pricing, rapid deployment, and rapid elasticity. Which deployment model would serve them best?",
+    "response": "Cloud deployment"
+  },
+  {
+    "query": "A cloud engineer must recommend a server virtualization solution for a Fortune 500 company. The company wants an enterprise-class solution that features centralized management, high availability, and more features, even if it requires a much more expensive licensing structure. The company most likely requires which type of virtualization?",
+    "response": "Type 1"
+  },
+  {
+    "query": "A cloud engineer has created several new virtual machines (VMs). Before using the new machines, what must the engineer allocate for each one via the hypervisor software? (Select all that apply.)",
+    "response": "Network access, Processor time"
+  },
+  {
+    "query": "When designing physical servers that will host virtual machines, what are the appropriate considerations concerning resources such as processors, memory, networking, and storage?",
+    "response": "Physical host servers must have more resources than their virtualization guests."
+  },
+  {
+    "query": "To gain entrance into the server room, an administrator inserts a smart card into the card reader and then enters a personal identification number (PIN) on the attached keypad. What type of example is this?",
+    "response": "Multifactor Authentication"
+  },
+  {
+    "query": "An administrator must configure a firewall and virtual private network (VPN) server for remote administration via Secure Shell (SSH). Which Transmission Control Protocol (TCP) port will the administrator configure for this purpose?",
+    "response": "Port 22"
+  },
+  {
+    "query": "A network administrator needs tools to intercept network traffic and display packet header information, such as source and destination Internet Protocol (IP) addresses, source and destination Media Access Control (MAC) addresses, and transport layer protocol. What are examples of such tools? (Select all that apply.)",
+    "response": "Wireshark, Tcpdump"
+  },
+  {
+    "query": "There are four phases of the server lifecycle. Two of them are procurement and usage. What are the other two? (Select all that apply.)",
+    "response": "Planning, Decommissioning"
+  },
+  {
+    "query": "A company seeks to recapitalize its server base. The staff engages in a process to help them understand the business requirements, identify supplies, negotiate pricing and contracts, and ship their product. In what phase of the server lifecycle is the company engaged?",
+    "response": "Procurement"
+  },
+  {
+    "query": "A server administrator is looking at a mixture of server hardware in their environment including older to newer models. All of the hardware is running on Intel. The administrator is digging into the integrated communications paths that exist across all the motherboards. Which of the following is most likely the answer?",
+    "response": "QuickPath Interconnect"
+  },
+  {
+    "query": "A technician is troubleshooting issues within a portion of the data center and finds that a device has become unusable. It does not show a blue screen error. What is the most likely scenario?",
+    "response": "Incorrect firmware update"
+  },
+  {
+    "query": "A data center technician is setting up hygrometers throughout the environment for proactive analysis of the environment. What is the normal range that the technician should set up to alert when abnormal parameters occur?",
+    "response": "40 - 60% rH"
+  },
+  {
+    "query": "An organization requires a Jr. administrator to record a Windows server's uptime on a monthly basis. Evaluate the options and determine how the Jr. administrator would accomplish this.",
+    "response": "By using the Performance tab in Task Manager"
+  },
+  {
+    "query": "An IT technician who is familiar with Windows systems needs to include Linux servers in a report. The report is to cover the overall functionality of the servers as a health check. Review the technician's options and determine which tools will fill the requirements. (Select all that apply.)",
+    "response": "The top command, The sar command"
+  },
+  {
+    "query": "A server engineer deploys five new servers with a new approach to actively mitigate hardware failures and prevent downtime.\nSelect one:",
+    "response": "Redundancy"
+  },
+  {
+    "query": "When checking a remote system for open ports, which tool does an engineer find most useful?\nSelect one:",
+    "response": "telnet"
+  },
+  {
+    "query": "An organization establishes a business continuity plan. Part of the plan involves the ability to establish a base of operations at an alternate site in the event of a catastrophe that has the necessary space for a data center and business offices and some of the required computer and network hardware. Which option does the organization consider while keeping the cost as low as possible?",
+    "response": "Warm site"
+  },
+  {
+    "query": "Two servers work together in a clustered configuration. How do the servers maintain confirmation of each other's availability?\nSelect one:",
+    "response": "By using a heartbeat"
+  },
+  {
+    "query": "Engineers configure servers at two locations. The data between the locations requires replication. The desire is to inform the client machine of replication success when both locations have synchronized any data the client uses. Which replication type do the engineers configure?",
+    "response": "Synchronous"
+  },
+  {
+    "query": "A startup company requests advice on software licensing. They have full-time staff working in- house at 20 workstations. In addition, they have a variable number of subcontractors accessing their servers and software remotely. The primary considerations for licensing concern which variables? (Select all that apply.)",
+    "response": "The allowable quantity of software installations, The allowable quantity of concurrent users"
+  },
+  {
+    "query": "When following a troubleshooting plan of action, how many changes should the administrator make at one time?",
+    "response": "An administrator makes one change at a time and then tests the result."
+  },
+  {
+    "query": "Multiple users submit service desk tickets noting a lack of network connectivity. In determining the scope of the problem, the network engineer finds that several clients have incorrect IP addresses. What is the next step in the troubleshooting methodology?",
+    "response": "Establish a theory of probable cause related to the DHCP Server."
+  },
+  {
+    "query": "What type of licensing model requires one license for each software instance in use by a user?",
+    "response": "Per-concurrent-user"
+  },
+  {
+    "query": "An administrator successfully restores a user's access to a file server. What is the final step of the troubleshooting methodology?",
+    "response": "Document findings, actions, and outcomes."
+  },
+  {
+    "query": "What are the advantages of traditional proprietary licensing, such as with Microsoft Windows Server? (Select all that apply.)",
+    "response": "More likely reliable vendor support, More likely reliable documentation"
+  },
+  {
+    "query": "What are the advantages of open-source licensing, as with Linux distributions, such as RHEL or Ubuntu? (Select all that apply.)",
+    "response": "There are no-cost options available, It allows for free modification and redistribution"
+  },
+  {
+    "query": "What are advantages of cloud deployments over on-premises deployments? (Select all that apply.)",
+    "response": "The organization only pays for the cloud resources that it consumes., The organization does not bear the cost of supporting the service."
+  },
+  {
+    "query": "A startup company provides services primarily in the form of Software as a Service (SaaS). When demand rapidly grows for its services, the company provisions resources when needed without relying on the Cloud Service Provider (CSP). Which characteristic of cloud computing does this capability reflect?",
+    "response": "On-demand self-service"
+  },
+  {
+    "query": "A startup company provides services primarily in the form of Software as a Service (SaaS). When demand grows rapidly for its services, the company scales up resource usage as needed and pays only for the quantity of resources that they need at any given time. Which characteristic of cloud computing does this capability reflect?",
+    "response": "Rapid elasticity"
+  },
+  {
+    "query": "What are disadvantages of on-premises deployments over cloud deployments? (Select all that apply.)",
+    "response": "It is difficult to scale based on demand., The organization bears the entire cost of supporting the service."
+  },
+  {
+    "query": "A human resources firm maintains a database containing personally identifiable information at its central office. The company maintains its client-facing software in a cloud deployment (Software as a Service). Which type of server deployment is this?",
+    "response": "Hybrid deployment"
+  },
+  {
+    "query": "Name the type of hypervisor in which the virtualization software installs directly on the physical server without using a traditional OS layer between the hardware and the hypervisor.",
+    "response": "Type 1"
+  },
+  {
+    "query": "A systems administrator is responsible for managing the licenses for a piece of cloud-based software. Currently, there are 100 users who access the software, and the organization receives a monthly bill for these users. When the organization hires an additional 50 users who also need access, the systems administrator increases the number of licenses by using a web-based management tool, and notices that the vendor has automatically given all users access to the newly released 2.0 version of the software. This is an example of what type of licensing?",
+    "response": "Subscription"
+  },
+  {
+    "query": "Determine an example/ type of hypervisor where an administrator first installs a traditional OS, such as Windows Server, on the physical server and then adds the hypervisor software, which runs within the OS. (Select all that apply.)",
+    "response": "Type 2, Oracle VirtualBox"
+  },
+  {
+    "query": "Virtualization technologies revolutionized the delivery of IT services. Cloud computing takes the concept of virtualization a step further. How is cloud computing different from traditional computing? (Select all that apply.)",
+    "response": " Machines are located off-premises., Cloud computing consumers employ virtual machines."
+  },
+  {
+    "query": "A software development house seeks to expand its server architecture. The company wants a solution that can scale substantially and rapidly with demand by easily adding resources, such as processors or memory. Which type of server architecture would best meet their needs?",
+    "response": "Virtual Servers"
+  },
+  {
+    "query": "In the shared security model, the cloud service provider and the client organization share responsibility for various aspects of security. Who is responsible for the security of the data?",
+    "response": "The client organization"
+  },
+  {
+    "query": "A company uses modern fire suppression to protect the equipment in their server room and any people who may be present. Fire suppression uses inert gasses to reduce the oxygen level within a room from the standard 21% to a range of 10–15%, suffocating the fire but still providing oxygen for people. What are some examples of inert gasses? (Select all that apply.)",
+    "response": "Argon, Nitrogen"
+  },
+  {
+    "query": "What types of services reside on servers located in a demilitarized zone (DMZ)? (Select all that apply.)",
+    "response": "Virtual Private Network (VPN), Domain Name System (DNS)"
+  },
+  {
+    "query": "A network engineer supports a network that includes a Finance Department with strict security requirements and an Engineering Department that transfers many large files across the network. The engineer wants to provide privacy to the finance department and protect them from degraded performance induced by the Engineering Department’s large file transfers. What is one way to build the network to accomplish these objectives?",
+    "response": "Segment the network"
+  },
+  {
+    "query": "In the shared security model, the cloud service provider and the client organization share responsibility for various aspects of security. Who is responsible for the physical security of the data center?",
+    "response": "The cloud service provider"
+  },
+  {
+    "query": "The server administrator configured the internal network with the Class C range, 192.168.0.0/16. How many unique IPv4 addresses are available on this network?",
+    "response": "65534"
+  },
+  {
+    "query": "Data center architecture may integrate various forms of security. What are some examples? (Select all that apply.).",
+    "response": "Reflective glass, Deceptive signage"
+  },
+  {
+    "query": "The server administrator spends part of each day troubleshooting, planning for capacity, and planning to scale up services to meet increased demand. Which document should the server administrator consult to better understand the components of the service solution and the flow of data?",
+    "response": "Workflow diagram"
+  },
+  {
+    "query": "Which metric enables the organization to understand the amount of time between the most recent backup and a disaster, that indicates how much data they may lose in the event of a disaster?",
+    "response": " Recovery Point Objective (RPO)"
+  },
+  {
+    "query": "What are the components of the Business Continuity Plan (BCP)? (Select all that apply.)",
+    "response": "Business Impact Analysis (BIA), Disaster Recovery Plans (DRPs)"
+  },
+  {
+    "query": "An infrastructure diagram contains what type of information? (Select all that apply.)",
+    "response": "Network segments, Servers"
+  },
+  {
+    "query": "Every organization needs a consistent way of identifying the servers in its inventory. What are some of the server characteristics that server administrators use to track server inventory? (Select all that apply.)",
+    "response": " Asset tags or labels, Basic input/output system (BIOS) asset tags"
+  },
+  {
+    "query": "Which metric helps a business to understand how long it will take to return a service to fully operational status?",
+    "response": "Mean Time to Recovery (MTTR)"
+  },
+  {
+    "query": "What are some risks of not tracking inventory? (Select all that apply.)",
+    "response": "License violations, Inadequate security"
+  },
+  {
+    "query": "What are some benefits of proper inventory? (Select all that apply.)",
+    "response": "Accurate licensing, Informed purchasing"
+  },
+  {
+    "query": "A systems administrator is making a redundancy plan to administer a device in the event remote management isn't available. What should the admin set up?",
+    "response": "Console port"
+  },
+  {
+    "query": "A server administrator is setting up servers in remote small office locations to set up distribution points for various field devices. The administrator worries about having to go out to sites to turn devices back on in the event of power outages. What could the administrator do to help mitigate this issue?",
+    "response": "Use UPSs"
+  },
+  {
+    "query": "A server administrator is diagnosing issues with a server that is experiencing a kernel panic. Which tool should the administrator begin with?",
+    "response": "Memtester"
+  },
+  {
+    "query": "How can a server administrator provide redundant power to servers? (Select all that apply.)",
+    "response": "Provide power from at least two utility companies, Provide generators in addition to the utility company"
+  },
+  {
+    "query": "A systems administrator is working with data centers in the United States but learns that the company is expanding globally. The administrator begins to plan for international power requirements. What standard could assist in this endeavor?",
+    "response": "IEC C13/C14"
+  },
+  {
+    "query": "A System Center Configuration Manager (SCCM) administrator plans to set up SCCM distribution servers in remote locations to streamline patch deployment. The location settings are more of small office settings. Which type of servers should the administrator plan?",
+    "response": "Tower servers"
+  },
+  {
+    "query": "A small organization needs ten servers. They have a small, enclosed server room with space for a single rack. Which server form factor will meet their needs most efficiently?",
+    "response": "Blade form factor"
+  },
+  {
+    "query": "An upcoming project requires new server hardware. Where could a purchaser check to verify compatibility with the environment? (Select all that apply.)",
+    "response": "Windows Server Catalog, Red Hat Compatibility Site"
+  },
+  {
+    "query": "A server technician finds that a server's basic input/output system (BIOS) time is not correct, but the time on the operating system (OS) is accurate. What is the most likely cause that the technician should investigate first?",
+    "response": " Complementary Metal-Oxide Semiconductor (CMOS) battery failure"
+  },
+  {
+    "query": "A user reports a problem with a workstation and intends on using the chkdsk command to diagnose the internal hard disk. Which statement is true if the chkdsk command is to be utilized on the workstation's disk?",
+    "response": "Chkdsk only checks New Technology File System (NTFS)."
+  },
+  {
+    "query": "A Linux server technician is troubleshooting issues with server hardware. Which of the following would help the technician in this endeavor?",
+    "response": "dmesg"
+  },
+  {
+    "query": "A new server administrator is attempting to troubleshoot Dell blade servers through out-of-band management. Senior administrators told the server administrator that only Dell products can access the servers. What tool should the administrator use to connect?",
+    "response": "DRAC"
+  },
+  {
+    "query": "A storage administrator is analyzing scalable, inexpensive, and managed storage solutions that may reduce the amount of on-premises storage required. Which of the following should the administrator consider?",
+    "response": "OneDrive"
+  },
+  {
+    "query": "A systems administrator is architecting a new Network Attached Storage (NAS) component of the data center. The administrator is trying to provide storage for many hosts while keeping costs down. Which of the following is the best choice for this scenario?",
+    "response": "Internet Small Computer Systems Interface (iSCSI)"
+  },
+  {
+    "query": "A systems technician must set up a scalable storage strategy for the data center environment. Which of the following would be optimal choices? (Select all that apply.)",
+    "response": "Switched Fibre Channel Storage Area Networks (SANs), Fibre Channel over Ethernet SAN"
+  },
+  {
+    "query": "A systems technician is analyzing how much storage remains on a server. Which of the following could the technician use? (Select all that apply.)",
+    "response": "Metrics from df, Metrics from du"
+  },
+  {
+    "query": "A server administrator needs to attach a partition to a directory to allow users to access the partition. What could the server administrator use to perform this function?",
+    "response": "mount"
+  },
+  {
+    "query": "A system administrator wants to analyze for server partitions. Which of the following tools could the administrator use? (Select all that apply.)",
+    "response": "df, Parted"
+  },
+  {
+    "query": "A storage administrator is setting up Direct Attached Storage (DAS) for a database server where performance is key. Which of the following would suit the administrator's needs?",
+    "response": "Non-Volatile Memory Express (NVMe)"
+  },
+  {
+    "query": "A storage technician suspects there is a misconfigured Redundant Array of Inexpensive Disks (RAID). What are some symptoms the technician could use to diagnose? (Select all that apply).",
+    "response": "Boot errors, Unable to mount physical drive"
+  },
+  {
+    "query": "A storage technician is planning a storage environment for upcoming server projects that require speed. However, the technician must also be efficient with the project budget. Which of the following is the best option?",
+    "response": "Hybrid"
+  },
+  {
+    "query": "A storage administrator learns about the presence of corrupt boot sectors from the team lead. What is a common problem caused by this?",
+    "response": "OS not found"
+  },
+  {
+    "query": "What is the address ::1/128 in IPv6?",
+    "response": "Loopback address"
+  },
+  {
+    "query": "What is the maximum amount of partitions that a Master Boot Record (MBR) can recognize?",
+    "response": "4"
+  },
+  {
+    "query": "A network administrator is configuring a network to be segmented for security purposes. What would be a good way to implement segmentation?",
+    "response": "Virtual Local Area Network (VLAN)"
+  },
+  {
+    "query": "A conscientious systems administrator wants to create a script that another administrator will be able to understand easily. Which of the following is a good example of this?",
+    "response": "#This script displays output to the screen"
+  },
+  {
+    "query": "Request for Comment (RFC) 1918 specifies private IP address ranges. What is the class B range?",
+    "response": "172.16.0.0-172.31.255.255"
+  },
+  {
+    "query": "A server administrator needs to set up the Linux firewall to allow protocols that will enable remote administration. Which standard protocols could the administrator add? (Select all that apply.)",
+    "response": "Secure Shell (SSH), Virtual Network Computing (VNC)"
+  },
+  {
+    "query": "A system administrator is setting up a basic script for automating various tasks on the Windows servers. What software should the system administrator code in?",
+    "response": "PowerShell"
+  },
+  {
+    "query": "A Linux server administrator is setting up a new file server. What type of file system would be most suitable for the swap file?",
+    "response": "ext4"
+  },
+  {
+    "query": "A server administrator needs to set up the Windows firewall to allow protocols that will enable remote administration. Which standard protocols could the administrator add? (Select all that apply.)",
+    "response": "Virtual Network Computing (VNC), Remote Desktop Protocol (RDP)"
+  },
+  {
+    "query": "A hypervisor administrator needs to create a self-service environment for the development department of the company. What would installation type is the best option for this scenario?",
+    "response": "Template"
+  },
+  {
+    "query": "A server administrator finished building a new server and creating volumes. Which options will allow the administrator to use volumes as opposed to partitions? (Select all that apply.)",
+    "response": "Logical volume manager, Dynamic disk"
+  },
+  {
+    "query": "A server administrator is setting up partitions for a recently deployed server. What partitions should the administrator set up for the newly deployed Linux server? (Select all that apply.)",
+    "response": "[/], [/var]"
+  },
+  {
+    "query": "A system administrator is setting up a basic script for automating various tasks on the Linux servers. What software should the system administrator code in?",
+    "response": " Bash"
+  },
+  {
+    "query": "A server administrator is conducting inventories to identify old pieces of server hardware which will be approaching end of life. What would be an efficient solution to migrate services off before decommissioning?",
+    "response": "Physical to Virtual (P2V)"
+  },
+  {
+    "query": "A server technician needs to create a script that repeats a function 10 times. Which of the following would accomplish this? (Select all that apply.)",
+    "response": "count = 0 while count <= 9: count += 1 echo count, count = 0 while count < 10: count += 1 echo count"
+  },
+  {
+    "query": "An administrator is setting up a script to automate tasks that query system-wide variables. Which variables should the administrator use?",
+    "response": "environment"
+  },
+  {
+    "query": "A server administrator has a base virtual server build with an operating system and configurations. What would be an efficient way to stand up similar virtual machines? (Select all that apply.)",
+    "response": "Unattended install, Cloning"
+  },
+  {
+    "query": "An IT administrator is conducting an investigation and is looking for metadata that is only associated with one host. What type of metadata could the administrator find tied to only one host?",
+    "response": "IP Address, Media Access Control (MAC) address"
+  },
+  {
+    "query": "A storage technician is setting up a Linux server for a pool of disks installed on a server. What does the technician need to set up next for the pool of disks?",
+    "response": "Volume Group"
+  },
+  {
+    "query": "The systems administrators are troubleshooting connectivity to an internal server. They are performing an nslookup but want to capture the traffic during the nslookup. What port should they capture traffic on?",
+    "response": "53/UDP"
+  },
+  {
+    "query": "A systems administrator is troubleshooting connectivity and determines that they are receiving an Automatic Private IP Addressing (APIPA) address. Which of the following would be a good step to fix the problem?",
+    "response": "ipconfig /release"
+  },
+  {
+    "query": "A Windows server administrator is working with the security monitor group. They want to start monitoring the account with the highest-level privileges. Which of the following accounts should they start with?",
+    "response": "Domain administrator"
+  },
+  {
+    "query": "A server administrator is troubleshooting connectivity to a remote device but receives \"Unknown host.\" What is the most likely potential problem?",
+    "response": "Name resolution issue"
+  },
+  {
+    "query": "A server administrator is imaging several varying computers but wants to save time by using the same imaging process and unattend files. What issues could be caused by using the same drivers for varying types of servers? (Select all that apply.)",
+    "response": "System file corruption, Application or system freezes"
+  },
+  {
+    "query": "A Linux administrator is performing maintenance and changes configuration to a service configuration file. What should the administrator do for the configurations to take effect?",
+    "response": "Restart the service."
+  },
+  {
+    "query": "A computer technician is experiencing issues with a computer and notices that the time is incorrect. What is a potential problem this clock skew could cause if not fixed?",
+    "response": "Inability to log in"
+  },
+  {
+    "query": "A server administrator is troubleshooting connectivity to a device on the intranet but receives \"timeout.\" What are the most likely causes for this problem? (Select all that apply.)",
+    "response": "Misconfigured ping destination, Unable to reach remote subnets"
+  },
+  {
+    "query": "A server technician is attempting to conduct an inventory of servers in the environment. Which of the following would best help assist the technician in inventorying?",
+    "response": "Network Logs"
+  },
+  {
+    "query": "A systems technician has set up a new server. It was successfully set up with a static IP and can reach other areas of the intranet, but cannot reach google.com. Which of the following is the most likely cause?",
+    "response": "Firewall misconfiguration"
+  },
+  {
+    "query": "A systems operator is attempting to diagnose connectivity on a server. Which of the following tools would best assist for this step? (Select all that apply.)",
+    "response": "nc, telnet"
+  },
+  {
+    "query": "A systems engineer looks to record server metrics to justify server upgrade costs. The engineer records information that relates to the server’s overall functionality. Compare the metrics and determine which metric the engineer uses to establish a baseline for proper functionality for user needs.",
+    "response": "Availability"
+  },
+  {
+    "query": "An administrator configures a multifactor authentication (MFA) policy for access to a server. Which policy pertains to a “what you have” approach?",
+    "response": "A smartcard"
+  },
+  {
+    "query": "A hacker attempts to log into several critical servers and network devices in an organization. With the thought that IT might use the same credentials for convenience, which approach does the hacker use?",
+    "response": "Password stuffing"
+  },
+  {
+    "query": "The IT staff at a technology firm develops a matrix to track the performance of customer servers. Which list represents the major subsystems that the IT staff includes in the matrix?",
+    "response": "Processor, memory, storage, network"
+  },
+  {
+    "query": "An organization fears that its mission-critical server is a target for malicious activity. Of the many steps taken to harden the system, which will prevent unauthorized system configuration changes? (Select all that apply.)",
+    "response": "Configure UAC software on the server, Configure HIPS software on the server"
+  },
+  {
+    "query": "An administrator needs to configure a strict password policy for all users that access a Linux server. How can the administrator accomplish this on a modern Linux system?",
+    "response": "The PAM configuration file"
+  },
+  {
+    "query": "A Jr. administrator needs to observe real-time statistics for processes running on a Linux system. Evaluate the options and determine how the Jr. administrator would accomplish this.",
+    "response": "By using the top command"
+  },
+  {
+    "query": "An administrator needs to configure a strict password policy for all users within a Windows domain environment. How can the administrator accomplish this uniformly?",
+    "response": "Group policy"
+  },
+  {
+    "query": "A security consultant suggests a security policy be put in place to provide server hardening. Which step does the policy include to cover external booting?",
+    "response": "Disable any optical drives"
+  },
+  {
+    "query": "An administrator develops a routine server update schedule. Before settling on the task list, which order option should the administrator determine is a best practice to apply any patches or updates?",
+    "response": "Hardware, OS, Applications"
+  },
+  {
+    "query": "An organization requires a Jr. administrator to record a Windows server’s uptime on a monthly basis. Evaluate the options and determine how the Jr. administrator would accomplish this.",
+    "response": "By using the Performance tab in Task Manager"
+  },
+  {
+    "query": "An administrator configures a multifactor authentication (MFA) policy for access to a server. Which policy best fits the recommended approach?",
+    "response": "A password and retinal scan"
+  },
+  {
+    "query": "A systems administrator has repurposed a server that provided SQL server database services to act as a file server for a small department in an organization. In terms of server hardening, what action does the systems administrator take before deploying the server?",
+    "response": "Uninstall any database software and services"
+  },
+  {
+    "query": "A security consultant suggests a security policy be put in place to provide server hardening. What type of security does the consultant recommend with a software firewall?",
+    "response": "Change the default settings"
+  },
+  {
+    "query": "An IT technician who is familiar with Windows systems needs to include Linux servers in a report. The report is to cover the overall functionality of the servers as a health check. Review the technician’s options and determine which tools will fill the requirements. (Select all that apply.)",
+    "response": "Performance Monitor, The sar command"
+  },
+  {
+    "query": "A server engineer deploys five new servers with a new approach to actively mitigate hardware failures and prevent downtime.",
+    "response": "Redundancy"
+  },
+  {
+    "query": "An organization looks to mitigate insider threats. To prevent the possibility of fraud or errors, how does management actively approach responsibility when it comes to accessing data on a server?",
+    "response": " Separation of duties"
+  },
+  {
+    "query": "A systems administrator manages several Linux and Windows servers. Part of the management protocol is checking for any rogue processes. Which tool does the administrator use to accomplish this? (Select all that apply.)",
+    "response": "SELinux, UAC"
+  },
+  {
+    "query": "A small company discovers an issue with data on a server. Investigating the issue reveals that misconfigured permissions, a virus, or malware is to blame. What issue did the organization find to be impacting the data?",
+    "response": "Integrity"
+  },
+  {
+    "query": "An organization looks to mitigate potential theft of data. How does management approach the assignment of duties when it comes to transferring data offsite?",
+    "response": "Two-person integrity"
+  },
+  {
+    "query": "A retail organization houses a server that contains a significant amount of customer and sales data. As a result, there is an abundance of personally identifiable information (PII) at risk. If there were a breach, which non-personal data would link to PII data? (Select all that apply.)",
+    "response": "Customer number, Credit card number"
+  },
+  {
+    "query": "An IT staff looks to deploy a solution that will protect data at rest. The goal is to achieve this at the drive level for 12 mission-critical servers. The servers are a mix of Linux and Windows servers. After reviewing the possibilities, determine which solution the IT staff should use. (Select all that apply.)",
+    "response": "Bitlocker, LUKS"
+  },
+  {
+    "query": "When checking a remote system for open ports, which tool does an engineer find most useful?",
+    "response": "Telnet"
+  },
+  {
+    "query": "A large company discovers an issue with access to shared data on a server. Investigating the issue reveals that a misconfigured Group Policy is to blame. What issue did the company discover?",
+    "response": "Improper privileges"
+  },
+  {
+    "query": "An administrator is setting up a script to automate tasks that query internal systems, as well as set an administrative password. Which system could the administrator query? (Select all that apply.)",
+    "response": "UEFI, BIOS"
+  },
+  {
+    "query": "A user discovers that copying files from the server to a USB drive is failing. After confirming the USB is working properly, IT informs the user that they prohibit files from leaving the building. What solution does IT implement to manage such an activity?",
+    "response": "DLP"
+  },
+  {
+    "query": "A data security expert configures server encryption with the goal of non-repudiation for data access. The expert explains this concept to management using which summary?",
+    "response": "Setting data as private only"
+  },
+  {
+    "query": "An organization performs an audit to decide what internal information the sysadmin needs to secure. To determine which is of the most importance, what does the organization focus its efforts on?",
+    "response": "Data value prioritization"
+  },
+  {
+    "query": "A server engineer deploys a new server with varying levels of security permissions. As the Human Resources department will access this server to store employee records, there is an abundance of personally identifiable information (PII) at risk. Which data would NOT be a direct PII security concern for the engineer?",
+    "response": "Office location"
+  },
+  {
+    "query": "An organization evaluates its data storage policies. Part of the evaluation includes determining what data has any value and if it is worth protecting. During the evaluation process, which category of data risk and cost does the organization decide is expendable?",
+    "response": "Low likelihood of risk and high cost"
+  },
+  {
+    "query": "Two servers in a cluster require several patches and updates. Server 1 is active, and server 2 is passive. To maintain high availability, how does an engineer apply the patches?",
+    "response": "First, apply patches to server 2. Then, make server 2 active and server 1 passive. Next, update server 1. Finally, make server 1 active and server 2 passive."
+  },
+  {
+    "query": "An engineer designs a backup scheme that will efficiently rotate backup media. The scheme includes a weekly full backup, daily incremental backups, and a monthly full backup. Of the rotation methods possible, which does the engineer utilize?",
+    "response": "Grandfather-father-son"
+  },
+  {
+    "query": "An administrator plans to back up a critical server's OS configurations on a daily basis. The administrator targets which data type?",
+    "response": "System state"
+  },
+  {
+    "query": "A systems engineer is responsible for server backups. The current backup scheme executes a full backup every Saturday with an incremental Monday through Sunday. The backup system creates aggregated jobs throughout the week based on this scheme. If the system required a restore during the week, which would the engineer use?",
+    "response": "Synthetic"
+  },
+  {
+    "query": "An organization performs local disaster recovery testing. Engineers prepare the testing environment so that a non-production environment does not impact the production environment. Which testing scheme does the engineer use?",
+    "response": "Parallel"
+  },
+  {
+    "query": "An organization establishes a business continuity plan. Part of the plan involves the ability to establish a base of operations at an alternate site in the event of a catastrophe. Which option does the organization implement when most of the systems are already in place at the alternate site?",
+    "response": "Warm site"
+  },
+  {
+    "query": "An administrator plans to back up a critical server every 15 minutes. What type of strategy does the administrator use?",
+    "response": "NCDP"
+  },
+  {
+    "query": "Two servers work together in a clustered configuration. How do the servers maintain confirmation of each other’s availability?",
+    "response": "By using a heartbeat"
+  },
+  {
+    "query": "An organization holds a disaster recovery meeting. During the meeting, stakeholders review plans and make suggestions. Afterward, the organization performed a mock restore of data to confirm viability. The organization concluded the meeting with what type of test?",
+    "response": "The organization finalizes plans with a walk-through"
+  },
+  {
+    "query": "A server backup schedule begins over a weekend with all servers having a complete backup. During the week, a server administrator performs additional backups that reset the archive bit. Which backup type runs during the week?",
+    "response": "Incremental"
+  },
+  {
+    "query": "A systems engineer works with an old server cluster to reconfigure the heartbeat connection. How would the administrator update this connection to a modern configuration?",
+    "response": "Use the production network connection"
+  },
+  {
+    "query": "An administrator configures load balancing between two web servers. How would load balancing work if the administrator uses a round robin approach?",
+    "response": "Connections are assigned in an order"
+  },
+  {
+    "query": "A server cluster with two Windows servers is put in place by an engineer. Which resources does the cluster share and will not require configuration if one server fails? (Select all that apply.)",
+    "response": "IP address, Storage"
+  },
+  {
+    "query": "A systems administrator repurposes a system for testing disaster and recovery procedures with disk redundancy. What system type does the administrator configure for this purpose?",
+    "response": "Server"
+  },
+  {
+    "query": "While decommissioning a server, an administrator moves all data and services to a new live server. How might the administrator verify that all functionality is on the new server properly?",
+    "response": "Take the older server offline"
+  },
+  {
+    "query": "After decommissioning an aging server, an administrator destroys all hard disks by magnetically erasing the contents. What method does the administrator use to destroy the disks?",
+    "response": "Degaussing"
+  },
+  {
+    "query": "An organization moves into a new facility. Upon inspection of the computer room, an administrator discovered that all previous cabling within the ceiling needs replacing. For what reason will a wiring contractor use plenum cable for the new install?",
+    "response": "Safety"
+  },
+  {
+    "query": "To properly retire and decommission a server, what does an organization follow to ensure that it adheres to proper guidelines?",
+    "response": "Company Policy"
+  },
+  {
+    "query": "A sysadmin has to set up a new server farm that allows for easy replication of Virtual Machines to scale the company’s web application. They need to choose two types of hypervisor to allocate resources for this server farm. What are the two types of hypervisor? (Select all that apply.)",
+    "response": "Bare-metal, Hosted"
+  },
+  {
+    "query": "Many parts of a server require time to be precise to function. If, at any time, the time is no longer accurate, those parts may fail or present error messages. A sysadmin needs to ensure all devices within a domain have the proper time and date. What protocol should be used to ensure proper time and date?",
+    "response": "Network Time Protocol (NTP)"
+  },
+  {
+    "query": "A sysadmin fixed a date and time issue. Now, the server has kernel panics and crashes upon boot. The server has redundant power supply cables plugged into two separate battery backups. What may be the cause that the sysadmin should investigate?",
+    "response": "Memory failure"
+  },
+  {
+    "query": "A sysadmin needs to set up a complete backup of the system. The sysadmin is going to run it at night to not impact end-users. What type of backup is the sysadmin running?",
+    "response": "Incremental"
+  },
+  {
+    "query": "A server is being set up with a Linux operating system. It needs to have its hard disks partitioned to support very large partitions, ACL permissions, and compression. What file system should be used?",
+    "response": "ZFS"
+  },
+  {
+    "query": "A sysadmin needs to prepare the server architecture to ensure business continuity in case of a device failure. Part of that may require automation to simplify restoration. What are potential automations that can speed up restoration in the case when there are no backups available? (Select all that apply.)",
+    "response": "Group policy, Snapshot"
+  },
+  {
+    "query": "A sysadmin is configuring a server with Windows Server operating system. What is the file system typically used for security and stability?",
+    "response": "New Technology File System (NTFS)"
+  },
+  {
+    "query": "A sysadmin created a virtual machine to use as a template. The sysadmin wants to automate the deployment of new servers with this template. What should the sysadmin do to create this template?",
+    "response": "Create a snapshot."
+  },
+  {
+    "query": "A traditional Network Operations Center is not available. A sysadmin needs to order a server that may be more useful in a small office. What form factor of a server should be bought?",
+    "response": "Tower"
+  },
+  {
+    "query": "A system administrator set up a backup for the company shared drives. That sysadmin wants to also set up another backup to specifically target essential operating system configurations. What kind of backup should run?",
+    "response": "System state"
+  },
+  {
+    "query": "A systems administrator is looking to cut down on Capital Expenses (CapEx) and to limit the cost of on-premise installing, maintaining, patching, and upgrading the Content Relationship Management (CRM) software. The CRM provider sells a service that meets these requirements. What type of business model do they have?",
+    "response": "Software-as-a-Service"
+  },
+  {
+    "query": "A new form of disaster recovery service has cropped up recently. It is more cost-effective than a traditional multi-site solution and can be set up to be geographically diverse in location. What form of site is this?",
+    "response": "Cloud site"
+  },
+  {
+    "query": "An employee is trying to access an internal website. That employee reports that there is a “web page not found” error message. What is most likely the cause?",
+    "response": "Misconfigured firewall"
+  },
+  {
+    "query": "As a company expands, various services may need to be integrated to cut down the number of accounts being managed by a sysadmin. What system can be set up to link accounts?",
+    "response": "Single sign-on"
+  },
+  {
+    "query": "Upper management wants to set up a server architecture that allows for rapid deployment of servers for future expansion needs. The sysadmin wants to ensure that the servers are set up correctly, even if someone else has to do the setups on their own. What kind of document should be created that is available and usable across the entire department?",
+    "response": "Standard Operating Procedure (SOP)"
+  },
+  {
+    "query": "A boss asks a sysadmin to justify why the company needs to implement data retention for their email system. The firm is in a highly regulated industry. What is an important reason for data retention?",
+    "response": "Legal consideration"
+  },
+  {
+    "query": "A server just failed to boot. A sysadmin did a diagnostic test, and one of the hard drives has failed. Some data has been lost. What type of redundancy did the storage have?",
+    "response": "RAID 0"
+  },
+  {
+    "query": "A small organization reaches out to a junior sysadmin to recommend a centralized storage solution for its users to save files to outside their workstation. They are concerned that a device may break down or be stolen. If that happens, they will lose important and confidential data. However, they are very price conscious. What recommendation would allow for centralized data storage, may include redundancy, but is relatively inexpensive?",
+    "response": "Network Attached Storage (NAS)"
+  },
+  {
+    "query": "A sysadmin needs to make a change to a Windows server remotely and securely. What administrative interface is best suited for this action?",
+    "response": "Remote Desktop Protocol (RDP)"
+  },
+  {
+    "query": "A sysadmin is setting up a Remote Desktop Services server and needs a way to connect a user's shared drives. What is one method to accomplish this consistently while signing in?",
+    "response": "Login script"
+  },
+  {
+    "query": "A sysadmin set up a server with multiple network interface cards combining them into one single Internet Protocol address connection. This is what concept?",
+    "response": "Network Interface Card (NIC) teaming"
+  },
+  {
+    "query": "A company needs to run cabling from one building to the next. The only available piping that runs where they need it also contains high voltage power. They are worried about high attenuation caused by signal noise leaking into the cable. What form of cabling should they use?",
+    "response": "Fiber optic cable"
+  },
+  {
+    "query": "A server is being set up with 4 terabytes (TB) of storage in one partition, but the operating system only sees 2 terabytes. What type of hard disk table configuration is being used?",
+    "response": "Master Boot Record (MBR)"
+  },
+  {
+    "query": "A company approaches their sysadmin to give an assessment of the physical security of the corporate office and its data center. They ask the sysadmin to recommend a couple options to deter criminals. What are two examples of physical security? (Select all that apply.)",
+    "response": "Lighting, Fencing"
+  },
+  {
+    "query": "A sysadmin needs to protect a server by updating the Operating System, updating hardware firmware, and updating applications. Doing this may eliminate many surfaces of attack by outside hackers. What is this a concept of?",
+    "response": "Patch hardening"
+  },
+  {
+    "query": "A server has multiple forms of internally attached storage. Which is a form of internal storage?",
+    "response": "Serial Advanced Technology Attachment (SATA)"
+  },
+  {
+    "query": "A supervisor requires a bit more control over how updates and patching are handled at both the hardware and software levels. The supervisor suggested that patches need testing before being applied to the Content Relationship Management (CRM) software production environment. However, Capital Expenses (CapEx) need to be limited. The CRM provider sells a service that meets these requirements. What type of business model do they have?",
+    "response": "Infrastructure-as-a-Service"
+  },
+  {
+    "query": "For regulatory reasons, backups must be kept for seven years at a financial company. A sysadmin needs to keep these backups but needs to free up physical space to continue to create new backups. What should the sysadmin do?",
+    "response": "Archive offsite."
+  },
+  {
+    "query": "A sysadmin needs the ability to manage a server, even if it is turned off. The sysadmin learned that the server supports out-of-band management. What are some benefits of out-of-band management of a server? (Select all that apply.)",
+    "response": "Remote power on and off of server, Increased security"
+  },
+  {
+    "query": "A sysadmin is troubleshooting an issue with connectivity. The sysadmin gets an Automatic Private IP Addressing (APIPA) address. What is most likely the cause of the issue?",
+    "response": "A device fails to connect to DHCP."
+  },
+  {
+    "query": "A senior sysadmin needs to ensure that a company’s servers minimize single points of failure. The sysadmin is currently focusing on connectivity for their single server. What concept is this?",
+    "response": "Redundant networking"
+  },
+  {
+    "query": "A system architect has a project to implement: a web application that requires near-zero downtime. It is a business-critical application that would cost the company business and reputation if it failed. The system architect needs to make sure there is not one single point of failure. What is this idea called?",
+    "response": "Redundancy and high availability"
+  },
+  {
+    "query": "A sysadmin is setting up a server cluster. The sysadmin is setting up a load balancer to distribute server requests to increase availability and performance. What variation of server cluster is best for this?",
+    "response": "Active-active"
+  },
+  {
+    "query": "Physical security can include mounting servers and locking them to prevent anyone from accessing the hard drives (HDDs) or inserting a removable media device. What are servers typically mounted in?",
+    "response": "Rack"
+  },
+  {
+    "query": "An employee approaches a sysadmin with issues sending an email. The employee reports that the email client is failing to connect to the server even though the computer connects to the internet and everything else seems normal. What layer of the Open Systems Interconnect (OSI) model is the most likely cause of the issue?",
+    "response": "Layer 7"
+  },
+  {
+    "query": "A sysadmin has decommissioned a server and needs to properly dispose of the data. A third party has suggested multiple options. Which highly reliable option should the sysadmin choose to completely obliterate the data on the hard drives?",
+    "response": "Incinerate drives"
+  },
+  {
+    "query": "A sysadmin needs to protect a server by disabling features such as Universal Serial Bus (USB) ports, extra Network Interface Cards (NICs), and the Digital Video Disk (DVD) drive. By doing this, the sysadmin helps prevent some physical access to the server. What is this a concept of?",
+    "response": "Hardware hardening"
+  },
+  {
+    "query": "A server is running out of space, which is starting to cause problems for users. A sysadmin is managing the Linux server’s file system to see what is consuming much of the disk space. They used a standard storage management command but need it in a more human-readable format. What command and option should they use?",
+    "response": "df -h"
+  },
+  {
+    "query": "A recently hired junior sysadmin is filling a position that was left vacant for over a year. During the time that position was left vacant, nothing was added to the previously implemented asset tracking system. What are some of the risks associated with not tracking assets? (Select all that apply.)",
+    "response": "License violations, Misinformed purchasing decisions"
+  },
+  {
+    "query": "A sysadmin is looking to choose between bare metal and virtualized server installations. What is one benefit of bare metal installations?",
+    "response": "Better security"
+  },
+  {
+    "query": "A company purchased a new office building and needs to set up a network for employees to complete their work. What is a network device that operates on Layer 3 of the OSI model?",
+    "response": "Router"
+  },
+  {
+    "query": "A junior sysadmin in a small organization needs to order equipment. The small organization is looking to replace their aging hardware and does not know what to order. What are the four major subsystems needed for server specifications?",
+    "response": "Processor, Memory, Storage, Network"
+  },
+  {
+    "query": "There are multiple backup schemes. A sysadmin wants the backup scheme to be effective for archiving and allow for recovery of older information. What backup scheme should the sysadmin use?",
+    "response": "Tower of Hanoi"
+  },
+  {
+    "query": "A sysadmin needs to set up a brand new server that protects against data loss, even if two disks fail. What type of Redundant Array of Inexpensive Disks (RAID) could this be? (Select all that apply.)",
+    "response": "RAID 10, RAID 6"
+  },
+  {
+    "query": "A sysadmin is researching an issue where files on the shared drive are going missing. It is not believed that the issue is malicious, but awareness of what is causing the issue is important to a company to prevent data loss. What function can be enabled on a server to accomplish this?",
+    "response": "File auditing"
+  },
+  {
+    "query": "As part of an organization’s change management process, a system needs to be set up to manage patching. A sysadmin has a Windows environment and wants to ensure that all devices on the domain are updated according to a schedule and a set of criteria. What type of system should the sysadmin set up?",
+    "response": "Windows Server Update Service"
+  },
+  {
+    "query": "Risks cannot be eliminated. A sysadmin is looking for ways to mitigate risks. Which of the following would prove least effective in mitigating risk?",
+    "response": "Removing Security Information and Event Management (SIEM)"
+  },
+  {
+    "query": "A new network was set up with the Internet protocol (IP) range of 192.168.13.2-192.168.13.100. The internet service provider has set up a static IP address of 104.215.148.63. How are devices able to connect to the internet with this connection?",
+    "response": "Network Address Translation"
+  },
+  {
+    "query": "A sysadmin needs to set up a backup scheme that is relatively simple and easy to manage. The sysadmin is not looking to keep backups for archiving purposes. What backup scheme should the sysadmin use?",
+    "response": "First-In, First-Out (FIFO)"
+  },
+  {
+    "query": "A sysadmin receives a support ticket stating that an employee is causing trouble after going through the Human Resources folder on the company shared drive. How does the sysadmin efficiently resolve the issue?",
+    "response": "Principle of least privilege"
+  },
+  {
+    "query": "A senior system administrator is looking to automate the creation of virtual machines. Imaging is one solution found. What are the benefits of imaging? (Select all that apply.)",
+    "response": "Consistent, Very efficient"
+  },
+  {
+    "query": "A new systems administrator at an organization is working on a new project. The organization requires control over security and data, as the data they store is highly sensitive. They are willing to bear the increased costs and maintenance. What kind of deployment are they looking for?",
+    "response": "On-premise"
+  },
+  {
+    "query": "A fundamental concept of device access and security is the administration of user accounts. Permissions for accessing file shares are typically assigned by security group. Users are then added to security groups as necessary. In what ways can a sysadmin manage local user accounts in Windows? (Select all that apply.)",
+    "response": "Computer Management, cmd"
+  },
+  {
+    "query": "A junior sysadmin is currently ordering a new server to replace an aging server that received constant complaints about being slow. Once the server arrives, what should the sysadmin do to ensure normal behavior for that server, regardless of the specifications?",
+    "response": "Run performance baseline."
+  },
+  {
+    "query": "A sysadmin deployed a RemoteApp to each employee's computer in the Human Resources group. However, a user reports that they do not see the RemoteApp. What command should the sysadmin run on that user's computer to investigate the issue?",
+    "response": "gpedit"
+  },
+  {
+    "query": "A junior sysadmin must differentiate between devices supported in the organization. What type of device hardware is designed for high performance, redundancy, and may have multiple network interface cards?",
+    "response": "Server"
+  },
+  {
+    "query": "The office manager for a company is upset that the file server was down while the sysadmin was on paid time off (PTO). They demand that they get a key to the door to the server room in order to restart the file server. What type of security is this?",
+    "response": "Physical security"
+  },
+  {
+    "query": "A sysadmin is looking to contract a third-party vendor for disaster recovery in case the main corporate office goes down. The sysadmin wants to balance cost with speed of recovery. However, they want a more traditional multi-site option. What is the best type of site to have the vendor set up?",
+    "response": "Warm site"
+  },
+  {
+    "query": "A junior sysadmin is approached by the owner of an organization. The owner wishes to cut down on using proprietary-licensed software, because the owner heard it is the easiest way to cut down on costs. The sysadmin needs to explain to the owner that proprietary licensed software may have its benefits over free and open-source software that are worth the associated purchase cost. Choose all benefits of the proprietary software licensing model (Select all that apply).",
+    "response": "More reliable vendor support, More reliable documentation"
+  },
+  {
+    "query": "A user complains that their password has expired and they are unable to set a new password. What reasons may be preventing the user from setting a new password? (Select all that apply.)",
+    "response": "Password complexity, Password reuse"
+  },
+  {
+    "query": "A junior sysadmin is looking to set up a simple backup of a file server. The small company the sysadmin works for cannot afford to set up a full-fledged backup system, but has an unused network attached storage (NAS) device available. What is one option available to provide a consistent and scheduled way to accomplish this?",
+    "response": "Scripting"
+  },
+  {
+    "query": "A sysadmin needs to order a new server. The server has to have a vast amount of storage space and run fast, but try to be as cost-effective as possible. What type of hard drive is best to purchase?",
+    "response": "15,000 RPM Traditional Hard Drive"
+  },
+  {
+    "query": "A sysadmin is setting up a backup system to run backups every 1 hour. The sysadmin needs the backup to not take a long time, because if it takes longer than the interval, the backups will start to fail. What type of backup should the sysadmin set up after the first initial backup?",
+    "response": "Incremental"
+  },
+  {
+    "query": "An employee was let go from a company and all the let-go employee's emails have been deleted. A sysadmin needs to prevent this from happening in the future. What type of policy should be set up to prevent data loss?",
+    "response": "Retention"
+  },
+  {
+    "query": "A server’s file share is running out of storage space, and the server does not currently have any additional disk space available to expand the file share. The server has a few additional hard drive slots available. A sysadmin has just finished testing a theory on how to resolve the issue. However, before a sysadmin can make changes, what do they need to do, according to the fifth step in the troubleshooting methodology?",
+    "response": "Establish a plan of action"
+  },
+  {
+    "query": "During a normal audit of software installed on users’ workstations, a sysadmin found a user with a piece of unauthorized software installed on their computer. The sysadmin needs to set up a way to prevent this from happening in the future. What should the sysadmin implement?",
+    "response": "Enable user access controls"
+  },
+  {
+    "query": "A sysadmin needs to make a change to a Linux server remotely and securely. What administrative interface is best for this action?",
+    "response": "Secure Shell (SSH)"
+  },
+  {
+    "query": "A sysadmin is installing a new Wireless Access Point (WAP). Devices cannot find the WAP to connect to it. The sysadmin tests the ethernet connection the WAP connects to, and it has connectivity. This issue is most likely at which layer of the Open Systems Interconnect (OSI) model?",
+    "response": "Layer 2"
+  },
+  {
+    "query": "A sysadmin is receiving numerous tickets about Remote Desktop Services sessions showing the wrong time and date. This is a reoccurring issue that happens every time the server reboots. During troubleshooting, the sysadmin identified the cause. What is one possibility as to why the time and date are wrong?",
+    "response": "CMOS battery failure"
+  },
+  {
+    "query": "There are various ways to protect data from unauthorized access and distribution. A sysadmin is looking to protect a company's data. The protection method must ensure confidentiality, integrity, and non-repudiation. What method would best solve this need?",
+    "response": "Encryption"
+  },
+  {
+    "query": "A sysadmin needs to set up two separate networks within the same physical location and needs to use the same hardwired connections for both networks. However, the network equipment is very basic, and there is no budget. How would the sysadmin accomplish this?",
+    "response": "Segmentation"
+  },
+  {
+    "query": "A sysadmin needs to create a backup script that will check if a specific folder path on 1000s of servers needs to be backed up or not. What type of code should the sysadmin use?",
+    "response": "Loop"
+  },
+  {
+    "query": "A sysadmin has a brand new server that has a Linux Operating System installed. They need to manage the disk partitions. What commands could be used? (Select all that apply.)",
+    "response": "parted, fdisk"
+  },
+  {
+    "query": "A company has a dedicated network operations center. They have several server enclosures to manage their consumer-facing web applications. These server enclosures consume less horizontal space and are easily secured. What form factor of server do they have?",
+    "response": "Rack"
+  },
+  {
+    "query": "A sysadmin is advising the owners of a company on cloud computing. They are looking to revolutionize how Information Technology (IT) services are provided at their company. What is not something the admin will discuss based on the NIST?",
+    "response": "Server Redundancy"
+  },
+  {
+    "query": "A sysadmin is wiring a new office for internet access and needs to ensure that proper building codes and connectivity quality expectations are followed when wiring network connectivity in the overhead space in the ceiling. What type of cable should the sysadmin use that will be the most reliable method to accomplish this?",
+    "response": "Plenum"
+  },
+  {
+    "query": "There are many parts to take into account when using cloud services. As such, this complicates the troubleshooting of issues as they arise. A sysadmin is troubleshooting a company's email service outage and verifies that the internet connection, software, and end-user devices are working perfectly fine. What type of an issue is this?",
+    "response": "External"
+  },
+  {
+    "query": "A sysadmin is setting up a new wireless access point (WAP). When a device connects to the WAP, it cannot connect to the internet. The sysadmin runs ipconfig and sees the Internet Protocol (IP) Address 169.254.0.13. What kind of address is this?",
+    "response": "Automatic Private IP Addressing (APIPA)"
+  },
+  {
+    "query": "A hardware firewall is having issues completing Virtual Private Network (VPN) connections. A sysadmin needs to determine what step of the connection process it fails. What software can sniff the traffic and display the contents of that transmission?",
+    "response": "Wireshark"
+  },
+  {
+    "query": "A major part of a sysadmin’s role is to troubleshoot issues in a consistent manner that can eliminate possible future reoccurrences. What should a sysadmin do throughout the troubleshooting process?",
+    "response": "Document findings, actions, and outcomes"
+  },
+  {
+    "query": "A server recently crashed and refuses to boot back up. The company’s shared drives are not affected. A sysadmin is running a system state backup restore. The sysadmin is not worried about replacing existing data during the restoration. What type of restoration should the sysadmin do?",
+    "response": "Overwrite"
+  },
+  {
+    "query": "A company wants to reduce Capital Expenses (CapEx) and total cost of ownership (TCO). They want to ensure the company does not have to maintain obsolete equipment. They do not want to move to a cloud provider and, instead, want to keep servers on-premise. What is an attractive option for this company?",
+    "response": "Leasing"
+  },
+  {
+    "query": "A system administrator is troubleshooting issues in their environment. What is one command line tool that can assist in intercepting network traffic?",
+    "response": "tcpdump"
+  },
+  {
+    "query": "A sysadmin is participating in an office remodel, adding an additional floor of workspace. They are running network cabling to that floor, but it is 125 meters away from the main network closet. The connection must not be accessible by people outside of the two floors the company occupies. What is one type of media that can run between the two network closets?",
+    "response": "Fiber optic"
+  }
 ]
