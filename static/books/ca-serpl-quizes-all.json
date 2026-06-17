@@ -57,7 +57,7 @@
   },
   {
     "query": "A server administrator is looking at a mixture of server hardware in their environment including older to newer models. All of the hardware is running on Intel. The administrator is digging into the integrated communications paths that exist across all the motherboards. Which of the following is most likely the answer?",
-    "response": "QuickPath Interconnect"
+    "response": "Front Side Bus"
   },
   {
     "query": "A technician is troubleshooting issues within a portion of the data center and finds that a device has become unusable. It does not show a blue screen error. What is the most likely scenario?",
@@ -381,7 +381,7 @@
   },
   {
     "query": "An IT administrator is conducting an investigation and is looking for metadata that is only associated with one host. What type of metadata could the administrator find tied to only one host?",
-    "response": "IP Address, Media Access Control (MAC) address"
+    "response": "Media Access Control (MAC) address"
   },
   {
     "query": "A storage technician is setting up a Linux server for a pool of disks installed on a server. What does the technician need to set up next for the pool of disks?",
