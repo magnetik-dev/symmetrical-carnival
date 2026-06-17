@@ -76,19 +76,11 @@
     "response": "The top command, The sar command"
   },
   {
-    "query": "A server engineer deploys five new servers with a new approach to actively mitigate hardware failures and prevent downtime.\nSelect one:",
-    "response": "Redundancy"
-  },
-  {
-    "query": "When checking a remote system for open ports, which tool does an engineer find most useful?\nSelect one:",
-    "response": "telnet"
-  },
-  {
     "query": "An organization establishes a business continuity plan. Part of the plan involves the ability to establish a base of operations at an alternate site in the event of a catastrophe that has the necessary space for a data center and business offices and some of the required computer and network hardware. Which option does the organization consider while keeping the cost as low as possible?",
     "response": "Warm site"
   },
   {
-    "query": "Two servers work together in a clustered configuration. How do the servers maintain confirmation of each other's availability?\nSelect one:",
+    "query": "Two servers work together in a clustered configuration. How do the servers maintain confirmation of each other's availability?",
     "response": "By using a heartbeat"
   },
   {
