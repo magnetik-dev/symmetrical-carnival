@@ -41,7 +41,8 @@ export const handle: Handle = async ({ event, resolve }) => {
 
   // Auth Guards
   const isProtectedPath = event.url.pathname.startsWith('/quiz') 
-    || event.url.pathname.startsWith('/generator');
+    || event.url.pathname.startsWith('/generator')
+    || event.url.pathname.startsWith('/dashboard');
   
   if (isProtectedPath && !user) {
     throw redirect(303, '/');
@@ -49,7 +50,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 
   // Redirect logged-in users away from root (login) if they are already authenticated
   if (event.url.pathname === '/' && user) {
-      throw redirect(303, '/quiz');
+      throw redirect(303, '/dashboard');
   }
 
   return resolve(event, {
