@@ -13,8 +13,10 @@ This project is a SvelteKit-based web application designed for viewing and gener
 - `src/routes/`: Contains the application's pages.
     - `+page.svelte`: Main viewer for quiz entries. Supports searching and book selection via query parameters.
     - `dashboard/+page.svelte`: Student registry dashboard displaying real-time statistics and a searchable table of student records.
-    - `dashboard/+page.server.ts`: Server load function that retrieves dynamic count statistics and student records with joined batch and lead info.
+    - `dashboard/+page.server.ts`: Server load function that returns minimal payloads, delegating data fetching to the client-side cache.
     - `generator/+page.svelte`: Utility page for creating new quiz JSON data.
+- `src/lib/`: Shared application libraries and utilities.
+    - `state.svelte.ts`: A Svelte 5 reactive cache store (`registryCache`) that handles fetching, flat-mapping, and persisting student registry data.
 - `static/books/`: Directory containing JSON files for various quiz sets.
 - `src/app.d.ts`: Global type definitions, including the `App.Entry` and `App.Profile` interfaces.
 - `DATABASE_SCHEMA.md`: Documentation of the Supabase database schema, tables, types, and relationships.
@@ -24,7 +26,7 @@ This project is a SvelteKit-based web application designed for viewing and gener
 
 ### Svelte 5 Runes
 The project utilizes Svelte 5 Runes for reactivity:
-- `$state`: Used for mutable state (e.g., search queries, list of entries).
+- `$state`: Used for mutable state (e.g., search queries, list of entries, cache states).
 - `$derived`: Used for computed values (e.g., filtered results, JSON output).
 - `$effect`: Used for side effects (e.g., syncing load data with local state).
 - `$props`: Used for receiving component properties.
@@ -41,8 +43,11 @@ The project utilizes Svelte 5 Runes for reactivity:
   - The `Profile` interface defines the structure, including the user's `role`.
   - Profiles are fetched on the server via `event.locals.getProfile()` and exposed globally through `src/routes/+layout.server.ts`.
 - **Student & Academic Records:** Managed via Supabase tables (`students`, `batch`, `leads`, `programs`, `providers`, `payments`).
-  - Fetched using relational joins in SvelteKit server load functions (`+page.server.ts`).
-  - Normalized or flat-mapped on the server before being sent to the client to ensure clean, type-safe props on the frontend.
+  - Managed and fetched on the client side using the reactive cache store (`src/lib/state.svelte.ts`).
+  - **In-Memory Caching:** The cache store (`registryCache`) retains loaded data in Svelte 5 state runes to allow instantaneous client-side navigation without re-fetching.
+  - **Session Persistence:** State is cached in the browser's `sessionStorage` so that hard page refreshes do not trigger database hits.
+  - **Manual Refresh:** The UI provides a manual "Refresh" trigger to force-fetch fresh data from the database whenever needed.
+  - **Flat-mapping:** Relational joins (getting `batch_name` and `lead_name`) are normalized inside the store to present clean properties to the UI.
   - See `DATABASE_SCHEMA.md` for a comprehensive ER diagram and table schemas.
 
 ### UI & Styling
@@ -60,7 +65,7 @@ The project utilizes Svelte 5 Runes for reactivity:
 - **Maintain Bulma Consistency:** Use Bulma classes for any new UI components or modifications.
 - **Type Safety:** Use appropriate types from `src/app.d.ts` for quiz-related and profile-related data. Ensure all new components and functions are properly typed.
 - **Surgical Edits:** When modifying pages, ensure the existing logic for query parameters, authentication guards, and data fetching remains intact.
-- **Server-Side Data Formatting:** When querying relational tables (e.g., Supabase joins), perform mapping and normalization on the server side (`+page.server.ts`) to present clean, flat properties to Svelte components.
+- **Leverage the Cache Store:** For academic and student records, always interact with `registryCache` in `src/lib/state.svelte.ts` instead of writing ad-hoc Supabase queries in views or server files.
 - **Database Context:** Always consult `DATABASE_SCHEMA.md` when writing or modifying queries targeting the Supabase database.
 
 ## Antigravity CLI
@@ -68,7 +73,6 @@ Run the following command after installing Antigravity
 ```
 agy
 ```
-
-```
-Resume: agy --conversation=d43c97b9-5d4e-4a79-abef-52780f3cf5b7 (or -c)
-```
+## Icons
+Icons from FontAwesome 4
+https://fontawesome.com/v4/icons/
