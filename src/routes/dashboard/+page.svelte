@@ -6,7 +6,26 @@
     import Sidebar from "$lib/components/Sidebar.svelte";
     import BackToTop from "$lib/components/BackToTop.svelte";
 
+    // Receive layout data containing profile info
+    let { data } = $props();
+
     let search = $state('');
+
+    // Form state variables
+    let showModal = $state(false);
+    let studentNumber = $state('');
+    let studentName = $state('');
+    let studentAltName = $state('');
+    let studentEmail = $state('');
+    let studentProfile = $state('');
+    let studentStatus = $state('ACTIVE');
+    let studentNotes = $state('');
+    let studentBatchId = $state('');
+    let studentReferedBy = $state('');
+    let studentPassword = $state('');
+    let formError = $state<string | null>(null);
+    let formSuccess = $state(false);
+    let isSubmitting = $state(false);
 
     // Load data on component mount (reads from sessionStorage cache first, then fetches if empty)
     onMount(() => {
@@ -30,6 +49,58 @@
             );
         })
     );
+
+    // Handle form submission
+    const handleSubmit = async (e: Event) => {
+        e.preventDefault();
+        
+        if (!studentNumber || !studentName || !studentEmail || !studentPassword) {
+            formError = 'Please fill out all required fields (Student Number, Name, Email, and Password).';
+            return;
+        }
+
+        isSubmitting = true;
+        formError = null;
+        formSuccess = false;
+
+        const studentData = {
+            student_number: studentNumber.trim(),
+            name: studentName.trim(),
+            alt_name: studentAltName.trim() || null,
+            email: studentEmail.trim(),
+            profile: studentProfile.trim() || null,
+            status: studentStatus,
+            notes: studentNotes.trim() || null,
+            batch_id: studentBatchId || null,
+            refered_by: studentReferedBy || null
+        };
+
+        const result = await registryCache.addStudent(studentData, studentPassword);
+
+        isSubmitting = false;
+
+        if (result.success) {
+            formSuccess = true;
+            // Reset form fields
+            studentNumber = '';
+            studentName = '';
+            studentAltName = '';
+            studentEmail = '';
+            studentProfile = '';
+            studentStatus = 'ACTIVE';
+            studentNotes = '';
+            studentBatchId = '';
+            studentReferedBy = '';
+            studentPassword = '';
+            
+            setTimeout(() => {
+                showModal = false;
+                formSuccess = false;
+            }, 1500);
+        } else {
+            formError = result.error || 'An error occurred while adding the student.';
+        }
+    };
 </script>
 
 <section class="section">
@@ -37,33 +108,33 @@
 
         <!-- Level Stats Section -->
         <nav class="level" style="align-items: flex-start">
-            <div class="level-item has-text-centered box is-shadowless has-background-primary-dark p-5 mx-2">
+            <div class="level-item glow-on-hover has-text-centered box has-background-primary-dark p-3 mx-2">
                 <div>
-                    <p class="heading has-text-weight-medium pb-4 has-text-grey-light">Students</p>
+                    <p class="heading has-text-weight-medium is-size-5 pb-4 has-text-grey-light">Students</p>
                     <p class="is-size-1 has-text-weight-bold has-text-white">
                         {registryCache.isLoading && !registryCache.isLoaded ? '...' : registryCache.stats.studentsCount}
                     </p>
                 </div>
             </div>
-            <div class="level-item has-text-centered box is-shadowless has-background-primary-dark p-5 mx-2">
+            <div class="level-item has-text-centered box glow-on-hover has-background-primary-dark p-3 mx-2">
                 <div>
-                    <p class="heading has-text-weight-medium pb-4 has-text-grey-light">Batches</p>
+                    <p class="heading has-text-weight-medium is-size-5 pb-4 has-text-grey-light">Batches</p>
                     <p class="is-size-1 has-text-weight-bold has-text-white">
                         {registryCache.isLoading && !registryCache.isLoaded ? '...' : registryCache.stats.batchesCount}
                     </p>
                 </div>
             </div>
-            <div class="level-item has-text-centered box is-shadowless has-background-primary-dark p-5 mx-2">
+            <div class="level-item has-text-centered box glow-on-hover has-background-primary-dark p-3 mx-2">
                 <div>
-                    <p class="heading has-text-weight-medium pb-4 has-text-grey-light">Courses</p>
+                    <p class="heading has-text-weight-medium is-size-5 pb-4 has-text-grey-light">Courses</p>
                     <p class="is-size-1 has-text-weight-bold has-text-white">
                         {registryCache.isLoading && !registryCache.isLoaded ? '...' : registryCache.stats.programsCount}
                     </p>
                 </div>
             </div>
-            <div class="level-item has-text-centered box is-shadowless has-background-primary-dark p-5 mx-2">
+            <div class="level-item has-text-centered box glow-on-hover has-background-primary-dark p-3 mx-2">
                 <div>
-                    <p class="heading has-text-weight-medium pb-4 has-text-grey-light">Leads</p>
+                    <p class="heading has-text-weight-medium is-size-5 pb-4 has-text-grey-light">Leads</p>
                     <p class="is-size-1 has-text-weight-bold has-text-white">
                         {registryCache.isLoading && !registryCache.isLoaded ? '...' : registryCache.stats.leadsCount}
                     </p>
@@ -108,11 +179,22 @@
             <div class="level mb-4">
                 <div class="level-left">
                     <div class="level-item">
-                        <h2 class="title is-4 mb-0">Student Registry</h2>
+                        &nbsp;
                     </div>
                 </div>
                 <div class="level-right">
                     <div class="level-item">
+                        <!-- Add Student Button (Admin Only) -->
+                        {#if data.profile?.role === 'admin'}
+                            <button 
+                                class="button is-success is-small is-rounded mr-3" 
+                                onclick={() => { showModal = true; formError = null; formSuccess = false; }}
+                                title="Add new student record"
+                            >
+                                <i class="fa fa-plus mr-2" aria-hidden="true"></i>
+                                <span>Add Student</span>
+                            </button>
+                        {/if}
                         <!-- Manual Refresh Button -->
                         <button 
                             class="button is-primary is-darker is-small is-rounded mr-3 {registryCache.isLoading ? 'is-loading' : ''}" 
@@ -134,11 +216,11 @@
                 <table class="table is-striped is-hoverable is-fullwidth">
                     <thead>
                         <tr>
-                            <th class="has-text-grey">Student Number</th>
-                            <th class="has-text-grey">Name</th>
-                            <th class="has-text-grey">Profile</th>
-                            <th class="has-text-grey">Batch</th>
-                            <th class="has-text-grey">Referred By</th>
+                            <th class="has-text-grey is-size-4">Student Number</th>
+                            <th class="has-text-grey is-size-4">Name</th>
+                            <th class="has-text-grey is-size-4">Profile</th>
+                            <th class="has-text-grey is-size-4">Batch</th>
+                            <th class="has-text-grey is-size-4">Referred By</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -195,4 +277,225 @@
     </div>
 </section>
 
+<!-- Add Student Modal (Only accessible/rendered for admin users) -->
+{#if data.profile?.role === 'admin'}
+    <div class="modal {showModal ? 'is-active' : ''}">
+        <div class="modal-background" onclick={() => { if (!isSubmitting) showModal = false; }} role="button" tabindex="0" onkeydown={(e) => e.key === 'Escape' && !isSubmitting && (showModal = false)}></div>
+        <div class="modal-card">
+            <header class="modal-card-head">
+                <p class="modal-card-title">Add Student Record</p>
+                <button class="delete" aria-label="close" onclick={() => { if (!isSubmitting) showModal = false; }}></button>
+            </header>
+            <section class="modal-card-body">
+                {#if formError}
+                    <div class="notification is-danger is-light">
+                        <button class="delete" onclick={() => formError = null} aria-label="Dismiss error"></button>
+                        <strong>Error:</strong> {formError}
+                    </div>
+                {/if}
+
+                {#if formSuccess}
+                    <div class="notification is-success is-light">
+                        <strong>Success:</strong> Student record created and credentials encrypted successfully!
+                    </div>
+                {/if}
+
+                <form onsubmit={handleSubmit}>
+                    <div class="columns">
+                        <div class="column is-half">
+                                                <!-- Student Number -->
+                            <div class="field">
+                                <label class="label" for="student-number">Student Number <span class="has-text-danger">*</span></label>
+                                <div class="control">
+                                    <input 
+                                        id="student-number"
+                                        class="input" 
+                                        type="text" 
+                                        placeholder="e.g. STU12345" 
+                                        bind:value={studentNumber} 
+                                        required 
+                                        disabled={isSubmitting || formSuccess}
+                                    />
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="column is-half">
+                            <!-- Email -->
+                            <div class="field">
+                                <label class="label" for="student-email">Email Address <span class="has-text-danger">*</span></label>
+                                <div class="control">
+                                    <input 
+                                        id="student-email"
+                                        class="input" 
+                                        type="email" 
+                                        placeholder="e.g. jane.doe@example.com" 
+                                        bind:value={studentEmail} 
+                                        required 
+                                        disabled={isSubmitting || formSuccess}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="columns">
+                        <div class="column is-half">
+                            <!-- Name -->
+                            <div class="field">
+                                <label class="label" for="student-name">Full Name <span class="has-text-danger">*</span></label>
+                                <div class="control">
+                                    <input 
+                                        id="student-name"
+                                        class="input" 
+                                        type="text" 
+                                        placeholder="e.g. Jane Doe" 
+                                        bind:value={studentName} 
+                                        required 
+                                        disabled={isSubmitting || formSuccess}
+                                    />
+                                </div>
+                            </div>                           
+                        </div>
+                        <div class="column is-half">
+                            <!-- Alternate Name -->
+                            <div class="field">
+                                <label class="label" for="student-alt-name">Alternate Name (Optional)</label>
+                                <div class="control">
+                                    <input 
+                                        id="student-alt-name"
+                                        class="input" 
+                                        type="text" 
+                                        placeholder="e.g. J. Doe" 
+                                        bind:value={studentAltName} 
+                                        disabled={isSubmitting || formSuccess}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="columns">
+                        <div class="column is-half">
+                    <!-- Password -->
+                    <div class="field">
+                        <label class="label" for="student-password">Password <span class="has-text-danger">*</span></label>
+                        <div class="control">
+                            <input 
+                                id="student-password"
+                                class="input" 
+                                type="password" 
+                                placeholder="Enter student portal password" 
+                                bind:value={studentPassword} 
+                                required 
+                                disabled={isSubmitting || formSuccess}
+                            />
+                        </div>
+                    </div>
+                        </div>
+                        <div class="column is-half">
+                    <!-- Profile Link/Text -->
+                    <div class="field">
+                        <label class="label" for="student-profile">Profile (Optional)</label>
+                        <div class="control">
+                            <input 
+                                id="student-profile"
+                                class="input" 
+                                type="text" 
+                                placeholder="Browser@System" 
+                                bind:value={studentProfile} 
+                                disabled={isSubmitting || formSuccess}
+                            />
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+
+                    <div class="columns">
+                        <div class="column is-half">
+                    <!-- Batch Dropdown (Cached) -->
+                    <div class="field">
+                        <label class="label" for="student-batch">Batch / Cohort (Optional)</label>
+                        <div class="control">
+                            <div class="select is-fullwidth">
+                                <select id="student-batch" bind:value={studentBatchId} disabled={isSubmitting || formSuccess}>
+                                    <option value="">-- Select Batch --</option>
+                                    {#each registryCache.batchesList as batch}
+                                        <option value={batch.id}>{batch.batch_name || 'Unnamed Batch'}</option>
+                                    {/each}
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                        </div>
+                        <div class="column is-half">
+                    <!-- Referred By / Lead Dropdown (Cached) -->
+                    <div class="field">
+                        <label class="label" for="student-referred">Referred By / Lead Source (Optional)</label>
+                        <div class="control">
+                            <div class="select is-fullwidth">
+                                <select id="student-referred" bind:value={studentReferedBy} disabled={isSubmitting || formSuccess}>
+                                    <option value="">-- Select Lead Source --</option>
+                                    {#each registryCache.leadsList as lead}
+                                        <option value={lead.id}>{lead.lead_name}</option>
+                                    {/each}
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <!-- Hidden submit button so hitting enter submits the form -->
+                    <button type="submit" class="is-hidden" aria-label="Submit Form" disabled={isSubmitting || formSuccess}></button>
+                </form>
+            </section>
+            <footer class="modal-card-foot">
+                <button 
+                    type="button" 
+                    class="button is-success {isSubmitting ? 'is-loading' : ''}" 
+                    onclick={handleSubmit}
+                    disabled={isSubmitting || formSuccess}
+                >
+                    Save Student
+                </button>
+                <button 
+                    type="button" 
+                    class="button" 
+                    onclick={() => { if (!isSubmitting) showModal = false; }}
+                    disabled={isSubmitting || formSuccess}
+                >
+                    Cancel
+                </button>
+            </footer>
+        </div>
+    </div>
+{/if}
+
 <BackToTop />
+
+<style>
+.glow-on-hover {
+  /* Smooth transition for when the mouse enters AND leaves the box */
+  transition: box-shadow 0.6s ease, transform 0.6s ease;
+  box-shadow: none;
+}
+
+.glow-on-hover:hover {
+  /* Adjust the color (#00d1b2) to match your specific Bulma primary color */
+  box-shadow: 0 0 20px 5px rgba(0, 209, 178, 0.4);
+  
+  /* Optional: slightly lifts the box for a more dynamic interactive feel */
+  transform: translateY(-2px); 
+}
+</style>

@@ -46,9 +46,17 @@ The project utilizes Svelte 5 Runes for reactivity:
   - Managed and fetched on the client side using the reactive cache store (`src/lib/state.svelte.ts`).
   - **In-Memory Caching:** The cache store (`registryCache`) retains loaded data in Svelte 5 state runes to allow instantaneous client-side navigation without re-fetching.
   - **Session Persistence:** State is cached in the browser's `sessionStorage` so that hard page refreshes do not trigger database hits.
+  - **Dropdown & Reference Data**: The cache store automatically fetches and caches the list of available batches (`batchesList`) and lead sources (`leadsList`) on app load. These are used to populate dropdown selections in data entry forms.
   - **Manual Refresh:** The UI provides a manual "Refresh" trigger to force-fetch fresh data from the database whenever needed.
   - **Flat-mapping:** Relational joins (getting `batch_name` and `lead_name`) are normalized inside the store to present clean properties to the UI.
   - See `DATABASE_SCHEMA.md` for a comprehensive ER diagram and table schemas.
+
+### Admin Tools & Transactions
+- **Student Enrollment:** Users with the `'admin'` role have access to an **Add Student** form in the dashboard.
+- **Transaction Flow**:
+  1. Inserts the student record into the `public.students` table.
+  2. Calls the Supabase RPC function `encrypt_student_password(s_number, raw_password)` to securely hash and insert the credentials into the `public.students_credentials` table.
+  3. Triggers a force-refresh of `registryCache` to update the dashboard metrics and student list instantly.
 
 ### UI & Styling
 - **Bulma:** The project uses Bulma for layout and styling. It is imported globally in `src/routes/+layout.svelte`.
@@ -73,6 +81,3 @@ Run the following command after installing Antigravity
 ```
 agy
 ```
-## Icons
-Icons from FontAwesome 4
-https://fontawesome.com/v4/icons/
