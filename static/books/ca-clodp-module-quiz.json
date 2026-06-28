@@ -3539,5 +3539,143 @@
   {
     "query": "You are managing a small web hosting company that has recently started experiencing increased traffic to its websites. You need a simple and effective way to distribute incoming traffic evenly across multiple servers to ensure that no single server is overwhelmed. Which load balancing scheduling type should you implement to achieve this, and why?",
     "response": "Round-robin, because it ensures an even distribution of traffic."
+  },
+  {
+    "query": "What does the term \"serverless\" imply in the context of Function as a Service (FaaS)?",
+    "response": "Compute resources are allocated on demand and no resources are reserved when the application is not in use."
+  },
+  {
+    "query": "A sysadmin recently set up a configuration file for a virtual machine farm that specified hardware allocation, such as memory and processing power. The sysadmin is using this template to simplify virtual machine deployment. What type of virtual machine template is the sysadmin implementing?",
+    "response": "Operating System"
+  },
+  {
+    "query": "An organization needs to deploy a scalable web application that requires frequent updates and minimal downtime. Which virtualization solution should they analyze for this purpose, and why?",
+    "response": "Containers, because they are lightweight and support microservices architecture."
+  },
+  {
+    "query": "A single user is having trouble downloading files from the CSP's server. The download fails with a message stating the files were blocked. Frustrated, the user claims that resolving this matter falls on the CSP. Which of the following best represents who should initiate for this incident to be resolved?",
+    "response": "The user"
+  },
+  {
+    "query": "Your company is planning to deploy a new version of an internal application used by the finance department. The application is critical for daily operations, and any downtime could disrupt financial reporting. Which deployment strategy should you avoid and why?",
+    "response": "In-place deployment, because it results in downtime"
+  },
+  {
+    "query": "A company is moving to rebuild its primary business application and wants to minimize the cost of ownership and maintenance. The company is looking towards moving its application to the cloud. Security and regulatory restrictions are not important as the application does not handle confidential information. What cloud option would best suit their needs?",
+    "response": "Public"
+  },
+  {
+    "query": "A multinational corporation needs to ensure that its cloud services are highly available and can withstand regional outages. They also need to comply with various data sovereignty laws that require data to be stored within specific countries. Which cloud deployment model should they consider and why?",
+    "response": "Hybrid Cloud, because it can combine the benefits of both private and public clouds."
+  },
+  {
+    "query": "Given the shift from CapEx to OpEx in cloud services, how might a company evaluate the financial impact of moving to a cloud-based infrastructure?",
+    "response": "By assessing the scalability and flexibility benefits against the potential increase in operational costs."
+  },
+  {
+    "query": "A server administrator is setting up a cloud host used for machine learning. Which of the following components would be most beneficial to increase performance?",
+    "response": "GPU"
+  },
+  {
+    "query": "A financial services company is planning to deploy its data to a cloud service provider. The company operates in multiple countries, including the United States and several European Union nations. Which compliance requirement should the company analyze to ensure it meets both regional and international standards?",
+    "response": "Regulatory requirements"
+  },
+  {
+    "query": "Which of the following scenarios best demonstrates the effective use of resource metering for cost optimization in a cloud environment?",
+    "response": "A company tags resources and uses resource metering data to right-size their virtual machines, reducing costs by 20%."
+  },
+  {
+    "query": "What is the primary purpose of a primary key in a relational database?",
+    "response": "To ensure that each row in a table is unique."
+  },
+  {
+    "query": "What is one of the main advantages of using a Storage Area Network (SAN) over Network Attached Storage (NAS)?",
+    "response": "SANs provide greater scalability, fault tolerance, and performance."
+  },
+  {
+    "query": "What should typically be migrated simultaneously with their back-end databases?",
+    "response": "Applications"
+  },
+  {
+    "query": "A company wants to enhance its network security by ensuring that all remote command-line access is encrypted. Which protocol and port combination should they enforce?",
+    "response": "SSH on port 22"
+  },
+  {
+    "query": "A server architect is attempting to access cloud administrative resources but cannot access them. What should the architect do to troubleshoot the issue? (Select two.)",
+    "response": [
+      "User role correctly assigned",
+      "User group memberships"
+    ]
+  },
+  {
+    "query": "An organization is deploying a new web application and wants to ensure that only specific types of traffic are allowed to reach the application. Which firewall feature should be implemented to achieve this goal?",
+    "response": "Network Access Control List (ACL) with source and destination IP filtering."
+  },
+  {
+    "query": "During a software inventory audit, it is discovered that a critical business application is not listed in the authorized software repository but is widely used across the organization. What should you do to address this situation?",
+    "response": "Evaluate the business need for the application and consider authorizing it."
+  },
+  {
+    "query": "Which of the following BEST describes the role of vendor-specific benchmarks in comparison to CIS Benchmarks?",
+    "response": "CIS Benchmarks are vendor-neutral and integrate well with various environments, unlike vendor-specific benchmarks."
+  },
+  {
+    "query": "A server administrator is going through and hardening their systems. For one of the hardening steps, the administrator is disabling default accounts and setting up new accounts. Which of the following default accounts should the administrator disable if able to? (Select three.)",
+    "response": [
+      "Root",
+      "Guest",
+      "Administrator"
+    ]
+  },
+  {
+    "query": "A cloud administrator is troubleshooting a network connectivity issue for a VM instance. The instance is part of multiple security groups. After reviewing the security group rules, the administrator finds that all necessary inbound rules are present, but the instance is still not accessible. What should the administrator analyze next?",
+    "response": "The inheritance of rules from all assigned security groups to identify any conflicting rules."
+  },
+  {
+    "query": "What does the semantic versioning system use to delineate versions?",
+    "response": "Numbers"
+  },
+  {
+    "query": "Which of the following will assist the manager in seeing the status of meeting requirements? (Select three.)",
+    "response": [
+      "Baseline comparison",
+      "Service management tool integration",
+      "Trending analysis"
+    ]
+  },
+  {
+    "query": "A systems administrator working for a small startup has tracked data usage and has seen certain periods that show lower activity. Which of the following would make the most sense to recommend to the company's leadership?",
+    "response": "Auto-scale based on tracked resource utilization"
+  },
+  {
+    "query": "What is the most common way an administrator categorizes logs for troubleshooting?",
+    "response": "Severity"
+  },
+  {
+    "query": "An Azure administrator is setting up alert policies for their environment. Which of the following are some of the default policies provided? (Select two.)",
+    "response": [
+      "Administrative privilege change",
+      "Unusual file management"
+    ]
+  },
+  {
+    "query": "A systems administrator implements a 3-2-1 backup rule. What does this storage scheme provide?",
+    "response": "Three copies of data, two different media types, one copy offsite"
+  },
+  {
+    "query": "You are an IT manager responsible for ensuring the security of your company's data backups. Recently, you implemented a cloud backup solution that includes encryption. During a routine check, you need to verify that the data is protected both during transfer and while stored in the cloud. Which two types of encryption should you confirm are being used to meet this requirement?",
+    "response": "In transit encryption and at rest encryption"
+  },
+  {
+    "query": "The chief technology officer (CTO) of a cloud services provider is working on a draft of a new Disaster Recovery Plan to fit with a new Service Level Agreement (SLA) recently released to clients. The CTO inquires of the network administrator how long it has taken on average, in terms of minutes and hours, to restore services to fully operational status after past network failure incidents. Which metric is the CTO asking about?",
+    "response": "Mean Time to Recovery (MTTR)"
+  },
+  {
+    "query": "Your company needs to ensure compliance with industry regulations for data retention. You have been tasked with implementing a cloud backup retention policy that includes automation. Which action should you take to align with the best practices of data retention?",
+    "response": "Implement a data classification system and automate data deletion."
+  },
+  {
+    "query": "A company moves specific types of data into a type of short-term storage at the end of each month. This data is complete system-state information intended for fast recovery, and an administrator must consistently refresh it with up-to-date data. The administrator is saving the data on high-speed solid-state drives (SSDs) as a part of this. Determine the type of process the administrator is using to manage the backups.",
+    "response": "Snapshot"
   }
 ]
