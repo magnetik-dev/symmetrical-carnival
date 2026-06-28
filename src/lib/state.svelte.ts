@@ -7,6 +7,10 @@ export interface StudentRecord {
     profile: string | null;
     batch_name: string | null;
     lead_name: string | null;
+    fees_total: number | null;
+    fees_paid: number | null;
+    fees_remaining: number | null;
+    payment_status: string | null;
 }
 
 export interface RegistryStats {
@@ -101,12 +105,14 @@ class RegistryCache {
                     student_number,
                     name,
                     profile,
+                    fees_total,
                     batch (
                         batch_name
                     ),
                     leads (
                         lead_name
-                    )
+                    ),
+                    payments ( amount_paid )
                 `),
                 supabase.from('batch').select('id, batch_name'),
                 supabase.from('leads').select('id, lead_name')
@@ -136,12 +142,27 @@ class RegistryCache {
                     }
                 }
 
+                // Only admin has RLS to read from this field
+                const totalPaid = student.payments?.reduce((sum:number, p:any) => sum + Number(p.amount_paid), 0) || 0;
+                const remainingBalance = (student.fees_total || 0) - totalPaid;
+                let paymentStatus = 'Unpaid';
+                if (totalPaid >= student.fees_total && student.fees_total > 0) {
+                    paymentStatus = 'Fully Paid';
+                } else if (totalPaid > 0) {
+                    paymentStatus = 'Partially Paid';
+                }
+
                 return {
                     student_number: student.student_number,
                     name: student.name,
                     profile: student.profile,
                     batch_name,
-                    lead_name
+                    lead_name,
+
+                    fees_total: student.fees_total,
+                    fees_paid: totalPaid,
+                    fees_remaining: remainingBalance,
+                    payment_status: paymentStatus
                 };
             });
 
@@ -179,6 +200,31 @@ class RegistryCache {
             batchesList: this.batchesList,
             leadsList: this.leadsList
         };
+    }
+
+    /**
+     * 
+     * @param paymentData  The payment data
+     * @returns 
+     */
+    async recordPayment(paymentData: any) {
+        try {
+            const supabase = createSupabaseClient();
+
+            const { error: paymentError} = await supabase
+                .from('payments')
+                .insert(paymentData);
+
+            if (paymentError) throw paymentError;
+
+        } catch (err: any) {
+            console.error('Error recording payment:', err);
+            this.error = err.message || 'Failed to record a payment';
+            return { success: false, error: this.error };
+        } finally {
+            this.isLoading = false;
+        }
+        return { success: true };
     }
 
     /**
