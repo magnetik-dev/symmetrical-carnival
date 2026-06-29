@@ -3737,5 +3737,97 @@
   {
     "query": "Your organization has a limited budget for cloud services and needs to maximize cost efficiency. How should you analyze the available discount options from different CSPs to make an informed decision?",
     "response": "Evaluate the long-term cost benefits of each CSP's discount options, such as Reserved Instances, Azure Reservations, and Committed-use discounts."
+  },
+  {
+    "query": "An IT manager is planning to upgrade their organization's software from version 3.9 to 4.0. What steps should the IT manager take to ensure a smooth transition?",
+    "response": "Plan for extensive testing and inform users about potential changes in functionality."
+  },
+  {
+    "query": "A team is developing a service-based application that requires different versions of Python for different services. They decide to use containers to manage these dependencies. What should they apply to ensure each service runs with the correct Python version and dependencies?",
+    "response": "Create separate containers for each service with the required Python version and dependencies"
+  },
+  {
+    "query": "What is the default setting for privileged containers in Azure Container Apps?",
+    "response": "Not permitted by default"
+  },
+  {
+    "query": "An organization's records management group is going through the data to see what needs to be moved or deleted. What records process must they look at, which shows how long data must be kept and how to dispose of certain data when it's no longer needed?",
+    "response": "Data retention"
+  },
+  {
+    "query": "A cloud administrator notices that a VM instance is not accessible from the network. After verifying that the correct security group is assigned, what should be the next step to diagnose the issue?",
+    "response": "Check the inbound rules of the security group for any missing permissions."
+  },
+  {
+    "query": "Your organization is transitioning to a zero-trust security model. During the initial assessment, you discover that many internal systems are trusted by default and only require authentication at sign-on. Which of the following actions should you prioritize to align with zero-trust principles?",
+    "response": "Enforcing continuous authentication verification for all internal systems."
+  },
+  {
+    "query": "A cloud administrator can manage permissions for users or groups to access cloud resources using which of the following?",
+    "response": "Identity and Access Management (IAM)"
+  },
+  {
+    "query": "A Linux administrator is experiencing difficulty logging in via Secure Shell (SSH). Which of the following should the administrator check in their troubleshooting steps? (Select two.)",
+    "response": "User identity has changed, User's public key is stored on server"
+  },
+  {
+    "query": "A company has recently experienced a data breach due to an unpatched operating system. The IT manager is evaluating the situation to prevent future incidents. Which of the following actions would best address the root cause of this vulnerability?",
+    "response": "Implementing a policy to regularly update and patch all operating systems and applications."
+  },
+  {
+    "query": "A security technician is implementing a new database server. The technician needs to determine if the network has any security holes that exist in the network. Which of the following would the technician need to run?",
+    "response": "Vulnerability Scanners"
+  },
+  {
+    "query": "Which cloud service would you recommend for an organization that primarily uses Kubernetes for container orchestration, and why?",
+    "response": "Azure Kubernetes Service, because it is specifically designed for Kubernetes."
+  },
+  {
+    "query": "A retail company is deciding between using a relational or non-relational database for their new inventory management system. They need to store product details, supplier information, and sales records, all of which are highly structured and require complex queries. Which type of database should they choose and why?",
+    "response": "Relational, because it is designed to organize structured data in tables and supports complex queries."
+  },
+  {
+    "query": "A small business is looking to quickly add storage capacity to their existing network without making significant changes to their infrastructure. They have a limited budget and need a solution that can be implemented with minimal downtime. Which storage solution should the small business choose to meet their needs?",
+    "response": "Network Attached Storage (NAS)"
+  },
+  {
+    "query": "A cloud administrator is experiencing high latency in their storage system. Which factor should they prioritize addressing to improve performance, and why?",
+    "response": "Reduce the queue depth, because fewer queued requests will decrease wait times"
+  },
+  {
+    "query": "Which of the following storage technologies is known for providing very fast access to data?",
+    "response": "io1"
+  },
+  {
+    "query": "What should organizations do to optimize cloud hosting costs?",
+    "response": "Work with the service provider"
+  },
+  {
+    "query": "Which of the following strategies would be MOST effective for an organization aiming to optimize cloud hosting costs?",
+    "response": "Hosting resources with multiple cloud providers to compare and optimize costs"
+  },
+  {
+    "query": "Which of the following is a solution for implementing identity and access management (IAM) in a community cloud?",
+    "response": "OpenStack"
+  },
+  {
+    "query": "Which of the following is a characteristic of a private cloud?",
+    "response": "Physical isolation in a private data center"
+  },
+  {
+    "query": "A real estate accounting company would like to migrate its operation to the cloud but has expressed reservations regarding security. A member of the executive suite suggests a collective organization formed in conjunction with several similar companies that have collectively deployed a cloud-based environment. Each member company maintains cloud access. Which of the following is the executive describing?",
+    "response": "Community"
+  },
+  {
+    "query": "The Chief Executive Officer and Chief Financial Officer do not see a need to spend more money on the Information Technology budget. They feel things are fine but have recently come back from an executive conference that suggests that they should focus more on cloud technology. What type of report needs to be completed by a sysadmin to justify increased spending?",
+    "response": "Business needs analysis"
+  },
+  {
+    "query": "Which of the following best describes the payment structure of XaaS?",
+    "response": "Pay-as-you-go"
+  },
+  {
+    "query": "A server technician receives alerts regarding several internal servers and begins investigating recent changes. Which of the following changes should the technician consider investigating?",
+    "response": "Network infrastructure"
   }
 ]
