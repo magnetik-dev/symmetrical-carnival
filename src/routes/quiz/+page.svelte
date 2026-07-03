@@ -26,7 +26,7 @@
     { value: 'ca-clodp-final', label: 'CLODP Final Exam' },
     { value: 'ca-serpl-quizes-all', label: 'SERPL Quizes' },
     { value: 'ca-linx', label: 'LINX Exams' },
-    { value: 'inn8', label: 'INN8'}
+    { value: 'inn8', label: 'INN8 Exams'}
   ];
 
   const dataOptions = [
