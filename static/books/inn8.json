@@ -1,0 +1,202 @@
+[
+  {
+    "query": "Which layer of the TCP/IP model defines the rules for data packet recovery?",
+    "response": "Transport"
+  },
+  {
+    "query": "Which layer of the OSI model includes the TCP and UDP protocols?",
+    "response": "Transport layer"
+  },
+  {
+    "query": "When a collision occurs on a shared Ethernet network, what is the first step in recovery for the two computers in question?",
+    "response": "Send a jamming signal"
+  },
+  {
+    "query": "What is the name of the data unit that is sent and received at the Ethernet data link layer?",
+    "response": "Frame"
+  },
+  {
+    "query": "Which technology is commonly implemented inside a service provider's (SP) network and provides an Ethernet point-to-point connection between customer devices?",
+    "response": "EoMPLS"
+  },
+  {
+    "query": "The ________ stores the configuration used anytime the switch reloads Cisco IOS.",
+    "response": "startup-config"
+  },
+  {
+    "query": "Which of the following commands will provide statistics about incoming and outgoing frames on an interface such as the number of unicast, multicast, and broadcast frames in and out of the interface?",
+    "response": "how interfacenamecounters"
+  },
+  {
+    "query": "Which of the following commands is used to initiate the configuration mode to set a password for Telnet?",
+    "response": "line vty 0 15"
+  },
+  {
+    "query": "You just unpacked a brand new Cisco 2960 switch. Which ports/interfaces are ready to connect to and be used to set up the switch?",
+    "response": "Console"
+  },
+  {
+    "query": "When using the no speed command on an interface, what is the resulting change made?",
+    "response": "The speed setting defaults to its automatic configuration"
+  },
+  {
+    "query": "If a Cisco Gigabit Ethernet port is connected to a device that does not support IEEE autonegotiation, and the interface speed cannot be sensed, what speed is the interface defaulted into?",
+    "response": "10 Mbps"
+  },
+  {
+    "query": "Which Cisco IOS command is used to display local interface (not server) DHCP IPv4 assignment information?",
+    "response": "show dhcp lease"
+  },
+  {
+    "query": "In what STP state does a port drop all received user traffic and not transmit user traffic but still listen for updated BPDUs?",
+    "response": "Blocking"
+  },
+  {
+    "query": "________ combines multiple parallel segments of equal speed between the same pair of switches.",
+    "response": "EtherChannel"
+  },
+  {
+    "query": "With IEEE 802.1Q, what term is used to refer to the traffic that exists on a VLAN trunk that is purposefully NOT tagged?",
+    "response": "Native VLAN"
+  },
+  {
+    "query": "What is the name of the Cisco proprietary tool used to advertise VLANs between switches so that all switches are automatically configured with the same VLAN numbers?",
+    "response": "VTP"
+  },
+  {
+    "query": "When configuring a switch with system ID extension enabled, what STP priority multiple must be used?",
+    "response": "4096"
+  },
+  {
+    "query": "If you wanted to have 12 subnets with a Class C network ID, which subnet mask would you use?",
+    "response": "255.255.255.240"
+  },
+  {
+    "query": "As the network engineer, you are asked to design an IP subnet plan that calls for 5 subnets. The largest subnet needs 25 hosts. Management requires that a single mask must be used throughout the Class C network. Which of the following is a public IP network and mask that would meet the requirements?",
+    "response": "192.177.4.0 / 255.255.255.224"
+  },
+  {
+    "query": "Given the IP address 200.1.1.130 and the mask of 255.255.255.224, what is the subnet number?",
+    "response": "200.1.1.128"
+  },
+  {
+    "query": "What is the broadcast address of 192.168.192.10/29?",
+    "response": "192.168.192.15"
+  },
+  {
+    "query": "Which of the following lists the prefix (CIDR) format equivalent of 255.255.240.0?",
+    "response": "/20"
+  },
+  {
+    "query": "You are given the following information about the IP address of a host connected to the network, 172.16.66.0/21. Determine the number of network (N), subnet (S), and host (H) bits, which of the following statements are true?",
+    "response": "N = 16"
+  },
+  {
+    "query": "Which of the following is the resident subnet for the IP address 192.168.10.33/29?",
+    "response": "192.168.10.32"
+  },
+  {
+    "query": "Which of the following would be a usable IP address to assign to a host in the network 192.168.10.32/28?",
+    "response": "192.168.10.39"
+  },
+    {
+    "query": "When a DHCPv6 client and server are on different subnets, what role does the router play in the communication?",
+    "response": "The router forwards DHCP messages as a DHCP relay agent"
+  },
+  {
+    "query": "Which command is used to advertise a default route in OSPF?",
+    "response": "default-information originate"
+  },
+  {
+    "query": "Which of the following troubleshooting tools uses the TTL Exceeded messages to identify routers?",
+    "response": "tracert"
+  },
+  {
+    "query": "All addresses that begin (in hex) with the digits FD are ________ addresses.",
+    "response": "Link local"
+  },
+  {
+    "query": "In the static route command ipv6 route 2001:db8:1111:1::/64 s0/0/1, what is represented by the sequence s0/0/1?",
+    "response": "The outgoing interface"
+  },
+  {
+    "query": "What protocol was used as a replacement for ARP when using IPv6?",
+    "response": "NDP"
+  },
+  {
+    "query": "Which IP address is used as the source address by a DHCP client that has not yet received an IP address?",
+    "response": "0.0.0.0"
+  },
+  {
+    "query": "Which IPv6 multicast address has been defined to include all hosts that run IPv6 on a local link?",
+    "response": "FF02::1"
+  },
+  {
+    "query": "Which of the LAN routing options shown is not typically used?",
+    "response": "Using a router with a physical interface associated with each individual VLAN"
+  },
+  {
+    "query": "When connecting two routers via a serial interface, which Cisco IOS command is required to set the line rate of the interface, and on which side of the connection would it be configured?",
+    "response": "clock rate, DCE"
+  },
+  {
+    "query": "By default, what is the maximum number of equal-cost OSPF routes that will be inserted into the routing table?",
+    "response": "4"
+  },
+  {
+    "query": "An engineer would like to set the cost of an OSPF interface directly on her router. Which interface subcommand allows the engineer to set the cost directly?",
+    "response": "ip ospf cost x"
+  },
+  {
+    "query": "If a user observes that their Windows Host A is showing an APIPA address, what should they consider as a potential issue?",
+    "response": "The DHCP server is not configured."
+  },
+  {
+    "query": "Which of the following is a routing protocol designed and intended for use between different autonomous systems?",
+    "response": "EGP"
+  },
+  {
+    "query": "Which router interface type can be configured with an encapsulation of HDLC or PPP?",
+    "response": "Serial"
+  },
+  {
+    "query": "What is the default Hello interval for OSPF on Ethernet interfaces in Cisco IOS?",
+    "response": "10 seconds"
+  },
+  {
+    "query": "The WAN cable that is installed by a telco provider typically has an ________ connector.",
+    "response": "RJ-48"
+  },
+  {
+    "query": "Which of the following statements regarding shutting down the OSPF process is false?",
+    "response": "Shutting down the OSPF process results in the deletion of all the OSPF configurations"
+  },
+  {
+    "query": "What special address is used for the IPv6 loopback?",
+    "response": "::1"
+  },
+  {
+    "query": "Packets sent to a _________ address do not leave the IPv6 subnet.",
+    "response": "Link-local"
+  },
+  {
+    "query": "An IPv6 ___________ address is equivalent to an IPv4 public address.",
+    "response": "Global unicast"
+  },
+  {
+    "query": "What is the first step in configuring IPv6 routing on a Cisco IOS router?",
+    "response": "Enable IPv6 routing"
+  },
+  {
+    "query": "What is the purpose of using the OSPF point-to-point network type on a link?",
+    "response": "To prevent the use of a DR/BDR"
+  },
+  {
+    "query": "What command is used to configure a router interface to obtain its IP address using DHCP?",
+    "response": "ip address dhcp"
+  },
+  {
+    "query": "Which Cisco IOS command is used to enable IPv4 routing on a 2960 series switch?",
+    "response": "ip routing"
+  }
+]
