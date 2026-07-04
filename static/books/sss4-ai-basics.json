@@ -1,0 +1,82 @@
+[
+  {
+    "query": "Which statement best defines artificial intelligence as presented in the videos?",
+    "response": "A field of computer science focused on building systems that perform tasks associated with human intelligence"
+  },
+  {
+    "query": "What is the key difference between AI and traditional programming?",
+    "response": "AI learns patterns from examples and applies them to new cases"
+  },
+  {
+    "query": "Which statement about Narrow AI is most accurate?",
+    "response": "It is designed for specific tasks within a limited domain"
+  },
+  {
+    "query": "How do recommendation systems such as those used by streaming services typically decide what to suggest?",
+    "response": "By comparing a user's behaviour with patterns from many other users"
+  },
+  {
+    "query": "What is the main function of Natural Language Processing, or NLP, in everyday tools?",
+    "response": "It helps computers understand and generate human language"
+  },
+  {
+    "query": "How do navigation apps use AI to improve travel routes?",
+    "response": "By analyzing live traffic and location data to predict congestion and reroute users"
+  },
+  {
+    "query": "According to the first video, what is the best way for a student to use AI tools academically?",
+    "response": "Choose tools intentionally based on the goal of the task"
+  },
+  {
+    "query": "Why does the module describe prompting as a skill?",
+    "response": "Because the quality of the output depends strongly on the clarity and detail of the instructions"
+  },
+  {
+    "query": "Which set best reflects the core elements of an effective academic prompt covered in the module?",
+    "response": "Role, task, topic, context or constraints, and format"
+  },
+  {
+    "query": "Which use of AI best matches the module's examples of practical student support?",
+    "response": "Using AI to brainstorm ideas, summarize dense material, or build study aids from notes"
+  },
+  {
+    "query": "What two prompting mistakes are emphasized in the module?",
+    "response": "Vagueness and expecting the first output to be perfect"
+  },
+  {
+    "query": "Why can a large language model produce writing that sounds convincing but is still wrong?",
+    "response": "Because it is mainly predicting likely word sequences rather than checking truth directly"
+  },
+  {
+    "query": "Which example best illustrates an AI hallucination?",
+    "response": "A realistic-looking academic citation for an article that does not exist"
+  },
+  {
+    "query": "What is the first step in the fact-checking framework taught in the videos?",
+    "response": "Isolate specific factual claims such as names, dates, definitions, statistics, and citations"
+  },
+  {
+    "query": "What does triangulation mean in the context of evaluating AI-generated information?",
+    "response": "Comparing a claim with two or three separate reliable sources"
+  },
+  {
+    "query": "What is the main concern with algorithmic bias in AI systems?",
+    "response": "AI systems can reproduce or amplify harmful biases found in training data"
+  },
+  {
+    "query": "What is a model's knowledge cut-off?",
+    "response": "The date after which later events may not be reflected in the model's training data"
+  },
+  {
+    "query": "Which example best fits supportive rather than replacement use of AI?",
+    "response": "Using AI to generate an outline that helps organize your own draft"
+  },
+  {
+    "query": "Under the Red-Yellow-Green policy model, what does a Yellow policy usually mean?",
+    "response": "AI use is permitted for certain tasks with permission and proper citation"
+  },
+  {
+    "query": "What is the most important overall message of the module about academic use of AI?",
+    "response": "AI can support learning, but the student remains responsible for accuracy, integrity, and transparency"
+  }
+]

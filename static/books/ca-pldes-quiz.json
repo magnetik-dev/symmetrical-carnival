@@ -638,5 +638,273 @@
   {
     "query": "What does each element of an array have in common?",
     "response": "The same data type"
+  },
+  {
+    "query": "What is the purpose of a compiler in programming?",
+    "response": "To translate source code to machine language"
+  },
+  {
+    "query": "What is the role of the central processing unit (CPU)?",
+    "response": "Performing processing tasks"
+  },
+  {
+    "query": "What does an IDE commonly include?",
+    "response": "A compiler and text editor"
+  },
+  {
+    "query": "What is a variable in programming?",
+    "response": "A named memory location that can hold different values"
+  },
+  {
+    "query": "Which of the following is a pictorial representation of logical steps?",
+    "response": "Flowchart"
+  },
+  {
+    "query": "What operator is sometimes called the modulo operator?",
+    "response": "%"
+  },
+  {
+    "query": "Why is using named constants beneficial in programming?",
+    "response": "They make program maintenance easier"
+  },
+  {
+    "query": "What is an example of a string constant?",
+    "response": "\"Amanda\""
+  },
+  {
+    "query": "What is a prompt in the context of programming?",
+    "response": "A message displayed on a monitor to ask the user for a response and perhaps explain how that response should be formatted"
+  },
+  {
+    "query": "What is echoing input?",
+    "response": "Repeating input back to a user either in a subsequent prompt or in output"
+  },
+  {
+    "query": "How should the logic flow for a structured loop after the sequence ends?",
+    "response": "It should return to the loop-controlling test."
+  },
+  {
+    "query": "Why are structured programs considered more professional?",
+    "response": "They are expected by other programmers."
+  },
+  {
+    "query": "Which of the following statements about the three structures is false?",
+    "response": "The three structures cannot be combined in a single program."
+  },
+  {
+    "query": "What is a common flaw in unstructured programs as they get bigger?",
+    "response": "They get more confusing."
+  },
+  {
+    "query": "Which type of structure is demonstrated by an if-then-else statement?",
+    "response": "Selection"
+  },
+  {
+    "query": "The if-then-else selection structure is used when:",
+    "response": "Actions are associated with both possible outcomes"
+  },
+  {
+    "query": "A single-alternative selection structure is also known as:",
+    "response": "If-then selection"
+  },
+  {
+    "query": "How should you write an expression to find \"callMinutes\" between 100 and 200?",
+    "response": "\"callMinutes > 100 AND callMinutes < 200\""
+  },
+  {
+    "query": "What happens when the loop control variable exceeds the final value in a for loop?",
+    "response": "The loop ends"
+  },
+  {
+    "query": "Words like \"if,\" \"else,\" \"unless,\" and \"otherwise\" in program requirements suggest the use of a:",
+    "response": "Selection structure"
+  },
+  {
+    "query": "What happens if the loop control variable is not altered within the body of a while loop?",
+    "response": "The loop will become infinite."
+  },
+  {
+    "query": "An important difference between a selection and a loop is that in a selection structure, the two logical paths:",
+    "response": "Merge together after their actions"
+  },
+  {
+    "query": "What programming technique involves preparing for all possible errors before they occur?",
+    "response": "Defensive programming"
+  },
+  {
+    "query": "What happens when the user enters a value other than \"Y\" in an indefinite loop?",
+    "response": "The loop ends"
+  },
+  {
+    "query": "The for statement is usually used with which type of loops?",
+    "response": "Definite loops"
+  },
+  {
+    "query": "Which statement about for loops is false?",
+    "response": "The loop body executes at least one time."
+  },
+  {
+    "query": "Which statement accurately describes a benefit of using a for loop with arrays?",
+    "response": "A for loop makes it easier to initialize, test, and alter a loop control variable together."
+  },
+  {
+    "query": "Which statement is false regarding arrays?",
+    "response": "Elements in an array frequently are different data types, so calculating the amount of memory the array occupies is difficult."
+  },
+  {
+    "query": "What is the benefit of using a named constant as an array subscript?",
+    "response": "It makes the statement self-documenting."
+  },
+  {
+    "query": "What defines parallel arrays?",
+    "response": "Arrays where each element in one array is associated with the element in the same relative position in another array"
+  },
+  {
+    "query": "Without using an array, how is the application to produce counts for dependents categories written?",
+    "response": "Using a series of decisions"
+  },
+  {
+    "query": "What is a possible consequence of accessing an array element out of bounds in some programming languages?",
+    "response": "Accessing an incorrect memory location"
+  },
+  {
+    "query": "When processing data in memory, what happens to the original data stored on a file?",
+    "response": "It remains unchanged and is retained on the storage device."
+  },
+  {
+    "query": "What does the term \"persistent storage\" refer to?",
+    "response": "Storage that can be erased but remains after power loss"
+  },
+  {
+    "query": "In a file system, what is meant by \"merging files\"?",
+    "response": "Combining files while maintaining their sequential order."
+  },
+  {
+    "query": "How does the input statement work when reading from a file?",
+    "response": "It transfers data from the file to memory variables."
+  },
+  {
+    "query": "What determines the order of records written to the merged file during the merging process?",
+    "response": "The alphabetical order of the record's key field"
+  },
+  {
+    "query": "How does a program handle data fields when reading from a file?",
+    "response": "It reads all data fields in a single instruction if possible."
+  },
+  {
+    "query": "What type of arrays can contain more than one subscript?",
+    "response": "Multidimensional arrays"
+  },
+  {
+    "query": "What is essential to perform a correct swap of two values in an algorithm?",
+    "response": "Assigning a temporary variable to hold one of the values"
+  },
+  {
+    "query": "How is the median value in a list determined?",
+    "response": "By finding the middle value when listed in order"
+  },
+  {
+    "query": "What is an algorithm in the context of sorting?",
+    "response": "A list of instructions that accomplish a task"
+  },
+  {
+    "query": "In a recursive method, what must be provided to avoid infinite recursion?",
+    "response": "A base case or terminating condition"
+  },
+  {
+    "query": "Which scenario would best illustrate the need for method overloading?",
+    "response": "A method that performs different actions based on the number of arguments"
+  },
+  {
+    "query": "What is the key characteristic of a method with high cohesion?",
+    "response": "It performs a single task and all its internal statements contribute to that task."
+  },
+  {
+    "query": "In structured programming, how many return statements should a method ideally contain?",
+    "response": "One"
+  },
+  {
+    "query": "What does polymorphism literally mean?",
+    "response": "\"Many forms\""
+  },
+  {
+    "query": "What happens to a variable declared within a method when the method ends?",
+    "response": "It goes out of scope."
+  },
+  {
+    "query": "What is the significance of the method name and parameters when using predefined methods?",
+    "response": "They help determine the method's functionality and how to use it effectively."
+  },
+  {
+    "query": "What happens if you do not explicitly declare an access specifier for a method or field in many object-oriented programming languages?",
+    "response": "The method or field is private by default."
+  },
+  {
+    "query": "What does the notation setLastName(name : string) : void in a class diagram indicate?",
+    "response": "The method setLastName() takes a string parameter and returns void."
+  },
+  {
+    "query": "In an object-oriented class diagram, what does a plus sign (+) before a class component indicate?",
+    "response": "The component is public."
+  },
+  {
+    "query": "How are arrays of objects declared in object-oriented programming?",
+    "response": "Using a class name and brackets"
+  },
+  {
+    "query": "What happens if you try to access a non-static method from another non-static method within the same class?",
+    "response": "The method is accessed directly without any issues."
+  },
+  {
+    "query": "How does OOP handle situations where a method name is used for different purposes in different contexts?",
+    "response": "Through polymorphism"
+  },
+  {
+    "query": "What type of constructor is called even when the constructor name is not used in some languages like Visual Basic and C++?",
+    "response": "Any constructor"
+  },
+  {
+    "query": "What should a developer do if a child class needs to modify a private field in the parent class?",
+    "response": "Use a public method in the parent class."
+  },
+  {
+    "query": "What is a significant benefit of creating useful, extendable superclasses?",
+    "response": "Subclass creators save development time."
+  },
+  {
+    "query": "What is a key principle of modular and object-oriented programming?",
+    "response": "Reusability"
+  },
+  {
+    "query": "What does the term 'has-a relationship' refer to in object-oriented programming?",
+    "response": "Composition"
+  },
+  {
+    "query": "Why might you want to create a destructor in a sophisticated program?",
+    "response": "To perform specific cleanup tasks like closing files or releasing memory"
+  },
+  {
+    "query": "In object-oriented terminology, what is the generic name used for errors?",
+    "response": "Exceptions"
+  },
+  {
+    "query": "Which of the following constructors exists in a class where the programmer has not written any constructors?",
+    "response": "Automatically-created default constructor"
+  },
+  {
+    "query": "In event-driven programming, what is the purpose of registering components?",
+    "response": "To allow components to react to user-initiated events"
+  },
+  {
+    "query": "What is the main goal when designing a GUI interface according to the readings?",
+    "response": "To be attractive, easy to read, and nondistracting"
+  },
+  {
+    "query": "What principle do GUI components exemplify in object-oriented programming?",
+    "response": "Encapsulation"
+  },
+  {
+    "query": "What is one advantage of multithreading when using the Internet?",
+    "response": "Ability to use a site before a download completes"
   }
 ]

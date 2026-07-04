@@ -4,6 +4,7 @@
     import { onMount } from "svelte";
     import { registryCache } from "$lib/state.svelte";
     import Sidebar from "$lib/components/Sidebar.svelte";
+    import LevelCard from "$lib/components/LevelCard.svelte"
     import BackToTop from "$lib/components/BackToTop.svelte";
 
     // Receive layout data containing profile info
@@ -186,61 +187,10 @@
     <div class="container">
         <!-- Level Stats Section -->
         <nav class="level" style="align-items: flex-start">
-            <div
-                class="level-item glow-on-hover has-text-centered box has-background-primary-dark p-3 mx-2">
-                <div>
-                    <p
-                        class="heading has-text-weight-medium is-size-5 pb-4 has-text-grey-light">
-                        Students
-                    </p>
-                    <p class="is-size-1 has-text-weight-bold has-text-white">
-                        {registryCache.isLoading && !registryCache.isLoaded
-                            ? "..."
-                            : registryCache.stats.studentsCount}
-                    </p>
-                </div>
-            </div>
-            <div
-                class="level-item has-text-centered box glow-on-hover has-background-primary-dark p-3 mx-2">
-                <div>
-                    <p
-                        class="heading has-text-weight-medium is-size-5 pb-4 has-text-grey-light">
-                        Batches
-                    </p>
-                    <p class="is-size-1 has-text-weight-bold has-text-white">
-                        {registryCache.isLoading && !registryCache.isLoaded
-                            ? "..."
-                            : registryCache.stats.batchesCount}
-                    </p>
-                </div>
-            </div>
-            <div
-                class="level-item has-text-centered box glow-on-hover has-background-primary-dark p-3 mx-2">
-                <div>
-                    <p
-                        class="heading has-text-weight-medium is-size-5 pb-4 has-text-grey-light">
-                        Courses
-                    </p>
-                    <p class="is-size-1 has-text-weight-bold has-text-white">
-                        {registryCache.isLoading && !registryCache.isLoaded
-                            ? "..."
-                            : registryCache.stats.programsCount}
-                    </p>
-                </div>
-            </div>
-            <div class="level-item has-text-centered box glow-on-hover has-background-primary-dark p-3 mx-2">
-                <div>
-                    <p
-                        class="heading has-text-weight-medium is-size-5 pb-4 has-text-grey-light">
-                        Leads
-                    </p>
-                    <p class="is-size-1 has-text-weight-bold has-text-white">
-                        {registryCache.isLoading && !registryCache.isLoaded
-                            ? "..."
-                            : registryCache.stats.leadsCount}
-                    </p>
-                </div>
-            </div>
+            <LevelCard statName="Students" statValue={registryCache.isLoading && !registryCache.isLoaded ? "..." : registryCache.stats.studentsCount}/>
+            <LevelCard statName="Batches" statValue={registryCache.isLoading && !registryCache.isLoaded ? "..." : registryCache.stats.batchesCount}/>
+            <LevelCard statName="Courses" statValue={registryCache.isLoading && !registryCache.isLoaded ? "..." : registryCache.stats.programsCount}/>
+            <LevelCard statName="Leads" statValue={registryCache.isLoading && !registryCache.isLoaded ? "..." : registryCache.stats.leadsCount}/>
         </nav>
 
         <!-- Error Notification -->
@@ -795,21 +745,3 @@
 {/if}
 
 <BackToTop />
-
-<style>
-    .glow-on-hover {
-        /* Smooth transition for when the mouse enters AND leaves the box */
-        transition:
-            box-shadow 0.6s ease,
-            transform 0.6s ease;
-        box-shadow: none;
-    }
-
-    .glow-on-hover:hover {
-        /* Adjust the color (#00d1b2) to match your specific Bulma primary color */
-        box-shadow: 0 0 20px 5px rgba(0, 209, 178, 0.4);
-
-        /* Optional: slightly lifts the box for a more dynamic interactive feel */
-        transform: translateY(-2px);
-    }
-</style>

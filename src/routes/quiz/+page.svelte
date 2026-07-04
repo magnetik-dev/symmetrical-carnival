@@ -17,6 +17,7 @@
   let book = $state(data.book);
 
   const cyberOptions = [
+    { value: 'sss4-ai-basics', label: 'SSS4 AI Basics' },
     { value: 'ca-itf4-all', label: 'CA-ITF4 Quizes' },
     { value: 'pc14-final', label: 'PC14 Final Quiz' },
     { value: 'pc24-final', label: 'PC24 Final Quiz' },
