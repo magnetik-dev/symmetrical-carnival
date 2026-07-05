@@ -3855,10 +3855,6 @@
     "response": "Implement strong network encryption"
   },
   {
-    "query": "What should organizations do to optimize cloud hosting costs?",
-    "response": "Work with the service provider"
-  },
-  {
     "query": "A server administrator is setting up a cloud host used for webapps. Which of the following components would be most beneficial to increase performance?",
     "response": "Memory"
   },
@@ -3873,10 +3869,6 @@
   {
     "query": "A cloud administrator has Microsoft SQL and MariaDB instances in their environment. What type of databases do they administer?",
     "response": "Relational"
-  },
-  {
-    "query": "A retail company is deciding between using a relational or non-relational database for their new inventory management system. They need to store product details, supplier information, and sales records, all of which are highly structured and require complex queries. Which type of database should they choose and why?",
-    "response": "Relational, because it is designed to organize structured data in tables and supports complex queries."
   },
   {
     "query": "A company is planning to migrate its on-premises applications to a cloud-based virtual machine (VM) solution. The IT team needs to ensure that the VMs can handle fluctuating workloads efficiently. What should the team analyze to make an informed decision?",
@@ -3940,5 +3932,61 @@
       "Thresholds",
       "Trending analysis"
     ]
+  },
+  {
+    "query": "Which of the following is a use case for a community cloud?",
+    "response": "Sharing patient medical records among healthcare organizations."
+  },
+  {
+    "query": "Which cloud service is a SaaS customer relationship management solution?",
+    "response": "Salesforce"
+  },
+  {
+    "query": "A small company would like to minimize excess hardware maintenance expenditures during its growth stage. The company currently maintains physical drives for its entire operation, which throughout the growth process, has become increasingly expensive.",
+    "response": "STaaS"
+  },
+  {
+    "query": "A software development company is experiencing rapid growth and is planning to implement a Continuous Integration/Continuous Deployment (CI/CD) pipeline. They currently use Docker Hub for their container images but are concerned about security and management control as they scale.",
+    "response": "Transition to a private container image registry."
+  },
+  {
+    "query": "Which of the following is an example of programmatic access to cloud resources?",
+    "response": "Application Programming Interface (API)"
+  },
+  {
+    "query": "You are a cloud administrator for a mid-sized company. Recently, you noticed unusual activity on one of your servers that deviates from its standard behavior. You suspect a potential security breach and need to take immediate action to identify and mitigate the threat.",
+    "response": "Host-Based Intrusion Detection System (HIDS)"
+  },
+  {
+    "query": "What is the primary purpose of grouping users with similar access requirements together?",
+    "response": "To simplify the administrative process."
+  },
+  {
+    "query": "Why is it considered a bad security practice to embed an SSH password in an Ansible playbook?",
+    "response": "It increases the risk of unauthorized access."
+  },
+  {
+    "query": "A security analyst is reviewing log files and needs to identify the severity of an event recorded in rsyslog.",
+    "response": "Refer to the rsyslog severity levels"
+  },
+  {
+    "query": "A cloud administrator needs to estimate the performance and stability of the cloud network's instances housing the big data databases.",
+    "response": "Monitoring baseline"
+  },
+  {
+    "query": "A network security specialist decided to roll back a software update of a specific cloud application to a previously backed-up version, replacing the current version with the backed-up version.",
+    "response": "In-place restoration"
+  },
+  {
+    "query": "A database administrator works for a critical financial institution which requires the client machines to be informed after multiple servers have a copy of the transaction.",
+    "response": "Synchronous"
+  },
+  {
+    "query": "A tech company has deployed hundreds of IoT sensors in a remote location to gather environmental data. They are experiencing delays in data processing due to the time it takes to send data to a centralized server.",
+    "response": "Implement edge computing to process data near the IoT sensors."
+  },
+    {
+    "query": "Which of the following BEST describes the effectiveness of encryption for cloud backup solutions?",
+    "response": "Highly effective, as it eliminates the NIC as a single point of failure."
   }
 ]
