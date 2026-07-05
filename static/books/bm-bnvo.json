@@ -1,0 +1,370 @@
+[
+  {
+    "query": "\"Goodwill\" is classified as:",
+    "response": "an intangible asset"
+  },
+  {
+    "query": "The single biggest danger for the naive business buyer is:",
+    "response": "overvalued assets"
+  },
+  {
+    "query": "On average, the risk of buying an existing business is",
+    "response": "lower than for starting a brand new business."
+  },
+  {
+    "query": "Setting a value for a business by using a \"price multiplier\" is:",
+    "response": "a rule of thumb approach."
+  },
+  {
+    "query": "Typically, the business valuation method showing the lowest value is:",
+    "response": "liquidation value"
+  },
+  {
+    "query": "Which of the following is an \"asset\" method of business valuation? (Select all that apply)",
+    "response": "liquidation value, book value"
+  },
+  {
+    "query": "Which of the following would be an example of a Business Format franchise?",
+    "response": "Tim Horton's"
+  },
+  {
+    "query": "The most popular franchise arrangement is:",
+    "response": "single-unit"
+  },
+  {
+    "query": "The right to produce and sell the franchisor's product is called:",
+    "response": "licensing"
+  },
+  {
+    "query": "The cost of a franchise may include (Select all that apply):",
+    "response": "royalty payments, advertising expenditures, the franchise fee"
+  },
+  {
+    "query": "Multi-level marketers usually (Select all that apply):",
+    "response": "work from their homes, sell to consumers, receive commissions from the sales of their recruits"
+  },
+  {
+    "query": "The code of the Canadian Franchise Association gives franchisees (Select all that apply):",
+    "response": "freedom to form and join associations, reasonable training and management support"
+  },
+  {
+    "query": "Which of the following is a family business? (Select all that apply)",
+    "response": "A woman owns a small garage where her four sons work as mechanics, A childless couple jointly owns a printing business with no other employees"
+  },
+  {
+    "query": "Which of the following is not a typical family business problem?",
+    "response": "theft of the assets by family members"
+  },
+  {
+    "query": "Family businesses can be used to sponsor qualified relatives as immigrants when:",
+    "response": "when the relative is required for a position of trust"
+  },
+  {
+    "query": "A well-run family business has (Select all that apply)",
+    "response": "a single family member in control, formal lines of authority, competitive industry pay rates"
+  },
+  {
+    "query": "History has shown that family firms are more successful when:",
+    "response": "the business is seen as a long-term trust of the family."
+  },
+  {
+    "query": "The key advisors for a retiring business owner are:",
+    "response": "accountant, financial planner, lawyer, personal advisor."
+  },
+  {
+    "query": "Which of the following is not a stage in the business life cycle:",
+    "response": "introduction"
+  },
+  {
+    "query": "The growth stage of the business cycle is characterized by (select all that apply):",
+    "response": "increasing revenue, increasing profits, declining risk of failure"
+  },
+  {
+    "query": "Which of the following is not an indicator of the need for renewal (Select all that apply)",
+    "response": "declining employee turnover, declining costs"
+  },
+  {
+    "query": "When a business is operating at a small percentage of its capacity, the strategy should be to:",
+    "response": "increase sales"
+  },
+  {
+    "query": "SWOT analysis examines:",
+    "response": "internal and external advantages and disadvantages of a business."
+  },
+  {
+    "query": "An increase in market share is usually related to changes in:",
+    "response": "price and promotion strategies"
+  },
+  {
+    "query": "Compared to making a product or component, buying it has the advantage of:",
+    "response": "greater specialization of your own business"
+  },
+  {
+    "query": "The broadest indicator of efficiency is:",
+    "response": "return on sales"
+  },
+  {
+    "query": "Company history, dress codes, termination policies and pay schedules are typically outlined in:",
+    "response": "employee handbooks"
+  },
+  {
+    "query": "Reasonable expectations for the time to perform a particular job are set down in:",
+    "response": "job standards"
+  },
+  {
+    "query": "Customer Relationship Management is:",
+    "response": "an information technology based strategy for classifying customers"
+  },
+  {
+    "query": "The majority of dissatisfied customers: (Select all that apply)",
+    "response": "do not complain to the service provider, tell numerous others about the problem, can be kept as customers if the problem is resolved"
+  },
+  {
+    "query": "As companies get larger, the concerns of the entrepreneur tend to become more: (Select all that apply)",
+    "response": "strategic, long-term, proactive"
+  },
+  {
+    "query": "Generally, a website should get the action you want from a customer by using:",
+    "response": "common verbs"
+  },
+  {
+    "query": "A \"coaching\" management style depends largely on:",
+    "response": "positive reinforcement"
+  },
+  {
+    "query": "The main government web portal for Canadian entrepreneurs is:",
+    "response": "Canada Business"
+  },
+  {
+    "query": "Which of the following is not part of Active Listening?",
+    "response": "using body language"
+  },
+  {
+    "query": "Decisions that are not Strategic Decisions can be classified as:",
+    "response": "administrative decisions"
+  },
+  {
+    "query": "Written business plans are typically required by (Select all that apply)",
+    "response": "formal business lenders, investors"
+  },
+  {
+    "query": "Writing a business plan motivates the entrepreneur by:",
+    "response": "producing something tangible"
+  },
+  {
+    "query": "Compared to the past, business plans today tend to be:",
+    "response": "more concise"
+  },
+  {
+    "query": "The model for a basic start-up business plan used by the textbook has:",
+    "response": "5 sections"
+  },
+  {
+    "query": "Professional business plans should be written in:",
+    "response": "the first person"
+  },
+  {
+    "query": "\u201cLooping back to change previous decisions\u201d describes the business plan as:",
+    "response": "a process"
+  },
+  {
+    "query": "Compared to willing entrepreneurs, \u201creluctant\u201d entrepreneurs:",
+    "response": "are more likely to abandon the process of starting a business"
+  },
+  {
+    "query": "Academics tend to define \u201csmall business\u201d as having fewer than:",
+    "response": "500 employees"
+  },
+  {
+    "query": "Writing a Business Plan is largely a process of:",
+    "response": "revision and rewriting"
+  },
+  {
+    "query": "Entrepreneurship is best defined as:",
+    "response": "risking money to make profit"
+  },
+  {
+    "query": "\"Junk research\":",
+    "response": "is based on flawed logic or poor scientific method"
+  },
+  {
+    "query": "Entrepreneurs in Canada tend to work:",
+    "response": "more hours than employed people"
+  },
+  {
+    "query": "The more specialized that a business is, the more likely it is to:",
+    "response": "make money"
+  },
+  {
+    "query": "It is best to have a partner whose personality is:",
+    "response": "complimentary to yours"
+  },
+  {
+    "query": "The term \"micro-enterprise\" usually refers to a business that has fewer than:",
+    "response": "5 employees"
+  },
+  {
+    "query": "Compared to the general population, successful entrepreneurs tend to be:",
+    "response": "more confident in their abilities to influence their own futures"
+  },
+  {
+    "query": "It is best to be situated right next to your competition if you are selling something:",
+    "response": "that customers tend to \u201cshop\u201d before buying"
+  },
+  {
+    "query": "Extrapolation means:",
+    "response": "projecting new values based on facts known about similar situations"
+  },
+  {
+    "query": "The specific address where a business can be found, refers to the:",
+    "response": "site"
+  },
+  {
+    "query": "Commonly, for a manufacturing business, the first priority for location is:",
+    "response": "being close to sources of supply"
+  },
+  {
+    "query": "Which of the following is a source of primary marketing research information?",
+    "response": "a questionnaire survey"
+  },
+  {
+    "query": "The first marketing research priority for a new business is to determine:",
+    "response": "market potential"
+  },
+  {
+    "query": "Leasehold Improvements are usually paid for by the:",
+    "response": "lessee"
+  },
+  {
+    "query": "Generally, new firms are better to:",
+    "response": "lease the property where the business is situated"
+  },
+  {
+    "query": "The sales forecast for a brand new business is not based on:",
+    "response": "past sales of the company"
+  },
+  {
+    "query": "A patent gives protection for:",
+    "response": "an invention"
+  },
+  {
+    "query": "The psychological discomfort that people feel when they encounter something too different from their expectations is called:",
+    "response": "cognitive dissonance"
+  },
+  {
+    "query": "\u201cMarketing mix\u201d is: (Select all that apply)",
+    "response": "marketing strategy, how a company makes itself appear different from the competition, how a company projects its image"
+  },
+  {
+    "query": "\u201cMarketing mix\u201d is typically broken down into:",
+    "response": "product, price, distribution, promotion."
+  },
+  {
+    "query": "The \u201ccontractual elements\u201d of getting a product/service to the final user, refers to:",
+    "response": "distribution channel"
+  },
+  {
+    "query": "\u201cSales Promotions\u201d refers to promotional activity that is not in the categories of: (Select all that apply)",
+    "response": "advertising, publicity, personal selling"
+  },
+  {
+    "query": "The most effective negotiating style tends to be:",
+    "response": "co-operative"
+  },
+  {
+    "query": "In direct mail advertising, \"compiled\" lists tend to be:",
+    "response": "more expensive than subscription lists"
+  },
+  {
+    "query": "Coupons, premiums and trade shows are all examples of:",
+    "response": "sales promotions"
+  },
+  {
+    "query": "Which of the following is not part of personal selling?",
+    "response": "attracting"
+  },
+  {
+    "query": "Which of the following is a pricing strategy?",
+    "response": "penetration pricing"
+  },
+  {
+    "query": "Which of the following is a major consideration when setting up an office? (Select all that apply)",
+    "response": "personal work habits, visitors, ergonomics, costs"
+  },
+  {
+    "query": "In Canada, a business can be incorporated through:",
+    "response": "the federal or a provincial government."
+  },
+  {
+    "query": "Which of the following techniques involves a Bar Graph?",
+    "response": "Gantt chart."
+  },
+  {
+    "query": "Which of the following is not a management \u201ctip\u201d offered by the text?",
+    "response": "punish swiftly"
+  },
+  {
+    "query": "Cash that a sole proprietor takes out of the business for his/her personal use is called:",
+    "response": "drawings"
+  },
+  {
+    "query": "The credit requirements for leasing equipment:",
+    "response": "are about the same as for purchasing the equipment"
+  },
+  {
+    "query": "Ergonomics is about selecting equipment that:",
+    "response": "reduces eye, joint and muscle strain"
+  },
+  {
+    "query": "The traditional assembly line is an example of:",
+    "response": "product set-up"
+  },
+  {
+    "query": "Logistics is about:",
+    "response": "planning, procurement, transportation and storage."
+  },
+  {
+    "query": "The purpose of a purchasing system is to (Select all that apply):",
+    "response": "avoid running out of inventory or supplies., reduce inventory costs."
+  },
+  {
+    "query": "Credit Bureaus (Select all that apply):",
+    "response": "are provincially regulated, are owned by their members, must allow individuals to see their own files"
+  },
+  {
+    "query": "The Financial Statement that shows the financial position of a company at a particular moment in time is the:",
+    "response": "balance sheet"
+  },
+  {
+    "query": "The Sales of a company minus its Cost of Goods Sold are equal to:",
+    "response": "the gross profit"
+  },
+  {
+    "query": "Equity is (Select all that apply):",
+    "response": "the amount of claim an owner has on an asset, how rich someone is, the difference between assets and liabilities"
+  },
+  {
+    "query": "Liabilities are:",
+    "response": "legal debts"
+  },
+  {
+    "query": "Financial Statements that predict future performance of a company are called:",
+    "response": "pro forma financial statements"
+  },
+  {
+    "query": "BDC stands for:",
+    "response": "Business Development Bank of Canada"
+  },
+  {
+    "query": "The break-even point is where (Select all that apply):",
+    "response": "all of a company's overhead is covered., a company starts to make net profit., the income from sales is equal to all of a company\u2019s costs and expenses."
+  },
+  {
+    "query": "Money loaned to entrepreneurs by relatives and friends is called:",
+    "response": "family fund equity"
+  },
+  {
+    "query": "A new small business is only likely to sell shares through:",
+    "response": "private placement"
+  }
+]
