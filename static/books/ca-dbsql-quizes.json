@@ -1,0 +1,322 @@
+[
+  {
+    "query": "What type of relationship is most common in relational databases?",
+    "response": "One-to-many"
+  },
+  {
+    "query": "What is the purpose of a stored procedure in SQL?",
+    "response": "To store a set of SQL statements that can be executed together"
+  },
+  {
+    "query": "Which RDBMS is typically used for small- to medium-sized departmental systems?",
+    "response": "SQL Server"
+  },
+  {
+    "query": "What is the purpose of the ADO.NET connection string?",
+    "response": "To establish a connection to the database"
+  },
+  {
+    "query": "What is the purpose of assigning a data type to a column in a table?",
+    "response": "To define the type and size of information stored"
+  },
+  {
+    "query": "Which SQL statement creates a new index for a table?",
+    "response": "CREATE INDEX"
+  },
+  {
+    "query": "What happens if the reader does not find any data matching the query in Visual Basic code?",
+    "response": "The Vendor object is set to Nothing"
+  },
+  {
+    "query": "What type of SQL statements are typically used by database administrators (DBAs)?",
+    "response": "DDL"
+  },
+  {
+    "query": "What is the role of an application server in a more complex client/server system architecture?",
+    "response": "Processing business components"
+  },
+  {
+    "query": "What is the primary key in a relational database table?",
+    "response": "A unique identifier for each row"
+  },
+  {
+    "query": "Which page in the Database Properties dialog box is used to set the compatibility level for a database?",
+    "response": "Options"
+  },
+  {
+    "query": "What is the default expiration time for a backup file in SQL Server Management Studio?",
+    "response": "0 days"
+  },
+  {
+    "query": "What authentication method allows Windows to supply the appropriate login name and password?",
+    "response": "Windows Authentication"
+  },
+  {
+    "query": "What does SQL Server Express lack compared to other editions?",
+    "response": "Client tools"
+  },
+  {
+    "query": "What is the easiest way to attach a database to SQL Server?",
+    "response": "Use the Attach Database command in the Management Studio."
+  },
+  {
+    "query": "How can you view a database diagram in SQL Server Management Studio?",
+    "response": "Expand the Database Diagrams node and double-click the diagram."
+  },
+  {
+    "query": "How can you connect to a database server using Windows authentication in the Management Studio?",
+    "response": "Select Windows Authentication and use your current Windows login."
+  },
+  {
+    "query": "What is the easiest way to create a database from existing SQL Server files?",
+    "response": "Attach the files"
+  },
+  {
+    "query": "What command should you use to remove a database file attachment?",
+    "response": "Detach"
+  },
+  {
+    "query": "Which option should you select to connect to SQL Server Express running on your PC?",
+    "response": "Localhost\\SQLEXPRESS"
+  },
+  {
+    "query": "What keyword can be used to include all rows matching the search condition in the result set, even if they are duplicates?",
+    "response": "ALL"
+  },
+  {
+    "query": "What does the DISTINCT keyword do in a SELECT statement?",
+    "response": "It eliminates duplicate rows"
+  },
+  {
+    "query": "What does the FETCH clause do in a SELECT statement?",
+    "response": "Retrieves a specified number of rows"
+  },
+  {
+    "query": "Which keyword is used to retrieve all columns from a table?",
+    "response": "*"
+  },
+  {
+    "query": "Which clause retrieves rows where a specified column contains any value within a list?",
+    "response": "IN"
+  },
+  {
+    "query": "What does the ORDER BY clause do in a SELECT statement?",
+    "response": "Specifies the sort order of the result set"
+  },
+  {
+    "query": "Which of the following is an arithmetic operator that calculates the remainder of a division operation?",
+    "response": "%"
+  },
+  {
+    "query": "In what order are the operations in an arithmetic expression evaluated?",
+    "response": "Multiplication, Division, Addition, Subtraction"
+  },
+  {
+    "query": "Which operator is used to compare two expressions to determine if they are equal?",
+    "response": "="
+  },
+  {
+    "query": "How are the rows sorted if the ORDER BY clause is included?",
+    "response": "In the specified sequence"
+  },
+  {
+    "query": "What determines the column names in the final result set when using EXCEPT or INTERSECT?",
+    "response": "The column names from the first SELECT statement"
+  },
+  {
+    "query": "What is the purpose of using correlation names in an inner join?",
+    "response": "To create temporary table names that simplify the query"
+  },
+  {
+    "query": "The implicit syntax for an inner join is often referred to as:",
+    "response": "SQL-89 syntax"
+  },
+  {
+    "query": "Which operator is used in the WHERE clause for an implicit inner join?",
+    "response": "="
+  },
+  {
+    "query": "What does a union operation do?",
+    "response": "Combines rows from two or more result sets into one result set"
+  },
+  {
+    "query": "What type of join includes all rows from both tables involved in the join, regardless of whether the join condition is true?",
+    "response": "Outer join"
+  },
+  {
+    "query": "What is a correlation name in SQL?",
+    "response": "A temporary table name assigned in the FROM clause"
+  },
+  {
+    "query": "What does the JOIN keyword do in an SQL query?",
+    "response": "It combines columns from two or more tables into a single result set."
+  },
+  {
+    "query": "What operator can be used to join tables based on relationships not defined in the database?",
+    "response": "Ad hoc relationships"
+  },
+  {
+    "query": "What does the DISTINCT keyword do in a self-join?",
+    "response": "It eliminates duplicate rows."
+  },
+  {
+    "query": "Which clause is used to filter groups after they have been formed by the GROUP BY clause?",
+    "response": "HAVING"
+  },
+  {
+    "query": "Which aggregate function calculates the total of all non-null values in the expression?",
+    "response": "SUM"
+  },
+  {
+    "query": "How does the GROUPING SETS operator differ from the ROLLUP and CUBE operators in SQL?",
+    "response": "It only includes summary rows for the specified groups."
+  },
+  {
+    "query": "What does the ROLLUP operator do in an SQL query?",
+    "response": "Adds summary rows for each combination of groups specified"
+  },
+  {
+    "query": "Which clause is often used with aggregate functions to group rows in a result set?",
+    "response": "GROUP BY"
+  },
+  {
+    "query": "Which keyword is used with COUNT to exclude duplicate values?",
+    "response": "DISTINCT"
+  },
+  {
+    "query": "In the syntax of the OVER clause, what follows the aggregate function?",
+    "response": "Parentheses"
+  },
+  {
+    "query": "Which clause specifies a search condition for a group or an aggregate in SQL?",
+    "response": "HAVING"
+  },
+  {
+    "query": "What is the primary difference between the ROLLUP and CUBE operators in SQL?",
+    "response": "ROLLUP adds summary rows only for the specified groups, while CUBE adds summary rows for every combination of groups"
+  },
+  {
+    "query": "Which function calculates the total amount for a specified column in SQL?",
+    "response": "SUM"
+  },
+  {
+    "query": "Which clause must follow a comparison operator when used with a subquery that returns multiple values?",
+    "response": "WHERE"
+  },
+  {
+    "query": "In SQL, which subquery type is recommended for readability when dealing with complex queries?",
+    "response": "Subquery in the WHERE clause"
+  },
+  {
+    "query": "What must be ensured when defining the anchor and recursive members?",
+    "response": "They should have the same number of columns."
+  },
+  {
+    "query": "What advantage do CTEs provide over subqueries in SQL?",
+    "response": "They can be used as standalone tables in other queries."
+  },
+  {
+    "query": "What advantage does EXISTS offer over IN operator with a subquery?",
+    "response": "EXISTS is faster for large result sets."
+  },
+  {
+    "query": "How does the NOT EXISTS operator differ from EXISTS?",
+    "response": "NOT EXISTS returns an indication if no rows meet the condition."
+  },
+  {
+    "query": "How does the WHERE clause differ when using comparison operators with subqueries that return multiple values?",
+    "response": "It includes the SOME, ANY, or ALL keyword."
+  },
+  {
+    "query": "When might you prefer using the MAX function over the ANY keyword?",
+    "response": "When readability is a concern"
+  },
+  {
+    "query": "What does the TOP phrase in a subquery specify?",
+    "response": "The maximum number of rows to return"
+  },
+  {
+    "query": "How does a subquery typically need to return its result when using comparison operators?",
+    "response": "Single value"
+  },
+  {
+    "query": "What SQL Server extension can be used in a DELETE statement to join the base table with a derived table?",
+    "response": "FROM clause"
+  },
+  {
+    "query": "How can you use the MERGE statement to delete rows in the target table that aren't matched in the source table?",
+    "response": "By adding a WHEN NOT MATCHED BY SOURCE clause"
+  },
+  {
+    "query": "Which keyword follows the MERGE clause in a basic merge operation?",
+    "response": "INTO"
+  },
+  {
+    "query": "If you use the DEFAULT keyword at the beginning of the VALUES clause, what value is assigned to columns without a default value?",
+    "response": "NULL"
+  },
+  {
+    "query": "When creating a table with the SELECT INTO statement, what must you do if the target table already exists?",
+    "response": "Use the DROP TABLE statement to delete the existing table"
+  },
+  {
+    "query": "Which clause in the SELECT INTO statement specifies the columns and data to be copied?",
+    "response": "SELECT clause"
+  },
+  {
+    "query": "When using SELECT INTO, what must be true about the table named in the INTO clause?",
+    "response": "It must not exist."
+  },
+  {
+    "query": "Which clause can be used in an UPDATE statement to base an update on data in another table?",
+    "response": "JOIN"
+  },
+  {
+    "query": "What is a common use of the FROM clause in a DELETE statement?",
+    "response": "To join additional tables for the search condition"
+  },
+  {
+    "query": "What must you ensure about the values being inserted into the table?",
+    "response": "They must be compatible with the data types of the columns."
+  },
+  {
+    "query": "How does the STR function handle decimal places in SQL Server?",
+    "response": "It rounds decimal digits."
+  },
+  {
+    "query": "What does the TRY_CONVERT function in SQL Server do differently compared to CONVERT?",
+    "response": "Returns NULL instead of generating an error when conversion fails"
+  },
+  {
+    "query": "What is the purpose of integer data types in SQL?",
+    "response": "To store whole numbers without decimal points"
+  },
+  {
+    "query": "Which statement accurately describes the time data type?",
+    "response": "Allows specification of fractional seconds precision"
+  },
+  {
+    "query": "What does the CAST function allow you to do in SQL?",
+    "response": "Convert an expression to the specified data type"
+  },
+  {
+    "query": "When does SQL Server perform implicit conversion?",
+    "response": "When values have different data types and are used in expressions"
+  },
+  {
+    "query": "How does the CONVERT function behave if the style argument is not specified?",
+    "response": "It behaves the same as the CAST function."
+  },
+  {
+    "query": "Which statement best describes the real data types in SQL Server?",
+    "response": "They store floating-point numbers with a limited number of significant digits."
+  },
+  {
+    "query": "In SQL Server, what happens if numeric values like zip codes are stored in numeric columns?",
+    "response": "Leading zeros are stripped."
+  },
+  {
+    "query": "How do large value data types compare to their smaller counterparts in terms of usage?",
+    "response": "They have the same usage patterns."
+  }
+]
