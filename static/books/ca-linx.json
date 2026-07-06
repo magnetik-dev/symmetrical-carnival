@@ -201,7 +201,7 @@
   },
   {
     "query": "A Linux systems administrator wants to check whether an account exists. Which files should the systems administrator check? (Select all that apply.)",
-    "response": "wtmp, /etc/passwd, /etc/group"
+    "response": "/etc/passwd, /etc/group"
   },
   {
     "query": "A systems administrator changes a user's account password using the command line. Which directory or file contains users' hashed and salted passwords on Linux systems?",
