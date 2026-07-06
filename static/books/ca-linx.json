@@ -869,7 +869,7 @@
   },
   {
     "query": "An implementation engineer is looking to understand how to configure security in SELinux. What are the three different modes that define how SELinux applies in a system?",
-    "response": "User, Role, Type, Enforcing, Permissive, Disabled, Confidential, Secret, Top Secret"
+    "response": "Enforcing, Permissive, Disabled"
   },
   {
     "query": "A programmer complained to management that the programmer does not have access to certain parts of the web server. What security concept does this represent?",
@@ -945,7 +945,7 @@
   },
   {
     "query": "What might be necessary for a Linux server administrator to understand to assist in a DevOps team?",
-    "response": "Functions, Automation ??"
+    "response": "Automation"
   },
   {
     "query": "A DevOps team needs an orchestration utility that runs on Ruby and includes both declarative and imperative methods. What utility best fits the team's needs?",
@@ -1021,7 +1021,7 @@
   },
   {
     "query": "A software engineer is preparing a class for newly-hired employees on the topic of Linux boot processes. What enables a client to retrieve the necessary boot loader and system files from a server over the network?",
-    "response": "UEFI"
+    "response": "PXE"
   },
   {
     "query": "A cyber consultant is manually installing Linux on organizational systems. What are installation considerations in manually installing Linux? (Select all that apply.)",
