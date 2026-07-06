@@ -1,0 +1,778 @@
+[
+  {
+    "query": "What type of relationship is most common in relational databases?",
+    "response": "One-to-many"
+  },
+  {
+    "query": "What is the purpose of a stored procedure in SQL?",
+    "response": "To store a set of SQL statements that can be executed together"
+  },
+  {
+    "query": "Which RDBMS is typically used for small- to medium-sized departmental systems?",
+    "response": "SQL Server"
+  },
+  {
+    "query": "What is the purpose of the ADO.NET connection string?",
+    "response": "To establish a connection to the database"
+  },
+  {
+    "query": "What is the purpose of assigning a data type to a column in a table?",
+    "response": "To define the type and size of information stored"
+  },
+  {
+    "query": "Which SQL statement creates a new index for a table?",
+    "response": "CREATE INDEX"
+  },
+  {
+    "query": "What happens if the reader does not find any data matching the query in Visual Basic code?",
+    "response": "The Vendor object is set to Nothing"
+  },
+  {
+    "query": "What type of SQL statements are typically used by database administrators (DBAs)?",
+    "response": "DDL"
+  },
+  {
+    "query": "What is the role of an application server in a more complex client/server system architecture?",
+    "response": "Processing business components"
+  },
+  {
+    "query": "What is the primary key in a relational database table?",
+    "response": "A unique identifier for each row"
+  },
+  {
+    "query": "Which page in the Database Properties dialog box is used to set the compatibility level for a database?",
+    "response": "Options"
+  },
+  {
+    "query": "What is the default expiration time for a backup file in SQL Server Management Studio?",
+    "response": "0 days"
+  },
+  {
+    "query": "What authentication method allows Windows to supply the appropriate login name and password?",
+    "response": "Windows Authentication"
+  },
+  {
+    "query": "What does SQL Server Express lack compared to other editions?",
+    "response": "Client tools"
+  },
+  {
+    "query": "What is the easiest way to attach a database to SQL Server?",
+    "response": "Use the Attach Database command in the Management Studio."
+  },
+  {
+    "query": "How can you view a database diagram in SQL Server Management Studio?",
+    "response": "Expand the Database Diagrams node and double-click the diagram."
+  },
+  {
+    "query": "How can you connect to a database server using Windows authentication in the Management Studio?",
+    "response": "Select Windows Authentication and use your current Windows login."
+  },
+  {
+    "query": "What is the easiest way to create a database from existing SQL Server files?",
+    "response": "Attach the files"
+  },
+  {
+    "query": "What command should you use to remove a database file attachment?",
+    "response": "Detach"
+  },
+  {
+    "query": "Which option should you select to connect to SQL Server Express running on your PC?",
+    "response": "Localhost\\SQLEXPRESS"
+  },
+  {
+    "query": "What keyword can be used to include all rows matching the search condition in the result set, even if they are duplicates?",
+    "response": "ALL"
+  },
+  {
+    "query": "What does the DISTINCT keyword do in a SELECT statement?",
+    "response": "It eliminates duplicate rows"
+  },
+  {
+    "query": "What does the FETCH clause do in a SELECT statement?",
+    "response": "Retrieves a specified number of rows"
+  },
+  {
+    "query": "Which keyword is used to retrieve all columns from a table?",
+    "response": "*"
+  },
+  {
+    "query": "Which clause retrieves rows where a specified column contains any value within a list?",
+    "response": "IN"
+  },
+  {
+    "query": "What does the ORDER BY clause do in a SELECT statement?",
+    "response": "Specifies the sort order of the result set"
+  },
+  {
+    "query": "Which of the following is an arithmetic operator that calculates the remainder of a division operation?",
+    "response": "%"
+  },
+  {
+    "query": "In what order are the operations in an arithmetic expression evaluated?",
+    "response": "Multiplication, Division, Addition, Subtraction"
+  },
+  {
+    "query": "Which operator is used to compare two expressions to determine if they are equal?",
+    "response": "="
+  },
+  {
+    "query": "How are the rows sorted if the ORDER BY clause is included?",
+    "response": "In the specified sequence"
+  },
+  {
+    "query": "What determines the column names in the final result set when using EXCEPT or INTERSECT?",
+    "response": "The column names from the first SELECT statement"
+  },
+  {
+    "query": "What is the purpose of using correlation names in an inner join?",
+    "response": "To create temporary table names that simplify the query"
+  },
+  {
+    "query": "The implicit syntax for an inner join is often referred to as:",
+    "response": "SQL-89 syntax"
+  },
+  {
+    "query": "Which operator is used in the WHERE clause for an implicit inner join?",
+    "response": "="
+  },
+  {
+    "query": "What does a union operation do?",
+    "response": "Combines rows from two or more result sets into one result set"
+  },
+  {
+    "query": "What type of join includes all rows from both tables involved in the join, regardless of whether the join condition is true?",
+    "response": "Outer join"
+  },
+  {
+    "query": "What is a correlation name in SQL?",
+    "response": "A temporary table name assigned in the FROM clause"
+  },
+  {
+    "query": "What does the JOIN keyword do in an SQL query?",
+    "response": "It combines columns from two or more tables into a single result set."
+  },
+  {
+    "query": "What operator can be used to join tables based on relationships not defined in the database?",
+    "response": "Ad hoc relationships"
+  },
+  {
+    "query": "What does the DISTINCT keyword do in a self-join?",
+    "response": "It eliminates duplicate rows."
+  },
+  {
+    "query": "Which clause is used to filter groups after they have been formed by the GROUP BY clause?",
+    "response": "HAVING"
+  },
+  {
+    "query": "Which aggregate function calculates the total of all non-null values in the expression?",
+    "response": "SUM"
+  },
+  {
+    "query": "How does the GROUPING SETS operator differ from the ROLLUP and CUBE operators in SQL?",
+    "response": "It only includes summary rows for the specified groups."
+  },
+  {
+    "query": "What does the ROLLUP operator do in an SQL query?",
+    "response": "Adds summary rows for each combination of groups specified"
+  },
+  {
+    "query": "Which clause is often used with aggregate functions to group rows in a result set?",
+    "response": "GROUP BY"
+  },
+  {
+    "query": "Which keyword is used with COUNT to exclude duplicate values?",
+    "response": "DISTINCT"
+  },
+  {
+    "query": "In the syntax of the OVER clause, what follows the aggregate function?",
+    "response": "Parentheses"
+  },
+  {
+    "query": "Which clause specifies a search condition for a group or an aggregate in SQL?",
+    "response": "HAVING"
+  },
+  {
+    "query": "What is the primary difference between the ROLLUP and CUBE operators in SQL?",
+    "response": "ROLLUP adds summary rows only for the specified groups, while CUBE adds summary rows for every combination of groups"
+  },
+  {
+    "query": "Which function calculates the total amount for a specified column in SQL?",
+    "response": "SUM"
+  },
+  {
+    "query": "Which clause must follow a comparison operator when used with a subquery that returns multiple values?",
+    "response": "WHERE"
+  },
+  {
+    "query": "In SQL, which subquery type is recommended for readability when dealing with complex queries?",
+    "response": "Subquery in the WHERE clause"
+  },
+  {
+    "query": "What must be ensured when defining the anchor and recursive members?",
+    "response": "They should have the same number of columns."
+  },
+  {
+    "query": "What advantage do CTEs provide over subqueries in SQL?",
+    "response": "They can be used as standalone tables in other queries."
+  },
+  {
+    "query": "What advantage does EXISTS offer over IN operator with a subquery?",
+    "response": "EXISTS is faster for large result sets."
+  },
+  {
+    "query": "How does the NOT EXISTS operator differ from EXISTS?",
+    "response": "NOT EXISTS returns an indication if no rows meet the condition."
+  },
+  {
+    "query": "How does the WHERE clause differ when using comparison operators with subqueries that return multiple values?",
+    "response": "It includes the SOME, ANY, or ALL keyword."
+  },
+  {
+    "query": "When might you prefer using the MAX function over the ANY keyword?",
+    "response": "When readability is a concern"
+  },
+  {
+    "query": "What does the TOP phrase in a subquery specify?",
+    "response": "The maximum number of rows to return"
+  },
+  {
+    "query": "How does a subquery typically need to return its result when using comparison operators?",
+    "response": "Single value"
+  },
+  {
+    "query": "What SQL Server extension can be used in a DELETE statement to join the base table with a derived table?",
+    "response": "FROM clause"
+  },
+  {
+    "query": "How can you use the MERGE statement to delete rows in the target table that aren't matched in the source table?",
+    "response": "By adding a WHEN NOT MATCHED BY SOURCE clause"
+  },
+  {
+    "query": "Which keyword follows the MERGE clause in a basic merge operation?",
+    "response": "INTO"
+  },
+  {
+    "query": "If you use the DEFAULT keyword at the beginning of the VALUES clause, what value is assigned to columns without a default value?",
+    "response": "NULL"
+  },
+  {
+    "query": "When creating a table with the SELECT INTO statement, what must you do if the target table already exists?",
+    "response": "Use the DROP TABLE statement to delete the existing table"
+  },
+  {
+    "query": "Which clause in the SELECT INTO statement specifies the columns and data to be copied?",
+    "response": "SELECT clause"
+  },
+  {
+    "query": "When using SELECT INTO, what must be true about the table named in the INTO clause?",
+    "response": "It must not exist."
+  },
+  {
+    "query": "Which clause can be used in an UPDATE statement to base an update on data in another table?",
+    "response": "JOIN"
+  },
+  {
+    "query": "What is a common use of the FROM clause in a DELETE statement?",
+    "response": "To join additional tables for the search condition"
+  },
+  {
+    "query": "What must you ensure about the values being inserted into the table?",
+    "response": "They must be compatible with the data types of the columns."
+  },
+  {
+    "query": "How does the STR function handle decimal places in SQL Server?",
+    "response": "It rounds decimal digits."
+  },
+  {
+    "query": "What does the TRY_CONVERT function in SQL Server do differently compared to CONVERT?",
+    "response": "Returns NULL instead of generating an error when conversion fails"
+  },
+  {
+    "query": "What is the purpose of integer data types in SQL?",
+    "response": "To store whole numbers without decimal points"
+  },
+  {
+    "query": "Which statement accurately describes the time data type?",
+    "response": "Allows specification of fractional seconds precision"
+  },
+  {
+    "query": "What does the CAST function allow you to do in SQL?",
+    "response": "Convert an expression to the specified data type"
+  },
+  {
+    "query": "When does SQL Server perform implicit conversion?",
+    "response": "When values have different data types and are used in expressions"
+  },
+  {
+    "query": "How does the CONVERT function behave if the style argument is not specified?",
+    "response": "It behaves the same as the CAST function."
+  },
+  {
+    "query": "Which statement best describes the real data types in SQL Server?",
+    "response": "They store floating-point numbers with a limited number of significant digits."
+  },
+  {
+    "query": "In SQL Server, what happens if numeric values like zip codes are stored in numeric columns?",
+    "response": "Leading zeros are stripped."
+  },
+  {
+    "query": "How do large value data types compare to their smaller counterparts in terms of usage?",
+    "response": "They have the same usage patterns."
+  },
+  {
+    "query": "What is the purpose of the connection object?",
+    "response": "To connect to the database"
+  },
+  {
+    "query": "Which software component manages the databases of a client/server system?",
+    "response": "Database management system (DBMS)"
+  },
+  {
+    "query": "Which statement adds one or more new rows to a table?",
+    "response": "INSERT"
+  },
+  {
+    "query": "How do you code a single-line comment in SQL?",
+    "response": "-- at the start of the line"
+  },
+  {
+    "query": "What should you click on to expand or collapse nodes in the Object Explorer?",
+    "response": "Plus (+) and minus (-) signs"
+  },
+  {
+    "query": "What pane in the Query Designer displays the SQL statement built by the designer?",
+    "response": "SQL pane"
+  },
+  {
+    "query": "How do you detach a database in SQL Server Management Studio?",
+    "response": "Right-click the database and select Tasks -> Detach."
+  },
+  {
+    "query": "Where can you find the option to change the start mode of a service in SQL Server Configuration Manager?",
+    "response": "In the Properties command of the service"
+  },
+  {
+    "query": "Which tab in the Management Studio displays the columns for the selected table?",
+    "response": "Design tab"
+  },
+  {
+    "query": "What does the DATEDIFF function do in SQL?",
+    "response": "Returns the difference between two dates"
+  },
+  {
+    "query": "What happens if the WHERE clause is omitted in a SELECT statement?",
+    "response": "All rows in the base table are included"
+  },
+  {
+    "query": "Which clause is used to specify the table from which data is retrieved in a SELECT statement?",
+    "response": "FROM"
+  },
+  {
+    "query": "In SQL, how can you change the sequence of operations in an expression?",
+    "response": "Using parentheses"
+  },
+  {
+    "query": "How can you simplify SQL code using correlation names?",
+    "response": "By using correlation names for tables"
+  },
+  {
+    "query": "What does the INTERSECT operator do?",
+    "response": "Returns rows that are in both queries"
+  },
+  {
+    "query": "What is the preferred technique for coding an inner join in SQL Server?",
+    "response": "SQL-92 explicit syntax"
+  },
+  {
+    "query": "In SQL, which operator allows you to add additional summary rows to a composite group?",
+    "response": "ROLLUP or CUBE"
+  },
+  {
+    "query": "What is a requirement when using a subquery with the IN operator?",
+    "response": "The subquery must return a single column of values."
+  },
+  {
+    "query": "When should nested subqueries be avoided?",
+    "response": "When the query is becoming difficult to read."
+  },
+  {
+    "query": "Which SQL operation is typically faster when dealing with large datasets and complex queries?",
+    "response": "Inner join"
+  },
+  {
+    "query": "What does the subquery return when used with the EXISTS operator?",
+    "response": "An indication of whether any rows satisfy the condition"
+  },
+  {
+    "query": "Which statement is true regarding referencing CTEs within the same WITH clause?",
+    "response": "CTEs can reference each other in any order within the same WITH clause."
+  },
+  {
+    "query": "Which SQL function can be used as an equivalent to the ALL keyword in some cases?",
+    "response": "MAX"
+  },
+  {
+    "query": "Which of the following is not a comparison operator commonly used with the ALL keyword?",
+    "response": "IN"
+  },
+  {
+    "query": "What does the following UPDATE statement do? UPDATE InvoiceCopy SET PaymentDate = '2020-03-21', PaymentTotal = 19351.18 WHERE InvoiceNumber = '97/522';",
+    "response": "Updates the PaymentDate and PaymentTotal columns for a specific invoice"
+  },
+  {
+    "query": "What does the INSERT statement allow you to insert?",
+    "response": "Both single and multiple rows"
+  },
+  {
+    "query": "What clause is optional in a DELETE statement but usually included to avoid deleting all rows?",
+    "response": "WHERE"
+  },
+  {
+    "query": "Which clause in an UPDATE statement specifies the condition a row must meet to be updated?",
+    "response": "WHERE"
+  },
+  {
+    "query": "When converting date values to varchar using CAST, how are they displayed by default?",
+    "response": "Without any changes"
+  },
+  {
+    "query": "What happens if TRY_CONVERT cannot convert an expression to the specified data type?",
+    "response": "It returns a NULL value."
+  },
+  {
+    "query": "What does the geometry data type in SQL Server store?",
+    "response": "Data such as points, lines, and polygons"
+  },
+  {
+    "query": "How does TRY_CONVERT handle the conversion of invalid dates?",
+    "response": "It returns NULL."
+  },
+  {
+    "query": "What does the STR function do in SQL Server?",
+    "response": "Converts a floating-point number to a character string"
+  },
+  {
+    "query": "What prefix is recommended for string literals when working with nchar and nvarchar data types?",
+    "response": "N"
+  },
+  {
+    "query": "How does the RANK function differ from the DENSE_RANK function?",
+    "response": "DENSE_RANK handles ties differently than RANK."
+  },
+  {
+    "query": "What function can be used to locate a string pattern within another string using wildcard characters?",
+    "response": "PATINDEX"
+  },
+  {
+    "query": "What does the CONVERT function do when removing time values using style code 110?",
+    "response": "Converts the datetime to a 10-character string"
+  },
+  {
+    "query": "How does the COALESCE function handle null values in a SELECT statement?",
+    "response": "It returns the first non-null value from a list of expressions."
+  },
+  {
+    "query": "What happens if none of the conditions in a CASE function's WHEN clauses are met?",
+    "response": "The function returns the ELSE result expression."
+  },
+  {
+    "query": "What does the NTILE function do when rows cannot be evenly divided into groups?",
+    "response": "It assigns fewer rows to later groups than to earlier ones."
+  },
+  {
+    "query": "What function can be used to get a specified number of characters from the beginning of a string?",
+    "response": "LEFT"
+  },
+  {
+    "query": "How does the GROUPING function indicate a summary row in SQL?",
+    "response": "It returns a value of 1 for columns assigned null values by ROLLUP or CUBE."
+  },
+  {
+    "query": "When might you use the CHOOSE function in SQL?",
+    "response": "To return a value based on a specified index"
+  },
+  {
+    "query": "Which function returns the absolute value of a number?",
+    "response": "ABS"
+  },
+  {
+    "query": "In SQL, what happens if all expressions in a COALESCE function are null?",
+    "response": "It returns a null value."
+  },
+  {
+    "query": "Which function is unique to SQL Server and not part of the ANSI SQL standard?",
+    "response": "ISNULL"
+  },
+  {
+    "query": "What problem arises from eliminating repeating values and columns to achieve first normal form?",
+    "response": "Increased data redundancy"
+  },
+  {
+    "query": "What might you use to document design decisions in a complicated design?",
+    "response": "A CASE tool"
+  },
+  {
+    "query": "What are the three types of anomalies that can occur when referential integrity isn't enforced?",
+    "response": "Deletion anomaly, insertion anomaly, and update anomaly"
+  },
+  {
+    "query": "Which of the following is not a technique mentioned for identifying data elements?",
+    "response": "Guessing the data elements"
+  },
+  {
+    "query": "What indicates that a table contains information for more than one entity in second normal form?",
+    "response": "A composite key"
+  },
+  {
+    "query": "What technique can be used to model a database system after a real-world system?",
+    "response": "Entity-relationship (ER) modeling"
+  },
+  {
+    "query": "When is it recommended to index a column?",
+    "response": "When the column is a foreign key"
+  },
+  {
+    "query": "Why do some database designers consider a database normalized at the third normal form (3NF)?",
+    "response": "Because higher normal forms are applied infrequently"
+  },
+  {
+    "query": "When is it not necessary to subdivide a data element into its smallest components?",
+    "response": "When the components are rarely used separately"
+  },
+  {
+    "query": "What does normalization help to reduce in a data structure?",
+    "response": "Data redundancy"
+  },
+  {
+    "query": "What is a potential drawback of including derived data in a table?",
+    "response": "The possibility of the derived value deviating from the actual value"
+  },
+  {
+    "query": "What term refers to a model of a database rather than the database itself?",
+    "response": "Data structure"
+  },
+  {
+    "query": "Which SQL statement changes the current database context within a script?",
+    "response": "USE"
+  },
+  {
+    "query": "What happens to the indexes, triggers, and constraints when you delete a table?",
+    "response": "They are deleted along with the table."
+  },
+  {
+    "query": "How can you view the default collation for a server?",
+    "response": "SELECT CONVERT(varchar, SERVERPROPERTY('collation'));"
+  },
+  {
+    "query": "What is the primary use of the _BIN and _BIN2 collation options?",
+    "response": "To sort characters by their numeric codes"
+  },
+  {
+    "query": "How do you get the next value in a sequence to insert it into a table?",
+    "response": "NEXT VALUE FOR function"
+  },
+  {
+    "query": "Which clause specifies what happens to rows in the table if the key of the related row is updated?",
+    "response": "ON UPDATE"
+  },
+  {
+    "query": "Which of the following is an example of a valid delimited identifier?",
+    "response": "\"Invoice Line Items\""
+  },
+  {
+    "query": "In the default settings for a sequence, what data type is used?",
+    "response": "bigint"
+  },
+  {
+    "query": "What is the primary purpose of constraints in SQL?",
+    "response": "To enforce the integrity of the data in a table"
+  },
+  {
+    "query": "Which of the following is a valid regular identifier?",
+    "response": "Employees"
+  },
+  {
+    "query": "What is the default index type created by a SQL Server for a table's primary key?",
+    "response": "Clustered index"
+  },
+  {
+    "query": "Which of the following cannot be dropped using the ALTER TABLE statement?",
+    "response": "All other answers are correct."
+  },
+  {
+    "query": "What action can you perform directly from the Object Dependencies dialog box in SQL Server Management Studio?",
+    "response": "Expand or collapse dependencies for the selected table."
+  },
+  {
+    "query": "What is the initial step after clicking on the Relationships button in the Table Designer toolbar?",
+    "response": "Display the Foreign Key Relationships dialog box."
+  },
+  {
+    "query": "What is the recommended method to send a generated script to another tool for viewing or running?",
+    "response": "Copy it to the clipboard."
+  },
+  {
+    "query": "How does SQL Server Management Studio handle updates and deletes if the Delete Rule and Update Rule properties are set to \"Cascade\"?",
+    "response": "Related rows are updated or deleted accordingly."
+  },
+  {
+    "query": "What does setting the Enforce For Replication property to \"Yes\" ensure?",
+    "response": "Data integrity is maintained during replication."
+  },
+  {
+    "query": "Which button in the Check Constraints dialog box allows you to add a new constraint to a table?",
+    "response": "Add"
+  },
+  {
+    "query": "What does the Save Change Script dialog box prompt you to confirm?",
+    "response": "Script saving to a file"
+  },
+  {
+    "query": "What can you do with the Save Change Script dialog box in SQL Server Management Studio?",
+    "response": "Save the SQL script for altering a table."
+  },
+  {
+    "query": "How are the names for the data and log files updated when creating a new database?",
+    "response": "Automatically based on the database name entered"
+  },
+  {
+    "query": "What does setting the Is Unique property to \"Yes\" and the Type property to \"Index\" achieve?",
+    "response": "Defines a unique key constraint"
+  },
+  {
+    "query": "What does the Check Existing Data On Creation Or Re-Enabling property determine when setting up a check constraint?",
+    "response": "Whether existing data is validated against the new constraint"
+  },
+  {
+    "query": "Which option is NOT mentioned as a destination for sending generated scripts?",
+    "response": "Printer"
+  },
+  {
+    "query": "Which statement accurately describes the behavior of an INSERT operation through a view?",
+    "response": "It can only insert data into one base table."
+  },
+  {
+    "query": "When should you use the WITH SCHEMABINDING option in SQL views?",
+    "response": "To prevent accidental deletion of base tables"
+  },
+  {
+    "query": "What operation can views perform on base tables?",
+    "response": "SELECT, INSERT, UPDATE, and DELETE operations"
+  },
+  {
+    "query": "Which catalog view lists one row for each primary or unique key in each table?",
+    "response": "sys.key_constraints"
+  },
+  {
+    "query": "Which clause in the CREATE VIEW statement prevents users from examining the SQL code of the view?",
+    "response": "WITH ENCRYPTION"
+  },
+  {
+    "query": "What is the primary advantage of using catalog views in SQL Server?",
+    "response": "They provide independence from changes in system table structures."
+  },
+  {
+    "query": "How many levels deep can SQL Server nested views be nested?",
+    "response": "32 levels"
+  },
+  {
+    "query": "What is a consequence of cascaded DELETE operations when deleting through a view?",
+    "response": "Rows in related tables are deleted first, then the base table rows."
+  },
+  {
+    "query": "Which clause must not be included in the SELECT statement of a view to ensure it remains updatable?",
+    "response": "TOP"
+  },
+  {
+    "query": "What precaution should you take before deleting a view permanently?",
+    "response": "Backup the entire database."
+  },
+  {
+    "query": "What keyword is used to define a view in the CREATE VIEW statement?",
+    "response": "AS"
+  },
+  {
+    "query": "What additional option can you specify in the ALTER VIEW statement to enforce constraints on data modifications through the view?",
+    "response": "WITH CHECK OPTION"
+  },
+  {
+    "query": "What SQL statement can be used to handle errors in a SQL Server script?",
+    "response": "TRY ... CATCH"
+  },
+  {
+    "query": "What does the SET DATEFORMAT statement do?",
+    "response": "Sets the order of the parts of a date for entering date/time data"
+  },
+  {
+    "query": "What is a key difference in scope between standard tables and derived tables?",
+    "response": "Standard tables are available until explicitly deleted, whereas derived tables exist only while the query is executing."
+  },
+  {
+    "query": "Which of the following is NOT a Transact-SQL system function?",
+    "response": "SET DATEFORMAT"
+  },
+  {
+    "query": "What is the scope of a scalar variable in SQL Server?",
+    "response": "Limited to a single batch"
+  },
+  {
+    "query": "When executing a script using SQLCMD, what does the response include?",
+    "response": "Result sets created by SELECT statements"
+  },
+  {
+    "query": "How is the number of rows in each table calculated within the dynamic SQL string?",
+    "response": "Using a COUNT(*) function in a SELECT statement"
+  },
+  {
+    "query": "What is the benefit of using comments in an ELSE clause?",
+    "response": "To help find and debug logical errors"
+  },
+  {
+    "query": "What is the first step in using a cursor in SQL?",
+    "response": "Declaring variables"
+  },
+  {
+    "query": "How can you connect to SQL Server using Windows authentication with SQLCMD?",
+    "response": "sqlcmd -S localhost -E"
+  },
+  {
+    "query": "What is required before passing a table as a parameter to a stored procedure in SQL Server?",
+    "response": "Creating a user-defined table type"
+  },
+  {
+    "query": "Which keyword terminates the SQL statements within the BEGIN ... END block of a multi-statement table-valued function?",
+    "response": "RETURN"
+  },
+  {
+    "query": "How do you permanently delete a stored procedure from the database?",
+    "response": "DROP PROC statement"
+  },
+  {
+    "query": "How does the procedure handle invalid data types passed to its parameters?",
+    "response": "Raises a system error"
+  },
+  {
+    "query": "What is the purpose of using the OUTPUT keyword for a parameter in SQL Server?",
+    "response": "To pass values back to the calling program"
+  },
+  {
+    "query": "What does a script in Transact-SQL allow users to do?",
+    "response": "Execute two or more batches using SQL Server tools."
+  },
+  {
+    "query": "Which statement is true about user-defined table types in SQL Server?",
+    "response": "They are similar to regular tables but cannot have foreign keys."
+  },
+  {
+    "query": "Which statement about invoking a scalar-valued function is true?",
+    "response": "It requires specifying the database schema."
+  },
+  {
+    "query": "What type of trigger is used to control an insert operation through a view?",
+    "response": "INSTEAD OF trigger"
+  },
+  {
+    "query": "How do you identify an output parameter in SQL Server?",
+    "response": "By coding the OUTPUT keyword"
+  }
+]

@@ -34,7 +34,8 @@
     { value: 'dtant-module-quiz', label: 'DTANT Module Quiz' },
     { value: 'dtant-final', label: 'DTANT Final Exam' },
     { value: 'ca-pldes-quiz', label: 'PLDES Quiz' },
-    { value: 'ca-sadgn', label: 'SADGN Quizes'}
+    { value: 'ca-sadgn', label: 'SADGN Quizes'},
+    { value: 'ca-dbsql-quizes', label: 'DBSQL Quizes'}
   ];
   
   const digitalDesignOptions = [
@@ -43,7 +44,8 @@
   ];
 
   const businessManagementOptions = [
-    { value: 'bm-obeo', label: 'OBEO Quiz' }
+    { value: 'bm-obeo', label: 'OBEO Quiz' },
+    { value: 'bm-bnvo', label: 'BNVO Quiz' }
   ];
 
   const bookOptions = cyberOptions
