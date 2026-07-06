@@ -306,6 +306,10 @@
                                         <span class="is-size-6 has-text-grey-light">
                                             {student.student_number}
                                         </span>
+                                        {#if isAdmin}
+                                            <br>
+                                            <span class="tag is-success is-size-6 mt-2"> {student.payment_status || 'NA'} </span>
+                                        {/if}
                                     </td>
                                     <td>
                                         <span class="has-text-grey-light">{student.profile}</span>
@@ -322,10 +326,6 @@
                                             <span class="tag is-warning is-size-6 is-hoverable">{student.lead_name}</span>
                                         {:else}
                                             <span class="has-text-grey-light is-size-6">N/A</span>
-                                        {/if}
-                                        {#if isAdmin}
-                                            <br>
-                                            <span class="tag is-success is-size-6 mt-2"> {student.payment_status || 'NA'} </span>
                                         {/if}
                                     </td>
                                     {#if isAdmin}
@@ -355,10 +355,10 @@
                                         colspan="5"
                                         class="has-text-centered py-6">
                                         <div class="content has-text-grey">
-                                            <p class="is-size-5 mb-1">
+                                            <p class="is-size-4 mb-1">
                                                 No records found
                                             </p>
-                                            <p class="is-size-7">
+                                            <p class="is-size-6">
                                                 Try adjusting your search
                                                 criteria or add new entries to
                                                 the registry.

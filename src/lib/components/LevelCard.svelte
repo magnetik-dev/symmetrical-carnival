@@ -6,21 +6,17 @@
     // Destructure the properties directly from the $props() rune
     let { statName, statValue } = $props();
 
-    onMount(() => {
-		// This is now safe from SSR errors
-		const card = document.querySelector('.spotlight') as HTMLElement | null;
-
-		if (card) {
-			card.addEventListener('mousemove', (e: MouseEvent) => {
-				const rect = card.getBoundingClientRect();
-				card.style.setProperty('--x', `${e.clientX - rect.left}px`);
-				card.style.setProperty('--y', `${e.clientY - rect.top}px`);
-			});
-		}
-	});
+    // Update spotlight position from Svelte event handler (avoids SSR issues and undefined handler)
+    function handleMouseMove(e: MouseEvent) {
+        const card = e.currentTarget as HTMLElement | null;
+        if (!card) return;
+        const rect = card.getBoundingClientRect();
+        card.style.setProperty('--x', `${e.clientX - rect.left}px`);
+        card.style.setProperty('--y', `${e.clientY - rect.top}px`);
+    }
 </script>
 
-<div class="level-item spotlight has-text-centered p-3 mx-2 box is-shadowless">
+<div class="level-item spotlight has-text-centered p-3 mx-2 box is-shadowless" role="button" tabindex="0" onmousemove={handleMouseMove}>
     <div>
         <p class="heading has-text-weight-medium is-size-5 pb-4 has-text-grey-light">
             {statName}
