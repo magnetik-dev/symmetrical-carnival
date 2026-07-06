@@ -4,7 +4,7 @@ import type { Actions, PageServerLoad } from './$types';
 export const load: PageServerLoad = async ({ locals }) => {
     const user = await locals.getUser();
     if (user) {
-        throw redirect(303, '/quiz');
+        throw redirect(303, '/dashboard');
     }
     return {};
 };

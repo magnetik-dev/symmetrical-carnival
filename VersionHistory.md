@@ -1,5 +1,8 @@
 # Version History
 
+## Symmetrical Carnival 0.3.0, Jun 2026
+ - Student Dashboard
+
 ## Symmetrical Carnival 0.2.4, May 2026
  - Add dgmkf
  - Updates to layout

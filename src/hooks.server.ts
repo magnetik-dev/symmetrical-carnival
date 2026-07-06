@@ -2,6 +2,12 @@ import { createServerClient } from '@supabase/ssr';
 import { type Handle, redirect } from '@sveltejs/kit';
 import { PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY } from '$env/static/public';
 
+const ROUTE_QUIZ = '/quiz';
+const ROUTE_DASHBOARD = '/dashboard';
+const ROUTE_GENERATOR = '/generator';
+
+const ROUTE_DEFAULT = ROUTE_DASHBOARD;
+
 export const handle: Handle = async ({ event, resolve }) => {
   event.locals.supabase = createServerClient(PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY, {
     cookies: {
@@ -40,8 +46,9 @@ export const handle: Handle = async ({ event, resolve }) => {
   const user = await event.locals.getUser();
 
   // Auth Guards
-  const isProtectedPath = event.url.pathname.startsWith('/quiz') 
-    || event.url.pathname.startsWith('/generator');
+  const isProtectedPath = event.url.pathname.startsWith(ROUTE_QUIZ) 
+    || event.url.pathname.startsWith(ROUTE_GENERATOR)
+    || event.url.pathname.startsWith(ROUTE_DASHBOARD);
   
   if (isProtectedPath && !user) {
     throw redirect(303, '/');
@@ -49,7 +56,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 
   // Redirect logged-in users away from root (login) if they are already authenticated
   if (event.url.pathname === '/' && user) {
-      throw redirect(303, '/quiz');
+      throw redirect(303, ROUTE_DEFAULT);
   }
 
   return resolve(event, {

@@ -9,7 +9,7 @@
   },
   {
     "query": "After receiving service desk tickets from users, a server administrator has identified a problem with an application server. The next step is to gather additional information to determine the scope of the problem. How will the server administrator start this process? (Select all that apply.)",
-    "response": "Ask users for additional details., Check for any recent changes to the environment."
+    "response": "Ask users for additional details., Examine log files."
   },
   {
     "query": "A user submits a service desk request showing that the workstation cannot access a file server. Other users report they can access that file server. The scope of the problem is most likely at what level?",

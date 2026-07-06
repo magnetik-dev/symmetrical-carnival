@@ -33,6 +33,9 @@
         <div class="navbar-menu {isActive ? 'is-active' : ''}">
             <div class="navbar-start">
                 {#if user}
+                    <a class="navbar-item is-size-4" href="/dashboard">
+                        Dashboard
+                    </a>
                     <a class="navbar-item is-size-4" href="/quiz">
                         Quiz
                     </a>
