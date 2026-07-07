@@ -774,5 +774,261 @@
   {
     "query": "How do you identify an output parameter in SQL Server?",
     "response": "By coding the OUTPUT keyword"
+  },
+  {
+    "query": "What clause is used to retrieve specific rows from a table in SQL?",
+    "response": "WHERE"
+  },
+  {
+    "query": "In SQL, what is the order of precedence for arithmetic operations?",
+    "response": "Multiplication, Division, Modulo, Addition, Subtraction"
+  },
+  {
+    "query": "How do you handle a situation where you need to select rows with column values that meet multiple conditions?",
+    "response": "AND, OR"
+  },
+  {
+    "query": "To include a range of values in a LIKE pattern, which symbols are used?",
+    "response": "[]"
+  },
+  {
+    "query": "In the implicit join syntax, how are the join conditions coded?",
+    "response": "In the WHERE clause"
+  },
+  {
+    "query": "What does the AND logical operator do in a WHERE clause?",
+    "response": "Requires all conditions to be true"
+  },
+  {
+    "query": "What does the PARTITION BY clause do in the context of the OVER clause?",
+    "response": "Specifies the column to group the results"
+  },
+  {
+    "query": "What keyword indicates the beginning of a CTE definition in SQL?",
+    "response": "WITH"
+  },
+  {
+    "query": "How is hierarchical data typically represented in a recursive CTE?",
+    "response": "Using the UNION ALL operator"
+  },
+  {
+    "query": "When does a subquery return a single value?",
+    "response": "When it calculates an aggregate function"
+  },
+  {
+    "query": "How does a subquery in the FROM clause differ from other subqueries?",
+    "response": "It can return multiple columns and rows"
+  },
+  {
+    "query": "When might you use the SOME keyword in SQL queries?",
+    "response": "When evaluating conditions against multiple values"
+  },
+  {
+    "query": "What should be tested separately when coding a correlated subquery before integrating it into the main SELECT statement?",
+    "response": "The correlation with the outer query"
+  },
+  {
+    "query": "When not including a column list in the INSERT statement, what must you do?",
+    "response": "Specify the column values in the same order as they appear in the table"
+  },
+  {
+    "query": "Which data types use one byte per character when using the default collation?",
+    "response": "char and varchar"
+  },
+  {
+    "query": "When coding a Unicode value as a literal, what must precede the value?",
+    "response": "'N'"
+  },
+  {
+    "query": "What happens if you divide 50 by 100 in SQL without explicit conversion?",
+    "response": "It returns 0."
+  },
+  {
+    "query": "If you need to use a date part in an arithmetic operation, which function should you use?",
+    "response": "DATEPART"
+  },
+  {
+    "query": "Why is it necessary to convert the result of subtracting two date/time values to an integer?",
+    "response": "Because the result is implicitly cast as a date/time value"
+  },
+  {
+    "query": "Which function returns the Universal Time Coordinate (UTC) date and time?",
+    "response": "GETUTCDATE"
+  },
+  {
+    "query": "What does the GROUPING function return if a column is assigned a null value by ROLLUP or CUBE?",
+    "response": "1"
+  },
+  {
+    "query": "In a SELECT statement, what does the CASE keyword indicate?",
+    "response": "A conditional expression"
+  },
+  {
+    "query": "What does the DATEPART function return when used with the 'tzoffset' date part?",
+    "response": "An integer value"
+  },
+  {
+    "query": "Why should you avoid searching for exact values when working with real numbers in SQL?",
+    "response": "Because real numbers are approximate"
+  },
+  {
+    "query": "What does the SQUARE function do?",
+    "response": "Calculates the square of a number"
+  },
+  {
+    "query": "What is a multivalued dependency?",
+    "response": "A situation where a primary key column has a one-to-many relationship with a non-key column"
+  },
+  {
+    "query": "What happens if SQL Server does not have an index and needs to locate rows?",
+    "response": "It will perform a table scan."
+  },
+  {
+    "query": "Which SQL Server feature allows you to define how referential integrity is enforced when a primary key is changed?",
+    "response": "Declarative Referential Integrity"
+  },
+  {
+    "query": "When does most denormalization occur?",
+    "response": "Beyond the third normal form"
+  },
+  {
+    "query": "What is the primary goal of normalization in database design?",
+    "response": "To produce smaller, more efficient tables"
+  },
+  {
+    "query": "How can the problem of increased data redundancy be resolved in a table in first normal form?",
+    "response": "By applying the second normal form"
+  },
+  {
+    "query": "When should you typically consider creating an index for a column?",
+    "response": "When the column is used frequently in search conditions or joins"
+  },
+  {
+    "query": "How can a table-level constraint be defined compared to a column-level constraint?",
+    "response": "It can refer to any column in a table."
+  },
+  {
+    "query": "What must you do if you want to delete a table from a database other than the current one?",
+    "response": "Qualify the table name with the database name"
+  },
+  {
+    "query": "When is an insert or update operation allowed if a check constraint is present?",
+    "response": "Only if the condition evaluates to True"
+  },
+  {
+    "query": "What does the ON DELETE CASCADE clause do in a foreign key constraint?",
+    "response": "Deletes the parent record when the child record is deleted"
+  },
+  {
+    "query": "Before changing the data type of a column, what does SQL Server check?",
+    "response": "That no data will be lost"
+  },
+  {
+    "query": "What must you do when coding a constraint at the table level?",
+    "response": "Code a comma at the end of the preceding column definition."
+  },
+  {
+    "query": "In the absence of a graphical tool like the Management Studio, what must a SQL programmer do?",
+    "response": "Manually write and execute DDL statements"
+  },
+  {
+    "query": "Which SQL statement creates a filtered index for categories in a column?",
+    "response": "CREATE INDEX IX_InvoicesDateFilter ON Invoices (InvoiceDate DESC, InvoiceTotal) WHERE InvoiceDate > '2024-02-01';"
+  },
+  {
+    "query": "What must be done if you want to set a new starting number for an existing sequence?",
+    "response": "Use the RESTART clause in the ALTER SEQUENCE statement."
+  },
+  {
+    "query": "What option allows you to override the default behavior preventing changes that require table re-creation?",
+    "response": "\"Prevent saving changes that require table re-creation\" in the Tools menu"
+  },
+  {
+    "query": "How can you add a new index to a table using SQL Server Management Studio?",
+    "response": "By selecting the Manage Indexes and Keys option from the Table Designer toolbar"
+  },
+  {
+    "query": "What does the BEGIN TRANSACTION statement in the generated script signify?",
+    "response": "Query execution start"
+  },
+  {
+    "query": "How can you view the dependencies for a table in SQL Server Management Studio?",
+    "response": "Right-click on the table and select View Dependencies."
+  },
+  {
+    "query": "How can views enhance data security in a database?",
+    "response": "By limiting access to specific columns and rows"
+  },
+  {
+    "query": "What are base tables in the context of views?",
+    "response": "Tables referenced in the SELECT statement of a view"
+  },
+  {
+    "query": "How can views be used in SQL beyond SELECT statements?",
+    "response": "In INSERT, UPDATE, and DELETE statements"
+  },
+  {
+    "query": "When can an ORDER BY clause be used in the SELECT statement of a view?",
+    "response": "Only if the SELECT statement includes a TOP clause"
+  },
+  {
+    "query": "What is the purpose of the WHILE statement in SQL?",
+    "response": "To execute a SQL statement repeatedly as long as a condition is true"
+  },
+  {
+    "query": "Why might you use the GO command in a script?",
+    "response": "To execute the current batch of statements"
+  },
+  {
+    "query": "In SQL Server Management Studio, how long does a temporary table created in the Query Editor typically exist?",
+    "response": "Until the Query Editor window is closed"
+  },
+  {
+    "query": "Which of the following statements about the scope of a local temporary table in SQL Server is true?",
+    "response": "It is limited to the current session."
+  },
+  {
+    "query": "In what scenario would you need to use a temporary table instead of a table variable?",
+    "response": "When the table needs to be used in other batches"
+  },
+  {
+    "query": "Which of the following cannot be combined with other statements in a batch?",
+    "response": "CREATE VIEW"
+  },
+  {
+    "query": "How does using SQLCMD improve security compared to using the Command Prompt?",
+    "response": "It does not display passwords on the screen."
+  },
+  {
+    "query": "Which function returns the number of rows affected by the most recent SQL statement?",
+    "response": "@@ROWCOUNT"
+  },
+  {
+    "query": "When might a stored procedure use output parameters instead of a RETURN statement?",
+    "response": "When returning an error message"
+  },
+  {
+    "query": "How does the procedure handle an unexpected system error during insertion?",
+    "response": "Raises a system error"
+  },
+  {
+    "query": "When passing a table as a parameter to a stored procedure, what does the procedure treat the parameter as?",
+    "response": "A table variable"
+  },
+  {
+    "query": "Which SQL statement is used to roll back an update if the trigger conditions are not met?",
+    "response": "ROLLBACK TRAN"
+  },
+  {
+    "query": "What is the return value of the stored procedure if the insertion operation is unsuccessful?",
+    "response": "0"
+  },
+  {
+    "query": "How many AFTER triggers can a single table have for each action?",
+    "response": "Any number"
+  },
+  {
+    "query": "In SQL Server, what does the SELECT statement inside the RETURN statement of a table-valued function define?",
+    "response": "The result set of the function"
   }
 ]
