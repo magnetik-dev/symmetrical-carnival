@@ -3985,8 +3985,88 @@
     "query": "A tech company has deployed hundreds of IoT sensors in a remote location to gather environmental data. They are experiencing delays in data processing due to the time it takes to send data to a centralized server.",
     "response": "Implement edge computing to process data near the IoT sensors."
   },
-    {
+  {
     "query": "Which of the following BEST describes the effectiveness of encryption for cloud backup solutions?",
     "response": "Highly effective, as it eliminates the NIC as a single point of failure."
+  },
+  {
+    "query": "What method is commonly used to ensure data integrity during backup and restore processes?",
+    "response": "Hashing"
+  },
+  {
+    "query": "A backup administrator is asked by an employee how often personal work documents are backed up according to the backup policy. The backup administrator explains that it would fall under the category of backups that run more frequently due to quickly changing data.",
+    "response": "Filesystem backups"
+  },
+  {
+    "query": "A company is running a database application on a cloud instance. They are experiencing high costs and want to optimize their resources.",
+    "response": "Reduce the number of vCPUs and increase memory allocation"
+  },
+  {
+    "query": "You are a cloud administrator for a company that uses both Linux and Windows servers. You need to set up log aggregation to a central server to simplify auditing and archiving. The Linux servers should forward their logs using UDP port 514, and the Windows servers should use Event Viewer for log forwarding.",
+    "response": "Edit the /etc/rsyslog.conf file on Linux servers and configure Event Viewer on Windows servers to forward logs to the central server."
+  },
+  {
+    "query": "Which update type does an engineer use to apply numerous patches to a system at one time?",
+    "response": "Rollup"
+  },
+  {
+    "query": "A server manager has stepped into a new role and has learned the compliance requirements.",
+    "response": "Baseline comparison, Service management tool integration, Trending analysis"
+  },
+  {
+    "query": "An organization discovers unauthorized software on several client workstations. Which of the following actions is the MOST appropriate initial step to secure the computing environment?",
+    "response": "Conduct a software audit to identify the extent of unauthorized software presence."
+  },
+  {
+    "query": "An administrator is reviewing the roles and features installed on the organization's servers, comparing them to what each server's purpose is, and removing the roles and features that are unnecessary.",
+    "response": "Hardening"
+  },
+  {
+    "query": "A security technician was prioritizing their data protection efforts to improve data security and regulatory compliances. The analyst identified how the information is used and what type of label should be applied (confidential, internal, use, public). How did the analyst manage this?",
+    "response": "Data Classification"
+  },
+  {
+    "query": "A systems architect is developing protective countermeasures to safeguard against leaking personally identifiable information (PII). What could they do to protect their organization's PII? (Select all that apply.)",
+    "response": [
+      "Check for unencrypted network traffic",
+      "Check for unencrypted stored data",
+      "Check for misconfigured permissions"
+    ]
+  },
+  {
+    "query": "What is a key benefit of the Common Language Infrastructure (CLI) in cloud environments?",
+    "response": "It allows applications written in various programming languages to run regardless of the operating system platform."
+  },
+  {
+    "query": "You are a cybersecurity analyst at a company that has recently implemented a new vulnerability scanning tool. The tool uses the Security Content Automation Protocol (SCAP) to obtain feed updates. You need to ensure that the tool is correctly configured to receive the latest vulnerability information. Which action should you take to ensure the vulnerability scanning tool receives the latest updates?",
+    "response": "Configure the tool to automatically receive SCAP feed updates."
+  },
+  {
+    "query": "On the most fundamental level, every network allows access to system resources based on what?",
+    "response": "Identity"
+  },
+  {
+    "query": "What is the primary purpose of security baselines in cloud resources?",
+    "response": "To establish minimum security standards applied across all cloud resources."
+  },
+  {
+    "query": "A server technician is setting up directory services for the environment. Which of the following solutions could the technician use? (Select three.)",
+    "response": [
+      "OpenLDAP",
+      "Active Directory",
+      "NetIQ eDirectory"
+    ]
+  },
+  {
+    "query": "Why might cloud service providers offer options to duplicate or clone VMs?",
+    "response": "To provide redundancy, clustering, or backups."
+  },
+  {
+    "query": "What is the primary function of container image registries?",
+    "response": "To store, secure, and share container images"
+  },
+  {
+    "query": "What are the two primary types of databases?",
+    "response": "Relational and Non-relational"
   }
 ]
