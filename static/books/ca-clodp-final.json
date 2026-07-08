@@ -1,7 +1,159 @@
 [
   {
+    "query": "Your organization is currently using a cloud service provider (CSP) that has recently increased its prices significantly. You are tasked with analyzing the situation to determine the best course of action. Which of the following steps should you prioritize to address the potential vendor lock-in issue?",
+    "response": "Assess the current CSP's support for open standards and data migration paths."
+  },
+  {
+    "query": "What symbol is used to indicate a comment in a Bash script?",
+    "response": "#"
+  },
+  {
+    "query": "Given the need to migrate a large amount of data with minimal downtime, which factor should be prioritized to ensure a successful migration?",
+    "response": "Speed of the data transfer"
+  },
+  {
+    "query": "A network technician would like to configure a series of virtual machines that possess the highest possible speed and efficiency. What controlling device should the technician install to manage this high-speed virtualization?",
+    "response": "Type 1 hypervisor"
+  },
+  {
+    "query": "Engineers at an organization prepare for cloud migration. The services that will move are internal and proprietary in nature. What migration type and cloud type result from this move?",
+    "response": "On premises-to-cloud, Private cloud"
+  },
+  {
+    "query": "A retail company wants to implement a cloud solution to handle its e-commerce platform, which experiences significant traffic spikes during holiday seasons. They need a solution that can scale quickly to meet demand and ensure high availability. Which cloud deployment model should they implement and why?",
+    "response": "Public Cloud, because it can quickly scale to meet demand and ensure high availability."
+  },
+  {
+    "query": "What versioning format is associated with the Linux OS kernel?",
+    "response": "Semantic versioning"
+  },
+  {
+    "query": "Which of the following is a component of a cloud services solution?",
+    "response": "Client platform"
+  },
+  {
+    "query": "What is the primary focus of in-place deployments?",
+    "response": "Eliminating infrastructure changes"
+  },
+  {
     "query": "A company just recently moved its primary business application to the cloud. They were not concerned with security or regulatory issues. Which cloud option did they choose?",
     "response": "Public"
+  },
+  {
+    "query": "Which type of storage is typically expensive but fast and efficient?",
+    "response": "Block storage"
+  },
+  {
+    "query": "A cloud administrator is configuring a server cluster that works collectively to operate as the central database backup. The administrator would like to back up the data in such a way that results in minimal downtime while still reproducing maximum data, as new backups will be created regularly. Which method would provide the administrator with the best option?",
+    "response": "Synthetic full"
+  },
+  {
+    "query": "A security analyst is reviewing log files and needs to identify the severity of an event recorded in rsyslog. Which of the following actions should the analyst take to identify the severity of the event?",
+    "response": "Refer to the rsyslog severity levels"
+  },
+  {
+    "query": "An organization has decided to migrate part of its cloud solution housing client PII to an on-site storage area. Which of the following is the most likely reason for this migration?",
+    "response": "Security concerns"
+  },
+  {
+    "query": "A cloud service provider (CSP) is evaluating its backup retention policy. The CSP currently stores backups both on-premises and in the cloud but has not integrated any lifecycle management tools. What is the MOST effective step the CSP can take to streamline its backup retention policy?",
+    "response": "Integrate AWS Data Lifecycle Manager with EBS Snapshots."
+  },
+  {
+    "query": "You are tasked with designing a data management strategy for a new project that involves storing user-generated content such as documents, images, and configuration files. Which data management practices should you implement to ensure the security and integrity of this data?",
+    "response": "Encryption, backups, and permissions"
+  },
+  {
+    "query": "In preparation for patching the operating systems on a cloud network, the administrator double-checked to make sure the correct patch was queued for the operating system, that it was the correct version, and that it tested successfully in the test environment. However, the patch still failed to install in production. What are some reasons why the patch installation may have failed? (Select two.)",
+    "response": "The administrator failed to disable antivirus during the patching process."
+  },
+  {
+    "query": "An IT department is tasked with maintaining a critical business application. They receive a notification from the software vendor about an upcoming update that will move the application from version 4.2 to 4.3. What type of update is this likely to be, and what actions should the IT department take?",
+    "response": "It is a minor update, and the IT department can expect it to include bug fixes and incremental changes."
+  },
+  {
+    "query": "Your organization has implemented a new web application server. After deployment, you need to ensure that the server is secure by verifying that only the necessary ports are open. The server should only allow web traffic and no other services. Which ports should you verify are open to meet this requirement?",
+    "response": "80 and 443"
+  },
+  {
+    "query": "An administrator is using an operating system to encrypt stored data. Which of the following encrypts entire volumes and normally uses a computer's hardware to store encryption keys?",
+    "response": "Legal Hold"
+  },
+  {
+    "query": "What is the first step in the account management process?",
+    "response": "Creating user identities."
+  },
+  {
+    "query": "An employee receives an email that appears to be from the company's IT department, requesting their password to complete a system update. The email looks legitimate and includes the company's logo and branding. The employee is unsure whether to respond. What should the employee do to apply best practices in this situation?",
+    "response": "Contact the IT department directly using a known phone number or email address to verify the request."
+  },
+  {
+    "query": "You are a network administrator for a company that uses multiple APIs to integrate various business processes. Recently, you noticed that one of the APIs is experiencing frequent downtime and slow performance. You suspect that the issue might be related to traffic management. Which of the following actions should you take to address this issue?",
+    "response": "Implement rate limiting and request throttling"
+  },
+  {
+    "query": "A cloud administrator is setting up the security schema between two cloud applications. Which of the following should the administrator set up to secure traffic at the network layer? (Select two.)",
+    "response": "Transport Layer Security (TLS), API Encryption"
+  },
+  {
+    "query": "You are configuring a Linux web server that will be managed via Secure Shell (SSH). To enhance security, you need to configure the firewall to allow only the necessary ports for web traffic and SSH access. Which of the following firewall configurations should you apply?",
+    "response": "Allow ports 22/tcp, 80/tcp, and 443/tcp; block all others."
+  },
+  {
+    "query": "How can Git be utilized in Infrastructure as Code (IaC)?",
+    "response": "Git can serve as a repository for standardized automation and orchestration files to manage server and network device configurations."
+  },
+  {
+    "query": "An existing orchestration workflow maintains a set of servers regularly using a common service account. After adding one more server to the end of that workflow, the orchestration fails at the new task. Why is the workflow failing to complete? (Select two.)",
+    "response": "The new target name is incorrect., The new automation task is invalid."
+  },
+  {
+    "query": "What is the new name for the master branch in Git?",
+    "response": "main"
+  },
+  {
+    "query": "What is the primary purpose of version control in collaborative development environments?",
+    "response": "To maintain code integrity and track changes"
+  },
+  {
+    "query": "Which type of repository is suitable for open-source software or configuration files intended to be available on the Internet?",
+    "response": "Public repositories"
+  },
+  {
+    "query": "A software developer is in the process of writing a code update for a software library with new functionality. The developer is using Git for version control and scripting to orchestrate automatic upload of weekly update patches to Git. Select the Git command that would, in the automation scripts, update the main repository with the update patch.",
+    "response": "git push"
+  },
+  {
+    "query": "You have modified several files in your local Git repository and want to prepare them for a commit. Which Git command should you use to stage these files, and why?",
+    "response": "git add"
+  },
+  {
+    "query": "Your organization has deployed a new cloud-based application, but users are experiencing issues with certain features not working as expected. Upon investigation, you find that the application components have not been properly refactored for cloud services. What should you do to resolve this issue?",
+    "response": "Confirm applications are cloud-ready or cloud-compatible."
+  },
+  {
+    "query": "You are responsible for migrating a set of virtual instances from one cloud provider to another. After the migration, you notice that some instances fail to start, and you suspect general compatibility issues. Which of the following steps should you take to analyze and identify the root cause of the compatibility issues?",
+    "response": "Verify if the processor architecture is compatible between ARM, Intel, or AMD."
+  },
+  {
+    "query": "A network administrator is troubleshooting a routing issue where certain routes are missing from the routing table. The administrator has confirmed that the routing protocols being used are compatible. However, the issue persists. What should the administrator analyze next to identify the cause of the missing routes?",
+    "response": "The manual entry of routes by administrators"
+  },
+  {
+    "query": "During a security review, it is discovered that the company's web servers are using HTTP for client connections. The security team needs to analyze the potential risks and recommend a solution. What should the team do to ensure secure web communications?",
+    "response": "Block HTTP connections and require HTTPS connections."
+  },
+  {
+    "query": "Evaluate the rationale behind combining deprecated services with other offerings. Which statement best justifies this approach?",
+    "response": "It helps in maintaining a streamlined and cost-effective service portfolio."
+  },
+  {
+    "query": "Which of the following is a step to check for full or partial outage issues?",
+    "response": "Check for regional or local power and Internet outages"
+  },
+  {
+    "query": "A network engineer needs to verify that all devices on a specific subnet are recognized and that no rogue devices are present. Which tool should the engineer use to perform this task, and what is the primary action they should take with this tool?",
+    "response": "Nmap, by scanning the subnet for devices and services"
   },
   {
     "query": "A sysadmin is moving an application that handles sensitive government data. The application was part of a contract the company won to provide logistical support of financial transactions. Which cloud option would fulfill the requirements?",
@@ -16,10 +168,6 @@
     "response": "Puppet, Chef"
   },
   {
-    "query": "Given the need to migrate a large amount of data with minimal downtime, which factor should be prioritized to ensure a successful migration?",
-    "response": "Speed of the data transfer"
-  },
-  {
     "query": "A company has an application hosted in a single data center in North America. They are considering migrating to the cloud to improve service availability. ",
     "response": "After migration, the application is hosted in multiple data centers across North America, Europe, and Asia, allowing users to access the application from the nearest data center."
   },
@@ -32,16 +180,8 @@
     "response": "Administrators must get used to different consoles and terminology"
   },
   {
-    "query": "Which type of storage is typically expensive but fast and efficient?",
-    "response": "Block storage"
-  },
-  {
     "query": "A company has asked a Windows administrator to suggest a solution that would improve both visibility and control to company leadership. Which tool would the administrator most likely suggest?",
     "response": "Event Viewer"
-  },
-  {
-    "query": "A cloud service provider (CSP) is evaluating its backup retention policy. The CSP currently stores backups both on-premises and in the cloud but has not integrated any lifecycle management tools. What is the MOST effective step the CSP can take to streamline its backup retention policy?",
-    "response": "Integrate AWS Data Lifecycle Manager with EBS Snapshots."
   },
   {
     "query": "Which of the following is an example of a suggested response for a high probability of unauthorized account use in Azure?",
@@ -52,16 +192,8 @@
     "response": "CPU utilization, Available memory"
   },
   {
-    "query": "A cloud administrator is configuring a server cluster that works collectively to operate as the central database backup. The administrator would like to back up the data in such a way that results in minimal downtime while still reproducing maximum data, as new backups will be created regularly. Which method would provide the administrator with the best option?",
-    "response": "Synthetic full"
-  },
-  {
     "query": "Your team is developing a new feature for a cloud-based application that involves multiple microservices. During testing, you notice that the feature is not performing as expected, and there are delays in the communication between microservices. What approach should you take to analyze and resolve the issue?",
     "response": "Use a cloud tracing tool to follow the application's flow and identify bottlenecks"
-  },
-  {
-    "query": "An organization has decided to migrate part of its cloud solution housing client PII to an on-site storage area. Which of the following is the most likely reason for this migration?",
-    "response": "Security concerns"
   },
   {
     "query": "An HR supervisor has asked the cloud administrator to check the log files to find out when a particular employee logged off the system on the previous day. Which goal of IAM does this satisfy?",
@@ -74,10 +206,6 @@
   {
     "query": "Which of the following statements BEST describes the effectiveness of IPsec in network security compared to application-layer encryption methods like HTTPS?",
     "response": "IPsec is more effective because it encrypts all data at the network layer, regardless of the application."
-  },
-  {
-    "query": "A cloud administrator is setting up the security schema between two cloud applications. Which of the following should the administrator set up to secure traffic at the network layer? (Select two.)",
-    "response": "Transport Layer Security (TLS), API Encryption"
   },
   {
     "query": "Your company is implementing a zero-trust security model and needs to ensure that data is protected both in transit and at rest. Which of the following actions should you take to meet this requirement?",
@@ -94,14 +222,6 @@
   {
     "query": "Considering the features of GitHub Actions, which of the following BEST describes its role in enhancing code security?",
     "response": "GitHub Actions enhance code security by detecting vulnerabilities and secrets in the code."
-  },
-  {
-    "query": "What is the primary purpose of version control in collaborative development environments?",
-    "response": "To maintain code integrity and track changes"
-  },
-  {
-    "query": "You have modified several files in your local Git repository and want to prepare them for a commit. Which Git command should you use to stage these files, and why?",
-    "response": "git add"
   },
   {
     "query": "You are a system administrator responsible for managing configuration files for an Ansible-based automation system. You need to ensure that any changes made to these configuration files are tracked and can be rolled back if necessary. Which Git command would you use to commit changes to the configuration files after editing them?",
@@ -128,10 +248,6 @@
     "response": "The tag settings on each switch and switch port."
   },
   {
-    "query": "You are responsible for migrating a set of virtual instances from one cloud provider to another. After the migration, you notice that some instances fail to start, and you suspect general compatibility issues. Which of the following steps should you take to analyze and identify the root cause of the compatibility issues?",
-    "response": "Verify if the processor architecture is compatible between ARM, Intel, or AMD."
-  },
-  {
     "query": "Which of the following is a troubleshooting step if NAC is not detecting unsecured devices?",
     "response": "Check the configuration management settings."
   },
@@ -144,24 +260,8 @@
     "response": "SSH"
   },
   {
-    "query": "Your organization has deployed a new cloud-based application, but users are experiencing issues with certain features not working as expected. Upon investigation, you find that the application components have not been properly refactored for cloud services. What should you do to resolve this issue?",
-    "response": "Confirm applications are cloud-ready or cloud-compatible."
-  },
-  {
-    "query": "What symbol is used to indicate a comment in a Bash script?",
-    "response": "#"
-  },
-  {
-    "query": "What is the primary focus of in-place deployments?",
-    "response": "Eliminating infrastructure changes"
-  },
-  {
     "query": "A server administrator requested new hardware to run a new SharePoint farm on multiple virtual machines (VMs). The hardware must be expandable and combine compute, storage, and network resources into a single component for easier management. What type of solution is the administrator most likely going to deploy for this SharePoint farm?",
     "response": "Hyperconverged infrastructure"
-  },
-  {
-    "query": "Your organization is currently using a cloud service provider (CSP) that has recently increased its prices significantly. You are tasked with analyzing the situation to determine the best course of action. Which of the following steps should you prioritize to address the potential vendor lock-in issue?",
-    "response": "Assess the current CSP's support for open standards and data migration paths."
   },
   {
     "query": "Assess the role of Configuration as Code (CaC) in a Continuous Integration/Continuous Deployment (CI/CD) pipeline. Which statement best evaluates its contribution?",
@@ -176,24 +276,8 @@
     "response": "Complete further investigation to determine the cause of the alert."
   },
   {
-    "query": "You are tasked with designing a data management strategy for a new project that involves storing user-generated content such as documents, images, and configuration files. Which data management practices should you implement to ensure the security and integrity of this data?",
-    "response": "Encryption, backups, and permissions"
-  },
-  {
-    "query": "A security analyst is reviewing log files and needs to identify the severity of an event recorded in rsyslog. Which of the following actions should the analyst take to identify the severity of the event?",
-    "response": "Refer to the rsyslog severity levels"
-  },
-  {
     "query": "Which service does AWS use for alert notifications?",
     "response": "Simple Notification Service (SNS)"
-  },
-  {
-    "query": "An employee receives an email that appears to be from the company's IT department, requesting their password to complete a system update. The email looks legitimate and includes the company's logo and branding. The employee is unsure whether to respond. What should the employee do to apply best practices in this situation?",
-    "response": "Contact the IT department directly using a known phone number or email address to verify the request."
-  },
-  {
-    "query": "You are a network administrator for a company that uses multiple APIs to integrate various business processes. Recently, you noticed that one of the APIs is experiencing frequent downtime and slow performance. You suspect that the issue might be related to traffic management. Which of the following actions should you take to address this issue?",
-    "response": "Implement rate limiting and request throttling"
   },
   {
     "query": "A consumer is creating security-sensitive data using digital signatures to guarantee the data can not be decrypted. Which of the following keys need to be employed?",
@@ -216,20 +300,12 @@
     "response": "Software updates, Scaling, Restarts"
   },
   {
-    "query": "During a security review, it is discovered that the company's web servers are using HTTP for client connections. The security team needs to analyze the potential risks and recommend a solution. What should the team do to ensure secure web communications?",
-    "response": "Block HTTP connections and require HTTPS connections."
-  },
-  {
     "query": "Which command can be used in both Windows and Linux to test name resolution?",
     "response": "nslookup"
   },
   {
     "query": "A network technician has configured a virtual private network (VPN) setup for a corporate payroll office. Incoming address collisions are occurring, and using a troubleshooting methodology, the technician determines the network address translation (NAT) configuration may be the problem. Decide the best course of action given the results of the technician's troubleshooting.",
     "response": "Implement a NAT configuration specific to the VPN solution."
-  },
-  {
-    "query": "What versioning format is associated with the Linux OS kernel?",
-    "response": "Semantic versioning"
   },
   {
     "query": "A network technician would like to configure a series of virtual machines that possess the highest possible speed and efficiency. \nWhat controlling device should the technician install to manage this high-speed virtualization?",
@@ -252,10 +328,6 @@
     "response": "* The administrator failed to disable antivirus during the patching process.\n* The administrator failed to ensure that there was sufficient drive space available for the patch process."
   },
   {
-    "query": "What is the first step in the account management process?",
-    "response": "Creating user identities."
-  },
-  {
     "query": "You are configuring a Linux web server that will be managed via Secure Shell (SSH). To enhance security, you need to configure the firewall to allow only the necessary ports for web traffic and SSH access. \nWhich of the following firewall configurations should you apply?",
     "response": "Allow ports 22/tcp, 80/tcp, and 443/tcp; block all others."
   },
@@ -268,10 +340,6 @@
     "response": "Patching and updates"
   },
   {
-    "query": "How can Git be utilized in Infrastructure as Code (IaC)?",
-    "response": "Git can serve as a repository for standardized automation and orchestration files to manage server and network device configurations."
-  },
-  {
     "query": "A network administrator is patching software on a corporate network using automation , an application programming interface (API), and Python scripts. However, processes are starting to fail frequently \nRecommend paths of investigation for the troubleshooting process.",
     "response": "Is the API trying to patch a file or function that no longer exists?"
   },
@@ -282,14 +350,6 @@
   {
     "query": "Your cloud-deployed application is experiencing performance issues. You suspect API throttling might be the cause. How would you evaluate this hypothesis?",
     "response": "Check the resource properties for service quota limits."
-  },
-  {
-    "query": "Evaluate the rationale behind combining deprecated services with other offerings. Which statement best justifies this approach?",
-    "response": "It allows the provider to eliminate less popular services without losing customers."
-  },
-  {
-    "query": "Which of the following is a step to check for full or partial outage issues?",
-    "response": "Check for regional or local power and Internet outages"
   },
   {
     "query": "What should be considered if there is a problem with the exposure of customer or employee personally identifiable information (PII)?",
@@ -332,10 +392,6 @@
     "response": "A company consistently fails to detect unauthorized user account activity."
   },
   {
-    "query": "What is the new name for the master branch in Git?",
-    "response": "main"
-  },
-  {
     "query": "A software developer is in the process of writing a code update for a software library with new functionality. The developer is using Git for version control and scripting to orchestrate automatic upload of weekly update patches to Git.",
     "response": "git push"
   },
@@ -348,10 +404,6 @@
     "response": "Submit a ticket to the dev team."
   },
   {
-    "query": "Which of the following is a component of a cloud services solution?",
-    "response": "Client Platform"
-  },
-  {
     "query": "Your organization has implemented a new web application server. After deployment, you need to ensure that the server is secure by verifying that only the necessary ports are open. The server should only allow web traffic and no other services.",
     "response": "53 and 123"
   },
@@ -362,10 +414,6 @@
   {
     "query": "What is the primary advantage of using orchestration workflows for virtual machine deployments?",
     "response": "They ensure that virtual machine deployments are consistent, repeatable, and scalable."
-  },
-  {
-    "query": "An existing orchestration workflow maintains a set of servers regularly using a common service account. After adding one more server to the end of that workflow, the orchestration fails at the new task. Why is the workflow failing to complete? (Select two.)",
-    "response": "The orchestration service account changed., The new automation task is invalid."
   },
   {
     "query": "A network engineer needs to verify that all devices on a specific subnet are recognized and that no rogue devices are present.",
@@ -388,16 +436,8 @@
     "response": "REST API, because it is scalable and flexible."
   },
   {
-    "query": "An IT department is tasked with maintaining a critical business application. They receive a notification from the software vendor about an upcoming update that will move the application from version 4.2 to 4.3. What type of update is this likely to be, and what actions should the IT department take?",
-    "response": "It is a minor update, and the IT department can expect it to include bug fixes and incremental changes."
-  },
-  {
     "query": "A technician is configuring workstations for a small team of data analysts that use graphically and computationally powerful analysis programs. To best optimize the constant workload, which of the following would be the best technique to maximize the ability of the workstations to handle several of these tasks?",
     "response": "Enable GPU offloading"
-  },
-  {
-    "query": "A retail company wants to implement a cloud solution to handle its e-commerce platform, which experiences significant traffic spikes during holiday seasons. They need a solution that can scale quickly to meet demand and ensure high availability. Which cloud deployment model should they implement and why?",
-    "response": "Public Cloud, because it can quickly scale to meet demand and ensure high availability."
   },
   {
     "query": "A cloud technician has constructed and hardened an image but needs to make incremental changes and frequently push due to a highly dynamic development environment. What stage of the build is the image at?",
@@ -412,27 +452,11 @@
     "response": "Chef, Puppet"
   },
   {
-    "query": "Engineers at an organization prepare for cloud migration. The services that will move are internal and proprietary in nature. What migration type and cloud type result from this move?",
-    "response": "On premises-to-cloud, Private cloud"
-  },
-  {
     "query": "What is the most common way an administrator categorizes logs for troubleshooting?",
     "response": "Severity"
   },
   {
     "query": "A company moves specific types of data into a type of short-term storage at the end of each month. This data is complete system-state information intended for fast recovery, and an administrator must consistently refresh it with up-to-date data. The administrator is saving the data on high-speed solid-state drives (SSDs) as a part of this. Determine the type of process the administrator is using to manage the backups.",
     "response": "Snapshot"
-  },
-  {
-    "query": "Your organization has implemented a new web application server. After deployment, you need to ensure that the server is secure by verifying that only the necessary ports are open. The server should only allow web traffic and no other services. Which ports should you verify are open to meet this requirement?",
-    "response": "80 and 443"
-  },
-  {
-    "query": "Which type of repository is suitable for open-source software or configuration files intended to be available on the Internet?",
-    "response": "Public repositories"
-  },
-  {
-    "query": "A network engineer needs to verify that all devices on a specific subnet are recognized and that no rogue devices are present. Which tool should the engineer use to perform this task, and what is the primary action they should take with this tool?",
-    "response": "Nmap, by scanning the subnet for devices and services"
   }
 ]
