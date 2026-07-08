@@ -1030,5 +1030,129 @@
   {
     "query": "In SQL Server, what does the SELECT statement inside the RETURN statement of a table-valued function define?",
     "response": "The result set of the function"
+  },
+  {
+    "query": "What is another way to sort numeric data stored in a character column?",
+    "response": "Add leading zeros or spaces to the numbers."
+  },
+  {
+    "query": "How can you format real numbers to align them on the right in SQL?",
+    "response": "By casting them as decimal numbers and then as character data"
+  },
+  {
+    "query": "What is the purpose of the CASE function in SQL?",
+    "response": "To return a value based on specified conditions"
+  },
+  {
+    "query": "What is a primary advantage of using a CASE function in SQL queries?",
+    "response": "Flexibility in result customization"
+  },
+  {
+    "query": "What does the DATEDIFF function return?",
+    "response": "The number of date/time boundaries crossed"
+  },
+  {
+    "query": "Which function would you use to add a time zone offset to a datetime2 value?",
+    "response": "TODATETIMEOFFSET"
+  },
+  {
+    "query": "What does the CONCAT_WS function do that the CONCAT function does not?",
+    "response": "Separate values with a specified delimiter"
+  },
+  {
+    "query": "What problem occurs when searching for a date value in a datetime column with non-zero time components?",
+    "response": "No rows are returned."
+  },
+  {
+    "query": "What is a foreign key used for in a table relationship?",
+    "response": "To create a link between two tables"
+  },
+  {
+    "query": "What must be done with columns that do not depend on the entire primary key?",
+    "response": "They must be moved to another table."
+  },
+  {
+    "query": "What operation violates referential integrity if the foreign key value doesn't have a matching primary key value in the related table?",
+    "response": "Inserting a row in the foreign key table"
+  },
+  {
+    "query": "What advantage does subdividing data elements provide for accommodating queries?",
+    "response": "It reduces the need for future database design changes."
+  },
+  {
+    "query": "When might it make sense to create a filtered index?",
+    "response": "When the number of rows in the index is small compared to the total number of rows"
+  },
+  {
+    "query": "What does the CREATE DATABASE statement do?",
+    "response": "Creates a new database"
+  },
+  {
+    "query": "How many bytes does UTF-16 use to store supplementary characters?",
+    "response": "4 bytes"
+  },
+  {
+    "query": "What happens by default if you try to delete a row from the primary key table and related rows exist in a foreign key table?",
+    "response": "The delete operation fails."
+  },
+  {
+    "query": "What SQL statement is used to define a check constraint at the column level for an invoice amount?",
+    "response": "CHECK (InvoiceTotal > 0)"
+  },
+  {
+    "query": "Which step is NOT necessary when creating a new database using Management Studio?",
+    "response": "Rename the log file to match the database name."
+  },
+  {
+    "query": "What feature does the Column Properties pane in the Table Designer allow you to set?",
+    "response": "Identity specification"
+  },
+  {
+    "query": "How can you set a primary key for a table using the Table Designer?",
+    "response": "Click the Set Primary Key button on the Table Designer toolbar."
+  },
+  {
+    "query": "What happens when you select the Close Existing Connections option in the Delete Object dialog box?",
+    "response": "It allows you to delete the database without error."
+  },
+  {
+    "query": "Which clause cannot be used in the SELECT statement of an updatable view?",
+    "response": "GROUP BY"
+  },
+  {
+    "query": "When should you include the WITH CHECK OPTION clause in the CREATE VIEW statement?",
+    "response": "To prevent rows from being excluded due to updates"
+  },
+  {
+    "query": "Which function returns the error number within a CATCH block?",
+    "response": "ERROR_NUMBER()"
+  },
+  {
+    "query": "What does the CONTINUE statement do in a WHILE loop?",
+    "response": "Skips the remaining statements in the loop and returns to the beginning of the loop"
+  },
+  {
+    "query": "What type of data can a scalar variable hold?",
+    "response": "A single value"
+  },
+  {
+    "query": "Which clause cannot use a table variable in SQL Server?",
+    "response": "SELECT INTO"
+  },
+  {
+    "query": "What are the three basic control structures provided by T-SQL for scripts?",
+    "response": "Conditional processing, repetitive processing, and error handling"
+  },
+  {
+    "query": "What SQL statement must precede the CREATE PROC statement when creating a stored procedure within a script?",
+    "response": "USE database_name"
+  },
+  {
+    "query": "Why are stored procedures often faster than equivalent SQL scripts?",
+    "response": "They are precompiled and stored in compiled form."
+  },
+  {
+    "query": "What is a limitation of user-defined table types in SQL Server?",
+    "response": "They cannot have foreign keys defined."
   }
 ]
