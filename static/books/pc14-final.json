@@ -1,518 +1,514 @@
 [
-  {
-    "query": "An IT technician installs a solid-state drive (SSD) into a motherboard connector that enables high-performance storage while conserving space inside the system case. What has the IT technician installed?",
-    "response": "M.2"
-  },
-  {
-    "query": "A user noticed that their PC is generating more heat than can be removed, and the one component designed to draw cool air from the low vents in the front of the case over the motherboard is not working. What is the impacted component?",
-    "response": "Fan"
-  },
-  {
-    "query": "A user who is new to computers inspects a laptop to become acquainted with all the physical features. The user finds a small hole in the top bezel of the display. What feature is this?",
-    "response": "Microphone"
-  },
-  {
-    "query": "A technician researches flat-screen displays to find the perfect model for a conference room. The screen should feature a high viewing angle as the conference room is wide. Which technology does the technician look for when purchasing a flat-screen display?",
-    "response": "IPS"
-  },
-  {
-    "query": "A user is trying to connect a gaming console to a television. What type of connector should the user utilize?",
-    "response": "HDMI"
-  },
-  {
-    "query": "A video gamer is using a product designed to record footage from computer games. What is this called?",
-    "response": "Capture card"
-  },
-  {
-    "query": "Which of the following would a technician use in small, low-power motherboards?",
-    "response": "ITX"
-  },
-  {
-    "query": "A traveling salesperson receives an old laptop to use while a new one is on back-order. The salesperson complains that the laptop's visuals and brightness are horrible. An IT technician states that the fluorescent backlight is failing. What powers the backlight?",
-    "response": "Inverter"
-  },
-  {
-    "query": "A technician needs a connector that offers high-speed standards that specify a data rate of 480 Mbps shared between the devices attached to the same host controller. What connector should the technician use?",
-    "response": "USB 2.0"
-  },
-  {
-    "query": "A technician did not install the full complement of modules, which would allow the system to revert to as many channels as are populated. What types of channels would allow this to happen?",
-    "response": "Triple-channel and quad-channel"
-  },
-  {
-    "query": "A projector made a loud popping noise during a presentation, and then the display went out. What will fix the problem?",
-    "response": "Use a new bulb"
-  },
-  {
-    "query": "After running a SMART diagnosis on a computer, with extended read/write times, the input/output per second matches the vendor's baseline. What could be the problem?",
-    "response": "Limited hard drive capacity"
-  },
-  {
-    "query": "A developer asks that hostname dev23.company.net be redirected",
-    "response": "Add an (A) record to the DNS server with the IP address of the dev23 server."
-  },
-  {
-    "query": "A new IT support technician troubleshoots a user's report of intermittent network connectivity. After inspecting the workstation, they see a label above the station's RJ-45 port wall connection.",
-    "response": "Patch Panel"
-  },
-  {
-    "query": "A display manufacturing company is evolving its current model line to offer a new model of display that does not require a backlight. What technology does not require a backlight as each individual pixel is self-illuminating?",
-    "response": "Organic LED"
-  },
-  {
-    "query": "What measures the PSU to meet the combined power requirements of the PC's components?",
-    "response": "Wattage rating"
-  },
-  {
-    "query": "A technician uses a U.2 interface on the motherboard that enables storage access and transport to deliver the highest throughput and fastest response time. What component is being used?",
-    "response": "NVMe"
-  },
-  {
-    "query": "A server system uses a method where each transfer performs a hash calculation on the data value and stores it as an 8-bit checksum. This can detect and correct single-bit errors and allow the PC to continue functioning normally. What is this method called?",
-    "response": "ECC RAM"
-  },
-  {
-    "query": "A technician uses a storage device containing non-volatile flash memory to replace the hard drive since the speed is much greater. What is this called?",
-    "response": "SSD"
-  },
-  {
-    "query": "What tool is also known as a universal serial bus (USB) drive, thumb drive, or pen drive?",
-    "response": "Flash drive"
-  },
-  {
-    "query": "A system administrator implemented a physical device that expedites cryptographic operations and manages cryptographic keys. What is this device the system administrator implemented?",
-    "response": "HSM"
-  },
-  {
-    "query": "What tool can help diagnose extended read/write times?",
-    "response": "SMART"
-  },
-  {
-    "query": "What kind of storage media can have grinding and clicking as a diagnostic tool?",
-    "response": "HDD"
-  },
-  {
-    "query": "While trying to set up for a presentation, the wall-mounted display will not mirror the laptop display. What will likely fix the problem?",
-    "response": "Use a new HDMI cable."
-  },
-  {
-    "query": "What does SMART measure as a performance indicator?",
-    "response": "IOPS"
-  },
-  {
-    "query": "If a computer is used in the production of digital artwork, what special process will it require to ensure the best image representation?",
-    "response": "Color calibration"
-  },
-  {
-    "query": "A company meets with an IT consultant about building a small data center within their facility. What storage solution should be installed?",
-    "response": "SAN"
-  },
-  {
-    "query": "A company is building a new office space and data center and would like network segmentation. What type of devices will be the foundation of that type of network?",
-    "response": "Managed switches"
-  },
-  {
-    "query": "A technician needs a cable for 10G Ethernet and higher within a data center network. What type of cable does the technician need?",
-    "response": "STP"
-  },
-  {
-    "query": "Which Cat cable refers to TIA/EIA-568-C recommendations for PoE 802.3bt installations?",
-    "response": "Cat 6A"
-  },
-  {
-    "query": "A contractor working fully remote from home with multiple devices has what type of network?",
-    "response": "SOHO"
-  },
-  {
-    "query": "This protocol makes a secure connection to display the graphical interface of another computer and uses TCP port 3389.",
-    "response": "Remote Desktop Protocol"
-  },
-  {
-    "query": "This protocol transfers email messages across a network and uses TCP port 25.",
-    "response": "SMTP"
-  },
-  {
-    "query": "The IP address range 172.16.0.0 to 172.31.255.255 is considered which class of private addresses?",
-    "response": "Class B"
-  },
-  {
-    "query": "This protocol facilitates requests for an IP address and other network settings and uses ports 67 and 68.",
-    "response": "Dynamic Host Configuration Protocol"
-  },
-  {
-    "query": "A network engineer sees wireless devices cannot obtain an IP address. What is most likely the problem?",
-    "response": "DHCP has no more addresses available."
-  },
-  {
-    "query": "What foundational infrastructure solution should a company implement to allow remote workers to access needed resources?",
-    "response": "Virtual private network"
-  },
-  {
-    "query": "What type of record directs hostname requests to a specific IPv4 address?",
-    "response": "(A) record"
-  },
-  {
-    "query": "Users could not connect to network shares but server is up. What should be investigated next?",
-    "response": "Check the server's IP address. It may have a DHCP-provisioned address instead of a static address."
-  },
-  {
-    "query": "What type of technology would help disabled residents be more independent if appropriately secured?",
-    "response": "IoT"
-  },
-  {
-    "query": "What cloud deployment model uses private infrastructure but outsources during peak season?",
-    "response": "Hybrid cloud"
-  },
-  {
-    "query": "What should a software development company utilize to test applications under different OS constraints?",
-    "response": "Cross-platform virtualization"
-  },
-  {
-    "query": "Which cloud deployment best fits organizations with similar security needs sharing resources?",
-    "response": "Community cloud"
-  },
-  {
-    "query": "Which cloud characteristic refers to per-use billing?",
-    "response": "Metered utilization"
-  },
-  {
-    "query": "What system allows developers to log into any computer and load their unique desktop environment on premises?",
-    "response": "Virtual desktop infrastructure (VDI) on premises"
-  },
-  {
-    "query": "Which service allows development without maintaining hardware or database platform?",
-    "response": "Platform as a service (PaaS)"
-  },
-  {
-    "query": "What service provides servers, load balancers, and storage components via provider?",
-    "response": "Infrastructure as a service (IaaS)"
-  },
-  {
-    "query": "What category do remote wipe and device encryption fall under?",
-    "response": "Security requirements"
-  },
-  {
-    "query": "What software delivery model is used when accessing apps via Citrix?",
-    "response": "Application virtualization"
-  },
-  {
-    "query": "What benefit guarantees 99.999% service uptime in cloud?",
-    "response": "High availability"
-  },
-  {
-    "query": "A technician removes mechanical disk and installs fresh OS on new drive. What approach is this?",
-    "response": "Replacement"
-  },
-  {
-    "query": "Phones that do not use a SIM card are what network type?",
-    "response": "CDMA"
-  },
-  {
-    "query": "What does IT purchase to allow expansion card use with laptop?",
-    "response": "Docking station"
-  },
-  {
-    "query": "If Wi-Fi signal weaker after card replacement, what is likely problem?",
-    "response": "The antenna is not connected."
-  },
-  {
-    "query": "Which interface does laptop memory have?",
-    "response": "SODIMM"
-  },
-  {
-    "query": "What is the first step to connect new earbuds to smartphone?",
-    "response": "Enable Bluetooth."
-  },
-  {
-    "query": "What cable type is traditionally used to charge Android phone?",
-    "response": "USB"
-  },
-  {
-    "query": "Which input device gives greater precision for digital drawings?",
-    "response": "Touch pen"
-  },
-  {
-    "query": "Which laptop component can be installed without tools?",
-    "response": "Battery"
-  },
-  {
-    "query": "Which component may be excluded to reduce laptop cost?",
-    "response": "Webcam"
-  },
-  {
-    "query": "Which option disables location services on mobile devices?",
-    "response": "Global Positioning System"
-  },
-  {
-    "query": "What is expected during Bluetooth keyboard pairing?",
-    "response": "Enter a PIN."
-  },
-  {
-    "query": "SIM swapping applies to which network type?",
-    "response": "LTE"
-  },
-  {
-    "query": "Low-cost electronic signing solution without precision?",
-    "response": "Touchpad"
-  },
-  {
-    "query": "Low-cost Ethernet solution for slim laptop?",
-    "response": "Port replicator"
-  },
-  {
-    "query": "If laptop is hot with bulging bottom, what is problem component?",
-    "response": "Battery"
-  },
-  {
-    "query": "What can sync using Microsoft Exchange on smartphone?",
-    "response": "Email"
-  },
-  {
-    "query": "What proprietary cable charges iPhone 14?",
-    "response": "Lightning"
-  },
-  {
-    "query": "Phone not responding to touch likely culprit?",
-    "response": "Faulty digitizer"
-  },
-  {
-    "query": "Mobile device suspected liquid damage – first step?",
-    "response": "Power off the device."
-  },
-  {
-    "query": "Printer output unexpected – what to check on control panel?",
-    "response": "Calibration"
-  },
-  {
-    "query": "What type of printer uses heating element to create image?",
-    "response": "Thermal"
-  },
-  {
-    "query": "Thick paper overheated which laser printer part?",
-    "response": "Fuser unit"
-  },
-  {
-    "query": "Which connection allows Plug and Play driver install?",
-    "response": "USB"
-  },
-  {
-    "query": "Faded paper from laser printer – check first?",
-    "response": "Toner cartridge"
-  },
-  {
-    "query": "Adobe device independent language for text-to-raster conversion?",
-    "response": "PostScript"
-  },
-  {
-    "query": "Dot matrix printer uses which paper types?",
-    "response": "Impact paper and Tractor-fed paper"
-  },
-  {
-    "query": "Infrastructure mode printer connection type?",
-    "response": "Wireless"
-  },
-  {
-    "query": "Double image on print – what should be done first?",
-    "response": "Clean the drum."
-  },
-  {
-    "query": "Factors to consider when assembling new printer?",
-    "response": "Set up location and Correctly unboxing"
-  },
-  {
-    "query": "A company has a structured cable system installed by a technician. The technician uses a permanent cable that terminates to wall ports and patch panels. What is this mechanism?",
-    "response": "Punchdown block"
-  },
-  {
-    "query": "This can be used individually or in conjunction with other configurations to effectively verify email services and block the transmission of spoofed and unwanted email messages. (Select one or more.)",
-    "response": "Sender Policy Framework; DomainKeys Identified Mail; Domain-based Message Authentication, Reporting, and Conformance"
-  },
-  {
-    "query": "A company has found that specific departments are more productive when working from home. What foundational infrastructure solution should the company implement?",
-    "response": "Virtual private network"
-  },
-  {
-    "query": "Which well-known mailbox access protocols utilize mailbox servers to allow the user's client email software to retrieve messages? (Select one or more.)",
-    "response": "POP3; IMAP"
-  },
-  {
-    "query": "A technician upgrades the memory in a laptop computer. Which interface does the memory have?",
-    "response": "SODIMM"
-  },
-  {
-    "query": "A laptop user asks the IT department for computer equipment. In addition to an external monitor, the user would like to take advantage of an expansion card. What should the IT department purchase for the user?",
-    "response": "Docking station"
-  },
-  {
-    "query": "A technician troubleshoots a laptop's direct connectivity to the organization's access points connected to an internal network. Which component does the technician test?",
-    "response": "Wireless card"
-  },
-  {
-    "query": "A user has never seen a double image on a print before. However, when they print the latest report, they see a double image. What should they do first?",
-    "response": "Clean the drum"
-  },
-  {
-    "query": "A technician notices that the printer's output was not expected and needs to check the printer's control panel to investigate the problem. What should the technician check?",
-    "response": "Calibration"
-  },
-  {
-    "query": "A user complains that their laptop does not hold a charge for more than 30 minuts, even after charging all night. They also mention that there is an error message when they restart their computer that states something about power. What is the likely problem?",
-    "response": "Swollen battery"
-  },
-  {
-    "query": "A user notices that their laser printer is not working and causing an error. When the technician looks at the printer, thet notice that the user was using thick paper, causing a part of the printer to overheat",
-    "response": "Fuser unit"
-  },
-  {
-    "query": "A user has been working with a large transportation company for 30 years and has never seen a double image before. However, when they print the latest report on the new printer, they see a double image on the print",
-    "response": "Clean the drum"
-  },
-  {
-    "query": "Sandboxes can be used to analyze viruses, worms, and Trojans. Sandboxes can also provide an isolated environment for what other important function?",
-    "response": "Testing and development"
-  },
-  {
-    "query": "A network administrator is looking at a user's computer, which seems to have intermittent connectivity issues. Which of the following should they do first?",
-    "response": "Check the phyiscal cords"
-  },
-  {
-    "query": "An IT support specialist updated all the information systems in the office last week, and the users are complaining that the routinely used applications no longer work. What is most likely the issue breaking the applications?",
-    "response": "Legacy software"
-  },
-  {
-    "query": "A tablet user connects a Bluetooth keyboard. What would be expected in the pairing process?",
-    "response": "Enter a pin"
-  },
-  {
-    "query": "What issue does constant indicator LED activity imply?",
-    "response": "Mechanical Problem"
-  },
-  {
-    "query": "A company offers a bring your own device (BYOD) program at work. Several users approach the company in an effort to receive reimbursement for changing personal phones to the company's carrier. This will be done by swapping out a subscriber identity module (SIM) card in devices with which network type?",
-    "response": "LTE"
-  },
-  {
-    "query": "A flat panel monitor has several black dots. After extensive troubleshooting, it appears to be a display problem. What can fix this?",
-    "response": "Check for warranty replacement"
-  },
-  {
-    "query": "A RAID array cannot boot, and the technician cannot reach the configuration utility. There have been no recent changes to the array. What is the likely problem?",
-    "response": "Controller failure"
-  },
-  {
-    "query": "A technician uses an adapter card that supplies power over the bus, resulting in no need for a separate power cable. Because the adapter can vary in different widths and lengths, the technician should check to ensure that the adapter fits on the motherboard. What type of adapter has these specifications?",
-    "response": "M.2"
-  },
-  {
-    "query": "While diagnosing a computer that is not powering on, the technician has established that the wall socket is working correctly since there is a fully plugged power strip. What is a reasonable next step?",
-    "response": "Use another power cable."
-  },
-  {
-    "query": "A network technician installs wireless access points (APs) in an office and would like to use power over Ethernet (PoE) to power the APs. The current network infrastructure is not capable of doing this. What would the network technician need to install to augment the power requirements for PoE APs?",
-    "response": "Power Injector"
-  },
-  {
-    "query": "After discovering an unlabeled wall port in an office, a technician would like to label it appropriately. Not knowing where the permanent link patches into specifically, but knowing all the other permanent links in the same area run to the same closet. When connecting a laptop, there appears to be a successful connection. What would be most helpful for the technician to use?",
-    "response": "Cable Tester"
-  },
-  {
-    "query": "A logistics company wants to streamline its workflow and track shipments as they move in and around its facilities without barcode scanners. What type of personal area networking solution would best suit this requirement?",
-    "response": "RFID"
-  },
-  {
-    "query": "Cloud provisioning models have unique characteristics that make them better or worse than on-premises models, depending on an organization's needs. Which characteristic refers to the per-use billing for resources consumed by the cloud?",
-    "response": "Metered utilization"
-  },
-  {
-    "query": "An important part of testing a new application is running it under several different OSs and resource constraints so the developer can be sure it will work for all customers regardless of their system. What term is used to identify the application testing described in this question?",
-    "response": "Cross-platform virtualization"
-  },
-  {
-    "query": "A cloud service provider (CSP) works with several organizations to establish new cloud deployments that best match their needs. Each organization has similar security needs and is open to sharing resources with other organizations to save money. Which cloud deployment sounds best for the CSP's new customers?",
-    "response": "Community cloud"
-  },
-  {
-    "query": "A laptop user has a slim laptop that has very few external ports. As there is no Ethernet port on the laptop, it only uses wireless. The user would like a low-cost solution that allows for an Ethernet connection when not traveling. What does IT purchase for the user?",
-    "response": "Port replicator"
-  },
-  {
-    "query": "A support technician replaces a Wi-Fi card in a laptop. The following day, the laptop user states that the company's Wi-Fi network signal is weaker than it was before. What does the technician find to be the likely problem?",
-    "response": "The antenna is not connected."
-  },
-  {
-    "query": "A user has a newly issued smartphone that has corporate communication software installed. What can the user expect to sync while using Microsoft Exchange?",
-    "response": "Email"
-  },
-  {
-    "query": "A user notices that their laser printer is not working and is causing an error. When the technician looks at the printer, they notice that the user was using thick paper, causing a part of the printer to overheat. Which part of the printer has overheated?",
-    "response": "Fuser unit"
-  },
-  {
-    "query": "Users at an organization prefer that any mobile devices deployed for company use have location services disabled. IT administrators agree and configure which option?",
-    "response": "Global Positioning System"
-  },
-  {
-    "query": "A user is trying to print visual graphics for an upcoming meeting, but the paper is coming out faded. What should they check first?",
-    "response": "Toner cartridge"
-  },
-  {
-    "query": "While trying to set up for a presentation, the wall-mounted display will not mirror the laptop display. The technician traces the long HDMI cable to find that it runs on the floor, and it is evident that users have repeatedly run over it. What will likely fix the problem?",
-    "response": "Use a new HDMI cable."
-  },
-  {
-    "query": "A user reports that their PC can not access the internet and internal network resources. The user also reports that the internet is intermittent throughout the day. A technician confirmed that the Ethernet cable is connected securely to the PC and the wall port. What tool should an engineer bring with them to investigate this further?",
-    "response": "Cable tester"
-  },
-  {
-    "query": "A company building is under construction and a technician is getting ready to install communication wires. What can a technician use to make the installation simpler?",
-    "response": "Plenum"
-  },
-  {
-    "query": "A systems engineer is doing an internal audit of their virtual environment before an annual inspection and is making sure that all the virtual machines are up to date on patches. What could the systems engineer consult to verify which patches need to be on each machine?",
-    "response": "Security requirements"
-  },
-  {
-    "query": "A government organization wants to develop its own application to process information, but they do not want to be responsible for maintaining the hardware or the database platform that the application runs on. Additionally, the organization does not want to be burdened with maintaining the integrity and availability of the database platform because it will be very busy with other responsibilities. Which service would be best for the government organization to pursue?",
-    "response": "Platform as a service (PaaS)"
-  },
-  {
-    "query": "A user complains that a laptop is slow. A technician concludes that the best solution is to remove the current mechanical disk drive with a faster solid-state drive. The technician opts to back up the user data and install a fresh operating system on a new drive. Which approach defines the technician's steps?",
-    "response": "Replacement"
-  },
-  {
-    "query": "A technician suspects a mobile device to have damage caused by liquid. What should the technician do first?",
-    "response": "Power off the device."
-  },
-  {
-    "query": "A company receives a new printer that needs assembly. What factors should the company consider when assembling it? (Select two.)",
-    "response": "Set up location; Correctly unboxing"
-  },
-  {
-    "query": "A startup legal office has specific software needs that are unique to the practice of law. The law firm partner would like to pay software developers to create a custom application but is concerned that the firm does not have the funds. The firm's IT manager has recommended that it use existing applications instead of paying for a new app to be developed. What service is the IT manager suggesting to the firm's partner?",
-    "response": "Software as a service (SaaS)"
-  },
-  {
-    "query": "A smartphone user tries to connect a new set of earbuds. What is the first step that the user does with the phone?",
-    "response": "Enable Bluetooth."
-  },
-  {
-    "query": "A manager needs to electronically sign many documents while using a laptop. Precision is not required, and there is very little money in the budget to spend. What does the manager choose to use as a solution?",
-    "response": "Touchpad"
-  },
-  {
-    "query": "A technician has tested a computer with extended read/write times and found it to have IOPS reduced from vendor baselines. What should the technician do next?",
-    "response": "Make data backups"
-  },
-  {
-    "query": "A user complains that their laptop does not hold a charge for more than 30 minutes, even after charging all night. They also mention that there is an error message when they restart their computer that states something about power. What is likely the problem?",
-    "response": "Poor battery health"
-  },
-  {
-    "query": "A technician needs to upgrade components in a laptop. Which component can the technician install without the use of tools?",
-    "response": "Battery"
-  },
-  {
-    "query": "A printer allows connection to a network through the infrastructure mode. Which of the following connections is the printer most likely using when referring to an infrastructure mode connection?",
-    "response": "Wireless"
-  }
+    {
+        "query": "An IT technician installs a solid-state drive (SSD) into a motherboard connector that enables high-performance storage while conserving space inside the system case. What has the IT technician installed?",
+        "response": "M.2"
+    },
+    {
+        "query": "A user noticed that their PC is generating more heat than can be removed, and the one component designed to draw cool air from the low vents in the front of the case over the motherboard is not working. What is the impacted component?",
+        "response": "Fan"
+    },
+    {
+        "query": "A user who is new to computers inspects a laptop to become acquainted with all the physical features. The user finds a small hole in the top bezel of the display. What feature is this?",
+        "response": "Microphone"
+    },
+    {
+        "query": "A technician researches flat-screen displays to find the perfect model for a conference room. The screen should feature a high viewing angle as the conference room is wide. Which technology does the technician look for when purchasing a flat-screen display?",
+        "response": "IPS"
+    },
+    {
+        "query": "A user is trying to connect a gaming console to a television. What type of connector should the user utilize?",
+        "response": "HDMI"
+    },
+    {
+        "query": "A video gamer is using a product designed to record footage from computer games. What is this called?",
+        "response": "Capture card"
+    },
+    {
+        "query": "Which of the following would a technician use in small, low-power motherboards?",
+        "response": "ITX"
+    },
+    {
+        "query": "A traveling salesperson receives an old laptop to use while a new one is on back-order. The salesperson complains that the laptop's visuals and brightness are horrible. An IT technician states that the fluorescent backlight is failing. What powers the backlight?",
+        "response": "Inverter"
+    },
+    {
+        "query": "A technician needs a connector that offers high-speed standards that specify a data rate of 480 Mbps shared between the devices attached to the same host controller. What connector should the technician use?",
+        "response": "USB 2.0"
+    },
+    {
+        "query": "A technician did not install the full complement of modules, which would allow the system to revert to as many channels as are populated. What types of channels would allow this to happen?",
+        "response": "Triple-channel and quad-channel"
+    },
+    {
+        "query": "A projector made a loud popping noise during a presentation, and then the display went out. What will fix the problem?",
+        "response": "Use a new bulb"
+    },
+    {
+        "query": "After running a SMART diagnosis on a computer, with extended read/write times, the input/output per second matches the vendor's baseline. What could be the problem?",
+        "response": "Limited hard drive capacity"
+    },
+    {
+        "query": "A developer asks that hostname dev23.company.net be redirected",
+        "response": "Add an (A) record to the DNS server with the IP address of the dev23 server."
+    },
+    {
+        "query": "A new IT support technician troubleshoots a user's report of intermittent network connectivity. After inspecting the workstation, they see a label above the station's RJ-45 port wall connection.",
+        "response": "Patch Panel"
+    },
+    {
+        "query": "A display manufacturing company is evolving its current model line to offer a new model of display that does not require a backlight. What technology does not require a backlight as each individual pixel is self-illuminating?",
+        "response": "Organic LED"
+    },
+    {
+        "query": "What measures the PSU to meet the combined power requirements of the PC's components?",
+        "response": "Wattage rating"
+    },
+    {
+        "query": "A technician uses a U.2 interface on the motherboard that enables storage access and transport to deliver the highest throughput and fastest response time. What component is being used?",
+        "response": "NVMe"
+    },
+    {
+        "query": "A server system uses a method where each transfer performs a hash calculation on the data value and stores it as an 8-bit checksum. This can detect and correct single-bit errors and allow the PC to continue functioning normally. What is this method called?",
+        "response": "ECC RAM"
+    },
+    {
+        "query": "A technician uses a storage device containing non-volatile flash memory to replace the hard drive since the speed is much greater. What is this called?",
+        "response": "SSD"
+    },
+    {
+        "query": "What tool is also known as a universal serial bus (USB) drive, thumb drive, or pen drive?",
+        "response": "Flash drive"
+    },
+    {
+        "query": "A system administrator implemented a physical device that expedites cryptographic operations and manages cryptographic keys. What is this device the system administrator implemented?",
+        "response": "HSM"
+    },
+    {
+        "query": "What tool can help diagnose extended read/write times?",
+        "response": "SMART"
+    },
+    {
+        "query": "What kind of storage media can have grinding and clicking as a diagnostic tool?",
+        "response": "HDD"
+    },
+    {
+        "query": "While trying to set up for a presentation, the wall-mounted display will not mirror the laptop display. What will likely fix the problem?",
+        "response": "Use a new HDMI cable."
+    },
+    {
+        "query": "What does SMART measure as a performance indicator?",
+        "response": "IOPS"
+    },
+    {
+        "query": "If a computer is used in the production of digital artwork, what special process will it require to ensure the best image representation?",
+        "response": "Color calibration"
+    },
+    {
+        "query": "A company meets with an IT consultant about building a small data center within their facility. What storage solution should be installed?",
+        "response": "SAN"
+    },
+    {
+        "query": "A company is building a new office space and data center and would like network segmentation. What type of devices will be the foundation of that type of network?",
+        "response": "Managed switches"
+    },
+    {
+        "query": "A technician needs a cable for 10G Ethernet and higher within a data center network. What type of cable does the technician need?",
+        "response": "STP"
+    },
+    {
+        "query": "Which Cat cable refers to TIA/EIA-568-C recommendations for PoE 802.3bt installations?",
+        "response": "Cat 6A"
+    },
+    {
+        "query": "A contractor working fully remote from home with multiple devices has what type of network?",
+        "response": "SOHO"
+    },
+    {
+        "query": "This protocol makes a secure connection to display the graphical interface of another computer and uses TCP port 3389.",
+        "response": "Remote Desktop Protocol"
+    },
+    {
+        "query": "This protocol transfers email messages across a network and uses TCP port 25.",
+        "response": "SMTP"
+    },
+    {
+        "query": "The IP address range 172.16.0.0 to 172.31.255.255 is considered which class of private addresses?",
+        "response": "Class B"
+    },
+    {
+        "query": "This protocol facilitates requests for an IP address and other network settings and uses ports 67 and 68.",
+        "response": "Dynamic Host Configuration Protocol"
+    },
+    {
+        "query": "A network engineer sees wireless devices cannot obtain an IP address. What is most likely the problem?",
+        "response": "DHCP has no more addresses available."
+    },
+    {
+        "query": "What foundational infrastructure solution should a company implement to allow remote workers to access needed resources?",
+        "response": "Virtual private network"
+    },
+    {
+        "query": "What type of record directs hostname requests to a specific IPv4 address?",
+        "response": "(A) record"
+    },
+    {
+        "query": "Users could not connect to network shares but server is up. What should be investigated next?",
+        "response": "Check the server's IP address. It may have a DHCP-provisioned address instead of a static address."
+    },
+    {
+        "query": "What type of technology would help disabled residents be more independent if appropriately secured?",
+        "response": "IoT"
+    },
+    {
+        "query": "What cloud deployment model uses private infrastructure but outsources during peak season?",
+        "response": "Hybrid cloud"
+    },
+    {
+        "query": "What should a software development company utilize to test applications under different OS constraints?",
+        "response": "Cross-platform virtualization"
+    },
+    {
+        "query": "Which cloud deployment best fits organizations with similar security needs sharing resources?",
+        "response": "Community cloud"
+    },
+    {
+        "query": "Which cloud characteristic refers to per-use billing?",
+        "response": "Metered utilization"
+    },
+    {
+        "query": "What system allows developers to log into any computer and load their unique desktop environment on premises?",
+        "response": "Virtual desktop infrastructure (VDI) on premises"
+    },
+    {
+        "query": "Which service allows development without maintaining hardware or database platform?",
+        "response": "Platform as a service (PaaS)"
+    },
+    {
+        "query": "What service provides servers, load balancers, and storage components via provider?",
+        "response": "Infrastructure as a service (IaaS)"
+    },
+    {
+        "query": "What category do remote wipe and device encryption fall under?",
+        "response": "Security requirements"
+    },
+    {
+        "query": "What software delivery model is used when accessing apps via Citrix?",
+        "response": "Application virtualization"
+    },
+    {
+        "query": "What benefit guarantees 99.999% service uptime in cloud?",
+        "response": "High availability"
+    },
+    {
+        "query": "A technician removes mechanical disk and installs fresh OS on new drive. What approach is this?",
+        "response": "Replacement"
+    },
+    {
+        "query": "Phones that do not use a SIM card are what network type?",
+        "response": "CDMA"
+    },
+    {
+        "query": "What does IT purchase to allow expansion card use with laptop?",
+        "response": "Docking station"
+    },
+    {
+        "query": "If Wi-Fi signal weaker after card replacement, what is likely problem?",
+        "response": "The antenna is not connected."
+    },
+    {
+        "query": "Which interface does laptop memory have?",
+        "response": "SODIMM"
+    },
+    {
+        "query": "What is the first step to connect new earbuds to smartphone?",
+        "response": "Enable Bluetooth."
+    },
+    {
+        "query": "What cable type is traditionally used to charge Android phone?",
+        "response": "USB"
+    },
+    {
+        "query": "Which input device gives greater precision for digital drawings?",
+        "response": "Touch pen"
+    },
+    {
+        "query": "Which laptop component can be installed without tools?",
+        "response": "Battery"
+    },
+    {
+        "query": "Which component may be excluded to reduce laptop cost?",
+        "response": "Webcam"
+    },
+    {
+        "query": "Which option disables location services on mobile devices?",
+        "response": "Global Positioning System"
+    },
+    {
+        "query": "What is expected during Bluetooth keyboard pairing?",
+        "response": "Enter a PIN."
+    },
+    {
+        "query": "SIM swapping applies to which network type?",
+        "response": "LTE"
+    },
+    {
+        "query": "Low-cost electronic signing solution without precision?",
+        "response": "Touchpad"
+    },
+    {
+        "query": "Low-cost Ethernet solution for slim laptop?",
+        "response": "Port replicator"
+    },
+    {
+        "query": "If laptop is hot with bulging bottom, what is problem component?",
+        "response": "Battery"
+    },
+    {
+        "query": "What can sync using Microsoft Exchange on smartphone?",
+        "response": "Email"
+    },
+    {
+        "query": "What proprietary cable charges iPhone 14?",
+        "response": "Lightning"
+    },
+    {
+        "query": "Phone not responding to touch likely culprit?",
+        "response": "Faulty digitizer"
+    },
+    {
+        "query": "Mobile device suspected liquid damage – first step?",
+        "response": "Power off the device."
+    },
+    {
+        "query": "Printer output unexpected – what to check on control panel?",
+        "response": "Calibration"
+    },
+    {
+        "query": "What type of printer uses heating element to create image?",
+        "response": "Thermal"
+    },
+    {
+        "query": "Thick paper overheated which laser printer part?",
+        "response": "Fuser unit"
+    },
+    {
+        "query": "Which connection allows Plug and Play driver install?",
+        "response": "USB"
+    },
+    {
+        "query": "Faded paper from laser printer – check first?",
+        "response": "Toner cartridge"
+    },
+    {
+        "query": "Adobe device independent language for text-to-raster conversion?",
+        "response": "PostScript"
+    },
+    {
+        "query": "Dot matrix printer uses which paper types?",
+        "response": "Impact paper and Tractor-fed paper"
+    },
+    {
+        "query": "Infrastructure mode printer connection type?",
+        "response": "Wireless"
+    },
+    {
+        "query": "Double image on print – what should be done first?",
+        "response": "Clean the drum."
+    },
+    {
+        "query": "Factors to consider when assembling new printer?",
+        "response": "Set up location and Correctly unboxing"
+    },
+    {
+        "query": "A company has a structured cable system installed by a technician. The technician uses a permanent cable that terminates to wall ports and patch panels. What is this mechanism?",
+        "response": "Punchdown block"
+    },
+    {
+        "query": "This can be used individually or in conjunction with other configurations to effectively verify email services and block the transmission of spoofed and unwanted email messages. (Select one or more.)",
+        "response": "Sender Policy Framework; DomainKeys Identified Mail; Domain-based Message Authentication, Reporting, and Conformance"
+    },
+    {
+        "query": "A company has found that specific departments are more productive when working from home. What foundational infrastructure solution should the company implement?",
+        "response": "Virtual private network"
+    },
+    {
+        "query": "Which well-known mailbox access protocols utilize mailbox servers to allow the user's client email software to retrieve messages? (Select one or more.)",
+        "response": "POP3; IMAP"
+    },
+    {
+        "query": "A technician upgrades the memory in a laptop computer. Which interface does the memory have?",
+        "response": "SODIMM"
+    },
+    {
+        "query": "A laptop user asks the IT department for computer equipment. In addition to an external monitor, the user would like to take advantage of an expansion card. What should the IT department purchase for the user?",
+        "response": "Docking station"
+    },
+    {
+        "query": "A technician troubleshoots a laptop's direct connectivity to the organization's access points connected to an internal network. Which component does the technician test?",
+        "response": "Wireless card"
+    },
+    {
+        "query": "A user has never seen a double image on a print before. However, when they print the latest report, they see a double image. What should they do first?",
+        "response": "Clean the drum"
+    },
+    {
+        "query": "A technician notices that the printer's output was not expected and needs to check the printer's control panel to investigate the problem. What should the technician check?",
+        "response": "Calibration"
+    },
+    {
+        "query": "A user complains that their laptop does not hold a charge for more than 30 minuts, even after charging all night. They also mention that there is an error message when they restart their computer that states something about power. What is the likely problem?",
+        "response": "Swollen battery"
+    },
+    {
+        "query": "A user notices that their laser printer is not working and causing an error. When the technician looks at the printer, thet notice that the user was using thick paper, causing a part of the printer to overheat",
+        "response": "Fuser unit"
+    },
+    {
+        "query": "A user has been working with a large transportation company for 30 years and has never seen a double image before. However, when they print the latest report on the new printer, they see a double image on the print",
+        "response": "Clean the drum"
+    },
+    {
+        "query": "Sandboxes can be used to analyze viruses, worms, and Trojans. Sandboxes can also provide an isolated environment for what other important function?",
+        "response": "Testing and development"
+    },
+    {
+        "query": "A network administrator is looking at a user's computer, which seems to have intermittent connectivity issues. Which of the following should they do first?",
+        "response": "Check the phyiscal cords"
+    },
+    {
+        "query": "An IT support specialist updated all the information systems in the office last week, and the users are complaining that the routinely used applications no longer work. What is most likely the issue breaking the applications?",
+        "response": "Legacy software"
+    },
+    {
+        "query": "A tablet user connects a Bluetooth keyboard. What would be expected in the pairing process?",
+        "response": "Enter a pin"
+    },
+    {
+        "query": "What issue does constant indicator LED activity imply?",
+        "response": "Mechanical Problem"
+    },
+    {
+        "query": "A company offers a bring your own device (BYOD) program at work. Several users approach the company in an effort to receive reimbursement for changing personal phones to the company's carrier. This will be done by swapping out a subscriber identity module (SIM) card in devices with which network type?",
+        "response": "LTE"
+    },
+    {
+        "query": "A flat panel monitor has several black dots. After extensive troubleshooting, it appears to be a display problem. What can fix this?",
+        "response": "Check for warranty replacement"
+    },
+    {
+        "query": "A RAID array cannot boot, and the technician cannot reach the configuration utility. There have been no recent changes to the array. What is the likely problem?",
+        "response": "Controller failure"
+    },
+    {
+        "query": "A technician uses an adapter card that supplies power over the bus, resulting in no need for a separate power cable. Because the adapter can vary in different widths and lengths, the technician should check to ensure that the adapter fits on the motherboard. What type of adapter has these specifications?",
+        "response": "M.2"
+    },
+    {
+        "query": "While diagnosing a computer that is not powering on, the technician has established that the wall socket is working correctly since there is a fully plugged power strip. What is a reasonable next step?",
+        "response": "Use another power cable."
+    },
+    {
+        "query": "A network technician installs wireless access points (APs) in an office and would like to use power over Ethernet (PoE) to power the APs. The current network infrastructure is not capable of doing this. What would the network technician need to install to augment the power requirements for PoE APs?",
+        "response": "Power Injector"
+    },
+    {
+        "query": "After discovering an unlabeled wall port in an office, a technician would like to label it appropriately. Not knowing where the permanent link patches into specifically, but knowing all the other permanent links in the same area run to the same closet. When connecting a laptop, there appears to be a successful connection. What would be most helpful for the technician to use?",
+        "response": "Cable Tester"
+    },
+    {
+        "query": "A logistics company wants to streamline its workflow and track shipments as they move in and around its facilities without barcode scanners. What type of personal area networking solution would best suit this requirement?",
+        "response": "RFID"
+    },
+    {
+        "query": "Cloud provisioning models have unique characteristics that make them better or worse than on-premises models, depending on an organization's needs. Which characteristic refers to the per-use billing for resources consumed by the cloud?",
+        "response": "Metered utilization"
+    },
+    {
+        "query": "An important part of testing a new application is running it under several different OSs and resource constraints so the developer can be sure it will work for all customers regardless of their system. What term is used to identify the application testing described in this question?",
+        "response": "Cross-platform virtualization"
+    },
+    {
+        "query": "A cloud service provider (CSP) works with several organizations to establish new cloud deployments that best match their needs. Each organization has similar security needs and is open to sharing resources with other organizations to save money. Which cloud deployment sounds best for the CSP's new customers?",
+        "response": "Community cloud"
+    },
+    {
+        "query": "A laptop user has a slim laptop that has very few external ports. As there is no Ethernet port on the laptop, it only uses wireless. The user would like a low-cost solution that allows for an Ethernet connection when not traveling. What does IT purchase for the user?",
+        "response": "Port replicator"
+    },
+    {
+        "query": "A support technician replaces a Wi-Fi card in a laptop. The following day, the laptop user states that the company's Wi-Fi network signal is weaker than it was before. What does the technician find to be the likely problem?",
+        "response": "The antenna is not connected."
+    },
+    {
+        "query": "A user has a newly issued smartphone that has corporate communication software installed. What can the user expect to sync while using Microsoft Exchange?",
+        "response": "Email"
+    },
+    {
+        "query": "A user notices that their laser printer is not working and is causing an error. When the technician looks at the printer, they notice that the user was using thick paper, causing a part of the printer to overheat. Which part of the printer has overheated?",
+        "response": "Fuser unit"
+    },
+    {
+        "query": "Users at an organization prefer that any mobile devices deployed for company use have location services disabled. IT administrators agree and configure which option?",
+        "response": "Global Positioning System"
+    },
+    {
+        "query": "A user is trying to print visual graphics for an upcoming meeting, but the paper is coming out faded. What should they check first?",
+        "response": "Toner cartridge"
+    },
+    {
+        "query": "While trying to set up for a presentation, the wall-mounted display will not mirror the laptop display. The technician traces the long HDMI cable to find that it runs on the floor, and it is evident that users have repeatedly run over it. What will likely fix the problem?",
+        "response": "Use a new HDMI cable."
+    },
+    {
+        "query": "A user reports that their PC can not access the internet and internal network resources. The user also reports that the internet is intermittent throughout the day. A technician confirmed that the Ethernet cable is connected securely to the PC and the wall port. What tool should an engineer bring with them to investigate this further?",
+        "response": "Cable tester"
+    },
+    {
+        "query": "A company building is under construction and a technician is getting ready to install communication wires. What can a technician use to make the installation simpler?",
+        "response": "Plenum"
+    },
+    {
+        "query": "A systems engineer is doing an internal audit of their virtual environment before an annual inspection and is making sure that all the virtual machines are up to date on patches. What could the systems engineer consult to verify which patches need to be on each machine?",
+        "response": "Security requirements"
+    },
+    {
+        "query": "A government organization wants to develop its own application to process information, but they do not want to be responsible for maintaining the hardware or the database platform that the application runs on. Additionally, the organization does not want to be burdened with maintaining the integrity and availability of the database platform because it will be very busy with other responsibilities. Which service would be best for the government organization to pursue?",
+        "response": "Platform as a service (PaaS)"
+    },
+    {
+        "query": "A user complains that a laptop is slow. A technician concludes that the best solution is to remove the current mechanical disk drive with a faster solid-state drive. The technician opts to back up the user data and install a fresh operating system on a new drive. Which approach defines the technician's steps?",
+        "response": "Replacement"
+    },
+    {
+        "query": "A technician suspects a mobile device to have damage caused by liquid. What should the technician do first?",
+        "response": "Power off the device."
+    },
+    {
+        "query": "A company receives a new printer that needs assembly. What factors should the company consider when assembling it? (Select two.)",
+        "response": "Set up location; Correctly unboxing"
+    },
+    {
+        "query": "A startup legal office has specific software needs that are unique to the practice of law. The law firm partner would like to pay software developers to create a custom application but is concerned that the firm does not have the funds. The firm's IT manager has recommended that it use existing applications instead of paying for a new app to be developed. What service is the IT manager suggesting to the firm's partner?",
+        "response": "Software as a service (SaaS)"
+    },
+    {
+        "query": "A smartphone user tries to connect a new set of earbuds. What is the first step that the user does with the phone?",
+        "response": "Enable Bluetooth."
+    },
+    {
+        "query": "A manager needs to electronically sign many documents while using a laptop. Precision is not required, and there is very little money in the budget to spend. What does the manager choose to use as a solution?",
+        "response": "Touchpad"
+    },
+    {
+        "query": "A technician has tested a computer with extended read/write times and found it to have IOPS reduced from vendor baselines. What should the technician do next?",
+        "response": "Make data backups"
+    },
+    {
+        "query": "A technician needs to upgrade components in a laptop. Which component can the technician install without the use of tools?",
+        "response": "Battery"
+    },
+    {
+        "query": "A printer allows connection to a network through the infrastructure mode. Which of the following connections is the printer most likely using when referring to an infrastructure mode connection?",
+        "response": "Wireless"
+    }
 ]
