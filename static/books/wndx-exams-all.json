@@ -1,75 +1,143 @@
 [
   {
-    "query": "All of your employees work remotely. One of the employees buys a notebook computer with Windows 11 Pro from an online store. The computer is to be used for company business. You need to upgrade the computer to Windows 11 Enterprise and join it to the IntImport.com domain. You have the proper Microsoft 365 subscription and all other required licenses. Which of the following is the BEST solution for upgrading the computer and joining it to the domain?",
-    "response": "Create a provisioning package and email it to the user with instructions on how to run it."
-  },
-  {
-    "query": "Your Windows workstation has an IP address of 192.168.1.35 with a subnet mask of 255.255.255.0. It also has a DNS server address of 192.168.1.1 and a default gateway router address of 192.168.1.254. Your workstation is a member of the westsim.com domain. The domain controller's address is 192.168.1.3. Your workstation needs to connect to a web server using the HTTP protocol. The web server has an IP address of 192.168.1.2 and a subnet mask of 255.255.255.0. Where will the packets be sent first?",
-    "response": "Directly to the web server."
-  },
-  {
     "query": "You have several computers running Windows 10. The computers are members of a domain. For all computers, you want to remove access to administrative tools from the Start menu and hide notifications from the System Tray. What should you do?",
     "response": "Use Group Policy"
+  },
+  {
+    "query": "You do not use the Microsoft XPS Document Writer. Which option could you use to disable it?",
+    "response": "Turn Windows features on or off"
+  },
+  {
+    "query": "Azure Active Directory accesses resources through which of the following?",
+    "response": "HTTP"
   },
   {
     "query": "What is the purpose of using Windows Autopilot?",
     "response": "To make the deployment and management of new Windows devices easier."
   },
   {
-    "query": "Which activation processes requires one of the following thresholds to be met? 25 or more client systems (physical or virtual) must require activation. 5 or more servers (physical or virtual) must require activation.",
-    "response": "Key Management Services (KMS)"
+    "query": "Which of the following authentication services do current subscribers of Microsoft 365, Office 365, and Dynamic CRM already have an account with?",
+    "response": "Azure Active Directory"
   },
   {
-    "query": "How are provisioning packages distributed?",
-    "response": "Using a USB flash drive."
+    "query": "An employee in your organization has started to work from home two days a week. The employee uses the same company laptop at the office and at home. The laptop automatically connects to the wireless network in the office, but it does not automatically connect to the employee's home wireless network. The employee would like the laptop to connect automatically both at home and at work. What should you do?",
+    "response": "Configure an alternate TCP/IP configuration on the laptop's wireless adapter to use a static IP address that is compatible with the home network."
   },
   {
     "query": "Your company has started the transition to IPv6. You need to configure records on the DNS server so that clients can submit a hostname query and receive back an IPv6 address for the specified host. What should you do?",
     "response": "Create AAAA records."
   },
   {
-    "query": "You're the network administrator for a private college. You've been tasked with developing a new image that will be rolled out to all the computers in the financial aid office. The new image will contain Windows 11 Pro. Because of this, you've decided to use the Microsoft Development Toolkit to create the image. You've finished configuring the task sequence and are now configuring the image rules. You need to change the network configuration information for MDT. Which of the following would you edit?",
-    "response": "bootstrap.ini"
-  },
-  {
-    "query": "All your users work remotely. One of your users buys a notebook computer with Windows 11 Pro from an online store. The computer is to be used for company business. You need to upgrade the computer to Windows 11 Enterprise and join it to the CorpNet.local domain. You have the proper Microsoft 365 subscription and all other required licenses. What do you do?",
-    "response": "Create a provisioning package and email it to the user with instructions on how to run it."
-  },
-  {
-    "query": "Your Windows workstation has a binary IP address of 00001010.00000000.00000000.01000001 assigned to it. Which class of IP addresses does this address fall within?",
-    "response": "Class A"
-  },
-  {
-    "query": "To deploy Windows 11, you want to use the Windows 11 installation on a selected computer as a system image. After removing machine-specific information from the computer, you are ready to capture the image as a WIM file. What should you do?",
-    "response": "Boot to Windows PE and use MDT to capture the Windows installation onto a network share."
-  },
-  {
-    "query": "Which of the following LAPS features BEST helps your organization to meet security regulations such as the Payment Card Industry Data Security Standard (PCI DSS)?",
-    "response": "Compliance"
-  },
-  {
-    "query": "You have a stand-alone dual-boot system running both Windows 10 and Windows 11. The computer currently boots to Windows 10 by default. You need the computer to boot to Windows 11 by default instead. What should you do?",
-    "response": "Run\u00a0bcdedit.exe."
-  },
-  {
-    "query": "Which of the following deployment methods allows you to upgrade from Windows 11 Pro to Windows 11 Enterprise with no user intervention or reboots?",
-    "response": "Subscription activation"
-  },
-  {
-    "query": "You want to implement 802.1x authentication on your wireless network. Which of the following will be required?",
-    "response": "RADIUS"
-  },
-  {
-    "query": "You have just finished installing Windows 11 on a reference system from which you need to capture an image. You've already removed device-specific information from the system and are ready to capture the image files. Which tools can you use to do this?",
-    "response": "Deployment Image Servicing and Management"
+    "query": "You want to connect a laptop computer running Windows to a wireless network. The wireless network uses multiple access points and is configured to use WPA2-Personal security. SSID broadcast has been disabled. Which type of authentication method and encryption combination should you use for the strongest security possible?",
+    "response": "A pre-shared key and AES encryption"
   },
   {
     "query": "Which of the following is intended for organizations that do not have an on-premises Windows Server Active Directory infrastructure?",
     "response": "Azure Active Directory Join"
   },
   {
+    "query": "You have fifteen Windows 11 computers in a workgroup. Your task is to create a Local User account on each computer called BackupAdmin. The account must be part of the Backup Operators Group. What should you do?",
+    "response": "Use Windows Configuration Designer to create a provisioning package. Run the package on each computer."
+  },
+  {
+    "query": "To retrieve a password for a managed account in Azure Active Directory using LAPS, you need to have the appropriate permissions in your environment. Which of the following Active Directory groups gives you those permissions?",
+    "response": "Local Admin Password Solution Readers"
+  },
+  {
+    "query": "Your notebook computer is configured to connect to the wireless network at work using a wireless profile named Company1. The profile is configured to connect using 802.11b. During a recent upgrade, your company added an 802.11n wireless access point. The access point is configured to support 802.11n using one radio and 802.11b/g with the other radio. You create a second profile on your computer for the 802.11n network. You notice that your computer is connecting automatically using 802.11b. You want the computer to connect to 802.11n whenever it's available and only use 802.11b if 802.11n is unavailable. What should you do?",
+    "response": "Move the 802.11n profile up in the list of preferred networks."
+  },
+  {
+    "query": "You're the network administrator for a private college. You've been tasked with developing a new image that will be rolled out to all the computers in the financial aid office. The new image will contain Windows 11 Pro. Because of this, you've decided to use the Microsoft Development Toolkit to create the image. You've finished configuring the task sequence and are now configuring the image rules. You need to change the network configuration information for MDT. Which of the following would you edit?",
+    "response": "bootstrap.ini"
+  },
+  {
     "query": "You have two computers. ComputerA is running Windows 10 Professional, and ComputerB is running Windows 11 Professional. You want to transfer user profiles and data files from ComputerA to ComputerB without using USMT. Which tool should you use?",
     "response": "PCmover Express"
+  },
+  {
+    "query": "How are provisioning packages distributed?",
+    "response": "Using a USB flash drive."
+  },
+  {
+    "query": "You have just finished installing Windows 11 on a reference system from which you need to capture an image. You've already removed device-specific information from the system and are ready to capture the image files. Which tools can you use to do this?",
+    "response": "Deployment Image Servicing and Management"
+  },
+  {
+    "query": "What is the Windows Configuration Designer?",
+    "response": "A tool used to create provisioning packages."
+  },
+  {
+    "query": "You use a Windows client system on your desktop. Your company has started the migration to IPv6 on the network. You need to configure your computer with a static IPv6 address. Which command should you use to configure a static IPv6 address?",
+    "response": "netsh"
+  },
+  {
+    "query": "Your Windows workstation has an IP address of 192.168.1.25 assigned to it with a subnet mask of 255.255.255.0. It also has a DNS server address of 137.65.1.10, and it has a default gateway router address of 192.168.1.254 Your workstation needs to send a file to a server that has an IP address of 192.168.2.1 and a subnet mask of 255.255.255.0 Where will the packets be sent first?",
+    "response": "To the default gateway router."
+  },
+  {
+    "query": "You have two computers. ComputerA is running Windows 10, and ComputerB is running Windows 11. You are using USMT to migrate the user profiles and the default date files from ComputerA to ComputerB. The user works with graphics, so you must also include .jpg files. Which of the following is the BEST solution for making sure that the migration includes all .jpg files?",
+    "response": "Create a custom XML file."
+  },
+  {
+    "query": "Your Windows workstation has a binary IP address of 00001010.00000000.00000000.01000001 assigned to it. Which class of IP addresses does this address fall within?",
+    "response": "Class A"
+  },
+  {
+    "query": "Which data transmission rate is defined by the IEEE 802.11b wireless standard?",
+    "response": "11 Mbps"
+  },
+  {
+    "query": "You have a stand-alone dual-boot system running both Windows 10 and Windows 11. The computer currently boots to Windows 10 by default. You need the computer to boot to Windows 11 by default instead. What should you do?",
+    "response": "Run bcdedit.exe."
+  },
+  {
+    "query": "You've just connected a USB wireless network adapter to a Windows desktop system in your home office. You want to use the Windows Connect Now (WCN) push-button connect feature to connect your desktop to your wireless network. Which technology must be implemented on both the wireless access point and the wireless network interface to enable this feature?",
+    "response": "Wi-Fi Protected Setup (WPS)"
+  },
+  {
+    "query": "To deploy Windows 11, you want to use the Windows 11 installation on a selected computer as a system image. After removing machine-specific information from the computer, you are ready to capture the image as a WIM file. What should you do?",
+    "response": "Boot to Windows PE and use MDT to capture the Windows installation onto a network share."
+  },
+  {
+    "query": "Which of the following would require a digital license activation type?",
+    "response": "Purchasing a genuine Windows 11 from the Microsoft Store app"
+  },
+  {
+    "query": "You want to implement 802.1x authentication on your wireless network. Which of the following will be required?",
+    "response": "RADIUS"
+  },
+  {
+    "query": "Which of the following is available in all editions of Windows 11 and require special hardware for use?",
+    "response": "Windows Hello"
+  },
+  {
+    "query": "Which of the following measures will make your wireless network invisible to the casual attacker?",
+    "response": "Disable SSID broadcast"
+  },
+  {
+    "query": "Your Windows workstation has an IP address of 192.168.1.35 with a subnet mask of 255.255.255.0. It also has a DNS server address of 192.168.1.1 and a default gateway router address of 192.168.1.254. Your workstation is a member of the westsim.com domain. The domain controller's address is 192.168.1.3. Your workstation needs to connect to a web server using the HTTP protocol. The web server has an IP address of 192.168.1.2 and a subnet mask of 255.255.255.0. Where will the packets be sent first?",
+    "response": "Directly to the web server."
+  },
+  {
+    "query": "All of your employees work remotely. One of the employees buys a notebook computer with Windows 11 Pro from an online store. The computer is to be used for company business. You need to upgrade the computer to Windows 11 Enterprise and join it to the IntImport.com domain. You have the proper Microsoft 365 subscription and all other required licenses. Which of the following is the BEST solution for upgrading the computer and joining it to the domain?",
+    "response": "Create a provisioning package and email it to the user with instructions on how to run it."
+  },
+  {
+    "query": "Which activation processes requires one of the following thresholds to be met? 25 or more client systems (physical or virtual) must require activation. 5 or more servers (physical or virtual) must require activation.",
+    "response": "Key Management Services (KMS)"
+  },
+  {
+    "query": "All your users work remotely. One of your users buys a notebook computer with Windows 11 Pro from an online store. The computer is to be used for company business. You need to upgrade the computer to Windows 11 Enterprise and join it to the CorpNet.local domain. You have the proper Microsoft 365 subscription and all other required licenses. What do you do?",
+    "response": "Create a provisioning package and email it to the user with instructions on how to run it."
+  },
+  {
+    "query": "Which of the following LAPS features BEST helps your organization to meet security regulations such as the Payment Card Industry Data Security Standard (PCI DSS)?",
+    "response": "Compliance"
+  },
+  {
+    "query": "Which of the following deployment methods allows you to upgrade from Windows 11 Pro to Windows 11 Enterprise with no user intervention or reboots?",
+    "response": "Subscription activation"
   },
   {
     "query": "You want to deploy Windows 11 to multiple computers using a system image. You would like to use an answer file to automate the installation process on a reference computer. What should you do first?",
@@ -82,10 +150,6 @@
   {
     "query": "On your Windows system, you want to prevent Edge from leaving a trail of your browsing session. What should you do?",
     "response": "Open a new InPrivate window."
-  },
-  {
-    "query": "You have fifteen Windows 11 computers in a workgroup. Your task is to create a Local User account on each computer called BackupAdmin. The account must be part of the Backup Operators Group. What should you do?",
-    "response": "Use Windows Configuration Designer to create a provisioning package. Run the package on each computer."
   },
   {
     "query": "If IT administrators want to create a hybrid directory service between Azure Active Directory and Active Directory Domain Services, they must use which of the following to create this hybrid service?",
@@ -104,35 +168,6 @@
     "response": "Config.xml"
   },
   {
-    "query": "Azure Active Directory accesses resources through which of the following?",
-    "response": "HTTP"
-  },
-  {
-    "query": "You've just connected a USB wireless network adapter to a Windows desktop system in your home office. You want to use the Windows Connect Now (WCN) push-button connect feature to connect your desktop to your wireless network. Which technology must be implemented on both the wireless access point and the wireless network interface to enable this feature?",
-    "response": "Wi-Fi Protected Setup (WPS)"
-  },
-  {
-    "query": "You have two computers. ComputerA is running Windows 10, and ComputerB is running Windows 11. You are using USMT to migrate the user profiles and the default date files from ComputerA to ComputerB. The user works with graphics, so you must also include .jpg files. Which of the following is the BEST solution for making sure that the migration includes all .jpg files?",
-    "response": "Create a custom XML file."
-  },
-  {
-    "query": "Which of the following measures will make your wireless network invisible to the casual attacker?",
-    "response": "Disable SSID broadcast"
-  },
-
-   {
-    "query": "Your notebook computer is configured to connect to the wireless network at work using a wireless profile named Company1. The profile is configured to connect using 802.11b. During a recent upgrade, your company added an 802.11n wireless access point. The access point is configured to support 802.11n using one radio and 802.11b/g with the other radio. You create a second profile on your computer for the 802.11n network. You notice that your computer is connecting automatically using 802.11b. You want the computer to connect to 802.11n whenever it's available and only use 802.11b if 802.11n is unavailable. What should you do?",
-    "response": "Move the 802.11n profile up in the list of preferred networks."
-  },
-  {
-    "query": "Which of the following authentication services do current subscribers of Microsoft 365, Office 365, and Dynamic CRM already have an account with?",
-    "response": "Azure Active Directory"
-  },
-  {
-    "query": "To retrieve a password for a managed account in Azure Active Directory using LAPS, you need to have the appropriate permissions in your environment. Which of the following Active Directory groups gives you those permissions?",
-    "response": "Local Admin Password Solution Readers"
-  },
-  {
     "query": "Meagan is a system administrator for a security services company with a high number of sales representatives that work remotely in the field using company laptops running Windows 11 Professional. Most of the sales representatives work during the summer months and then return home to continue with their schooling or another job. At the end of the summer season, Meagan needs to make sure the company laptops that are turned in have all personal files, apps, and settings removed, but keep their Azure Active Directory (AD) enrollment on Intune. Which of the following Windows tools is specifically designed to perform this task automatically with minimal configuration effort?",
     "response": "Windows Autopilot"
   },
@@ -141,20 +176,12 @@
     "response": "Azure Active Directory"
   },
   {
-    "query": "Which data transmission rate is defined by the IEEE 802.11b wireless standard?",
-    "response": "11 Mbps"
-  },
-  {
     "query": "You manage a Windows network environment. As part of your IPv6 migration strategy, you have implemented Teredo on your network. You would like to test the communication of a client computer using Teredo. What should you do?",
     "response": "Ping the address beginning with 2001:"
   },
   {
     "query": "You work as a systems engineer for a hospital, which currently uses Active Directory and a local profile for each user. The hospital is rolling out new computers to each department. The current computers are running Windows 8.1, and the new computers will have Windows 11 installed. You need to ensure that the user profiles are properly migrated from the Windows 8.1 machines to the new Windows 11 machines. Which of the following would be the BEST method to complete this task?",
-    "response": "Run\u00a0scanstate.exe\u00a0on the Windows 8.1 machines, and then run\u00a0loadstate.exe\u00a0on the Windows 11 machines."
-  },
-  {
-    "query": "Which of the following would require a digital license activation type?",
-    "response": "Purchasing a genuine Windows 11 from the Microsoft Store app"
+    "response": "Run scanstate.exe on the Windows 8.1 machines, and then run loadstate.exe on the Windows 11 machines."
   },
   {
     "query": "You have a computer running Windows 8.1. You want to migrate to Windows 11 using a wipe-and-load migration to transfer files and folders. Which of the following methods could you use?",
@@ -181,7 +208,7 @@
     "response": "net use"
   },
   {
-    "query" :"With Azure Active Directory Join, what does the user need to provide in order to be automatically joined to Azure Ad and enrolled in a mobile device",
+    "query": "With Azure Active Directory Join, what does the user need to provide in order to be automatically joined to Azure Ad and enrolled in a mobile device",
     "response": "Work or school user ID and password"
   },
   {
@@ -242,7 +269,7 @@
   },
   {
     "query": "One day while trying to start your Windows 11 system, you see the following error displayed: Could not read from the selected boot disk. Check boot path and disk hardware. Which of the following will most likely fix the problem?",
-    "response": "Boot into the recovery environment and run the\u00a0bootrec /rebuildbcd\u00a0command."
+    "response": "Boot into the recovery environment and run the bootrec /rebuildbcd command."
   },
   {
     "query": "You need to interactively access Command Prompt on a remote Windows system named WS1 from your Windows workstation. Which command should you use to do this?",
@@ -364,7 +391,7 @@
     "query": "Which of the following is the most complete and correct listing of platforms on which you can update and manage Microsoft Intune policies?",
     "response": "Windows, iOS/iPadOS, and Mac."
   },
- {
+  {
     "query": "A user contacts you to let you know their Intune-enrolled device has been remotely locked. What would have caused this?",
     "response": "The user's device is non-compliant and was remotely locked."
   },
@@ -384,7 +411,7 @@
     "query": "Which special permission specifies whether a user can make changes to the end of the file but not change, delete, or overwrite existing data?",
     "response": "Create folders / append data"
   },
-    {
+  {
     "query": "You are the Windows desktop administrator for your company. You would like to manage your computers remotely using the Windows Remote Shell. You need to enable remote management on each target computer. What should you do?",
     "response": "Start the Telnet Client on each computer."
   },
@@ -396,10 +423,28 @@
     "query": "Where in Microsoft Intune can you go to manage and deploy device updates?",
     "response": "Device list"
   },
-  {"query":"You have defined an app protection policy for a Human Resources application in your company. Which of the following is the tool you need to use to configure the policy to apply it to the appropriate users?","response":"Microsoft Endpoint Manager"},
-  {"query":"Which of the following BEST describes an Intune device configuration profile?","response":"A profile with features and settings that can be enabled or disabled on the devices in your organization."},
-  {"query":"Your Windows system has two hard drives named C: and D:. For the D:\\\\Reports\\\\Finances.xls file, you explicitly grant the Mary user account the Allow Modify NTFS permission. You need to move the file from the existing folder to the C:\\\\Reports2 folder. You want to keep the existing NTFS permissions on the file. How can you accomplish this with the least amount of effort?","response":"Use the robocopy command to copy the file to the C:\\\\Reports2 folder."},
-  {"query":"Which of the following can you use to create a custom Intune device configuration profile?","response":"Microsoft Endpoint Management"},
-  {"query":"You have a Windows 10 computer configured with volumes C: and D:. You want to schedule backup jobs of the C: volume to include all user files on the C: volume as well as creating a system image of the C: volume. How do you configure the backup job and the schedule with a minimal amount of effort?","response":"Use the Backup and Restore (Windows 7) console."},
-  {"query":"With the free version of OneDrive, your files stay in the Recycle bin anywhere from 3 to 30 days as long as you don't exceed which percentage of your storage?","response":"10%"}
+  {
+    "query": "You have defined an app protection policy for a Human Resources application in your company. Which of the following is the tool you need to use to configure the policy to apply it to the appropriate users?",
+    "response": "Microsoft Endpoint Manager"
+  },
+  {
+    "query": "Which of the following BEST describes an Intune device configuration profile?",
+    "response": "A profile with features and settings that can be enabled or disabled on the devices in your organization."
+  },
+  {
+    "query": "Your Windows system has two hard drives named C: and D:. For the D:\\\\Reports\\\\Finances.xls file, you explicitly grant the Mary user account the Allow Modify NTFS permission. You need to move the file from the existing folder to the C:\\\\Reports2 folder. You want to keep the existing NTFS permissions on the file. How can you accomplish this with the least amount of effort?",
+    "response": "Use the robocopy command to copy the file to the C:\\\\Reports2 folder."
+  },
+  {
+    "query": "Which of the following can you use to create a custom Intune device configuration profile?",
+    "response": "Microsoft Endpoint Management"
+  },
+  {
+    "query": "You have a Windows 10 computer configured with volumes C: and D:. You want to schedule backup jobs of the C: volume to include all user files on the C: volume as well as creating a system image of the C: volume. How do you configure the backup job and the schedule with a minimal amount of effort?",
+    "response": "Use the Backup and Restore (Windows 7) console."
+  },
+  {
+    "query": "With the free version of OneDrive, your files stay in the Recycle bin anywhere from 3 to 30 days as long as you don't exceed which percentage of your storage?",
+    "response": "10%"
+  }
 ]

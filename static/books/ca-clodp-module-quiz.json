@@ -4068,5 +4068,88 @@
   {
     "query": "What are the two primary types of databases?",
     "response": "Relational and Non-relational"
+  },
+  {
+    "query": "The Chief Information Officer (CIO) has requested that the department replace their private cloud server farm hard drives with faster ones to help asset longevity and end user experience. What kind of hard drives would they most likely be removing from the server farm?",
+    "response": "Spinning Disks"
+  },
+  {
+    "query": "What is one of the main network considerations when migrating to cloud-hosted resources?",
+    "response": "Ensuring plenty of low-latency bandwidth"
+  },
+  {
+    "query": "A healthcare company, HealthGuard, needs to ensure the privacy of its customer data, including health concerns and credit card information. The company is evaluating different cloud service providers. What should be a key criterion in their selection process?",
+    "response": "The provider's compliance certification"
+  },
+  {
+    "query": "Your company is transitioning to cloud services and you are tasked with reducing the environmental impact of your IT operations. Which of the following actions should you implement to achieve this goal?",
+    "response": "Utilize cloud service providers that invest in renewable energy resources"
+  },
+  {
+    "query": "A newly formed startup is organizing teams for their cloud application lifecycle. They first create a team that will code the actual application before it is tested or put live. What part of the application lifecycle is this?",
+    "response": "Development"
+  },
+  {
+    "query": "A company is using a rolling deployment to update its database servers. After updating the first few servers, they notice a performance degradation in the application. What could be the most likely cause of this performance issue?",
+    "response": "The updated servers are not properly integrated with the load balancer"
+  },
+  {
+    "query": "What type of network consists of physical network cables, Layer 2 switches, and Layer 3 routers?",
+    "response": "Standard Networks"
+  },
+  {
+    "query": "Which of the following is an example of a VM purpose choice?",
+    "response": "Compute optimized"
+  },
+  {
+    "query": "Which of the following is an example of information that can be found in simple file metadata?",
+    "response": "Author Names"
+  },
+  {
+    "query": "A company uses a configuration management script to manage server settings. During a routine audit, it is discovered that the script has inadvertently opened several unnecessary ports on multiple servers. The security team needs to quickly identify and close these ports. Which approach should the security team take to address this issue?",
+    "response": "Use Nmap to scan the servers and generate a report of open ports"
+  },
+  {
+    "query": "What is a key difference between Network Security Groups (NSGs) and Web Application Firewalls (WAFs)?",
+    "response": "NSGs control traffic to VMs, while WAFs control traffic at the application level."
+  },
+  {
+    "query": "Engineers configure encryption on two cloud servers. As data integrity is a priority concern, what do the engineers hope to achieve by using file hashes?",
+    "response": "File change monitoring"
+  },
+  {
+    "query": "A security technician is implementing a Network Access Control (NAC) solution but is finding that NAC is not detecting unsecure devices. What should the technician look at to troubleshoot? (Select all that apply.)",
+    "response": [
+      "Network entry points",
+      "Configuration settings"
+    ]
+  },
+  {
+    "query": "A company is currently using Telnet for remote access and FTP for file transfers. After evaluating the security risk associated with using these resources, which of the following is the BEST recommendation for a course of action?",
+    "response": "Replace Telnet with SSH and FTP with SFTP to enhance security."
+  },
+  {
+    "query": "What is one of the benefits of following the CIS benchmarks closely?",
+    "response": "Reduced attack surface"
+  },
+  {
+    "query": "Which of the following best describes the relationship between vCPU and the number of cores and threads in a virtual machine?",
+    "response": "vCPU = Number of cores x number of threads/core"
+  },
+  {
+    "query": "A development team is building a stateless web application that needs to scale automatically based on incoming traffic. They are considering using either containers or serverless functions. Which option should they choose and why?",
+    "response": "Serverless functions, because they are specific to cloud environments and support stateless applications."
+  },
+  {
+    "query": "A company has noticed that their employees working from home are experiencing slow access to cloud services. Upon investigation, it is found that the issue is not with the home internet connections. Which of the following could be a potential cause of the slow access, and what would be the best initial step to analyze the issue?",
+    "response": "The company's HQ office network is congested; analyze the network topology and performance."
+  },
+  {
+    "query": "Which of the following statements best describes the difference between containers and serverless workloads?",
+    "response": "Serverless workloads are specific to cloud environments, while containers can run on both cloud and on-premises resources."
+  },
+  {
+    "query": "What is the primary difference between tracing and logging in cloud services?",
+    "response": "Logging tracks timestamped events, while tracing records each function call within the code or application."
   }
 ]
