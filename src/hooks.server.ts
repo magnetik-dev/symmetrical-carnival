@@ -53,10 +53,15 @@ export const handle: Handle = async ({ event, resolve }) => {
   if (isProtectedPath && !user) {
     throw redirect(303, '/');
   }
+  const userProfile = await event.locals.getProfile()
+  const isAdmin =  userProfile?.role=== "admin"
 
   // Redirect logged-in users away from root (login) if they are already authenticated
   if (event.url.pathname === '/' && user) {
-      throw redirect(303, ROUTE_DEFAULT);
+    if(isAdmin){
+        throw redirect(303, ROUTE_DASHBOARD);
+    }
+    throw redirect(303, ROUTE_QUIZ);
   }
 
   return resolve(event, {

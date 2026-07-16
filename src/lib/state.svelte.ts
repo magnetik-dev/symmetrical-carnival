@@ -114,8 +114,8 @@ class RegistryCache {
                     ),
                     payments ( amount_paid )
                 `),
-                supabase.from('batch').select('id, batch_name'),
-                supabase.from('leads').select('id, lead_name')
+                supabase.from('batch').select('id, batch_name').order('batch_name', { ascending: false}),
+                supabase.from('leads').select('id, lead_name').order('lead_name', { ascending: false})
             ]);
 
             if (studentsQuery.error) throw studentsQuery.error;

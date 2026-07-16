@@ -185,13 +185,21 @@
 
 <section class="section">
     <div class="container">
-        <!-- Level Stats Section -->
-        <nav class="level" style="align-items: flex-start">
-            <LevelCard statName="Students" statValue={registryCache.isLoading && !registryCache.isLoaded ? "..." : registryCache.stats.studentsCount}/>
-            <LevelCard statName="Batches" statValue={registryCache.isLoading && !registryCache.isLoaded ? "..." : registryCache.stats.batchesCount}/>
-            <LevelCard statName="Courses" statValue={registryCache.isLoading && !registryCache.isLoaded ? "..." : registryCache.stats.programsCount}/>
-            <LevelCard statName="Leads" statValue={registryCache.isLoading && !registryCache.isLoaded ? "..." : registryCache.stats.leadsCount}/>
-        </nav>
+        <!-- Stats Section -->
+        <div class="columns is-tablet">
+            <div class="column has-text-centered">
+                <LevelCard statName="Students" statValue={registryCache.isLoading && !registryCache.isLoaded ? "..." : registryCache.stats.studentsCount}/>
+            </div>
+            <div class="column has-text-centered">
+                <LevelCard statName="Batches" statValue={registryCache.isLoading && !registryCache.isLoaded ? "..." : registryCache.stats.batchesCount}/>
+            </div>
+            <div class="column has-text-centered">
+                <LevelCard statName="Courses" statValue={registryCache.isLoading && !registryCache.isLoaded ? "..." : registryCache.stats.programsCount}/>
+            </div>
+            <div class="column has-text-centered">
+                <LevelCard statName="Courses" statValue={registryCache.isLoading && !registryCache.isLoaded ? "..." : registryCache.stats.programsCount}/>
+            </div>
+        </div>
 
         <!-- Error Notification -->
         {#if registryCache.error}
