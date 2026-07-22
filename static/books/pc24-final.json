@@ -328,10 +328,6 @@
     "response": "Privacy"
   },
   {
-    "query": "A technician is tasked to figure out why a user's Gmail app will not update on their mobile phone. The technician knows several reasons that would cause this to occur. Which of the following would be one of the reasons for this problem?",
-    "response": "Storage"
-  },
-  {
     "query": "A technician creates full backups by having the chain start with an initial full backup as moral and makes a series of incremental backups.",
     "response": "Synthetic"
   },
