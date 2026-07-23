@@ -1,0 +1,202 @@
+[
+  {
+    "query": "TCP flow control using windowing is implemented by controlling ________.",
+    "response": "window sizes"
+  },
+  {
+    "query": "Which of the following return codes for HTTP requests means that the file could not be found?",
+    "response": "404"
+  },
+  {
+    "query": "Which of these protocols uses TCP?",
+    "response": "POP3"
+  },
+  {
+    "query": "Which Cisco IOS command would be used to apply ACL number 10 outbound on an interface?",
+    "response": "ip access-group 10 out"
+  },
+  {
+    "query": "What is the default action taken on all unmatched traffic through an ACL?",
+    "response": "Deny"
+  },
+  {
+    "query": "When choosing matching parameters for any access-list command, how do you match based on only the first two octets using WC masks?",
+    "response": "0.0.255.255"
+  },
+  {
+    "query": "Where should more specific statements be placed in the ACL?",
+    "response": "Early in the ACL"
+  },
+  {
+    "query": "Which Cisco IOS access-list command application keywords would be used to match HTTP traffic?",
+    "response": "www"
+  },
+  {
+    "query": "Spoofing is the technique of doing what?",
+    "response": "Modifying addresses in packets"
+  },
+  {
+    "query": "Which type of malware injects itself into applications and then relies on users to transport the infected application to other victims?",
+    "response": "Virus"
+  },
+  {
+    "query": "In the security-related acronym AAA, which of these is not one of the factors?",
+    "response": "Alteration"
+  },
+  {
+    "query": "IOS signals that the value in the password command lists an encrypted password rather than clear text by setting an encoding type of what?",
+    "response": "7"
+  },
+  {
+    "query": "By using information from prior packet exchange, a firewall can perform ________ to decide on filtering future packets.",
+    "response": "stateful inspection"
+  },
+  {
+    "query": "When a port security violation occurs, what happens next by default?",
+    "response": "All future incoming traffic on that port is discarded from the violating MAC addresses."
+  },
+  {
+    "query": "For an interface that predefines the specific MAC addresses allowed on the interface, when does a violation occur?",
+    "response": "When the switch receives a frame whose source MAC is not one of the configured addresses"
+  },
+  {
+    "query": "What protocol can be used to automatically assign IP addresses and other parameters to a host or router?",
+    "response": "DHCP"
+  },
+  {
+    "query": "What functionality does the command ip helper-address server-ip enable in a network?",
+    "response": "Enables a network to have a single, centralized DHCP server"
+  },
+  {
+    "query": "Why would you not usually want to set a switch to act as a DHCP client to lease its IP address?",
+    "response": "Makes it more difficult for staff to identify the switch's address for remote management"
+  },
+  {
+    "query": "What is the name of the switch feature that can be enabled to monitor for unauthorized DHCP servers on a network?",
+    "response": "DHCP Snooping"
+  },
+  {
+    "query": "With DHCP Snooping, what happens to DHCP messages received on an untrusted port for messages normally sent by a server?",
+    "response": "Always discarded"
+  },
+  {
+    "query": "Which DHCP messages do servers typically send?",
+    "response": "OFFER and ACK"
+  },
+  {
+    "query": "When CDP is used on Ethernet, it sends traffic using a(n) ________ address.",
+    "response": "multicast"
+  },
+  {
+    "query": "Which of the following commands is used in IOS to set message levels for syslog?",
+    "response": "logging trap"
+  },
+  {
+    "query": "What is a limitation of dynamic NAT? (ICNO Module 10 found)",
+    "response": "The NAT pool can become exhausted."
+  },
+  {
+    "query": "What is another name for NAT overload? (Use in ICNO module 10 found)",
+    "response": "Port Address Translation"
+  },
+  {
+    "query": "What is the maximum one-way delay expected on a link to ensure a quality IP voice connection?",
+    "response": "150 ms"
+  },
+  {
+    "query": "Which field is used in the 802.1Q header to mark a specific QoS value?",
+    "response": "CoS"
+  },
+  {
+    "query": "The SNMP database is referred to as the ________.",
+    "response": "MIB"
+  },
+  {
+    "query": "Which type of memory is used by Cisco IOS to store files?",
+    "response": "Flash memory"
+  },
+  {
+    "query": "Which of the following topologies is a design that interconnects each node to every other node in the set?",
+    "response": "A mesh topology"
+  },
+  {
+    "query": "In a two-tier network, which is most likely to connect directly to one another?",
+    "response": "Distribution device to distribution device"
+  },
+  {
+    "query": "Which term is not a synonym for a VPN encryption key ?",
+    "response": "Unique key"
+  },
+  {
+    "query": "When using the Cisco campus design terminology, which layer provides a connection point for end-user devices?",
+    "response": "Access"
+  },
+  {
+    "query": "Which MEF service type provides a link similar to a T1 leased line?",
+    "response": "E-Line"
+  },
+  {
+    "query": "When using HSRP in a single group redundancy deployment, how many forwarders are allowed to actively handle user traffic at the same time?",
+    "response": "1"
+  },
+  {
+    "query": "A Metro Ethernet ________ defines which user devices can communicate with each other.",
+    "response": "EVC"
+  },
+  {
+    "query": "What is the name of the Metro Ethernet providers facility that is located as close to their customers as possible?",
+    "response": "PoP"
+  },
+  {
+    "query": "In server virtualization, a host is defined as what component?",
+    "response": "The physical server on which the hypervisor runs the VM"
+  },
+  {
+    "query": "In what sense is a private cloud \"private\"?",
+    "response": "A single company both owns the tools that create the cloud and employs the people who use the service."
+  },
+  {
+    "query": "What is Cisco's offering that allows customers to deploy their own virtual router inside a cloud provider's network?",
+    "response": "CSR"
+  },
+  {
+    "query": "Traditionally, most networks have been designed to utilize a(n) ________ control plane.",
+    "response": "distributed"
+  },
+  {
+    "query": "The Open Networking Foundation (ONF) model of SDN utilizes which protocol as its southbound interface?",
+    "response": "OpenFlow"
+  },
+  {
+    "query": "Which of these SDN types does not directly program the data or control plane, but can indirectly affect them via Telnet, SSH, and/or SNMP",
+    "response": "APIC-EM"
+  },
+  {
+    "query": "What is the purpose of the Digital Network Architecture (DNA) Center?",
+    "response": "The controller for SDA networks"
+  },
+  {
+    "query": "A greenfield SDA fabric uses what type of design?",
+    "response": "Routed access layer design"
+  },
+  {
+    "query": "What is REST's relationship to caching?",
+    "response": "It has a clear method to determine whether a resource is cacheable or not."
+  },
+  {
+    "query": "What does it mean that REST applications use a client/server architectural model?",
+    "response": "An application, when executing, acts as a REST server."
+  },
+  {
+    "query": "A version control system cannot help solve what problem?",
+    "response": "Individual engineers can still make manual changes, introducing errors."
+  },
+  {
+    "query": "What is the paid server version of Ansible called?",
+    "response": "Ansible Tower"
+  },
+  {
+    "query": "What is the human-readable text file on the Puppet master?",
+    "response": "Manifest"
+  }
+]
