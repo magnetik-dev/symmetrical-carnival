@@ -197,7 +197,7 @@
                 <LevelCard statName="Courses" statValue={registryCache.isLoading && !registryCache.isLoaded ? "..." : registryCache.stats.programsCount}/>
             </div>
             <div class="column has-text-centered">
-                <LevelCard statName="Courses" statValue={registryCache.isLoading && !registryCache.isLoaded ? "..." : registryCache.stats.programsCount}/>
+                <LevelCard statName="Leads" statValue={registryCache.isLoading && !registryCache.isLoaded ? "..." : registryCache.stats.leadsCount}/>
             </div>
         </div>
 
