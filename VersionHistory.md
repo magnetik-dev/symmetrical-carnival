@@ -1,5 +1,12 @@
 # Version History
 
+## Symmetrical Carnival 0.3.3, Jul 2026
+ - Data Additions and updates
+ - Allow admin to record payments
+ - Allow admin to add Students
+ - Workflow to dedupe books data
+ - Default redirect after login based on role
+
 ## Symmetrical Carnival 0.3.0, Jun 2026
  - Student Dashboard
 
