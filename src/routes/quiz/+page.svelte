@@ -36,7 +36,8 @@
     { value: 'dtant-final', label: 'DTANT Final Exam' },
     { value: 'ca-pldes-quiz', label: 'PLDES Quiz' },
     { value: 'ca-sadgn', label: 'SADGN Quizes'},
-    { value: 'ca-dbsql-quizes', label: 'DBSQL Quizes'}
+    { value: 'ca-dbsql-quizes', label: 'DBSQL Quizes'},
+    { value: 'dt-bda100', label: 'BDA100 Quizes'}
   ];
   
   const digitalDesignOptions = [
