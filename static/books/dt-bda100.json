@@ -20,8 +20,8 @@
     "response": "To create a date from year, month, and day values"
   },
   {
-    "query": "What are the three disciplines of BA\u2019s core?",
-    "response": "\u201cIntelligence and information systems\u201d, \u201cstatistics\u201d, and \u201cmodeling and optimization\u201d."
+    "query": "What are the three disciplines of BA’s core?",
+    "response": "“Intelligence and information systems”, “statistics”, and “modeling and optimization”."
   },
   {
     "query": "What is the fourth step in problem solving with analytics?",
@@ -62,10 +62,6 @@
   {
     "query": "What is Pareto analysis?",
     "response": "A method for prioritizing problems based on the Pareto principle"
-  },
-  {
-    "query": "Which of the following is a benefit of using database functions in Excel?",
-    "response": "They allow you to perform calculations and lookups on your database data in Excel"
   },
   {
     "query": "What is the result of the function =ISNUMBER(B25) in the following Excel file? A B C 24 121 John =ISNUMBER(B24) 25 69 421 =ISNUMBER(B25) 26 Naima 23 =ISNUMBER(B26)",
@@ -188,7 +184,7 @@
     "response": "Binomial distribution"
   },
   {
-    "query": "A 100 (1 - )% probability interval is any interval [A, B] such that the probability of falling between A and B is \u2026?",
+    "query": "A 100 (1 - )% probability interval is any interval [A, B] such that the probability of falling between A and B is …?",
     "response": "1 -"
   },
   {
@@ -272,7 +268,7 @@
     "response": "testing if the mean of a population is greater than a given value"
   },
   {
-    "query": "The mayor of a certain city has claimed that at least 90% of the city\u2019s population has been vaccinated against Covid-19. In a sample of 200 people, 165 people have declared that they vaccinated. Determine whether the mayor\u2019s claim is legitimate by using 0.01 as the level of significance",
+    "query": "The mayor of a certain city has claimed that at least 90% of the city’s population has been vaccinated against Covid-19. In a sample of 200 people, 165 people have declared that they vaccinated. Determine whether the mayor’s claim is legitimate by using 0.01 as the level of significance",
     "response": "No"
   },
   {
