@@ -1,5 +1,121 @@
 [
   {
+    "query": "You are a systems engineer for a software development company. Besides physical computing devices, your network includes several Hyper-V virtual machines that run a variety of services. You have installed Intune and enrolled both your physical and local virtual computers. You want to be able to collect performance and event information from the virtual machines to send to Azure Monitor for analysis. Which of the following Azure Monitor services allows you to collect the data for analysis?",
+    "response": "Azure Monitor for VMs"
+  },
+  {
+    "query": "With the free version of OneDrive, your files stay in the Recycle bin anywhere from 3 to 30 days as long as you don't exceed which percentage of your storage?",
+    "response": "10%"
+  },
+  {
+    "query": "You want to use a Microsoft tool to provide remote assistance on Windows 11 laptops assigned to your employees. You also want limit the administrative tasks that Level 1 Help Desk support staff can perform on a remotely-connected laptop. You have Intune installed and are using Azure Active Directory to manage users and accounts. Which of the following tools would BEST meet your remote connection requirements?",
+    "response": "Remote Help"
+  },
+  {
+    "query": "Which of the following BEST describes Microsoft Intune?",
+    "response": "Intune is a tool that focuses on managing a device's lifecycle including updates, threat protection and security monitoring."
+  },
+  {
+    "query": "Which of the following BEST describes Azure Monitor?",
+    "response": "Monitors and manages services, applications, and devices; collecting and analyzing feedback from Azure, hybrid, and on-premises devices."
+  },
+  {
+    "query": "You have decided to deploy an app by user from Intune to all employee Windows laptops. When will the app be installed?",
+    "response": "Only when the designated user signs into the laptop."
+  },
+  {
+    "query": "Which tool can you use to manage a system remotely using a graphical user interface?",
+    "response": "Graphical Microsoft Management Console"
+  },
+  {
+    "query": "Which of the following syntax examples is used by a PowerShell cmdlet?",
+    "response": "verb-noun"
+  },
+  {
+    "query": "Which of the following predefined exceptions in Windows Firewall allows users to view and control remote desktops?",
+    "response": "Remote Assistance"
+  },
+  {
+    "query": "What are some security measures Microsoft has implemented to protect your system against users trying to use PorwerShell for malicious purposes?",
+    "response": "File extension, script's full path, and execution policies"
+  },
+  {
+    "query": "Which command can be used to attempt to repair infected files?",
+    "response": "sfc"
+  },
+  {
+    "query": "Which of the following Intune enrollment options requires an MDM push certificate to enroll devices?",
+    "response": "Enable Apple device enrollment"
+  },
+  {
+    "query": "Where can you find the Windows Update settings in Windows 10?",
+    "response": "Settings > Update & Security > Windows Update"
+  },
+  {
+    "query": "You are using a Premium account for OneDrive. How long will your files stay in the Recycle Bin?",
+    "response": "93 days"
+  },
+  {
+    "query": "Your Windows 10 computer has the following drives: C: (System drive with user profiles) E: (Data files) F: (External USB hard drive) You enable system protection on the C: drive. You also schedule regular backups with the following settings: Back up all user libraries Back up the C: and E: drives Include a system image Save the backup to the F: drive Last night the E: drive crashed. How can you restore the data files found in the E: drive?",
+    "response": "Use the Backup and Restore console to restore data from a backup."
+  },
+  {
+    "query": "Which of the following can help you ensure that that only authorized users are accessing your organization's data and applications, and that those users are doing so from secure devices and locations?",
+    "response": "Microsoft Intune conditional access policies"
+  },
+  {
+    "query": "You have created a custom Storage Limits device profile for the laptops on the manufacturing floor of your company. You want to make sure that the profile applies to those laptops and all users on those laptops. Which of the following should you do to meet your requirements?",
+    "response": "Assign the profile to a device group."
+  },
+  {
+    "query": "You are supporting a Windows 10 computer that has the following volumes: The C: drive is the system drive with user profiles and individual user files. The D: drive holds data files common to all users. System Protection has been configured as follows: A system image backup has been created that includes both the C: and D: drives. Regular backups are scheduled to back up all user libraries. The scheduled backup includes a system image. System Restore has been used to take a snapshot. A user has edited and saved a file on the D: drive. The user doesn't like the changes and wants to revert to a previous version of the file. The user goes to the Previous Versions tab of the file and sees nothing listed. How can you help the user restore the previous version of the file?",
+    "response": "Restore the file from the system image."
+  },
+  {
+    "query": "You have created several Intune MDM compliance policies. You would like to assign them to manage your mobile devices and users. You can assign the compliance policies to either user groups or device groups. If you select user groups, what will happen?",
+    "response": "The MDM compliance policies will apply to every device the user uses."
+  },
+  {
+    "query": "You're an administrator for a company that uses Azure AD and Microsoft Intune to manage their corporate-owned mobile devices. All devices are registered in Azure AD and enrolled in Intune. You've created several Intune device compliance policies, and you want to be notified by email when a device isn't compliant with the policy rules. Which of the following can you use to set up email notifications?",
+    "response": "Policy Actions for noncompliance"
+  },
+  {
+    "query": "Your Windows system has two hard drives named C: and D:. For the D:\\Reports\\Finances.xls file, you explicitly grant the Mary user account the Allow Modify NTFS permission. You need to move the file from the existing folder to the C:\\Reports2 folder. You want to keep the existing NTFS permissions on the file. How can you accomplish this with the least amount of effort?",
+    "response": "Use the robocopy command to copy the file to the C:\\Reports2 folder."
+  },
+  {
+    "query": "Which of the following can you use to create a custom Intune device configuration profile?",
+    "response": "Microsoft Endpoint Management"
+  },
+  {
+    "query": "Where in Microsoft Intune can you go to manage and deploy device updates?",
+    "response": "Device list"
+  },
+  {
+    "query": "Which of the following configuration or security capabilities can you use to set password requirements, limit password attempts, and set lock screen time?",
+    "response": "Configuration policies"
+  },
+  {
+    "query": "You install the drivers to connect your new music player to your Windows 11 computer. Immediately following the device installation, you get a bluescreen error. You reboot the computer, but it displays the same bluescreen and stops the boot process. What should you try first to get the computer to boot successfully?",
+    "response": "Reboot and Repair your computer and then choose Startup Repair."
+  },
+  {
+    "query": "You need to interactively access Command Prompt on a remote Windows system named WS1 from your Windows workstation. Which command should you use to do this?",
+    "response": "psexec \\\\WS1 cmd"
+  },
+  {
+    "query": "You have installed Microsoft Intune and enrolled your company's computing devices, and you have created a policy for all Windows 11 devices. You have just updated the policy and Intune has notified all targeted devices that the update is available. What is the default setting for the devices to check for policy updates?",
+    "response": "Every 8 hours"
+  },
+  {
+    "query": "Your Windows system has two volumes defined. The C: volume contains the Windows system and is formatted with NTFS. The D: volume is formatted with FAT32. Which action must you take to create a system image backup with the D: volume as the destination?",
+    "response": "Convert the D: drive to NTFS"
+  },
+  {
+    "query": "How do you configure your Windows 11 system to require all removable data drives to mount as read-only unless the device is protected with BitLocker To Go?",
+    "response": "Configure the local Group Policy."
+  },
+  {
     "query": "You have previously installed Windows 11 on two new computers and configured both computers with BitLocker. Both computers have a TPM installed. Because of a hardware failure, one of the computers will not boot. You replace the failed hardware, but now BitLocker is preventing the system from starting because it has failed the startup system integrity checks. Which of the following options would you use to reconfigure BitLocker so the system will start?",
     "response": "Recovery key"
   },
@@ -16,36 +132,12 @@
     "response": "Device configuration profile"
   },
   {
-    "query": "With the free version of OneDrive, your files stay in the Recycle bin anywhere from 3 to 30 days as long as you don't exceed which percentage of your storage?",
-    "response": "10%"
-  },
-  {
-    "query": "Which command can be used to attempt to repair infected files?",
-    "response": "sfc"
-  },
-  {
-    "query": "Which of the following BEST describes Azure Monitor?",
-    "response": "Monitors and manages services, applications, and devices; collecting and analyzing feedback from Azure, hybrid, and on-premises devices."
-  },
-  {
     "query": "Which of the following BEST describes an Intune device configuration profile?",
     "response": "A profile with features and settings that can be enabled or disabled on the devices in your organization."
   },
   {
-    "query": "What are some security measures Microsoft has implemented to protect your system against users trying to use PorwerShell for malicious purposes?",
-    "response": "File extension, script's full path, and execution policies"
-  },
-  {
     "query": "Which of the following BEST describes Remote Help in Intune?",
     "response": "Allows IT administrators to provide remote assistance to users on devices that are managed by Intune."
-  },
-  {
-    "query": "You are using a Premium account for OneDrive. How long will your files stay in the Recycle Bin?",
-    "response": "93 days"
-  },
-  {
-    "query": "Where can you find the Windows Update settings in Windows 10?",
-    "response": "Settings > Update & Security > Windows Update"
   },
   {
     "query": "Which of the following Intune app management capabilities is designed to let you limit the apps that can be installed on enrolled devices?",
@@ -54,10 +146,6 @@
   {
     "query": "What tool can be used to automatically fix common startup problems?",
     "response": "Startup Repair"
-  },
-  {
-    "query": "You are a systems engineer for a software development company. Besides physical computing devices, your network includes several Hyper-V virtual machines that run a variety of services. You have installed Intune and enrolled both your physical and local virtual computers. You want to be able to collect performance and event information from the virtual machines to send to Azure Monitor for analysis. Which of the following Azure Monitor services allows you to collect the data for analysis?",
-    "response": "Azure Monitor for VMs"
   },
   {
     "query": "You have a Windows 10 computer configured with volumes C: and D:. You want to schedule backup jobs of the C: volume to include all user files on the C: volume as well as creating a system image of the C: volume. How do you configure the backup job and the schedule with a minimal amount of effort?",
@@ -70,18 +158,6 @@
   {
     "query": "You have defined an app protection policy for a Human Resources application in your company. Which of the following is the tool you need to use to configure the policy to apply it to the appropriate users?",
     "response": "Microsoft Endpoint Manager"
-  },
-  {
-    "query": "Which of the following BEST describes Microsoft Intune?",
-    "response": "Intune is a tool that focuses on managing a device's lifecycle including updates, threat protection and security monitoring."
-  },
-  {
-    "query": "How do you configure your Windows 11 system to require all removable data drives to mount as read-only unless the device is protected with BitLocker To Go?",
-    "response": "Configure the local Group Policy."
-  },
-  {
-    "query": "Your Windows system has two volumes defined. The C: volume contains the Windows system and is formatted with NTFS. The D: volume is formatted with FAT32. Which action must you take to create a system image backup with the D: volume as the destination?",
-    "response": "Convert the D: drive to NTFS"
   },
   {
     "query": "Which of the following BEST describes Microsoft Intune Endpoint Protection?",
@@ -98,22 +174,6 @@
   {
     "query": "One day while trying to start your Windows 11 system, you see the following error displayed: Could not read from the selected boot disk. Check boot path and disk hardware. Which of the following will most likely fix the problem?",
     "response": "Boot into the recovery environment and run the bootrec /rebuildbcd command."
-  },
-  {
-    "query": "You want to use a Microsoft tool to provide remote assistance on Windows 11 laptops assigned to your employees. You also want limit the administrative tasks that Level 1 Help Desk support staff can perform on a remotely-connected laptop. You have Intune installed and are using Azure Active Directory to manage users and accounts. Which of the following tools would BEST meet your remote connection requirements?",
-    "response": "Remote Help"
-  },
-  {
-    "query": "Which of the following can help you ensure that that only authorized users are accessing your organization's data and applications, and that those users are doing so from secure devices and locations?",
-    "response": "Microsoft Intune conditional access policies"
-  },
-  {
-    "query": "Where in Microsoft Intune can you go to manage and deploy device updates?",
-    "response": "Device list"
-  },
-  {
-    "query": "You are supporting a Windows 10 computer that has the following volumes: The C: drive is the system drive with user profiles and individual user files. The D: drive holds data files common to all users. System Protection has been configured as follows: A system image backup has been created that includes both the C: and D: drives. Regular backups are scheduled to back up all user libraries. The scheduled backup includes a system image. System Restore has been used to take a snapshot. A user has edited and saved a file on the D: drive. The user doesn't like the changes and wants to revert to a previous version of the file. The user goes to the Previous Versions tab of the file and sees nothing listed. How can you help the user restore the previous version of the file?",
-    "response": "Restore the file from the system image."
   },
   {
     "query": "You need to create a recovery drive for your Windows system. To do this, you've procured a USB flash drive with the following characteristics: USB version: 2.0 Capacity: 4 GB Can you create a recovery drive using this device?",
@@ -344,28 +404,12 @@
     "response": "Azure Endpoint Analytics"
   },
   {
-    "query": "Which of the following Intune enrollment options requires an MDM push certificate to enroll devices?",
-    "response": "Enable Apple device enrollment"
-  },
-  {
     "query": "You are viewing a list of devices in Microsoft Intune that have pending updates. What is the BEST method to push the updates to all devices immediately?",
     "response": "Select the Deploy button."
   },
   {
-    "query": "You have created several Intune MDM compliance policies. You would like to assign them to manage your mobile devices and users. You can assign the compliance policies to either user groups or device groups. If you select user groups, what will happen?",
-    "response": "The MDM compliance policies will apply to every device the user uses."
-  },
-  {
     "query": "You use a Windows desktop system. You need to configure Windows Firewall to allow traffic for a newly installed application that dynamically opens multiple ports on an as-needed basis. What should you do?",
     "response": "Add an exception for the application."
-  },
-  {
-    "query": "Which of the following configuration or security capabilities can you use to set password requirements, limit password attempts, and set lock screen time?",
-    "response": "Configuration policies"
-  },
-  {
-    "query": "You need to interactively access Command Prompt on a remote Windows system named WS1 from your Windows workstation. Which command should you use to do this?",
-    "response": "psexec \\\\WS1 cmd"
   },
   {
     "query": "When should you disable the Windows firewall?",
@@ -374,18 +418,6 @@
   {
     "query": "Your Windows system has been infected with malware that has replaced the standard boot loader on the hard disk with its own malicious software. Which type of exploit is being used in this scenario?",
     "response": "Rootkit"
-  },
-  {
-    "query": "Which of the following syntax examples is used by a PowerShell cmdlet?",
-    "response": "verb-noun"
-  },
-  {
-    "query": "You're an administrator for a company that uses Azure AD and Microsoft Intune to manage their corporate-owned mobile devices. All devices are registered in Azure AD and enrolled in Intune. You've created several Intune device compliance policies, and you want to be notified by email when a device isn't compliant with the policy rules. Which of the following can you use to set up email notifications?",
-    "response": "Policy Actions for noncompliance"
-  },
-  {
-    "query": "You install the drivers to connect your new music player to your Windows 11 computer. Immediately following the device installation, you get a bluescreen error. You reboot the computer, but it displays the same bluescreen and stops the boot process. What should you try first to get the computer to boot successfully?",
-    "response": "Reboot and Repair your computer and then choose Startup Repair."
   },
   {
     "query": "Your job requires a considerable amount of travel. While working in your office, you use a Windows desktop system. While on the road, you use a Windows tablet device. While traveling, you frequently need to access files stored on the desktop system from your tablet device. Which Windows service can you implement to use your tablet to access files stored on the desktop?",
@@ -400,32 +432,12 @@
     "response": "Azure Monitor for Networks"
   },
   {
-    "query": "You have decided to deploy an app by user from Intune to all employee Windows laptops. When will the app be installed?",
-    "response": "Only when the designated user signs into the laptop."
-  },
-  {
-    "query": "Which tool can you use to manage a system remotely using a graphical user interface?",
-    "response": "Graphical Microsoft Management Console"
-  },
-  {
-    "query": "You have installed Microsoft Intune and enrolled your company's computing devices, and you have created a policy for all Windows 11 devices. You have just updated the policy and Intune has notified all targeted devices that the update is available. What is the default setting for the devices to check for policy updates?",
-    "response": "Every 8 hours"
-  },
-  {
-    "query": "You have created a custom Storage Limits device profile for the laptops on the manufacturing floor of your company. You want to make sure that the profile applies to those laptops and all users on those laptops. Which of the following should you do to meet your requirements?",
-    "response": "Assign the profile to a device group."
-  },
-  {
     "query": "You have decided to install a Line of Business (LOB) application on the Windows workstations in the financial department by device. In order to install the LOB app, you would normally need to assign the app to a device group in Intune. However, there is another method available that does not require a device group assignment. What is that method?",
     "response": "You install the application in combination with an Autopilot pre-previsioning process."
   },
   {
     "query": "Which of the following are required fields when creating a Microsoft Intune Profile?",
     "response": "Platform, Name, Assignments, Applicability Rules"
-  },
-  {
-    "query": "Your Windows 10 computer has the following drives: C: (System drive with user profiles) E: (Data files) F: (External USB hard drive) You enable system protection on the C: drive. You also schedule regular backups with the following settings: Back up all user libraries Back up the C: and E: drives Include a system image Save the backup to the F: drive Last night the E: drive crashed. How can you restore the data files found in the E: drive?",
-    "response": "Use the Backup and Restore console to restore data from a backup."
   },
   {
     "query": "A user contacts you to let you know their Intune-enrolled device has been remotely locked. What would have caused this?",
@@ -446,9 +458,5 @@
   {
     "query": "Your Windows system has two hard drives named C: and D:. For the D:\\\\Reports\\\\Finances.xls file, you explicitly grant the Mary user account the Allow Modify NTFS permission. You need to move the file from the existing folder to the C:\\\\Reports2 folder. You want to keep the existing NTFS permissions on the file. How can you accomplish this with the least amount of effort?",
     "response": "Use the robocopy command to copy the file to the C:\\\\Reports2 folder."
-  },
-  {
-    "query": "Which of the following can you use to create a custom Intune device configuration profile?",
-    "response": "Microsoft Endpoint Management"
   }
 ]
