@@ -1070,7 +1070,7 @@
   {
     "query": "Which data type is best suited for storing extremely large amounts of plain text, such as entire books or lengthy documents, in a database?",
     "response": "CLOB"
-  }, 
+  },
   {
     "query": "1. A retail company has a main data warehouse that contains data from sales, inventory, finance, and human resources. The marketing team needs a faster way to access just the sales and customer information they use most often, without filtering through unrelated data.",
     "response": "Build a data mart that contains only the sales and customer data needed by the marketing team, providing controlled and efficient access."
@@ -1134,7 +1134,7 @@
   {
     "query": "How can regular expressions (RegEx) be most effectively used during the NLP data cleaning process?",
     "response": "By defining patterns to locate and remove unwanted characters or specific text formats from the data"
-  }, 
+  },
   {
     "query": "Which neural network architecture is especially well-suited for image recognition tasks in deep learning?",
     "response": "CNN"
@@ -1162,7 +1162,8 @@
   {
     "query": "What is the primary outcome when a tokenizer is applied to a block of text during NLP preprocessing?",
     "response": "The text is broken up into smaller units called tokens."
-  },  {
+  },
+  {
     "query": "A data analyst at a medium-sized organization is tasked with managing several types of databases, including Microsoft SQL Server, MySQL, and MongoDB. The analyst values open-source solutions and prefers having a unified interface for handling both relational and non-relational databases.\n\nThe analyst's main goals are to streamline database management tasks and minimize the need to switch between multiple standalone tools.",
     "response": "dbeaver"
   },
@@ -1201,7 +1202,8 @@
   {
     "query": "A technician must provide a report that contains total and average sales and the highest and lowest sales values. What is the benefit of using Microsoft Excel in this instance?",
     "response": "It has built-in aggregation functions, such as the pivot table, which allows it to quickly summarize data by calculating metrics of multiple items into one graphic."
-  },   {
+  },
+  {
     "query": "A company's data warehouse was initially populated with all customer and sales history using a full load. Now, the database administrator has scheduled ongoing data loads each night to ensure new customer records and any updated sales transactions are included in the warehouse.\n\nAs a data analyst, you notice the most recent day's new data is missing from your morning reports.\n\nWhat should you do to ensure your reports always include the most up-to-date records from the previous day's business activities?",
     "response": "Check the timing of the delta load process to confirm that it completes before you generate reports, and wait to run your reports until after the delta load finishes."
   },
@@ -1258,10 +1260,10 @@
     "response": "Public data"
   },
   {
-    "query":"You have been given a dataset of employee records after your company's recent merger with another organization. While preparing a report for upper management, you notice that for the same position, some entries have the credential listed as \"PhD,\" some as \"PHD,\" and others as \"Ph.D.\"",
-    "response":"These inconsistencies indicate a lack of data consistency, which can hinder accurate grouping, analysis, and reporting, potentially leading to incorrect or misleading business conclusions."
+    "query": "You have been given a dataset of employee records after your company's recent merger with another organization. While preparing a report for upper management, you notice that for the same position, some entries have the credential listed as \"PhD,\" some as \"PHD,\" and others as \"Ph.D.\"",
+    "response": "These inconsistencies indicate a lack of data consistency, which can hinder accurate grouping, analysis, and reporting, potentially leading to incorrect or misleading business conclusions."
   },
-    {
+  {
     "query": "During a quarterly audit of your company's sales data, you find that some products have duplicate entries with slightly different names: \"Vibrant Valley Bike\" and \"Red Valley Bike.\" Upon further review, you discover that \"Red Valley Bike\" was renamed but not updated in all systems.",
     "response": "The report could show inaccurate total sales and customer counts for \"Vibrant Valley Bike,\" lead to under-informed business decisions, and undermine confidence in the data, because outdated and incomplete records further compound the inconsistencies."
   },
@@ -1289,7 +1291,7 @@
     "query": "Your organization is considering three different approaches to ensure the quality of customer address data during the input process in a new CRM system:\n\nApproach 1: Only manual review by staff after incomplete records are entered.\nApproach 2: Rely solely on automated validation rules to enforce required address formats at the point of entry.\nApproach 3: Use automated validation rules at entry but also conduct periodic automated reports that flag potential format drift or missing values over time.",
     "response": "Approach 3"
   },
-    {
+  {
     "query": "You've received a data extract containing sales quota values as text, but your data visualization tool needs them as numbers for charting and calculations.",
     "response": "Change the data type of the sales quota column from text to a numeric type using the visualization software's conversion tool."
   },
@@ -1353,7 +1355,7 @@
     "query": "Which of the following is an example of survey data becoming invalid?",
     "response": "The survey uses leading questions or responses with bias."
   },
-    {
+  {
     "query": "You are analyzing sales data in Excel. The table includes columns for OrderID, ProductName, Quantity, and TotalPrice. Your task is to provide the marketing team with the total revenue generated from all orders.",
     "response": "SUM"
   },
@@ -1393,7 +1395,7 @@
     "query": "You are working as a data analyst and have imported a customer contact list into Excel. Upon inspection, you notice that many names in the \"CustomerName\" column contain strange characters that do not display properly, such as boxes and symbols, after being exported from another system.\n\nThese characters are causing issues with sorting and filtering your data. You need to clean up these non-printable characters to ensure the integrity of your analysis.",
     "response": "=CLEAN(CustomerName)"
   },
-    {
+  {
     "query": "When moving customer product ratings from an import table into a historical ratings table, which SQL command structure should you use to ensure the correct data is inserted into the destination table?",
     "response": "INSERT INTO ToyStarRatings (ProductID, StarRating, CT_Rates, RatingDate) SELECT ProductID, Star_Rating, Number_of_Ratings, Rating_Date FROM StarRatingImport;"
   },
@@ -1433,7 +1435,7 @@
     "query": "Which of the following SQL functions can be used to calculate the total sum of values in a specific column?",
     "response": "SUM"
   },
-    {
+  {
     "query": "A data analyst has received the data from a study that a fitness company conducted to determine the best time of year to advertise to free tier users to get them to purchase a subscription. Which of the following is true regarding the data? (Select all that apply.)",
     "response": "The data analyst can note the source of the data.\nThe data analyst can note the method of data collection."
   },
@@ -1461,7 +1463,7 @@
     "query": "A retail company has collected two years of sales data for a popular product and wants to better prepare for the upcoming holiday season.\n\nAs a data analyst, you have been asked to determine likely sales amounts for the next three months to help the purchasing and logistics teams plan inventory and shipments efficiently. You are provided with historical sales figures, promotional schedules, and market trends.",
     "response": "Apply predictive analytics to the sales data and market trends to estimate the likely number of units that will be sold in each of the next three months."
   },
-    {
+  {
     "query": "You are given the following set of exam scores: 70, 75, 80, 85, and 90.\n\nYour supervisor asks you to apply your knowledge of standard deviation to determine which statement below correctly describes the spread of these scores in relation to the mean.",
     "response": "The standard deviation will be low, showing that most scores are close to the mean."
   },
@@ -1501,7 +1503,7 @@
     "query": "You are a data analyst reviewing test scores for two classrooms, 105 and 205, each containing 14 students. Both classrooms have a mean score of 81. After running your calculations, you find that Classroom 105 has a standard deviation of 12, while Classroom 205 has a standard deviation of 3.\n\nThe Principal asks which classroom's students have more consistent performance and which class requires intervention if the goal is to minimize large gaps in performance.",
     "response": "Students in Classroom 205 demonstrate more consistent performance, and Classroom 105 should be prioritized for an intervention to reduce score variability."
   },
-    {
+  {
     "query": "An information technology architect is creating a hypothesis statement as a part of their tests to either accept or reject. Which of the following would indicate that the architect rejected a null hypothesis that was actually correct?",
     "response": "Type I error"
   },
@@ -1525,7 +1527,7 @@
     "query": "A marketing engineer is conducting a trend analysis to predict future sales performance. Which of the following is commonly required for trend analysis but is not a core component of constructing a confidence interval?",
     "response": "Historical data"
   },
-    {
+  {
     "query": "Which of the following is the MOST effective approach when explaining a new data process to a mixed audience containing both technical and non-technical stakeholders?",
     "response": "Phrase your explanation to provide clear information for all audience members by translating technical concepts into accessible language."
   },
@@ -1688,7 +1690,8 @@
   {
     "query": "A medical company is offering quick tests for cholesterol where the patient comes in, takes the test, and then is notified of the results by text or email in order to expedite the process. However, a data analyst has discovered an error in which thousands of patients' test results were not found in the test database. What is this referred to as?",
     "response": "Loss"
-  },  {
+  },
+  {
     "query": "You are tasked with evaluating employee satisfaction regarding a new remote work policy at your company. You decide to use a Likert scale for your survey questions. After drafting several statements and answer options, your team reviews the proposed survey and provides feedback.",
     "response": "Use a 5-point Likert scale with clearly labeled options ranging from \"Strongly Disagree\" to \"Strongly Agree\" for each statement, and ensure all statements are neutrally worded."
   },
@@ -1731,7 +1734,8 @@
   {
     "query": "Which of the following statements about delimited files are true? (Select two.)",
     "response": "Delimited files use a character, such as a comma or tab, to separate fields of data., The most common type of delimited file is CSV (comma separated values)."
-  },  {
+  },
+  {
     "query": "Which of the following is a valid approach to handling data that cannot be corrected to make it usable?",
     "response": "Remove the invalid data or replace it with a value indicating it can't be validated."
   },
@@ -1774,7 +1778,8 @@
   {
     "query": "A colleague receives unexpected NULL results when matching customer names between two databases. You suspect invisible characters may be the cause.",
     "response": "Apply a TRIM function to remove leading and trailing spaces from all customer name fields."
-  },  {
+  },
+  {
     "query": "You have a dataset with order information that includes \"OrderDate\" and \"ShipDate\" fields. Sometimes, \"ShipDate\" is blank, indicating the order hasn't shipped yet.\n\nManagement asks you to analyze and categorize the status of each order into three groups for a report: \"Not Shipped\" (where \"ShipDate\" is blank), \"Shipped\" (where \"ShipDate\" exists and is after \"OrderDate\"), and \"In Shipping\" (where \"ShipDate\" is the same as \"OrderDate\").",
     "response": "Apply a nested IF or CASE statement to test if \"ShipDate\" is blank, equal to \"OrderDate,\" or greater than \"OrderDate,\" and assign the appropriate status label."
   },
@@ -1913,7 +1918,8 @@
   {
     "query": "A small business owner is reviewing the total number of products sold each day over the past two weeks to decide which products to feature in an upcoming promotion. The sales numbers for Product X over 14 days are as follows: 12, 15, 13, 15, 16, 12, 13, 15, 17, 13, 12, 15, 11, 14.\n\nThe owner wants to know the number of products most frequently sold in a single day to select the most popular amount for promotion.",
     "response": "TThe mode is 15, which means 15 units was the most common number sold in a day."
-  },  {
+  },
+  {
     "query": "A data analyst is reviewing test scores from two different classrooms. For Classroom A, the mean score is 82 with a standard deviation of 5. For Classroom B, the mean score is 74 with a standard deviation of 3. A student in Classroom A scored 92, while a student in Classroom B scored 80.\n\nThe analyst wants to determine which student performed better relative to their peers using z-scores.",
     "response": "Both students have the same z-score of 2.0, indicating they performed equally well relative to their respective classes."
   },
@@ -2393,7 +2399,7 @@
     "query": "A large healthcare provider recently merged with another hospital network, resulting in multiple information systems that all store patient data—such as Electronic Medical Records (EMR), billing, pharmacy, and inventory systems. The organization is struggling with duplicate patient records, inconsistent information (e.g., different addresses or names for the same patient), and difficulty updating patient data across all platforms when something changes. Leadership wants the IT team to recommend a technological solution for this challenge. Which solution would BEST address the organization's challenge, based on best practices for master data management software?",
     "response": "Implement master data management software to consolidate patient data from all systems into a single, reliable master record."
   },
-{
+  {
     "query": "A database manager wants to set up a governance program to help make the organization and operations better. Where should they start?",
     "response": "Policies"
   },
@@ -2417,7 +2423,7 @@
     "query": "Which of the following is the BEST example of an effective page title for a dashboard page that displays sales trends for product categories?",
     "response": "Product Category Sales Trends"
   },
-{
+  {
     "query": "You are designing a new company annual report that will include several pages of detailed financial analysis, as well as easy-to-read charts and summary visuals. The report will be distributed both as a printed booklet and a downloadable PDF. As you choose your font styles, you want to maximize readability and professionalism for both text narratives and visual elements such as chart titles and labels. Which of the following font strategies should you apply for the BEST results?",
     "response": "Use a serif font for the narrative text and a sans serif font for the chart titles and labels."
   },
@@ -2548,8 +2554,93 @@
   {
     "query": "A company's IT department recently adopted a new analytics tool that handles both marketing and HR data. To follow security best practices, the company set up role-based permissions in the system. Marketing managers can access HR-related data for all employees in their department, while non-management marketing staff can only view their own HR data. A non-management marketing employee attempts to view the HR records of a fellow team member using the company's new analytics tool but is denied access. What is the most likely reason the employee is denied access to this data?",
     "response": "TThe employee's role on the system only allows them to access their own HR data, not others' HR data."
+  },
+  {
+    "query": "You are working as a data analyst for a healthcare organization. One afternoon, you realize that a report you shared with an external contractor accidentally includes a column with patients' full names and addresses. The contractor is not authorized to view this information, and you are unsure whether they have already accessed the file. What is the MOST appropriate action for you to take next?",
+    "response": "Immediately escalate the incident by formally reporting it to your organization's designated data breach response team or individual, following all required internal protocols for incident response."
+  },
+  {
+    "query": "A marketing team at a retail company must work with another retail company to come up with a synergistic way to promote products together. They want to share helpful information which will help the marketing campaign without giving out any personal identifiable information or information they should not. What would be the best way to do this? (Select all that apply.)",
+    "response": [
+      "Banding",
+      "Masking",
+      "Aggregating"
+    ]
+  },
+  {
+    "query": "What is the primary risk associated with failing to encrypt data at rest?",
+    "response": "Stored data can be accessed by unauthorized individuals if storage devices are lost or stolen."
+  },
+  {
+    "query": "A marketing analyst at TechSolutions is collaborating with an external data consulting firm. They want to share customer purchasing data with the firm so it can provide insights and recommendations. Both parties want to outline how the data will be used and clarify expectations, but they do not want to create a legally binding contract at this stage. Which type of agreement should the analyst recommend to best address these needs?",
+    "response": "Memorandum of Understanding (MOU)"
+  },
+  {
+    "query": "You have been assigned to work on a team project that involves regularly updating a large spreadsheet with confidential client information. The team is distributed across multiple locations, and you need to ensure everyone has access to the latest version of the file, version history is tracked, and company policies on security and backup are followed. What is the BEST method to save and manage this file?",
+    "response": "Save the spreadsheet to a secure company cloud drive and configure access only for authorized team members."
+  },
+  {
+    "query": "A company, Acme Analytics, is partnering with a third-party marketing vendor to analyze its customer purchase data. Acme wants to allow the vendor to review transaction records to identify shopping trends, but it must prevent the vendor from using any of this data to build a separate client database for marketing to those same customers. Which data use agreement is MOST appropriate for clearly defining and enforcing how the vendor can and cannot use the customer data?",
+    "response": "Acceptable Use Agreement"
+  },
+  {
+    "query": "A company replaces customer names in a dataset with random strings of numbers and letters, and stores the key linking these pseudonyms to actual names in a different, secure database. What is the effect of this process on the risk of exposure if only the pseudonymized data is leaked?",
+    "response": "The risk of exposing individual identities is significantly reduced, but not completely eliminated."
+  },
+  {
+    "query": "A US-based technology services firm wants to expand its operations by providing data analysis services for several companies located in the European Union. These services involve the transfer of EU customer data to the firm's data centers in the United States. The firm's management is concerned about complying with international standards for data privacy and protection, specifically when transferring personal data from the EU to the US. To address the transfer of personal data from EU companies to its US data centers in a compliant manner, what should the US-based firm do according to the Privacy Shield framework?",
+    "response": "Self-certify under the Privacy Shield framework to demonstrate adequate safeguards for EU personal data transferred to the US."
+  },
+  {
+    "query": "A marketing team is expanding the business into a new country. The team wants to research the laws governing the country where the data is stored and find how much control that country has over data collected by businesses. What should the team research?",
+    "response": "Sovereignty"
+  },
+  {
+    "query": "You are a data analyst for a school district implementing a new Student Information System. As part of the data governance team, you’re tasked with ensuring that information about students, classes, and teachers is organized to help both reporting and security. The team uses entity relationship models to visualize and document relationships. For effective governance, they want to clearly represent which entities are at the top level, and how the hierarchy is structured—so that, for instance, students can be connected with classes under teachers, and data classification can be applied correctly. Which of the following approaches best uses entity relationship models to document and apply hierarchy structure, supporting secure and accurate data reporting?",
+    "response": "Create an entity relationship diagram where \"Teachers\" are at the top, with \"Classes\" connected below, and \"Students\" connected to each class. Apply data classification and user access controls at each entity level according to its position in the hierarchy."
+  },
+  {
+    "query": "When an organization is not subject to external data retention regulations, which factor should primarily influence its decision on retaining data?",
+    "response": "The costs associated with storing and maintaining unneeded data."
+  },
+  {
+    "query": "When preparing a data report that must include student ID numbers, which approach BEST utilizes value masking to protect personally identifiable information?",
+    "response": "Show only the last four digits of each student ID number, masking the others with asterisks."
+  },
+  {
+    "query": "Your organization recently experienced a security incident where unauthorized users accessed sensitive data stored on a company server. After the incident, the data governance team must ensure this does not happen again. Which of the following actions should the Data Custodian take as part of their responsibility?",
+    "response": "Implement and enforce stricter access controls and update backup/recovery measures on the affected server."
+  },
+  {
+    "query": "A healthcare organization needs to exchange patient data among clinics that use various software platforms. In one example, a clinic receives a data file containing patient records. Each record is clearly labeled with tags like <patientName>, <appointmentDate>, and <diagnosis>. The clinic's software processes these files by reading the tags and extracting specific fields, regardless of the order or number of fields present in each record. Which data format is allowing the clinics to flexibly extract the needed information from the data file?",
+    "response": "XML"
+  },
+  {
+    "query": "Maria is a data analyst at a retail company. Her manager has asked her to create interactive dashboards to track daily sales, visualize trends, and share the dashboards with department heads so they can filter the data based on different product categories and time periods. The company wants to use a tool that is specifically designed for business intelligence, supports robust data visualization, and is widely used in industry for creating and sharing dashboards. Which tool should Maria recommend to best meet these requirements?",
+    "response": "Tableau"
+  },
+  {
+    "query": "A data analyst receives two JSON data files from different sources, each containing product inventory for a warehouse.\nThe analyst needs to determine which file allows for easier extraction of the total number of \"soup\" bowls in stock throughout all categories by a programming script.\nFile 1:\n{ \"warehouse\": \"WarehouseOnChestnut\", \"categories\": [ { \"name\": \"Bowls\", \"items\": [ { \"id\": \"B100\", \"name\": \"soup\", \"stock\": 35 }, { \"id\": \"B101\", \"name\": \"salad\", \"stock\": 30 } ] }, { \"name\": \"Plates\", \"items\": [ { \"id\": \"P200\", \"name\": \"dinner\", \"stock\": 45 } ] } ] }\nFile 2:\n{ \"warehouse\": \"WarehouseOnChestnut\", \"inventory\": [ { \"type\": \"bowl\", \"description\": \"soup\", \"amount\": \"35\" }, { \"type\": \"bowl\", \"description\": \"salad\", \"amount\": \"30\" }, { \"type\": \"plate\", \"description\": \"dinner\", \"amount\": \"45\" } ] }\nWhich file provides a structure that supports more efficient analysis for summing all \"soup\" bowls across the warehouse, and why?",
+    "response": "File 2, because the inventory information is in a flat array where each item's type, description, and quantity can be directly accessed and filtered."
+  },
+  {
+    "query": "A data scientist is working on a new, severely underfunded research project. The project aims to create a program that accepts tidal height information and moon phase information to perform calculations to build charts and graphs to find common and obscure correlations between the different data sets. Why is Python the data scientist's programming language of choice for this project?",
+    "response": "It is open source"
+  },
+  {
+    "query": "Which view in Power BI allows a user to explore data in a spreadsheet type of view?",
+    "response": "Data view"
+  },
+  {
+    "query": "A developer wants to send purchase order data from an inventory system to a shipping system and needs to include fields that the shipping system can recognize and extract, such as <orderDate>, <productID>, and <shippingAddress>.\nWhich option BEST represents how XML would be used in this scenario?",
+    "response": "By wrapping each relevant piece of data in custom tags named for its contents."
+  },
+  {
+    "query": "A data analyst is developing a report on quarterly sales figures for each of the company’s product types and wants product managers to see the data related only to their products. Since the analyst does not have permissions to create a view in the database, how can they accomplish this task?",
+    "response": "Use Power BI."
+  },
+  {
+    "query": "A financial analyst is in the process of analyzing and reporting on the revenue and expenses of a large corporation. The analyst uses Power BI and Power Query to help with data analysis. What benefits do these tools offer in this scenario?",
+    "response": "Power Query is a data transformation tool that allows analysts to merge, clean, and transform data from different sources, while Power BI is a data visualization tool that provides interactive and dynamic reports and dashboards."
   }
-
-
-
 ]
