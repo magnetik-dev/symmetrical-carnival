@@ -274,5 +274,89 @@
   {
     "query": "The test statistic for a one-sample t-test is:",
     "response": "(sample mean - population mean) / (standard error of the mean)"
+  },
+  {
+    "query": "What is the final step in problem solving with analytics?",
+    "response": "Interpreting results and making a decision"
+  },
+  {
+    "query": "What is the purpose of the Excel function IFERROR?",
+    "response": "To return a specific value if an error occurs in a formula"
+  },
+  {
+    "query": "Which of the following is an example of prescriptive analytics?",
+    "response": "Recommending product prices"
+  },
+  {
+    "query": "What are model assumptions?",
+    "response": "Assumptions made about the data being used in a model"
+  },
+  {
+    "query": "What is the purpose of data reliability and validity?",
+    "response": "To ensure that data is accurate and relevant for analysis"
+  },
+  {
+    "query": "If we choose columns A to E and use sort by ID, what will be the value of B2 and G4, respectively? A B C D E F G H I 1 ID Name Sex Equipment Age Body Kg Quat Kg Deadlift Kg 2 14741 Coby F Raw 8.5 24.1 32.5 50 3 27238 Celeste F Raw 8.5 31.46 50 62.5 4 14480 Jack M Wraps 9 30.84 37.5 67.5 5 3510 Etta F Raw 9.5 27.9 20 35 6 10881 Zayd M Raw 9.5 34.8 35 60 7 4462 Trevor M S-Ply 10 52 36.29 61.23 8 25139 Colton M Raw 10 41.37 47.49 69.99 9 5222 Rowan M Wraps 10.5 39.2 55 75",
+    "response": "Etta, 37.5"
+  },
+  {
+    "query": "What is filtering in Excel?",
+    "response": "Displaying specific data in a database"
+  },
+  {
+    "query": "What are logical functions in Excel?",
+    "response": "Functions that evaluate data and return a logical value"
+  },
+  {
+    "query": "What is PivotTable customization in Excel?",
+    "response": "Changing the structure and format of a PivotTable"
+  },
+  {
+    "query": "What is data validation in Excel?",
+    "response": "A tool for checking data for errors and inconsistencies"
+  },
+  {
+    "query": "Which of the following is not a database management system?",
+    "response": "Microsoft Excel"
+  },
+  {
+    "query": "Which Excel feature allows you to highlight specific data points on a chart?",
+    "response": "Data labels"
+  },
+  {
+    "query": "What is a bar chart in Excel?",
+    "response": "A chart used to compare values across categories using vertical bars"
+  },
+  {
+    "query": "Which chart type should be used to show data in proportion to the whole?",
+    "response": "Pie chart"
+  },
+  {
+    "query": "What are data bars in Excel?",
+    "response": "A type of conditional formatting used to display data as horizontal bars in cells"
+  },
+  {
+    "query": "What is a stock chart in Excel?",
+    "response": "A chart used to display trends in stock prices over time"
+  },
+  {
+    "query": "Which type of chart is best used to show changes in data over time?",
+    "response": "Line chart"
+  },
+  {
+    "query": "What is the value of the variance? data frequency 1 2 2 2 5 2 3 6 1 4 8 5 5 9 2",
+    "response": "5.75"
+  },
+  {
+    "query": "The median is the:",
+    "response": "Middle value of a data set when it is ordered from lowest to highest"
+  },
+  {
+    "query": "What is the relative frequency of data “5”? data frequency 1 2 2 2 5 2 3 6 1 4 8 5 5 9 2",
+    "response": "%16.7"
+  },
+  {
+    "query": "Suppose that in a set of data, the Variance is 4 and the mean is 8. Which of the following is the coefficient of variation?",
+    "response": "0.25"
   }
 ]
