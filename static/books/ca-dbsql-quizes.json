@@ -1154,5 +1154,49 @@
   {
     "query": "What is a limitation of user-defined table types in SQL Server?",
     "response": "They cannot have foreign keys defined."
+  },
+  {
+    "query": "What term is used for a computer with enough processing power, memory, and storage to handle the system's files and databases?",
+    "response": "Database server"
+  },
+  {
+    "query": "What is MySQL best known for?",
+    "response": "Being an open-source database"
+  },
+  {
+    "query": "How should SQL keywords be capitalized according to the recommendations?",
+    "response": "Uppercase"
+  },
+  {
+    "query": "What is pseudocode used for in query development?",
+    "response": "To outline the intent of the query"
+  },
+  {
+    "query": "What can a subquery pass to the outer query?",
+    "response": "Aggregated values"
+  },
+  {
+    "query": "When coding a recursive CTE, what is important regarding column definitions?",
+    "response": "Columns must be named in the anchor member."
+  },
+  {
+    "query": "How does a subquery in the FROM clause differ from one in the WHERE clause?",
+    "response": "It creates a derived table for further use in the outer query."
+  },
+  {
+    "query": "What should you do before executing INSERT statements to ensure the correct data is retrieved?",
+    "response": "Execute the SELECT statement by itself"
+  },
+  {
+    "query": "Which data type can CAST not convert to directly?",
+    "response": "BLOB"
+  },
+  {
+    "query": "Which data types cannot be converted implicitly to other data types?",
+    "response": "datetime2, date, and time"
+  },
+  {
+    "query": "Which date/time data type is suitable for storing only date values without a time component?",
+    "response": "date"
   }
 ]
