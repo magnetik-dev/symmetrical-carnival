@@ -802,5 +802,189 @@
   {
     "query": "How should multiple inheritance be handled when using an OODBMS?",
     "response": "Two of the other answers are correct"
+  },
+  {
+    "query": "What is the industry-standard for specifying, visualizing, constructing, and documenting the artifacts of a software-intensive system?",
+    "response": "UML"
+  },
+  {
+    "query": "What is the outcome of the requirement gathering phase in the SDLC?",
+    "response": "The identification and documentation of user and stakeholder needs and requirements"
+  },
+  {
+    "query": "What structure diagram is used to model the physical components of a system?",
+    "response": "Deployment diagram"
+  },
+  {
+    "query": "What is the purpose of the requirement gathering phase in the SDLC?",
+    "response": "To identify and document the needs and requirements of users and stakeholders"
+  },
+  {
+    "query": "What is the purpose of feasibility analysis in project selection?",
+    "response": "To determine whether the proposed system is worth pursuing"
+  },
+  {
+    "query": "What is the typical time frame for a timebox?",
+    "response": "It depends on the project and task"
+  },
+  {
+    "query": "What problems does an evolutionary WBS address?",
+    "response": "All of the other answers are correct"
+  },
+  {
+    "query": "What is the cost-benefit analysis?",
+    "response": "An evaluation of the costs and benefits of the proposed system"
+  },
+  {
+    "query": "What are the key deliverables created during analysis?",
+    "response": "A project scope statement, business requirements, and functional requirements"
+  },
+  {
+    "query": "What is document analysis?",
+    "response": "A technique used to analyze existing documentation"
+  },
+  {
+    "query": "In what situations is root cause analysis more appropriate?",
+    "response": "When the problem is complex and has serious consequences"
+  },
+  {
+    "query": "Why should questions for questionnaires be closed-ended?",
+    "response": "To provide a set of answer options that can be easily quantified and analyzed"
+  },
+  {
+    "query": "Which approach should be used if the interviewer has a specific goal or objective for the interview?",
+    "response": "Both approaches can be used"
+  },
+  {
+    "query": "What type of information can be communicated through an activity diagram?",
+    "response": "Use case relationships"
+  },
+  {
+    "query": "What is the relationship between an object node and a class in UML activity diagrams?",
+    "response": "An object node is an instance of a class"
+  },
+  {
+    "query": "What is the minimum number of connections an association in a use case diagram must have?",
+    "response": "One actor and one use case"
+  },
+  {
+    "query": "What is the first step in creating use cases?",
+    "response": "Identifying the actors who interact with the system"
+  },
+  {
+    "query": "What is the role of actors in a use case diagram?",
+    "response": "To represent the external entities interacting with the system"
+  },
+  {
+    "query": "What is the benefit of conducting a walkthrough?",
+    "response": "To reduce the likelihood of errors in the final product"
+  },
+  {
+    "query": "What is an association class in object-oriented modeling?",
+    "response": "A detailed relationship between two classes"
+  },
+  {
+    "query": "How is a private attribute denoted on a class diagram?",
+    "response": "With a minus sign (-) before the member name"
+  },
+  {
+    "query": "What is an association relationship?",
+    "response": "A relationship where two classes are associated with each other"
+  },
+  {
+    "query": "What type of relationship can an association class represent?",
+    "response": "Many-to-many"
+  },
+  {
+    "query": "What is the basic flow of events for the \"Withdraw Money\" use case scenario?",
+    "response": "Customer inserts their ATM card into the machine, ATM machine prompts the customer to enter their PIN number, Customer selects a withdrawal amount."
+  },
+  {
+    "query": "What type of class is best represented by a behavioral state machine?",
+    "response": "A class with a finite set of states"
+  },
+  {
+    "query": "What is important when extending lifelines in a sequence diagram?",
+    "response": "To ensure they are extended far enough to clearly show interactions and messages"
+  },
+  {
+    "query": "What is the first step in drawing a behavioral state machine?",
+    "response": "Identify the states"
+  },
+  {
+    "query": "What is an example of a component in a library system that would be identified in the CRUDE analysis?",
+    "response": "Book"
+  },
+  {
+    "query": "What is a guard condition?",
+    "response": "A condition that must be true for a transition to occur"
+  },
+  {
+    "query": "What does behavioral testing ensure?",
+    "response": "The system behaves correctly and consistently with the behavioral model"
+  },
+  {
+    "query": "What is the result of low cohesion methods?",
+    "response": "Increased complexity and decreased maintainability of the system"
+  },
+  {
+    "query": "What is an object wrapper?",
+    "response": "An object that \"wraps around\" a legacy system, creating an API"
+  },
+  {
+    "query": "Which layer in software architecture contains classes that represent entities and business logic?",
+    "response": "Problem Domain Layer"
+  },
+  {
+    "query": "What is required of an organization that wants to invest in a custom system?",
+    "response": "A willingness to invest in the development and ongoing maintenance of a custom system"
+  },
+  {
+    "query": "What is a partition in object-oriented design?",
+    "response": "A way of grouping objects and classes together"
+  },
+  {
+    "query": "What is one way to optimize an object system?",
+    "response": "Review the execution order of statements in often-used methods"
+  },
+  {
+    "query": "What is included in a method signature?",
+    "response": "The method's name and input parameters"
+  },
+  {
+    "query": "What are the inputs and outputs of the compute pay method?",
+    "response": "Input: Hours worked, Hourly wage, Output: Gross pay"
+  },
+  {
+    "query": "What are constraints in a system?",
+    "response": "Rules that must be enforced by objects in a system"
+  },
+  {
+    "query": "What is factoring in object system design?",
+    "response": "Restructuring the design by separating aspects of a method or class into a new method or class to simplify the overall design."
+  },
+  {
+    "query": "What type of database is based on a graph model?",
+    "response": "Graph database"
+  },
+  {
+    "query": "How many data access and manipulation classes should be created for each concrete problem domain class?",
+    "response": "One"
+  },
+  {
+    "query": "Which of the following is the primary purpose of audit files?",
+    "response": "To record data for control purposes in case the integrity of the data is questioned"
+  },
+  {
+    "query": "How should the design of data access and manipulation classes be related to the problem domain classes?",
+    "response": "Data access and manipulation classes should depend on both the object persistence and problem domain classes"
+  },
+  {
+    "query": "Why should data access and manipulation classes be dependent on the problem domain classes?",
+    "response": "They act as a translator between the object persistence and problem domain objects"
+  },
+  {
+    "query": "What is a database?",
+    "response": "A collection of related data organized in a structured way"
   }
 ]
