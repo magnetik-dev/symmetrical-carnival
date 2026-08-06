@@ -99,7 +99,7 @@
     "query": "Which of the following would be a usable IP address to assign to a host in the network 192.168.10.32/28?",
     "response": "192.168.10.39"
   },
-    {
+  {
     "query": "When a DHCPv6 client and server are on different subnets, what role does the router play in the communication?",
     "response": "The router forwards DHCP messages as a DHCP relay agent"
   },
@@ -198,5 +198,153 @@
   {
     "query": "Which Cisco IOS command is used to enable IPv4 routing on a 2960 series switch?",
     "response": "ip routing"
+  },
+  {
+    "query": "In the TCP/IP model, which layer defines the interface between software running on the computer and the network itself?",
+    "response": "Application"
+  },
+  {
+    "query": "When connecting multiple switches with redundant links, which of the following protocols helps to ensure that you will have a loop-free Ethernet network?",
+    "response": "STP"
+  },
+  {
+    "query": "Which of the following will occur when a switch encounters an unknown destination unicast frame?",
+    "response": "The switch will flood the frame."
+  },
+  {
+    "query": "What is the name used to identify a virtual NIC type of device that exists on Cisco switches to assign IP information to specific VLANs?",
+    "response": "SVI"
+  },
+  {
+    "query": "Which of the following commands would you issue to move from the User EXEC mode to the Privileged EXEC mode?",
+    "response": "enable"
+  },
+  {
+    "query": "When configuring a trunk between two switches, which dynamic trunking mode should be used to always initiate a trunking connection?",
+    "response": "Dynamic desirable"
+  },
+  {
+    "query": "Which STP mode is the default on most modern Cisco Catalyst switches?",
+    "response": "PVST+"
+  },
+  {
+    "query": "You have the network 192.168.10.0/24. How many subnets and hosts are available?",
+    "response": "1 subnet with 254 hosts"
+  },
+  {
+    "query": "As the network engineer, you are asked to design an IP subnet plan that calls for 12 subnets. The largest subnet needs a minimum of 12 hosts. Management requires that a single mask must be used throughout the Class C network. Which of the following is a public IP network and mask that would meet the requirements?",
+    "response": "216.122.44.0 /28"
+  },
+  {
+    "query": "What is the maximum number of IP addresses that can be assigned to hosts on a local subnet that uses the 255.255.255.224 subnet mask?",
+    "response": "30"
+  },
+  {
+    "query": "While working at the help desk, you receive a call and learn that the IP address and mask of a user's PC are 192.168.192.10/29. Determine the number of network (N), subnet (S), and host (H) bits, which of the following statements are true?",
+    "response": "S = 5"
+  },
+  {
+    "query": "Which of the following is the resident subnet for the IP address 187.225.25.48/20?",
+    "response": "187.225.16.0"
+  },
+  {
+    "query": "As the network engineer, you are shown the following IP address and subnet mask: 10.100.48.27/19. What is the valid host range for this IP address?",
+    "response": "10.100.32.1 through 10.100.63.254"
+  },
+  {
+    "query": "What role does the Interface ID (IID) play in SLAAC-based IPv6 address formation?",
+    "response": "It forms the host-specific part of the IPv6 address"
+  },
+  {
+    "query": "An IPv6 ___________ address is equivalent to an IPv4 private address.",
+    "response": "Link-local"
+  },
+  {
+    "query": "A host on an IPv6 network sends an RS message but receives no RA responses from any routers. What could be a possible cause?",
+    "response": "There are no routers configured to respond to RS messages on the network."
+  },
+  {
+    "query": "Which Cisco IOS command is used to enable a switch interface to become a routed port?",
+    "response": "no switchport"
+  },
+  {
+    "query": "If configuring a layer 3 EtherChannel using two physical interfaces, how many different times must the no switchport command be configured?",
+    "response": "3"
+  },
+  {
+    "query": "What version of OSPF was specifically developed as a result of IPv6? a terminal line?",
+    "response": "Version 3"
+  },
+  {
+    "query": "The ________ configuration creates a subinterface for each VLAN on the trunk and routes all frames associated with each VLAN ID as it comes in or out of the subinterface.",
+    "response": "ROAS"
+  },
+  {
+    "query": "When using EUI-64 for addressing, the MAC address is split in half and ________ is inserted between the two halves with the seventh bit of the interface ID inverted.",
+    "response": "FFFE"
+  },
+  {
+    "query": "What is the IPv6 prefix of the address 3000:bdea:0345:00cb:bd00:00ae:bd00:aecb if the prefix length is /64?",
+    "response": "3000:bdea:0345:00cb:"
+  },
+  {
+    "query": "In which OSPF state would a neighbor be if it has learned of a neighbor's existence but has not yet seen its own RID in an LSDB update?",
+    "response": "Init"
+  },
+  {
+    "query": "What type of route adds the host to the routing table of a Cisco device when the ip address command is issued on an interface with a state of Up/Up?",
+    "response": "Local route"
+  },
+  {
+    "query": "What default length is used for the OSPF dead interval?",
+    "response": "4 times the Hello Interval."
+  },
+  {
+    "query": "In a scenario where two routers tie in priority, which value is used by the election process to choose the DR?",
+    "response": "OSPF router ID"
+  },
+  {
+    "query": "What Cisco IOS command is used to enable the use of IPv4 routing on a Cisco device?",
+    "response": "ip routing"
+  },
+  {
+    "query": "What is the administrative distance of OSPF routes?",
+    "response": "110"
+  },
+  {
+    "query": "Which protocol does the ping command use to test connectivity?",
+    "response": "ICMP"
+  },
+  {
+    "query": "What happens if a host detects a duplicate address during the DAD process?",
+    "response": "The host does not use the address until the issue is resolved"
+  },
+  {
+    "query": "What is the shortest valid abbreviation of the IPv6 address 2001:00cb:1562:0dc3:5400:0001:24a0:0014?",
+    "response": "2001:cb:1562:dc3:5400:1:24a0:14"
+  },
+  {
+    "query": "When configuring a trunk between a router and a switch, which command must be configured on the switch to ensure that the trunk comes up?",
+    "response": "switchport mode trunk"
+  },
+  {
+    "query": "What is the process of removing the Layer 2 header and trailer information to reveal the Layer 3 packet?",
+    "response": "De-encapsulation"
+  },
+  {
+    "query": "What is the name of a LAN device that provides many physical ports into which Ethernet cables can be connected?",
+    "response": "Ethernet switch"
+  },
+  {
+    "query": "What is the difference between the ISO version of HDLC and the Cisco version of HDLC that is used, by default, on all serial interfaces?",
+    "response": "Type field"
+  },
+  {
+    "query": "The process of sending frames out all other interfaces, except the interface on which the frame arrived, is called ________.",
+    "response": "Flooding"
+  },
+  {
+    "query": "Which of the following lists the prefix (CIDR) format equivalent of 255.255.224.0?",
+    "response": "/19"
   }
 ]
