@@ -294,5 +294,57 @@
   {
     "query": "What type of route adds the host to the routing table of a Cisco device when the ip address command is issued on an interface with a state of Up/Up?",
     "response": "Local route"
+  },
+  {
+    "query": "What default length is used for the OSPF dead interval?",
+    "response": "4 times the Hello Interval."
+  },
+  {
+    "query": "In a scenario where two routers tie in priority, which value is used by the election process to choose the DR?",
+    "response": "OSPF router ID"
+  },
+  {
+    "query": "What Cisco IOS command is used to enable the use of IPv4 routing on a Cisco device?",
+    "response": "ip routing"
+  },
+  {
+    "query": "What is the administrative distance of OSPF routes?",
+    "response": "110"
+  },
+  {
+    "query": "Which protocol does the ping command use to test connectivity?",
+    "response": "ICMP"
+  },
+  {
+    "query": "What happens if a host detects a duplicate address during the DAD process?",
+    "response": "The host does not use the address until the issue is resolved"
+  },
+  {
+    "query": "What is the shortest valid abbreviation of the IPv6 address 2001:00cb:1562:0dc3:5400:0001:24a0:0014?",
+    "response": "2001:cb:1562:dc3:5400:1:24a0:14"
+  },
+  {
+    "query": "When configuring a trunk between a router and a switch, which command must be configured on the switch to ensure that the trunk comes up?",
+    "response": "switchport mode trunk"
+  },
+  {
+    "query": "What is the process of removing the Layer 2 header and trailer information to reveal the Layer 3 packet?",
+    "response": "De-encapsulation"
+  },
+  {
+    "query": "What is the name of a LAN device that provides many physical ports into which Ethernet cables can be connected?",
+    "response": "Ethernet switch"
+  },
+  {
+    "query": "What is the difference between the ISO version of HDLC and the Cisco version of HDLC that is used, by default, on all serial interfaces?",
+    "response": "Type field"
+  },
+  {
+    "query": "The process of sending frames out all other interfaces, except the interface on which the frame arrived, is called ________.",
+    "response": "Flooding"
+  },
+  {
+    "query": "Which of the following lists the prefix (CIDR) format equivalent of 255.255.224.0?",
+    "response": "/19"
   }
 ]
