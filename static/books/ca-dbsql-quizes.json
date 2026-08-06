@@ -1154,5 +1154,369 @@
   {
     "query": "What is a limitation of user-defined table types in SQL Server?",
     "response": "They cannot have foreign keys defined."
+  },
+  {
+    "query": "What term is used for a computer with enough processing power, memory, and storage to handle the system's files and databases?",
+    "response": "Database server"
+  },
+  {
+    "query": "What is MySQL best known for?",
+    "response": "Being an open-source database"
+  },
+  {
+    "query": "How should SQL keywords be capitalized according to the recommendations?",
+    "response": "Uppercase"
+  },
+  {
+    "query": "What is pseudocode used for in query development?",
+    "response": "To outline the intent of the query"
+  },
+  {
+    "query": "What can a subquery pass to the outer query?",
+    "response": "Aggregated values"
+  },
+  {
+    "query": "When coding a recursive CTE, what is important regarding column definitions?",
+    "response": "Columns must be named in the anchor member."
+  },
+  {
+    "query": "How does a subquery in the FROM clause differ from one in the WHERE clause?",
+    "response": "It creates a derived table for further use in the outer query."
+  },
+  {
+    "query": "What should you do before executing INSERT statements to ensure the correct data is retrieved?",
+    "response": "Execute the SELECT statement by itself"
+  },
+  {
+    "query": "Which data type can CAST not convert to directly?",
+    "response": "BLOB"
+  },
+  {
+    "query": "Which data types cannot be converted implicitly to other data types?",
+    "response": "datetime2, date, and time"
+  },
+  {
+    "query": "Which date/time data type is suitable for storing only date values without a time component?",
+    "response": "date"
+  },
+  {
+    "query": "When might you use the CHOOSE function in SQL?",
+    "response": "To return a value based on a specified index"
+  },
+  {
+    "query": "Why is it necessary to convert the result of subtracting two date/time values to an integer?",
+    "response": "Because the result is implicitly cast as a date/time value"
+  },
+  {
+    "query": "What type of value does the SYSDATETIME function return?",
+    "response": "datetime2"
+  },
+  {
+    "query": "How does the GROUPING function indicate a summary row in SQL?",
+    "response": "It returns a value of 1 for columns assigned null values by ROLLUP or CUBE."
+  },
+  {
+    "query": "What happens if none of the conditions in a CASE function's WHEN clauses are met?",
+    "response": "The function returns the ELSE result expression."
+  },
+  {
+    "query": "What function can be used to get a specified number of characters from the beginning of a string?",
+    "response": "LEFT"
+  },
+  {
+    "query": "When using the LAST_VALUE function, why might you include a RANGE clause?",
+    "response": "To include all rows in the partition for calculations"
+  },
+  {
+    "query": "In SQL, what happens if all expressions in a COALESCE function are null?",
+    "response": "It returns a null value."
+  },
+  {
+    "query": "How does the RANK function differ from the DENSE_RANK function?",
+    "response": "DENSE_RANK handles ties differently than RANK."
+  },
+  {
+    "query": "What does the SQUARE function do?",
+    "response": "Calculates the square of a number"
+  },
+  {
+    "query": "How does the CHOOSE function differ from the IIF function?",
+    "response": "CHOOSE returns a value based on an index; IIF returns values based on conditions."
+  },
+  {
+    "query": "What problem occurs when searching for a date value in a datetime column with non-zero time components?",
+    "response": "No rows are returned."
+  },
+  {
+    "query": "What indicates that a table contains information for more than one entity in second normal form?",
+    "response": "A composite key"
+  },
+  {
+    "query": "What operation violates referential integrity if the foreign key value doesn't have a matching primary key value in the related table?",
+    "response": "Inserting a row in the foreign key table"
+  },
+  {
+    "query": "Why do some database designers consider a database normalized at the third normal form (3NF)?",
+    "response": "Because higher normal forms are applied infrequently"
+  },
+  {
+    "query": "Which SQL Server feature allows you to define how referential integrity is enforced when a primary key is changed?",
+    "response": "Declarative Referential Integrity"
+  },
+  {
+    "query": "Which of the following is not a technique mentioned for identifying data elements?",
+    "response": "Guessing the data elements"
+  },
+  {
+    "query": "What happens if SQL Server does not have an index and needs to locate rows?",
+    "response": "It will perform a table scan."
+  },
+  {
+    "query": "What must be done with columns that do not depend on the entire primary key?",
+    "response": "They must be moved to another table."
+  },
+  {
+    "query": "When is it not necessary to subdivide a data element into its smallest components?",
+    "response": "When the components are rarely used separately"
+  },
+  {
+    "query": "How can the problem of increased data redundancy be resolved in a table in first normal form?",
+    "response": "By applying the second normal form"
+  },
+  {
+    "query": "What does normalization help to reduce in a data structure?",
+    "response": "Data redundancy"
+  },
+  {
+    "query": "What technique can be used to model a database system after a real-world system?",
+    "response": "Entity-relationship (ER) modeling"
+  },
+  {
+    "query": "How many normal forms are there in total?",
+    "response": "Seven"
+  },
+  {
+    "query": "Which SQL statement creates a filtered index for categories in a column?",
+    "response": "CREATE INDEX IX_InvoicesDateFilter ON Invoices (InvoiceDate DESC, InvoiceTotal) WHERE InvoiceDate > '2024-02-01';"
+  },
+  {
+    "query": "When is an insert or update operation allowed if a check constraint is present?",
+    "response": "Only if the condition evaluates to True"
+  },
+  {
+    "query": "What is the primary purpose of constraints in SQL?",
+    "response": "To enforce the integrity of the data in a table"
+  },
+  {
+    "query": "What is the result of switching from Latin1 to UTF-8 encoding in terms of storage requirements?",
+    "response": "Quadruple the maximum number of bytes for any char and varchar types."
+  },
+  {
+    "query": "What does the SELECT statement return when viewing collations for each column in a table?",
+    "response": "Table name, column name, and collation"
+  },
+  {
+    "query": "What does the CREATE DATABASE statement do?",
+    "response": "Creates a new database"
+  },
+  {
+    "query": "What SQL statement is used to define a check constraint at the column level for an invoice amount?",
+    "response": "CHECK (InvoiceTotal > 0)"
+  },
+  {
+    "query": "What must you do when coding a constraint at the table level?",
+    "response": "Code a comma at the end of the preceding column definition."
+  },
+  {
+    "query": "When might it make sense to create a filtered index?",
+    "response": "When the number of rows in the index is small compared to the total number of rows"
+  },
+  {
+    "query": "What is the primary use of the _BIN and _BIN2 collation options?",
+    "response": "To sort characters by their numeric codes"
+  },
+  {
+    "query": "Which SQL statement changes the current database context within a script?",
+    "response": "USE"
+  },
+  {
+    "query": "How can a table-level constraint be defined compared to a column-level constraint?",
+    "response": "It can refer to any column in a table."
+  },
+  {
+    "query": "What option allows you to override the default behavior preventing changes that require table re-creation?",
+    "response": "\"Prevent saving changes that require table re-creation\" in the Tools menu"
+  },
+  {
+    "query": "What can you do with the Save Change Script dialog box in SQL Server Management Studio?",
+    "response": "Save the SQL script for altering a table."
+  },
+  {
+    "query": "How can you view the dependencies for a table in SQL Server Management Studio?",
+    "response": "Right-click on the table and select View Dependencies."
+  },
+  {
+    "query": "What action can you perform directly from the Object Dependencies dialog box in SQL Server Management Studio?",
+    "response": "Expand or collapse dependencies for the selected table."
+  },
+  {
+    "query": "What does setting the Is Unique property to \"Yes\" and the Type property to \"Index\" achieve?",
+    "response": "Defines a unique key constraint"
+  },
+  {
+    "query": "What feature does the Column Properties pane in the Table Designer allow you to set?",
+    "response": "Identity specification"
+  },
+  {
+    "query": "Which option is NOT mentioned as a destination for sending generated scripts?",
+    "response": "Printer"
+  },
+  {
+    "query": "What does the Check Existing Data On Creation Or Re-Enabling property determine when setting up a check constraint?",
+    "response": "Whether existing data is validated against the new constraint"
+  },
+  {
+    "query": "What does setting the Enforce For Replication property to \"Yes\" ensure?",
+    "response": "Data integrity is maintained during replication."
+  },
+  {
+    "query": "Which step is NOT necessary when creating a new database using Management Studio?",
+    "response": "Rename the log file to match the database name."
+  },
+  {
+    "query": "How can you add a new index to a table using SQL Server Management Studio?",
+    "response": "By selecting the Manage Indexes and Keys option from the Table Designer toolbar"
+  },
+  {
+    "query": "Which button in the Check Constraints dialog box allows you to add a new constraint to a table?",
+    "response": "Add"
+  },
+  {
+    "query": "What keyword is used to define a view in the CREATE VIEW statement?",
+    "response": "AS"
+  },
+  {
+    "query": "Which clause cannot be used in the SELECT statement of an updatable view?",
+    "response": "GROUP BY"
+  },
+  {
+    "query": "Which catalog view lists one row for each primary or unique key in each table?",
+    "response": "sys.key_constraints"
+  },
+  {
+    "query": "When can an ORDER BY clause be used in the SELECT statement of a view?",
+    "response": "Only if the SELECT statement includes a TOP clause"
+  },
+  {
+    "query": "Which clause in the CREATE VIEW statement prevents users from examining the SQL code of the view?",
+    "response": "WITH ENCRYPTION"
+  },
+  {
+    "query": "When should you use the WITH SCHEMABINDING option in SQL views?",
+    "response": "To prevent accidental deletion of base tables"
+  },
+  {
+    "query": "How can views be used in SQL beyond SELECT statements?",
+    "response": "In INSERT, UPDATE, and DELETE statements"
+  },
+  {
+    "query": "In SQL Server, what distinguishes an updatable view from a read-only view?",
+    "response": "The ability to perform INSERT, UPDATE, and DELETE operations"
+  },
+  {
+    "query": "How can views enhance data security in a database?",
+    "response": "By limiting access to specific columns and rows"
+  },
+  {
+    "query": "What is the primary advantage of using catalog views in SQL Server?",
+    "response": "They provide independence from changes in system table structures."
+  },
+  {
+    "query": "What additional option can you specify in the ALTER VIEW statement to enforce constraints on data modifications through the view?",
+    "response": "WITH CHECK OPTION"
+  },
+  {
+    "query": "How many levels deep can SQL Server nested views be nested?",
+    "response": "32 levels"
+  },
+  {
+    "query": "Which function returns the error number within a CATCH block?",
+    "response": "ERROR_NUMBER()"
+  },
+  {
+    "query": "Can TRY ... CATCH blocks be nested within each other in SQL Server?",
+    "response": "Yes"
+  },
+  {
+    "query": "Which of the following cannot be combined with other statements in a batch?",
+    "response": "CREATE VIEW"
+  },
+  {
+    "query": "How is the number of rows in each table calculated within the dynamic SQL string?",
+    "response": "Using a COUNT(*) function in a SELECT statement"
+  },
+  {
+    "query": "Which of the following statements about the scope of a local temporary table in SQL Server is true?",
+    "response": "It is limited to the current session."
+  },
+  {
+    "query": "Why might you use the GO command in a script?",
+    "response": "To execute the current batch of statements"
+  },
+  {
+    "query": "In SQL Server Management Studio, how long does a temporary table created in the Query Editor typically exist?",
+    "response": "Until the Query Editor window is closed"
+  },
+  {
+    "query": "Which function provides the error message within a CATCH block?",
+    "response": "ERROR_MESSAGE()"
+  },
+  {
+    "query": "What is the benefit of using comments in an ELSE clause?",
+    "response": "To help find and debug logical errors"
+  },
+  {
+    "query": "What is the purpose of the WHILE statement in SQL?",
+    "response": "To execute a SQL statement repeatedly as long as a condition is true"
+  },
+  {
+    "query": "What is a limitation of user-defined table types in SQL Server?",
+    "response": "They cannot have foreign keys defined."
+  },
+  {
+    "query": "Which keyword terminates the SQL statements within the BEGIN ... END block of a multi-statement table-valued function?",
+    "response": "RETURN"
+  },
+  {
+    "query": "How does the procedure handle an unexpected system error during insertion?",
+    "response": "Raises a system error"
+  },
+  {
+    "query": "What is recommended to preserve security permissions when modifying a stored procedure?",
+    "response": "Use ALTER PROC."
+  },
+  {
+    "query": "How do you identify an output parameter in SQL Server?",
+    "response": "By coding the OUTPUT keyword"
+  },
+  {
+    "query": "Which statement is true about user-defined table types in SQL Server?",
+    "response": "They are similar to regular tables but cannot have foreign keys."
+  },
+  {
+    "query": "What distinguishes stored procedures, user-defined functions, and triggers from scripts?",
+    "response": "They are executable database objects."
+  },
+  {
+    "query": "Which statement accurately describes the ability to modify data stored in a user-defined table type parameter outside of a stored procedure?",
+    "response": "Data cannot be modified."
+  },
+  {
+    "query": "Which type of procedural program can use parameters?",
+    "response": "Stored procedures"
+  },
+  {
+    "query": "What is the return value of the stored procedure if the insertion operation is unsuccessful?",
+    "response": "0"
   }
 ]
