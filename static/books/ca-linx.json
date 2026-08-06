@@ -365,7 +365,7 @@
   },
   {
     "query": "Most Linux configuration files are of what file type?",
-    "response": "JavaScript Object Notation, Text"
+    "response": "Text"
   },
   {
     "query": "A system administrator needs to bundle multiple files into a tarball and compress the tarball with gzip. Which switch would the system administrator use with the tar command to accomplish this?",
