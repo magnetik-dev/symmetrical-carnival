@@ -1085,7 +1085,7 @@
   },
   {
     "query": "A cloud administrator is setting up alerts that would text them if certain thresholds are exceeded.",
-    "response": "Simple Notification Service\nGoogle Cloud Platform (GCP) Monitoring Service\nAction Groups"
+    "response": "Simple Notification Service, Google Cloud Platform (GCP) Monitoring Service, Action Groups"
   },
   {
     "query": "our organization is planning to roll out a major update to its custom-developed CRM software. The update includes significant changes to the user interface and backend processes.",
@@ -4151,5 +4151,169 @@
   {
     "query": "What is the primary difference between tracing and logging in cloud services?",
     "response": "Logging tracks timestamped events, while tracing records each function call within the code or application."
+  },
+  {
+    "query": "A media company is designing a storage solution for their video editing team. The team requires fast access to large video files during editing sessions, but the company also needs to manage costs effectively.\nWhich storage option should they choose?\nanswerA\nHybrid Disks\nB\ngp3\nC\nio2\nD\nsc1",
+    "response": "Hybrid Disks"
+  },
+  {
+    "query": "A startup company requires a cheap cloud storage solution to accommodate its initially low overhead. The company only uses a few basic servers and primarily operates off of basic workstations.\nWhich of the following storage options would make the most sense for the company right now?",
+    "response": "File"
+  },
+  {
+    "query": "Your team is troubleshooting an issue where a critical application is not functioning correctly. You suspect that recent changes to the data might be the cause. You need to access a previous state of the data to identify what has changed and potentially roll back to that state if necessary.\nWhich recovery option should you choose?",
+    "response": "Snapshot Restoral"
+  },
+  {
+    "query": "Considering the general steps outlined for deploying a t2.micro instance on AWS, which step would you evaluate as the most critical for ensuring the security of the instance?",
+    "response": "Defining authentication key pairs, network settings, and storage requirements"
+  },
+  {
+    "query": "You are the facilities manager of a company that is transitioning its IT infrastructure from an on-premises data center to a cloud-based solution. You need to assess the impact of this migration on your company's power and cooling requirements and make recommendations accordingly.\nWhich of the following recommendations would most effectively address the changes in power and cooling requirements after migrating to a cloud-based solution?",
+    "response": "Reduce the power and cooling capacity of your on-premises data center."
+  },
+  {
+    "query": "An employee receives a chat message from someone claiming to be from the company's help desk. The message states that due to system maintenance, the employee needs to provide their password to update their computer to the latest software version. The employee, trusting the message, provides their password.\nWhat type of social engineering attack is this an example of?",
+    "response": "Pretexting"
+  },
+  {
+    "query": "Your company has recently migrated its e-commerce platform to the cloud. You notice that during peak shopping seasons, the cloud costs skyrocket, but during off-peak times, the resources are underutilized. You need to ensure that the cloud resources are optimized for both performance and cost throughout the year.\nWhich approach should you implement to continuously analyze and adjust cloud resource utilization to balance performance and cost?",
+    "response": "Rightsizing"
+  },
+  {
+    "query": "A company currently uses multiple cloud service providers (CSPs) including Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP). The company has decided to consolidate its cloud services and migrate all resources to GCP.\nWhich of the following actions should the company prioritize to ensure a smooth cloud-to-cloud migration?\nanswerA\nTest the migration by moving a small subset of applications and services to GCP.\nB\nConfigure network access requirements for AWS.\nC\nEstablish a virtual private network (VPN) connection between Azure, AWS, and GCP.\nD\nCreate necessary cloud extensions in the GCP environment.",
+    "response": "Establish a virtual private network (VPN) connection between Azure, AWS, and GCP."
+  },
+  {
+    "query": "Which of the following is a reason for a business to deploy a private or hybrid cloud environment?\nanswerA\nTo ensure global availability of services\nB\nTo increase the speed of data transfer\nC\nTo retain greater control over proprietary data and intellectual property\nD\nTo reduce the cost of cloud services",
+    "response": "To retain greater control over proprietary data and intellectual property"
+  },
+  {
+    "query": "A healthcare service provider is considering moving its data storage and application hosting to a cloud environment. Due to strict industry regulations and the need to handle sensitive patient data securely, the organization is evaluating different cloud deployment models.\nWhich cloud deployment model should the healthcare service provider choose to ensure compliance with industry regulations and maintain control over sensitive data?\nanswerA\nPublic Cloud\nB\nCommunity Cloud\nC\nHybrid Cloud\nD\nPrivate Cloud",
+    "response": "Private Cloud"
+  },
+  {
+    "query": "A startup company with limited IT resources wants to minimize costs while still having access to robust cloud services.\nWhich cloud deployment model would be most appropriate and why?\nanswerA\nHybrid Cloud, because it balances cost and control.\nB\nPrivate Cloud, because it offers the highest level of control.\nC\nPublic Cloud, because it minimizes costs and provides robust services.\nD\nMulti-cloud, because it avoids vendor lock-in and maximizes service offerings.",
+    "response": "Public Cloud, because it minimizes costs and provides robust services."
+  },
+  {
+    "query": "A company has tasked a team of engineers with validating a cloud application in a staging environment. This team works together with the development team to ensure the code does what is expected. If an engineer finds any issues, they are sent back to the development team to fix them.\nWhat part of the application lifecycle is this?\nanswerA\nUsability testing\nB\nQuality assurance\nC\nFunction testing\nD\nVulnerability testing",
+    "response": "Quality assurance"
+  },
+  {
+    "query": "What is one of the primary benefits of using a hybrid cloud environment for an organization?\nanswerA\nIt allows the organization to exclusively use more secure private cloud services.\nB\nIt allows the organization to mix security requirements by using both public and private cloud services.\nC\nIt allows the organization to exclusively use cheaper public cloud services.\nD\nIt allows the organization to avoid using any cloud services.",
+    "response": "It allows the organization to mix security requirements by using both public and private cloud services."
+  },
+  {
+    "query": "Why does deep learning often achieve higher accuracy than traditional machine learning?\nanswerA\nIt analyzes data through multiple layers to detect complex patterns and relationships.\nB\nIt only works effectively when processing small datasets that require minimal computational power and very limited data preparation.\nC\nIt uses fewer layers of analysis, making decisions faster and less complex.\nD\nIt depends entirely on simple statistical formulas without considering patterns in data.",
+    "response": "It analyzes data through multiple layers to detect complex patterns and relationships."
+  },
+  {
+    "query": "In which cloud service model does the consumer manage the operating system and applications?\nanswerA\nInfrastructure as a Service (IaaS)\nB\nSoftware as a Service (SaaS)\nC\nPlatform as a Service (PaaS)\nD\nAnything as a Service (XaaS)",
+    "response": "Infrastructure as a Service (IaaS)"
+  },
+  {
+    "query": "A publishing company wants to make their e-books more accessible to visually impaired readers. They need a solution that can convert written text from their e-books into spoken words, allowing readers to listen to the content.\nWhich AI technology would be most appropriate for this task?\nanswerA\nText-to-voice\nB\nText recognition\nC\nVisual recognition\nD\nGenerative AI",
+    "response": "Text-to-voice"
+  },
+  {
+    "query": "A sysadmin is learning the benefits and characteristics of what cloud service providers offer. The five characteristics defined by the National Institute of Standards and Technology are on-demand self-service, broad network access, resource pooling, rapid elasticity, and measured service. What concept/s is/are the sysadmin learning? (Select all that apply.)\nanswerA\nRAID\nB\nStorage\nC\nCloud computing\nD\nNetwork",
+    "response": "Cloud computing, Storage, Network"
+  },
+  {
+    "query": "A business wants to analyze customer reviews to determine whether feedback is positive, negative, or neutral.\nWhich AI capability BEST helps them achieve this goal?",
+    "response": "Sentiment analysis"
+  },
+  {
+    "query": "How do machine learning systems typically improve their performance over time?",
+    "response": "By learning from new data and refining their predictions based on previous outcomes."
+  },
+  {
+    "query": "A server administrator is troubleshooting issues connecting to an Application Programming Interface (API) endpoint. Which of the following will help the administrator? (Select all that apply.)",
+    "response": "Check if rate limits reached, Check for correct protocol, Incorrect policy configuration"
+  },
+  {
+    "query": "A marketing agency is upgrading its storage to add drive space for a multitude of documents and client files. The company would like to provide critical fault tolerance, and performance is not a concern while maintaining a lower-cost solution. Which of the following would be the best choice for these requirements?",
+    "response": "RAID 1"
+  },
+  {
+    "query": "A global e-commerce company headquartered in Country P is planning to expand its operations to Country Q. The company uses a cloud service provider with data centers in multiple countries, including Country R, which has different data sovereignty laws compared to Country P and Country Q. The company wants to ensure that customer data from Country Q is stored in compliance with Country Q's legal requirements.\nWhich of the following steps should the company take to analyze and address its data sovereignty concerns?\nanswerA\nCompare the data storage costs in Country R and Country Q.\nB\nAssess the encryption standards used by the cloud service provider.\nC\nReview the customer service ratings of the cloud service provider.\nD\nEvaluate the data residency policies of the cloud service provider.",
+    "response": "Evaluate the data residency policies of the cloud service provider."
+  },
+  {
+    "query": "Which of the following best evaluates the effectiveness of using drive encryption over file encryption in a multi-user environment?",
+    "response": "File encryption is more effective because it allows specific files to be encrypted, ensuring only authorized users can access sensitive data."
+  },
+  {
+    "query": "What should be done if vulnerabilities are found in software developed in-house?",
+    "response": "Submit a ticket to the dev team."
+  },
+  {
+    "query": "An employee needs to access a folder only during work hours (Monday-Friday, 8 am-5 pm) and requires Read access to the folder.\nWhich of the following access control measures BEST aligns with the principle of least privilege?\nanswerA\nAuthenticate the user's account only during work hours and grant Read permission to the folder.\nB\nAuthenticate the user's account at all times and grant Read permission to the folder.\nC\nAuthenticate the user's account at all times and grant Full Control permission to the folder.\nD\nAuthenticate the user's account only during work hours and grant Write permission to the folder.",
+    "response": "Authenticate the user's account only during work hours and grant Read permission to the folder."
+  },
+  {
+    "query": "A Public Key Infrastructure (PKI) administrator is troubleshooting issues with the encrypted key exchange for sites on their companies' intranet. Which of the following should the administrator look at? (Select all that apply.)\nanswerA\nFirewall\nB\nExpired certificates\nC\nTrust issues\nD\nRevocation list",
+    "response": "Expired certificates, Trust issues, Revocation list"
+  },
+  {
+    "query": "An Amazon Web Services (AWS) virtual instance is running on a default security group. Outbound communication is possible, but the other instances in the virtual private cloud (VPC) cannot communicate inbound on specific Transmission Control Protocol (TCP) ports.\nHow can a cloud administrator resolve this? (Select three.)\nanswerA\nCreate a DNS record.\nB\nAdd a security rule.\nC\nUse an existing security group.\nD\nIncrease the MTU setting.",
+    "response": "Add a security rule, Use an existing security group, Increase the MTU setting."
+  },
+  {
+    "query": "A manufacturing company is setting up an IoT system to monitor and optimize its production line. The system includes various IoT devices that collect data on machine performance, energy consumption, and environmental conditions. However, not all IoT devices use the IP protocol required for cloud services. As the IoT system architect, you need to ensure seamless communication between these devices and the cloud.\nWhich component should you implement to achieve this?\nanswerA\nGateway\nB\nEdge Computing Device\nC\nCentral Server\nD\nLocal Sensor Network",
+    "response": "Gateway"
+  },
+  {
+    "query": "Which type of encryption helps protect data residing on storage media?",
+    "response": "At rest encryption"
+  },
+  {
+    "query": "A database administrator is tasked with performing backup of an important database. The administrator wants to perform this backup in such a way that the data within is accessed and backed up using queries while the database continues to run, rather than copying the entire database at a file or byte level. Conclude which method will accomplish this goal.",
+    "response": "Dump the database."
+  },
+  {
+    "query": "Which of the following criteria can be used in a WAF's access control list (ACL)?",
+    "response": "Source IP address"
+  },
+  {
+    "query": "Which of the following best describes the purpose of cloud event monitoring?",
+    "response": "To track changes to cloud resources and ensure they align with planned deployments and baselines."
+  },
+  {
+    "query": "A server administrator is setting up external authentication between an Identity Management (IdM) provider and a resource provider. What are some options the administrator could use? (Select all that apply.)",
+    "response": "AWS Single Sign-On, AWS Identity and Access Management (IAM), Active Directory Federation Services (ADFS)"
+  },
+  {
+    "query": "A professional animator is having issues with the application used to create 3D models and asks for assistance from IT support who suggests that perhaps the application is overutilizing available memory. Prescribe some simple methods of determining if the application is suffering from memory related issues. (Select all that apply.)",
+    "response": "Check application or host OS logs, Check application for memory leaks with a resource monitor or a debugger"
+  },
+  {
+    "query": "An automation code stopped working after the on-premises cloud solution was upgraded to the latest version. A developer confirmed that the code has not changed; it was working consistently for months. What can the developer do to troubleshoot this issue without making changes right away?",
+    "response": "Review the latest API documentation."
+  },
+  {
+    "query": "A company experiences fluctuating web traffic throughout the day. They want to ensure their cloud resources automatically adjust to handle the load without manual intervention.\nWhich of the following approaches should they implement?",
+    "response": "Triggered Scaling"
+  },
+  {
+    "query": "A systems technician is reviewing the patching routine and trying to identify components that may need to be packed outside the normal patching process.",
+    "response": "Storage components, Networking components"
+  },
+  {
+    "query": "A cloud technician has stood up a cluster of SQL servers that will need to scale compute capabilities during peaks of demand. Which approach should the technician use?",
+    "response": "Vertical scaling"
+  },
+  {
+    "query": "An organization uses automated configuration management tools to enforce security baselines. During a routine check, it is found that several systems have deviated from the baseline settings. What is the most appropriate course of action?",
+    "response": "Use the automated configuration management tool to realign the systems immediately."
+  },
+  {
+    "query": "Following a minor data exploitation, a Google Cloud technician is optimizing a network’s security using a certificate-based validation configuration. Which of the following is the technician most likely configuring?",
+    "response": "DNSSEC"
+  },
+  {
+    "query": "A logistics company is experiencing high operational costs due to inefficient resource utilization in their delivery processes. Which workflow optimization technique should they implement to address this issue?",
+    "response": "Optimizing resource utilization"
   }
 ]
