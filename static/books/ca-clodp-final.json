@@ -332,10 +332,6 @@
     "response": "Allow ports 22/tcp, 80/tcp, and 443/tcp; block all others."
   },
   {
-    "query": "An administrator is using an operating system to encrypt stored data. \nWhich of the following encrypts entire volumes and normally uses a computer's hardware to store encryption keys?",
-    "response": "Data retention"
-  },
-  {
     "query": "Which of the following include tasks that are widely considered most commonly used with automation?",
     "response": "Patching and updates"
   },
