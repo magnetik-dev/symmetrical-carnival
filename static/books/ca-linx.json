@@ -133,7 +133,7 @@
   },
   {
     "query": "A Linux system administrator working for a cloud services company is double-checking the contents of several configuration files. Recommend a basic Linux command that the administrator might use to display the contents of a file. (Select all that apply.)",
-    "response": "cat, less"
+    "response": "less"
   },
   {
     "query": "An employee of a software development company asks the systems administrator in charge of the company's Linux network to change the default shell from bash to zsh. Determine which field number (under the employee's username) the systems administrator must edit to change the default shell for that user.",
