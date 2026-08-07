@@ -4315,5 +4315,165 @@
   {
     "query": "A logistics company is experiencing high operational costs due to inefficient resource utilization in their delivery processes. Which workflow optimization technique should they implement to address this issue?",
     "response": "Optimizing resource utilization"
+  },
+  {
+    "query": "A developer for a large company needs to test their application on various operating systems, but only has access to their office workstation with plentiful resources. Which of the following will best help the developer test the application?",
+    "response": "Type 2 hypervisor"
+  },
+  {
+    "query": "Why are sensors essential in an IoT system that monitors environmental conditions?",
+    "response": "They provide real-time data input from the physical environment for further processing"
+  },
+  {
+    "query": "You are designing a web service that requires strict adherence to a predefined communication protocol to ensure data integrity and security. The service will be used by multiple clients across different platforms, and you need to ensure that all communications are structured and standardized. Why would SOAP be a better choice than REST for this web service?",
+    "response": "SOAP enforces strict communication standards"
+  },
+  {
+    "query": "You are a software developer tasked with designing a new e-commerce platform. The platform needs to handle a high volume of transactions and must be scalable to accommodate future growth. You are considering different API architectures for the backend services. Which API architecture should you choose to ensure scalability and flexibility while maintaining platform independence?",
+    "response": "REST"
+  },
+  {
+    "query": "Your team is planning to deploy a new version of an internal application used by the HR department. The application is not mission-critical, and the team can tolerate some downtime. You also want to avoid making any changes to the underlying infrastructure. Which deployment strategy should you apply and why?",
+    "response": "In-place deployment, because it minimizes infrastructure changes and downtime is acceptable"
+  },
+  {
+    "query": "An e-commerce company moves its applications to a public cloud provider to take advantage of reduced costs. After migration, the IT team observes that resource usage spikes from other customers occasionally impact their application performance. The team must determine whether the cost savings justify the performance variability and how to interpret this behavior. Which explanation BEST supports the team's analysis of this situation?",
+    "response": "Multitenancy"
+  },
+  {
+    "query": "If a company is looking for a cloud service provider that offers Kubernetes container management and is also known for its enterprise Linux operating system, which provider should they choose?",
+    "response": "Red Hat Cloud Suite"
+  },
+  {
+    "query": "Which of the following scenarios best demonstrates the effective use of cloud virtual networks for a growing e-commerce business?",
+    "response": "The business integrates its cloud-based virtual network with its on-premises network to ensure seamless communication and scalability."
+  },
+  {
+    "query": "A sysadmin is having a difficult time explaining to company executives why the company needs to move to the cloud to save costs. The terminology used was slightly contrary to what it implies. The sysadmin described the environment as requiring no configuration, monitoring, or capacity planning. The sysadmin was most likely referring to what cloud computing term?",
+    "response": "Serverless"
+  },
+  {
+    "query": "A mid size company is assessing cloud migration strategies. Of particular concern is legacy applications which the business relies on, but cannot be virtualized. Which of the following strategies would be best suited for the legacy applications?",
+    "response": "Repurchasing"
+  },
+  {
+    "query": "A company has informed their server administrator that they will be migrating several development virtual machines (VMs) to multiple cloud service providers (CSPs) to try out their services. The server administrator wants to ensure that their VMs will be able to perform properly on different cloud platforms. What type of migration should the company plan for to test these cloud services?",
+    "response": "Virtual to virtual"
+  },
+  {
+    "query": "Following a storage configuration upgrade, a number of applications have begun performing slower than expected. A technician tests the read/write performance, and the results show up to 20% slower speeds than projected. Which of the following is most likely the culprit of this performance degradation?",
+    "response": "The IOPS is exceeding its cap"
+  },
+  {
+    "query": "An organization has assigned a systems administrator to a server cluster that controls intra-organizational communication. The sysadmin must redeploy the applications and all corresponding data on the cluster to a virtual environment while ensuring no dropoff in performance. When observing the performance specifications, the sysadmin must pay the closest attention to which of the following components?",
+    "response": "vCPU"
+  },
+  {
+    "query": "A cloud architect is reviewing the environment for compliance with HIPAA regulations. Which of the following will best help?",
+    "response": "Tagging"
+  },
+  {
+    "query": "You are analyzing the performance issues of a containerized application that frequently loses critical data after being restarted. The application generates data that must be retained even if the container is stopped or deleted. What is the most likely cause of the data loss, and what should be implemented to resolve this issue?",
+    "response": "The application is using ephemeral storage; switch to persistent storage"
+  },
+  {
+    "query": "A server technician is setting up filesystem encryption and is looking for possible solutions. Which of the following will perform filesystem encryption? (Select all that apply.)",
+    "response": "GnuGPU, EFS"
+  },
+  {
+    "query": "A systems administrator must build a new server array that is fault tolerant, even with the failure of two disks. Which type of Redundant Array of Inexpensive Disks (RAID) would be most suited for this scenario? (Select all that apply.)",
+    "response": "RAID 10, RAID 6"
+  },
+  {
+    "query": "What is one consequence of vendors stopping support for various software versions?",
+    "response": "No longer producing security fixes or patches."
+  },
+  {
+    "query": "Why are CVE and related standards useful during the vulnerability assessment step?",
+    "response": "They help determine the severity and scope of vulnerabilities using standardized information."
+  },
+  {
+    "query": "Identify components that make up a standard template for requirements documents.",
+    "response": "Project constraints, Project scope, Success factors"
+  },
+  {
+    "query": "A storage administrator has concerns about data security and is investigating tools that might protect from file corruption. Which of the following should the storage administrator investigate?",
+    "response": "File integrity tools"
+  },
+  {
+    "query": "Which protocol is typically used to access Windows VM instances in the cloud?",
+    "response": "RDP"
+  },
+  {
+    "query": "An organization is in the final step of a post-incident analysis. What is the final step that needs to be done?",
+    "response": "Update Documentation and Procedures"
+  },
+  {
+    "query": "You are a security consultant hired to assess the vulnerabilities of a company's social media presence. You decide to analyze the metadata of images and posts shared by the company. Which step should you take to minimize the risk of metadata exposure in social media posts?",
+    "response": "Use metadata stripping tools before uploading images"
+  },
+  {
+    "query": "A security architect is designing a privileged access management solution for a secure government project and wants to design the security based on labels set on objects. Which of the following will accomplish this design?",
+    "response": "Mandatory access control (MAC)"
+  },
+  {
+    "query": "Given the principles of zero-trust security, which of the following approaches would be most effective in reducing the risk of unauthorized access to cloud resources?",
+    "response": "Using microsegmentation and continuous authentication verification."
+  },
+  {
+    "query": "A technician is installing a web vulnerability scanner that can identify and manage threats in cloud deployments. One of the essential services of this scanner is the integration into CI/CD pipelines for rapid and secure application releases. Which of the following is this?",
+    "response": "Burp Suite"
+  },
+  {
+    "query": "Which of the following is a tool provided by Amazon Web Services (AWS) for network path security in a zero-trust environment?",
+    "response": "AWS Elastic IP"
+  },
+  {
+    "query": "Which of the following best describes the principle of least privilege?",
+    "response": "Granting users the minimum level of access necessary to perform their tasks."
+  },
+  {
+    "query": "Which of the following methods of log aggregation would you recommend for an organization with both Linux and Windows servers, and why?",
+    "response": "Use a hybrid approach with both on-premises and cloud-based aggregation"
+  },
+  {
+    "query": "A security administrator is reviewing the asset inventory and identifying components that may not have been in the normal patch procedures. Which of the following might be out of band considerations for patching? (Select two.)",
+    "response": "Firmware, Hypervisors"
+  },
+  {
+    "query": "A company has integrated multiple workflows to achieve a specific outcome. However, they are experiencing issues with tasks not being executed in the correct order, leading to delays and errors. Which aspect of orchestration optimization should the company focus on to resolve this issue?",
+    "response": "Sequence management for processes and tasks."
+  },
+  {
+    "query": "A company received an invoice for their customer-facing web application. The accountant asked the sysadmin why the bill was so high, saying the invoice mentioned that they maxed out their Central Processing Unit (CPU) usage and memory usage over the past month. What type of subscription model is their vendor using?",
+    "response": "System load"
+  },
+  {
+    "query": "A cloud administrator is configuring storage for a data analytics platform that processes large files such as video datasets and log archives. The platform must transfer large volumes of data quickly, but it does not perform many small read/write operations. Which storage optimization metric should the administrator prioritize to improve performance?",
+    "response": "Storage throughput"
+  },
+  {
+    "query": "An online education platform is experiencing uneven server loads, with some servers being overwhelmed while others remain underutilized. As a cloud administrator, you need to ensure that the workload is evenly distributed across all servers to improve performance and reliability. Which strategy should you implement to address this issue?",
+    "response": "Load Balancing"
+  },
+  {
+    "query": "A development team is testing a new cloud-based application in a staging environment. During testing, they occasionally need to increase or decrease the number of virtual machines based on test results and developer input. The team prefers full control over when and how resources are adjusted, even if changes take longer to implement. Which scaling approach should the team use?",
+    "response": "Manual scaling"
+  },
+  {
+    "query": "An orchestration tool fails to start up properly after upgrading to a later version. Why is the tool not working?",
+    "response": "The patch failed to install correctly."
+  },
+  {
+    "query": "A cloud administrator is managing a virtual machine (VM) that runs a machine learning application. The administrator notices that CPU utilization is consistently high and the application performance is below expectations. The workload involves heavy data processing and parallel computations. Which action should the administrator take to optimize the VM's compute resources?",
+    "response": "Offload processing tasks to a GPU and tune GPU performance settings"
+  },
+  {
+    "query": "A sysadmin recently migrated the company off their old traditional phone system to one that is accessible through the cloud. Which cloud service best fits what the sysadmin implemented?",
+    "response": "Voice over Internet Protocol"
+  },
+  {
+    "query": "A company wants a cloud service to replace their traditional phones. They are looking to move to a service that allows for an application to be installed on laptops to eliminate hardware clutter. Which cloud service best fits the company's needs?",
+    "response": "Voice over Internet Protocol"
   }
 ]
