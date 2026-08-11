@@ -1,470 +1,494 @@
 [
-  {
-    "query": "A server administrator wants to run the latest technologies. What technology should the administrator start using that will replace the New Technology File System (NTFS)?",
-    "response": "ReFS"
-  },
-  {
-    "query": "A security analyst notices a critical incident that has a widespread effect on customers and can eventually involve a potential data breach. The analyst creates a ticket with the vendor and sets the importance in order to trigger a faster response time. What describes what attribute of the ticket the analyst set?",
-    "response": "Severity levels"
-  },
-  {
-    "query": "A 3D animation expert is searching for a new computer. What should they ensure it has to handle their demanding software?",
-    "response": "Dedicated graphics card"
-  },
-  {
-    "query": "Which of the following services could be used to facilitate SSO and identity synchronization across both cloud-based applications and on-premise domain login?",
-    "response": "Microsoft Entra"
-  },
-  {
-    "query": "A security administrator moves their proxy from on-premises to the cloud and wants to establish a client tunnel to the cloud proxy server for web traffic. This way, the users are protected even while out in public and not connected to the domain. What should the administrator set up?",
-    "response": "VPN"
-  },
-  {
-    "query": "A security engineer runs a long tail analysis to determine the frequency of services and processes communicating to the internet. After baselining a large amount of normal traffic, such as updates, they encounter a suspicious communication frequency every five minutes from a particular box. They have done a thorough job investigating running processes, memory analysis, and file integrity checks but find nothing. What else could the engineer check for persistence mechanisms that could send the communications?",
-    "response": "taskschd.msc"
-  },
-  {
-    "query": "The IT Department has learned that a new employee starts on Monday and will need a computer just before the weekend. There is a used PC in the storeroom. A \"no operating system found\" message appears when the computer is rebooted after a technician installs Windows 10 on the computer with the hard drive partition style set to support Unified Extensible Firmware Interface (UEFI). Determine which of the following scenarios would generate that message.",
-    "response": "Damaged hard drive"
-  },
-  {
-    "query": "Worried about a crash, a user creates a complete backup of the system configuration and data files on their computer. Identify what the user has created.",
-    "response": "An image"
-  },
-  {
-    "query": "A server administrator receives a report that the company's external-facing web server is unresponsive. Rebooting the server would take too long, and they are not even completely certain the server would come back up. What utility should the administrator use to restart the website?",
-    "response": "services.msc"
-  },
-  {
-    "query": "Which of the following accounts can users set up profile settings to synchronize between devices via the online portal?",
-    "response": "Microsoft account"
-  },
-  {
-    "query": "The electronic health records software application crashes during a busy day at a doctor's office. The IT consultant for the practice knows that the application backs up data in real-time and has the latest update installed. Which of the following options is the only one that could potentially fix the crashing issue?",
-    "response": "Uninstall and reinstall the application."
-  },
-  {
-    "query": "A client administrator sets up a new system for GUID partition table (GPT) partitioning. What dependency will the administrator need to set?",
-    "response": "UEFI"
-  },
-  {
-    "query": "A server administrator was called in to help a VIP whose computer was accidentally infected with a virus. The administrator wants to revert the computer but still preserve user personalization settings. What should the administrator use?",
-    "response": "Refresh"
-  },
-  {
-    "query": "An administrator for Apple endpoints has heard about roaming profiles on Windows where users can sync certain settings from different devices. Which of the following offers a similar functionality?",
-    "response": "iCloud keychain"
-  },
-  {
-    "query": "A security administrator for Linux systems in their demilitarized zone wants to ensure only some administrators can perform certain commands. Which of the following is best used to lock down certain commands?",
-    "response": "sudo"
-  },
-  {
-    "query": "A software development team is unaware of an exploitable vulnerability in the system. What is this type of vulnerability?",
-    "response": "Zero-day attack"
-  },
-  {
-    "query": "A technician configures a method to run some server application from a network and make it accessible to the internet. What is this method?",
-    "response": "Port forwarding"
-  },
-  {
-    "query": "A company needs to set up perimeter security to control and monitor who can approach the building. Which of the following should the company use? (Select three.)",
-    "response": "Access control vestibule"
-  },
-  {
-    "query": "Which of the following scenarios would result in a website having an untrusted or invalid certificate? (Select three.)",
-    "response": "The certificate is revoked., The certificate is self-signed., The certificate has expired."
-  },
-  {
-    "query": "Employees are expected to stay updated on skills and knowledge to cope with changing threat types. Which of the following covers this?",
-    "response": "Security-awareness training"
-  },
-  {
-    "query": "A security awareness trainer spends a good portion of the training class talking about phishing, given its popularity as an attack vector. Phishing campaigns are getting more sophisticated, so the trainer is helping the class learn how to identify a phishing email. Which of the following is an indicator of phishing? (Select three.)",
-    "response": "Urgency, Disguised links, Inconsistent sender and reply to addresses"
-  },
-  {
-    "query": "A technician is tasked to figure out why a user's Gmail app will not update on their mobile phone. The technician knows several reasons that would cause this to occur. Which of the following would be one of the reasons for this problem?",
-    "response": "Storage"
-  },
-  {
-    "query": "A user likes to watch Netflix on their phone while on the treadmill. The user turns the phone sideways for better viewing, but this time, the picture does not orient to landscape as it always has. Which of the following could cause this issue?",
-    "response": "Rotation lock is enabled."
-  },
-  {
-    "query": "A software engineer uses the \"data protection\" option for the apps on their mobile device. This option is subject to the second round of encoding using a key derived from and protected by the user's credentials. What is this method?",
-    "response": "Device encryption"
-  },
-  {
-    "query": "A technician destroys disks by putting holes through them and smashing them with a hammer. What is this method?",
-    "response": "Drilling"
-  },
-  {
-    "query": "A user is buying software for their PC. Which of the following would the user be purchasing for individual use?",
-    "response": "Personal license"
-  },
-  {
-    "query": "A company needs to ensure that both a customer's card data and the company's system are safeguarded against fraudulent purchases and identity theft. Which cybersecurity standard or best practice best fits this need?",
-    "response": "PCI DSS"
-  },
-  {
-    "query": "A new employee is going over the site safety handbook about the correct ways of carrying objects so they do not damage the object or get injured. What is this called?",
-    "response": "Lifting techniques"
-  },
-  {
-    "query": "What method gets a system back up and running using the previous configuration after a change has failed during maintenance before the recommended amount of time elapses?",
-    "response": "Rollback plan"
-  },
-  {
-    "query": "A user notices that their device has a leaking component and needs to take careful measures to minimize any risk and discard the approved component at the proper waste facility. Which of the following disposal is this?",
-    "response": "Battery"
-  },
-  {
-    "query": "A user calls the help desk complaining that Windows freezes to a blue screen every time it tries to boot. When the technician arrives, they boot the computer in Safe Mode. After evaluating this situation, what is the BEST reason the technician wants to enter Safe Mode to begin troubleshooting?",
-    "response": "Safe Mode loads only the minimum amount of drivers and services to start the system"
-  },
-  {
-    "query": "A user is about to join a Zoom call and plugs in USB-C headphones with a built-in microphone to the computer's USB 3 port. A message appears that there are not enough resources. Evaluate the situation and select the best fix for the problem.",
-    "response": "Close all running programs to free up memory"
-  },
-  {
-    "query": "An administrator assists the human resources department in testing access to their new cloud-based training site. Unfortunately, the site cannot be accessed due to a certificate issue. Which of the following should the administrator use to assist them?",
-    "response": "certmgr.msc"
-  },
-  {
-    "query": "A systems administrator wants to create a scheduled task throughout the environment, which does a basic health check at night when users are not working. Which command should the administrator use in their scheduled task?",
-    "response": "chkdsk"
-  },
-  {
-    "query": "A healthcare provider sets up color-filter modes on client machines and tailors them to specific users who are colorblind. Where can the healthcare provider configure this?",
-    "response": "Accessibility"
-  },
-  {
-    "query": "An IT manager, who is in charge of the client image, considers enabling a data at rest solution. Where can the manager go to enable the built-in Microsoft solution?",
-    "response": "System Settings"
-  },
-  {
-    "query": "Which of the following is to use clear and concise statements that avoid jargon, abbreviations, and acronyms that a user might not understand?",
-    "response": "Proper language"
-  },
-  {
-    "query": "What is this called when antivirus software scans a file before allowing or preventing it from opening?",
-    "response": "On-access scanning"
-  },
-  {
-    "query": "A user is only able to read data on the file. What account management policy is this?",
-    "response": "Restrict user permission"
-  },
-  {
-    "query": "A threat actor uses a technique that allows devices to connect to an open authentication and then redirect the user's browser to capture the network password. What is this technique?",
-    "response": "Evil twin"
-  },
-  {
-    "query": "A company needs to set up perimeter security to control and monitor who can approach the building. Which of the following?",
-    "response": "Guard, Access control vestibule, Fencing"
-  },
-  {
-    "query": "An employee uses a cryptographic contactless technique that allows access to a building. What is this technique?",
-    "response": "Badge reader"
-  },
-  {
-    "query": "A helpdesk technician is helping a user experiencing printer problems. After several troubleshooting steps, the technician thinks the user may have the wrong printer driver installed. Where should they go to install a different driver for the printer?",
-    "response": "Device Manager"
-  },
-  {
-    "query": "A server administrator sets up jobs that will copy over files on various servers and detect if the file was transferred successfully. Which command is optimal for server administrators to perform this task?",
-    "response": "robocopy"
-  },
-  {
-    "query": "An administrator wants to listen to music through headphones to help with productivity during work. However, the administrator is having issues connecting the headphones via Bluetooth. Where should they go first to look?",
-    "response": "Devices"
-  },
-  {
-    "query": "A video game development company is purchasing upgraded laptops to develop cutting-edge graphics, integrate persistent system RAM, offer Resilient File System (ReFS) support, and not require any additional license types. What type of operating system should they use?",
-    "response": "Pro for Workstations"
-  },
-  {
-    "query": "Which of the following devices come in the form of adapters, trailing sockets, or filter plugs, with the protection circuitry built in?",
-    "response": "Surge suppressor"
-  },
-  {
-    "query": "Most vendors have recycling systems for what types of products? (Select three.)",
-    "response": "Battery, Toner, Device"
-  },
-  {
-    "query": "Which of the following uses the file-copy tool in Windows using \"robocopy\"?",
-    "response": "Automated backups"
-  },
-  {
-    "query": "A company needs to ensure that both a customer's card data and the company's system are safeguarded against fraud. Which best practice best fits this need?",
-    "response": "PCI DSS"
-  },
-  {
-    "query": "An employee enters the web address of their local newspaper to check for news on the company, and a site pops up with many click-bait celebrity stories. The employee enters the address again, assuming a misspelling, but returns to the same page. When the help desk technician arrives, which of the following troubleshooting steps would they perform?",
-    "response": "Check HOSTS files for malicious entries"
-  },
-  {
-    "query": "Two friends want to share photos with each other from their iPhones. The first friend selects their photos and uses AirDrop but receives a message that there is no one nearby to share with. Why would that message appear?",
-    "response": "The second friend has Bluetooth disabled"
-  },
-  {
-    "query": "A user likes to watch Netflix on their phone while on the treadmill. The user turns the phone sideways for better viewing, but the screen does not rotate. Which of the following could cause this issue?",
-    "response": "Rotation lock is enabled"
-  },
-  {
-    "query": "What type of malware attack exploits the victim's computer to mine digital currency?",
-    "response": "Cryptominer"
-  },
-  {
-    "query": "which service could be used to facilitate sso and identity sync across both cloud-based applications and on-premise domain login?",
-    "response": "Microsoft Entra"
-  },
-  {
-    "query": "The IT department has learned that a new employee starts.'no operating system found' message appears when the computer is rebooted after windows 10 is installed with hard drive partition style UEFI, which scenario can generate the message",
-    "response": "Damaged hard drive."
-  },
-  {
-    "query": "a server administrator experiences pe4rformance issues on a server. What can the admin use to view and log performance stats (select two)",
-    "response": "Performance Monitor (perfmon), Resource Monitor (resmon)"
-  },
-  {
-    "query": "worried about a crash, a user creates complete backup of the system configuration and data files on their computer",
-    "response": "An image"
-  },
-  {
-    "query": "Users are curious about what is run on startup. The user finds the command 'net use M:\\shareddrive\\data /persistent:yes'",
-    "response": "mapped drive"
-  },
-  {
-    "query": "an admin in charge of user endpoint images wants to slipstream and use image deployment. what boot method would be best",
-    "response": "network"
-  },
-  {
-    "query": "a user is conscientious about security. Where can the user check if they are up to date on patches for their apple computer?",
-    "response": "App Store"
-  },
-  {
-    "query": "an attacker uses a technique against wireless network that allows them to flood access points with too many packets",
-    "response": "Dos - Denial of service"
-  },
-  {
-    "query": "An administrator uses a method that uses simultaneous authentication of equals (SAE) instead of a 4-way handshake.",
-    "response": "WPA3"
-  },
-  {
-    "query": "a technician implements a protocol used to facilitate single sign on (SSO) and allows a user account to authenticate to a domain controller (DC) over a trusted local cabled segment. What is this protocol",
-    "response": "Kerberos"
-  },
-  {
-    "query": "a user receives a dialog box pop-up that states 163 viruses were detected. when user clicks, it states that to get rid of the viruses, user needs to purchase full version of the software",
-    "response": "Rogueware"
-  },
-  {
-    "query": "The Snapchat app on an iOS phone will not close. The user rebooted the device, but that was unsuccessful. How to fix the problem",
-    "response": "Uninstall and reinstall the application"
-  },
-  {
-    "query": "a company hires a new app developer. The corporate network denies access when the developer tries to connect their phone. Why would t he network deny access from the developer's mobile phone",
-    "response": "Developer Mode"
-  },
-  {
-    "query": "What method uses the process of exposing the device to a high intensity magnetic field that leaves the object magnetically impartial",
-    "response": "Degaussing"
-  },
-  {
-    "query": "An administrator uses a backup rotations scheme that labels the backup tapes in generations",
-    "response": "GFS"
-  },
-  {
-    "query": "A user notices that their device has a leaking component and needs to take careful measures to mionimze any risk and discard the approved component at the proper waste facility",
-    "response": "Battery"
-  },
-  {
-    "query": "A transportation company wants to set up software that gathers statistics from the controller area network for trailers hauling loads, enabling them to adjust processes to optimize cost savings. What type of adapter will the company need to send the statistics back to their cloud network?",
-    "response": "WWAN"
-  },
-  {
-    "query": "A user disables some of the laptops' services, thinking it would speed up performance. After restarting the laptop, \"One or more services failed to start\" appears. When the IT specialist opens the Services snap-in, they identify the failed service and restart it, but that does not fix it. Which of the following scenarios best explains why the restart did not work?",
-    "response": "The user disabled a dependent service."
-  },
-  {
-    "query": "A security engineer runs a long tail analysis to determine the frequency of services and processes communicating to the internet",
-    "response": "taskschd.msc"
-  },
-  {
-    "query": "After installing Windows 11 on an older computer, a computer technician is stumped when the computer continues to boot to a blank screen. Determine which solutions could conceivably fix the blank screen from the list of available solutions. (Select two.)",
-    "response": "Update the graphics adapter driver, Repair windows"
-  },
-  {
-    "query": "Which tool will distinguish client accounts and provide support for recording and reporting",
-    "response": "RMM"
-  },
-  {
-    "query": "An adminsitrator for Apple endpoints has heard about roaming profiles",
-    "response": "iCloud keychain"
-  },
-  {
-    "query": "A technician configures a method to run some server application from a network and make it accessoble to internet",
-    "response": "Port Forwarding"
-  },
-  {
-    "query": "A company's IT support specialist is ready to start recommissioning a system as part of the malware removal process. What is the last step before removing the computer from quarantine?",
-    "response": "Antivirus scan"
-  },
-  {
-    "query": "A software company hires a new app developer. The corporate network denies access when the developer tries to connect their phone. Why would the network deny access from the developer's mobile phone?",
-    "response": "Developer mode"
-  },
-  {
-    "query": "A low battery charge can cause several different problems to occur on a mobile device. Which of the following issues could stem from a low battery? (Select all that apply.)",
-    "response": "Weak Wi-Fi signal, Weak Bluetooth signal"
-  },
-  {
-    "query": "A company has hundreds of employees who use the same software on their computers, so they offer a company product key to access the software. What is this product?",
-    "response": "Corporate-use license"
-  },
-  {
-    "query": "A spouse plans a surprise birthday party for their significant other. The spouse wants to turn off activity history on their browser to make sure their significant other \"does not find out the surprise.\" Where can the spouse do this?",
-    "response": "Privacy"
-  },
-  {
-    "query": "A technician creates full backups by having the chain start with an initial full backup as moral and makes a series of incremental backups.",
-    "response": "Synthetic"
-  },
-  {
-    "query": "which of the following devices come in the form of adapters, trailing sockets, or filter plugs",
-    "response": "surge suppressor"
-  },
-  {
-    "query": "Before an IT team can submit an application for change, it must include a document that includes an analysis of risks associated with performing the",
-    "response": "Purpose of the change"
-  },
-  {
-    "query": "Rooting is typically an action related to Android, while jailbreaking",
-    "response": "Gain unrestricted access"
-  },
-  {
-    "query": "A compamy needs to set up perimeter security to control and monitor",
-    "response": "Access control vestibule"
-  },
-  {
-    "query": "A teacher has been assigned to research low-cost operating systems to support the educational needs of the school system. Which one of the following is best geared towards accomplishing their goal?",
-    "response": "ChromeOS"
-  },
-  {
-    "query": "Which of the following backup procedures state that users should have three copies of their data across two ",
-    "response": "3-2-1 backup rule"
-  },
-  {
-    "query": "what will block third-party cookies and enable strict tracking",
-    "response": "Private browsing mode"
-  },
-  {
-    "query": "What uses a 4-way handshake to allow a station to associate with an access point, authenticate its credential, and exchange a key to use for data encryption?",
-    "response": "WPA2"
-  },
-  {
-    "query": "An attacker imitates an IT support technician for a company. The attacker asks for a user's password to gain access to the user's system remotely. What is this called?",
-    "response": "Impersonation"
-  },
-  {
-    "query": "Management provides employees with written policies and procedures to help them fulfil their tasks. themselves using secure credentials",
-    "response": "New-user setup checklist"
-  },
-  {
-    "query": "A company has experienced a power outage, but activation of an alternative power source has kicked in",
-    "response": "UPS"
-  },
-  {
-    "query": "A user notices that their device has a leaking component and needs to take careful measures to minimize",
-    "response": "Battery"
-  },
-  {
-    "query": "A compamy needs to ensure that both a customer's card data and the company's system are safeguarded against fraudulent purchases",
-    "response": "PCI DSS"
-  },
-  {
-    "query": "A new employee calls the help desk because their phone will not connect to the office wi-fi. iPhone 7",
-    "response": "Configuration"
-  },
-  {
-    "query": "What tool will distinguish client accounts and provide support for recording and reporting billable support activity?",
-    "response": "RMM"
-  },
-  {
-    "query": "Which of the following alternatives can a customer select from when an issue cannot be resolved remotely?",
-    "response": "Replace, Repair"
-  },
-  {
-    "query": "After starting the computer and signing in, a user notices the desktop takes a long time to load. Evaluate the following Windows operating system problems to determine the one that best diagnoses what could be causing the slowness.",
-    "response": "Corrupted user profile"
-  },
-  {
-    "query": "A server administrator experiences performance issues on a server and needs to narrow down the source of the problem. The server is an externally facing website with high visibility for the company. The longer the site is having issues, the more customers might notice and possibly damage the company's reputation. What can the administrator use to view and log performance statistics?",
-    "response": "perfmon.msc, resmon.exe"
-  },
-  {
-    "query": "What group has complete privilege control over a system?",
-    "response": "Administrator"
-  },
-  {
-    "query": "An administrator in charge of user endpoint images wants to slipstream and use image deployment. Which boot method would best support this?",
-    "response": "Network"
-  },
-  {
-    "query": "A helpdesk technician is helping a user experiencing printer problems. After several troubleshooting steps, the technician thinks the user may have installed the wrong driver. Where can they go to install a different driver for the printer?",
-    "response": "Device Manager"
-  },
-  {
-    "query": "A company needs to set up perimeter security to control and monitor who can approach the building. Which of the following should the company use? (Select three.)\"",
-    "response": "Access control vestibule"
-  },
-  {
-    "query": "An administrator uses a method that uses simultaneous authentication of equals (SAE) instead of the 4-way handshake. What is this method?",
-    "response": "WPA3"
-  },
-  {
-    "query": "A security awareness trainer spends a good portion of the training class talking about phishing, given its popularity as an attack vector. Phishing campaigns are getting more sophisticated, so the trainer is helping the class learn how to identify a phishing email. Which of the following is an indicator of phishing?",
-    "response": "Urgency, Disguised links, Inconsistent sender and reply to addresses"
-  },
-  {
-    "query": "A teenager hears from friends about a legitimate website to download games to their Samsung Galaxy phone that is not in the Google Play store. The teenager goes to the site and downloads some games. What best describes the teenager's behavior?",
-    "response": "APK Sideloading"
-  },
-  {
-    "query": "What are the options when a company wants to create and deliver a custom app for its employees without using a public store? (Select two.)",
-    "response": "Managed Google Play, Apple Business Manager"
-  },
-  {
-    "query": "Rooting is typically an action related to Android, while jailbreaking is associated with iOS. They are both trying to accomplish the same goal. What is that goal?",
-    "response": "Gain unrestricted access"
-  },
-  {
-    "query": "An employee is working with a substance that can potentially harm them. Which of the following should they use? (Select two.)",
-    "response": "Air filter mask, Safety goggles"
-  },
-  {
-    "query": "A technician is cleaning a computer and notices dust forming over the fan blades and ventilation slots. What can the technician use to perform dust cleanup? (Select all that apply.)",
-    "response": "PC vacuum cleaner, Natural bristle brush, Compressed air blaster"
-  },
-  {
-    "query": "A user downloaded a script, but the file was in a text file format. The user needs to change the extension to a PowerShell script to run it, but they do not see the extension. Where can the user configure this setting?",
-    "response": "File Explorer Options View tab"
-  },
-  {
-    "query": "An employee uses an option to ask for help from a technician with an invitation file protected by a passcode. What is this option?",
-    "response": "Remote Assistance"
-  },
-  {
-    "query": "Over the course of a day, a user's computer becomes slow, and pop-ups randomly appear on the screen. Later, these pop-ups become more frequent, and the user notices that Internet searchers are using Google versus the selected default web browser, Firefox. Once the computer starts repeatedly crashing, the user calls tech support for help. Considering these data points, which is the best diagnosis for the observed problem?",
-    "response": "Adware or spyware infection"
-  },
-  {
-    "query": "A senior systems administrator wants to convert the organization to a cloud-based email service. Which of the following should be considered",
-    "response": "Gmail"
-  },
-  {
-    "query": "What technique is often used to exhibit fake antivirus and security warnings or other malicious advertising?",
-    "response": "Pop-ups"
-  }
+    {
+        "query": "Which of the following is to use clear and concise statements that avoid jargon, abbreviations, and acronyms that a user might not understand?",
+        "response": "Proper language"
+    },
+    {
+        "query": "Management provides employees with written policies and procedures to help them fulfill their tasks. Which of the following procedures requires employees to enroll and identify themselves using secure credentials?",
+        "response": "New-user setup checklist"
+    },
+    {
+        "query": "Which of the following services could be used to facilitate SSO and identity synchronization across both cloud-based applications and on-premise domain login?",
+        "response": "Microsoft Entra"
+    },
+    {
+        "query": "A user downloaded a script, but the file was in a text file format. The user needs to change the extension to a PowerShell script to run it, but they do not see the extension. Where can the user configure this setting?",
+        "response": "File Explorer Options View tab"
+    },
+    {
+        "query": "A systems administrator wants to create a scheduled task throughout the environment, which does a basic health check at night when users are not working. Which command should the administrator use in their scheduled task?",
+        "response": "chkdsk"
+    },
+    {
+        "query": "A transportation company wants to set up software that gathers statistics from the controller area network for trailers hauling loads, enabling them to adjust processes to optimize cost savings. What type of adapter will the company need to send the statistics back to their cloud network?",
+        "response": "WWAN"
+    },
+    {
+        "query": "A server administrator receives a report that the company's external-facing web server is unresponsive. Rebooting the server would take too long, and they are not even completely certain the server would come back up. What utility should the administrator use to restart the website?",
+        "response": "services.msc"
+    },
+    {
+        "query": "A user disables some of the laptops' services, thinking it would speed up performance. After restarting the laptop, \"One or more services failed to start\" appears. When the IT specialist opens the Services snap-in, they identify the failed service and restart it, but that does not fix it. Which of the following scenarios best explains why the restart did not work?",
+        "response": "The user disabled a dependent service."
+    },
+    {
+        "query": "An employee uses an option to ask for help from a technician with an invitation file protected by a passcode. What is this option?",
+        "response": "Remote Assistance"
+    },
+    {
+        "query": "Users are curious about what is run on startup, so they dig into the startup script. The users find the command \"net use M: \\\\sharedrive\\data /persistent:yes.\" What is the startup script invoking?",
+        "response": "Mapped drive"
+    },
+    {
+        "query": "Which of the following accounts can users set up profile settings to synchronize between devices via the online portal?",
+        "response": "Microsoft account"
+    },
+    {
+        "query": "A video game development company is purchasing upgraded laptops to develop cutting-edge graphics for a new story they have been marketing. They want the operating system to integrate persistent system RAM, offer Resilient File System (ReFS) support, and not require any additional license types. What type of operating system should they use for support?",
+        "response": "Pro for Workstations"
+    },
+    {
+        "query": "A server administrator was called in to help a VIP whose computer was accidentally infected with a virus. The administrator wants to revert the computer but still preserve user personalization settings. What should the administrator use?",
+        "response": "Refresh"
+    },
+    {
+        "query": "A user is conscientious about security after hearing about breaches in the news. The user wants to see if they are up to date on patches for their Apple computer. Where should the user go to check?",
+        "response": "App Store"
+    },
+    {
+        "query": "An administrator wants to listen to music through headphones to help with productivity during work. However, the administrator is having issues connecting the headphones via Bluetooth. Where should they go first to look?",
+        "response": "Devices"
+    },
+    {
+        "query": "A software development team is unaware of an exploitable vulnerability in the system. What is this type of vulnerability?",
+        "response": "Zero-day attack"
+    },
+    {
+        "query": "A technician implements a protocol used to facilitate single sign-on (SSO) and allows a user account to authenticate to a domain controller (DC) over a trusted local cabled segment. What is the name of this protocol/method?",
+        "response": "Kerberos"
+    },
+    {
+        "query": "What uses a 4-way handshake to allow a station to associate with an access point, authenticate its credential, and exchange a key to use for data encryption?",
+        "response": "WPA2"
+    },
+    {
+        "query": "While researching and writing a paper on their home computer, a student notices an alert in the notification area that Windows Defender has expired and needs to be updated. The student is annoyed by the interruption but clicks on the alert and follows the update instructions. Later, the student told their parents that Defender expired, and they installed the update. The student's parents are panic-stricken. Determine the best reason for the parents' reaction from the information provided.",
+        "response": "A malicious browser push notification tricked the student into downloading malware."
+    },
+    {
+        "query": "A company uses a method that restricts its employees from changing or adjusting their computer settings. What is this method called?",
+        "response": "BIOS password"
+    },
+    {
+        "query": "A user is only able to read data on the file. What account management policy is this?",
+        "response": "Restrict user permission."
+    },
+    {
+        "query": "Rooting is typically an action related to Android, while jailbreaking is associated with iOS. They are both trying to accomplish the same goal. What is that goal?",
+        "response": "Gain unrestricted access."
+    },
+    {
+        "query": "A teenager hears from friends about a legitimate website to download games to their Samsung Galaxy phone that is not in the Google Play store. The teenager goes to the site and downloads some games. What best describes the teenager's behavior?",
+        "response": "APK sideloading"
+    },
+    {
+        "query": "The Snapchat app on an iOS phone will not close. The user rebooted the device, but that was unsuccessful. Which of the following options would be the best for the user to try to fix the problem?",
+        "response": "Uninstall, then reinstall"
+    },
+    {
+        "query": "What method uses the process of exposing the device to a high-intensity magnetic field that leaves the object magnetically impartial?",
+        "response": "Degaussing"
+    },
+    {
+        "query": "Which of the following backup procedures state that users should have three copies of their data across two media types, with one copy held off-line and off-site?",
+        "response": "3-2-1 backup rule"
+    },
+    {
+        "query": "A company decides to install an AI-assisted chatbot on each of their employees' desktops. The company then holds training for the new tool and has each employee sign an agreement on how they are allowed to use it. This agreement is normally part of an organization's what?",
+        "response": "Acceptable use policy"
+    },
+    {
+        "query": "A new employee is going over the site safety handbook about the correct ways of carrying objects so they do not damage the object or get injured. What is this called?",
+        "response": "Lifting techniques"
+    },
+    {
+        "query": "What method gets a system back up and running using the previous configuration after a change has failed during maintenance before the recommended amount of time elapses?",
+        "response": "Rollback plan"
+    },
+    {
+        "query": "Which of the following devices come in the form of adapters, trailing sockets, or filter plugs, with the protection circuitry built into the unit?",
+        "response": "Surge suppressor"
+    },
+    {
+        "query": "A server administrator wants to run the latest technologies. What technology should the administrator start using that will replace the New Technology File System (NTFS)?",
+        "response": "ReFS"
+    },
+    {
+        "query": "A security analyst notices a critical incident that has a widespread effect on customers and can eventually involve a potential data breach. The analyst creates a ticket with the vendor and sets the importance in order to trigger a faster response time. What describes what attribute of the ticket the analyst set?",
+        "response": "Severity levels"
+    },
+    {
+        "query": "A 3D animation expert is searching for a new computer. What should they ensure it has to handle their demanding software?",
+        "response": "Dedicated graphics card"
+    },
+    {
+        "query": "A security administrator moves their proxy from on-premises to the cloud and wants to establish a client tunnel to the cloud proxy server for web traffic. This way, the users are protected even while out in public and not connected to the domain. What should the administrator set up?",
+        "response": "VPN"
+    },
+    {
+        "query": "A security engineer runs a long tail analysis to determine the frequency of services and processes communicating to the internet. After baselining a large amount of normal traffic, such as updates, they encounter a suspicious communication frequency every five minutes from a particular box. They have done a thorough job investigating running processes, memory analysis, and file integrity checks but find nothing. What else could the engineer check for persistence mechanisms that could send the communications?",
+        "response": "taskschd.msc"
+    },
+    {
+        "query": "The IT Department has learned that a new employee starts on Monday and will need a computer just before the weekend. There is a used PC in the storeroom. A \"no operating system found\" message appears when the computer is rebooted after a technician installs Windows 10 on the computer with the hard drive partition style set to support Unified Extensible Firmware Interface (UEFI). Determine which of the following scenarios would generate that message.",
+        "response": "Damaged hard drive"
+    },
+    {
+        "query": "Worried about a crash, a user creates a complete backup of the system configuration and data files on their computer. Identify what the user has created.",
+        "response": "An image"
+    },
+    {
+        "query": "The electronic health records software application crashes during a busy day at a doctor's office. The IT consultant for the practice knows that the application backs up data in real-time and has the latest update installed. Which of the following options is the only one that could potentially fix the crashing issue?",
+        "response": "Uninstall and reinstall the application."
+    },
+    {
+        "query": "A client administrator sets up a new system for GUID partition table (GPT) partitioning. What dependency will the administrator need to set?",
+        "response": "UEFI"
+    },
+    {
+        "query": "An administrator for Apple endpoints has heard about roaming profiles on Windows where users can sync certain settings from different devices. Which of the following offers a similar functionality?",
+        "response": "iCloud keychain"
+    },
+    {
+        "query": "A security administrator for Linux systems in their demilitarized zone wants to ensure only some administrators can perform certain commands. Which of the following is best used to lock down certain commands?",
+        "response": "sudo"
+    },
+    {
+        "query": "A technician configures a method to run some server application from a network and make it accessible to the internet. What is this method?",
+        "response": "Port forwarding"
+    },
+    {
+        "query": "A company needs to set up perimeter security to control and monitor who can approach the building. Which of the following should the company use? (Select three.)",
+        "response": "Access control vestibule"
+    },
+    {
+        "query": "Which of the following scenarios would result in a website having an untrusted or invalid certificate? (Select three.)",
+        "response": "The certificate is revoked., The certificate is self-signed., The certificate has expired."
+    },
+    {
+        "query": "Employees are expected to stay updated on skills and knowledge to cope with changing threat types. Which of the following covers this?",
+        "response": "Security-awareness training"
+    },
+    {
+        "query": "A security awareness trainer spends a good portion of the training class talking about phishing, given its popularity as an attack vector. Phishing campaigns are getting more sophisticated, so the trainer is helping the class learn how to identify a phishing email. Which of the following is an indicator of phishing? (Select three.)",
+        "response": "Urgency, Disguised links, Inconsistent sender and reply to addresses"
+    },
+    {
+        "query": "A technician is tasked to figure out why a user's Gmail app will not update on their mobile phone. The technician knows several reasons that would cause this to occur. Which of the following would be one of the reasons for this problem?",
+        "response": "Storage"
+    },
+    {
+        "query": "A user likes to watch Netflix on their phone while on the treadmill. The user turns the phone sideways for better viewing, but this time, the picture does not orient to landscape as it always has. Which of the following could cause this issue?",
+        "response": "Rotation lock is enabled."
+    },
+    {
+        "query": "A software engineer uses the \"data protection\" option for the apps on their mobile device. This option is subject to the second round of encoding using a key derived from and protected by the user's credentials. What is this method?",
+        "response": "Device encryption"
+    },
+    {
+        "query": "A technician destroys disks by putting holes through them and smashing them with a hammer. What is this method?",
+        "response": "Drilling"
+    },
+    {
+        "query": "A user is buying software for their PC. Which of the following would the user be purchasing for individual use?",
+        "response": "Personal license"
+    },
+    {
+        "query": "A company needs to ensure that both a customer's card data and the company's system are safeguarded against fraudulent purchases and identity theft. Which cybersecurity standard or best practice best fits this need?",
+        "response": "PCI DSS"
+    },
+    {
+        "query": "A user notices that their device has a leaking component and needs to take careful measures to minimize any risk and discard the approved component at the proper waste facility. Which of the following disposal is this?",
+        "response": "Battery"
+    },
+    {
+        "query": "A user calls the help desk complaining that Windows freezes to a blue screen every time it tries to boot. When the technician arrives, they boot the computer in Safe Mode. After evaluating this situation, what is the BEST reason the technician wants to enter Safe Mode to begin troubleshooting?",
+        "response": "Safe Mode loads only the minimum amount of drivers and services to start the system"
+    },
+    {
+        "query": "A user is about to join a Zoom call and plugs in USB-C headphones with a built-in microphone to the computer's USB 3 port. A message appears that there are not enough resources. Evaluate the situation and select the best fix for the problem.",
+        "response": "Close all running programs to free up memory"
+    },
+    {
+        "query": "An administrator assists the human resources department in testing access to their new cloud-based training site. Unfortunately, the site cannot be accessed due to a certificate issue. Which of the following should the administrator use to assist them?",
+        "response": "certmgr.msc"
+    },
+    {
+        "query": "A healthcare provider sets up color-filter modes on client machines and tailors them to specific users who are colorblind. Where can the healthcare provider configure this?",
+        "response": "Accessibility"
+    },
+    {
+        "query": "An IT manager, who is in charge of the client image, considers enabling a data at rest solution. Where can the manager go to enable the built-in Microsoft solution?",
+        "response": "System Settings"
+    },
+    {
+        "query": "What is this called when antivirus software scans a file before allowing or preventing it from opening?",
+        "response": "On-access scanning"
+    },
+    {
+        "query": "A threat actor uses a technique that allows devices to connect to an open authentication and then redirect the user's browser to capture the network password. What is this technique?",
+        "response": "Evil twin"
+    },
+    {
+        "query": "A company needs to set up perimeter security to control and monitor who can approach the building. Which of the following?",
+        "response": "Guard, Access control vestibule, Fencing"
+    },
+    {
+        "query": "An employee uses a cryptographic contactless technique that allows access to a building. What is this technique?",
+        "response": "Badge reader"
+    },
+    {
+        "query": "A helpdesk technician is helping a user experiencing printer problems. After several troubleshooting steps, the technician thinks the user may have the wrong printer driver installed. Where should they go to install a different driver for the printer?",
+        "response": "Device Manager"
+    },
+    {
+        "query": "A server administrator sets up jobs that will copy over files on various servers and detect if the file was transferred successfully. Which command is optimal for server administrators to perform this task?",
+        "response": "robocopy"
+    },
+    {
+        "query": "A video game development company is purchasing upgraded laptops to develop cutting-edge graphics, integrate persistent system RAM, offer Resilient File System (ReFS) support, and not require any additional license types. What type of operating system should they use?",
+        "response": "Pro for Workstations"
+    },
+    {
+        "query": "Most vendors have recycling systems for what types of products? (Select three.)",
+        "response": "Battery, Toner, Device"
+    },
+    {
+        "query": "Which of the following uses the file-copy tool in Windows using \"robocopy\"?",
+        "response": "Automated backups"
+    },
+    {
+        "query": "A company needs to ensure that both a customer's card data and the company's system are safeguarded against fraud. Which best practice best fits this need?",
+        "response": "PCI DSS"
+    },
+    {
+        "query": "An employee enters the web address of their local newspaper to check for news on the company, and a site pops up with many click-bait celebrity stories. The employee enters the address again, assuming a misspelling, but returns to the same page. When the help desk technician arrives, which of the following troubleshooting steps would they perform?",
+        "response": "Check HOSTS files for malicious entries"
+    },
+    {
+        "query": "Two friends want to share photos with each other from their iPhones. The first friend selects their photos and uses AirDrop but receives a message that there is no one nearby to share with. Why would that message appear?",
+        "response": "The second friend has Bluetooth disabled"
+    },
+    {
+        "query": "A user likes to watch Netflix on their phone while on the treadmill. The user turns the phone sideways for better viewing, but the screen does not rotate. Which of the following could cause this issue?",
+        "response": "Rotation lock is enabled"
+    },
+    {
+        "query": "What type of malware attack exploits the victim's computer to mine digital currency?",
+        "response": "Cryptominer"
+    },
+    {
+        "query": "which service could be used to facilitate sso and identity sync across both cloud-based applications and on-premise domain login?",
+        "response": "Microsoft Entra"
+    },
+    {
+        "query": "The IT department has learned that a new employee starts.'no operating system found' message appears when the computer is rebooted after windows 10 is installed with hard drive partition style UEFI, which scenario can generate the message",
+        "response": "Damaged hard drive."
+    },
+    {
+        "query": "a server administrator experiences pe4rformance issues on a server. What can the admin use to view and log performance stats (select two)",
+        "response": "Performance Monitor (perfmon), Resource Monitor (resmon)"
+    },
+    {
+        "query": "an admin in charge of user endpoint images wants to slipstream and use image deployment. what boot method would be best",
+        "response": "network"
+    },
+    {
+        "query": "an attacker uses a technique against wireless network that allows them to flood access points with too many packets",
+        "response": "Dos - Denial of service"
+    },
+    {
+        "query": "An administrator uses a method that uses simultaneous authentication of equals (SAE) instead of a 4-way handshake.",
+        "response": "WPA3"
+    },
+    {
+        "query": "a technician implements a protocol used to facilitate single sign on (SSO) and allows a user account to authenticate to a domain controller (DC) over a trusted local cabled segment. What is this protocol",
+        "response": "Kerberos"
+    },
+    {
+        "query": "a user receives a dialog box pop-up that states 163 viruses were detected. when user clicks, it states that to get rid of the viruses, user needs to purchase full version of the software",
+        "response": "Rogueware"
+    },
+    {
+        "query": "The Snapchat app on an iOS phone will not close. The user rebooted the device, but that was unsuccessful. How to fix the problem",
+        "response": "Uninstall and reinstall the application"
+    },
+    {
+        "query": "a company hires a new app developer. The corporate network denies access when the developer tries to connect their phone. Why would t he network deny access from the developer's mobile phone",
+        "response": "Developer Mode"
+    },
+    {
+        "query": "What method uses the process of exposing the device to a high intensity magnetic field that leaves the object magnetically impartial",
+        "response": "Degaussing"
+    },
+    {
+        "query": "An administrator uses a backup rotations scheme that labels the backup tapes in generations",
+        "response": "GFS"
+    },
+    {
+        "query": "A user notices that their device has a leaking component and needs to take careful measures to mionimze any risk and discard the approved component at the proper waste facility",
+        "response": "Battery"
+    },
+    {
+        "query": "A security engineer runs a long tail analysis to determine the frequency of services and processes communicating to the internet",
+        "response": "taskschd.msc"
+    },
+    {
+        "query": "After installing Windows 11 on an older computer, a computer technician is stumped when the computer continues to boot to a blank screen. Determine which solutions could conceivably fix the blank screen from the list of available solutions. (Select two.)",
+        "response": "Update the graphics adapter driver, Repair windows"
+    },
+    {
+        "query": "Which tool will distinguish client accounts and provide support for recording and reporting",
+        "response": "RMM"
+    },
+    {
+        "query": "An adminsitrator for Apple endpoints has heard about roaming profiles",
+        "response": "iCloud keychain"
+    },
+    {
+        "query": "A technician configures a method to run some server application from a network and make it accessoble to internet",
+        "response": "Port Forwarding"
+    },
+    {
+        "query": "A company's IT support specialist is ready to start recommissioning a system as part of the malware removal process. What is the last step before removing the computer from quarantine?",
+        "response": "Antivirus scan"
+    },
+    {
+        "query": "A software company hires a new app developer. The corporate network denies access when the developer tries to connect their phone. Why would the network deny access from the developer's mobile phone?",
+        "response": "Developer mode"
+    },
+    {
+        "query": "A low battery charge can cause several different problems to occur on a mobile device. Which of the following issues could stem from a low battery? (Select all that apply.)",
+        "response": "Weak Wi-Fi signal, Weak Bluetooth signal"
+    },
+    {
+        "query": "A company has hundreds of employees who use the same software on their computers, so they offer a company product key to access the software. What is this product?",
+        "response": "Corporate-use license"
+    },
+    {
+        "query": "A spouse plans a surprise birthday party for their significant other. The spouse wants to turn off activity history on their browser to make sure their significant other \"does not find out the surprise.\" Where can the spouse do this?",
+        "response": "Privacy"
+    },
+    {
+        "query": "A technician creates full backups by having the chain start with an initial full backup as moral and makes a series of incremental backups.",
+        "response": "Synthetic"
+    },
+    {
+        "query": "Before an IT team can submit an application for change, it must include a document that includes an analysis of risks associated with performing the",
+        "response": "Purpose of the change"
+    },
+    {
+        "query": "Rooting is typically an action related to Android, while jailbreaking",
+        "response": "Gain unrestricted access"
+    },
+    {
+        "query": "A compamy needs to set up perimeter security to control and monitor",
+        "response": "Access control vestibule"
+    },
+    {
+        "query": "A teacher has been assigned to research low-cost operating systems to support the educational needs of the school system. Which one of the following is best geared towards accomplishing their goal?",
+        "response": "ChromeOS"
+    },
+    {
+        "query": "what will block third-party cookies and enable strict tracking",
+        "response": "Private browsing mode"
+    },
+    {
+        "query": "An attacker imitates an IT support technician for a company. The attacker asks for a user's password to gain access to the user's system remotely. What is this called?",
+        "response": "Impersonation"
+    },
+    {
+        "query": "Management provides employees with written policies and procedures to help them fulfil their tasks. themselves using secure credentials",
+        "response": "New-user setup checklist"
+    },
+    {
+        "query": "A company has experienced a power outage, but activation of an alternative power source has kicked in",
+        "response": "UPS"
+    },
+    {
+        "query": "A user notices that their device has a leaking component and needs to take careful measures to minimize",
+        "response": "Battery"
+    },
+    {
+        "query": "A compamy needs to ensure that both a customer's card data and the company's system are safeguarded against fraudulent purchases",
+        "response": "PCI DSS"
+    },
+    {
+        "query": "A new employee calls the help desk because their phone will not connect to the office wi-fi. iPhone 7",
+        "response": "Configuration"
+    },
+    {
+        "query": "What tool will distinguish client accounts and provide support for recording and reporting billable support activity?",
+        "response": "RMM"
+    },
+    {
+        "query": "Which of the following alternatives can a customer select from when an issue cannot be resolved remotely?",
+        "response": "Replace, Repair"
+    },
+    {
+        "query": "After starting the computer and signing in, a user notices the desktop takes a long time to load. Evaluate the following Windows operating system problems to determine the one that best diagnoses what could be causing the slowness.",
+        "response": "Corrupted user profile"
+    },
+    {
+        "query": "A server administrator experiences performance issues on a server and needs to narrow down the source of the problem. The server is an externally facing website with high visibility for the company. The longer the site is having issues, the more customers might notice and possibly damage the company's reputation. What can the administrator use to view and log performance statistics?",
+        "response": "perfmon.msc, resmon.exe"
+    },
+    {
+        "query": "What group has complete privilege control over a system?",
+        "response": "Administrator"
+    },
+    {
+        "query": "An administrator in charge of user endpoint images wants to slipstream and use image deployment. Which boot method would best support this?",
+        "response": "Network"
+    },
+    {
+        "query": "A helpdesk technician is helping a user experiencing printer problems. After several troubleshooting steps, the technician thinks the user may have installed the wrong driver. Where can they go to install a different driver for the printer?",
+        "response": "Device Manager"
+    },
+    {
+        "query": "A company needs to set up perimeter security to control and monitor who can approach the building. Which of the following should the company use? (Select three.)\"",
+        "response": "Access control vestibule"
+    },
+    {
+        "query": "An administrator uses a method that uses simultaneous authentication of equals (SAE) instead of the 4-way handshake. What is this method?",
+        "response": "WPA3"
+    },
+    {
+        "query": "A security awareness trainer spends a good portion of the training class talking about phishing, given its popularity as an attack vector. Phishing campaigns are getting more sophisticated, so the trainer is helping the class learn how to identify a phishing email. Which of the following is an indicator of phishing?",
+        "response": "Urgency, Disguised links, Inconsistent sender and reply to addresses"
+    },
+    {
+        "query": "What are the options when a company wants to create and deliver a custom app for its employees without using a public store? (Select two.)",
+        "response": "Managed Google Play, Apple Business Manager"
+    },
+    {
+        "query": "An employee is working with a substance that can potentially harm them. Which of the following should they use? (Select two.)",
+        "response": "Air filter mask, Safety goggles"
+    },
+    {
+        "query": "A technician is cleaning a computer and notices dust forming over the fan blades and ventilation slots. What can the technician use to perform dust cleanup? (Select all that apply.)",
+        "response": "PC vacuum cleaner, Natural bristle brush, Compressed air blaster"
+    },
+    {
+        "query": "Over the course of a day, a user's computer becomes slow, and pop-ups randomly appear on the screen. Later, these pop-ups become more frequent, and the user notices that Internet searchers are using Google versus the selected default web browser, Firefox. Once the computer starts repeatedly crashing, the user calls tech support for help. Considering these data points, which is the best diagnosis for the observed problem?",
+        "response": "Adware or spyware infection"
+    },
+    {
+        "query": "A senior systems administrator wants to convert the organization to a cloud-based email service. Which of the following should be considered",
+        "response": "Gmail"
+    },
+    {
+        "query": "What technique is often used to exhibit fake antivirus and security warnings or other malicious advertising?",
+        "response": "Pop-ups"
+    }
 ]
