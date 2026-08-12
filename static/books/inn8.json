@@ -346,5 +346,25 @@
   {
     "query": "Which of the following lists the prefix (CIDR) format equivalent of 255.255.224.0?",
     "response": "/19"
+  },
+  {
+    "query": "Which network type does OSPF use by default on all types of Ethernet interfaces?",
+    "response": "Broadcast"
+  },
+  {
+    "query": "You have just completed the setup of your new Cisco 2960 switch, and you need to save your work. To save the configuration file, you would issue which of the following commands?",
+    "response": "copy running-config startup-config"
+  },
+  {
+    "query": "Which of the following is the most essential fact that allows the IEEE autonegotiation protocol to function?",
+    "response": "Wiring pinouts are common for 10BASE-T, 100BASE-T, and 1000BASE-T"
+  },
+  {
+    "query": "The STP root switch is the switch with the lowest numeric value for the ________.",
+    "response": "Bridge ID"
+  },
+  {
+    "query": "What is the name of the process that is defined by IEEE 802.1Q to relay traffic from multiple VLANs?",
+    "response": "VLAN tagging"
   }
 ]
