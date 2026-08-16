@@ -1,0 +1,198 @@
+[
+  {
+    "query": "Which of the following is described as \u201cthe process of generating random values for uncertain inputs in a model, computing the output variables of interest, and repeating this process for many trials (replications) to understand the distribution of the output results and their statistical properties\u201d?",
+    "response": "Monte Carlo simulation"
+  },
+  {
+    "query": "To generate a random variate from a binomial distribution, we may use the Excel function BINOM.INV( trials , probability , alpha ). What does this function find?",
+    "response": "The smallest value for which the cumulative binomial distribution is greater than or equal toalpha"
+  },
+  {
+    "query": "What would be the result of the Excel function U = a + (b - a) * RAND( )?",
+    "response": "A random number between a to b"
+  },
+  {
+    "query": "Which of the following distributions is the mean in the Excel function = \u2013 4 * LN(RAND( ))?",
+    "response": "1/4"
+  },
+  {
+    "query": "The table below shows the probability mass function and cumulative distribution in decimal form for rolling two dice. What would be the value of F(10)? x f (x) F(x) 2 0.0278 0.0278 3 0.0555 0.0833 4 0.0833 0.1666 5 0.2777 6 0.1389 0.4166 7 0.1667 0.5833 8 0.13889 0.72219 9 0.11111 0.8333 10 0.0833 11 0.0556 0.9722 12 0.0278 1",
+    "response": "0.9166"
+  },
+  {
+    "query": "A value randomly generated from a specified probability distribution is called a \u2026\u2026.",
+    "response": "Random variate"
+  },
+  {
+    "query": "Which of the following functions should you use to randomly generate a binomial random variate?",
+    "response": "BINOM.INV(n,p,RAND())."
+  },
+  {
+    "query": "Which is true for the following problem?",
+    "response": "The problem has alternative optimal solutions."
+  },
+  {
+    "query": "Which of the graphs illustrates the solution space of the following problem by the highlighted part?",
+    "response": ""
+  },
+  {
+    "query": "What is sensitivity analysis?",
+    "response": "A technique used to analyze the effect of changing input variables on the output of a simulation model"
+  },
+  {
+    "query": "Suppose that the manager of a factory has decided to produce two new products A and B. Every unit of A and B needs 2 kg and 5 kg of raw material C, respectively. Only 200 kg of raw material C is available. If x A and x B denote the amount of products A and B that should be produced, which of the following shows the correct constraint in this case?",
+    "response": "2xA+ 5xB200"
+  },
+  {
+    "query": "Suppose that the manager of a factory has decided to produce two new products, A and B. The sale of each item of A will make a profit of $3 and for B it will be $4. If x A and x B denote the amount of products A and B that should be produced, which of the following shows the correct objective function in this case?",
+    "response": "max 3xA+ 4xB"
+  },
+  {
+    "query": "There are some integer linear programming problems in which the feasible solution space is empty.",
+    "response": "The correct answer is 'True'."
+  },
+  {
+    "query": "In linear programming, what is the objective function?",
+    "response": "A function used to measure the performance of the decision variable"
+  },
+  {
+    "query": "What is a nonlinear optimization model?",
+    "response": "It is an optimization model in which the objective function and/or at least one constraint is nonlinear."
+  },
+  {
+    "query": "What is the linear program relaxation?",
+    "response": "If we solve the linear optimization model without the integer restrictions it is called the linear program relaxation."
+  },
+  {
+    "query": "What is a quadratic optimization model?",
+    "response": "It is an optimization model in which the objective function is quadratic and all constraints are linear."
+  },
+  {
+    "query": "After solving an optimization problem by solver, how many of the following could be provided by the Solver Sensitivity Report? It allows us to understand how the optimal objective value and optimal decision variables are affected by changes in the objective function coefficients. It allows us to understand the impact of forced changes in certain decision variables. It allows us to understand the impact of changes in the constraint resource limitations or requirements. It allows us to accumulate or add the effects of sensitivity information even if the values of multiple parameters in a model change simultaneously.",
+    "response": "3"
+  },
+  {
+    "query": "When is a solution a degenerate solution?",
+    "response": "If the right-hand-side value of any constraint has a zero Allowable Increase or Allowable Decrease."
+  },
+  {
+    "query": "Degeneracy can impact the interpretation of sensitivity analysis information.",
+    "response": "The correct answer is 'True'."
+  },
+  {
+    "query": "Problem solving consists of several phases. How many of the following are included in these phases? Recognizing a problem Defining the problem Structuring the problem Analyzing the problem Interpreting results and making a decision Implementing the solution",
+    "response": "6"
+  },
+  {
+    "query": "Which of the following describes a Pay-off table?",
+    "response": "A matrix whose rows correspond to decisions and whose columns correspond to events"
+  },
+  {
+    "query": "Select the term described by the following sentences. It represents the improvement in the expected return that can be achieved if the decision maker is able to acquire\u2014before making a decision\u2014additional information about the future event that will take place.",
+    "response": "The value of information"
+  },
+  {
+    "query": "A company has two factories, A and B, that produce calculators. 70% of all calculators produced by this company are made in factory A. A historical report from this company shows that 3% of calculators that were made by factory A have some issues while for factory B the issues rate is 2%. Sam has sold a calculator made by this company. The calculator has some issues. What is the probability that this calculator was made by factory B?",
+    "response": "6/27"
+  },
+  {
+    "query": "A more general case of the average payoff strategy is when the probabilities of the outcomes are not all the same. This is called the ___________ strategy.",
+    "response": "Expected value"
+  },
+  {
+    "query": "How many of the following sentences are correct about R Square ? R 2 is a measure of how well the regression line fits the data. R 2 gives the proportion of variation in the dependent variable that is explained by the independent variable of the regression model. The value of R 2 is between -1 and 1. R 2 = 0 means all data points lie on the regression line.",
+    "response": "2"
+  },
+  {
+    "query": "How many of the following are true? Standard residuals are residuals divided by their standard deviation. The residual is simply the difference between the actual value of the dependent variable and the predicted value. Regression analysis assumes that the errors for each individual value of X are normally distributed, with a mean of zero.",
+    "response": "3"
+  },
+  {
+    "query": "A systematic approach to building good regression models contains four steps. Which of the following is not a correct step? Step I. Construct a model with all available independent variables. Check for the significance of the independent variables by examining the p-values. Step II. Identify the independent variable having the largest p-value that exceeds the chosen level of significance. Step III. Remove the variable identified in step two from the model. (Do not remove all variables with p-values that exceed [the significant level] at the same time, but remove only one at a time.) Step IV. Stop when the first variable is significant.",
+    "response": "Step IV"
+  },
+  {
+    "query": "Which of the answers can complete the following sentence? \u201cSimple linear regression involves finding a \u2026\u2026.... relationship between one \u2026\u2026.... variable, X, and one \u2026\u2026.... variable, Y.\u201d",
+    "response": "Linear, independent, dependent"
+  },
+  {
+    "query": "How many of the following sentences are correct for Multiple R and R Square (or R2) in the context of multiple regression? They called the multiple correlation coefficient and the coefficient of multiple determination, respectively. They indicate the strength of association between the dependent and independent variables. R2 explains the percentage of variation in the dependent variable that is explained by the set of independent variables in the model.",
+    "response": "3"
+  },
+  {
+    "query": "Which of the answers can complete the following sentence correctly? It necessary to \u2026\u2026.. categorical independent variables in regression modelling.",
+    "response": "Code"
+  },
+  {
+    "query": "How many of the following sentences are correct? Regression analysis is a tool for building mathematical and statistical models that characterize relationships between a dependent variable and one or more independent variables Regression analysis works only with linear regression. A regression model that involves two or more independent variables is called multiple",
+    "response": "2"
+  },
+  {
+    "query": "There are models that are similar to exponential smoothing models that use smoothing constants to smooth surface changes and seasonal patterns over time. What are these models called?",
+    "response": "Holt-Winters models"
+  },
+  {
+    "query": "Which of the answers can complete the following sentence correctly? The \u2026\u2026\u2026\u2026. is a smoothing method based on the idea of averaging random fluctuations in the time series to identify the underlying direction in which the time series is changing.",
+    "response": "simple moving average method"
+  },
+  {
+    "query": "Three error metrics that are commonly used to analyze the effectiveness of different forecasting models and compare quantitatively the forecast with the actual observations are \u2026\u2026\u2026",
+    "response": "The mean absolute deviation, mean square error and mean absolute percentage error"
+  },
+  {
+    "query": "Which of the following is true?",
+    "response": "Qualitative and judgmental techniques are necessary when historical data are not available or when the decision maker needs to forecast far into the future."
+  },
+  {
+    "query": "Suppose that the following Excel file, Table 1, shows the data for the number of units sold for the past 10 weeks in a company as the observed value. Table 1 unit sold A t Forecast F t Week 1 22 Week 2 24 Week 3 23 Week 4 25 Week 5 27 Week 6 26 Week 7 28 Week 8 24 Week 9 26 Week 10 28 What is the value of mean absolute deviation using the three-period moving?",
+    "response": "1.86"
+  },
+  {
+    "query": "Suppose that the following Excel file, Table 1, shows the data for the number of units sold for the past 10 weeks in a company as the observed value. Table 1 unit sold A t Forecast F t Week 1 22 Week 2 24 Week 3 23 Week 4 25 Week 5 27 Week 6 26 Week 7 28 Week 8 24 Week 9 26 Week 10 28 What would be the average forecast for week 11 using the three-period moving?",
+    "response": "26"
+  },
+  {
+    "query": "How many of the following sentences are true? In historical analogy, a forecast is obtained through a comparative analysis with a previous situation. The Delphi method uses a panel of experts, whose identities are typically kept confidential from one another, to respond to a sequence of questionnaires. Indicators are measures that are believed to influence the behaviour of a variable we wish to forecast.",
+    "response": "3"
+  },
+  {
+    "query": "Which of the following sentences is true about the time series?",
+    "response": "A time series is a stream of historical data, such as weekly sales."
+  },
+  {
+    "query": "Select the term that is described by the following sentences. It is a technique for classifying a set of observations into predefined classes. The purpose is to determine the class of an observation based on a set of predictor variables.",
+    "response": "Discriminant analysis"
+  },
+  {
+    "query": "Which of the following are some common approaches in data mining?",
+    "response": "Cluster analysis, Classification,Association,Cause-and-effect modelling"
+  },
+  {
+    "query": "Select the term that is described by the following sentence. It is a set of techniques that seek to group or segment a collection of objects (that is, observations or records) into subsets or clusters, such that those within each cluster are more closely related to one another than objects assigned to different clusters. It is also called data segmentation.",
+    "response": "Cluster analysis"
+  },
+  {
+    "query": "How many of the following sentences are true? Data mining is a field of business analytics that is focused on better understanding characteristics and patterns among variables in large databases using a variety of statistical and analytical tools. Many of the tools such as data visualization, data summarization, PivotTables, and correlation and regression analysis, are used extensively in data mining. None of the data mining methods requires advanced statistical knowledge and special software to implement them.",
+    "response": "2"
+  },
+  {
+    "query": "Which of the following is true about Classification in data mining?",
+    "response": "It is the process of analyzing data to predict how to classify a new data element."
+  },
+  {
+    "query": "Select the term that is described by the following sentences. It is a visual representation that describes how various elements of the model affect or relate to others. In addition, it is a useful approach for conceptualizing the structure of a model and can assist in building a mathematical or spreadsheet model.",
+    "response": "Influence diagram"
+  },
+  {
+    "query": "Which feature in Excel should be used when you know the result that you want from a formula but are not sure what input value the formula needs to get that result?",
+    "response": "Goal Seek feature"
+  },
+  {
+    "query": "How many of the following propositions are true? We might use historical data to estimate the mean of population. We might use historical data to estimate the quartiles of population. We might use historical data to estimate the percentiles of population. We might use historical data to estimate the standard deviation of population.",
+    "response": "4"
+  },
+  {
+    "query": "How many of the following sentences are true about cash budgeting? It is the process of projecting and summarizing a company\u2019s cash inflows and outflows expected during a planning horizon It shows the monthly cash balances and any short-term borrowing used to cover cash shortfalls. Positive cash flows can increase cash, reduce outstanding loans, or be used elsewhere in the business. Negative cash flows can reduce cash available or be offset with additional borrowing.",
+    "response": "4"
+  }
+]
