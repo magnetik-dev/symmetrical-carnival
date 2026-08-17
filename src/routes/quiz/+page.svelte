@@ -48,7 +48,8 @@
 
   const businessManagementOptions = [
     { value: 'bm-obeo', label: 'OBEO Quiz' },
-    { value: 'bm-bnvo', label: 'BNVO Quiz' }
+    { value: 'bm-bnvo', label: 'BNVO Quiz' },
+    { value: 'bm-smto', label: 'SMTO Quiz'}
   ];
 
   const bookOptions = cyberOptions

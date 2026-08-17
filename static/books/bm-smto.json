@@ -1,0 +1,482 @@
+[
+  {
+    "query": "In the development of an SFAS matrix, the first step is to",
+    "response": "list the most important EFAS and IFAS items"
+  },
+  {
+    "query": "Business strategy focuses on",
+    "response": "improving the competitive position of a corporation's products or services within the industry or market segment served"
+  },
+  {
+    "query": "What are the three generic competitive strategies that Porter promotes as the means for outperforming other corporations in a particular industry?",
+    "response": "cost leadership, differentiation, and focus"
+  },
+  {
+    "query": "When a company is concerned that the higher price it charges for its higher quality is too far above the price of the competition, the company is likely addressing a risk of following which competitive strategy?",
+    "response": "differentiation"
+  },
+  {
+    "query": "Which strategy is a firm following if it provides a unique and superior value in a narrow market?",
+    "response": "differentiation focus"
+  },
+  {
+    "query": "As an industry matures while overcoming fragmentation and becomes dominated by a small number of large companies, it tends to become a(n)",
+    "response": "consolidated industry"
+  },
+  {
+    "query": "The active cooperation of firms within an industry to reduce output and raise prices to get around the normal law of supply and demand is referred to as",
+    "response": "collusion"
+  },
+  {
+    "query": "The kind of strategic alliance in which there is a partnership of similar companies in similar industries who pool their resources to gain a benefit that is too expensive to develop alone is the",
+    "response": "mutual service consortia"
+  },
+  {
+    "query": "Which strategy specifies the firm's overall direction in terms of its general orientation toward growth, the industries or markets in which it competes, and the manner in which it coordinates activities and transfers resources among business units?",
+    "response": "corporate"
+  },
+  {
+    "query": "Which one of the following directional strategies is most frequently used in corporations?",
+    "response": "growth"
+  },
+  {
+    "query": "The purpose of vertical growth is to",
+    "response": "take over a function previously provided by a supplier or by a distributor"
+  },
+  {
+    "query": "A disadvantage of vertical integration is that it",
+    "response": "creates exit barriers"
+  },
+  {
+    "query": "A firm's expansion into other geographic locations and/or increasing the range of products and services offered to current markets is called",
+    "response": "horizontal growth"
+  },
+  {
+    "query": "Growth through diversification out of an industry into an unrelated industry is called",
+    "response": "conglomerate diversification"
+  },
+  {
+    "query": "Which family of corporate strategies is often viewed as a lack of strategy?",
+    "response": "stability strategies"
+  },
+  {
+    "query": "The strategy which takes place in three basic phases of contraction, consolidation, and rebirth is",
+    "response": "turnaround"
+  },
+  {
+    "query": "As corporations become global competitors and expand into more markets through strategic alliances, multipoint competition is likely",
+    "response": "to become less prevalent going forward"
+  },
+  {
+    "query": "Which strategy is developed to pull together the various activities and competencies of each department so that corporate and business unit performance improves and resource productivity is maximized?",
+    "response": "functional strategy"
+  },
+  {
+    "query": "When a company spends a large amount of money on trade promotion in order to gain or hold shelf space in retail outlets, a company is using a ________ strategy.",
+    "response": "push"
+  },
+  {
+    "query": "Which type of pricing attempts to hasten market development and offers the pioneer the opportunity to utilize the experience curve to gain market share with a low price and dominate the industry?",
+    "response": "penetration pricing"
+  },
+  {
+    "query": "A popular financial strategy in which a company is acquired in a transaction financed largely by debt and eventually paid with money generated from the acquired company's operations or by sale of its assets is",
+    "response": "the leveraged buyout"
+  },
+  {
+    "query": "When components are standardized and each machine functions like a job shop but is positioned in the same order as the parts are processed, this setup is known as",
+    "response": "connected line batch flow"
+  },
+  {
+    "query": "The purchasing strategy in which two suppliers are the sole suppliers of different parts, but are also the backup suppliers for each other's parts is",
+    "response": "parallel sourcing"
+  },
+  {
+    "query": "The top factors in a successful ________ seemed to be a spirit of partnership, a well-designed agreement, joint governance, and consistent communication.",
+    "response": "outsourcing relationship"
+  },
+  {
+    "query": "The first step in constructing a corporate scenario is to",
+    "response": "use industry scenarios to develop a set of assumptions about the task environment"
+  },
+  {
+    "query": "The type of strategy used to influence a corporation's key stakeholders in order to increase their support of corporate activities is",
+    "response": "political strategy"
+  },
+  {
+    "query": "Which means of international entry is a variation of the turnkey operation?",
+    "response": "BOT"
+  },
+  {
+    "query": "When a host government expropriates part or all of a foreign-owned company's holdings in its country, which means of international entry is common for firms to use?",
+    "response": "management contracts"
+  },
+  {
+    "query": "A multi-national corporation",
+    "response": "has a worldwide perspective in its decision-making"
+  },
+  {
+    "query": "What is the key to the successful implementation of strategic alliances?",
+    "response": "the selection of the local partner"
+  },
+  {
+    "query": "One of the big common mistakes by corporations sending executives on global assignments is",
+    "response": "not educating executives about customs and values in other countries"
+  },
+  {
+    "query": "Most human resource managers fail to develop the training necessary for international assignments because",
+    "response": "most have not worked abroad themselves and have little understanding of the unique challenges of these positions"
+  },
+  {
+    "query": "Using third-country nationals",
+    "response": "is a widespread practice among European firms"
+  },
+  {
+    "query": "Transferring profits from a foreign subsidiary to the parent corporation through dividends, royalties, or management fees is called",
+    "response": "repatriation of profits"
+  },
+  {
+    "query": "The three most widely used techniques for international performance evaluation are",
+    "response": "ROI, budget analysis, and historical comparisons"
+  },
+  {
+    "query": "The sum total of the activities and choices required for the execution of a strategic plan is known as",
+    "response": "strategy implementation"
+  },
+  {
+    "query": "It is advisable to have management from all levels participate in the strategy formulation process",
+    "response": "to gain an insight as to what work needs to be done and to gain cooperation in the implementation of the strategy"
+  },
+  {
+    "query": "Which market location tactic did Texas Instruments use when they avoided direct competition with Intel by developing cell phones, medical devices, and consumer electronics rather than computers?",
+    "response": "flanking maneuver"
+  },
+  {
+    "query": "What is the last real check a firm has on the feasibility of its selected strategy?",
+    "response": "budget planning"
+  },
+  {
+    "query": "When the people managing diversified product lines in a functionally structured corporation need more decision-making freedom than top management is willing to delegate to them, there is a crisis of",
+    "response": "autonomy"
+  },
+  {
+    "query": "What is the additional phase in the organizational life cycle that may occur sometime during the maturity or decline stages?",
+    "response": "revival phase"
+  },
+  {
+    "query": "An organization that is composed of cells that can operate alone but that can interact with other cells to produce a more potent and competent business mechanism is referred to as a(n)",
+    "response": "modular organization"
+  },
+  {
+    "query": "The job design technique that combines tasks to give a worker more of the same type of duties to perform is known as",
+    "response": "job enlargement"
+  },
+  {
+    "query": "Which type of chief executive officer who is highly knowledgeable in other industries and can manage diverse product lines would be appropriate for a corporation following a diversification strategy?",
+    "response": "analytical portfolio manager"
+  },
+  {
+    "query": "Research suggests that boards of directors tend to look outside the firm for the next CEO under which of the following circumstance?",
+    "response": "when the company is in trouble"
+  },
+  {
+    "query": "To effectively manage strategic changes, it is important to communicate",
+    "response": "the rationale for the change to all employees"
+  },
+  {
+    "query": "Which method of managing disparate cultures involves a relatively balanced give-and-take of cultural and managerial practices between the merger partners, and no strong imposition of cultural change on either company?",
+    "response": "integration"
+  },
+  {
+    "query": "Which method of managing disparate cultures is the most common and most destructive method of dealing with two different cultures because one company imposes its demands at the expense of another company's culture?",
+    "response": "deculturation"
+  },
+  {
+    "query": "The average tenure of an outsider hired as a CEO",
+    "response": "tends to be significantly less than for insiders"
+  },
+  {
+    "query": "Boards realize that the best way to force a change in strategy is to",
+    "response": "hire a new CEO who has no connections to the current strategy"
+  },
+  {
+    "query": "Research indicates that companies undertaking cost-cutting programs",
+    "response": "are four times more likely than others to cut costs again"
+  },
+  {
+    "query": "Controls which measure variables that influence future profitability are called",
+    "response": "steering controls"
+  },
+  {
+    "query": "Which type of control specifies how something is to be done through policies, rules, standard operating procedures, and orders from a superior?",
+    "response": "behavior control"
+  },
+  {
+    "query": "Because of the belief that accounting-based numbers such as ROI, ROE, and EPS are not reliable indicators of a corporation's economic value, which method of corporate performance is now preferred?",
+    "response": "shareholder value"
+  },
+  {
+    "query": "The balanced scorecard approach to evaluation and control assigns to each goal/objective in an area one or more measures that are each essential for achieving a desired strategic option. These measures are called",
+    "response": "key performance measures"
+  },
+  {
+    "query": "What responsibility center is judged for effectiveness rather than efficiency?",
+    "response": "revenue center"
+  },
+  {
+    "query": "The continual process of measuring products, services, and practices against the toughest competitors or those companies recognized as industry leaders is",
+    "response": "benchmarking"
+  },
+  {
+    "query": "What is becoming the business information system's global standard?",
+    "response": "ERP"
+  },
+  {
+    "query": "Suboptimization occurs when",
+    "response": "a division or functional unit views itself as a separate entity and refuses to cooperate with other divisions or units to the detriment of the organization as a whole"
+  },
+  {
+    "query": "An emphasis on monitoring those few things which must go well to ensure corporate success is reflected in",
+    "response": "the 80/20 rule"
+  },
+  {
+    "query": "Return on equity",
+    "response": "measures the rate of return on the book value of shareholders' total investment in the company"
+  },
+  {
+    "query": "The theory which states that problems arise in corporations because top management no longer is willing to bear the brunt of their decisions unless they own a substantial amount of stock in the corporation is called",
+    "response": "agency theory"
+  },
+  {
+    "query": "The displacement of one technology by another, as shown by two S-shaped curves on a graph, is referred to as",
+    "response": "technological discontinuity"
+  },
+  {
+    "query": "To get a proper picture of the position of the organization, common-size statements and ratios should be compared to",
+    "response": "industry-wide average trends"
+  },
+  {
+    "query": "Which one of the following best describes a conglomerate structure?",
+    "response": "This is appropriate for a large corporation with many product lines in several unrelated industries"
+  },
+  {
+    "query": "________ theory argues that senior executives over time tend to view the corporation as an extension of themselves.",
+    "response": "Stewardship"
+  },
+  {
+    "query": "One of the benefits of globalization is ____________________.",
+    "response": "economies of scale"
+  },
+  {
+    "query": "Converting categories on financial statements from dollar terms to percentages results in",
+    "response": "common-size statements"
+  },
+  {
+    "query": "Which two basic statements provide most of the financial data needed for analysis",
+    "response": "historical income statement and balance sheet"
+  },
+  {
+    "query": "The corporate mission is best described by which one of the following?",
+    "response": "the purpose or reason for the corporation's existence"
+  },
+  {
+    "query": "Board members who are not employed by the corporation, but handle the legal or insurance needs of the firm and are thus not true \"outsiders,\" are what kind of directors?",
+    "response": "affiliated directors"
+  },
+  {
+    "query": "A company or an industry whose product works well with a firm's product and without which the product would lose much of its value is considered to be a(n)",
+    "response": "complementor"
+  },
+  {
+    "query": "The phenomenon that describes corporations as evolving through relatively long periods of stability punctuated by relatively short bursts of fundamental change (revolutionary change) is known as",
+    "response": "punctuated equilibrium"
+  },
+  {
+    "query": "The monitoring, evaluating, and disseminating of information from the external and internal environments to key people within the corporation is referred to as",
+    "response": "environmental scanning"
+  },
+  {
+    "query": "Strategic managers must be concerned with human resource management because",
+    "response": "the best strategies are meaningless if employees do not have the skills to carry them out or if jobs cannot be designed to accommodate the available workers"
+  },
+  {
+    "query": "Which of the following is an example of a corporate strategy?",
+    "response": "diversify product line to appeal to more people"
+  },
+  {
+    "query": "Which of the following terms best describes a system in which items are normally processed sequentially, but the work and sequence of the process vary?",
+    "response": "intermittent system"
+  },
+  {
+    "query": "The rate at which others can duplicate a firm's underlying resources, capabilities, or core competencies is called",
+    "response": "imitability"
+  },
+  {
+    "query": "The ratio of total debt to total assets is known as",
+    "response": "financial leverage"
+  },
+  {
+    "query": "What has been the most popular method of teaching strategy and policy for years?",
+    "response": "case analysis"
+  },
+  {
+    "query": "The relationship among the board of directors, top management, and shareholders is referred to as",
+    "response": "corporate governance"
+  },
+  {
+    "query": "A linked set of value-creating activities beginning with basic materials provided by suppliers and ending with distributors getting the final product into the hands of the ultimate consumer is called a",
+    "response": "value chain"
+  },
+  {
+    "query": "Which financial ratio measures the rate of return on the book value of shareholders' total investment in the company?",
+    "response": "return on equity"
+  },
+  {
+    "query": "A large business has three levels in its hierarchy of strategy:",
+    "response": "Corporate \u2013 Business \u2013 Functional"
+  },
+  {
+    "query": "Issues in affirmative action such as reverse discrimination are examples of conflicts between",
+    "response": "distributive and compensatory justice"
+  },
+  {
+    "query": "Which theory proposes that once an organization is successfully established in a particular environmental niche, it is unable to adapt to changing conditions?",
+    "response": "population ecology"
+  },
+  {
+    "query": "The formula that indicates if a company embarking on a growth strategy will need to take on debt to fund this growth is called",
+    "response": "the index of sustainable growth"
+  },
+  {
+    "query": "A code of conduct that regulates supplier conduct",
+    "response": "is recommended if the company outsources manufacturing to a company in another country"
+  },
+  {
+    "query": "What financial ratio serves as a short-term indicator of the company's ability to pay its short-term liabilities from its short-term assets?",
+    "response": "current ratio"
+  },
+  {
+    "query": "As opposed to rule-based countries, relationship-based countries tend to",
+    "response": "be less transparent and have a higher degree of corruption"
+  },
+  {
+    "query": "Knowledge that is not easily communicated because it is deeply rooted in employee experience or in a corporation's culture is called",
+    "response": "tacit knowledge"
+  },
+  {
+    "query": "A table which summarizes the key success factors within a particular industry is called a(n)",
+    "response": "industry matrix"
+  },
+  {
+    "query": "The formula that predicts the likelihood of a corporation going bankrupt is called",
+    "response": "the Z-value"
+  },
+  {
+    "query": "According to the research, in turbulent environments, the best type of planning is",
+    "response": "top-down strategic planning"
+  },
+  {
+    "query": "The approach to ethical behavior, which proposes that decision makers be equitable, fair, and impartial in the distribution of costs and benefits to individuals and groups is called",
+    "response": "justice approach"
+  },
+  {
+    "query": "Ethics is defined as",
+    "response": "consensually accepted standards of behavior for an occupation, trade, or profession"
+  },
+  {
+    "query": "Under what circumstances does a DIRECT interlocking directorate exist?",
+    "response": "when two firms share a director or when an executive of one firm sits on the board of a second firm"
+  },
+  {
+    "query": "Industry analysis is primarily concerned with a corporation's",
+    "response": "task environment"
+  },
+  {
+    "query": "Blindly following orders reflects which type of moral relativism?",
+    "response": "role relativism"
+  },
+  {
+    "query": "Which of the following is an example of a mission statement?",
+    "response": "develop and sell quality appliances worldwide"
+  },
+  {
+    "query": "A study of nearly 500 of the world's largest corporations indicated which of the following to be the most widely practiced form of forecasting?",
+    "response": "trend extrapolation"
+  },
+  {
+    "query": "When a board of directors is involved to a limited degree in the performance or review of selected key decisions, indicators, or programs of management, the degree of involvement is referred to as",
+    "response": "nominal participation"
+  },
+  {
+    "query": "Which type of international industry manufactures and sells the same products with only minor adjustments made for individual countries around the world?",
+    "response": "global industry"
+  },
+  {
+    "query": "An industry dominated by a few large firms, all of which struggle with product differentiation, is known as",
+    "response": "consolidated"
+  },
+  {
+    "query": "A corporation's ability to exploit its resources is referred to as its",
+    "response": "capabilities"
+  },
+  {
+    "query": "The approach to ethical behavior which proposes that actions and plans should be judged by their consequences, thus producing the greatest benefit to society with the least harm or the lowest cost is called",
+    "response": "utilitarian approach"
+  },
+  {
+    "query": "Catalyst-level boards of directors typically",
+    "response": "take leading roles in establishing and modifying the company mission, objectives, and strategy"
+  },
+  {
+    "query": "\"Inventory to net working capital\" is an example of a(n)",
+    "response": "liquidity ratio"
+  },
+  {
+    "query": "In the EFAS Table, the indicator of how well a particular company is responding to current and expected factors in its external environment is characterized by the",
+    "response": "total weighted score"
+  },
+  {
+    "query": "Which of the following is the most common reason given by surveyed executives for bending the rules to attain their objectives?",
+    "response": "organizational performance required it"
+  },
+  {
+    "query": "Which of the following is a trend in corporate governance?",
+    "response": "Boards are establishing mandatory retirement ages for board members."
+  },
+  {
+    "query": "In a fragmented industry",
+    "response": "no firm has a large market share"
+  },
+  {
+    "query": "Which one of the following is included in the firm's societal environment?",
+    "response": "Resources"
+  },
+  {
+    "query": "What are the two distinct attributes of corporate culture?",
+    "response": "intensity and integration"
+  },
+  {
+    "query": "To succeed in a hypercompetitive industry, companies must be willing to",
+    "response": "cannibalize their successful product lines"
+  },
+  {
+    "query": "A code of ethics is important to clarify company expectations of employee conduct in various situations and to",
+    "response": "make it clear that the company expects its people to recognize the ethical dimensions in decisions and actions"
+  },
+  {
+    "query": "An overarching strategy that explicitly communicates the firm's ethical relationship with its stakeholders is",
+    "response": "an enterprise strategy"
+  },
+  {
+    "query": "Strategic planning within a small organization _____________________.",
+    "response": "may be informal and irregular"
+  },
+  {
+    "query": "When strategic managers have a willingness to reject unfamiliar as well as negative information it is referred to as",
+    "response": "strategic myopia"
+  },
+  {
+    "query": "A description of what the company is capable of becoming is referred to as",
+    "response": "strategic vision"
+  }
+]
