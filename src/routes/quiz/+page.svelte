@@ -37,7 +37,8 @@
     { value: 'ca-pldes-quiz', label: 'PLDES Quiz' },
     { value: 'ca-sadgn', label: 'SADGN Quizes'},
     { value: 'ca-dbsql-quizes', label: 'DBSQL Quizes'},
-    { value: 'dt-bda100', label: 'BDA100 Quizes'}
+    { value: 'dt-bda100', label: 'BDA100 Quizes'},
+    { value: 'dt-bda200', label: 'BDA200 Quizes'}
   ];
   
   const digitalDesignOptions = [
