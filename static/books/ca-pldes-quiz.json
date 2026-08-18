@@ -906,5 +906,137 @@
   {
     "query": "What is one advantage of multithreading when using the Internet?",
     "response": "Ability to use a site before a download completes"
+  },
+  {
+    "query": "In the file merging process, what is typically done if a record from File B has a name alphabetically less than the current record from File A?",
+    "response": "The File B record is written to the merged file."
+  },
+  {
+    "query": "What is the primary benefit of using random access files in an interactive program?",
+    "response": "They enable immediate record access without sequential reading."
+  },
+  {
+    "query": "What must be true before merging files with a master-transaction relationship?",
+    "response": "Each file must be sorted in the same order based on the same field."
+  },
+  {
+    "query": "When merging sequential files, which of the following statements is false?",
+    "response": "The files can be in different orders based on different fields."
+  },
+  {
+    "query": "What does an IPO chart provide in the context of method design?",
+    "response": "An overview of input, processing, and output"
+  },
+  {
+    "query": "In the context of method parameters, what does it mean that arrays are passed by reference?",
+    "response": "The method receives the actual memory address of the array."
+  },
+  {
+    "query": "What should be included in the parentheses of a method declaration to receive parameters?",
+    "response": "Parameter type and local name for the parameter"
+  },
+  {
+    "query": "How are array elements accessed within the method when an array is passed as a parameter?",
+    "response": "Using the array name and indices"
+  },
+  {
+    "query": "How does an instance method differ from a static method in its usage?",
+    "response": "An instance method requires a 'this' reference, while a static method does not."
+  },
+  {
+    "query": "What is the primary purpose of keeping data fields private in object-oriented programming?",
+    "response": "To prevent unauthorized modification of data and ensure control over the data's integrity"
+  },
+  {
+    "query": "What concept in OOP allows for methods with the same name to work differently on different types of objects?",
+    "response": "Polymorphism"
+  },
+  {
+    "query": "What should you do if a child class needs access to a private field in the parent class?",
+    "response": "Create a public method in the parent class to access the field."
+  },
+  {
+    "query": "Which of the following is NOT an advantage of using standard component classes?",
+    "response": "Programmers must create components from scratch."
+  },
+  {
+    "query": "What is a base class also known as in the context of inheritance?",
+    "response": "Parent class"
+  },
+  {
+    "query": "In object-oriented programming, what is composition?",
+    "response": "Creating whole-part relationships between classes"
+  },
+  {
+    "query": "In object-oriented event-driven programming, what are procedural modules that depend on user-initiated events often called?",
+    "response": "Scripts"
+  },
+  {
+    "query": "What method is often used in animation to ensure human eyes can absorb each image's content?",
+    "response": "sleep()"
+  },
+  {
+    "query": "How do you create GUI components in most programming languages?",
+    "response": "By calling prewritten methods"
+  },
+  {
+    "query": "What term describes the repetition of a series of steps in programming?",
+    "response": "Loop"
+  },
+  {
+    "query": "What type of error occurs when you use a syntactically correct statement in the wrong context?",
+    "response": "Logical error"
+  },
+  {
+    "query": "What do programmers break down programming problems into?",
+    "response": "Modules, subroutines, procedures, functions, or methods"
+  },
+  {
+    "query": "What does a module header include?",
+    "response": "Module identifier and identifying information"
+  },
+  {
+    "query": "In a loop structure, what happens after the loop body executes?",
+    "response": "The condition is tested again."
+  },
+  {
+    "query": "What symbol is used for the NOT operator in C++, Java, and C#?",
+    "response": "!"
+  },
+  {
+    "query": "A dual-alternative selection structure is also known as:",
+    "response": "If-then-else selection"
+  },
+  {
+    "query": "What are the three actions provided by a for statement in one compact statement?",
+    "response": "Initializing, testing, altering"
+  },
+  {
+    "query": "What is the superior solution for continuously prompting a user until they enter a valid data entry?",
+    "response": "Using a loop"
+  },
+  {
+    "query": "In structured loops, what must the loop-controlling evaluation provide?",
+    "response": "Either the entry to or exit from the structure"
+  },
+  {
+    "query": "What does each loop in a nested loop typically have?",
+    "response": "A different loop control variable"
+  },
+  {
+    "query": "What is a major benefit of using arrays with variables as subscripts?",
+    "response": "It allows for more flexible and efficient data handling."
+  },
+  {
+    "query": "How are Boolean values represented in most programming languages?",
+    "response": "As true or false"
+  },
+  {
+    "query": "What is the simplest type of array?",
+    "response": "Single-dimensional arrays"
+  },
+  {
+    "query": "What subscript does the first element of an array typically use in modern programming languages?",
+    "response": "0"
   }
 ]
