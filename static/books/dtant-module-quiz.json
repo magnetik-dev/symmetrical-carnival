@@ -2642,5 +2642,189 @@
   {
     "query": "A financial analyst is in the process of analyzing and reporting on the revenue and expenses of a large corporation. The analyst uses Power BI and Power Query to help with data analysis. What benefits do these tools offer in this scenario?",
     "response": "Power Query is a data transformation tool that allows analysts to merge, clean, and transform data from different sources, while Power BI is a data visualization tool that provides interactive and dynamic reports and dashboards."
+  },
+  {
+    "query": "A healthcare organization is experiencing a rise in patient wait times and wants to investigate why these delays are occurring so they can make long-term improvements. As the lead data analyst, you need to provide leadership with a solution that displays trends, allows investigation of possible factors contributing to the delays, and supports data-driven decision-making to improve processes. What should you create to address this need?",
+    "response": "Build a research-driven dashboard that allows exploration of patient flow data and identification of patterns that may reveal root causes for increased wait times."
+  },
+  {
+    "query": "An analyst is preparing an ad-hoc PDF report using data within Power BI and wishes to export a static visual, summarizing the report to the regional managers’ central intranet dashboard for company operations. How would the analyst update the dashboard to receive this new information? (Select all that apply.)",
+    "response": "Disable filtering options on the visual., Log on to the dashboard web application., Request appropriate permissions to add content."
+  },
+  {
+    "query": "Why is implementing visual filters preferred over creating multiple pages for each scenario in a dashboard?",
+    "response": "Visual filters let users explore additional details interactively without adding unnecessary complexity to the dashboard."
+  },
+  {
+    "query": "A manufacturing company conducts weekly meetings to review key performance indicators (KPIs) such as product defect rates, production volumes, and equipment downtime. In addition to these internal measures, the company is required by law to submit quarterly reports documenting workplace safety incidents and compliance with Occupational Safety and Health Administration (OSHA) standards. After a recent inspection, the operations manager receives a request from the compliance officer to ensure the next set of reports will demonstrate adherence to OSHA requirements, including evidence of conducted safety training sessions. Which of the following BEST evaluates how the manager should approach preparing the next set of reports?",
+    "response": "The manager should generate operational reports with updated KPIs for internal efficiency, and ensure compliance reports specifically document OSHA-related safety meetings and trainings for regulatory review."
+  },
+  {
+    "query": "A security operations center is gathering logs from servers and workstations in the environment and needs the data within seconds. What type of data is this?",
+    "response": "Real-time"
+  },
+  {
+    "query": "You have created a dashboard in Power BI that summarizes monthly sales by region. Your regional managers want the ability to click on a specific region's sales figure and immediately analyze which products contributed to the total sales for that region, all within the dashboard. What is the BEST way to implement this requirement?",
+    "response": "Add a drill-through page linked to the sales by region visual, allowing managers to click a region and automatically view a detailed breakdown of product sales for that region."
+  },
+  {
+    "query": "A database administrator has been asked by a C-level executive to create a report that can be run before meetings to show previous sales metrics with potential forecasts based on historical data. What kind of report should be used?",
+    "response": "On-demand"
+  },
+  {
+    "query": "Which of the following actions BEST demonstrates the transition from a proof of concept to deploying a dashboard to production?",
+    "response": "Ensuring User Acceptance Testing (UAT) is completed to verify functionality."
+  },
+  {
+    "query": "A global retail company recently merged with a regional chain, resulting in two sets of customer databases. The marketing team notices that customer names and addresses vary in format between the two databases, and the same customers sometimes appear more than once under slightly different information. The company must also comply with GDPR regulations and ensure accurate, secure handling of customer data. What is the BEST way for the company to address these challenges, based on principles of master data management?",
+    "response": "Implement master data management to consolidate customer information into one accurate, standardized record."
+  },
+  {
+    "query": "A data scientist imported research data into a business intelligence suite but is realizing the visualizations that the platform is giving are not making sense. What may be wrong with the imported data that should get corrected?",
+    "response": "Conversion"
+  },
+  {
+    "query": "Why is documenting data lineage considered important for data governance?",
+    "response": "It allows organizations to trace the history and transformations of data, ensuring trust and compliance."
+  },
+  {
+    "query": "A policymaker works in a services industry that collects personally identifiable information. They are currently trying to determine which unneeded data they should store. Where should they look to make that determination?",
+    "response": "Storage Cost"
+  },
+  {
+    "query": "A big corporation has made several aggressive acquisitions of other companies in the course of a few short years. They want to consolidate multiple fields of information to establish a single, reliable source of truth. What software will help them accomplish this?",
+    "response": "Master data management (MDM) software"
+  },
+  {
+    "query": "You are assigned to a new team that is struggling with keeping information about suppliers consistent across multiple software platforms—CRM, accounting, and inventory. During your investigation, you discover that each platform sometimes contains different addresses for the same supplier. Your manager asks you to take an initial step towards improving the integration of supplier data. Which action should you take first to help streamline integration and reduce inconsistencies?",
+    "response": "Create a data flow diagram showing how supplier information moves between the CRM, accounting, and inventory systems."
+  },
+  {
+    "query": "A database administrator set up a new database that is being used for multiple research projects. The administrator is running into issues with the various projects using entirely different ways to define data, metrics, and elements. What did the administrator NOT create?",
+    "response": "Data dictionary"
+  },
+  {
+    "query": "A data analyst is preparing a consolidated sales report from three different databases after a recent company merger. In each database, the customer address fields are formatted differently—for example, the \"State\" field is entered as \"California\" in one, \"CA\" in another, and \"ca\" in the third. The analyst must ensure the addresses are consistent to facilitate accurate reporting and reduce future data cleaning efforts. What is the BEST action the analyst should take to address this challenge using field standardization principles?",
+    "response": "Transform all state names into two-letter, uppercase abbreviations, such as \"CA\" for California, and apply this standard consistently across all databases."
+  },
+  {
+    "query": "You work as part of the IT team for a company that stores employee records. A recent review of the company's data retention policy now requires records containing personally identifiable information (PII) to be destroyed after seven years. You have located records that are older than this retention period. What is the MOST appropriate next step to comply with the new policy regarding these records?",
+    "response": "Permanently and securely destroy the records using legally compliant data destruction methods appropriate for sensitive information."
+  },
+  {
+    "query": "A financial analyst is tasked with evaluating the controls a company uses to share customer data with a third-party research firm. The analyst discovers that an agreement outlines what data the vendor can access and restricts the vendor from using the data for unrelated marketing purposes, with legal consequences if the agreement is violated. Which type of data use agreement is most critical in ensuring both parties are protected and their responsibilities are clearly defined?",
+    "response": "Non-Disclosure Agreement that specifically describes the legal ramifications for unauthorized sharing of information.."
+  },
+  {
+    "query": "You are a member of a company's analytics team. One morning, you receive an email from a colleague stating that they accidentally gave a third-party vendor access to a folder containing sensitive employee information, including social security numbers. The vendor is not authorized to view these details. Your company has a policy for responding to data breaches. What should you do first in this situation?",
+    "response": "Notify the appropriate person or team in your organization responsible for handling data breach incidents."
+  },
+  {
+    "query": "A financial analyst at a large corporation has been asked to generate a comprehensive report analyzing every invoice line item from the past ten years. The data set is extremely large, but immediate results are not required—accuracy is the primary concern, and the analysis will be run overnight to minimize the impact on system resources during business hours. Which data processing approach BEST fits this requirement?",
+    "response": "Batch Processing"
+  },
+  {
+    "query": "You are generating a quarterly sales report that will be sent to an external consultant. The report includes customer contact details, order dates, and credit card numbers. The consultant only needs to analyze sales trends and does not need access to customer identities or full credit card details. What is the MOST suitable way to use masking when preparing the credit card information in your report?",
+    "response": "Replace all but the last four digits of each credit card number with asterisks (e.g., **** **** **** 1234)."
+  },
+  {
+    "query": "Your organization implements a new data governance plan, which requires all employees to follow updated procedures for handling sensitive data. Despite the new policy, some departments continue using their old processes, resulting in inconsistent data labeling and security measures. As part of the data governance team, you are tasked with ensuring accountability for the new policy across departments. Which action would BEST apply the principle of accountability in this situation?",
+    "response": "Establish clear consequences for not adhering to the new procedures and conduct regular audits to ensure compliance across all departments."
+  },
+  {
+    "query": "A top-secret division in the government is conducting secret cyber operations but needs other systems to monitor those same operations to see if anything was attributed back to that nation. Which of the following was implemented?",
+    "response": "De-identification"
+  },
+  {
+    "query": "You are a data analyst working for an e-commerce company. Your team is tasked with analyzing customer transaction data to identify shopping trends. This data includes customer names, addresses, and full credit card information. The marketing team asks for unrestricted access to the transaction database to run their own trend analyses and send targeted promotional emails. What is the most appropriate and compliant action you should take in this situation to meet PCI DSS requirements?",
+    "response": "Remove the credit card information from the dataset before providing access to the marketing team and ensure proper safeguards for personal data."
+  },
+  {
+    "query": "A data analyst at a U.S.-based nonprofit is preparing an online dashboard that will be used externally by people with varying abilities. The analyst is tasked with making sure the dashboard complies with relevant accessibility standards and laws before launch. Management wants to guarantee legal compliance and a positive user experience for all participants. Which step should the analyst take to BEST ensure the dashboard is accessible and meets legal requirements?",
+    "response": "Design the dashboard to conform with the Web Content Accessibility Guidelines (WCAG 2.2) and ensure features like keyboard navigation and screen reader compatibility are implemented."
+  },
+  {
+    "query": "You are a data analyst working for a U.S.-based company that has recently launched an online platform accessible by users worldwide. The company collects and analyzes personal data from its users, including some who reside in European Union (EU) countries. Your manager asks you to include the birthdates and email addresses of all users in a marketing data report to be shared with a third-party vendor based in the U.S. Before sharing this data, what action should you take to ensure compliance with the General Data Protection Regulation (GDPR)?",
+    "response": "Verify that your company has obtained explicit consent from EU residents for their data to be shared with third parties, and ensure the vendor provides adequate data protection, before including this data in the report."
+  },
+  {
+    "query": "A mobility analytics company has developed an Extract, Transform, and Load (ETL) API for accepting and parsing packets of sensor data in JSON format collected from thousands of electric vehicles. Select the term that correctly describes the data produced by the vehicle sensors.",
+    "response": "Machine data"
+  },
+  {
+    "query": "You are a data analyst at a company that processes high-value transactions during business hours and performs nightly data import tasks. The organization's RPO (Recovery Point Objective) for critical databases is one hour, but backups should not interfere with either real-time transaction processing or the nightly imports. The IT department is choosing between different backup schedule options. Which backup strategy BEST meets the organization's needs while minimizing disruption to operations?",
+    "response": "Schedule full backups every night after the data imports are complete and perform hourly incremental backups during business hours."
+  },
+  {
+    "query": "What typically happens if a user tries to drop a table that is currently locked due to another transaction?",
+    "response": "The DROP TABLE command runs forever without dropping the table."
+  },
+  {
+    "query": "A team of data analysts recently experienced unexpected system slowdowns after a major update was applied to their organization’s primary data analytics platform, which is a third-party, cloud-hosted solution. The internal database administrator confirmed there were no issues with the local infrastructure, queries, or user permissions. While troubleshooting, the lead analyst considers consulting vendor communities and online resources as part of the next steps in the change management process. Which of the following best analyzes why consulting vendor communities and online resources is a critical next step in this scenario?",
+    "response": "Vendor communities and online resources can provide real-time updates on known issues, patches, or scheduled maintenance that could explain performance changes after updates."
+  },
+  {
+    "query": "A team of analysts has reported that their query performance on the Orders table in your company's SQL Server database has significantly decreased over the past year, especially when running reports filtered by OrderDate and sorted by CustomerID. Upon investigating, you discover that only the primary key (OrderID) field is currently indexed. The table has grown considerably, with millions of records being added over time. You are asked to analyze the situation and determine the most effective course of action regarding query performance, particularly in relation to indexing. Which of the following analyses BEST explains the likely cause of the degraded query performance and the most appropriate indexing action to recommend for addressing it?",
+    "response": "The lack of indexes on frequently filtered or sorted fields (OrderDate and CustomerID) has resulted in full-table scans, slowing down queries; recommending non-clustered indexes on these fields will likely improve performance."
+  },
+  {
+    "query": "You are managing a retail analytics database that contains sales transactions, customer records, and inventory data. You notice query performance is slowing and reports are taking longer to generate, especially when querying sales transactions from many years ago. The company has a defined data refresh cycle where new data is added daily, but no process has been used yet for archiving older records. How should you address these database slowdowns while ensuring that both current and historical data needs are met?",
+    "response": "Move sales transaction records older than three years into an archive table, making sure archiving is part of your regular refresh cycle so that recent data remains easily accessible and older data is available if needed."
+  },
+  {
+    "query": "Jenna is the database administrator for a mid-sized company that recently adopted a new IAM system to centrally manage access to sensitive financial data. After a departmental reorganization, several employees received new roles. On reviewing user permissions, Jenna realizes that some users who transferred departments retained access to their old department's financial records in addition to their new permissions. As the DBA, Jenna must decide the most appropriate next step according to security best practices outlined in the IAM framework. Which action should Jenna take to BEST address the situation and minimize security risks?",
+    "response": "Remove the outdated permissions from each user's account that are no longer needed in their new roles."
+  },
+  {
+    "query": "Which of the following techniques is used in SQL to reduce the number of records returned and improve query performance?",
+    "response": "Using the WHERE clause for data filtering."
+  },
+  {
+    "query": "Which of the following BEST describes the primary purpose of a disaster recovery (DR) plan?",
+    "response": "To provide detailed instructions on how to respond to unplanned operational incidents"
+  },
+  {
+    "query": "A key user in your department suddenly cannot run their critical business report, which relies on a database you helped design. The error message is unclear, and the user calls you for help. You recall that change management procedures were recently updated, and you need to determine the most likely cause of the issue. Which of the following BEST explains how you should approach analyzing and resolving this user-reported issue within the context of proper change management?",
+    "response": "Check recent changes to the database structure, ensure proper documentation and approval processes were followed, and verify that any field or table changes did not disrupt dependent reports."
+  },
+  {
+    "query": "You are a data analyst at an organization that has recently experienced reports of a daily sales dashboard taking ten minutes to refresh, whereas it typically loads in less than a minute. The report pulls a large dataset from a SQL Server database, and you’ve already optimized your queries within your permitted access. There are no recent changes in the report logic, but users also mention seeing stale data at times. After troubleshooting, you still observe slow performance and connectivity seems inconsistent. Given these findings, what is the MOST effective next action to recommend for resolving this ongoing issue?",
+    "response": "Recommend that the database administrator investigate the SQL Server’s hardware and disk subsystem for overload and check for insufficient indexing on tables used by the dashboard."
+  },
+  {
+    "query": "You are a data analyst at a company where employees have recently started to complain that their business intelligence dashboards in Power BI are taking much longer than usual to refresh. You reviewed your own queries and optimized them for performance, but the issue persists.\nYou also noticed that another new feature was added to the reports last week. You have access to basic monitoring logs and notice that the data gateway has not reported any connection errors.\nBased on the situation, which of the following is the MOST reasonable next step to help evaluate and address the slow performance?",
+    "response": "Report the issue to the development team and provide details from the monitoring logs about when the slowdowns began."
+  },
+  {
+    "query": "A data analyst is working with a company's sales database, which is updated throughout the day. The analyst needs to generate daily performance reports using a complex query that takes a significant amount of time and resources to run. To improve efficiency and avoid putting excessive load on the live production database during business hours, the analyst consults the database administrator for a solution. Which approach should the database administrator implement to BEST solve the analyst's problem?",
+    "response": "Create a snapshot of the necessary data once per day and have the analyst run the report against the snapshot."
+  },
+  {
+    "query": "You are tasked with preparing a weekly sales report from the company's main product database. While executing a complex query to retrieve updated pricing, your query fails to complete and seems to be indefinitely processing.\nYou check with the DBA and learn that a large update transaction is currently running and affects the same tables you are querying. The DBA mentions that table locks are in place during the transaction.\nBased on this situation, how would you analyze and determine the root cause of your query delay, considering what you know about database locks?",
+    "response": "The indefinite processing of your query is due to the current table lock from an active transaction, which prevents other queries from making changes until the transaction is committed."
+  },
+  {
+    "query": "What happens to a temporary table created in a SQL database when the user disconnects from the server?",
+    "response": "It is removed from the database."
+  },
+  {
+    "query": "While preparing your department's quarterly analysis, you discover that recent order records in the database have suddenly started showing unusually high prices, far outside the normal range.\nA teammate also finds that the workflow normally capturing this data has started producing null values for some fields.\nBased on your analysis, which of the following conclusions is MOST supported by the evidence and should be communicated to the technical team?",
+    "response": "The presence of both suspiciously high prices and unexpected null values suggests possible data corruption, which may be due to human error, system failure, or malicious activity."
+  },
+  {
+    "query": "You are a data analyst automating monthly HR reporting. HR's requirement is that only active Sales employees appear in a headcount report. Requirements testing reveals the draft report contains employees from other departments and with inactive status.\nWhich of the following actions BEST applies advanced requirements testing principles in this situation?\nanswerA\nConduct a root cause analysis of the current data selection and filtering mechanisms, collaborate with HR and IT to verify business logic against the enterprise data dictionary and employee status lifecycle, adjust your report filters and data joins as necessary, and then execute a regression test suite to ensure that changes do not introduce new errors or violate other requirements.\nB\nEscalate the discrepancy to a cross-departmental review board, recommending a temporary waiver of the requirement while drafting a change control document, and prioritize rollout of the flawed report to maintain project timelines, with the intention of corrective action within a future project sprint.\nC\nAdvise HR to broaden the definition of \"active Sales employee\" to include all current employees to simplify the report generation process, citing that strict filter application may require upstream system changes, increased resource allocation, and delay project delivery, and recommend that future data audits address the accuracy of employee status categorization.\nD\nDocument the limitations identified in the user acceptance testing (UAT) summary, referencing specific instances where data mismatches could affect HR decision-making, and propose that the unresolved issues be managed via risk acceptance and mitigation planning rather than correction prior to initial deployment.",
+    "response": "Conduct a root cause analysis of the current data selection and filtering mechanisms, collaborate with HR and IT to verify business logic against the enterprise data dictionary and employee status lifecycle, adjust your report filters and data joins as necessary, and then execute a regression test suite to ensure that changes do not introduce new errors or violate other requirements."
+  },
+  {
+    "query": "You are analyzing a recurring issue where a daily report generated by your analytics team is taking much longer to load than usual.\nAfter reviewing system documentation, you note the following:\nThe data is pulled from a SQL database located on a server in your building.\nThe slowdowns started soon after another team added a large volume of new records to the main source table.\nYou observe that other reports using smaller subsets of data are performing normally.\nNetwork performance metrics and your local computer's processing speed appear normal.\nBased on your analysis, which of the following is the MOST likely cause of the slowdown?",
+    "response": "The main table has grown significantly, increasing the data size and making queries take longer to process."
+  },
+  {
+    "query": "Which factor should be considered when creating a backup schedule to ensure backups do not negatively impact daily operations?",
+    "response": "The timing of other processes that use system resources."
+  },
+  {
+    "query": "You are reviewing several reports generated by your team for a company-wide sales dashboard. You notice that one report, which is supposed to display sales data for a user-specified month and region, is running significantly slower than others.\nAfter investigating, you see the following approaches were considered for the report's SQL query:\nOption 1: Uses parameterized WHERE clauses so users can specify the month and region before the data is retrieved.\nOption 2: Retrieves all sales data and applies filters for month and region in the dashboard software after the data has been loaded.\nOption 3: Has users enter the month and region in a form, but still loads all records into memory before filtering.\nOption 4: Hardcodes default values for month and region but allows users to change them only by editing the SQL code manually.\nWhich approach BEST explains why the original report is running slowly, and which option should be implemented to improve performance and flexibility?",
+    "response": "The report runs slowly because it retrieves all sales data before filtering in the dashboard software (Option 2 or 3); Option 1 should be implemented to filter results at the query level using parameters."
   }
 ]
