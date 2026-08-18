@@ -330,5 +330,25 @@
   {
     "query": "Table 3 shows a part of a spreadsheet modelling related to a problem, where: Y p : The number of products Y s : The over-demand production. If the number of products were more than the demand, this number would be the difference between the number of products and the number of the demand. If the number of products were less than the demand, this number would be zero. Suppose that the values of column E calculate with some formula . Table 3 A B C D E OF 1 X 1 X 2 X 3 Y p , 9Y s 2 Jan. 2000 3000 950 3 Feb 1000 1500 600 4 Mar 2500 3750 1000 Which of the following is the correct Excel formula to calculate the value of Y s for January?",
     "response": "=MAX(e2-d2, 0)"
+  },
+  {
+    "query": "What would be the result of the Excel function RAND( )?",
+    "response": "A random number between 0 to 1"
+  },
+  {
+    "query": "How many of the following sentences are correct? If we solve an integer linear problem without the integer restrictions and the optimal solution happens to have all integer values, then it clearly would have solved the integer model. To solve an integer linear problem we can solve the problem without the integer restrictions and round the possible non-integer solution(s) to the nearest integer value(s). In every integer linear problem, all variables are restricted to binary values 0 and 1.",
+    "response": "1"
+  },
+  {
+    "query": "The Sensitivity Report information applies to changes in only one of the model parameters at a time.",
+    "response": "The correct answer is 'True'."
+  },
+  {
+    "query": "The strategy in which we choose the decision that minimizes the minimum payoff that can occur among all outcomes for each decision is called ________ .",
+    "response": "The minimin strategy"
+  },
+  {
+    "query": "Which of the following is true about the Bayes’ rule in probability?",
+    "response": "It extends the concept of conditional probability to revise historical probabilities based on sample information."
   }
 ]
