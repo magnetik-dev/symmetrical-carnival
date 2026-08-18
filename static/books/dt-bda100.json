@@ -358,5 +358,57 @@
   {
     "query": "Suppose that in a set of data, the Variance is 4 and the mean is 8. Which of the following is the coefficient of variation?",
     "response": "0.25"
+  },
+  {
+    "query": "What is the mean of a standard normal distribution?",
+    "response": "0"
+  },
+  {
+    "query": "Suppose that f is the probability distribution function for a discrete random variable X. Which of the following graph can be the graph of the cumulative distribution function of x?",
+    "response": ""
+  },
+  {
+    "query": "Suppose that a game is to be played with a single die assumed fair. In this game, a player wins $23 if a 5 or a 6 turns up while loses $10 for other cases. How many dollars are you expected to win if you play four times?",
+    "response": "4"
+  },
+  {
+    "query": "Which of the following is a continuous probability distribution?",
+    "response": "Normal distribution"
+  },
+  {
+    "query": "What is the expected value of a discrete random variable?",
+    "response": "The average value weighted by their probabilities"
+  },
+  {
+    "query": "Which kind of sampling involves selecting items from a population so that every subset of a given size has an equal chance of being selected",
+    "response": "Simple Random Sampling"
+  },
+  {
+    "query": "In a production process for filling bottles of milk, the historical standard deviation is 25 milliliters. A sample of 36 filled bottles has an average volume of 925 milliliters. Suppose the manufacturer would like the sampling error to be at most 3 milliliters. What should be the minimum size of the sample?",
+    "response": "267"
+  },
+  {
+    "query": "Which of the following is an example of sampling error?",
+    "response": "Random variation within the sample"
+  },
+  {
+    "query": "A company wants to estimate the proportion of customers who are satisfied with their product. They randomly survey 500 customers and find that 420 are satisfied. What is the point estimate of the proportion of satisfied customers?",
+    "response": "0.84"
+  },
+  {
+    "query": "Which of the following is a condition that must be met in order to apply the t-distribution to estimate a population mean?",
+    "response": "The population is normally distributed"
+  },
+  {
+    "query": "The ANOVA test is used to:",
+    "response": "test for differences in means between three or more groups"
+  },
+  {
+    "query": "The mayor of a certain city has claimed that at least 90% of the city’s population has been vaccinated against Covid-19. In a sample of 200 people, 165 people have declared that they vaccinated. What is the value of the P-value?",
+    "response": "less than 0.001"
+  },
+  {
+    "query": "In a two-sample t-test for the difference in means, the pooled variance is calculated as:",
+    "response": "the sum of the sample variances divided by the sum of the sample sizes minus 2"
   }
 ]
