@@ -1,6 +1,6 @@
 [
   {
-    "query": "Which of the following is described as \u201cthe process of generating random values for uncertain inputs in a model, computing the output variables of interest, and repeating this process for many trials (replications) to understand the distribution of the output results and their statistical properties\u201d?",
+    "query": "Which of the following is described as “the process of generating random values for uncertain inputs in a model, computing the output variables of interest, and repeating this process for many trials (replications) to understand the distribution of the output results and their statistical properties”?",
     "response": "Monte Carlo simulation"
   },
   {
@@ -12,7 +12,7 @@
     "response": "A random number between a to b"
   },
   {
-    "query": "Which of the following distributions is the mean in the Excel function = \u2013 4 * LN(RAND( ))?",
+    "query": "Which of the following distributions is the mean in the Excel function = – 4 * LN(RAND( ))?",
     "response": "1/4"
   },
   {
@@ -20,7 +20,7 @@
     "response": "0.9166"
   },
   {
-    "query": "A value randomly generated from a specified probability distribution is called a \u2026\u2026.",
+    "query": "A value randomly generated from a specified probability distribution is called a …….",
     "response": "Random variate"
   },
   {
@@ -88,7 +88,7 @@
     "response": "A matrix whose rows correspond to decisions and whose columns correspond to events"
   },
   {
-    "query": "Select the term described by the following sentences. It represents the improvement in the expected return that can be achieved if the decision maker is able to acquire\u2014before making a decision\u2014additional information about the future event that will take place.",
+    "query": "Select the term described by the following sentences. It represents the improvement in the expected return that can be achieved if the decision maker is able to acquire—before making a decision—additional information about the future event that will take place.",
     "response": "The value of information"
   },
   {
@@ -112,7 +112,7 @@
     "response": "Step IV"
   },
   {
-    "query": "Which of the answers can complete the following sentence? \u201cSimple linear regression involves finding a \u2026\u2026.... relationship between one \u2026\u2026.... variable, X, and one \u2026\u2026.... variable, Y.\u201d",
+    "query": "Which of the answers can complete the following sentence? “Simple linear regression involves finding a …….... relationship between one …….... variable, X, and one …….... variable, Y.”",
     "response": "Linear, independent, dependent"
   },
   {
@@ -120,7 +120,7 @@
     "response": "3"
   },
   {
-    "query": "Which of the answers can complete the following sentence correctly? It necessary to \u2026\u2026.. categorical independent variables in regression modelling.",
+    "query": "Which of the answers can complete the following sentence correctly? It necessary to …….. categorical independent variables in regression modelling.",
     "response": "Code"
   },
   {
@@ -132,11 +132,11 @@
     "response": "Holt-Winters models"
   },
   {
-    "query": "Which of the answers can complete the following sentence correctly? The \u2026\u2026\u2026\u2026. is a smoothing method based on the idea of averaging random fluctuations in the time series to identify the underlying direction in which the time series is changing.",
+    "query": "Which of the answers can complete the following sentence correctly? The …………. is a smoothing method based on the idea of averaging random fluctuations in the time series to identify the underlying direction in which the time series is changing.",
     "response": "simple moving average method"
   },
   {
-    "query": "Three error metrics that are commonly used to analyze the effectiveness of different forecasting models and compare quantitatively the forecast with the actual observations are \u2026\u2026\u2026",
+    "query": "Three error metrics that are commonly used to analyze the effectiveness of different forecasting models and compare quantitatively the forecast with the actual observations are ………",
     "response": "The mean absolute deviation, mean square error and mean absolute percentage error"
   },
   {
@@ -192,7 +192,59 @@
     "response": "4"
   },
   {
-    "query": "How many of the following sentences are true about cash budgeting? It is the process of projecting and summarizing a company\u2019s cash inflows and outflows expected during a planning horizon It shows the monthly cash balances and any short-term borrowing used to cover cash shortfalls. Positive cash flows can increase cash, reduce outstanding loans, or be used elsewhere in the business. Negative cash flows can reduce cash available or be offset with additional borrowing.",
+    "query": "How many of the following sentences are true about cash budgeting? It is the process of projecting and summarizing a company’s cash inflows and outflows expected during a planning horizon It shows the monthly cash balances and any short-term borrowing used to cover cash shortfalls. Positive cash flows can increase cash, reduce outstanding loans, or be used elsewhere in the business. Negative cash flows can reduce cash available or be offset with additional borrowing.",
     "response": "4"
+  },
+  {
+    "query": "Which of the following distribution is the result of the Excel function? = - (1/ ) * LN (RAND( ))",
+    "response": "Exponential distribution"
+  },
+  {
+    "query": "Which of the following is the right path for the Random Number Generation in Excel?",
+    "response": "Data>Data Analysis> Random Number Generation"
+  },
+  {
+    "query": "Which of the following distributions is the result of the Excel function = NORM.INV(0.95, 2,3)?",
+    "response": "Thez-value for the normal distribution with the mean 2, the standard deviation 3, and a cumulative probability of 0.95."
+  },
+  {
+    "query": "Which of the following distributions is the result of the Excel function = NORM.S.INV(0.95)?",
+    "response": "Thez-value for the standard normal distribution with a cumulative probability of 0.95."
+  },
+  {
+    "query": "In linear programming, what is a constraint?",
+    "response": "A limit or requirement that must be satisfied in the optimization problem"
+  },
+  {
+    "query": "Which of the following is not a basic element in an optimization model?",
+    "response": "Decision variables"
+  },
+  {
+    "query": "Every linear optimization problem has a finite solution.",
+    "response": "The correct answer is 'False'."
+  },
+  {
+    "query": "How many of the following outcomes can occur in solving a linear optimization model? A unique optimal solution Alternative (multiple) optimal solutions An unbounded solution Infeasibility",
+    "response": "4"
+  },
+  {
+    "query": "Suppose that the head of the department is going to assign 3 courses to 3 professors such that each course must assign to one and only one of these professors. If c ij denotes the cost of assigning course i to professor j, which of the following models is most appropriate to minimize the total cost?",
+    "response": ""
+  },
+  {
+    "query": "What is the application of Analytic Solver after solving an optimization problem by solver?",
+    "response": "It provides tools for what-if and sensitivity analysis in spreadsheet models."
+  },
+  {
+    "query": "What is the first step in determining a utility function?",
+    "response": "It is to rank-order the payoffs from highest to lowest"
+  },
+  {
+    "query": "A useful approach to structuring a decision problem involving uncertainty is to use a graphical model called a ……….. that consists of a set of nodes and branches.",
+    "response": "Decision tree"
+  },
+  {
+    "query": "Many decisions involve a choice from among a small set of alternatives with uncertain consequences. How many of the following could help to formulate such decision problems? The decision alternatives that can be chosen The uncertain events that may occur after a decision is made along with their possible outcomes The consequences associated with each decision and outcome, which are usually expressed as payoffs.",
+    "response": "3"
   }
 ]
