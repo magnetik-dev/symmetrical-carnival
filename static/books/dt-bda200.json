@@ -306,5 +306,29 @@
   {
     "query": "How many of the following sentences are true regarding Influence diagrams ? The elements of the model are represented by circular symbols called nodes . Arrows called branches connect the nodes and show which elements influence others. Influence diagrams are quite useful in the early stages of model building when we need to understand and characterize key relationships.",
     "response": "4"
+  },
+  {
+    "query": "How many of the following are true? The mathematical basis for the best-fitting regression line is called least-squares regression. The Least-Squares Coefficients can be found using excel functions. The Least-Squares Coefficients can be found by minimizing the sum of squares of the observed errors.",
+    "response": "3"
+  },
+  {
+    "query": "The difference between the observed value and the estimated value by the regression line is called:",
+    "response": "Residual or observed errors"
+  },
+  {
+    "query": "Which of the following are the components of a time series?",
+    "response": "Random behaviour, trends, seasonal effects, and cyclical effects"
+  },
+  {
+    "query": "Which of these terms is described by the following sentence? It is the process of analyzing databases to identify natural associations among variables and create rules for target marketing or buying recommendations.",
+    "response": "Association"
+  },
+  {
+    "query": "Consider Table 2, which shows six points in the two-dimensional Euclidean space. Table 2 P 1 5 1 P 2 4 2 P 3 6 2 P 4 8 3 P 5 3 5 P 6 2 6 With k = 2, which of the following are in the class k - nearest neighbour of the point P 5 = (3, 5)?",
+    "response": "P2and P6"
+  },
+  {
+    "query": "Table 3 shows a part of a spreadsheet modelling related to a problem, where: Y p : The number of products Y s : The over-demand production. If the number of products were more than the demand, this number would be the difference between the number of products and the number of the demand. If the number of products were less than the demand, this number would be zero. Suppose that the values of column E calculate with some formula . Table 3 A B C D E OF 1 X 1 X 2 X 3 Y p , 9Y s 2 Jan. 2000 3000 950 3 Feb 1000 1500 600 4 Mar 2500 3750 1000 Which of the following is the correct Excel formula to calculate the value of Y s for January?",
+    "response": "=MAX(e2-d2, 0)"
   }
 ]
