@@ -256,16 +256,8 @@
     "response": "The significance of regression is simply a hypothesis test of whether the regression coefficient(slope of the independent variable) is zero."
   },
   {
-    "query": "Which of the answers can complete the following sentence correctly? It necessary to \u2026\u2026.. categorical independent variables in regression modelling.",
-    "response": "Code"
-  },
-  {
     "query": "Suppose that Y = -2 + 8X is the linear regression for 100 given points. Which of the following is the error associated with the observation (X 40 , Y 40 ) = (8, 43)?",
     "response": "19"
-  },
-  {
-    "query": "A systematic approach to building good regression models contains four steps. Which of the following is not a correct step? Step I. Construct a model with all available independent variables. Check for the significance of the independent variables by examining the p-values. Step II. Identify the independent variable having the largest p-value that exceeds the chosen level of significance. Step III. Remove the variable identified in step two from the model. (Do not remove all variables with p-values that exceed [the significant level] at the same time, but remove only one at a time.) Step IV. Stop when the first variable is significant.",
-    "response": "Step IV"
   },
   {
     "query": "Suppose that the multiple linear regression function is as follows: Which of the following hypothesis is correct for the zero hypotheses",
@@ -280,7 +272,7 @@
     "response": "(At + At-1 + ... + At-k+1)/k"
   },
   {
-    "query": "Stationary time series are those time series that do not have \u2026\u2026..",
+    "query": "Stationary time series are those time series that do not have ……..",
     "response": "trend, seasonal, or cyclical effects but are relatively constant and exhibit only random behaviour."
   },
   {
@@ -288,36 +280,12 @@
     "response": "A seasonal effect is one that repeats at fixed intervals of time, typically a year, month, week, or day."
   },
   {
-    "query": "Suppose that the following Excel file, Table 1, shows the data for the number of units sold for the past 10 weeks in a company as the observed value. Table 1 unit sold A t Forecast F t Week 1 22 Week 2 24 Week 3 23 Week 4 25 Week 5 27 Week 6 26 Week 7 28 Week 8 24 Week 9 26 Week 10 28 What would be the average forecast for week 11 using the three-period moving?",
-    "response": "26"
-  },
-  {
-    "query": "Which of the following sentences is true about the time series?",
-    "response": "A time series is a stream of historical data, such as weekly sales."
-  },
-  {
-    "query": "Which of the answers can complete the following sentence correctly? Indicators are often combined quantitatively into an \u2026\u2026\u2026\u2026, a single measure that weights multiple indicators, thus providing a measure of overall expectation.",
+    "query": "Which of the answers can complete the following sentence correctly? Indicators are often combined quantitatively into an …………, a single measure that weights multiple indicators, thus providing a measure of overall expectation.",
     "response": "Index"
   },
   {
-    "query": "How many of the following sentences are true? In historical analogy, a forecast is obtained through a comparative analysis with a previous situation. The Delphi method uses a panel of experts, whose identities are typically kept confidential from one another, to respond to a sequence of questionnaires. Indicators are measures that are believed to influence the behaviour of a variable we wish to forecast.",
-    "response": "3"
-  },
-  {
-    "query": "Suppose that the following Excel file, Table 1, shows the data for the number of units sold for the past 10 weeks in a company as the observed value. Table 1 unit sold A t Forecast F t Week 1 22 Week 2 24 Week 3 23 Week 4 25 Week 5 27 Week 6 26 Week 7 28 Week 8 24 Week 9 26 Week 10 28 What is the value of mean absolute deviation using the three-period moving?",
-    "response": "1.86"
-  },
-  {
-    "query": "Select the term that is described by the following sentence. It is the process of developing analytic models to describe the relationship between metrics that drive business performance\u2014for instance, profitability, customer satisfaction, or employee satisfaction.",
+    "query": "Select the term that is described by the following sentence. It is the process of developing analytic models to describe the relationship between metrics that drive business performance—for instance, profitability, customer satisfaction, or employee satisfaction.",
     "response": "Cause-and-effect modelling"
-  },
-  {
-    "query": "Which of the following is true about Classification in data mining?",
-    "response": "It is the process of analyzing data to predict how to classify a new data element."
-  },
-  {
-    "query": "Select the term that is described by the following sentence. It is a set of techniques that seek to group or segment a collection of objects (that is, observations or records) into subsets or clusters, such that those within each cluster are more closely related to one another than objects assigned to different clusters. It is also called data segmentation.",
-    "response": "Cluster analysis"
   },
   {
     "query": "Which of the following is true about cluster analysis?",
@@ -330,14 +298,6 @@
   {
     "query": "Which of the following is the Excel tool that allows you to define acceptable input values in a spreadsheet and provides an error alert if an invalid entry is made?",
     "response": "Data Validation"
-  },
-  {
-    "query": "Which feature in Excel should be used when you know the result that you want from a formula but are not sure what input value the formula needs to get that result?",
-    "response": "Goal Seek feature"
-  },
-  {
-    "query": "How many of the following propositions are true? We might use historical data to estimate the mean of population. We might use historical data to estimate the quartiles of population. We might use historical data to estimate the percentiles of population. We might use historical data to estimate the standard deviation of population.",
-    "response": "4"
   },
   {
     "query": "The total cost of producing a fixed volume of a product is composed of fixed cost and variable cost. We also know that the variable cost depends on the unit variable cost as well as the quantity produced. The quantity produced, however, is a decision option because it can be controlled by the operation manager. Which of the following influence diagrams is most appropriate for this model?",
