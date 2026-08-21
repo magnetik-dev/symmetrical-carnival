@@ -28,7 +28,9 @@
     { value: 'ca-serpl-quizes-all', label: 'SERPL Quizes' },
     { value: 'ca-linx', label: 'LINX Exams' },
     { value: 'inn8', label: 'INN8 Exams'},
-    { value: 'icno', label: 'ICNO Exams'}
+    { value: 'icno', label: 'ICNO Exams'},
+    { value: 'icno-quiz', label: 'ICNO Graded Quizes'},
+    { value: 'ca-az800', label: 'AZ800 Exams'}
   ];
 
   const dataOptions = [

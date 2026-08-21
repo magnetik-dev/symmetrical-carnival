@@ -1,0 +1,242 @@
+[
+  {
+    "query": "Which of the following is true about Group Policy preferences?",
+    "response": "Preferences are not enforced."
+  },
+  {
+    "query": "You suspect that sensitive information has been leaked. Which audit logs could you review to track who opened a file containing the sensitive data?",
+    "response": "Object access"
+  },
+  {
+    "query": "Which preference would you use to regularly clean up temporary folders?",
+    "response": "Files Folders"
+  },
+  {
+    "query": "Which command should you enter at the command line to directly access the local Group Policy snap-in?",
+    "response": "gpedit"
+  },
+  {
+    "query": "Which AppLocker rule condition uses the digital fingerprint of an application?",
+    "response": "Hash"
+  },
+  {
+    "query": "Defender for Cloud can actively monitor all hybrid network resources for potential security issues. Which of the following is an active monitoring technique?",
+    "response": "Integrated threat intelligence"
+  },
+  {
+    "query": "Runbooks can be used with any Azure resource by default. To use a runbook with a non-Azure resource, what must be installed?",
+    "response": "Hybrid Runbook Worker agent"
+  },
+  {
+    "query": "Which of the following services must be enabled and set to auto-start for PowerShell remoting to work?",
+    "response": "Windows Remote Management (Win-RM) service"
+  },
+  {
+    "query": "Windows Admin Center (WAC) can be integrated with Azure Hybrid Services, allowing WAC to be accessed through the Azure portal. Many Azure tools can be consolidated into one central location, which allows Azure virtual machines to be created directly from WAC.",
+    "response": "PowerShell"
+  },
+  {
+    "query": "Azure Policy evaluates a network resource when it is created or a policy assignment is updated, created, or assigned to a resource. How often is a resource evaluated after the initial evaluation?",
+    "response": "Every 24 hours"
+  },
+  {
+    "query": "Which of the following GPT features helps to verify the integrity of the partition table to make sure that it is still valid and has not been corrupted?",
+    "response": "CRC"
+  },
+  {
+    "query": "You have moved a sensitive file from an NTFS file system to a FAT32 formatted flash drive. Which of the following are true?",
+    "response": "Permissions that had been assigned in the NTFS file system would be lost."
+  },
+  {
+    "query": "You want to provide direct replication between two Windows servers. Both servers are located within the same building and share a fast network connection. Which configuration would be ideal?",
+    "response": "Synchronous replication using a server-to-server implementation."
+  },
+  {
+    "query": "Which of the following protects you from a single storage device failure?",
+    "response": "Two-way mirror"
+  },
+  {
+    "query": "When configuring synchronous replication, how much latency on the network link is allowed?",
+    "response": "Less than 5 ms"
+  },
+  {
+    "query": "Which of the following BEST describes namespaces?",
+    "response": "A group of shared folders on a server."
+  },
+  {
+    "query": "You work for a company that headquarters in Seattle and an office in Olympia. A single server in the Seattle office runs Windows Server 2016 and holds all shared files for the company. The office in Olympia has five client computers that run Windows 10. The Olympia office is connected to the Seattle office with a WAN link. You want to implement BranchCache in the Olympia office using hosted cache mode. Which of the following best describes the infrastructure requirements?",
+    "response": "Clients running Windows 10; server running Windows Server 2016 in Olympia; Active Directory Certificate Services"
+  },
+  {
+    "query": "You are using the default file screens groups to block files from being saved on the server. The Marketing department needs to be able to store files the have a .asc extension. Which of the following file group would you create an exception for?",
+    "response": "Text files"
+  },
+  {
+    "query": "Which of the following BEST describes file screens?",
+    "response": "Acts as a filter that allows or denies files to be stored on a file server."
+  },
+  {
+    "query": "Which of the following BEST describes a global catalog?",
+    "response": "A database that contains a partial replica of every object from every domain within a forest."
+  },
+  {
+    "query": "Continuous delivery (CD) and continuous integration (CI) can be set up so that when a developer starts a new build or updates an application, it's automatically deployed to the application server. Which component is used to store the most recent version of a developer's code?",
+    "response": "Repository"
+  },
+  {
+    "query": "Continuous delivery (CD) and continuous integration (CI) can be set up so that when a developer starts a new build or updates an application, it's automatically deployed to the application server. Which component does Microsoft recommend for running automated test pipelines?",
+    "response": "Azure DevTest Labs"
+  },
+  {
+    "query": "Which of the following settings allows network traffic received on the virtual network adapter to be distributed across multiple CPU cores?",
+    "response": "Virtual Machine Queue (VMQ)"
+  },
+  {
+    "query": "Which of the following is true regarding VHDX fixed drives?",
+    "response": "Performance is improved because the entire virtual disk is a contiguous block."
+  },
+  {
+    "query": "Which of the following is TRUE regarding a test failover?",
+    "response": "Should be performed monthly."
+  },
+  {
+    "query": "Before creating an Azure AD application proxy, which of the following is ALWAYS required?",
+    "response": "Users must be synched from on-premise AD to Azure AD, or users must be created in Azure AD."
+  },
+  {
+    "query": "Which of the following is TRUE regarding the Windows Admin Center (WAC)?",
+    "response": "Requires latest version of Azure Network Adapter."
+  },
+  {
+    "query": "You are configuring AD FS. Which server should you deploy on your organization's perimeter network to allow users to access web applications?",
+    "response": "Web Application Proxy"
+  },
+  {
+    "query": "Which of the following BEST describes Node.js?",
+    "response": "A free (open-source) backend runtime environment that works across multiple platforms."
+  },
+  {
+    "query": "You manage the remote access solution for your network. Currently, you have two remote access servers, RA1 and RA2, with an additional server, RA3, configured as a RADIUS server. You need to configure RA1 and RA2 to forward authentication requests to RA3. What should you do?",
+    "response": "On RA1 and RA2, run Routing and Remote Access. Edit the properties of the server and configure it to use RA3 for authentication."
+  },
+    {
+    "query": "Which of the following Windows 11 interface components is designed to provide information such as local weather, trending news, and options to personalize the news feed and interests?",
+    "response": "Widgets"
+  },
+  {
+    "query": "Which of the following is true regarding Server Manager?",
+    "response": "Does not require the use of the Remote Desktop Protocol (RDP)."
+  },
+  {
+    "query": "Which role or feature protects a server by encrypting the operating system volume and verifying the integrity of other startup components?",
+    "response": "BitLocker Drive Encryption"
+  },
+  {
+    "query": "Which of the following provides network host IP addresses and other IP configuration information?",
+    "response": "DHCP Server"
+  },
+  {
+    "query": "Which of the following BEST describes the Azure Management Groups resource level?",
+    "response": "Containers that include one or more resources to be managed by applying conditions."
+  },
+  {
+    "query": "Which of the following BEST describes the Microsoft Privacy Statement?",
+    "response": "It outlines issues related to personal data and applies to all Microsoft products, including services, apps, software, servers, and devices."
+  },
+  {
+    "query": "You are a systems administrator for your company's network. You have 600 workstations running Windows 10, three DHCP Servers, and two DNS Servers. You want to centrally managed your DHCP and DNS servers. What should you do?",
+    "response": "Install IPAM to manage your DHCP and DNS servers."
+  },
+  {
+    "query": "Which DHCP high-availability option typically assigns both servers 50% of the IP leases?",
+    "response": "Load balance"
+  },
+  {
+    "query": "You have a workstation that's connected to a small branch network with a single switch. The network doesn't have any routers and isn't connected to the internet. What are the minimum configuration parameters required for the workstation to be able to communicate with all the hosts on the network?",
+    "response": "IP address and subnet mask"
+  },
+  {
+    "query": "Which of the following tunneling methods is used to send IPv4 traffic through an IPv6 network?",
+    "response": "4to6 tunneling"
+  },
+  {
+    "query": "Which of the following is a valid IPv6 address?",
+    "response": "FEC0::AB:9007"
+  },
+  {
+    "query": "You've configured your organization's DHCP server to dynamically assign IP addresses to DHCP clients using a lease duration of four days. You're using a Windows server for DHCP, and the default lease time is eight days. What impact, if any, will this have on the network?",
+    "response": "Increased network traffic"
+  },
+  {
+    "query": "You are responsible for managing a Windows Server 2016 system named DNS1 that functions as a DNS server. One of the domains owned by your organization is westsim.com, which is not integrated with Active Directory. Your DNS server is authoritative for this zone. Two other DNS servers in your organization named DNS2 and DNS3 contain a copy of the zone data in a multi-master configuration. You want to use DNSSEC to sign zone data digitally. You want to use DNS1 as the Key Master for DNSSEC. Which should you do?",
+    "response": "In DNS Manager, right-click the westsim.com zone and click DNSSEC > Sign the Zone."
+  },
+  {
+    "query": "What type of zone does Azure DNS use?",
+    "response": "Private"
+  },
+  {
+    "query": "In a hybrid network that consists of an on-premises network and an Azure networked environment, which devices can query Azure DNS?",
+    "response": "Only Azure virtual network clients."
+  },
+  {
+    "query": "Which of the following is true regarding Active Directory-integrated (ADI) zone data?",
+    "response": "Only members of the domain can update records."
+  },
+  {
+    "query": "You want to implement a protocol on your network that allows computers to find a host's IP address from a logical name. Which protocol should you implement?",
+    "response": "DNS"
+  },
+  {
+    "query": "Which of the following is true regarding the primary zone?",
+    "response": "Permission is required to get a copy of the zone."
+  },
+  {
+    "query": "Which of the following password synchronization options in Azure AD Connect utilizes proxy servers as an extra layer of security in the authentication process?",
+    "response": "Federation authentication"
+  },
+  {
+    "query": "Which of the following BEST describes the few accounts cached administrative model?",
+    "response": "The administrative overhead of this model is greater because administrators must manually add users (or preferably groups) to the allowed list."
+  },
+  {
+    "query": "If you want to increase the speed of authentication and resource access between two domains within the same forest, which of the following is the best trust to create manually?",
+    "response": "Shortcut trust"
+  },
+  {
+    "query": "Which of the following is a benefit offered by Azure Active Directory to application developers?",
+    "response": "By using Azure AD, application developers can integrate a user's preexisting credentials into the app for single sign-on authentication."
+  },
+  {
+    "query": "Which of the following best describes an RODC?",
+    "response": "A domain controller that hosts read-only partitions of Active Directory's database."
+  },
+  {
+    "query": "Brad is the network administrator at a large company that just acquired a smaller company. Brad needs to give the larger company's sales directors access to the resources of the smaller company. The larger company uses Windows Active Directory for managing resources. The smaller company does not use Active Directory.",
+    "response": "Realm trust"
+  },
+  {
+    "query": "You are the administrator of a network with a single Active Directory domain. Your domain contains three domain controllers and five-member servers. Your security policy states that all accounts should be locked out after three unsuccessful login attempts and that accounts must be reset only by an administrator. A GPO enforces these settings. On Monday morning, you receive a call from the help desk. There are seven users who are unable to log in to the domain. Upon further investigation, you notice all seven accounts have been locked out. You need to unlock the user accounts with the least amount of administrative effort while complying with your security policy. What should you do next?",
+    "response": "Using Active Directory Users and Computers, select Unlock Account for each account."
+  },
+  {
+    "query": "Which of the following is true about organizational units (OUs)?",
+    "response": "Group Policy can be applied to organizational units."
+  },
+  {
+    "query": "You are the administrator of a network with a single Active Directory domain. You would like to create a script the Help Desk support staff can use to create domain user accounts. The Help Desk staff will input various user account values, and these values will be used in the script. Which of the following commands should your script include?",
+    "response": "dsadd"
+  },
+  {
+    "query": "Which of the following default containers holds the default service administrator accounts?",
+    "response": "Built-in container"
+  },
+  {
+    "query": "Which of the following statements is true about CSVDE?",
+    "response": "It cannot modify existing objects in Active Directory."
+  },
+  {
+    "query": "Which of the following BEST describes a service account?",
+    "response": "A special user account that an application or service uses to interact with the OS."
+  }
+]

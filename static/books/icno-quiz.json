@@ -1,0 +1,78 @@
+[
+  {
+    "query": "Which of the following statements apply only to extended access lists, not to standard access lists? (Select two.)",
+    "response": "You can filter traffic for a specific protocol., You can filter traffic by destination IP addresses."
+  },
+  {
+    "query": "Which of the following statements about ACLs are true? (Select two.)",
+    "response": "An ACL without a permit statement does not allow any traffic., Inbound ACLs are applied before the routing process."
+  },
+  {
+    "query": "Which of the following describes how ACLs can improve network security?",
+    "response": "An ACL filters traffic by the IP header information such as source or destination IP address, protocol, or socket numbers."
+  },
+  {
+    "query": "Your router currently has two ACLs:\n\nOne list denies SAP broadcasts and allows all other traffic. This list is applied to outbound traffic on Serial0.\nThe second list denies Telnet traffic and allows all other traffic. This list is applied to inbound traffic on Serial1.\nYou also want to restrict all outbound traffic sent through Serial0 from network 192.168.2.0/24. How should you configure ACLs on the router to meet all current and new requirements with as little effort as possible?",
+    "response": "Create a new ACL that denies traffic from network 192.168.2.0/24 and permits all other traffic. Apply the ACL to the Serial0 interface for outbound traffic."
+  },
+  {
+    "query": "You want to control Telnet access to your router and only allow access from within the corporate network. You have subnetted your network so that all IP addresses use subnets of the 172.18.0.0/16 network.",
+    "response": "access-list 7 permit 172.18.0.0 0.0.255.255, ip access-class 7 in"
+  },
+  {
+    "query": "You have used the following commands at the router console to create an IP access list and switch to interface configuration mode:\n\nRouter(config)#access-list 122 permit tcp 10.6.0.0 0.0.255.255 any\nRouter(config)#int eth 0\n\nWhich of the following commands would you use to add the access list to this interface and filter incoming packets?",
+    "response": "ip access-group 122 in"
+  },
+  {
+    "query": "Which of the following commands can you use to see which ACL is applied to the first Ethernet interface?",
+    "response": "sh ip int"
+  },
+  {
+    "query": "You have just finished configuring ACL 101 and are ready to apply it to an interface. Before you do this, you would like to view the ACL to ensure there are no mistakes. Which command displays access list 101?",
+    "response": "show access-lists 101"
+  },
+  {
+    "query": "You are configuring ACLs for a router. You need to create a standard IP access list that permits all traffic except traffic from the 192.168.1.0/24 network .\n\nTo verify that the ACL is configured correctly and functioning as intended, you want to view extended information about matches for each line in the ACL as packets are processed by the router.\n\nWhich two commands would you use to view the information you need? (Select two.)",
+    "response": "access-list 1 permit any log, access-list 1 deny 192.168.1.0 0.0.0.255 log"
+  },
+  {
+    "query": "Your company has two subnets, 172.16.1.0 and 172.16.2.0, as shown in the exhibit. You want to prevent public Telnet traffic from entering your company but allow all other traffic.\n\nWhich of the following sets of statements will accomplish your goal?",
+    "response": "access-list 101 deny tcp any 172.16.0.0 0.0.255.255 eq 23\naccess-list 101 permit ip any 172.16.2.0 0.0.255.255\ninterface serial 0\nip access-group 101 in"
+  },
+  {
+    "query": "Which of the following commands would you use to modify the CDP packet exchange interval to send CDP packets every 30 seconds?",
+    "response": "cdp timer 30"
+  },
+  {
+    "query": "You are physically seated at a host connected to the console of the Seattle router as shown in the exhibit. You need to know what IP address has been configured on the E0 interface on the New York router.",
+    "response": "Telnet to New York. From privileged mode, type show interface E0., Telnet to Toronto. From privileged mode, type show cdp neighbors detail."
+  },
+  {
+    "query": "For security reasons, you want to prevent the Toronto router from sharing any information about itself with neighboring devices. Which command should you run on the Toronto router?",
+    "response": "Toronto(config)#no cdp run"
+  },
+  {
+    "query": "You have just entered the configure terminal on a router and specified a gigabit interface. You want to disable CDP on that interface, but you want to keep CDP enabled on the device. Which of the following commands would you use?",
+    "response": "Router(config-if)#no cdp enable"
+  },
+  {
+    "query": "Which of the following protocols enables Cisco devices to discover non-Cisco devices?",
+    "response": "LLDP"
+  },
+  {
+    "query": "Which of the following commands disables LLDP globally on a Cisco device?",
+    "response": "switch(config)#no lldp run"
+  },
+  {
+    "query": "Jaden is the network engineer at a branch office. There are non-Cisco devices on the network that Jaden would like to make sure are discovered by the Cisco router. Jaden has just enabled the Link Layer Discovery Protocol (LLDP) on the router. Which of the following is true about LLDP?",
+    "response": "Configured on a per-interface basis."
+  },
+  {
+    "query": "To show all non-Cisco devices using LLDP, which of the following commands would you execute on a Cisco router?",
+    "response": "Router#show lldp neighbors"
+  },
+  {
+    "query": "The default amount of time that a device will hold information about its neighbors using LLDP is 120 seconds. Which of the following command allows you to change the value?",
+    "response": "Router(config)#lldp holdtime [number of seconds]"
+  }
+]
