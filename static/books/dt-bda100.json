@@ -1,11 +1,287 @@
 [
   {
-    "query": "Which of the following is an example of a predictive model?",
-    "response": "Forecasting sales for the next quarter"
+    "query": "In a company there are 200 employees comprising of 130 men and 70 women. 30 men and 40 women have a university degree. Two employees are chosen for a mission. What is the probability that one of them is a man and the other is a woman?",
+    "response": ""
+  },
+  {
+    "query": "Which of the following is a measure of dispersion?",
+    "response": "Range"
+  },
+  {
+    "query": "Given the following, what is the probability that a randomly chosen customer has a demand of less than 165 and more than 140 units/month?",
+    "response": "0.7745"
+  },
+  {
+    "query": "Suppose that a game is to be played with a single die assumed fair. In this game, a player wins $23 if a 5 or a 6 turns up while loses $10 for other cases. How many dollars are you expected to win if you play four times?",
+    "response": "4"
+  },
+  {
+    "query": "What is the mean of a standard normal distribution?",
+    "response": "0"
+  },
+  {
+    "query": "The number of ways to arrange r objects from a set of n objects is given by:",
+    "response": "n! / (n - r)!"
+  },
+  {
+    "query": "What is the probability density function of the uniform distribution?",
+    "response": "1/(b - a)"
+  },
+  {
+    "query": "A probability of 0 means that:",
+    "response": "The event is impossible"
+  },
+  {
+    "query": "Assume that in a restaurant there are four kinds of food, five kinds of drink, and three kinds of salads. You are going to choose food with drink and salad, but you dislike two drinks. How many choices would you have?",
+    "response": "24"
+  },
+  {
+    "query": "What is the distribution used to model data that is symmetric and unimodal?",
+    "response": "Normal distribution"
+  },
+  {
+    "query": "Which of the following distributions is used to model the number of events that occur in a fixed interval of time?",
+    "response": "Poisson distribution"
+  },
+  {
+    "query": "Joint probability is the probability of:",
+    "response": "Two or more events occurring simultaneously"
+  },
+  {
+    "query": "Which of the following is an example of sampling error?",
+    "response": "Random variation within the sample"
+  },
+  {
+    "query": "The sampling distribution of the mean is:",
+    "response": "The distribution of the sample mean for all possible samples of the same size"
+  },
+  {
+    "query": "We are going to study a population while we have just a sample with a size of 16 from this population. The mean and standard deviation of this sample are 12 and 3, respectively. Which of the following is the 99% confidence interval for the mean of population? You may use the following t-test look up table.",
+    "response": "(9.79,14.21)"
+  },
+  {
+    "query": "A 100 (1 - )% probability interval is any interval [A, B] such that the probability of falling between A and B is …?",
+    "response": "1 -"
+  },
+  {
+    "query": "A confidence interval is:",
+    "response": "The range of values within which a population parameter is estimated to lie"
+  },
+  {
+    "query": "Which of the following is not required to calculate a confidence interval for the mean with unknown population standard deviation?",
+    "response": "Sample standard deviation"
+  },
+  {
+    "query": "A prediction interval is:",
+    "response": "The range of values within which a future observation is likely to fall"
+  },
+  {
+    "query": "Which kind of sampling involves selecting items from a population so that every subset of a given size has an equal chance of being selected",
+    "response": "Simple Random Sampling"
+  },
+  {
+    "query": "Two of the following four sentences are not correct. Which ones?",
+    "response": "In a confidence interval, the level of confidence is usually expressed as an interval.,A confidence interval is an interval that certainly contains the parameter it is intended to estimate."
+  },
+  {
+    "query": "If the expected value of an estimator equals the population parameter it is intended to estimate, the estimator is said to be:",
+    "response": "Unbiased"
+  },
+  {
+    "query": "In a production process for filling bottles of milk, the historical standard deviation is 25 milliliters. A sample of 36 filled bottles has an average volume of 925 milliliters. Which of the following intervals is the 95% confidence interval for the population mean? You may use the following t-test look up table.",
+    "response": "(916.83,933.17)"
+  },
+  {
+    "query": "Which of the following is an example of a one-tailed hypothesis test?",
+    "response": "testing if the mean of a population is greater than a given value"
+  },
+  {
+    "query": "In hypothesis testing, the level of significance (alpha) is defined as:",
+    "response": "The probability of rejecting a true null hypothesis"
+  },
+  {
+    "query": "In a one-sample hypothesis test for the mean, the null hypothesis is that:",
+    "response": "The population mean is equal to a specific value"
+  },
+  {
+    "query": "In a production process for filling bottles of milk, the historical standard deviation is 25 milliliters. A sample of 36 filled bottles has an average volume of 925 milliliters. In the level of significance 0.01, can we conclude that the average of milk in bottles is greater than 930 milliliter?",
+    "response": "No"
+  },
+  {
+    "query": "A chi-square goodness of fit test is used to:",
+    "response": "test if a sample comes from a specific distribution"
+  },
+  {
+    "query": "In two-sample test for equality of variances, which test should be used?",
+    "response": "F-test"
+  },
+  {
+    "query": "A hypothesis test is used to:",
+    "response": "Determine the statistical significance of a result"
+  },
+  {
+    "query": "A company wants to estimate the proportion of customers who are satisfied with their product. They randomly survey 500 customers and find that 420 are satisfied. What is the point estimate of the proportion of satisfied customers?",
+    "response": "0.84"
+  },
+  {
+    "query": "Which of the following is called the Type I error?",
+    "response": "The null hypothesis is actually true, but the hypothesis test incorrectly rejects it."
+  },
+  {
+    "query": "A researcher wants to estimate the average income of a population. She takes a random sample of 100 individuals and finds a sample mean of $60,000 and a sample standard deviation of $10,000. What is the standard error of the mean?",
+    "response": "$1,500"
+  },
+  {
+    "query": "The test statistic for a one-sample t-test is:",
+    "response": "(sample mean - population mean) / (standard error of the mean)"
+  },
+  {
+    "query": "A type I error occurs when:",
+    "response": "The null hypothesis is rejected when it is actually true"
+  },
+  {
+    "query": "What is the fourth step in problem solving with analytics?",
+    "response": "Analyzing the problem"
   },
   {
     "query": "What is the purpose of structuring a problem in analytics?",
     "response": "To break the problem down into manageable components"
+  },
+  {
+    "query": "Which of the following is an example of a basic Excel function?",
+    "response": "ROUND"
+  },
+  {
+    "query": "Among the volume , variety , velocity , and veracity , how ma ny are the characteristics of big data?",
+    "response": "4"
+  },
+  {
+    "query": "What is the purpose of the Excel function IFERROR?",
+    "response": "To return a specific value if an error occurs in a formula"
+  },
+  {
+    "query": "What is the final step in problem solving with analytics?",
+    "response": "Interpreting results and making a decision"
+  },
+  {
+    "query": "What are model assumptions?",
+    "response": "Assumptions made about the data being used in a model"
+  },
+  {
+    "query": "Which of the following sentences is the best meaning of the Validity of data?",
+    "response": "Validity means that data correctly measure what they are supposed to measure."
+  },
+  {
+    "query": "What is the purpose of using range names in Excel?",
+    "response": "To make it easier to reference cells in formulas and functions"
+  },
+  {
+    "query": "What is a lookup function in Excel?",
+    "response": "A function for finding data in a table based on specific criteria"
+  },
+  {
+    "query": "What is a slicer in Excel?",
+    "response": "A filtering tool for PivotTables in Excel"
+  },
+  {
+    "query": "If we choose columns A to E and use sort by ID, what will be the value of B2 and G4, respectively? A B C D E F G H I 1 ID Name Sex Equipment Age Body Kg Quat Kg Deadlift Kg 2 14741 Coby F Raw 8.5 24.1 32.5 50 3 27238 Celeste F Raw 8.5 31.46 50 62.5 4 14480 Jack M Wraps 9 30.84 37.5 67.5 5 3510 Etta F Raw 9.5 27.9 20 35 6 10881 Zayd M Raw 9.5 34.8 35 60 7 4462 Trevor M S-Ply 10 52 36.29 61.23 8 25139 Colton M Raw 10 41.37 47.49 69.99 9 5222 Rowan M Wraps 10.5 39.2 55 75",
+    "response": "Etta, 37.5"
+  },
+  {
+    "query": "What is data validation in Excel?",
+    "response": "A tool for ensuring the accuracy and consistency of data in Excel"
+  },
+  {
+    "query": "What is a PivotTable in Excel?",
+    "response": "A data analysis tool in Excel"
+  },
+  {
+    "query": "What are form controls in Excel?",
+    "response": "A tool for creating interactive forms in Excel"
+  },
+  {
+    "query": "What are logical functions in Excel?",
+    "response": "Functions that evaluate data and return a logical value"
+  },
+  {
+    "query": "What is an Excel template?",
+    "response": "A pre-built spreadsheet with a specific structure"
+  },
+  {
+    "query": "What is Pareto analysis?",
+    "response": "A method for prioritizing problems based on the Pareto principle"
+  },
+  {
+    "query": "What is the purpose of data labels in a chart?",
+    "response": "To provide context and additional information about the data"
+  },
+  {
+    "query": "Which chart type is best for comparing multiple data points?",
+    "response": "Bar chart"
+  },
+  {
+    "query": "Which type of chart is most suitable for showing the distribution of a continuous variable?",
+    "response": "Histogram"
+  },
+  {
+    "query": "What type of chart is best used to compare data across categories?",
+    "response": "Column chart"
+  },
+  {
+    "query": "What is a sparkline in Excel?",
+    "response": "A small chart used to display trends in data"
+  },
+  {
+    "query": "What is a bar chart in Excel?",
+    "response": "A chart used to compare values across categories using vertical bars"
+  },
+  {
+    "query": "What is a hierarchy chart in Excel?",
+    "response": "A type of chart used to display hierarchical relationships between data"
+  },
+  {
+    "query": "Which chart type should be used to show data in proportion to the whole?",
+    "response": "Pie chart"
+  },
+  {
+    "query": "What type of chart is used to display geographic data?",
+    "response": "Map chart"
+  },
+  {
+    "query": "What is the mode? data frequency 1 2 2 2 5 2 3 6 1 4 8 5 5 9 2",
+    "response": "8"
+  },
+  {
+    "query": "Which of the following is NOT a measure of central tendency?",
+    "response": "Standard deviation"
+  },
+  {
+    "query": "Which of the following is a categorical variable?",
+    "response": "Gender"
+  },
+  {
+    "query": "What is the median? data frequency 1 2 2 2 5 2 3 6 1 4 8 5 5 9 2",
+    "response": "8"
+  },
+  {
+    "query": "Which of the following is used to represent a frequency distribution for categorical data?",
+    "response": "Bar chart"
+  },
+  {
+    "query": "The median is the:",
+    "response": "Middle value of a data set when it is ordered from lowest to highest"
+  },
+  {
+    "query": "Suppose that in a set of data, the standard deviation is 7.25 and the mean is 2.3. According to Chebyshev's theorem, which interval below will contain at least 75% of the data?",
+    "response": "[-12.2, 16.8]"
+  },
+  {
+    "query": "What is the value of the variance? data frequency 1 2 2 2 5 2 3 6 1 4 8 5 5 9 2",
+    "response": "5.75"
+  },
+  {
+    "query": "Which of the following is an example of a predictive model?",
+    "response": "Forecasting sales for the next quarter"
   },
   {
     "query": "Which of the following is the most complete about the phases of problem-solving?",
@@ -24,10 +300,6 @@
     "response": "“Intelligence and information systems”, “statistics”, and “modeling and optimization”."
   },
   {
-    "query": "What is the fourth step in problem solving with analytics?",
-    "response": "Analyzing the problem"
-  },
-  {
     "query": "What is the first step in problem solving with analytics?",
     "response": "Recognizing a problem"
   },
@@ -36,20 +308,8 @@
     "response": "The process of using data to inform business decisions"
   },
   {
-    "query": "What is a slicer in Excel?",
-    "response": "A tool for filtering data in a pivot table"
-  },
-  {
     "query": "What is a pivot table in Excel?",
     "response": "A function for summarizing data in a table"
-  },
-  {
-    "query": "What is a PivotTable in Excel?",
-    "response": "A data analysis tool in Excel"
-  },
-  {
-    "query": "What are form controls in Excel?",
-    "response": "Controls that allow the user to interact with a spreadsheet"
   },
   {
     "query": "What are database functions in Excel?",
@@ -60,10 +320,6 @@
     "response": "They allow you to perform calculations and lookups on your database data in Excel"
   },
   {
-    "query": "What is Pareto analysis?",
-    "response": "A method for prioritizing problems based on the Pareto principle"
-  },
-  {
     "query": "What is the result of the function =ISNUMBER(B25) in the following Excel file? A B C 24 121 John =ISNUMBER(B24) 25 69 421 =ISNUMBER(B25) 26 Naima 23 =ISNUMBER(B26)",
     "response": "TRUE"
   },
@@ -72,56 +328,20 @@
     "response": "Display of data in a small, compact format within a cell"
   },
   {
-    "query": "What type of chart is used to display geographic data?",
-    "response": "Map chart"
-  },
-  {
     "query": "What is Tableau?",
     "response": "A data visualization software"
-  },
-  {
-    "query": "Which type of chart is most suitable for showing the distribution of a continuous variable?",
-    "response": "Histogram"
   },
   {
     "query": "Which chart type is best for showing deviations from a target or expected value?",
     "response": "Column chart"
   },
   {
-    "query": "What is the purpose of data labels in a chart?",
-    "response": "To provide context and additional information about the data"
-  },
-  {
-    "query": "What is a sparkline in Excel?",
-    "response": "A small chart used to display trends in data"
-  },
-  {
-    "query": "What type of chart is best used to compare data across categories?",
-    "response": "Column chart"
-  },
-  {
-    "query": "What is a hierarchy chart in Excel?",
-    "response": "A type of chart used to display hierarchical relationships between data"
-  },
-  {
-    "query": "Which of the following is a categorical variable?",
-    "response": "Gender"
-  },
-  {
     "query": "The relative frequency of an event is calculated as:",
     "response": "The number of times an event occurred divided by the total number of events"
   },
   {
-    "query": "Which of the following is NOT a measure of central tendency?",
-    "response": "Standard deviation"
-  },
-  {
     "query": "What is the value of the mean? data frequency 1 2 2 2 5 2 3 6 1 4 8 5 5 9 2",
     "response": "6.5"
-  },
-  {
-    "query": "Suppose that in a set of data, the standard deviation is 7.25 and the mean is 2.3. According to Chebyshev's theorem, which interval below will contain at least 75% of the data?",
-    "response": "[-12.2, 16.8]"
   },
   {
     "query": "Which of the following is used to represent a grouped frequency distribution?",
@@ -140,68 +360,16 @@
     "response": "0.2"
   },
   {
-    "query": "What is the distribution used to model data that is symmetric and unimodal?",
-    "response": "Normal distribution"
-  },
-  {
-    "query": "A probability of 0 means that:",
-    "response": "The event is impossible"
-  },
-  {
     "query": "The variance of a discrete random variable is defined as:",
     "response": "The sum of the squared deviations from the mean divided by the number of observations"
-  },
-  {
-    "query": "The number of ways to arrange r objects from a set of n objects is given by:",
-    "response": "n! / (n - r)!"
-  },
-  {
-    "query": "Assume that in a restaurant there are four kinds of food, five kinds of drink, and three kinds of salads. You are going to choose food with drink and salad, but you dislike two drinks. How many choices would you have?",
-    "response": "24"
-  },
-  {
-    "query": "Which of the following is a measure of dispersion?",
-    "response": "Range"
   },
   {
     "query": "Which of the following is a measure of the goodness of fit between an empirical distribution and a theoretical distribution?",
     "response": "Chi-square statistic"
   },
   {
-    "query": "Which of the following distributions is used to model the number of events that occur in a fixed interval of time?",
-    "response": "Poisson distribution"
-  },
-  {
-    "query": "What is the probability density function of the uniform distribution?",
-    "response": "1/(b - a)"
-  },
-  {
-    "query": "Joint probability is the probability of:",
-    "response": "Two or more events occurring simultaneously"
-  },
-  {
     "query": "Which probability distribution is used to model the number of successes in a fixed number of independent trials?",
     "response": "Binomial distribution"
-  },
-  {
-    "query": "A 100 (1 - )% probability interval is any interval [A, B] such that the probability of falling between A and B is …?",
-    "response": "1 -"
-  },
-  {
-    "query": "A prediction interval is:",
-    "response": "The range of values within which a future observation is likely to fall"
-  },
-  {
-    "query": "We are going to study a population while we have just a sample with a size of 16 from this population. The mean and standard deviation of this sample are 12 and 3, respectively. Which of the following is the 99% confidence interval for the mean of population? You may use the following t-test look up table.",
-    "response": "(9.79,14.21)"
-  },
-  {
-    "query": "Two of the following four sentences are not correct. Which ones?",
-    "response": "In a confidence interval, the level of confidence is usually expressed as an interval.,A confidence interval is an interval that certainly contains the parameter it is intended to estimate."
-  },
-  {
-    "query": "The sampling distribution of the mean is:",
-    "response": "The distribution of the sample mean for all possible samples of the same size"
   },
   {
     "query": "Which of the following is not required to calculate a confidence interval for the mean with known population standard deviation?",
@@ -216,22 +384,6 @@
     "response": "3"
   },
   {
-    "query": "A confidence interval is:",
-    "response": "The range of values within which a population parameter is estimated to lie"
-  },
-  {
-    "query": "In a production process for filling bottles of milk, the historical standard deviation is 25 milliliters. A sample of 36 filled bottles has an average volume of 925 milliliters. Which of the following intervals is the 95% confidence interval for the population mean? You may use the following t-test look up table.",
-    "response": "(916.83,933.17)"
-  },
-  {
-    "query": "If the expected value of an estimator equals the population parameter it is intended to estimate, the estimator is said to be:",
-    "response": "Unbiased"
-  },
-  {
-    "query": "A hypothesis test is used to:",
-    "response": "Determine the statistical significance of a result"
-  },
-  {
     "query": "In a chi-square test for independence, the null hypothesis states that:",
     "response": "the two groups are independent"
   },
@@ -244,76 +396,28 @@
     "response": "two-sample t-test for the difference in means"
   },
   {
-    "query": "A researcher wants to estimate the average income of a population. She takes a random sample of 100 individuals and finds a sample mean of $60,000 and a sample standard deviation of $10,000. What is the standard error of the mean?",
-    "response": "$1,500"
-  },
-  {
-    "query": "In hypothesis testing, the level of significance (alpha) is defined as:",
-    "response": "The probability of rejecting a true null hypothesis"
-  },
-  {
-    "query": "In a production process for filling bottles of milk, the historical standard deviation is 25 milliliters. A sample of 36 filled bottles has an average volume of 925 milliliters. In the level of significance 0.01, can we conclude that the average of milk in bottles is greater than 930 milliliter?",
-    "response": "No"
-  },
-  {
-    "query": "A type I error occurs when:",
-    "response": "The null hypothesis is rejected when it is actually true"
-  },
-  {
     "query": "How many of the following sentences are true? In Two-sample test for means, S 2 known, we use Excel z-test: Two-sample for means. In Two-sample test for means, s2 unknown and assumed unequal, we use Excel t-test: Two-sample assuming unequal variances. In Two-sample test for means, s2 unknown and assumed equal, we use Excel t-test: Two-sample assuming equal variances.",
     "response": "all of them"
-  },
-  {
-    "query": "Which of the following is an example of a one-tailed hypothesis test?",
-    "response": "testing if the mean of a population is greater than a given value"
   },
   {
     "query": "The mayor of a certain city has claimed that at least 90% of the city’s population has been vaccinated against Covid-19. In a sample of 200 people, 165 people have declared that they vaccinated. Determine whether the mayor’s claim is legitimate by using 0.01 as the level of significance",
     "response": "No"
   },
   {
-    "query": "The test statistic for a one-sample t-test is:",
-    "response": "(sample mean - population mean) / (standard error of the mean)"
-  },
-  {
-    "query": "What is the final step in problem solving with analytics?",
-    "response": "Interpreting results and making a decision"
-  },
-  {
-    "query": "What is the purpose of the Excel function IFERROR?",
-    "response": "To return a specific value if an error occurs in a formula"
-  },
-  {
     "query": "Which of the following is an example of prescriptive analytics?",
     "response": "Recommending product prices"
-  },
-  {
-    "query": "What are model assumptions?",
-    "response": "Assumptions made about the data being used in a model"
   },
   {
     "query": "What is the purpose of data reliability and validity?",
     "response": "To ensure that data is accurate and relevant for analysis"
   },
   {
-    "query": "If we choose columns A to E and use sort by ID, what will be the value of B2 and G4, respectively? A B C D E F G H I 1 ID Name Sex Equipment Age Body Kg Quat Kg Deadlift Kg 2 14741 Coby F Raw 8.5 24.1 32.5 50 3 27238 Celeste F Raw 8.5 31.46 50 62.5 4 14480 Jack M Wraps 9 30.84 37.5 67.5 5 3510 Etta F Raw 9.5 27.9 20 35 6 10881 Zayd M Raw 9.5 34.8 35 60 7 4462 Trevor M S-Ply 10 52 36.29 61.23 8 25139 Colton M Raw 10 41.37 47.49 69.99 9 5222 Rowan M Wraps 10.5 39.2 55 75",
-    "response": "Etta, 37.5"
-  },
-  {
     "query": "What is filtering in Excel?",
     "response": "Displaying specific data in a database"
   },
   {
-    "query": "What are logical functions in Excel?",
-    "response": "Functions that evaluate data and return a logical value"
-  },
-  {
     "query": "What is PivotTable customization in Excel?",
     "response": "Changing the structure and format of a PivotTable"
-  },
-  {
-    "query": "What is data validation in Excel?",
-    "response": "A tool for checking data for errors and inconsistencies"
   },
   {
     "query": "Which of the following is not a database management system?",
@@ -322,14 +426,6 @@
   {
     "query": "Which Excel feature allows you to highlight specific data points on a chart?",
     "response": "Data labels"
-  },
-  {
-    "query": "What is a bar chart in Excel?",
-    "response": "A chart used to compare values across categories using vertical bars"
-  },
-  {
-    "query": "Which chart type should be used to show data in proportion to the whole?",
-    "response": "Pie chart"
   },
   {
     "query": "What are data bars in Excel?",
@@ -342,14 +438,6 @@
   {
     "query": "Which type of chart is best used to show changes in data over time?",
     "response": "Line chart"
-  },
-  {
-    "query": "What is the value of the variance? data frequency 1 2 2 2 5 2 3 6 1 4 8 5 5 9 2",
-    "response": "5.75"
-  },
-  {
-    "query": "The median is the:",
-    "response": "Middle value of a data set when it is ordered from lowest to highest"
   },
   {
     "query": "What is the relative frequency of data “5”? data frequency 1 2 2 2 5 2 3 6 1 4 8 5 5 9 2",
