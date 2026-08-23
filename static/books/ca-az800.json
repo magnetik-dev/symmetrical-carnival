@@ -119,7 +119,7 @@
     "query": "You manage the remote access solution for your network. Currently, you have two remote access servers, RA1 and RA2, with an additional server, RA3, configured as a RADIUS server. You need to configure RA1 and RA2 to forward authentication requests to RA3. What should you do?",
     "response": "On RA1 and RA2, run Routing and Remote Access. Edit the properties of the server and configure it to use RA3 for authentication."
   },
-    {
+  {
     "query": "Which of the following Windows 11 interface components is designed to provide information such as local weather, trending news, and options to personalize the news feed and interests?",
     "response": "Widgets"
   },
@@ -238,5 +238,245 @@
   {
     "query": "Which of the following BEST describes a service account?",
     "response": "A special user account that an application or service uses to interact with the OS."
+  },
+  {
+    "query": "Which group is assigned to the Allow log on locally right assigned to by default for workstations and member servers?",
+    "response": "Administrators"
+  },
+  {
+    "query": "Which of the following can be configured using permissions?",
+    "response": "Deny access to files"
+  },
+  {
+    "query": "Which setting should you disable unless a specific application requires access to the plaintext password?",
+    "response": "Store passwords using reversible encryption"
+  },
+  {
+    "query": "Under which security option category would you enable a prompt for users to change their password before it expires?",
+    "response": "Interactive logon."
+  },
+  {
+    "query": "Which of the following BEST describes granular password policies?",
+    "response": "Policies within a GPO that apply password policies for users and global groups."
+  },
+  {
+    "query": "An Azure Connected Machine agent sends a heartbeat message to the Azure Arc service. Which port would need to be allowed through the firewall for the message to be received?",
+    "response": "443"
+  },
+  {
+    "query": "Which of the following monitors Azure resources, including Azure virtual machines, on-premises machines, and cloud environments?",
+    "response": "Change Tracking and Inventory"
+  },
+  {
+    "query": "As part of the Defender for Cloud, Microsoft has security and data teams that constantly monitor the threat landscape. Which of the following technique is used by these teams?",
+    "response": "Sharing insights between multiple teams and security specialists."
+  },
+  {
+    "query": "Which of the following BEST describes a runbook?",
+    "response": "Consist of multiple scripts that make up a workflow to complete a task."
+  },
+  {
+    "query": "Your network is utilizing Windows Active Directory and Kerberos. You have a PowerShell script that performs several tasks using PowerShell remoting. You want to resolve any second hop issues by configuring delegation on a server object instead of on an account. Which of the following Kerberos delegation types would you need to use?",
+    "response": "Resource-based delegation"
+  },
+  {
+    "query": "What is a requirement for using SMB Direct?",
+    "response": "RDMA-compatible NICs"
+  },
+  {
+    "query": "The GUID partition table, or GPT, was created as a replacement for which partitioning scheme?",
+    "response": "MBR"
+  },
+  {
+    "query": "Which of the following is a list of security protections that applies to an object?",
+    "response": "ACL"
+  },
+  {
+    "query": "In the data duplication process what does the filter driver component do?",
+    "response": "Redirects read requests to the correct chunks."
+  },
+  {
+    "query": "Which of the following statements is true?",
+    "response": "SMB Multichannel increases throughput."
+  },
+  {
+    "query": "Which of the following BEST describes DFS?",
+    "response": "Provides a way to logically organize shared folders on multiple servers into a single logical folder hierarchy."
+  },
+  {
+    "query": "Which of the following BEST describes ABE?",
+    "response": "Allows you to hide specific files and folders for users who don't have access permission."
+  },
+  {
+    "query": "You have configured BranchCache on client computers in your branch office to use distributed cache mode. You need to view the status of the BranchCache configuration on a Windows 10 client computer. What should you do?",
+    "response": "Run the Get-BCStatus PowerShell cmdlet."
+  },
+  {
+    "query": "Which of the following is an example of a domain-based namespace?",
+    "response": "\\\\Testout.com\\Files"
+  },
+  {
+    "query": "Which of the following is true regarding file groups?",
+    "response": "Under the FSRM, specific file types can be included or excluded by using their file extension and/or file name."
+  },
+  {
+    "query": "Which of the following Azure VM types is ideal for web servers with medium traffic?",
+    "response": "Compute-optimized"
+  },
+  {
+    "query": "Which of the following BEST describes MAP?",
+    "response": "An agentless inventory assessment and reporting tool used to assess network environments."
+  },
+  {
+    "query": "During which migration type is the virtual machine paused?",
+    "response": "Quick migration"
+  },
+  {
+    "query": "Which of the following is used with VM generations 1 and 2?",
+    "response": "Fiber Channel adapters"
+  },
+  {
+    "query": "Which of the following BEST describes node fairness?",
+    "response": "Identifies overloaded nodes and then redistributes virtual machines to the other nodes."
+  },
+  {
+    "query": "There are several terms used to describe Azure AD application proxy services. Which of the following terms refers to lightweight agents that communicate between Azure AD application proxy architecture components?",
+    "response": "Connectors"
+  },
+  {
+    "query": "Which of the following are differences between RADIUS and TACACS+?",
+    "response": "RADIUS combines authentication and authorization into a single function, while TACACS+ allows these services to be split between different servers."
+  },
+  {
+    "query": "Which of the following are the specific users for which the AD application proxy is designed?",
+    "response": "Remote users that need access to legacy applications."
+  },
+  {
+    "query": "Which of the following authentication protocols transmits passwords in cleartext and is considered too unsecure for modern networks?",
+    "response": "PAP"
+  },
+  {
+    "query": "With RADIUS, network managers can centrally manage connection authentication, authorization, and accounting (sometimes referred to as AAA) for many types of network access, such as VPN or wireless access points.",
+    "response": "Allows users to use specific network services or connect to specific network resources."
+  },
+  {
+    "query": "As an IT administrator, you want to access the Computer Management utility from the Start menu on an employee's desktop. How would you access this advanced feature?",
+    "response": "Right-click the Start button."
+  },
+  {
+    "query": "Which of the following is a disk imaging solution that you can use for remote deployment and automated installation of Microsoft Windows operating systems?",
+    "response": "Windows Deployment Services"
+  },
+  {
+    "query": "For the most part, the server role will dictate whether a Server Core deployment is appropriate. Which of the following instances would not benefit from the smaller footprint and increased performance offered by Server Core?",
+    "response": "Application server"
+  },
+  {
+    "query": "Which of the following protocols or services would you associate with Windows Remote Desktop network traffic?",
+    "response": "RDP"
+  },
+  {
+    "query": "Which of the following Azure security features is a security information and event management (SIEM) system?",
+    "response": "Azure Sentinel"
+  },
+  {
+    "query": "Azure services are divided into general categories. One of the categories provides the following services: * Azure Virtual Machines * Azure Kubernetes Service * Azure Container Instances * Azure Functions * Azure App Services What category provides these services?",
+    "response": "Compute"
+  },
+  {
+    "query": "You are installing DHCP in four subnets. Three of the subnets have Windows 10 desktop computers, and the fourth subnet has only Windows 10 laptop computers. On the subnet with the laptops, you want any computer that has not logged on in two days to release its IP address. On the desktop subnets, you want computers that have not logged on in 30 days to release their IP addresses. How should you configure the DHCP scopes?",
+    "response": "Set up one scope for each subnet and set the lease period as a part of each scope's configuration."
+  },
+  {
+    "query": "Which of the following IP address ranges is reserved for Automatic Private IP Addressing (APIPA)?",
+    "response": "169.254.0.1 - 169.254.255.254"
+  },
+  {
+    "query": "Which of the following DHCP high availability options is ideal for smaller networks?",
+    "response": "Hot standby"
+  },
+  {
+    "query": "Which of the following is true about the switch-independent NIC teaming mode?",
+    "response": "This mode is not often used since it reduces the bandwidth that can be attained."
+  },
+  {
+    "query": "In an IP addressing scheme that uses default subnet masks, which of the following IP addresses can you assign to a host?",
+    "response": "132.70.254.15"
+  },
+  {
+    "query": "Which of the following does the DHCP relay agent use to tell the DHCP server which pool of addresses to use?",
+    "response": "GIADDR"
+  },
+  {
+    "query": "Which of the following verifies that a server's response was not changed in transit and that the server sending the response is really who it claims to be?",
+    "response": "DNSSEC"
+  },
+  {
+    "query": "Which of the following is the top-level domain in www.testout.com.'s fully qualified domain name (FQDN)?",
+    "response": "com"
+  },
+  {
+    "query": "A user reports that they cannot browse to a specific website on the internet. From their computer, you find that a ping test to the web server succeeds. A traceroute test shows 17 hops to the destination web server. What is the MOST likely cause of the problem?",
+    "response": "Incorrect DNS server address"
+  },
+  {
+    "query": "Which of the following can you append to the end of the dig command to run a query for all the records in the zone?",
+    "response": "-axfr"
+  },
+  {
+    "query": "Which of the following BEST describes an ExpressRoute?",
+    "response": "Azure service that provides a private connection to ensure data does not travel across the public internet."
+  },
+  {
+    "query": "You need to enable hosts on your network to find the IP address of logical names, such as srv1.myserver.com. Which device should you use?",
+    "response": "DNS server"
+  },
+  {
+    "query": "You are deploying Active Directory Domain Services (AD DS) in an Azure virtual network. Which items should you consider when it comes to scalability? (Select two.)",
+    "response": "Monitor the VMs and scale up or down when necessary., Configure VMs to the correct size for the network load requirements."
+  },
+  {
+    "query": "IT administrators can use Azure Active Directory for which of the following management strategies?",
+    "response": "Automation of user provisioning between existing Windows server Active Directory and cloud-based apps."
+  },
+  {
+    "query": "You manage a network with a single domain named widgets.com. The network has multiple domain controllers at two locations: Chicago and Baltimore. A WAN link connects the two locations. You create two site objects and configure a site link object to connect the two sites. To reduce WAN traffic between the two sites, you would like to take advantage of the remote differential compression feature for SYSVOL replication. What should you do?",
+    "response": "Configure all domain controllers to use DFS replication."
+  },
+  {
+    "query": "You are the network administrator of a network with a single Active Directory forest. The forest root domain is named westsim.local, and there are two child domains named europe.westsim.local and asia.westsim.local. All domain controllers are running Windows Server 2012 R2 or Windows Server 2016. Your network has five Active Directory sites in the United States, six in Europe, and three in Asia. All sites in Europe have two domain controllers from the europe.westsim.local domain and one domain controller from the westsim.local domain. Several sites in Europe are using outdated hardware for their domain controllers, and you have decided to update them. You install and configure a new domain controller for an office in Europe and move the server to the correct site. After several days, you notice that the new server is not being utilized for replication between sites. What should you do?",
+    "response": "Configure the new server as a preferred bridgehead server for its site."
+  },
+  {
+    "query": "You manage a group of 20 Windows 10 workstations that are currently configured as a Workgroup. Which advantages could you realize by installing Active Directory and adding the computers to a domain? (Select two.)",
+    "response": "Centralized configuration control, Centralized authentication"
+  },
+  {
+    "query": "You are an administrator for the northsim.com domain. The domain has two domain controllers, DC1 and DC2. DC1 is located in the main office, and DC2 is located in a branch office. You work in a branch office and manage the network there. The main office is connected to the branch office with a WAN link. A site object has been created for each location. The DEFAULTIPSITELINK object connects the two locations. To reduce WAN traffic, replication between sites occurs between 8:00 p.m. and 5:00 a.m. The branch office has recently hired three new employees. An administrator in the main office has created the user accounts. However, users are unable to log on. You need to make sure the users can log on as soon as possible. What should you do?",
+    "response": "Run repadmin /replicate DC2 DC1."
+  },
+  {
+    "query": "Microsoft recommends staying within how many sub-tree levels when creating OUs in your network design?",
+    "response": "5"
+  },
+  {
+    "query": "You are the administrator of a small network. You have approximately 50 users who are served by a single Windows server. You are providing Active Directory, DNS, and DHCP with this server. Your clients all use Windows workstations. Last week, an employee quit. A replacement has been hired and will be starting next Monday. The new user will need to have access to everything the previous user had, including document files held in the Home folder. You need to set up an account for the new user with all the access required. What should you do?",
+    "response": "Rename the existing account, changing the name fields to match the new employee."
+  },
+  {
+    "query": "When you create a computer account in a specific OU, and the computer is matched to the already-created computer account when it joins the domain, you are using which of the following methods?",
+    "response": "Pre-stage account method"
+  },
+  {
+    "query": "To join a computer to a domain, you must be a member of which of the following groups?",
+    "response": "Administrators group on the local computer"
+  },
+  {
+    "query": "Which of the following is one of the BEST benefits of a group managed service account over a basic domain user account used for a service?",
+    "response": "Passwords are managed and reset automatically."
+  },
+  {
+    "query": "Delegating administrative authority means not only sharing administrative tasks with other users, but also which of the following?",
+    "response": "Tightly controlling the permissions granted to each administrator."
   }
 ]
