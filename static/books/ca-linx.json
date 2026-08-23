@@ -1017,7 +1017,7 @@
   },
   {
     "query": "A technician is deploying Linux manually. What is the first step in the installation process?",
-    "response": "Select the Linux system's role and appropriate software packages., Boot to the installation media."
+    "response": "Boot to the installation media."
   },
   {
     "query": "A software engineer is preparing a class for newly-hired employees on the topic of Linux boot processes. What enables a client to retrieve the necessary boot loader and system files from a server over the network?",
