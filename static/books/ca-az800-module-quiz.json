@@ -1,0 +1,118 @@
+[
+  {
+    "query": "As an IT administrator, you want to access the Computer Management utility from the Start menu on an\nemployee's desktop. How would you access this advanced feature?",
+    "response": "B: Right-click the Start button."
+  },
+  {
+    "query": "Which of the following Windows 11 interface components is designed to provide information such as local\nweather, trending news, and options to personalize the news feed and interests?",
+    "response": "A: Widgets"
+  },
+  {
+    "query": "You have recently upgraded your laptop computer from Windows 10 to Windows 11. What new/enhanced features are available to you in Windows 11? (Select two)",
+    "response": "C: Teams"
+  },
+  {
+    "query": "The notification area is available at the right end of the taskbar on the Windows desktop. Which of the following does the notification area display? (Select three)",
+    "response": "B: Application icons"
+  },
+  {
+    "query": "Which of the following are options available from the Power button at the bottom left of the Start menu in\nWindows 10? (Select three.)",
+    "response": "A: Restart"
+  },
+  {
+    "query": "Which of the following are TRUE about the PowerShell in Windows? (Select two)",
+    "response": "A: It is built on the .NET Framework."
+  },
+  {
+    "query": "Immediately after installing Windows Server, you use the Server Manager to do which of the following? (Select\ntwo)",
+    "response": "B: Configure the local server"
+  },
+  {
+    "query": "After selecting an Azure resource, where are the details and information for the selected resource displayed?",
+    "response": "Working Pane"
+  },
+  {
+    "query": "The first screen that you see when logging into the Azure Portal is the Azure Home page, which cannot be customized. ",
+    "response": "Dashboard"
+  },
+  {
+    "query": "Which of the following resources can you access from the page header in the Azure interface? (Select 3)",
+    "response": "D: Your account"
+  },
+  {
+    "query": "Which of the following are drawbacks to the client-server model? (Select two.)",
+    "response": "D: Increased knowledge required to manage the implementation."
+  },
+  {
+    "query": "Which of the following BEST describes the stand-alone model?",
+    "response": "D: Communication takes place using a commonly available public network, such as the internet."
+  },
+  {
+    "query": "Which of the following are drawbacks to the workgroup model? (Select two.)",
+    "response": "D: Lack of centralized configuration control."
+  },
+  {
+    "query": "You have completed the installation of Windows Server 2022. Which of the following tasks is best to perform before joining the server to an Active Directory domain?",
+    "response": "B: Change the computer name."
+  },
+  {
+    "query": "Which server edition supports an unlimited number of VMs?",
+    "response": "D: Windows Server 2022 Datacenter Server Core"
+  },
+  {
+    "query": "You are preparing to install Windows Server 2022 Standard Edition on a new server. The server has the\nfollowing hardware. Which component will need to be upgraded to fully support the operating system?",
+    "response": "A: Processor"
+  },
+  {
+    "query": "After you install Windows Server 2022, you must activate the server if you want to receive updates from\nMicrosoft to keep your server secure and running smoothly. You have a 30-day grace period in which to activate\nthe server. The vendor who sold the Windows Server license should provide a piece of information that you need\nto activate your installation. Which of the following do you need to activate your Windows server?",
+    "response": "B: The product key"
+  },
+  {
+    "query": "You are installing Windows Server 2022 on a system that has a used hard drive that contains important data.\nThe hard drive does not contain any operating system files. Which steps must you perform to complete this installation and save the data? (Select two.)",
+    "response": "A: Back up the data to another drive."
+  },
+  {
+    "query": "Which server edition requires the least amount of system resources to install?",
+    "response": "A: Windows Server 2022 Standard"
+  },
+  {
+    "query": "During the installation of Windows Server, several properties of the local server are configured by default.\nOne of these properties is the time zone. Which time zone is selected for the server by default?",
+    "response": "B: US Pacific"
+  },
+  {
+    "query": "Your manager has asked you to install the Web Server (IIS) role on one of your Windows Server 2022 systems so\nit can host an internal website. Which Windows feature can you use to do this?",
+    "response": "C: Add Roles and Features"
+  },
+  {
+    "query": "Which role or feature protects a server by encrypting the operating system volume and verifying the integrity\nof other startup components?",
+    "response": "D: BitLocker Drive Encryption"
+  },
+  {
+    "query": "Which of the following provides network host IP addresses and other IP configuration information?",
+    "response": "C: DHCP Server"
+  },
+  {
+    "query": "Which of the following enables an organization to share identity information outside its network?",
+    "response": "B: Active Directory Federation Services"
+  },
+  {
+    "query": "You've been assigned to manage a Windows Server system named AccServer. This server was deployed using a\nServer Core installation. You need to make several configuration changes to the system. Which utility could you use to do this?",
+    "response": "D: PowerShell"
+  },
+  {
+    "query": "Which of the following are roles of Remote Access? (Select two.)",
+    "response": "D: DirectAccess and VPN (RAS)"
+  },
+  {
+    "query": "To save disk space on your Windows Server 2022 system, you decide to remove unneeded roles and features. Which Windows feature can you use to do this?",
+    "response": "D: Remove Roles and Features"
+  },
+  {
+    "query": "You are at the PowerShell command line, and you need to enter the command that will remove the Telnet Client feature from the server. Use the drop-down list to fill in the blank with the part of the command that is missing: _______________________ -Name Telnet-Client -Restart",
+    "response": "remove-windowsfeature"
+  },
+  {
+    "query": "Which of the following is a disk imaging solution that you can use for remote deployment and automated\ninstallation of Microsoft Windows operating systems?",
+    "response": "A: Windows Deployment Services"
+  }
+]
