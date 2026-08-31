@@ -74,5 +74,45 @@
   {
     "query": "The default amount of time that a device will hold information about its neighbors using LLDP is 120 seconds. Which of the following command allows you to change the value?",
     "response": "Router(config)#lldp holdtime [number of seconds]"
+  },
+  {
+    "query": "A user on your network has moved to another office down the hall. After the move, she calls you to complain that she has only occasional network access through her wireless connection. Which of the following is most likely the cause of the problem?",
+    "response": "The client system has moved too far away from the access point."
+  },
+  {
+    "query": "You are designing a wireless network for a client. Your client would like to implement the highest speed possible.",
+    "response": "802.11ac"
+  },
+  {
+    "query": "Which of the following allows devices to find a specific access point within an extended service set that has multiple access points?",
+    "response": "BSSID"
+  },
+  {
+    "query": "Which of the following is the backbone or local area network that connects multiple access points (and basic service sets) together?",
+    "response": "DS"
+  },
+  {
+    "query": "Which of the following is true of a wireless network SSID?",
+    "response": "Groups wireless devices together into the same logical network."
+  },
+  {
+    "query": "Match each wireless signaling method on the left with its definition on the right. (Not all of the signaling methods match a definition.)",
+    "response": "FHSS - Uses a narrow frequency band and hops data signals in a predictable sequence., DSSS - Breaks data into pieces and sends the pieces across multiple frequencies in a defined range., OFDM - Breaks data into very small data streams in order to send the information across long distances."
+  },
+  {
+    "query": "Which IEEE standard describes wireless communication?",
+    "response": "802.11"
+  },
+  {
+    "query": "Which wireless networking component is used to connect multiple APs together?",
+    "response": "DS"
+  },
+  {
+    "query": "An access point that conforms to the IEEE 802.11ac standard handles network traffic similarly to which other networking device?",
+    "response": "Hub"
+  },
+  {
+    "query": "All of the 802.11 standards for wireless networking support which type of communication path sharing technology?",
+    "response": "CSMA/CA"
   }
 ]
