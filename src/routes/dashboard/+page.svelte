@@ -308,15 +308,27 @@
                                 <tr class="is-size-5">
                                     <td>
                                         <span class="is-size-4 has-text-weight-bold">
-                                            {student.name}
+                                            {student.name.length > 20 ? student.name.slice(0, 20) + '…' : student.name}
                                         </span>
                                         <br>
                                         <span class="is-size-6 has-text-grey-light">
                                             {student.student_number}
                                         </span>
+                                        {#if student.status === 'INACTIVE'}
+                                            <span class="tag is-danger">Inactive</span>
+                                        {:else}
+                                            <span class="tag is-info">{student.status}</span>
+                                        {/if}
+                                        
                                         {#if isAdmin}
-                                            <br>
-                                            <span class="tag is-success is-size-6 mt-2"> {student.payment_status || 'NA'} </span>
+                                            {#if student.payment_status === 'Unpaid'}
+                                                <span class="tag is-warning">{student.payment_status}</span>
+                                            {:else if student.payment_status === 'Fully Paid'}
+                                                <span class="tag is-success">{student.payment_status}</span>
+                                            {:else}
+                                                <span class="tag is-info">{student.payment_status}</span>
+                                            {/if}
+                                            
                                         {/if}
                                     </td>
                                     <td>

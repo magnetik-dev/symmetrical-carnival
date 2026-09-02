@@ -1,0 +1,602 @@
+[
+  {
+    "query": "A collection of related webpages is referred to as a:",
+    "response": "Website"
+  },
+  {
+    "query": "A subdomain in a URL:",
+    "response": "Specifies a subsection of a domain"
+  },
+  {
+    "query": "What does the <audio> tag in HTML5 do?",
+    "response": "Play sound content"
+  },
+  {
+    "query": "Which is a client-side scripting language?",
+    "response": "JavaScript"
+  },
+  {
+    "query": "The <script> element in HTML is used to:",
+    "response": "Insert JavaScript"
+  },
+  {
+    "query": "What is the purpose of alternative text in graphics?",
+    "response": "For accessibility with screen readers"
+  },
+  {
+    "query": "The address typed into a browser to access a webpage is called:",
+    "response": "URL"
+  },
+  {
+    "query": "What element in HTML defines a paragraph?",
+    "response": "<p>"
+  },
+  {
+    "query": "How is an HTML file validated using W3C tools?",
+    "response": "Through the W3C Validator"
+  },
+  {
+    "query": "Where does the <footer> tag typically appear?",
+    "response": "At the bottom of the page"
+  },
+  {
+    "query": "What is a character entity in HTML?",
+    "response": "A named code for a special character"
+  },
+  {
+    "query": "Which tag defines a level 1 heading?",
+    "response": "<h1>"
+  },
+  {
+    "query": "What tag defines the title shown on a browser tab?",
+    "response": "<title>"
+  },
+  {
+    "query": "What is the correct way to define a UTF-8 encoded HTML5 document?",
+    "response": "<meta charset=\"utf-8\">"
+  },
+  {
+    "query": "Which HTML element defines metadata about a webpage?",
+    "response": "<meta>"
+  },
+  {
+    "query": "What does the <meta charset=\"utf-8\"> tag do?",
+    "response": "Defines the character encoding"
+  },
+  {
+    "query": "What type of layout adjusts to different screen sizes?",
+    "response": "Responsive layout"
+  },
+  {
+    "query": "Which HTML tag is used to create a hyperlink?",
+    "response": "<a>"
+  },
+  {
+    "query": "What is the effect of omitting the alt attribute in images?",
+    "response": "No accessibility text"
+  },
+  {
+    "query": "What happens if image dimensions are set larger than the actual size?",
+    "response": "Distorted or blurry image"
+  },
+  {
+    "query": "Which layout does not adjust when resizing the browser?",
+    "response": "Fixed"
+  },
+  {
+    "query": "What does the id attribute in HTML do?",
+    "response": "Uniquely identifies an element"
+  },
+  {
+    "query": "What kind of images does SVG support?",
+    "response": "Vector-based graphics"
+  },
+  {
+    "query": "Which tag is used to create an unordered list?",
+    "response": "<ul>"
+  },
+  {
+    "query": "Which selector targets an element with the id \"header\"?",
+    "response": "#header"
+  },
+  {
+    "query": "What should you do if your CSS changes are not reflecting in the browser?",
+    "response": "Clear cache and refresh the browser"
+  },
+  {
+    "query": "Which pseudo-class targets the first child of a parent element?",
+    "response": ":first-child"
+  },
+  {
+    "query": "What does the value `justify` do in the `text-align` property?",
+    "response": "Aligns text to both margins"
+  },
+  {
+    "query": "What does the property `line-height` control?",
+    "response": "Vertical spacing between lines"
+  },
+  {
+    "query": "What is the correct syntax for a CSS rule that changes paragraph text to red?",
+    "response": "p { color: red; }"
+  },
+  {
+    "query": "What value can be used to automatically center a block element using margins?",
+    "response": "auto"
+  },
+  {
+    "query": "In CSS, how are comments written?",
+    "response": "/* comment */"
+  },
+  {
+    "query": "Which of the following is an example of a descendant selector?",
+    "response": "div p"
+  },
+  {
+    "query": "Why is it important to avoid too many fonts?",
+    "response": "They make pages look unorganized"
+  },
+  {
+    "query": "What does `padding: 1%;` do in CSS?",
+    "response": "Adds uniform spacing based on parent width"
+  },
+  {
+    "query": "How do responsive images behave?",
+    "response": "Stretch to screen size"
+  },
+  {
+    "query": "What style rule removes underlines from links?",
+    "response": "text-decoration: none;"
+  },
+  {
+    "query": "What does the mobile-first strategy force developers to do?",
+    "response": "Focus on essential content for small screens"
+  },
+  {
+    "query": "What is the purpose of using developer tools during responsive design?",
+    "response": "To preview designs on different devices"
+  },
+  {
+    "query": "What device size corresponds to a 320px viewport?",
+    "response": "Mobile small"
+  },
+  {
+    "query": "Which CSS unit is relative and commonly used in responsive design?",
+    "response": "em"
+  },
+  {
+    "query": "What is the purpose of `-webkit-sticky` in CSS?",
+    "response": "Provides backward compatibility for Safari"
+  },
+  {
+    "query": "What media type applies to all devices?",
+    "response": "all"
+  },
+  {
+    "query": "What is the default flow direction of HTML elements?",
+    "response": "Top to bottom (block)"
+  },
+  {
+    "query": "How can you prevent the last navigation item from having a right border?",
+    "response": "nav li:last-child"
+  },
+  {
+    "query": "Which pseudo-class targets the last item in a list?",
+    "response": ":last-child"
+  },
+  {
+    "query": "Why is `@media screen and (min-width: 769px)` used?",
+    "response": "To apply styles from 769px upward"
+  },
+  {
+    "query": "What ensures nav li links appear in a row?",
+    "response": "display: inline-block;"
+  },
+  {
+    "query": "What is the primary advantage of placing tablet styles after mobile styles?",
+    "response": "Follows mobile-first strategy"
+  },
+  {
+    "query": "Which selector is used to style list items within nav?",
+    "response": "nav li"
+  },
+  {
+    "query": "What allows the nav and header to sit side by side?",
+    "response": "float properties"
+  },
+  {
+    "query": "What's the purpose of `min-content` in grid columns?",
+    "response": "Uses minimum space for content"
+  },
+  {
+    "query": "Which HTML5 element is not a semantic element?",
+    "response": "<div>"
+  },
+  {
+    "query": "What is the default value of the CSS `opacity` property?",
+    "response": "1"
+  },
+  {
+    "query": "What does a `div` element typically represent?",
+    "response": "A non-semantic container"
+  },
+  {
+    "query": "What is used to make all elements use the same box model?",
+    "response": "* { box-sizing: border-box; }"
+  },
+  {
+    "query": "What effect does `:hover` pseudo-class achieve?",
+    "response": "Styles element on mouse hover"
+  },
+  {
+    "query": "How does `font-size: 1.5em;` affect text?",
+    "response": "Scales text to 150% of parent"
+  },
+  {
+    "query": "What CSS layout model allows flexible box placement in columns and rows?",
+    "response": "Grid layout"
+  },
+  {
+    "query": "Which value of `grid-template-columns` creates three equal columns?",
+    "response": "auto auto auto"
+  },
+  {
+    "query": "What does the `maxlength` attribute do?",
+    "response": "Limits number of characters in input"
+  },
+  {
+    "query": "Which tag defines a table row?",
+    "response": "<tr>"
+  },
+  {
+    "query": "What is a common use for form submission?",
+    "response": "Collecting user information"
+  },
+  {
+    "query": "What is the best practice when planning a table?",
+    "response": "Sketch the layout before coding"
+  },
+  {
+    "query": "What is the primary purpose of using tables in HTML?",
+    "response": "Organizing data in rows and columns"
+  },
+  {
+    "query": "What attribute sets the default text in a form control?",
+    "response": "value"
+  },
+  {
+    "query": "What input type is used to capture a user's date of birth?",
+    "response": "input type=\"date\""
+  },
+  {
+    "query": "Why should you avoid using tables for layout?",
+    "response": "They are semantically incorrect"
+  },
+  {
+    "query": "What CSS property combines adjacent table borders?",
+    "response": "border-collapse"
+  },
+  {
+    "query": "What CSS property is used to align text inside a table cell?",
+    "response": "text-align"
+  },
+  {
+    "query": "Which form element allows for user text input over multiple lines?",
+    "response": "<textarea>"
+  },
+  {
+    "query": "What is the purpose of the id attribute in forms?",
+    "response": "Links a label with an input"
+  },
+  {
+    "query": "What does <track kind=\"captions\"> provide?",
+    "response": "Captions for spoken content"
+  },
+  {
+    "query": "Why are multiple source formats used in audio and video elements?",
+    "response": "To provide fallback options across browsers"
+  },
+  {
+    "query": "What is the primary benefit of multimedia on websites?",
+    "response": "Adds interactivity and enhances user engagement"
+  },
+  {
+    "query": "What does src in <track> tag define?",
+    "response": "Source of text file"
+  },
+  {
+    "query": "What file extensions are supported by the HTML5 audio element?",
+    "response": ".mp3, .ogg, .wav"
+  },
+  {
+    "query": "What feature does the <audio> element provide that <embed> does not?",
+    "response": "Built-in controls"
+  },
+  {
+    "query": "What type of file is typically used for video captions?",
+    "response": ".vtt"
+  },
+  {
+    "query": "What attribute of the <audio> or <video> tag is not recommended due to browser behavior?",
+    "response": "autoplay"
+  },
+  {
+    "query": "What is the role of <embed> in multimedia?",
+    "response": "Inserts plug-in-based media"
+  },
+  {
+    "query": "How does <source> help with browser support?",
+    "response": "Provides fallback formats"
+  },
+  {
+    "query": "Which HTML element replaces <object> for embedding audio?",
+    "response": "<audio>"
+  },
+  {
+    "query": "What happens if no supported format is found in a media element?",
+    "response": "Text fallback is shown"
+  },
+  {
+    "query": "What is the result of this statement: `document.write(\"Hello\");`?",
+    "response": "Displays text on browser"
+  },
+  {
+    "query": "Which JavaScript element stores multiple values?",
+    "response": "array"
+  },
+  {
+    "query": "What is the function of `onclick=\"myFunction()\"` in HTML?",
+    "response": "Triggers function on click"
+  },
+  {
+    "query": "Which CSS transform resizes an element along X-axis?",
+    "response": "scaleX()"
+  },
+  {
+    "query": "How is CSS animation triggered on hover?",
+    "response": ":hover { animation: name duration; }"
+  },
+  {
+    "query": "What does the CSS `animation-delay` property do?",
+    "response": "Delays animation start"
+  },
+  {
+    "query": "What HTML tag includes an external JavaScript file?",
+    "response": "<script src=\"\">"
+  },
+  {
+    "query": "What does `@keyframes` define in CSS?",
+    "response": "CSS animation sequence"
+  },
+  {
+    "query": "What property hides the mobile menu by default?",
+    "response": "display: none;"
+  },
+  {
+    "query": "Which CSS property allows continuous animation play?",
+    "response": "animation-iteration-count: infinite;"
+  },
+  {
+    "query": "Where should global JavaScript variables be declared?",
+    "response": "At the top of script file"
+  },
+  {
+    "query": "What is the effect of `transform: translateX(30px);`?",
+    "response": "Moves element horizontally"
+  },
+  {
+    "query": "What HTML tag adds metadata to a webpage?",
+    "response": "<meta>"
+  },
+  {
+    "query": "What is the final step after creating and testing a website?",
+    "response": "Publishing"
+  },
+  {
+    "query": "Why is word-of-mouth powerful in marketing?",
+    "response": "Based on personal trust"
+  },
+  {
+    "query": "How should the title and description meta tag relate?",
+    "response": "Should include keywords and describe content clearly"
+  },
+  {
+    "query": "What symbol starts a URL in a sitemap file?",
+    "response": "http"
+  },
+  {
+    "query": "What file helps search engines find important content?",
+    "response": "sitemap.xml"
+  },
+  {
+    "query": "What defines a top-level domain (TLD)?",
+    "response": "The final part of a domain name"
+  },
+  {
+    "query": "What should a title tag ideally contain for SEO?",
+    "response": "Keywords and brand name"
+  },
+  {
+    "query": "What kind of website is e-commerce?",
+    "response": "Shopping and transactions"
+  },
+  {
+    "query": "Where is the sitemap.txt file typically located?",
+    "response": "In the root directory"
+  },
+  {
+    "query": "What does the 'pipe' symbol (|) do in titles?",
+    "response": "Separates keywords"
+  },
+  {
+    "query": "What does minifying CSS improve?",
+    "response": "File size and load speed"
+  },
+  {
+    "query": "What does `.btn-outline-info` create?",
+    "response": "Transparent button with teal border"
+  },
+  {
+    "query": "What is a CDN?",
+    "response": "Content Delivery Network"
+  },
+  {
+    "query": "What Bootstrap class formats the background as teal?",
+    "response": "bg-info"
+  },
+  {
+    "query": "What attribute should be used with anchor tags to behave like buttons?",
+    "response": "role=\"button\""
+  },
+  {
+    "query": "What is Bootstrap primarily used for?",
+    "response": "Creating responsive web pages"
+  },
+  {
+    "query": "What class is used to make an element span full width of the viewport?",
+    "response": "container-fluid"
+  },
+  {
+    "query": "Which jQuery method animates property changes?",
+    "response": "animate()"
+  },
+  {
+    "query": "How do you include Bootstrap via CDN?",
+    "response": "Add <link> to BootstrapCDN in <head>"
+  },
+  {
+    "query": "Which Bootstrap class makes an image responsive?",
+    "response": "img-fluid"
+  },
+  {
+    "query": "What class is used for Bootstrap footer section?",
+    "response": "No specific class; use containers and grid"
+  },
+  {
+    "query": "Which Bootstrap class vertically centers navbar text?",
+    "response": "navbar-text"
+  },
+  {
+    "query": "What does `navbar-expand-sm` mean?",
+    "response": "Navbar expands at larger viewports"
+  },
+  {
+    "query": "Access points all have a unique identifier based upon the MAC address of the access point. What is this unique identifier known as?",
+    "response": "BSSID"
+  },
+  {
+    "query": "Which standard must wireless devices adhere to?",
+    "response": "IEEE 802.11"
+  },
+  {
+    "query": "When the functions of an autonomous AP are divided and the AP performs only real-time 802.11 operation, the AP is known as which of the following?",
+    "response": "Lightweight AP"
+  },
+  {
+    "query": "The Cisco Meraki is an example of which type of access point?",
+    "response": "Cloud-based"
+  },
+  {
+    "query": "A Cisco embedded WLC deployment can typically support up to how many APs?",
+    "response": "200"
+  },
+  {
+    "query": "What is the primary advantage of using AES in CCMP over TKIP?",
+    "response": "AES offers stronger encryption and security than TKIP"
+  },
+  {
+    "query": "What is the name of the protocol that defines a set of common functions that actual authentication methods can use to authenticate users?",
+    "response": "Extensible Authentication Protocol"
+  },
+  {
+    "query": "When configuring Layer 2 security for a WLAN, which of the following options should be avoided due to being legacy and deprecated?",
+    "response": "WPA with TKIP encryption"
+  },
+  {
+    "query": "What mode must Ethernet ports on an AireOS controller operate in?",
+    "response": "802.1Q trunk mode"
+  },
+  {
+    "query": "You are setting up a WLAN for devices that only support 2.4 GHz radios. Which radio policy should you configure for this WLAN?",
+    "response": "802.11b/g only"
+  },
+  {
+    "query": "When a client receives several packets, each for a different application, how does the client OS know which application to direct a particular packet to?",
+    "response": "Destination port number"
+  },
+  {
+    "query": "In a formal URI, which component corresponds to a server's name in a web address?",
+    "response": "Authority"
+  },
+  {
+    "query": "Which TCP port number is used for POP3?",
+    "response": "110"
+  },
+  {
+    "query": "If you wanted to permit the source address 1.2.3.4, how would it be entered into the router's configuration files?",
+    "response": "access-list 1 permit 1.2.3.4"
+  },
+  {
+    "query": "Which Cisco IOS statement would correctly match only the IP range from 172.30.64.0 through 172.30.127.255?",
+    "response": "access-list 1 permit 172.30.64.0 0.0.63.255"
+  },
+  {
+    "query": "What key limitation exists when editing numbered ACLs using the global access-list command?",
+    "response": "You can only add new ACEs to the end of the ACL"
+  },
+  {
+    "query": "Where should extended ACLS be placed?",
+    "response": "As close as possible to the source of the packet"
+  },
+  {
+    "query": "What parameters can Cisco ACLs use to match a single TCP or UDP port number?",
+    "response": "eq number"
+  },
+  {
+    "query": "What are the two ACL features that behave differently between IOS and IOS XE?",
+    "response": "Sequence number resequencing"
+  },
+  {
+    "query": "Which command is used to enable a vty ACL for inbound connections on a router or switch?",
+    "response": "access-class"
+  },
+  {
+    "query": "Which type of malware replicates itself and spreads through other systems through their vulnerabilities?",
+    "response": "Worm"
+  },
+  {
+    "query": "Spoofing is the technique of doing what?",
+    "response": "Modifying addresses in packets"
+  },
+  {
+    "query": "Which of these is the correct syntax for setting password encryption?",
+    "response": "service password-encryption"
+  },
+  {
+    "query": "The command enable algorithm-type scrypt secret password enables which of the following configurations?",
+    "response": "SHA-256"
+  },
+  {
+    "query": "When using MD5 hashing with the enable secret command, what process is taken with the user-entered password to verify its correctness?",
+    "response": "The user-entered password is hashed and compared to the stored hash"
+  },
+  {
+    "query": "What subcommand enables port security on the interface?",
+    "response": "switchport port-security"
+  },
+  {
+    "query": "Which port security violation mode results in all of the following: discards offending traffic, sends log and SNMP message, and disables the interface?",
+    "response": "shutdown"
+  },
+  {
+    "query": "Which port security violation mode discards the offending traffic and logs the violation, but does not disable the port?",
+    "response": "restrict"
+  },
+  {
+    "query": "What is the default for DAI rate limits?",
+    "response": "Rate limits are used for only untrusted interfaces"
+  },
+  {
+    "query": "What device sends DHCP Release and DHCP Decline messages?",
+    "response": "DHCP Client"
+  }
+]

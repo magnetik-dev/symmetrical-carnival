@@ -5,6 +5,7 @@ export interface StudentRecord {
     student_number: string;
     name: string;
     profile: string | null;
+    status: string | null;
     batch_name: string | null;
     lead_name: string | null;
     fees_total: number | null;
@@ -105,6 +106,7 @@ class RegistryCache {
                     student_number,
                     name,
                     profile,
+                    status,
                     fees_total,
                     batch (
                         batch_name
@@ -156,6 +158,7 @@ class RegistryCache {
                     student_number: student.student_number,
                     name: student.name,
                     profile: student.profile,
+                    status: student.status,
                     batch_name,
                     lead_name,
 
