@@ -1,5 +1,9 @@
 # Version History
 
+## Symmetrical Carnival 0.4.0, Sep 2026
+ - Data addition
+ - Payment and student status display
+
 ## Symmetrical Carnival 0.3.3, Jul 2026
  - Data Additions and updates
  - Allow admin to record payments
