@@ -478,5 +478,125 @@
   {
     "query": "What does `navbar-expand-sm` mean?",
     "response": "Navbar expands at larger viewports"
+  },
+  {
+    "query": "Access points all have a unique identifier based upon the MAC address of the access point. What is this unique identifier known as?",
+    "response": "BSSID"
+  },
+  {
+    "query": "Which standard must wireless devices adhere to?",
+    "response": "IEEE 802.11"
+  },
+  {
+    "query": "When the functions of an autonomous AP are divided and the AP performs only real-time 802.11 operation, the AP is known as which of the following?",
+    "response": "Lightweight AP"
+  },
+  {
+    "query": "The Cisco Meraki is an example of which type of access point?",
+    "response": "Cloud-based"
+  },
+  {
+    "query": "A Cisco embedded WLC deployment can typically support up to how many APs?",
+    "response": "200"
+  },
+  {
+    "query": "What is the primary advantage of using AES in CCMP over TKIP?",
+    "response": "AES offers stronger encryption and security than TKIP"
+  },
+  {
+    "query": "What is the name of the protocol that defines a set of common functions that actual authentication methods can use to authenticate users?",
+    "response": "Extensible Authentication Protocol"
+  },
+  {
+    "query": "When configuring Layer 2 security for a WLAN, which of the following options should be avoided due to being legacy and deprecated?",
+    "response": "WPA with TKIP encryption"
+  },
+  {
+    "query": "What mode must Ethernet ports on an AireOS controller operate in?",
+    "response": "802.1Q trunk mode"
+  },
+  {
+    "query": "You are setting up a WLAN for devices that only support 2.4 GHz radios. Which radio policy should you configure for this WLAN?",
+    "response": "802.11b/g only"
+  },
+  {
+    "query": "When a client receives several packets, each for a different application, how does the client OS know which application to direct a particular packet to?",
+    "response": "Destination port number"
+  },
+  {
+    "query": "In a formal URI, which component corresponds to a server's name in a web address?",
+    "response": "Authority"
+  },
+  {
+    "query": "Which TCP port number is used for POP3?",
+    "response": "110"
+  },
+  {
+    "query": "If you wanted to permit the source address 1.2.3.4, how would it be entered into the router's configuration files?",
+    "response": "access-list 1 permit 1.2.3.4"
+  },
+  {
+    "query": "Which Cisco IOS statement would correctly match only the IP range from 172.30.64.0 through 172.30.127.255?",
+    "response": "access-list 1 permit 172.30.64.0 0.0.63.255"
+  },
+  {
+    "query": "What key limitation exists when editing numbered ACLs using the global access-list command?",
+    "response": "You can only add new ACEs to the end of the ACL"
+  },
+  {
+    "query": "Where should extended ACLS be placed?",
+    "response": "As close as possible to the source of the packet"
+  },
+  {
+    "query": "What parameters can Cisco ACLs use to match a single TCP or UDP port number?",
+    "response": "eq number"
+  },
+  {
+    "query": "What are the two ACL features that behave differently between IOS and IOS XE?",
+    "response": "Sequence number resequencing"
+  },
+  {
+    "query": "Which command is used to enable a vty ACL for inbound connections on a router or switch?",
+    "response": "access-class"
+  },
+  {
+    "query": "Which type of malware replicates itself and spreads through other systems through their vulnerabilities?",
+    "response": "Worm"
+  },
+  {
+    "query": "Spoofing is the technique of doing what?",
+    "response": "Modifying addresses in packets"
+  },
+  {
+    "query": "Which of these is the correct syntax for setting password encryption?",
+    "response": "service password-encryption"
+  },
+  {
+    "query": "The command enable algorithm-type scrypt secret password enables which of the following configurations?",
+    "response": "SHA-256"
+  },
+  {
+    "query": "When using MD5 hashing with the enable secret command, what process is taken with the user-entered password to verify its correctness?",
+    "response": "The user-entered password is hashed and compared to the stored hash"
+  },
+  {
+    "query": "What subcommand enables port security on the interface?",
+    "response": "switchport port-security"
+  },
+  {
+    "query": "Which port security violation mode results in all of the following: discards offending traffic, sends log and SNMP message, and disables the interface?",
+    "response": "shutdown"
+  },
+  {
+    "query": "Which port security violation mode discards the offending traffic and logs the violation, but does not disable the port?",
+    "response": "restrict"
+  },
+  {
+    "query": "What is the default for DAI rate limits?",
+    "response": "Rate limits are used for only untrusted interfaces"
+  },
+  {
+    "query": "What device sends DHCP Release and DHCP Decline messages?",
+    "response": "DHCP Client"
   }
 ]
