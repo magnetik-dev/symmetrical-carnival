@@ -46,7 +46,8 @@
   
   const digitalDesignOptions = [
     { value: 'dgmkf-color-theory', label: 'Color Theory' },
-    { value: 'dgmkf-quizes-all', label: 'DGMKF Quizes' }
+    { value: 'dgmkf-quizes-all', label: 'DGMKF Quizes' },
+    { value: 'ca-fwbdv-all', label: 'FWBDV Quizes' }
   ];
 
   const businessManagementOptions = [
