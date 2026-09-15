@@ -92,11 +92,11 @@
     "response": "logging trap"
   },
   {
-    "query": "What is a limitation of dynamic NAT? (ICNO Module 10 found)",
+    "query": "What is a limitation of dynamic NAT?",
     "response": "The NAT pool can become exhausted."
   },
   {
-    "query": "What is another name for NAT overload? (Use in ICNO module 10 found)",
+    "query": "What is another name for NAT overload?",
     "response": "Port Address Translation"
   },
   {
@@ -198,5 +198,113 @@
   {
     "query": "What is the human-readable text file on the Puppet master?",
     "response": "Manifest"
+  },
+  {
+    "query": "Which of the following log security levels would indicate the most immediate action would be needed, such as in an emergency?",
+    "response": "0"
+  },
+  {
+    "query": "Which of the following is a standardized protocol that offers similar functionality to CDP?",
+    "response": "LLDP"
+  },
+  {
+    "query": "How does dynamic NAT identify which inside local IP addresses need to have their addresses translated?",
+    "response": "It uses an ACL."
+  },
+  {
+    "query": "What is the name of the field that is used for QoS markings in the IP header?",
+    "response": "DSCP"
+  },
+  {
+    "query": "Which field is used within the IPv6 packet header for QoS markings?",
+    "response": "Traffic Class"
+  },
+  {
+    "query": "What will happen if two routers in the same HSRP group use different HSRP versions?",
+    "response": "They will not understand each other and ignore HSRP communication"
+  },
+  {
+    "query": "What happens when an interface that is being tracked by HSRP fails?",
+    "response": "HSRP lowers the priority of the router with the failed interface"
+  },
+  {
+    "query": "What purpose do HSRP Hello messages serve in a network?",
+    "response": "To inform other routers that the active router is functioning."
+  },
+  {
+    "query": "________ is an application layer protocol that provides a message format for communication between managers and agents.",
+    "response": "SNMP"
+  },
+  {
+    "query": "What two hash algorithms does Cisco use to verify the integrity of the IOS file?",
+    "response": "MD5 and SHA512"
+  },
+  {
+    "query": "A company plans to utilize existing multimode fiber cabling for their new 10GBASE-SR Ethernet standard. What should they verify first?",
+    "response": "The OM category of the existing fiber ??"
+  },
+  {
+    "query": "SOHO refers to what type of network?",
+    "response": "Personal networks in homes and small offices"
+  },
+  {
+    "query": "How do switches support PoE?",
+    "response": "It depends on the switch"
+  },
+  {
+    "query": "Which type of encryption is commonly used to secure VPNs?",
+    "response": "IPsec ??"
+  },
+  {
+    "query": "Virtual servers use an internal Ethernet switch concept called the ________.",
+    "response": "vSwitch"
+  },
+  {
+    "query": "The ________ manages and allocates the host hardware (CPU, RAM, and so on) to each VM based on the settings configured.",
+    "response": "hypervisor"
+  },
+  {
+    "query": "What is one key difference between software containers and virtual machines (VMs)?",
+    "response": "Containers typically use less CPU and memory compared to VMs."
+  },
+  {
+    "query": "What is the name of the centralized controlled that is used by Cisco's Application Centric Infrastructure?",
+    "response": "APIC"
+  },
+  {
+    "query": "What is the name of the southbound interface that is used by Cisco's Application Policy Infrastructure Controller (APIC)?",
+    "response": "OpFlex"
+  },
+  {
+    "query": "During a network crisis, multiple teams need to collaborate quickly to minimize downtime. Which AI Ops tool or method would be most effective for improving team communication and coordination?",
+    "response": "Chat Ops"
+  },
+  {
+    "query": "What protocol is used to create the tunnels used by Cisco SD-Access?",
+    "response": "VXLAN"
+  },
+  {
+    "query": "A greenfield Cisco SD-Access fabric uses what type of design?",
+    "response": "Routed access layer design ??"
+  },
+  {
+    "query": "What is REST?",
+    "response": "A type of API"
+  },
+  {
+    "query": "What is the term used for a JSON format that is optimized for human readability?",
+    "response": "Pretty"
+  },
+  {
+    "query": "When is a manual per-device configuration plan the best choice?",
+    "response": "A single person managing a single device."
+  },
+  {
+    "query": "You want to track and manage changes to your infrastructure. Which Terraform component would be most helpful in this situation?",
+    "response": "State files"
+  },
+  {
+    "query": "______ refers to how to deploy changes to the configuration once made by changing files in the configuration management system.",
+    "response": "Configuration provisioning ??"
   }
 ]

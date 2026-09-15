@@ -114,5 +114,45 @@
   {
     "query": "All of the 802.11 standards for wireless networking support which type of communication path sharing technology?",
     "response": "CSMA/CA"
+  },
+  {
+    "query": "You are designing an update to your client's wireless network. The existing wireless network uses 802.11b equipment, which your client complains runs too slowly. She wants to upgrade the network to run up to 600 Mbps.\n\nDue to budget constraints, your client wants to upgrade only the wireless access points in the network this year. Next year, she will upgrade the wireless network boards in her users' workstations. She has also indicated that the system must continue to function during the transition period.\n\nWhich 802.11 standard will work best in this situation?",
+    "response": "802.11n"
+  },
+  {
+    "query": "You are an IT technician for your company. Your boss has asked you to set up and configure a wireless network to service all of the conference rooms.\nWhich of the following features lets you allow or reject client connections by hardware address?",
+    "response": "MAC address filtering"
+  },
+  {
+    "query": "You have a small wireless network that uses multiple access points. The network uses WPA and broadcasts the SSID. WPA2 is not supported by the wireless access points.\nYou want to connect a laptop computer to the wireless network. Which of the following parameters will you need to configure on the laptop? (Select two.)",
+    "response": "TKIP encryption, Preshared key"
+  },
+  {
+    "query": "Which of the following is considered the strongest encryption method?",
+    "response": "AES"
+  },
+  {
+    "query": "Which of the following are features of Hotspot 2.0? (Select two.)",
+    "response": "Uses WPA2 Enterprise for authentication and encryption., Is enabled by default on Windows 10."
+  },
+  {
+    "query": "You have configured a wireless access point to create a small network. You have configured all necessary parameters.\nWireless clients seem to take a long time to find the wireless access point. You want to reduce the time it takes for the clients to connect.\nWhat should you do?",
+    "response": "Decrease the beacon interval."
+  },
+  {
+    "query": "You are an administrator of a growing network. The network you have created is broadcasting, but you cannot ping systems on different segments of your network. Which device should you use to fix this issue?",
+    "response": "Network bridge"
+  },
+  {
+    "query": "Which of the following wireless network protection methods prevents the broadcasting of the wireless network name?",
+    "response": "SSID broadcast"
+  },
+  {
+    "query": "You are configuring a wireless network with two wireless access points (APs). Both access points connect to the same wired network. You want wireless users to be able to connect to either access point and have the ability to roam between the two access points.\nHow should you configure the access points?",
+    "response": "Configure both APs with the same SSID and different channels."
+  },
+  {
+    "query": "You have configured a wireless access point to create a small network. For security, you have disabled SSID broadcast.\nFrom a client computer, you try to browse to find the access point. You see some other wireless networks in the area, but you cannot see your network.\nWhat should you do?",
+    "response": "Configure a profile on the wireless client."
   }
 ]
