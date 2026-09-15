@@ -32,10 +32,6 @@
     "response": "The problem has alternative optimal solutions."
   },
   {
-    "query": "Which of the graphs illustrates the solution space of the following problem by the highlighted part?",
-    "response": ""
-  },
-  {
     "query": "What is sensitivity analysis?",
     "response": "A technique used to analyze the effect of changing input variables on the output of a simulation model"
   },
@@ -228,10 +224,6 @@
     "response": "4"
   },
   {
-    "query": "Suppose that the head of the department is going to assign 3 courses to 3 professors such that each course must assign to one and only one of these professors. If c ij denotes the cost of assigning course i to professor j, which of the following models is most appropriate to minimize the total cost?",
-    "response": ""
-  },
-  {
     "query": "What is the application of Analytic Solver after solving an optimization problem by solver?",
     "response": "It provides tools for what-if and sensitivity analysis in spreadsheet models."
   },
@@ -350,5 +342,21 @@
   {
     "query": "Which of the following is true about the Bayes’ rule in probability?",
     "response": "It extends the concept of conditional probability to revise historical probabilities based on sample information."
+  },
+  {
+    "query": "Which of the following distributions is the result of the Excel function = a + (b - a) * RAND( )?",
+    "response": "Uniform distribution"
+  },
+  {
+    "query": "Every linear optimization problem has a unique optimal solution.",
+    "response": "The correct answer is 'False'."
+  },
+  {
+    "query": "Consider the following linear integer problem and the related graph. Which of the following is the optimal solution?",
+    "response": "xA= 2, xB= 4"
+  },
+  {
+    "query": "The shadow price tells how much the value of the objective function will change as the right-hand side of a constraint is increased by 1.",
+    "response": "The correct answer is 'True'."
   }
 ]
