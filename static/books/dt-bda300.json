@@ -1,0 +1,398 @@
+[
+  {
+    "query": "Which industry-specific application name is used to refer to analytics in sports?",
+    "response": "Sports analytics"
+  },
+  {
+    "query": "What is the last phase of decision-making?",
+    "response": "Implementation"
+  },
+  {
+    "query": "What is the first phase of decision making?",
+    "response": "Intelligence"
+  },
+  {
+    "query": "What is the focus of big data analytics?",
+    "response": "Unstructured, large data sets"
+  },
+  {
+    "query": "How many phases are involved in decision making?",
+    "response": "Four"
+  },
+  {
+    "query": "What is descriptive analytics used for?",
+    "response": "Providing insights"
+  },
+  {
+    "query": "What is a model?",
+    "response": "A simplified representation of reality"
+  },
+  {
+    "query": "What is the purpose of BI methods?",
+    "response": "All of the answers are correct"
+  },
+  {
+    "query": "What is prescriptive analytics used for?",
+    "response": "Building models"
+  },
+  {
+    "query": "What is a major component of a DSS?",
+    "response": "All of the answers are correct"
+  },
+  {
+    "query": "What is the trend of using chatbots?",
+    "response": "Increasing"
+  },
+  {
+    "query": "What are the major technologies of AI?",
+    "response": "Intelligent agents, machine learning, robotic systems, NLP and speech recognition, computer vision, and knowledge systems"
+  },
+  {
+    "query": "What is the difficulty in measuring AI's capacity?",
+    "response": "There are several types of intelligence"
+  },
+  {
+    "query": "What is a major limitation of AI?",
+    "response": "The lack of human touch and feel"
+  },
+  {
+    "query": "What is the role of intelligent virtual systems?",
+    "response": "To act as assistants to humans"
+  },
+  {
+    "query": "What are intelligent agents good at?",
+    "response": "Performing simple tasks faster and more consistently than humans"
+  },
+  {
+    "query": "What is the advantage of using AI in accounting?",
+    "response": "Automating simple transactions"
+  },
+  {
+    "query": "What cognitive tasks are machines not a match for humans?",
+    "response": "Understanding emotions and social interactions"
+  },
+  {
+    "query": "In what ways is AI used for accounting?",
+    "response": "Automating simple transactions, helping deal with Big Data, finding fraudulent transactions, increasing security, and assisting in auditing and compliance"
+  },
+  {
+    "query": "What is the major power of machine learning?",
+    "response": "The ability to learn from data and its manipulation"
+  },
+  {
+    "query": "What types of data mining tools are available?",
+    "response": "Both commercial and free tools"
+  },
+  {
+    "query": "Which measure is used to evaluate the quality of association rules?",
+    "response": "Lift"
+  },
+  {
+    "query": "What are the methods used to assess the variable importance of data mining models?",
+    "response": "Model type specific, model type agnostic, and clustering"
+  },
+  {
+    "query": "Which of the following is not a step in data preprocessing?",
+    "response": "Data interpretation"
+  },
+  {
+    "query": "What is data mining?",
+    "response": "The process of discovering new knowledge from databases"
+  },
+  {
+    "query": "How do decision trees partition data?",
+    "response": "By branching along different attributes"
+  },
+  {
+    "query": "What is the purpose of data consolidation in data preprocessing?",
+    "response": "To combine data from different sources"
+  },
+  {
+    "query": "What is the most time-consuming step in data mining projects?",
+    "response": "Understanding the domain"
+  },
+  {
+    "query": "What is the purpose of measuring variable importance in data mining models?",
+    "response": "To identify the variables that have the greatest impact on the outcome"
+  },
+  {
+    "query": "What types of projects must follow a systematic project management process to be successful?",
+    "response": "All IS initiatives"
+  },
+  {
+    "query": "What is the input requirement for the nearest neighbor algorithm?",
+    "response": "Two of the other answers are correct"
+  },
+  {
+    "query": "What does the parameter k signify in the nearest neighbor algorithm?",
+    "response": "The number of neighbors to use in a given prediction problem"
+  },
+  {
+    "query": "What is the role of weights in neural computing?",
+    "response": "To store knowledge"
+  },
+  {
+    "query": "What are some types of problems that neural network architectures can be applied to?",
+    "response": "All of the answers are correct"
+  },
+  {
+    "query": "In which domains are SVM applications emerging?",
+    "response": "Healthcare, finance, security, and energy"
+  },
+  {
+    "query": "What are Bayesian classifiers built on?",
+    "response": "Foundation of the Bayes theorem"
+  },
+  {
+    "query": "What is the Bayesian theorem?",
+    "response": "A theoretical foundation for machine learning"
+  },
+  {
+    "query": "Which method can be used for constructing a Bayesian network automatically?",
+    "response": "Both regular Naïve Bayes and Tree-augmented Naïve Bayes"
+  },
+  {
+    "query": "In what areas do neural network applications abound?",
+    "response": "In almost all business disciplines and functional areas"
+  },
+  {
+    "query": "What is one example of a business problem that can be solved using neural networks?",
+    "response": "Bankruptcy prediction"
+  },
+  {
+    "query": "What is representation learning?",
+    "response": "A family of machine-learning methods"
+  },
+  {
+    "query": "What is the main characteristic of convolutional networks?",
+    "response": "Having at least one layer involving a convolution weight function"
+  },
+  {
+    "query": "What are some examples of cognitive analytics platforms?",
+    "response": "IBM Watson, Google Cloud, Microsoft Azure"
+  },
+  {
+    "query": "What does an MLP-type neural network consist of?",
+    "response": "An input layer, an output layer, and a number of hidden layers"
+  },
+  {
+    "query": "What is the role of sophisticated mathematical algorithms in deep learning?",
+    "response": "To learn from data"
+  },
+  {
+    "query": "What is the technique used to assess the relative importance of input features in a neural network?",
+    "response": "Sensitivity analysis"
+  },
+  {
+    "query": "What is the main advantage of having multiple layers in deep MLP networks?",
+    "response": "They perform better and converge faster than fewer layers with many neurons"
+  },
+  {
+    "query": "What is ImageNet?",
+    "response": "An ongoing research project that provides researchers with a large database of images"
+  },
+  {
+    "query": "What is cognitive search?",
+    "response": "A new type of search method that uses AI to return more relevant results to the user"
+  },
+  {
+    "query": "What is the main advantage of RNNs?",
+    "response": "They have memory to remember previous information"
+  },
+  {
+    "query": "Which of the following is a text mining application?",
+    "response": "Sentiment analysis"
+  },
+  {
+    "query": "How is polarity identification in sentiment analysis accomplished?",
+    "response": "By using a lexicon as a reference library or by using a collection of training documents"
+  },
+  {
+    "query": "What is web mining?",
+    "response": "The discovery and analysis of interesting and useful information from the web using web-based tools"
+  },
+  {
+    "query": "What are text and web mining?",
+    "response": "Critical components of the next generation of business intelligence tools"
+  },
+  {
+    "query": "What is social analytics?",
+    "response": "The process of analyzing and interpreting digital interactions and relationships"
+  },
+  {
+    "query": "What is a search engine?",
+    "response": "A software program that searches for documents based on keywords provided by users"
+  },
+  {
+    "query": "What is text mining?",
+    "response": "The discovery of knowledge from unstructured data sources"
+  },
+  {
+    "query": "What is VOC?",
+    "response": "An integral part of analytic CRM and customer experience management systems"
+  },
+  {
+    "query": "What are the three areas of web mining?",
+    "response": "Content mining, structure mining, and usage mining"
+  },
+  {
+    "query": "What is web structure mining?",
+    "response": "The generation of interesting information from the links on web pages"
+  },
+  {
+    "query": "What type of data can enhance analytics applications by incorporating location information?",
+    "response": "Geospatial data"
+  },
+  {
+    "query": "What is the relationship between big data and data warehouses?",
+    "response": "They are complementary technologies"
+  },
+  {
+    "query": "What is the benefit of mining real-time location information of users?",
+    "response": "It allows businesses to create promotions targeted at a specific user in real time"
+  },
+  {
+    "query": "What is NoSQL?",
+    "response": "A new paradigm to store and process large volumes of unstructured, semi-structured, and multi-structured data"
+  },
+  {
+    "query": "How can location-based analytics benefit consumers?",
+    "response": "By allowing mobile apps to be developed for innovative analytics applications"
+  },
+  {
+    "query": "What is Hive?",
+    "response": "A Hadoop-based data warehousingâ€\"like framework originally developed by Facebook"
+  },
+  {
+    "query": "What are the three Vs that typically define big data?",
+    "response": "Volume, variety, velocity"
+  },
+  {
+    "query": "What is geospatial data?",
+    "response": "Data that can be used to enhance analytics applications by incorporating location information"
+  },
+  {
+    "query": "How can businesses benefit from location-based analytics?",
+    "response": "By customizing promotions targeted at a specific user in real time"
+  },
+  {
+    "query": "What is big data?",
+    "response": "Big data means different things to people with different backgrounds and interests."
+  },
+  {
+    "query": "What is the biggest challenge that self-driving cars face?",
+    "response": "Legal restrictions"
+  },
+  {
+    "query": "Which category of robots is most likely to have already impacted consumers?",
+    "response": "Autonomous cars"
+  },
+  {
+    "query": "What is the function of the logic unit/CPU in robots?",
+    "response": "To process data and make decisions"
+  },
+  {
+    "query": "What are social robots designed to do?",
+    "response": "Provide emotional support and care to children, patients, and older adults"
+  },
+  {
+    "query": "What is the name of the category of robots that are designed to work alongside humans?",
+    "response": "Cobot"
+  },
+  {
+    "query": "Which category of robots is challenging the limits of AI innovation?",
+    "response": "Self-driving cars"
+  },
+  {
+    "query": "How are robots and AI affecting the job market?",
+    "response": "Millions of jobs are at risk, but new jobs will also emerge."
+  },
+  {
+    "query": "What is the relationship between cobots and humans?",
+    "response": "They are designed to work together."
+  },
+  {
+    "query": "What is the name of the category of robots that are designed to work with humans?",
+    "response": "Cobot"
+  },
+  {
+    "query": "What component of a robot is responsible for processing data and making decisions?",
+    "response": "Logic unit/CPU"
+  },
+  {
+    "query": "Whom do enterprise chatbots serve?",
+    "response": "Customers of all types, business partners, and organizational employees"
+  },
+  {
+    "query": "How is knowledge disseminated for virtual personal assistants?",
+    "response": "Via Q&A dialog"
+  },
+  {
+    "query": "What is the purpose of knowledge transfer from experts to machines in expert systems?",
+    "response": "To provide machines with the expertise needed for problem-solving"
+  },
+  {
+    "query": "What can VPAs specialize in?",
+    "response": "Specific domains and work as investment advisors"
+  },
+  {
+    "query": "What is the purpose of virtual personal assistants (VPAs)?",
+    "response": "To work with individuals and customize for them"
+  },
+  {
+    "query": "What kind of commands can virtual personal assistants receive?",
+    "response": "Only voice commands"
+  },
+  {
+    "query": "What is the primary use of chatbots?",
+    "response": "Providing customer service and information"
+  },
+  {
+    "query": "How do expert systems help retain scarce knowledge in organizations?",
+    "response": "By capturing knowledge from experts and making it available to others"
+  },
+  {
+    "query": "How do chatbots facilitate online shopping?",
+    "response": "By providing customer service and information"
+  },
+  {
+    "query": "What can IoT applications support?",
+    "response": "Decisions made by both equipment manufacturers and users"
+  },
+  {
+    "query": "What are the potential benefits of self-driven cars?",
+    "response": "Decrease in pollution"
+  },
+  {
+    "query": "What is the IoT ecosystem?",
+    "response": "A system in which objects such as people, sensors, and computers are interconnected via the Internet"
+  },
+  {
+    "query": "What is the benefit of using IoT?",
+    "response": "It can improve existing business processes and create new business applications."
+  },
+  {
+    "query": "How will things on the IoT communicate?",
+    "response": "They will communicate wirelessly."
+  },
+  {
+    "query": "What are IoT applications based on?",
+    "response": "Data collected by sensors or other devices that flow over the Internet for processing"
+  },
+  {
+    "query": "What are some applications of smart homes?",
+    "response": "Home security and Controlling appliances"
+  },
+  {
+    "query": "What does the IoT enable?",
+    "response": "It enables applications in industry, services, and governments."
+  },
+  {
+    "query": "How do smart city projects improve the quality of life for residents?",
+    "response": "By supporting the decision-making of city planners and technology providers"
+  },
+  {
+    "query": "What enables smart appliances and homes?",
+    "response": "Internet of Things"
+  }
+]
