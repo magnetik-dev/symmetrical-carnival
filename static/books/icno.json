@@ -1,5 +1,113 @@
 [
   {
+    "query": "How do you display logged activity?",
+    "response": "show logging"
+  },
+  {
+    "query": "When a one-to-one network address translation is required, what kind of translation would be used?",
+    "response": "Static"
+  },
+  {
+    "query": "In the context of NAT, what happens when a packet leaves the private organization and enters the public Internet?",
+    "response": "The packet's source IP address is translated from private to public by the NAT router."
+  },
+  {
+    "query": "What is the maximum one-way delay expected on a link to ensure a quality IP voice connection?",
+    "response": "150 ms"
+  },
+  {
+    "query": "Which field is used within the IPv6 packet header for QoS markings?",
+    "response": "Traffic Class"
+  },
+  {
+    "query": "What configuration step is unique to HSRP compared to standard IP addressing?",
+    "response": "Configuring a virtual IP address (VIP)."
+  },
+  {
+    "query": "Which FHRP solution provides the ability to implement an active/active redundancy approach?",
+    "response": "GLBP"
+  },
+  {
+    "query": "When using HSRP in a single group redundancy deployment, how many forwarders are allowed to actively handle user traffic at the same time?",
+    "response": "1"
+  },
+  {
+    "query": "________ are SNMP messages sent from the network device (agent) that also list the state of an MIB variable.",
+    "response": "Traps"
+  },
+  {
+    "query": "What two hash algorithms does Cisco use to verify the integrity of the IOS file?",
+    "response": "MD5 and SHA512"
+  },
+  {
+    "query": "A company has been using 100BASE-T for several years and now wants to upgrade to 5GBASE-T. What minimum UTP cable category do they need to have installed?",
+    "response": "CAT 5E"
+  },
+  {
+    "query": "What is a typical use for PoE?",
+    "response": "Security cameras"
+  },
+  {
+    "query": "What is the name of the device that is used with a Digital Subscriber Line (DSL) to split the voice and data signals at the Telco?",
+    "response": "DSLAM"
+  },
+  {
+    "query": "Which MEF service type provides a link similar to a T1 leased line?",
+    "response": "E-Line"
+  },
+  {
+    "query": "________ provides a VM where the customer specifies the amount of hardware performance/capacity to allocate to the VM and the operating system where the customer will have full control.",
+    "response": "IaaS"
+  },
+  {
+    "query": "A(n) ________ exchange has come to be known as a company that creates a private network as a service.",
+    "response": "intercloud"
+  },
+  {
+    "query": "Which organization has defined the five different criteria for cloud computing services?",
+    "response": "NIST"
+  },
+  {
+    "query": "________ describes a type of API that allows applications to sit on different hosts and communicate using HTTP messages that transfer data over the API.",
+    "response": "REST"
+  },
+  {
+    "query": "ACI uses what type of networking model?",
+    "response": "Intent-based"
+  },
+  {
+    "query": "A greenfield Cisco SD-Access fabric uses what type of design?",
+    "response": "Routed access layer design"
+  },
+  {
+    "query": "In ______-based networking, an engineer configures the outcome desired and then the devices determine what configuration and behavior are necessary to achieve that outcome.",
+    "response": "intent"
+  },
+  {
+    "query": "Which of these is the best definition of a fabric border node?",
+    "response": "A switch that connects to devices outside Cisco SD-Access's control"
+  },
+  {
+    "query": "Which is the best definition of a simple variable?",
+    "response": "Name or label with a single assigned value"
+  },
+  {
+    "query": "What does the CRUD acronym stand for?",
+    "response": "Create, Read, Update, Delete"
+  },
+  {
+    "query": "When is a manual per-device configuration plan the best choice?",
+    "response": "A single person managing a single device."
+  },
+  {
+    "query": "________ can monitor device configurations to discover when they differ from the intended ideal, and then either reconfigure the device or notify someone to make the change.",
+    "response": "Configuration enforcement"
+  },
+  {
+    "query": "What is a primary reason for the emergence of configuration management tools like Ansible and Terraform?",
+    "response": "To automate the creation, configuration, and removal of virtual machines"
+  },
+  {
     "query": "TCP flow control using windowing is implemented by controlling ________.",
     "response": "window sizes"
   },
@@ -100,10 +208,6 @@
     "response": "Port Address Translation"
   },
   {
-    "query": "What is the maximum one-way delay expected on a link to ensure a quality IP voice connection?",
-    "response": "150 ms"
-  },
-  {
     "query": "Which field is used in the 802.1Q header to mark a specific QoS value?",
     "response": "CoS"
   },
@@ -130,14 +234,6 @@
   {
     "query": "When using the Cisco campus design terminology, which layer provides a connection point for end-user devices?",
     "response": "Access"
-  },
-  {
-    "query": "Which MEF service type provides a link similar to a T1 leased line?",
-    "response": "E-Line"
-  },
-  {
-    "query": "When using HSRP in a single group redundancy deployment, how many forwarders are allowed to actively handle user traffic at the same time?",
-    "response": "1"
   },
   {
     "query": "A Metro Ethernet ________ defines which user devices can communicate with each other.",
@@ -216,10 +312,6 @@
     "response": "DSCP"
   },
   {
-    "query": "Which field is used within the IPv6 packet header for QoS markings?",
-    "response": "Traffic Class"
-  },
-  {
     "query": "What will happen if two routers in the same HSRP group use different HSRP versions?",
     "response": "They will not understand each other and ignore HSRP communication"
   },
@@ -234,10 +326,6 @@
   {
     "query": "________ is an application layer protocol that provides a message format for communication between managers and agents.",
     "response": "SNMP"
-  },
-  {
-    "query": "What two hash algorithms does Cisco use to verify the integrity of the IOS file?",
-    "response": "MD5 and SHA512"
   },
   {
     "query": "A company plans to utilize existing multimode fiber cabling for their new 10GBASE-SR Ethernet standard. What should they verify first?",
@@ -284,20 +372,12 @@
     "response": "VXLAN"
   },
   {
-    "query": "A greenfield Cisco SD-Access fabric uses what type of design?",
-    "response": "Routed access layer design ??"
-  },
-  {
     "query": "What is REST?",
     "response": "A type of API"
   },
   {
     "query": "What is the term used for a JSON format that is optimized for human readability?",
     "response": "Pretty"
-  },
-  {
-    "query": "When is a manual per-device configuration plan the best choice?",
-    "response": "A single person managing a single device."
   },
   {
     "query": "You want to track and manage changes to your infrastructure. Which Terraform component would be most helpful in this situation?",
