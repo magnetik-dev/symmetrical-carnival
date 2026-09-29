@@ -478,5 +478,153 @@
   {
     "query": "Delegating administrative authority means not only sharing administrative tasks with other users, but also which of the following?",
     "response": "Tightly controlling the permissions granted to each administrator."
+  },
+  {
+    "query": "Which setting would you set to 0 to allow all users to reset their password immediately?",
+    "response": "Minimum password age"
+  },
+  {
+    "query": "Which of the following is a valid Azure AD password?",
+    "response": "My Password"
+  },
+  {
+    "query": "How many characters can be entered before the \"@\" symbol and how many characters can be entered after the \"@\" symbol in a UPN?",
+    "response": "64 before and 48 after the \"@\" symbol"
+  },
+  {
+    "query": "Which of the following is a password restriction that applies to Azure AD?",
+    "response": "There is a global banned password list."
+  },
+  {
+    "query": "As a network administrator, you have just registered two new on-premises servers in Azure Arc. How often will the Azure Connected Machine agent send a heartbeat message from the newly added servers to the Azure Arc service?",
+    "response": "Every 5 minutes."
+  },
+  {
+    "query": "You want to find specific information in the Azure resources logs.",
+    "response": "Kusto Query Language"
+  },
+  {
+    "query": "As an IT administrator, you have set the following permissions: * The user RSmith has been assigned read permissions to a file. * The user group Accounting has been assigned write permissions to that same folder. RSmith is a member of the Accounting group. Which of the following is true about RSmith's access?",
+    "response": "RSmith has both Read and Write permissions to that file."
+  },
+  {
+    "query": "Which of the following is sometimes referred to as the reservation?",
+    "response": "MaximumIOPS"
+  },
+  {
+    "query": "You work for a company that has headquarters in Seattle and an office in Olympia. A server in the Seattle office runs Windows Server 2016 and holds all shared files for the company. The office in Olympia has five client computers that run Windows 10. The Olympia office is connected to the Seattle office with a WAN link. You want to implement BranchCache in the Olympia office and cache all content on a server in that office. What should you do to configure the client computers in the Olympia office?",
+    "response": "Run the Enable-BCHostedClient cmdlet to set the BranchCache mode to hosted cache. Use the FQDN of the server in the Olympia office."
+  },
+  {
+    "query": "You are the company administrator. The company plans to open a new branch office that will operate using a 56 Kbps connection to the main office, until high-speed internet can be installed in about three months. A server will be deployed to the new office that will function as an RODC, file server, and infrastructure server. Users at the new branch office will frequently need to access policy files located on servers at the main office. These policy files are created and maintained by users at the main office. Company regulations prohibit policy files from being permanently stored in any location other than on the file servers in the main office. You need to recommend a solution for users in the new branch office to optimize access to files in the main office. What should you include in the recommendation?",
+    "response": "BranchCache in hosted cache mode"
+  },
+  {
+    "query": "Which of the following uses Infrastructure as Code (IaC) templates to build your repository's application and infrastructure source code?",
+    "response": "Azure Pipelines"
+  },
+  {
+    "query": "Which report includes SQL Server, SharePoint Server, and Exchange Server?",
+    "response": "Microsoft workload discovery report"
+  },
+  {
+    "query": "What is the maximum capacity of the Azure VM disk that holds the operating system?",
+    "response": "4095 GB"
+  },
+  {
+    "query": "You are configuring the network for an Azure virtual machine. Which resource holds a list of access control list (ACL) rules?",
+    "response": "Network security group"
+  },
+  {
+    "query": "When using a VHDX differential drive, which of the following is true regarding the differencing drive file?",
+    "response": "Can have different OS environments"
+  },
+  {
+    "query": "Which of the following BEST describes VNets?",
+    "response": "Virtual networks hosted in Azure Cloud."
+  },
+  {
+    "query": "What is the primary purpose of RADIUS?",
+    "response": "Authenticate remote clients before access to the network is granted."
+  },
+  {
+    "query": "Which of the following BEST describes a WAP?",
+    "response": "A Windows Server service that allows users to use any device to access applications from outside the corporate network."
+  },
+  {
+    "query": "Which server edition supports an unlimited number of VMs?",
+    "response": "Windows Server 2022 Datacenter Server Core"
+  },
+  {
+    "query": "Which of the following BEST describes the stand-alone model?",
+    "response": "Communication takes place using a commonly available public network, such as the internet."
+  },
+  {
+    "query": "You are a network technician for a small consulting firm. One of your users is complaining that they are unable to connect to the local intranet site. After some troubleshooting, you've determined that the intranet site can be connected to by using the IP address but not the hostname. Which of the following would be the MOST likely reason for this?",
+    "response": "Incorrect DNS settings"
+  },
+  {
+    "query": "Which of the following DHCP scope options assigns a static IP configuration to a device using that device's MAC address?",
+    "response": "Reservation"
+  },
+  {
+    "query": "Which of the following best describes the purpose of using subnets?",
+    "response": "Subnets divide an IP network address into multiple network addresses."
+  },
+  {
+    "query": "When you enter a ping command at the command prompt how may echo packets are sent?",
+    "response": "4"
+  },
+  {
+    "query": "You are the network administrator for corpnet.com. All of your servers run Windows Server 2016. You have deployed a server named IPAM1 that has the IPAM feature installed on it. A user named User1 works at the company help desk. You need to enable User1 to view all information in Server Discovery, IP Address Space, and Server Management as well as IPAM and DHCP server operational events. User1 should not be able to view IP address tracking information. What should you do?",
+    "response": "Add User1 to the IPAM Users group."
+  },
+  {
+    "query": "Which of the following is the first place a computer looks at during the name resolution process?",
+    "response": "HOSTS file"
+  },
+  {
+    "query": "You are the network administrator for corpnet.com. A new corporate policy requires that DNSSEC be implemented on the corpnet.com zone. A server named DNS1 is authoritative for the corpnet.com zone. You sign the corpnet.com zone and distribute trust anchors to all non-authoritative DNS servers that will perform DNSSEC validation of data from the zone. You need to prepare the clients to perform DNSSEC validation for the corpnet.com. What should you do?",
+    "response": "In Group Policy, configure a Name Resolution Policy."
+  },
+  {
+    "query": "Which of the following is true regarding the secondary zone?",
+    "response": "Always initiates the zone transfer."
+  },
+  {
+    "query": "Which of the following commands do you use to clear the local DNS cache?",
+    "response": "ipconfig /flushdns"
+  },
+  {
+    "query": "You are the network administrator for westsim.com. Westsim.com has one main office and 50 branch offices. The network consists of one Active Directory domain that contains 5,000 users. You plan to deploy a Windows domain controller in each branch office. 10 of the branch offices do not employ on-site IT staff. You need to recommend a solution for these 10 branch offices. Your solution must meet the following requirements: * Minimize network traffic during the installation of Active Directory Domain Services (AD DS). * Maximize the security of the branch office domain controllers. What should you recommend?",
+    "response": "Install Active Directory Domain Services (AD DS) using the Install from Media (IFM) method and configure the read-only domain controller (RODC) option."
+  },
+  {
+    "query": "If IT administrators want to create a hybrid directory service between Azure Active Directory and Active Directory Domain Services, they must use which of the following to create this hybrid service?",
+    "response": "Azure AD Connect"
+  },
+  {
+    "query": "Which of the following can automatically synchronize user credentials, group accounts, and computer accounts between an on-premises Active Directory and cloud-based Azure services?",
+    "response": "Azure AD Connect"
+  },
+  {
+    "query": "Which of the following BEST describes ADUC?",
+    "response": "A management console used for administering Active Directory objects."
+  },
+  {
+    "query": "Which of the following is true when working with the Delegation of Control Wizard?",
+    "response": "The rights delegated at the OU level will flow to the child OUs."
+  },
+  {
+    "query": "The Delegation of Control Wizard allows you to delegate administrative tasks to other administrators or groups. Which of the following IT security principles are you covering by performing this task?",
+    "response": "The principle of least privilege"
+  },
+  {
+    "query": "The Djoin command is used in which of the following methods for adding computer accounts to Active Directory?",
+    "response": "Offline domain join"
+  },
+  {
+    "query": "Each computer has a password that is automatically generated when the computer joins the domain. When the computer boots, this password is used to authenticate the computer to the domain and establish a secure channel between the computer and the domain controller. Where is this password stored?",
+    "response": "On the local computer and in Active Directory."
   }
 ]

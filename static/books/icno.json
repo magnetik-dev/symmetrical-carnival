@@ -306,5 +306,109 @@
   {
     "query": "______ refers to how to deploy changes to the configuration once made by changing files in the configuration management system.",
     "response": "Configuration provisioning ??"
+  },
+  {
+    "query": "Wireless communication takes place over free space using which type of signals?",
+    "response": "Radio frequency"
+  },
+  {
+    "query": "Which frequency range is referred to as the 2.4-GHz band in wireless LAN communication?",
+    "response": "2.400 to 2.4835 GHz"
+  },
+  {
+    "query": "Which tunneling protocol makes it possible for a lightweight AP and WLC to carry 802.11-related messages and client data between them?",
+    "response": "CAPWAP"
+  },
+  {
+    "query": "Which of the following types of access points are equipped with both wired and wireless hardware so that the wireless client associations can be terminated onto a wired connection locally at the AP?",
+    "response": "Autonomous AP"
+  },
+  {
+    "query": "A Cisco embedded WLC deployment can typically support up to how many APs?",
+    "response": "200"
+  },
+  {
+    "query": "Which one of the following is the data encryption and integrity method used by WPA2?",
+    "response": "CCMP ??"
+  },
+  {
+    "query": "What is the primary advantage of using AES in CCMP over TKIP?",
+    "response": "AES offers stronger encryption and security than TKIP"
+  },
+  {
+    "query": "When configuring Layer 2 security for a WLAN, which of the following options should be avoided due to being legacy and deprecated?",
+    "response": "WPA with TKIP encryption"
+  },
+  {
+    "query": "Which interface is used to monitor the bootup process or make basic configuration changes on a Cisco AP?",
+    "response": "Serial console port"
+  },
+  {
+    "query": "You are setting up a WLAN for devices that only support 2.4 GHz radios. Which radio policy should you configure for this WLAN?",
+    "response": "802.11b/g only"
+  },
+  {
+    "query": "When a client receives several packets, each for a different application, how does the client OS know which application to direct a particular packet to?",
+    "response": "Destination port number"
+  },
+  {
+    "query": "Which TCP port number is used for POP3?",
+    "response": "110"
+  },
+  {
+    "query": "What keyword would you add to the end of an access-list command to see messages and statistics about matches of that particular line of the ACL?",
+    "response": "log"
+  },
+  {
+    "query": "Where should extended ACLS be placed?",
+    "response": "As close as possible to the source of the packet"
+  },
+  {
+    "query": "Which Cisco IOS extended ACL port number keyword would be used to match a specific port number range?",
+    "response": "range"
+  },
+  {
+    "query": "What parameters can Cisco ACLs use to match a single TCP or UDP port number?",
+    "response": "eq number"
+  },
+  {
+    "query": "Which type of ACL would you use to control packets passing through a router that contain SSH or Telnet traffic?",
+    "response": "Interface ACL"
+  },
+  {
+    "query": "What are the two ACL features that behave differently between IOS and IOS XE?",
+    "response": "Sequence number resequencing and common ACL."
+  },
+  {
+    "query": "What type of attack poisons the ARP table?",
+    "response": "man-in-the-middle"
+  },
+  {
+    "query": "When using MD5 hashing with the enable secret command, what process is taken with the user-entered password to verify its correctness?",
+    "response": "The user-entered password is hashed and compared to the stored hash."
+  },
+  {
+    "query": "If you have set a password with both enable password and enable secret, which one should you type to reach enable mode?",
+    "response": "Use the password in the enable secret password command and ignore the other. ??"
+  },
+  {
+    "query": "What subcommand enables port security on the interface?",
+    "response": "switchport port-security"
+  },
+  {
+    "query": "What command lists the configuration settings for port security on an interface?",
+    "response": "show port-security interface"
+  },
+  {
+    "query": "When reviewing the status of an interface, if you see a Port Status setting of Secure-up, what can you assume?",
+    "response": "The port has not been shut down."
+  },
+  {
+    "query": "What information does an ARP table provide?",
+    "response": "MAC address associated with an IP address"
+  },
+  {
+    "query": "Which DHCP messages do clients typically send?",
+    "response": "DISCOVER and REQUEST"
   }
 ]
