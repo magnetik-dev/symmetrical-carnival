@@ -526,5 +526,29 @@
   {
     "query": "Which of the following extensions describes a file that combines a scripting language with hundreds of prebuilt modules called cmdlets that can access and change most components and features of Windows and Active Directory components and features?",
     "response": ".ps1"
+  },
+  {
+    "query": "A healthcare provider sets up color-filter modes on client machines and tailors them to specific users who are colorblind. Where can the healthcare administrator configure this?",
+    "response": "Accessibility"
+  },
+  {
+    "query": "A threat actor uses a technique that allows devices to connect to an open authentication and then redirect the user's browser to a fake captive portal that encourages the user to enter their network password. What is this technique?",
+    "response": "Evil twin"
+  },
+  {
+    "query": "An attacker uses a technique against a wireless network that allows them to flood access points with too many packets. What is this called?",
+    "response": "DoS"
+  },
+  {
+    "query": "The IT department determines that the computer belonging to the company's vice president suffers a compromise and that the personal and corporate data contained on the computer has been leaked. Which of the following should the IT team do next?",
+    "response": "Quarantine all devices that could be connected to the leak."
+  },
+  {
+    "query": "A user finds that their iPhone 11 starts to run slowly, and a reboot does not solve the slow performance. Which of the following issues could be causing the problem? (Select three.)",
+    "response": "OS update, Low battery charge, Too many apps open"
+  },
+  {
+    "query": "A technician creates full backups by having the chain start with an initial full backup as normal and afterward makes a series of incremental backups. Which of the following backups is this?",
+    "response": "Synthetic"
   }
 ]

@@ -240,7 +240,7 @@
     "response": "A special user account that an application or service uses to interact with the OS."
   },
   {
-    "query": "Which group is assigned to the Allow log on locally right assigned to by default for workstations and member servers?",
+    "query": "Which group is assigned to the Allow log on locally right assigned to by default for workstations and member servers?",
     "response": "Administrators"
   },
   {
@@ -420,7 +420,7 @@
     "response": "Incorrect DNS server address"
   },
   {
-    "query": "Which of the following can you append to the end of the dig command to run a query for all the records in the zone?",
+    "query": "Which of the following can you append to the end of the dig command to run a query for all the records in the zone?",
     "response": "-axfr"
   },
   {
@@ -480,7 +480,7 @@
     "response": "Tightly controlling the permissions granted to each administrator."
   },
   {
-    "query": "Which setting would you set to 0 to allow all users to reset their password immediately?",
+    "query": "Which setting would you set to 0 to allow all users to reset their password immediately?",
     "response": "Minimum password age"
   },
   {
@@ -513,7 +513,7 @@
   },
   {
     "query": "You work for a company that has headquarters in Seattle and an office in Olympia. A server in the Seattle office runs Windows Server 2016 and holds all shared files for the company. The office in Olympia has five client computers that run Windows 10. The Olympia office is connected to the Seattle office with a WAN link. You want to implement BranchCache in the Olympia office and cache all content on a server in that office. What should you do to configure the client computers in the Olympia office?",
-    "response": "Run the Enable-BCHostedClient cmdlet to set the BranchCache mode to hosted cache. Use the FQDN of the server in the Olympia office."
+    "response": "Run the Enable-BCHostedClient cmdlet to set the BranchCache mode to hosted cache. Use the FQDN of the server in the Olympia office."
   },
   {
     "query": "You are the company administrator. The company plans to open a new branch office that will operate using a 56 Kbps connection to the main office, until high-speed internet can be installed in about three months. A server will be deployed to the new office that will function as an RODC, file server, and infrastructure server. Users at the new branch office will frequently need to access policy files located on servers at the main office. These policy files are created and maintained by users at the main office. Company regulations prohibit policy files from being permanently stored in any location other than on the file servers in the main office. You need to recommend a solution for users in the new branch office to optimize access to files in the main office. What should you include in the recommendation?",
@@ -620,11 +620,83 @@
     "response": "The principle of least privilege"
   },
   {
-    "query": "The Djoin command is used in which of the following methods for adding computer accounts to Active Directory?",
+    "query": "The Djoin command is used in which of the following methods for adding computer accounts to Active Directory?",
     "response": "Offline domain join"
   },
   {
     "query": "Each computer has a password that is automatically generated when the computer joins the domain. When the computer boots, this password is used to authenticate the computer to the domain and establish a secure channel between the computer and the domain controller. Where is this password stored?",
     "response": "On the local computer and in Active Directory."
+  },
+  {
+    "query": "Which of the following is a role service that allows users with the Remote Desktop Connection client and an internet connection to connect on an internal network?",
+    "response": "RD Gateway"
+  },
+  {
+    "query": "Which of the following BEST describes a flowlet?",
+    "response": "A burst of packets that is separated in time from other bursts by a sufficient gap."
+  },
+  {
+    "query": "CorpServ is a small company with 14 client systems and a network printer. Because there are only a limited number of network systems, you decide to use APIPA addressing. With APIPA configured, all the systems are able to communicate with each other, but you're having trouble configuring internet access. What is the MOST LIKELY cause of the problem?",
+    "response": "Private addresses cannot directly communicate with hosts outside the local subnet."
+  },
+  {
+    "query": "Mary calls to tell you that she can't connect to an intranet server called WebSrv1. From her computer, you ping the server's IP address. The ping test is successful. Which tool would you use on her workstation next to troubleshoot the problem?",
+    "response": "nslookup"
+  },
+  {
+    "query": "You are the network administrator for westsim.com. The network consists of a single Active Directory domain. All of the servers run Windows Server, and all of the clients run the Windows operating system. The company has a branch office in Atlanta that has a read-only domain controller (RODC) named ATLRODC1. Management has requested a list of the users who have been authenticated by ATLRODC1 in the past and whose user accounts are cached on the RODC. Which command should you use to retrieve this information?",
+    "response": "Get-ADDomainControllerPasswordReplicationPolicyUsage"
+  },
+  {
+    "query": "Which of the following administrative models for a RODC provides the most security in small branch location?",
+    "response": "No accounts cached model"
+  },
+  {
+    "query": "Which of the following best describes a forest trust?",
+    "response": "A trust which creates a trusted relationship between forests."
+  },
+  {
+    "query": "You are the domain administrator for a single domain forest. You have 10 file servers that are member servers running Windows Server. Your company has designed a top-level OU structure based on the 15 divisions for your company. Each division has a global security group containing the user accounts for division managers. You have folders on your file servers that all division managers should have permission to access. For some resources, all division managers will need full control. For others, they will only need read or change permissions. You need a group strategy that will facilitate the assignment of permissions but minimize administrative effort. What should you do?",
+    "response": "Create a global group called AllMgrs. Make each of the existing division managers groups a member."
+  },
+  {
+    "query": "Which of the following is true when using group managed service accounts?",
+    "response": "There are no domain or forest functional level requirements for using group managed service accounts."
+  },
+  {
+    "query": "You manage user accounts in the southsim.com domain. Each department is represented by an Organizational Unit (OU). Computer and user accounts for each department have been moved to their respective OUs. When a new employee is hired in the sales department, you create the user account, add the user account to multiple groups, assign the user permissions to the sales contact database, and configure permissions to home and shared folders. Because of high turnover, you find that as users leave the organization, you spend several hours tracking down file ownership and reassigning permissions to other users. How can you simplify this process?",
+    "response": "Use a programming language to create a deprovisioning solution. Write scripts or routines that run automatically and reassign ownership and permissions when the user account is deleted."
+  },
+  {
+    "query": "Which of the following is another name for a directory?",
+    "response": "Folder"
+  },
+  {
+    "query": "Which of the following provides redundancy for the data if two storage devices fail at one time?",
+    "response": "Three-way mirror"
+  },
+  {
+    "query": "Which of the following is true regarding asynchronous replication?",
+    "response": "Acknowledgement of the write operation is sent to the application without waiting for an acknowledgement from the replication partner."
+  },
+  {
+    "query": "You have six 500 GB disks. You are using parity. How much usable disk space do you have?",
+    "response": "2500"
+  },
+  {
+    "query": "You can adjust how often the data is synchronized to the replica VM. What is the default setting?",
+    "response": "5 minutes"
+  },
+  {
+    "query": "Which of the following is a virtual network where virtual machines are bound to a physical NIC that connects them to a physical network that the Hyper-V host is connected to?",
+    "response": "External Virtual Network"
+  },
+  {
+    "query": "Which of the following BEST describes an Azure relay?",
+    "response": "Allows for scoping instead of the shotgun approach of a VPN connection."
+  },
+  {
+    "query": "VPN tunneling protocols encrypts packet contents and wraps them in an unencrypted packets. Which of the following networking devices or services prevents (in most cases) the use of IPsec as a VPN tunneling protocol?",
+    "response": "NAT"
   }
 ]
