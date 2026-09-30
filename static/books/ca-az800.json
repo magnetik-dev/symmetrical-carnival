@@ -620,11 +620,55 @@
     "response": "The principle of least privilege"
   },
   {
-    "query": "The Djoin command is used in which of the following methods for adding computer accounts to Active Directory?",
+    "query": "The Djoin command is used in which of the following methods for adding computer accounts to Active Directory?",
     "response": "Offline domain join"
   },
   {
     "query": "Each computer has a password that is automatically generated when the computer joins the domain. When the computer boots, this password is used to authenticate the computer to the domain and establish a secure channel between the computer and the domain controller. Where is this password stored?",
     "response": "On the local computer and in Active Directory."
+  },
+  {
+    "query": "Which of the following is a role service that allows users with the Remote Desktop Connection client and an internet connection to connect on an internal network?",
+    "response": "RD Gateway"
+  },
+  {
+    "query": "Which of the following BEST describes a flowlet?",
+    "response": "A burst of packets that is separated in time from other bursts by a sufficient gap."
+  },
+  {
+    "query": "CorpServ is a small company with 14 client systems and a network printer. Because there are only a limited number of network systems, you decide to use APIPA addressing. With APIPA configured, all the systems are able to communicate with each other, but you're having trouble configuring internet access. What is the MOST LIKELY cause of the problem?",
+    "response": "Private addresses cannot directly communicate with hosts outside the local subnet."
+  },
+  {
+    "query": "Mary calls to tell you that she can't connect to an intranet server called WebSrv1. From her computer, you ping the server's IP address. The ping test is successful. Which tool would you use on her workstation next to troubleshoot the problem?",
+    "response": "nslookup"
+  },
+  {
+    "query": "You are the network administrator for westsim.com. The network consists of a single Active Directory domain. All of the servers run Windows Server, and all of the clients run the Windows operating system. The company has a branch office in Atlanta that has a read-only domain controller (RODC) named ATLRODC1. Management has requested a list of the users who have been authenticated by ATLRODC1 in the past and whose user accounts are cached on the RODC. Which command should you use to retrieve this information?",
+    "response": "Get-ADDomainControllerPasswordReplicationPolicyUsage"
+  },
+  {
+    "query": "Which of the following administrative models for a RODC provides the most security in small branch location?",
+    "response": "No accounts cached model"
+  },
+  {
+    "query": "Which of the following best describes a forest trust?",
+    "response": "A trust which creates a trusted relationship between forests."
+  },
+  {
+    "query": "You are the domain administrator for a single domain forest. You have 10 file servers that are member servers running Windows Server. Your company has designed a top-level OU structure based on the 15 divisions for your company. Each division has a global security group containing the user accounts for division managers. You have folders on your file servers that all division managers should have permission to access. For some resources, all division managers will need full control. For others, they will only need read or change permissions. You need a group strategy that will facilitate the assignment of permissions but minimize administrative effort. What should you do?",
+    "response": "Create a global group called AllMgrs. Make each of the existing division managers groups a member."
+  },
+  {
+    "query": "The Djoin command is used in which of the following methods for adding computer accounts to Active Directory?",
+    "response": "Offline domain join"
+  },
+  {
+    "query": "Which of the following is true when using group managed service accounts?",
+    "response": "There are no domain or forest functional level requirements for using group managed service accounts."
+  },
+  {
+    "query": "You manage user accounts in the southsim.com domain. Each department is represented by an Organizational Unit (OU). Computer and user accounts for each department have been moved to their respective OUs. When a new employee is hired in the sales department, you create the user account, add the user account to multiple groups, assign the user permissions to the sales contact database, and configure permissions to home and shared folders. Because of high turnover, you find that as users leave the organization, you spend several hours tracking down file ownership and reassigning permissions to other users. How can you simplify this process?",
+    "response": "Use a programming language to create a deprovisioning solution. Write scripts or routines that run automatically and reassign ownership and permissions when the user account is deleted."
   }
 ]
