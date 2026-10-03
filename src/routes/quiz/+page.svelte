@@ -42,7 +42,8 @@
     { value: 'ca-dbsql-quizes', label: 'DBSQL Quizes'},
     { value: 'dt-bda100', label: 'BDA100 Quizes'},
     { value: 'dt-bda200', label: 'BDA200 Quizes'},
-    { value: 'dt-bda300', label: 'BDA300 Quizes'}
+    { value: 'dt-bda300', label: 'BDA300 Quizes'},
+    { value: 'dt-bda400', label: 'BDA400 Quizes'}
   ];
   
   const digitalDesignOptions = [
