@@ -158,5 +158,165 @@
   {
     "query": "What happens when a reactive output's value changes in a Shiny app?",
     "response": "The server re-executes the render function"
+  },
+  {
+    "query": "In R, where should descriptive comments be placed?",
+    "response": "Immediately above the code they describe"
+  },
+  {
+    "query": "What is the purpose of the \"Source\" button in RStudio?",
+    "response": "It executes the entire script file"
+  },
+  {
+    "query": "What character must a variable name start with in R?",
+    "response": "Letter"
+  },
+  {
+    "query": "Which data type is used to store text in R?",
+    "response": "Character"
+  },
+  {
+    "query": "How can short notes be added to the end of a line of code in R?",
+    "response": "Using a pound symbol (#)"
+  },
+  {
+    "query": "What is the purpose of the collapse named argument in the paste() function?",
+    "response": "To concatenate vectors with a collapse character"
+  },
+  {
+    "query": "What is the syntax for defining a function in R?",
+    "response": "function_name <- function(arguments) {}"
+  },
+  {
+    "query": "What does the c() function do in R?",
+    "response": "Concatenates multiple items into a vector"
+  },
+  {
+    "query": "How are R functions called?",
+    "response": "By writing the function name in parentheses"
+  },
+  {
+    "query": "What does it mean to store a returned value in a variable?",
+    "response": "To assign a value to a variable"
+  },
+  {
+    "query": "What is the result of the following code? v1 <- c(1, 5, 55, 1, 3, 11, 4, 27) v1[v1 > 10] <- 10 print(v1)",
+    "response": "1 5 10 1 3 10 4 10"
+  },
+  {
+    "query": "How can you remove elements from a vector in R?",
+    "response": "By specifying the indices of the elements to remove inside square brackets"
+  },
+  {
+    "query": "What does the negative index in square brackets do when accessing a vector in R?",
+    "response": "Returns all elements except the one at the negative index"
+  },
+  {
+    "query": "How does R handle scalar values when performing operations on vectors?",
+    "response": "It treats the scalar as a vector with a single element and applies the operation element-wise"
+  },
+  {
+    "query": "How can you use a boolean vector to filter a vector in R?",
+    "response": "By specifying the boolean vector as an index inside square brackets"
+  },
+  {
+    "query": "In the given example, what will be the value of 'greetings'? people <- list(\"Sarah\", \"Amit\", \"Zhang\") greetings <- lapply(people, function(item) { paste(\"Hello\", item) })",
+    "response": "[\"Hello Sarah\", \"Hello Amit\", \"Hello Zhang\"]"
+  },
+  {
+    "query": "What is the purpose of using double-bracket notation with a variable containing a tag name?",
+    "response": "It simplifies the code"
+  },
+  {
+    "query": "In the given example, what is the new value of 'person$job' after reassignment? person <- list( first_name = \"Ada\", job = \"Programmer\", salary = 78000, in_union = TRUE ) person$job <- \"Senior Programmer\" print(person$job)",
+    "response": "\"Senior Programmer\""
+  },
+  {
+    "query": "Which notation allows you to access an element in a nested list in R?",
+    "response": "Double brackets (list[['element']][['nested_element']])"
+  },
+  {
+    "query": "What function is used to get a vector of the names of items in a list?",
+    "response": "names()"
+  },
+  {
+    "query": "How can you operationalize a question for data analysis?",
+    "response": "By mapping the question to specific features in the data set"
+  },
+  {
+    "query": "What can looking at sample observations in a data set help you understand?",
+    "response": "The nature and values of data features"
+  },
+  {
+    "query": "Which data collection method may have biases due to people's poor recall or incentives to respond in a particular way?",
+    "response": "Surveys"
+  },
+  {
+    "query": "Which level of measurement establishes an order for categories and allows for the computation of median values?",
+    "response": "Ordinal"
+  },
+  {
+    "query": "How can a treemap visualization help in data analysis?",
+    "response": "It shows hierarchical relationships in the data"
+  },
+  {
+    "query": "What function can be used to retrieve the number of columns in a data frame \"df\"?",
+    "response": "ncol(df)"
+  },
+  {
+    "query": "How do you assign new column names to a data frame \"df\" using the vector \"new_col_names\"?",
+    "response": "colnames(df) <- new_col_names"
+  },
+  {
+    "query": "How can you create a data frame in R using vectors \"name,\" \"height,\" and \"weight\"?",
+    "response": "data.frame(name = name, height = height, weight = weight)"
+  },
+  {
+    "query": "What does NA represent in a data frame?",
+    "response": "Not Available"
+  },
+  {
+    "query": "What is the syntax to access an element by row and column names in a data frame?",
+    "response": "my_df[row_name, col_name]"
+  },
+  {
+    "query": "When performing a left join, what happens if there is no match for a row in the right data frame?",
+    "response": "The row is combined with NA values"
+  },
+  {
+    "query": "Which operator in dplyr allows for cleaner and more effective execution of sequential operations in R?",
+    "response": "%>%"
+  },
+  {
+    "query": "Which function in R combines data frames by matching on specific columns using a named vector?",
+    "response": "left_join()"
+  },
+  {
+    "query": "How can you sort rows in decreasing order based on a column using arrange()?",
+    "response": "arrange(-column_name)"
+  },
+  {
+    "query": "What happens if you perform a join in R without specifying the columns to match?",
+    "response": "All columns from both data frames will be matched"
+  },
+  {
+    "query": "Which function can be used to transform data from wide format to long format?",
+    "response": "gather()"
+  },
+  {
+    "query": "Which function is not used for reshaping data in the tidyr package?",
+    "response": "dplyr()"
+  },
+  {
+    "query": "Which R package is not used to reshape the data?",
+    "response": "ggplot2"
+  },
+  {
+    "query": "What is the main purpose of using the gather() function in the R code?",
+    "response": "To reshape the data from wide to long format."
+  },
+  {
+    "query": "Which of the following principles of tidy data is not described by the tidyr package's documentation?",
+    "response": "Each value is unique"
   }
 ]
