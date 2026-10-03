@@ -1,0 +1,162 @@
+[
+  {
+    "query": "Which SQL keyword is used to perform an aggregation function like MAX() or MIN()?",
+    "response": "FUNCTION"
+  },
+  {
+    "query": "What function should you use to create a reference to a specific table in the database, so you can use dplyr functions to manipulate it?",
+    "response": "tbl()"
+  },
+  {
+    "query": "How do you arrange the results of a SELECT statement in SQL based on a specific column?",
+    "response": "ORDER BY"
+  },
+  {
+    "query": "Which feature allows a database to represent many-to-many relationships between tables?",
+    "response": "Bridge tables"
+  },
+  {
+    "query": "Which feature allows a relational database to specify the relationships between tables?",
+    "response": "Foreign keys"
+  },
+  {
+    "query": "How is data organized in JSON?",
+    "response": "Key-value pairs"
+  },
+  {
+    "query": "How can you convert JSON data into a list in R using the jsonlite package?",
+    "response": "fromJSON()"
+  },
+  {
+    "query": "Which HTTP verb is used to update the resource to have a new state?",
+    "response": "PUT"
+  },
+  {
+    "query": "Which of the following represents a way of communicating with a computer application by writing a set of formal instructions understandable by a machine?",
+    "response": "API"
+  },
+  {
+    "query": "How can you send an HTTP GET request to a web API using the httr package in R?",
+    "response": "GET(uri)"
+  },
+  {
+    "query": "Which HTTP verb is used to add a new subresource?",
+    "response": "POST"
+  },
+  {
+    "query": "Which visualization type allows you to compare relationships between two categorical variables in hierarchical data?",
+    "response": "Treemap"
+  },
+  {
+    "query": "Which of the following graphical encodings is used to represent the horizontal or vertical position of an element along a common scale?",
+    "response": "Position"
+  },
+  {
+    "query": "For categorical variables, what is the main purpose of using a colour encoding in data visualization?",
+    "response": "To distinguish between groups"
+  },
+  {
+    "query": "How can you visually represent hierarchical data in a way that shows the hierarchy and numeric values?",
+    "response": "Treemap"
+  },
+  {
+    "query": "What are some visualization types suitable for showing proportions as parts of a whole?",
+    "response": "Treemap and pie chart"
+  },
+  {
+    "query": "Which function in ggplot2 allows you to control various visual features of the plot, such as axis lines, labels, and grid lines?",
+    "response": "theme()"
+  },
+  {
+    "query": "Which of the following functions is used to change the colour of each point based on the state it is in?",
+    "response": "geom_point(mapping = aes(x = percollege, y = percadultpoverty, color = state))"
+  },
+  {
+    "query": "Choropleth maps are used to _______________.",
+    "response": "Show data aggregated to specific geographic areas"
+  },
+  {
+    "query": "Which function is used to create dot distribution maps in ggplot2?",
+    "response": "geom_point()"
+  },
+  {
+    "query": "Which function allows you to format dates in the ggplot2 visualization?",
+    "response": "scale_date()"
+  },
+  {
+    "query": "To plot data at discrete locations on a map in ggplot2, what do you need to use as the coordinate system?",
+    "response": "coord_map()"
+  },
+  {
+    "query": "Why is it important to consider the popularity and activity of new packages before using them?",
+    "response": "To assess the package's reliability and security."
+  },
+  {
+    "query": "What is the purpose of the layout() function in Plotly?",
+    "response": "To modify the plot and add labels and axes"
+  },
+  {
+    "query": "What does the 'popup' argument in the addCircles() function do?",
+    "response": "Adds a description to each item on the map"
+  },
+  {
+    "query": "Which function is used to add a layer of shapes or markers to a Lea?et map in R?",
+    "response": "addMarkers()"
+  },
+  {
+    "query": "How can you view the popularity and activity of a package on GitHub?",
+    "response": "By looking at the number of stars and forks for the project"
+  },
+  {
+    "query": "What does the colorFactor() function do in the interactive map visualization?",
+    "response": "Maps data values to specific colours on the map"
+  },
+  {
+    "query": "What does the analysis.R file contain?",
+    "response": "The code for analysis and storing important values in variables"
+  },
+  {
+    "query": "What type of content does the header of an R Markdown file contain?",
+    "response": "YAML-formatted meta-data"
+  },
+  {
+    "query": "Which option should you choose in RStudio to create a new R Markdown document?",
+    "response": "File > New File > R Markdown"
+  },
+  {
+    "query": "How can you include the value of a variable calculated in a code chunk within a paragraph of text in R Markdown?",
+    "response": "Use the paste() function to concatenate the variable with text"
+  },
+  {
+    "query": "What is the purpose of using the \"Source\" option when configuring GitHub Pages?",
+    "response": "To specify the branch for hosting the webpage"
+  },
+  {
+    "query": "How should you name the .html file when knitting your R Markdown document to be served as a webpage on GitHub Pages?",
+    "response": "index.html"
+  },
+  {
+    "query": "How can you organize content into two columns in Shiny?",
+    "response": "By using the sidebarLayout() function"
+  },
+  {
+    "query": "What are the minimum arguments a Shiny server function must take?",
+    "response": "input and output"
+  },
+  {
+    "query": "What type of functions in the server produce output for the UI's reactive outputs?",
+    "response": "Render functions"
+  },
+  {
+    "query": "Which render function would you use to produce an interactive Plotly plot in the UI?",
+    "response": "renderPlotly()"
+  },
+  {
+    "query": "Which function in Shiny is used to create an interactive data table (using the DT package)?",
+    "response": "renderDataTable()"
+  },
+  {
+    "query": "What happens when a reactive output's value changes in a Shiny app?",
+    "response": "The server re-executes the render function"
+  }
+]
