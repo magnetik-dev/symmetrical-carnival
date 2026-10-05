@@ -414,5 +414,57 @@
   {
     "query": "What is the correct syntax for creating a reactive expression in a Shiny app?",
     "response": "reactive({ expression })"
+  },
+  {
+    "query": "In SQL, which operator is used for the \"is equal\" condition in a WHERE clause?",
+    "response": "="
+  },
+  {
+    "query": "If you want to access all columns from a table called \"employees,\" what SQL query would you use?",
+    "response": "SELECT * FROM employees"
+  },
+  {
+    "query": "Which part of a URI allows you to specify additional information about the resource to access?",
+    "response": "Query"
+  },
+  {
+    "query": "How can you compare the distributions of multiple continuous variables in a data set?",
+    "response": "Scatterplot matrix"
+  },
+  {
+    "query": "How can you visually represent the changes in multiple continuous variables over time in a single visualization?",
+    "response": "Line chart with multiple lines"
+  },
+  {
+    "query": "Which function is used to add a layer of markers to a Lea?et map in R?",
+    "response": "addMarkers()"
+  },
+  {
+    "query": "What is the purpose of adding interactivity to a visualization in R?",
+    "response": "To allow users to explore large data sets effectively"
+  },
+  {
+    "query": "What does the addProviderTiles() function in the leaflet package do?",
+    "response": "It adds map tiles to the visualization"
+  },
+  {
+    "query": "How does the 'radius' argument in the addCircles() function affect the map visualization?",
+    "response": "It determines the size of the circles on the map"
+  },
+  {
+    "query": "Which function can be used to render complex strings with Markdown syntax in an R Markdown document?",
+    "response": "cat()"
+  },
+  {
+    "query": "When using R Markdown with GitHub Pages, what should be the name of the .html file to be served at the root URL?",
+    "response": "index.html"
+  },
+  {
+    "query": "How can you enable GitHub Pages for a repository using the \"master branch\" option?",
+    "response": "By setting the repository settings to use the \"master branch\" as the source"
+  },
+  {
+    "query": "How can you check if the layout of the Shiny application is correct?",
+    "response": "By providing an empty server function"
   }
 ]
