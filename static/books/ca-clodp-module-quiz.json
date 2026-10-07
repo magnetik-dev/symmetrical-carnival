@@ -4475,5 +4475,69 @@
   {
     "query": "A company wants a cloud service to replace their traditional phones. They are looking to move to a service that allows for an application to be installed on laptops to eliminate hardware clutter. Which cloud service best fits the company's needs?",
     "response": "Voice over Internet Protocol"
+  },
+  {
+    "query": "You are designing a serverless application for a real-time data processing system. The system needs to process incoming data streams and then aggregate the results for further analysis. You want to ensure that the processing is done as quickly as possible. Which design pattern should you use?",
+    "response": "Fan-out/Fan-in"
+  },
+  {
+    "query": "A growing fintech company migrates its applications to a public cloud provider to take advantage of scalability and cost efficiency. However, the security team requires that all workloads be isolated from other tenants, and the IT department wants full administrative control over networking, while still avoiding the need to manage physical infrastructure. Which solution BEST meets these requirements?",
+    "response": "Virtual Private Cloud (VPC)"
+  },
+  {
+    "query": "A mid-sized consulting firm is evaluating cloud solutions to improve collaboration and data management. The firm wants a solution that provides cloud-based document creation and sharing tools accessible from any device without installing or maintaining local software. The IT team is analyzing different providers to determine which service model best meets these requirements. Which option BEST meets the firm's needs?",
+    "response": "Google Workspace"
+  },
+  {
+    "query": "Which statement BEST explains why loosely coupled architecture is beneficial in cloud-native design?",
+    "response": "It allows application components to be independently updated and scaled without affecting other components."
+  },
+  {
+    "query": "A large organization has recently released a new product tracking software. Unfortunately, the initial release contained numerous bugs and various functionality issues. As a result, the organization would like to iteratively release updated versions by switching users between environments as they are updated and tested. Which of the following best describes how this organization plans to develop and release future products?",
+    "response": "Blue-Green"
+  },
+  {
+    "query": "administrator has a small team to test the system for vulnerabilities. What best describes this practice?",
+    "response": "Penetration testing"
+  },
+  {
+    "query": "A cloud architect works for a mobile gaming company that utilizes dedicated cloud gaming servers. Which of the following Amazon Web Services (AWS) instances would be best suited for this situation?",
+    "response": "C6g"
+  },
+  {
+    "query": "A server administrator needs to track potential evidence during an investigation. What is this also referred to as?",
+    "response": "Chain of custody"
+  },
+  {
+    "query": "An Azure administrator is building a general purpose server which needs up to 40 vCPUs and up to 200 GiB of memory. Which of the following instances should the administrator choose?",
+    "response": "Ev30"
+  },
+  {
+    "query": "To effectively manage IaC devices, a commonly utilized option involves defining the end state of a product, then engineering and implementing an automation solution to support the product. What form of management is this?",
+    "response": "Declarative"
+  },
+  {
+    "query": "An administrator must update the current database that tracks software licenses throughout a company. What components would the administrator most likely track to ensure the company has the appropriate number of licenses without overspending?",
+    "response": "Configuration items"
+  },
+  {
+    "query": "A sysadmin is setting up a new cloud-based virtual desktop infrastructure (VDI) service but wants to make sure that performance degradation is least likely to happen. What kind of provisioning method would be most appropriate for each VDI node virtual disk?",
+    "response": "Thick"
+  },
+  {
+    "query": "A cloud administrator would like to devise a means of organizing a large amount of unstructured data. The organization scheme should remain scalable and maintain organizational integrity between teams. Which database models would suit this intent?",
+    "response": "Wide column, Document-oriented"
+  },
+  {
+    "query": "You are a cloud administrator for a company that has recently migrated its applications to a cloud service provider. After the migration, users report that they are unable to perform certain administrative actions, even though they have the correct privileges assigned. What should you check first to resolve this issue?",
+    "response": "Check the resource properties for service quota limits."
+  },
+  {
+    "query": "Your organization has deployed a new cloud-based application, but users are experiencing issues with certain features not working as expected. Upon investigation, you find that the application components have not been properly refactored for cloud services. What should you do to resolve this issue?",
+    "response": "Confirm applications are cloud-ready or cloud-compatible."
+  },
+  {
+    "query": "A control node updates 9 out of 10 managed nodes (or servers) during a recent configuration change but fails on the 10th node. All nodes are joined to the domain and accessible with a service account. Why did the change most likely fail for the 10th node?",
+    "response": "Server IP address changed, Server name changed"
   }
 ]
