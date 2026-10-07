@@ -394,5 +394,269 @@
   {
     "query": "What enables smart appliances and homes?",
     "response": "Internet of Things"
+  },
+  {
+    "query": "What does predictive analytics enable organizations to do?",
+    "response": "Both establish predictive rules and analyze historical data"
+  },
+  {
+    "query": "What is a DW?",
+    "response": "A data repository"
+  },
+  {
+    "query": "What happens in the design phase of decision-making?",
+    "response": "A model of the system is built"
+  },
+  {
+    "query": "What is the fear regarding AI?",
+    "response": "It will replace human beings"
+  },
+  {
+    "query": "What are some ways AI is used in manufacturing today?",
+    "response": "Supply chain coordination and operation of intelligent factories"
+  },
+  {
+    "query": "What is the purpose of using chatbots in marketing and customer service activities?",
+    "response": "To support marketing and customer service activities"
+  },
+  {
+    "query": "What does deep learning enable AI technologies to do?",
+    "response": "Learn from each other, creating synergy in learning"
+  },
+  {
+    "query": "How is AI used in financial services to improve customer service?",
+    "response": "Facilitating payments"
+  },
+  {
+    "query": "What is the purpose of using AI in manufacturing?",
+    "response": "To support planning, supply chain coordination, logistics and transportation, and the operation of intelligent factories"
+  },
+  {
+    "query": "What can computer vision provide?",
+    "response": "Understandings from images, including from videos"
+  },
+  {
+    "query": "What is cognitive computing?",
+    "response": "A way to simulate human thought processes using computers"
+  },
+  {
+    "query": "What are cluster algorithms used for?",
+    "response": "To compute measures of similarity in order to group similar cases into clusters"
+  },
+  {
+    "query": "What is the purpose of regression in data mining?",
+    "response": "To make predictions based on data"
+  },
+  {
+    "query": "How do cluster algorithms group similar cases?",
+    "response": "By computing measures of similarity"
+  },
+  {
+    "query": "What is the purpose of clustering in data mining?",
+    "response": "To partition data into natural segments"
+  },
+  {
+    "query": "What is the most commonly used similarity measure in cluster analysis?",
+    "response": "Euclidean distance measure"
+  },
+  {
+    "query": "How are classification methods trained?",
+    "response": "By using input and class label examples"
+  },
+  {
+    "query": "What is the purpose of decision trees in data mining?",
+    "response": "To partition data by branching along different attributes"
+  },
+  {
+    "query": "What are some of the data mining processes that have been proposed?",
+    "response": "CRISP-DM, SEMMA, and KDD"
+  },
+  {
+    "query": "What are the measures used to assess association rules?",
+    "response": "Confidence and leverage"
+  },
+  {
+    "query": "What is the main difference between biological and artificial neural networks?",
+    "response": "Artificial networks use weights to store knowledge"
+  },
+  {
+    "query": "What are the two types of ensembles?",
+    "response": "Homogeneous and heterogeneous"
+  },
+  {
+    "query": "How are multiple neurons grouped together in neural computing?",
+    "response": "By layer"
+  },
+  {
+    "query": "What is the boosting method?",
+    "response": "A method in ensemble modeling"
+  },
+  {
+    "query": "What is the purpose of neural network architectures in optimization problems?",
+    "response": "To optimize a specific function"
+  },
+  {
+    "query": "Are there different neural network architectures for different types of problems?",
+    "response": "Yes"
+  },
+  {
+    "query": "What is the reason for SVM's popularity among machine-learning techniques?",
+    "response": "Their theoretical foundation"
+  },
+  {
+    "query": "What is the difference between a homogeneous and a heterogeneous ensemble?",
+    "response": "If the combined models are of the same type, the ensemble is homogeneous. If not, it is heterogeneous."
+  },
+  {
+    "query": "What are ensembles primarily used for?",
+    "response": "Prediction modeling"
+  },
+  {
+    "query": "What is the word2vec project?",
+    "response": "A method for text mining that uses CNN-type deep learning"
+  },
+  {
+    "query": "What is the most general type of deep networks?",
+    "response": "MLP deep networks"
+  },
+  {
+    "query": "What has contributed to the recent popularity of deep learning?",
+    "response": "Very large data sets and rapidly advancing computing infrastructures"
+  },
+  {
+    "query": "What is the structure of an MLP-type neural network?",
+    "response": "An input layer, an output layer, and a number of hidden layers"
+  },
+  {
+    "query": "What problem does the convolution function address in CNNs?",
+    "response": "The issue of having too many network weight parameters"
+  },
+  {
+    "query": "What do artificial neural networks emulate?",
+    "response": "The way the human brain works"
+  },
+  {
+    "query": "What are the advantages of deep learning?",
+    "response": "All of the answers are correct"
+  },
+  {
+    "query": "In a neural network, where is knowledge stored?",
+    "response": "In the weights associated with connections between neurons"
+  },
+  {
+    "query": "What is the main application of CNNs?",
+    "response": "Image processing"
+  },
+  {
+    "query": "What is SentiWordNet?",
+    "response": "An extension of WordNet for sentiment identification"
+  },
+  {
+    "query": "What is web usage mining?",
+    "response": "The development of useful information through analyzing web server logs"
+  },
+  {
+    "query": "What is SEO?",
+    "response": "The intentional activity of affecting the visibility of a website in a search engine's natural results"
+  },
+  {
+    "query": "What is VOM?",
+    "response": "An analysis of aggregate opinions and trends at the market level"
+  },
+  {
+    "query": "What is WordNet?",
+    "response": "A popular general-purpose lexicon created at Princeton University"
+  },
+  {
+    "query": "How is the big data vendor landscape developing?",
+    "response": "It is developing very rapidly"
+  },
+  {
+    "query": "What is the advantage of using cloud computing?",
+    "response": "It is more scalable"
+  },
+  {
+    "query": "What is the main benefit of cloud-computing-based analytic services?",
+    "response": "It offers the latest technologies without significant upfront investment"
+  },
+  {
+    "query": "What is the disadvantage of using cloud computing?",
+    "response": "It is more expensive"
+  },
+  {
+    "query": "What is the purpose of stream analytics?",
+    "response": "To capture, track, and analyze streams of data to detect certain events"
+  },
+  {
+    "query": "What is MapReduce?",
+    "response": "A technique to distribute the processing of very large multi-structured data files across a large cluster of machines"
+  },
+  {
+    "query": "What is the purpose of using location information to find other people with similar interests?",
+    "response": "To enable users to find other people with similar interests"
+  },
+  {
+    "query": "What is the biggest challenge facing the use of self-driving cars?",
+    "response": "Legal doctrines"
+  },
+  {
+    "query": "What are the common components found in all robots?",
+    "response": "Power unit, sensors, manipulator/effector, logic unit/CPU, and location sensor/GPS"
+  },
+  {
+    "query": "How will robots and AI impact the job market?",
+    "response": "Some jobs will be lost, but new ones will emerge."
+  },
+  {
+    "query": "What is the difference between the first wave of robots and the current ones?",
+    "response": "The current robots are more autonomous and versatile."
+  },
+  {
+    "query": "What is the function of the manipulator/effector component in robots?",
+    "response": "To perform tasks such as picking up objects or manipulating tools"
+  },
+  {
+    "query": "What are the major components of expert systems?",
+    "response": "Knowledge acquisition, knowledge representation, knowledge base, user interface, and interface engine"
+  },
+  {
+    "query": "What is a robo advisor?",
+    "response": "A kind of virtual personal assistant that provides personalized advice to investors"
+  },
+  {
+    "query": "For whom are VPAs created as \"native\" products?",
+    "response": "The masses"
+  },
+  {
+    "query": "What are some benefits of using chatbots for organizations?",
+    "response": "They provide a 24/7 link with customers and/or business partners, and are consistent in what they say."
+  },
+  {
+    "query": "What is the purpose of the interface engine component in expert systems?",
+    "response": "To generate answers to users' questions"
+  },
+  {
+    "query": "What do robo advisors provide?",
+    "response": "Personalized online investment advice at a much lower cost than human advisors"
+  },
+  {
+    "query": "What kind of dialog is usually used to disseminate knowledge to virtual personal assistants?",
+    "response": "A Q&A dialog"
+  },
+  {
+    "query": "What technologies are used by recommenders to provide personalized recommendations?",
+    "response": "AI and ML"
+  },
+  {
+    "query": "Which messaging systems do chatbots work well with?",
+    "response": "Facebook Messenger and WeChat"
+  },
+  {
+    "query": "What are the major areas covered by smart city projects?",
+    "response": "Healthcare and education"
+  },
+  {
+    "query": "What can sensors collect data from?",
+    "response": "A large number of things"
   }
 ]
