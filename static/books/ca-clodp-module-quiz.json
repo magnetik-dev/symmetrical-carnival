@@ -4643,6 +4643,8 @@
   {
     "query": "A server administrator is creating a script to image new machines. After installing an image, which of the following is the best next step?",
     "response": "Install vendor specific drivers."
+  },
+  {
     "query": "You are designing a serverless application for a real-time data processing system. The system needs to process incoming data streams and then aggregate the results for further analysis. You want to ensure that the processing is done as quickly as possible. Which design pattern should you use?",
     "response": "Fan-out/Fan-in"
   },
