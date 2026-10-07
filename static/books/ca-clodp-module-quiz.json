@@ -4477,6 +4477,172 @@
     "response": "Voice over Internet Protocol"
   },
   {
+    "query": "A city is planning to implement a smart environmental monitoring system to improve air quality and public health. The system will use various sensors to collect data on environmental conditions across different neighborhoods. As the project manager, you need to decide which type of sensor is most appropriate for measuring the concentration of pollutants in the air.\nWhich sensor should you choose?",
+    "response": "Air Quality Sensor"
+  },
+  {
+    "query": "An engineer resolves an issue where a single cloud resource was not available to end users.\nFor what reason does the engineer then document a root cause analysis?",
+    "response": "To evaluate why the problem occurred"
+  },
+  {
+    "query": "A security company is developing a new surveillance system for monitoring public spaces. The system needs to automatically identify and classify objects and people in real-time video feeds to enhance security measures and alert authorities to potential threats.\nWhich AI technology would be most appropriate for this task?",
+    "response": "Visual recognition"
+  },
+  {
+    "query": "A company that makes heavy use of cloud Software as a Service (SaaS) services is acquired by a larger company in a corporate merger and must migrate to a new cloud service as a stipulation of the acquisition. The manual migration and subsequent integration of the two platforms are not without issue, however, and an extensive troubleshooting investigation is initiated. Propose investigative steps for investigating the cause of migration issues.",
+    "response": "Check if proprietary services, applications, or data formats are embedded in the migration. Check if cloud-to-cloud migration is supported for the SaaS applications. All steps of manual migration have been completed."
+  },
+  {
+    "query": "How do service consumers typically locate service providers in a service discovery model?",
+    "response": "By querying a service registry"
+  },
+  {
+    "query": "A cloud administrator receives alerts that compute capacity suddenly spiked to 99% utilization across the company’s cloud environment. A review of the performance baseline shows that utilization of processors is normally around 50% of capacity. The administrator consults with department heads and learns that workload continues at a steady pace. Which aspect of trend analysis does the spike in processor utilization represent?",
+    "response": "Anomalies"
+  },
+  {
+    "query": "A server administrator is troubleshooting instance performance issues.\n\nWhat should the administrator check? (Select all that apply.)",
+    "response": "Correct templates, Oversubscription of compute resources, Compute configurations"
+  },
+  {
+    "query": "Your organization is considering migrating its database to a new cloud service provider (CSP).\nTo avoid vendor lock-in, which of the following actions should you take during the migration process?",
+    "response": "Ensure that the database is stored in an open, widely-used format."
+  },
+  {
+    "query": "A burgeoning cloud services provider (CSP) is exploring options to provide optimization and failover for their new cloud virtualization service. The CSP is having problems with the service. When usage is high, many connections fail. Upon investigation, it is discovered that the problem may be related to cache storage running low. Recommend solutions that will effectively correct for this issue. (Select all that apply.)",
+    "response": "Compress cache storage., Enact deduplication policies."
+  },
+  {
+    "query": "A systems architect needs to establish a scalable and cost-effective storage solution.\nWhich of the following would be most appropriate for the architect?",
+    "response": "Object"
+  },
+  {
+    "query": "An IT manager submitted a request to the automation engineer to remove a maintenance task related to the company's web server, scheduled for the following day at 5:00 pm. The next day the web servers went offline a little after 5:00 pm. The automation logs confirm a successful job to the same web servers. What may have caused the servers to go offline?",
+    "response": "Change management failure"
+  },
+  {
+    "query": "You are tasked with optimizing the deployment of a containerized application that requires high availability and efficient resource management. The application consists of multiple microservices that need to be deployed, scaled, and managed automatically.\nWhich solution should you analyze and implement to achieve these requirements?",
+    "response": "Implement container orchestration"
+  },
+  {
+    "query": "You are reviewing the security practices of a junior system administrator who has been tasked with automating server configurations using Bash scripts. You notice that the scripts include hardcoded passwords and are stored in a shared directory accessible by multiple team members.\nWhich of the following issues should you address first to improve the security of the automation process?",
+    "response": "The inclusion of hardcoded passwords in the scripts."
+  },
+  {
+    "query": "Why is Nessus useful across different environments in the vulnerability management process?",
+    "response": "It provides a consistent scanning approach that can be deployed in cloud and virtual machine environments."
+  },
+  {
+    "query": "An IT support team is working together to configure orchestration for a health services organization. They require authentication to access several resources needed for the orchestration, so an Ansible password vault is suggested. Another member of the team interjects that this will cause a consistent delay as the application programming interface (API) accesses resources and is prompted for a password. This problem is made worse by the security policy, which requires repeated authentication. Prescribe an authentication strategy that works around this issue.",
+    "response": "Use dynamically generated public and private key pairs."
+  },
+  {
+    "query": "What tool can a network administrator use to check for possible eavesdropping attacks targeting an on-premises cloud environment?",
+    "response": "Use Wireshark"
+  },
+  {
+    "query": "A security analyst is preparing a document with incident response categories which includes attack categories, incident types, and level of security. What roles does the analyst need to outline? (Select all that apply.)",
+    "response": "HR, Legal, Security"
+  },
+  {
+    "query": "A company is reviewing its security policies to ensure compliance with the principle of least privilege. An employee needs to access the MarketingReports folder to read and edit reports and manage the printer named MarketingPrinter. The employee works Monday through Friday from 9 am to 6 pm.\nWhich of the following scenarios BEST adheres to the principle of least privilege?",
+    "response": "The employee's account is authenticated only during work hours, and they are granted Read and Write permissions to the MarketingReports folder and Manage permission to MarketingPrinter."
+  },
+  {
+    "query": "Which goal of data encryption is concerned with the proof that data exists or was transmitted by the party who created or transmitted the data?",
+    "response": "Non-repudiation"
+  },
+  {
+    "query": "A server manager is reviewing the teams' lifecycle roadmap.\nWhich of the following could be in the roadmap? (Select all that apply.)",
+    "response": "Current applications, Old hardware, New services"
+  },
+  {
+    "query": "An e-commerce website expects a surge in traffic during a flash sale event. To handle this, they want their cloud infrastructure to automatically scale up resources when the CPU utilization exceeds 70%.\nWhich scaling approach should they use?",
+    "response": "Triggered Scaling"
+  },
+  {
+    "query": "A systems administrator evaluates the performance of cloud-based servers. In doing so, a monitoring baseline is set.\nWhat does the administrator accomplish?",
+    "response": "Estimating the performance or stability of a given service or system"
+  },
+  {
+    "query": "Network administrators will proactively identify single points of failure and configure redundancy to mitigate risk. Identify the potential single points of failure on the network infrastructure from among the following options. (Select all that apply.)",
+    "response": "Switch, Firewall, Router"
+  },
+  {
+    "query": "A mid-sized company is expanding into multiple cloud environments but lacks in-house expertise to manage performance, security, and ongoing optimization. Leadership wants to reduce operational complexity while ensuring the cloud infrastructure is efficiently managed. Which action should the company take to best meet these requirements?",
+    "response": "Engage a managed service provider to handle architecture, operations, and ongoing optimization tasks"
+  },
+  {
+    "query": "A university hosts an online registration system that experiences a predictable surge in traffic at the beginning of each semester. The IT team wants cloud resources to automatically increase just before registration opens and decrease afterward without requiring manual intervention. Which scaling approach should the team implement?",
+    "response": "Scheduled scaling"
+  },
+  {
+    "query": "A company has implemented auto-scaling for its cloud application, but notices that additional instances are being launched frequently even when overall resource usage appears low. This behavior is increasing operational costs without improving performance. Which action should the cloud administrator take to resolve this issue?",
+    "response": "Increase the threshold for scaling out so resources are added only when truly needed"
+  },
+  {
+    "query": "A healthcare facility is implementing an IoT system to monitor patients' vital signs in real-time. The system requires a transmission protocol that can handle asynchronous communication and ensure high availability of data, even if some network disruptions occur. As the IoT system designer, you need to choose the most suitable transmission protocol for this application.",
+    "response": "Advanced Message Queuing Protocol (AMQP)"
+  },
+  {
+    "query": "Following a data loss event, which document details how users access the data and services provided by a CSP?",
+    "response": "Network Diagram"
+  },
+  {
+    "query": "A database administrator notices that a cloud-hosted database server is experiencing slow query performance due to increased workload. Instead of adding more servers, the administrator decides to increase the CPU and memory capacity of the existing virtual machine to handle the demand. Which scaling approach is the administrator implementing?",
+    "response": "Vertical scaling"
+  },
+  {
+    "query": "A sysadmin is receiving reports from employees that their cloud email service shows the wrong emails as if they were a different company. The sysadmin reached out to the vendor, who mentioned there was a corrupted database that caused the customer identifiers to get scrambled. The identifier refers to what kind of cloud concept?",
+    "response": "Tenants"
+  },
+  {
+    "query": "What is the primary purpose of encrypting data in transit?",
+    "response": "To mitigate threats to data as it moves across the network."
+  },
+  {
+    "query": "Materials such as charts displaying who to notify during a disaster, decision trees to assist decision making, emergency contacts, and even network diagrams are a part of which business continuity resource?",
+    "response": "Disaster recovery kit"
+  },
+  {
+    "query": "Due to the possibility of hurricanes in the state where their main office is located, a major television network established a \"warm\" recovery site in another region. Interpret the network's rationale for selecting a warm site as their recovery site away from the geographical location of their main site in Florida.",
+    "response": "Balance between cost and migration speed"
+  },
+  {
+    "query": "A sysadmin is setting up a secondary backup server on Microsoft Azure to hold aging snapshots while the primary backup server on-premises holds the latest snapshots. What kind of hard drive type would best fit this secondary backup server, maintaining low costs while sacrificing retrieval speed?",
+    "response": "Long-term cloud storage"
+  },
+  {
+    "query": "Your organization has detected a potential security breach, and you need to restore the data on a production server to a previous state without disrupting the current operations. The goal is to compare the backed-up versions of files against those currently on the server to identify any unauthorized changes. Which bulk recovery option should you choose?",
+    "response": "Side-By-Side/Parallel Restoral"
+  },
+  {
+    "query": "Which of the following is a potential solution to service and application issues in cloud environments?",
+    "response": "Update the software to the current version."
+  },
+  {
+    "query": "Your organization has deployed a new cloud-based service, but users are reporting that they are unable to allocate additional resources to their virtual machines, despite having the necessary permissions. You suspect that service quotas might be the issue. How would you determine whether service quotas are causing the resource allocation issue?",
+    "response": "Check the administrative console for service quota information to identify how the service provider applies the quota."
+  },
+  {
+    "query": "A security technician has drafted up a disaster recovery plan and wants to test the plan through role-playing so that employees understand the steps and have a better understanding of what to do if the scenario arises. Which of the following should they perform?",
+    "response": "Table-top"
+  },
+  {
+    "query": "A sysadmin is contracting with a third-party vendor for document creation and digital signing. The sysadmin received a quote back with a license that allows for 1,000 computer activations. What type of subscription model did the quote best describe?",
+    "response": "Volume-based"
+  },
+  {
+    "query": "Which type of storage media is known for having a good cost-to-capacity ratio and excellent long-term archive ability?",
+    "response": "Tape Media"
+  },
+  {
+    "query": "A consumer is creating security-sensitive data using digital signatures to guarantee the data can not be decrypted. Which of the following keys need to be employed?",
+    "response": "Private key and Public key"
+  },
+  {
+    "query": "A server administrator is creating a script to image new machines. After installing an image, which of the following is the best next step?",
+    "response": "Install vendor specific drivers."
     "query": "You are designing a serverless application for a real-time data processing system. The system needs to process incoming data streams and then aggregate the results for further analysis. You want to ensure that the processing is done as quickly as possible. Which design pattern should you use?",
     "response": "Fan-out/Fan-in"
   },
