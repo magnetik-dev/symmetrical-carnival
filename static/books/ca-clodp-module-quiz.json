@@ -4607,5 +4607,41 @@
   {
     "query": "Due to the possibility of hurricanes in the state where their main office is located, a major television network established a \"warm\" recovery site in another region. Interpret the network's rationale for selecting a warm site as their recovery site away from the geographical location of their main site in Florida.",
     "response": "Balance between cost and migration speed"
+  },
+  {
+    "query": "A sysadmin is setting up a secondary backup server on Microsoft Azure to hold aging snapshots while the primary backup server on-premises holds the latest snapshots. What kind of hard drive type would best fit this secondary backup server, maintaining low costs while sacrificing retrieval speed?",
+    "response": "Long-term cloud storage"
+  },
+  {
+    "query": "Your organization has detected a potential security breach, and you need to restore the data on a production server to a previous state without disrupting the current operations. The goal is to compare the backed-up versions of files against those currently on the server to identify any unauthorized changes. Which bulk recovery option should you choose?",
+    "response": "Side-By-Side/Parallel Restoral"
+  },
+  {
+    "query": "Which of the following is a potential solution to service and application issues in cloud environments?",
+    "response": "Update the software to the current version."
+  },
+  {
+    "query": "Your organization has deployed a new cloud-based service, but users are reporting that they are unable to allocate additional resources to their virtual machines, despite having the necessary permissions. You suspect that service quotas might be the issue. How would you determine whether service quotas are causing the resource allocation issue?",
+    "response": "Check the administrative console for service quota information to identify how the service provider applies the quota."
+  },
+  {
+    "query": "A security technician has drafted up a disaster recovery plan and wants to test the plan through role-playing so that employees understand the steps and have a better understanding of what to do if the scenario arises. Which of the following should they perform?",
+    "response": "Table-top"
+  },
+  {
+    "query": "A sysadmin is contracting with a third-party vendor for document creation and digital signing. The sysadmin received a quote back with a license that allows for 1,000 computer activations. What type of subscription model did the quote best describe?",
+    "response": "Volume-based"
+  },
+  {
+    "query": "Which type of storage media is known for having a good cost-to-capacity ratio and excellent long-term archive ability?",
+    "response": "Tape Media"
+  },
+  {
+    "query": "A consumer is creating security-sensitive data using digital signatures to guarantee the data can not be decrypted. Which of the following keys need to be employed?",
+    "response": "Private key and Public key"
+  },
+  {
+    "query": "A server administrator is creating a script to image new machines. After installing an image, which of the following is the best next step?",
+    "response": "Install vendor specific drivers."
   }
 ]
