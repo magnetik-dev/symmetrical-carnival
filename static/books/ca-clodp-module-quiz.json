@@ -4707,5 +4707,129 @@
   {
     "query": "A control node updates 9 out of 10 managed nodes (or servers) during a recent configuration change but fails on the 10th node. All nodes are joined to the domain and accessible with a service account. Why did the change most likely fail for the 10th node?",
     "response": "Server IP address changed, Server name changed"
+  },
+  {
+    "query": "A company uses AI to identify objects and people in security camera footage. Which AI capability are they MOST likely using?",
+    "response": "Visual recognition"
+  },
+  {
+    "query": "A server administrator is experiencing issues receiving technical support. Which of the following should the administrator check?",
+    "response": "Licensing"
+  },
+  {
+    "query": "A customer service department wants to implement an automated system to read out important notifications and updates to customers over the phone. The system needs to convert written messages into spoken words to ensure that customers receive the information clearly and effectively. Which AI technology would be most appropriate for this task?",
+    "response": "Text-to-voice"
+  },
+  {
+    "query": "Why is the independence of microservices considered an important trait in serverless environments?",
+    "response": "It allows individual services to be updated, deployed, or scaled without impacting other services."
+  },
+  {
+    "query": "A manufacturing company has an old inventory management system that is crucial for its operations. The system is not cloud-ready and has several custom integrations with on-premises hardware. The company plans to migrate most of its applications to the cloud but needs to decide what to do with this critical inventory management system. Which cloud migration strategy should the company choose for this system?",
+    "response": "Retaining"
+  },
+  {
+    "query": "Why might an organization adopt a cloud-first strategy instead of strictly using cloud-native design?",
+    "response": "To allow flexibility in choosing non-cloud solutions when cloud-native design is not suitable."
+  },
+  {
+    "query": "A cloud administrator is attempting to migrate on-premise applications up to the cloud, but the migration is not successful. Which of the following should the administrator check? (Select all that apply.)",
+    "response": "Remote administration enabled, Version compatability, Legacy application"
+  },
+  {
+    "query": "A server administrator is having trouble with vendor service availability. What are some of the things they could troubleshoot? (Select all that apply.)",
+    "response": "SLAs, API Limits"
+  },
+  {
+    "query": "An organization is evaluating different vendors for their new hyperconverged infrastructure deployment. They need a solution that supports hybrid cloud environments and integrates well with their existing VMware vSphere setup. Which vendor should the organization consider and why?",
+    "response": "VMware, because it offers an HCI hybrid cloud solution that works with vSphere."
+  },
+  {
+    "query": "A company is replacing an old file server that used the /etc/exports to list what directories it should share. They are moving to a new Windows-based file server. What type of file system was the old file server most likely using?",
+    "response": "Network file system"
+  },
+  {
+    "query": "Given a scenario where a cloud-based application is experiencing slow performance, which of the following would be the most effective first step to evaluate if the issue is due to CPU over-utilization?",
+    "response": "Check the cloud management console for high CPU utilization reports"
+  },
+  {
+    "query": "A Linux administrator is configuring a cloud-based Redundant Array of Independent Disks (RAIDs) by connecting the disks to virtual machines managed by the data center. Which method would the administrator most likely use to set up and manage the cloud storage?",
+    "response": "LVM"
+  },
+  {
+    "query": "A security technician is going through a compliance audit and is trying to harden security at the network layer level. Which of the following will help the technician to accomplish this? (Select all that apply.)",
+    "response": "Disable unnecessary ports, DDoS, Disable weak protocols"
+  },
+  {
+    "query": "Which of the following BEST describes a vulnerability in the context of cybersecurity?",
+    "response": "A weakness in an operating system, application, service, or configuration that can be exploited by malicious actors."
+  },
+  {
+    "query": "A company has noticed a sudden increase in network activity and wants to determine if this is due to unauthorized access. Which aspect of cloud event monitoring should they focus on to investigate this issue?",
+    "response": "Analyzing user account activity"
+  },
+  {
+    "query": "A cloud administrator uses Amazon Inspector to review EC2 instances for vulnerabilities. How does this tool contribute to the vulnerability management process?",
+    "response": "It scans instances using predefined rules to detect security issues and network exposure."
+  },
+  {
+    "query": "Why might an organization choose to integrate third-party vulnerability scanners into its vulnerability management process?",
+    "response": "To centralize and standardize vulnerability scanning results across cloud and on-premises environments."
+  },
+  {
+    "query": "A systems technician is troubleshooting access to web resources. Which of the following should the technician look at for troubleshooting? (Select all that apply.)",
+    "response": "Web proxies, Allow list, Block list"
+  },
+  {
+    "query": "You are the IT manager at a healthcare organization. Your team is responsible for managing patient records, which include sensitive personal and medical information. Recently, your organization has entered into a partnership with a third-party billing company. This company will have access to patient records to process billing information. What is the most appropriate action you should take to ensure compliance with data retention policies?",
+    "response": "Ensure the third-party billing company adheres to your organization's data retention policies."
+  },
+  {
+    "query": "A technician is updating a series of virtualized applications that serve critical business functions. The technician has scheduled the updates to take place during low usage hours as the applications will become briefly unavailable. What is the most likely reason the technician has arranged the updates this way?",
+    "response": "The hypervisors require a restart."
+  },
+  {
+    "query": "Your company, a multinational corporation, is planning to store customer data in the cloud. You need to ensure compliance with various international data privacy laws. Which of the following actions should you prioritize to analyze and address data residency requirements?",
+    "response": "Identify the geographical locations where customer data will be stored and research the data residency laws of those regions."
+  },
+  {
+    "query": "Your organization uses Microsoft Azure for cloud services, and you are tasked with implementing a data classification system. You need to ensure that highly sensitive information is properly labeled and protected. Which Microsoft Azure tool should you use to classify and protect highly confidential data?",
+    "response": "Azure Information Protection"
+  },
+  {
+    "query": "An organization experiences a security breach where sensitive customer data is exfiltrated. The IT team discovers that the malware used in the attack was installed through a seemingly legitimate software update. Once installed, the malware collected data and transmitted it to an external server. The malware did not cause any dubious performance issues or alert the users to its presence. Which type of malware is most likely responsible for this data breach?",
+    "response": "Trojan"
+  },
+  {
+    "query": "A company would like to reduce the use of telephone lines to facilitate its real-time communications for both internal meetings and client interactions. Which of the following would be the best solution for the company to implement?",
+    "response": "VoIP"
+  },
+  {
+    "query": "A company is experiencing frequent outages with its current cloud service provider, which is affecting its e-commerce website's availability. The IT team is considering a multi-cloud strategy. Which of the following actions would BEST address the company's issue?",
+    "response": "Redundantly hosting the e-commerce website across multiple cloud service providers."
+  },
+  {
+    "query": "You are an IT manager at a company that recently implemented a new enterprise backup application. You need to set up a backup schedule for user data, configuration files, and database data. Which backup schedule should you implement for user data?",
+    "response": "Backup user data every 24 hours."
+  },
+  {
+    "query": "A company runs a medical telecommunications service that is extremely critical to maintain uptime. In the event the service goes down, it could cause negative issues for client patients. What cloud concepts would help a company limit downtime to their cloud application in the event one location goes down? (Select all that apply.)",
+    "response": "Backup Replication, Availability zone replication"
+  },
+  {
+    "query": "A technician is testing new software applications. Two of the applications require significantly more computing power. What is the most effective way for the technician to test these applications from a single workstation?",
+    "response": "Separate the applications into different containers"
+  },
+  {
+    "query": "A sysadmin is running into an issue where the file server is filling up much faster than expected. The sysadmin suspects there is identical content saved in multiple places, which is wasting space. What should the sysadmin run on the file server?",
+    "response": "Deduplication"
+  },
+  {
+    "query": "Which of the following represents the most commonly-used performance metric regarding computing processes?",
+    "response": "IPC"
+  },
+  {
+    "query": "According to the 3-2-1 rule, why is at least one copy kept off-site?",
+    "response": "To keep it safe from on-site disasters"
   }
 ]

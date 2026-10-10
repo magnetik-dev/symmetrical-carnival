@@ -308,10 +308,6 @@
     "response": "Implement a NAT configuration specific to the VPN solution."
   },
   {
-    "query": "A network technician would like to configure a series of virtual machines that possess the highest possible speed and efficiency. \nWhat controlling device should the technician install to manage this high-speed virtualization?",
-    "response": "Type 1 hypervisor"
-  },
-  {
     "query": "A cloud technician has constructed and hardened an image but needs to make incremental changes and frequently push due to a highly dynamic development environment. \nWhat stage of the build is the image at?",
     "response": "Canary"
   },
@@ -326,10 +322,6 @@
   {
     "query": "In preparation for patching the operating systems on a cloud network, the administrator double-checked to make sure the correct patch was queued for the operating system, that it was the correct version, and that it tested successfully in the test environment. However, the patch still failed to install in production. \nWhat are some reasons why the patch installation may have failed? (Select two.)",
     "response": "* The administrator failed to disable antivirus during the patching process.\n* The administrator failed to ensure that there was sufficient drive space available for the patch process."
-  },
-  {
-    "query": "You are configuring a Linux web server that will be managed via Secure Shell (SSH). To enhance security, you need to configure the firewall to allow only the necessary ports for web traffic and SSH access. \nWhich of the following firewall configurations should you apply?",
-    "response": "Allow ports 22/tcp, 80/tcp, and 443/tcp; block all others."
   },
   {
     "query": "Which of the following include tasks that are widely considered most commonly used with automation?",
@@ -412,10 +404,6 @@
     "response": "They ensure that virtual machine deployments are consistent, repeatable, and scalable."
   },
   {
-    "query": "A network engineer needs to verify that all devices on a specific subnet are recognized and that no rogue devices are present.",
-    "response": "Nmap, by scanning the subnet for devices and services"
-  },
-  {
     "query": "Engineers implement a redundant array of independent disks (RAID) in all production physical cloud servers after experiencing a disaster recovery issue. When considering the troubleshooting methodology, which step are the engineers following during this implementation?",
     "response": "Implement the solution"
   },
@@ -434,10 +422,6 @@
   {
     "query": "A technician is configuring workstations for a small team of data analysts that use graphically and computationally powerful analysis programs. To best optimize the constant workload, which of the following would be the best technique to maximize the ability of the workstations to handle several of these tasks?",
     "response": "Enable GPU offloading"
-  },
-  {
-    "query": "A cloud technician has constructed and hardened an image but needs to make incremental changes and frequently push due to a highly dynamic development environment. What stage of the build is the image at?",
-    "response": "Canary"
   },
   {
     "query": "A company has an application hosted in a single data center in North America. They are considering migrating to the cloud to improve service availability. Analyze the following scenarios and determine which one best illustrates the benefit of cloud migration for global service availability.",
