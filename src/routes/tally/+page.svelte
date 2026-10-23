@@ -147,14 +147,17 @@
 					</div>
 				</section>
 
-				<section class="box has-background-dark is-shadowless" aria-label="Time entries">
+				<section
+					class="box has-background-dark is-shadowless tally-rows"
+					aria-label="Time entries"
+				>
 					{#each entries as entry, index (days[index])}
 						<div
-							class={["columns is-mobile is-vcentered mb-0 tally-row", { "has-entry": hasEntry(entry) }]}
+							class={["tally-row", { "has-entry": hasEntry(entry) }]}
 						>
-							<div class="column has-text-weight-medium">{days[index]}</div>
-							<div class="column is-narrow">
-								<div class="field has-addons mb-0">
+							<div class="tally-day has-text-weight-medium">{days[index]}</div>
+							<div>
+								<div class="field has-addons m-0 p-0">
 									<div class="control">
 										<input
 											id={`h${index}`}
@@ -179,8 +182,8 @@
 									</div>
 								</div>
 							</div>
-							<div class="column is-narrow px-1 has-text-grey">:</div>
-							<div class="column is-narrow pl-0">
+							<div class="tally-colon has-text-grey">:</div>
+							<div>
 								<div class="field has-addons mb-0">
 									<div class="control">
 										<input
@@ -207,9 +210,6 @@
 								</div>
 							</div>
 						</div>
-						{#if index < entries.length - 1}
-							<hr class="my-2" />
-						{/if}
 					{/each}
 				</section>
 
@@ -236,7 +236,46 @@
 </section>
 
 <style>
+	.tally-rows {
+		padding: 0;
+		border: 1px solid var(--app-line);
+		border-radius: 14px;
+		overflow: hidden;
+	}
+
+	.tally-row {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto auto auto;
+		align-items: center;
+		gap: 6px;
+		margin: 0;
+		padding: 10px 16px;
+		border-top: 1px solid var(--app-line);
+	}
+
+	.tally-row:first-child {
+		border-top: 0;
+	}
+
+	.tally-day {
+		min-width: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.tally-colon {
+		padding-inline: 0.25rem;
+	}
+
 	.tally-row.has-entry {
-		background: linear-gradient(90deg, rgba(15, 125, 116, 0.2), transparent 82%);
+		background: linear-gradient(90deg, var(--app-accent-soft), transparent 70%);
+	}
+
+	@media (max-width: 420px) {
+		.tally-row {
+			gap: 8px;
+			padding: 8px 12px;
+		}
 	}
 </style>
