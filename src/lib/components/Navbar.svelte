@@ -21,7 +21,7 @@
 			</a>
 
 			<button
-				class={["navbar-burger", { "is-active": isActive }]}
+				class={["navbar-burger has-text-primary", { "is-active": isActive }]}
 				type="button"
 				aria-label={isActive ? "Close navigation menu" : "Open navigation menu"}
 				aria-expanded={isActive}
