@@ -38,16 +38,16 @@
 		<div class={["navbar-menu", { "is-active": isActive }]} id="main-navbar-menu">
 			<div class="navbar-start">
 				{#if user}
-					<a class="navbar-item has-text-weight-semibold" href="/dashboard" onclick={closeMenu}>
+					<a class="navbar-item " href="/dashboard" onclick={closeMenu}>
 						<span>Dashboard</span>
 					</a>
-					<a class="navbar-item has-text-weight-semibold" href="/quiz" onclick={closeMenu}>
+					<a class="navbar-item " href="/quiz" onclick={closeMenu}>
 						<span>Quiz</span>
 					</a>
-					<a class="navbar-item has-text-weight-semibold" href="/generator" onclick={closeMenu}>
+					<a class="navbar-item " href="/generator" onclick={closeMenu}>
 						<span>Generator</span>
 					</a>
-					<a class="navbar-item has-text-weight-semibold" href="/tally" onclick={closeMenu}>
+					<a class="navbar-item " href="/tally" onclick={closeMenu}>
 						<span>Tally</span>
 					</a>
 				{/if}

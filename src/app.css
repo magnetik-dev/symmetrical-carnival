@@ -1,0 +1,46 @@
+:root {
+  --app-bg: #eef1f3;
+  --app-surface: #ffffff;
+  --app-fg: #16202a;
+  --app-line: #d5dce2;
+  --app-accent-soft: #dcefec;
+  --app-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --app-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --app-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+
+.theme-dark {
+  --app-bg: #0f1519;
+  --app-surface: #172028;
+  --app-fg: #e6ecf0;
+  --app-line: #2a3640;
+  --app-accent-soft: #163a37;
+  color-scheme: dark;
+}
+
+body {
+  background: var(--app-bg);
+  color: var(--app-fg);
+  font-family: var(--app-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title,
+.subtitle {
+  font-family: var(--app-display);
+}
+
+code,
+pre,
+.is-family-monospace {
+  font-family: var(--app-mono);
+}
+
+.box.has-background-dark {
+  background-color: var(--app-surface) !important;
+}
