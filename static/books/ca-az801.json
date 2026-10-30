@@ -1,0 +1,122 @@
+[
+  {
+    "query": "Which Exploit protection mitigation needs to be enabled if you want to prevent executable code from being run from data-only memory pages?",
+    "response": "Data Execution Prevention (DEP)"
+  },
+  {
+    "query": "App Install Control is a feature of Windows Defender SmartScreen that helps protect computers. Once enabled, which of the following describes a user's ability to install apps?",
+    "response": "Apps can only be installed from the Microsoft Store."
+  },
+  {
+    "query": "Which of the following determines the reputation of an app by which WDAC rules can be defined?",
+    "response": "Intelligent Security Graph"
+  },
+  {
+    "query": "What does Application Control use to lock down systems so only certain apps can run?",
+    "response": "Code integrity policies"
+  },
+  {
+    "query": "What type of security ticket is used to establish the session with servers in an AD DS network?",
+    "response": "Kerberos"
+  },
+  {
+    "query": "What is the purpose of Credential Guard?",
+    "response": "To prevent attackers from stealing credentials"
+  },
+  {
+    "query": "You have just deployed a new Windows Server 2022 domain controller and want to configure it to apply application allowlisting. Which of the following should be enabled?",
+    "response": "Device Guard"
+  },
+  {
+    "query": "You suspect that sensitive information has been leaked. Which audit logs could you review to track who opened a file containing the sensitive data?",
+    "response": "Object Access"
+  },
+  {
+    "query": "Which UAC level is recommended as the most secure configuration option because it will always provide a standard user the option to log in as an administrator?",
+    "response": "Always notify"
+  },
+  {
+    "query": "If a standard user tries to perform an administrative task, they will be prompted to enter administrative credentials. Which security option is responsible for this prompting?",
+    "response": "User Account Control"
+  },
+  {
+    "query": "You have several servers running Windows Server 2022 and a corporate domain controller. Which of the following is part of a strategy to manage user credential exposure using non-configurable protections?",
+    "response": "Protected Users security group"
+  },
+  {
+    "query": "When configuring a GPO linked to a domain, which policy configuration setting would you use to control the following? - Password settings - Account lockout settings - Kerberos settings",
+    "response": "Account Policies"
+  },
+  {
+    "query": "Which of the following is a valid Azure AD password?",
+    "response": "My Password"
+  },
+  {
+    "query": "Which of the following includes the Policy Analyzer?",
+    "response": "Security Compliance Toolkit (SCT)"
+  },
+  {
+    "query": "Which group is the\u00a0Allow log on locally\u00a0right assigned to by default for workstations and member servers?",
+    "response": "Administrators"
+  },
+  {
+    "query": "You are the administrator of several branch offices. The locations are not large enough to provide adequate physical security for a local domain controller. You plan to deploy Read-only domain controllers (RODCs). Which of the following would facilitate faster logins for the branch staff?",
+    "response": "Enable credential caching."
+  },
+  {
+    "query": "You are the administrator for 122 Azure Windows virtual machines and 14 Azure Arc-enabled Windows servers. To ensure your server resources are secure, Microsoft Defender for Cloud uses the Azure Monitor Agent (AMA) to send information about the servers to Defender for Cloud. Which of the following can be enabled to deploy the agent to your servers without disruption?",
+    "response": "Defender for Server"
+  },
+  {
+    "query": "Microsoft Sentinel is an enterprise cloud solution that utilizes SIEM and SOAR systems with Azure services and on-premise environments. Which of the following Sentinel features can integrate non-Microsoft solutions such as Syslog and Common Event Format (CEF) and third-party services such as Amazon Web Services and Google Workspaces?",
+    "response": "Sentinel data connectors"
+  },
+  {
+    "query": "Which of the following allows a Windows Server with TPM enabled and a pre-boot network connection to automatically unlock a BitLocker-encrypted operating system volume without user intervention?",
+    "response": "Network Unlock"
+  },
+  {
+    "query": "You have deployed client-side encryption for your on-premises Windows servers. Where are encryption keys stored in client-side encryption?",
+    "response": "Locally"
+  },
+  {
+    "query": "You have installed a new Windows 11 system and have not changed the default configuration of the Windows Firewall. How will the Windows Firewall handle inbound traffic initiated from an external server that a hacker is using to spread a worm?",
+    "response": "All such traffic is blocked by default."
+  },
+  {
+    "query": "In an enterprise environment, which of the following tools is used to manage keys, automate encryption, and check compliance for BitLocker?",
+    "response": "Microsoft BitLocker Administration and Monitoring (MBAM)"
+  },
+  {
+    "query": "Why should failover clusters always have an odd number of quorum members?",
+    "response": "To prevent deadlocks and cluster shutdowns."
+  },
+  {
+    "query": "An important aspect of managing failover clusters is upgrading their OS as needed. Which of the following should you check before upgrading the OS to ensure the nodes run optimally?",
+    "response": "The functional level."
+  },
+  {
+    "query": "Which of the following quorum witness types uses blob storage accessible by all cluster nodes to maintain clustering information?",
+    "response": "Cloud witness"
+  },
+  {
+    "query": "A company has deployed a new cluster configuration using Microsoft Failover Cluster Management. They want to ensure the configuration is ready for production use, so they run the validation tool. The validation tool reports that one of the disks attached to the cluster is not recommended for use with clustering. Which of the following actions should the company take in response to this validation result?",
+    "response": "Replace the disk with a recommended disk and rerun the validation tool."
+  },
+  {
+    "query": "What is the primary purpose of a quorum in a failover cluster?",
+    "response": "To cast votes on which server should take over the primary role during failover."
+  },
+  {
+    "query": "When implementing Storage Spaces Direct to provide network-attached storage through SMB3 file shares, which resiliency option should be used?",
+    "response": "Converged deployment"
+  },
+  {
+    "query": "Cluster-Aware Updating (CAU) offers some advanced configuration options you can set up. Which of the following updating run options are available?",
+    "response": "PreUpdateScript"
+  },
+  {
+    "query": "The following PowerShell cmdlet lets you check for a SBM Multichannel connection:",
+    "response": "Get-SmbConnection"
+  }
+]
