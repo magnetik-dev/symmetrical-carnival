@@ -1,82 +1,94 @@
 <script lang="ts">
-    import type { User } from '@supabase/supabase-js';
-    
-    let { user, profile } = $props<{ user: User | null, profile: App.Profile | null }>();
-    let isActive = $state(false);
+	import type { User } from "@supabase/supabase-js";
 
-    function toggleMenu() {
-        isActive = !isActive;
-    }
+	let { user, profile } = $props<{ user: User | null; profile: App.Profile | null }>();
+	let isActive = $state(false);
 
+	function closeMenu() {
+		isActive = false;
+	}
 </script>
 
-<nav class="navbar is-dark" aria-label="main navigation">
-    <div class="container">
-        <div class="navbar-brand">
-            <a class="navbar-item is-size-2 is-size-4-mobile title mb-0" href="/">
-                Symmetrical Carnival
-            </a>
+<nav class="navbar is-dark has-shadow" aria-label="Main navigation">
+	<div class="container">
+		<div class="navbar-brand">
+			<a
+				class="navbar-item is-size-4 is-size-5-mobile has-text-weight-bold has-text-primary"
+				href="/"
+				onclick={closeMenu}
+			>
+				Symmetrical Carnival
+			</a>
 
-            <button 
-                class="navbar-burger has-text-primary {isActive ? 'is-active' : ''}" 
-                aria-label="menu" 
-                aria-expanded="false" 
-                onclick={toggleMenu}
-            >
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </button>
-        </div>
+			<button
+				class={["navbar-burger", { "is-active": isActive }]}
+				type="button"
+				aria-label={isActive ? "Close navigation menu" : "Open navigation menu"}
+				aria-expanded={isActive}
+				aria-controls="main-navbar-menu"
+				onclick={() => (isActive = !isActive)}
+			>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</button>
+		</div>
 
-        <div class="navbar-menu {isActive ? 'is-active' : ''}">
-            <div class="navbar-start">
-                {#if user}
-                    <a class="navbar-item is-size-4" href="/dashboard">
-                        Dashboard
-                    </a>
-                    <a class="navbar-item is-size-4" href="/quiz">
-                        Quiz
-                    </a>
-                    <a class="navbar-item is-size-4" href="/generator">
-                        Generator
-                    </a>
-                {/if}
-            </div>
+		<div class={["navbar-menu", { "is-active": isActive }]} id="main-navbar-menu">
+			<div class="navbar-start">
+				{#if user}
+					<a class="navbar-item " href="/dashboard" onclick={closeMenu}>
+						<span>Dashboard</span>
+					</a>
+					<a class="navbar-item " href="/quiz" onclick={closeMenu}>
+						<span>Quiz</span>
+					</a>
+					<a class="navbar-item " href="/generator" onclick={closeMenu}>
+						<span>Generator</span>
+					</a>
+					<a class="navbar-item " href="/tally" onclick={closeMenu}>
+						<span>Tally</span>
+					</a>
+				{/if}
+			</div>
 
-            <div class="navbar-end">
-                <div class="navbar-item">
-                    {#if user}
-                        <div class="dropdown is-hoverable is-right">
-                            <div class="dropdown-trigger">
-                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu" >
-                                    <span>
-                                        <i class="icon is-small fa fa-user"></i>
-                                        {user.email} 
-                                        {#if profile && profile.role}
-                                            <span class="tag is-primary is-light ml-2">{profile.role.toUpperCase()}</span>
-                                        {/if}
-                                        <i class="icon is-small fa fa-chevron-down ml-2"></i>
-                                    </span>
-                                </button>
-                            </div>
-                            <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                                <div class="dropdown-content">
-                                    <div class="dropdown-item">
-                                        <form action="/logout" method="POST">
-                                            <button class="is-borderless is-fullwidth" type="submit">
-                                                <i class="fa fa-sign-out mr-2"></i>
-                                                Logout
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    {/if}
-                </div>
-            </div>
-        </div>
-    </div>
+			{#if user}
+				<div class="navbar-end">
+					<div class="navbar-item">
+						<div class="dropdown is-hoverable is-right">
+							<div class="dropdown-trigger">
+								<button
+									class="button is-dark is-small"
+									type="button"
+									aria-haspopup="true"
+									aria-controls="account-dropdown-menu"
+								>
+									<span class="icon is-small"><i class="fa fa-user" aria-hidden="true"></i></span>
+									<span class="is-hidden-touch">{user.email}</span>
+									<span class="is-hidden-desktop">Account</span>
+									{#if profile?.role}
+										<span class="tag is-primary is-light ml-2">{profile.role.toUpperCase()}</span>
+									{/if}
+									<span class="icon is-small"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+								</button>
+							</div>
+							<div class="dropdown-menu" id="account-dropdown-menu" role="menu">
+								<div class="dropdown-content">
+									<div class="dropdown-item">
+										<form action="/logout" method="POST" class="p-0 m-0">
+											<button class="button is-ghost is-fullwidth has-text-danger" type="submit">
+												<span class="icon"><i class="fa fa-sign-out" aria-hidden="true"></i></span>
+												<span>Logout</span>
+											</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			{/if}
+		</div>
+	</div>
 </nav>

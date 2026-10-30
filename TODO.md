@@ -19,5 +19,5 @@
     - Log in and verify access to the Quiz and Generator tools.
     - Test the "Logout" functionality in the Navbar.
 
-- [ ] **Update Project Documentation**
+- [x] **Update Project Documentation**
     - Update `GEMINI.md` to reflect the new route structure and authentication requirement.

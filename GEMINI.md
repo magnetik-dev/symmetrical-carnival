@@ -11,16 +11,29 @@ This project is a SvelteKit-based web application designed for viewing and gener
 
 ## Project Structure
 - `src/routes/`: Contains the application's pages.
-    - `+page.svelte`: Main viewer for quiz entries. Supports searching and book selection via query parameters.
+    - `+page.svelte`: Login page at `/`; its server actions handle login and signup.
+    - `+page.server.ts`: Redirects authenticated users and handles login/signup form submissions.
+    - `quiz/+page.svelte`: Quiz viewer with search and book selection via query parameters.
+    - `quiz/+page.ts`: Loads the selected quiz JSON file from `/static/books/`.
     - `dashboard/+page.svelte`: Student registry dashboard displaying real-time statistics and a searchable table of student records.
     - `dashboard/+page.server.ts`: Server load function that returns minimal payloads, delegating data fetching to the client-side cache.
     - `generator/+page.svelte`: Utility page for creating new quiz JSON data.
+    - `tally/+page.svelte`: Weekly hours tally that persists entries in browser local storage.
+    - `logout/+page.server.ts`: Signs the current user out and redirects to `/`.
+- `src/hooks.server.ts`: Initializes the Supabase server client, provides user/profile helpers, and guards authenticated routes.
 - `src/lib/`: Shared application libraries and utilities.
     - `state.svelte.ts`: A Svelte 5 reactive cache store (`registryCache`) that handles fetching, flat-mapping, and persisting student registry data.
 - `static/books/`: Directory containing JSON files for various quiz sets.
 - `src/app.d.ts`: Global type definitions, including the `App.Entry` and `App.Profile` interfaces.
 - `DATABASE_SCHEMA.md`: Documentation of the Supabase database schema, tables, types, and relationships.
 - `schema.sql`: SQL definition file reflecting the Supabase database structure (tracked for context).
+
+## Authentication and Route Access
+- The root route (`/`) is the login page. Authenticated users are redirected to `/dashboard` when their profile role is `admin`, and to `/quiz` otherwise.
+- `/quiz`, `/generator`, and `/dashboard` redirect unauthenticated visitors to `/`.
+- The navbar shows the Dashboard, Quiz, Generator, and Tally links when a user is signed in.
+- `/tally` is a standalone static feature and is intentionally accessible without signing in.
+- The server exposes a signup action on the root page, but the signup control is currently commented out in the login UI.
 
 ## Core Conventions
 

@@ -1,5 +1,9 @@
 # Version History
 
+## Symmetrical Carnival 0.5.0, Oct 2026
+ - Refactoring
+ - New tool : Tally
+
 ## Symmetrical Carnival 0.4.0, Sep 2026
  - Data addition
  - Payment and student status display
