@@ -26,12 +26,13 @@
     { value: 'ca-clodp-module-quiz', label: 'CLODP Module Quizes' },
     { value: 'ca-clodp-final', label: 'CLODP Final Exam' },
     { value: 'ca-serpl-quizes-all', label: 'SERPL Quizes' },
-    { value: 'ca-linx', label: 'LINX Exams' },
-    { value: 'inn8', label: 'INN8 Exams'},
-    { value: 'icno', label: 'ICNO Exams'},
+    { value: 'ca-linx', label: 'LINX Quizes' },
+    { value: 'inn8', label: 'INN8 Quizes'},
+    { value: 'icno', label: 'ICNO Quizes'},
     { value: 'icno-quiz', label: 'ICNO Graded Quizes'},
     { value: 'ca-az800-module-quiz', label: 'AZ800 Module Quizes'},
-    { value: 'ca-az800', label: 'AZ800 Exams'}
+    { value: 'ca-az800', label: 'AZ800 Quizes'},
+    { value: 'ca-az801', label: 'AZ801 Quizes'}
   ];
 
   const dataOptions = [
@@ -43,7 +44,8 @@
     { value: 'dt-bda100', label: 'BDA100 Quizes'},
     { value: 'dt-bda200', label: 'BDA200 Quizes'},
     { value: 'dt-bda300', label: 'BDA300 Quizes'},
-    { value: 'dt-bda400', label: 'BDA400 Quizes'}
+    { value: 'dt-bda400', label: 'BDA400 Quizes'},
+    { value: 'dt-bda500', label: 'BDA500 Quizes'}
   ];
   
   const digitalDesignOptions = [

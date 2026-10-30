@@ -2269,7 +2269,7 @@
   },
   {
     "query": "Which of the following are defining benefits of migration to cloud service solutions? (Select all that apply.)",
-    "response": "Scalability, Colocation, Protection against natural disasters"
+    "response": "Scalability, Protection against natural disasters"
   },
   {
     "query": "After testing various metrics regarding disaster recovery, a company has discerned how certain failures might impact availability times. When organizing disaster recovery protocols, what should the company define to help prioritize their recovery processes?",
@@ -4831,5 +4831,101 @@
   {
     "query": "According to the 3-2-1 rule, why is at least one copy kept off-site?",
     "response": "To keep it safe from on-site disasters"
+  },
+  {
+    "query": "A company is determined to cut costs by setting up remote access workstations for some of its non-traveling staff. They contracted a cloud vendor for this service to make deployment easier and more centralized. What kind of cloud service did the company set up?",
+    "response": "Virtual desktop infrastructure"
+  },
+  {
+    "query": "Why are gateways important in IoT environments with many different types of devices?",
+    "response": "They ensure compatibility by converting different communication protocols into formats usable by cloud services"
+  },
+  {
+    "query": "What is the relationship between IoT devices and cloud services in a typical architecture?",
+    "response": "IoT devices generate data, and cloud services process and use that data"
+  },
+  {
+    "query": "A laptop containing a private key for access to sensitive data has been lost by an employee with a high security clearance. Choose the verb which describes the current state of the certificate.",
+    "response": "Compromised"
+  },
+  {
+    "query": "A company just finished signing a contract with a cloud service provider ensuring uptime. They were sold on the ability not to need to focus on equipment and the access to multiple interconnections with other services. What category of business requirement have they NOT focused on yet?",
+    "response": "Software"
+  },
+  {
+    "query": "A company has tasked a systems administrator with configuring cloud servers for a business unit. Some servers remain as backups, however, and they must be able to handle the workload of active servers in the event of a failure. Which configuration would make the most sense in this situation?",
+    "response": "Active-passive"
+  },
+  {
+    "query": "Why is a fan-out/fan-in design pattern useful in processing workloads?",
+    "response": "It allows multiple functions to execute concurrently, improving processing speed before combining results."
+  },
+  {
+    "query": "Which of the following actions should you prioritize to ensure compliance with data sovereignty and residency requirements during the cloud migration?",
+    "response": "Verify that the cloud service provider complies with the local data storage regulations of each country where your company operates."
+  },
+  {
+    "query": "An application developer would like to work on new versions for a recent gaming app release. To streamline operations, the developer will use a separate virtual machine (VM) from their primary VM due to better sound and graphics quality. Which of the following options would facilitate better performance while remaining at a relatively cheap price?",
+    "response": "Shared vGPU"
+  },
+  {
+    "query": "A company is planning to launch a new online service that requires high availability to meet customer expectations. They are considering different strategies to ensure that their service remains accessible even during unexpected outages. Which strategy should the company apply to achieve high availability for their online service?",
+    "response": "Implementing cloud services with redundancy and scalability"
+  },
+  {
+    "query": "A systems technician is further hardening organizational assets by implementing Mandatory Access Control (MAC) on Linux assets. Which of the following could the technician use to accomplish this? (Select all that apply.)",
+    "response": "AppArmor, SELinux"
+  },
+  {
+    "query": "An IT manager is reviewing cloud service providers but has heard stories from fellow administrators about costs being too high to switch cloud service providers (CSPs). The company will test multiple CSPs but will settle on one provider for easier management and billing. What risk is the IT manager most worried about when creating a test plan with these different providers?",
+    "response": "Vendor Lock-in"
+  },
+  {
+    "query": "Which of the following is a regulatory requirement that businesses must consider for maintaining compliance with cloud deployment?",
+    "response": "HIPAA"
+  },
+  {
+    "query": "An intern at a public library is apprenticing with the network administrator of the library as the administrator prepares to retire. The intern is experimenting with router settings and after setting the maximum transfer unit (MTU) size higher, reports of network performance issues begin coming in. Choose the reasons for raising the MTU too high may reduce network efficiency and performance. (Select all that apply.)",
+    "response": "Packet retransmission due to errors, Network devices incompatible with large packets"
+  },
+  {
+    "query": "What is the difference between direct migrations and cross-service migrations as managed by the AWS Database Migration Service?",
+    "response": "Direct migrations involve moving database contents within the same database design, while cross-service migrations involve data conversions between two different database engines."
+  },
+  {
+    "query": "A security technician is analyzing certificate-based authentication for enhanced security. Which of the following technologies support certificate-based authentication?",
+    "response": "Network access, Remote access, ID badges"
+  },
+  {
+    "query": "A systems administrator is in the process of setting up logging. What are some of the common tools they should use? (Select all that apply.)",
+    "response": "Event Viewer, rsyslog"
+  },
+  {
+    "query": "A client laptop in an organization has been identified as having become infected through a phishing campaign. What should the security administrator recommend doing? (Select all that apply.)",
+    "response": "Notify users, Reimage the workstation, update antivirus definitions"
+  },
+  {
+    "query": "Why are credentialed scans generally more effective than non-credentialed scans in vulnerability management?",
+    "response": "They provide deeper visibility into system configurations and installed software"
+  },
+  {
+    "query": "An organization is experiencing delays when employees access cloud services from home offices. The cloud administrator suspects high network latency. Which of the following actions should the administrator take to reduce latency?",
+    "response": "Optimize the Maximum Transmission Unit (MTU) settings."
+  },
+  {
+    "query": "A user files a report regarding access to a cloud resource using HTTPS. The user reports receiving an error message with response status code 429. Interpret the possible meaning of the response status code.",
+    "response": "The user sent too many requests and exceeded rate limits."
+  },
+  {
+    "query": "A university's online registration system experiences a predictable surge in traffic at the beginning of each semester. They want to ensure their cloud resources automatically scale up during these periods. Which scaling approach should they use?",
+    "response": "Scheduled Scaling"
+  },
+  {
+    "query": "A rapidly growing e-commerce website is experiencing frequent traffic spikes during promotional events, causing slow response times and occasional downtime. As a cloud administrator, you need to ensure the website can handle these traffic spikes effectively without compromising performance. Which scaling strategy should you implement to address this issue?",
+    "response": "Horizontal Scaling"
+  },
+  {
+    "query": "A cloud administrator is managing a web application that is experiencing increasing traffic as the user base grows. To maintain performance and ensure high availability, the administrator decides to distribute the workload across multiple servers instead of upgrading a single server. Which scaling approach should the administrator implement?",
+    "response": "Horizontal scaling"
   }
 ]

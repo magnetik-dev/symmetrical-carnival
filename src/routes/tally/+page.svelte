@@ -2,11 +2,13 @@
 
 <script lang="ts">
 	import { onMount } from "svelte";
-
-	type Entry = {
-		hours: string;
-		minutes: string;
-	};
+	import {
+		hasTallyEntry,
+		readStoredTallyValue,
+		readTallyValue,
+		summarizeTally,
+		type TallyEntry
+	} from "$lib/tally";
 
 	type StoredEntry = {
 		h?: unknown;
@@ -16,43 +18,12 @@
 	const days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 	const storageKey = "hours-tally-v1";
 
-	let entries = $state<Entry[]>(days.map(() => ({ hours: "", minutes: "" })));
+	let entries = $state<TallyEntry[]>(days.map(() => ({ hours: "", minutes: "" })));
 	let savedAt = $state("");
 	let storageBlocked = $state(false);
 	let restoreWarning = $state(false);
 
-	function readValue(value: string) {
-		const trimmed = value.trim();
-		if (trimmed === "") return { value: 0, valid: true };
-
-		const parsed = Number(trimmed);
-		const valid = Number.isFinite(parsed) && parsed >= 0 && Number.isInteger(parsed);
-		return { value: valid ? parsed : 0, valid };
-	}
-
-	function hasEntry(entry: Entry) {
-		const hours = readValue(entry.hours);
-		const minutes = readValue(entry.minutes);
-		return hours.value * 60 + minutes.value > 0;
-	}
-
-	const summary = $derived.by(() => {
-		let minutes = 0;
-		let count = 0;
-		let invalid = false;
-
-		for (const entry of entries) {
-			const hours = readValue(entry.hours);
-			const entryMinutes = readValue(entry.minutes);
-			const total = hours.value * 60 + entryMinutes.value;
-
-			minutes += total;
-			if (total > 0) count++;
-			if (!hours.valid || !entryMinutes.valid) invalid = true;
-		}
-
-		return { minutes, count, invalid };
-	});
+	const summary = $derived(summarizeTally(entries));
 
 	const hoursTotal = $derived(Math.floor(summary.minutes / 60));
 	const minutesRemainder = $derived(summary.minutes % 60);
@@ -83,10 +54,6 @@
 		}
 	}
 
-	function readStoredValue(value: unknown) {
-		return typeof value === "string" || typeof value === "number" ? String(value) : "";
-	}
-
 	onMount(() => {
 		try {
 			const saved = localStorage.getItem(storageKey);
@@ -99,8 +66,8 @@
 								? (parsed[index] as StoredEntry)
 								: null;
 						return {
-							hours: readStoredValue(stored?.h),
-							minutes: readStoredValue(stored?.m)
+							hours: readStoredTallyValue(stored?.h),
+							minutes: readStoredTallyValue(stored?.m)
 						};
 					});
 				} else if (parsed !== null) {
@@ -114,7 +81,7 @@
 		persistEntries();
 	});
 
-	function updateEntry(index: number, field: keyof Entry, value: string) {
+	function updateEntry(index: number, field: keyof TallyEntry, value: string) {
 		entries[index][field] = value;
 		persistEntries();
 	}
@@ -152,9 +119,7 @@
 					aria-label="Time entries"
 				>
 					{#each entries as entry, index (days[index])}
-						<div
-							class={["tally-row", { "has-entry": hasEntry(entry) }]}
-						>
+						<div class={["tally-row", { "has-entry": hasTallyEntry(entry) }]}>
 							<div class="tally-day has-text-weight-medium">{days[index]}</div>
 							<div>
 								<div class="field has-addons m-0 p-0">
@@ -163,7 +128,7 @@
 											id={`h${index}`}
 											class={[
 												"input is-small",
-												readValue(entry.hours).valid ? "is-primary" : "is-danger"
+												readTallyValue(entry.hours).valid ? "is-primary" : "is-danger"
 											]}
 											style="width: 3rem"
 											type="number"
@@ -172,7 +137,7 @@
 											step="1"
 											placeholder="0"
 											aria-label={`${days[index]} hours`}
-											aria-invalid={!readValue(entry.hours).valid}
+											aria-invalid={!readTallyValue(entry.hours).valid}
 											value={entry.hours}
 											oninput={(event) => updateEntry(index, "hours", event.currentTarget.value)}
 										/>
@@ -190,7 +155,7 @@
 											id={`m${index}`}
 											class={[
 												"input is-small",
-												readValue(entry.minutes).valid ? "is-primary" : "is-danger"
+												readTallyValue(entry.minutes).valid ? "is-primary" : "is-danger"
 											]}
 											style="width: 3rem"
 											type="number"
@@ -199,7 +164,7 @@
 											step="1"
 											placeholder="00"
 											aria-label={`${days[index]} minutes`}
-											aria-invalid={!readValue(entry.minutes).valid}
+											aria-invalid={!readTallyValue(entry.minutes).valid}
 											value={entry.minutes}
 											oninput={(event) => updateEntry(index, "minutes", event.currentTarget.value)}
 										/>

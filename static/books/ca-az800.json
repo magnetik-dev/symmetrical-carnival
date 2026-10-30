@@ -698,5 +698,85 @@
   {
     "query": "VPN tunneling protocols encrypts packet contents and wraps them in an unencrypted packets. Which of the following networking devices or services prevents (in most cases) the use of IPsec as a VPN tunneling protocol?",
     "response": "NAT"
+  },
+  {
+    "query": "Which server edition requires the least amount of system resources to install?",
+    "response": "Windows Server 2022 Standard"
+  },
+  {
+    "query": "Which of the following commands should be used to access help files that have been downloaded to the local file share?",
+    "response": "Get-Help"
+  },
+  {
+    "query": "You are a network technician for a small consulting firm. Many users have reported issues with accessing the network. After some initial troubleshooting, you discover that many devices have the same IP address assigned or incorrect IP configurations. Which of the following would be the MOST likely cause for this?",
+    "response": "Rogue DHCP server"
+  },
+  {
+    "query": "Which of the following would a device use to receive NTP configuration from a NTP server that's located on a different network?",
+    "response": "IP helper"
+  },
+  {
+    "query": "You work in an office that uses Linux and Windows servers. The network uses the TCP/IP protocol. You're sitting at a workstation that uses Windows 10, but an application that you're using is unable to contact a Windows server named FileSrv2. Which command can you use to determine whether your computer can still contact the server?",
+    "response": "ping"
+  },
+  {
+    "query": "You manage a server that uses an IP address of 192.168.255.188 with a mask of 255.255.0.0. Which of the following describes this address type?",
+    "response": "Classless"
+  },
+  {
+    "query": "Which of the following can you append to the end of the dig command to run a query for all the records in the zone?",
+    "response": "-axfr"
+  },
+  {
+    "query": "What is the default pool size of ports for Windows Server 2022?",
+    "response": "2500"
+  },
+  {
+    "query": "A user account name combined with DNS domain name is which of the following name types?",
+    "response": "User Principal Name"
+  },
+  {
+    "query": "Which of the following is true about the default containers in Active Directory?",
+    "response": "Group Policy cannot be applied to default containers."
+  },
+  {
+    "query": "You are the administrator of a network with a single Active Directory domain. The domain includes a user account named Bob Smith. The network security group has asked you to provide a list of all the domain groups to which Bob Smith is a member. You would prefer to use a command line utility so that the output can be saved and printed. Which command should you use?",
+    "response": "dsget"
+  },
+  {
+    "query": "Which service provides filtering based on hardware and software characteristics such as CPU, memory, disk space, registry data, or application data?",
+    "response": "Windows Management Interface (WMI) filtering"
+  },
+  {
+    "query": "Which of the following is true about Group Policy inheritance?",
+    "response": "Group Policy settings are applied to all objects below the container where the GPO is linked."
+  },
+  {
+    "query": "Which file type applies only to Windows applications that are purchased through the Windows Store?",
+    "response": ".appx"
+  },
+  {
+    "query": "Which UAC level is recommended as the most secure configuration option because it will always provide a standard user the option to log in as an administrator?",
+    "response": "Always notify."
+  },
+  {
+    "query": "You have a PowerShell script that starts a remote session on server, and then attempts to connect to a second computer to pull some necessary files for the script to complete successfully. However, this prevents Kerberos from passing along your credentials to the second machine and the script fails. This is known as a Kerberos second hop issue. You want to resolve the issue by caching your credentials on the first server so they can be encrypted and sent to the second server. Which of the following second hop solutions meets your requirements?",
+    "response": "Credential Security Support Provider (CredSSP)"
+  },
+  {
+    "query": "Which of the following volume types seeks to optimize performance by writing data across all disks in the volume simultaneously?",
+    "response": "Striped volume"
+  },
+  {
+    "query": "Which of the following provides a unique identifier for a virtual machine?",
+    "response": "InitiatorID"
+  },
+  {
+    "query": "Which of the following BEST describes a Hyper-V replica?",
+    "response": "A back up if the Hyper-V server has failed."
+  },
+  {
+    "query": "Which of the following BEST describes a guest cluster?",
+    "response": "A failover cluster where the nodes are virtual machines running on Hyper-V servers."
   }
 ]
