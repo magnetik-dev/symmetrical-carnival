@@ -118,5 +118,125 @@
   {
     "query": "The following PowerShell cmdlet lets you check for a SBM Multichannel connection:",
     "response": "Get-SmbConnection"
+  },
+    {
+    "query": "Your organization needs to restore an Azure VM to another availability zone in a secondary region. Which recovery option should they use?",
+    "response": "Cross Zonal Restore"
+  },
+  {
+    "query": "When testing a failover on a single VM in the Azure Portal, you will choose a recovery point. Which of the following recovery point options would you choose to ensure all data in the recovery point is processed and present in the failover VM?",
+    "response": "Latest"
+  },
+  {
+    "query": "An Azure Policy can be used to maintain similar policies across multiple vaults. Which of the following is true about backup schedules and retention?",
+    "response": "Azure backup policies can be set to run at any frequency, such as hourly, daily, weekly, or monthly."
+  },
+  {
+    "query": "Which of the following would allow you to backup data directly to a Microsoft recovery services vault?",
+    "response": "MARS agent"
+  },
+  {
+    "query": "What happens if all nodes at one site fail in a stretch cluster configuration of Storage Replica?",
+    "response": "A node at the other site becomes the source of replication."
+  },
+  {
+    "query": "Azure Recovery Services vault is a platform as a service (PaaS) that provides an organized location where backups of data, configurations, databases, and other information are stored. Which of the following features are provided to prevent the accidental deletion or overwriting of essential backups?",
+    "response": "Soft Delete"
+  },
+  {
+    "query": "As part of an Azure Site Recovery plan, virtual machines should be tested by conducting a failover test. Failover testing ensures that sufficient resources are allocated if a failover is needed. Which of the following actions should be taken after conducting a failover test on a VM?",
+    "response": "Delete the VM that was created for testing purposes."
+  },
+  {
+    "query": "When configuring ASR replication between Azure sites, which of the following tips should be followed?",
+    "response": "Use service tags or URLs to control network connectivity."
+  },
+  {
+    "query": "What is the primary purpose of configuring a separate NTFS volume on each replication partner for logging in a Storage Replica implementation?",
+    "response": "To track changes and maintain a record of replication events."
+  },
+  {
+    "query": "What is an advantage of migrating on-premises IIS apps to Azure App Service?",
+    "response": "Azure App Service is a Platform as a Service (PaaS)."
+  },
+  {
+    "query": "You have multiple print servers that need to be migrated from on-premises to Azure. Which of the following is the BEST tool to migrate Windows print servers to Azure?",
+    "response": "Printer Migration Wizard"
+  },
+  {
+    "query": "You have an on-premises web app that you want to migrate to Azure App Services. The app's database will continue to be hosted on-premises. Which of the following needs to be set up?",
+    "response": "A Hybrid Connection"
+  },
+  {
+    "query": "When a business changes its name, the best practice is to do which of the following as it relates to AD DS?",
+    "response": "Change the domain name and create a new domain."
+  },
+  {
+    "query": "You have installed a new Hyper-V host with upgraded hardware, including more memory and storage. Your existing VMs are highly utilized, and so your task is to migrate the VMs to the new host with the least amount of downtime possible. Which of the following would BEST accomplish this task?",
+    "response": "Use live migration."
+  },
+  {
+    "query": "Files can be migrated to Azure File Shares in a variety of ways, depending on your specific needs and circumstances. Which of the following is the BEST tool to use?",
+    "response": "RoboCopy"
+  },
+  {
+    "query": "When migrating from an on-premises Linux server to Azure File Shares using Azure File Sync, which of the following is true?",
+    "response": "Azure File Sync can be used to synchronize the files."
+  },
+  {
+    "query": "You have been tasked with migrating on-premises servers to Azure using Azure Migrate. Before downloading the Azure Migrate appliance, which of the following should be done first?",
+    "response": "Generate project key"
+  },
+  {
+    "query": "What is the main purpose of upgrading an existing forest?",
+    "response": "To upgrade all domain controllers to the most recent version of Windows Server."
+  },
+  {
+    "query": "Which of the following is strongly recommended that you do to help resolve the most common issues with Azure virtual machine servers?",
+    "response": "Enable the boot diagnostics feature by default on every Azure server."
+  },
+  {
+    "query": "Your company wants to monitor their Azure VMs and collect data from the guest OS. Which Azure Monitor agent should they use?",
+    "response": "Azure Diagnostics extension"
+  },
+  {
+    "query": "You have two Windows systems named Computer 1 and Computer 2. Over the next few days, you want to be able to monitor Computer 1 from Computer 2. To do this, you want to automatically save and send Computer 1's Application and System logs to Computer 2. How would you do this?",
+    "response": "On both computers, enable and configure Event Subscriptions. Configure Computer 1 as a source and Computer 2 as a collector."
+  },
+  {
+    "query": "What tool can be used to surpass some limitations of the Azure Diagnostics extension?",
+    "response": "Log Analytics agent"
+  },
+  {
+    "query": "Which of the following is a simple indicator provided by System Insights in its analysis?",
+    "response": "OK"
+  },
+  {
+    "query": "During some recent maintenance on a domain controller, some of the tasks failed, and now the SYSVOL is no longer replicating. A domain controller must have a properly shared and replicating SYSVOL in order to function. Which of the following actions should you take to resolve the problem?",
+    "response": "Rebuild the SYSVOL."
+  },
+  {
+    "query": "A junior administrator deleted the wrong user account. Which of the following can be used to restore the deleted user account?",
+    "response": "Active Directory Recycle Bin"
+  },
+  {
+    "query": "Which of the following BEST describes DHCP scope exhaustion?",
+    "response": "A denial of service from a lack of IP addresses in a DHCP server's pool."
+  },
+  {
+    "query": "After performing maintenance on an Azure VM domain controller, it was discovered that some user objects were missing attributes. In order to restore the user objects to their previous state, which of the following actions would you take first?",
+    "response": "Boot into Directory Services Restore Mode (DSRM)."
+  },
+  {
+    "query": "Which of the following tools would you use to view the MAC addresses associated with IP addresses that the local workstation has contacted recently?",
+    "response": "arp"
+  },
+  {
+    "query": "As part of the regular system maintenance on your Windows system, you are checking Performance Monitor statistics and Event Log events. You notice that there are several Error events listed with the same ID number. They also contain a description that sounds as if the error is related to system hardware. You check your Performance Monitor logs but don't notice anything unusual around the time that the events were generated. Which step must you take to receive an email every time the event is logged so you can check the system statistics at that moment?",
+    "response": "Attach a task to the event."
+  },
+  {
+    "query": "Using Event Viewer, you have created a Custom View to track Warning and Error events from both the Application and System logs. After a few days, there are several events in the Custom View. You would like to clear the messages from the view so that you only see messages starting from today. How do you make sure that any messages from today that are in the corresponding logs still exist?",
+    "response": "Edit the Custom View properties and create a custom range for the logged events, starting with today's date."
   }
 ]
