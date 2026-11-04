@@ -1,0 +1,242 @@
+[
+  {
+    "query": "Which Exploit protection mitigation needs to be enabled if you want to prevent executable code from being run from data-only memory pages?",
+    "response": "Data Execution Prevention (DEP)"
+  },
+  {
+    "query": "App Install Control is a feature of Windows Defender SmartScreen that helps protect computers. Once enabled, which of the following describes a user's ability to install apps?",
+    "response": "Apps can only be installed from the Microsoft Store."
+  },
+  {
+    "query": "Which of the following determines the reputation of an app by which WDAC rules can be defined?",
+    "response": "Intelligent Security Graph"
+  },
+  {
+    "query": "What does Application Control use to lock down systems so only certain apps can run?",
+    "response": "Code integrity policies"
+  },
+  {
+    "query": "What type of security ticket is used to establish the session with servers in an AD DS network?",
+    "response": "Kerberos"
+  },
+  {
+    "query": "What is the purpose of Credential Guard?",
+    "response": "To prevent attackers from stealing credentials"
+  },
+  {
+    "query": "You have just deployed a new Windows Server 2022 domain controller and want to configure it to apply application allowlisting. Which of the following should be enabled?",
+    "response": "Device Guard"
+  },
+  {
+    "query": "You suspect that sensitive information has been leaked. Which audit logs could you review to track who opened a file containing the sensitive data?",
+    "response": "Object Access"
+  },
+  {
+    "query": "Which UAC level is recommended as the most secure configuration option because it will always provide a standard user the option to log in as an administrator?",
+    "response": "Always notify"
+  },
+  {
+    "query": "If a standard user tries to perform an administrative task, they will be prompted to enter administrative credentials. Which security option is responsible for this prompting?",
+    "response": "User Account Control"
+  },
+  {
+    "query": "You have several servers running Windows Server 2022 and a corporate domain controller. Which of the following is part of a strategy to manage user credential exposure using non-configurable protections?",
+    "response": "Protected Users security group"
+  },
+  {
+    "query": "When configuring a GPO linked to a domain, which policy configuration setting would you use to control the following? - Password settings - Account lockout settings - Kerberos settings",
+    "response": "Account Policies"
+  },
+  {
+    "query": "Which of the following is a valid Azure AD password?",
+    "response": "My Password"
+  },
+  {
+    "query": "Which of the following includes the Policy Analyzer?",
+    "response": "Security Compliance Toolkit (SCT)"
+  },
+  {
+    "query": "Which group is the\u00a0Allow log on locally\u00a0right assigned to by default for workstations and member servers?",
+    "response": "Administrators"
+  },
+  {
+    "query": "You are the administrator of several branch offices. The locations are not large enough to provide adequate physical security for a local domain controller. You plan to deploy Read-only domain controllers (RODCs). Which of the following would facilitate faster logins for the branch staff?",
+    "response": "Enable credential caching."
+  },
+  {
+    "query": "You are the administrator for 122 Azure Windows virtual machines and 14 Azure Arc-enabled Windows servers. To ensure your server resources are secure, Microsoft Defender for Cloud uses the Azure Monitor Agent (AMA) to send information about the servers to Defender for Cloud. Which of the following can be enabled to deploy the agent to your servers without disruption?",
+    "response": "Defender for Server"
+  },
+  {
+    "query": "Microsoft Sentinel is an enterprise cloud solution that utilizes SIEM and SOAR systems with Azure services and on-premise environments. Which of the following Sentinel features can integrate non-Microsoft solutions such as Syslog and Common Event Format (CEF) and third-party services such as Amazon Web Services and Google Workspaces?",
+    "response": "Sentinel data connectors"
+  },
+  {
+    "query": "Which of the following allows a Windows Server with TPM enabled and a pre-boot network connection to automatically unlock a BitLocker-encrypted operating system volume without user intervention?",
+    "response": "Network Unlock"
+  },
+  {
+    "query": "You have deployed client-side encryption for your on-premises Windows servers. Where are encryption keys stored in client-side encryption?",
+    "response": "Locally"
+  },
+  {
+    "query": "You have installed a new Windows 11 system and have not changed the default configuration of the Windows Firewall. How will the Windows Firewall handle inbound traffic initiated from an external server that a hacker is using to spread a worm?",
+    "response": "All such traffic is blocked by default."
+  },
+  {
+    "query": "In an enterprise environment, which of the following tools is used to manage keys, automate encryption, and check compliance for BitLocker?",
+    "response": "Microsoft BitLocker Administration and Monitoring (MBAM)"
+  },
+  {
+    "query": "Why should failover clusters always have an odd number of quorum members?",
+    "response": "To prevent deadlocks and cluster shutdowns."
+  },
+  {
+    "query": "An important aspect of managing failover clusters is upgrading their OS as needed. Which of the following should you check before upgrading the OS to ensure the nodes run optimally?",
+    "response": "The functional level."
+  },
+  {
+    "query": "Which of the following quorum witness types uses blob storage accessible by all cluster nodes to maintain clustering information?",
+    "response": "Cloud witness"
+  },
+  {
+    "query": "A company has deployed a new cluster configuration using Microsoft Failover Cluster Management. They want to ensure the configuration is ready for production use, so they run the validation tool. The validation tool reports that one of the disks attached to the cluster is not recommended for use with clustering. Which of the following actions should the company take in response to this validation result?",
+    "response": "Replace the disk with a recommended disk and rerun the validation tool."
+  },
+  {
+    "query": "What is the primary purpose of a quorum in a failover cluster?",
+    "response": "To cast votes on which server should take over the primary role during failover."
+  },
+  {
+    "query": "When implementing Storage Spaces Direct to provide network-attached storage through SMB3 file shares, which resiliency option should be used?",
+    "response": "Converged deployment"
+  },
+  {
+    "query": "Cluster-Aware Updating (CAU) offers some advanced configuration options you can set up. Which of the following updating run options are available?",
+    "response": "PreUpdateScript"
+  },
+  {
+    "query": "The following PowerShell cmdlet lets you check for a SBM Multichannel connection:",
+    "response": "Get-SmbConnection"
+  },
+    {
+    "query": "Your organization needs to restore an Azure VM to another availability zone in a secondary region. Which recovery option should they use?",
+    "response": "Cross Zonal Restore"
+  },
+  {
+    "query": "When testing a failover on a single VM in the Azure Portal, you will choose a recovery point. Which of the following recovery point options would you choose to ensure all data in the recovery point is processed and present in the failover VM?",
+    "response": "Latest"
+  },
+  {
+    "query": "An Azure Policy can be used to maintain similar policies across multiple vaults. Which of the following is true about backup schedules and retention?",
+    "response": "Azure backup policies can be set to run at any frequency, such as hourly, daily, weekly, or monthly."
+  },
+  {
+    "query": "Which of the following would allow you to backup data directly to a Microsoft recovery services vault?",
+    "response": "MARS agent"
+  },
+  {
+    "query": "What happens if all nodes at one site fail in a stretch cluster configuration of Storage Replica?",
+    "response": "A node at the other site becomes the source of replication."
+  },
+  {
+    "query": "Azure Recovery Services vault is a platform as a service (PaaS) that provides an organized location where backups of data, configurations, databases, and other information are stored. Which of the following features are provided to prevent the accidental deletion or overwriting of essential backups?",
+    "response": "Soft Delete"
+  },
+  {
+    "query": "As part of an Azure Site Recovery plan, virtual machines should be tested by conducting a failover test. Failover testing ensures that sufficient resources are allocated if a failover is needed. Which of the following actions should be taken after conducting a failover test on a VM?",
+    "response": "Delete the VM that was created for testing purposes."
+  },
+  {
+    "query": "When configuring ASR replication between Azure sites, which of the following tips should be followed?",
+    "response": "Use service tags or URLs to control network connectivity."
+  },
+  {
+    "query": "What is the primary purpose of configuring a separate NTFS volume on each replication partner for logging in a Storage Replica implementation?",
+    "response": "To track changes and maintain a record of replication events."
+  },
+  {
+    "query": "What is an advantage of migrating on-premises IIS apps to Azure App Service?",
+    "response": "Azure App Service is a Platform as a Service (PaaS)."
+  },
+  {
+    "query": "You have multiple print servers that need to be migrated from on-premises to Azure. Which of the following is the BEST tool to migrate Windows print servers to Azure?",
+    "response": "Printer Migration Wizard"
+  },
+  {
+    "query": "You have an on-premises web app that you want to migrate to Azure App Services. The app's database will continue to be hosted on-premises. Which of the following needs to be set up?",
+    "response": "A Hybrid Connection"
+  },
+  {
+    "query": "When a business changes its name, the best practice is to do which of the following as it relates to AD DS?",
+    "response": "Change the domain name and create a new domain."
+  },
+  {
+    "query": "You have installed a new Hyper-V host with upgraded hardware, including more memory and storage. Your existing VMs are highly utilized, and so your task is to migrate the VMs to the new host with the least amount of downtime possible. Which of the following would BEST accomplish this task?",
+    "response": "Use live migration."
+  },
+  {
+    "query": "Files can be migrated to Azure File Shares in a variety of ways, depending on your specific needs and circumstances. Which of the following is the BEST tool to use?",
+    "response": "RoboCopy"
+  },
+  {
+    "query": "When migrating from an on-premises Linux server to Azure File Shares using Azure File Sync, which of the following is true?",
+    "response": "Azure File Sync can be used to synchronize the files."
+  },
+  {
+    "query": "You have been tasked with migrating on-premises servers to Azure using Azure Migrate. Before downloading the Azure Migrate appliance, which of the following should be done first?",
+    "response": "Generate project key"
+  },
+  {
+    "query": "What is the main purpose of upgrading an existing forest?",
+    "response": "To upgrade all domain controllers to the most recent version of Windows Server."
+  },
+  {
+    "query": "Which of the following is strongly recommended that you do to help resolve the most common issues with Azure virtual machine servers?",
+    "response": "Enable the boot diagnostics feature by default on every Azure server."
+  },
+  {
+    "query": "Your company wants to monitor their Azure VMs and collect data from the guest OS. Which Azure Monitor agent should they use?",
+    "response": "Azure Diagnostics extension"
+  },
+  {
+    "query": "You have two Windows systems named Computer 1 and Computer 2. Over the next few days, you want to be able to monitor Computer 1 from Computer 2. To do this, you want to automatically save and send Computer 1's Application and System logs to Computer 2. How would you do this?",
+    "response": "On both computers, enable and configure Event Subscriptions. Configure Computer 1 as a source and Computer 2 as a collector."
+  },
+  {
+    "query": "What tool can be used to surpass some limitations of the Azure Diagnostics extension?",
+    "response": "Log Analytics agent"
+  },
+  {
+    "query": "Which of the following is a simple indicator provided by System Insights in its analysis?",
+    "response": "OK"
+  },
+  {
+    "query": "During some recent maintenance on a domain controller, some of the tasks failed, and now the SYSVOL is no longer replicating. A domain controller must have a properly shared and replicating SYSVOL in order to function. Which of the following actions should you take to resolve the problem?",
+    "response": "Rebuild the SYSVOL."
+  },
+  {
+    "query": "A junior administrator deleted the wrong user account. Which of the following can be used to restore the deleted user account?",
+    "response": "Active Directory Recycle Bin"
+  },
+  {
+    "query": "Which of the following BEST describes DHCP scope exhaustion?",
+    "response": "A denial of service from a lack of IP addresses in a DHCP server's pool."
+  },
+  {
+    "query": "After performing maintenance on an Azure VM domain controller, it was discovered that some user objects were missing attributes. In order to restore the user objects to their previous state, which of the following actions would you take first?",
+    "response": "Boot into Directory Services Restore Mode (DSRM)."
+  },
+  {
+    "query": "Which of the following tools would you use to view the MAC addresses associated with IP addresses that the local workstation has contacted recently?",
+    "response": "arp"
+  },
+  {
+    "query": "As part of the regular system maintenance on your Windows system, you are checking Performance Monitor statistics and Event Log events. You notice that there are several Error events listed with the same ID number. They also contain a description that sounds as if the error is related to system hardware. You check your Performance Monitor logs but don't notice anything unusual around the time that the events were generated. Which step must you take to receive an email every time the event is logged so you can check the system statistics at that moment?",
+    "response": "Attach a task to the event."
+  },
+  {
+    "query": "Using Event Viewer, you have created a Custom View to track Warning and Error events from both the Application and System logs. After a few days, there are several events in the Custom View. You would like to clear the messages from the view so that you only see messages starting from today. How do you make sure that any messages from today that are in the corresponding logs still exist?",
+    "response": "Edit the Custom View properties and create a custom range for the logged events, starting with today's date."
+  }
+]

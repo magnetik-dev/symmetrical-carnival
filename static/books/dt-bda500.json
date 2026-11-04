@@ -1,0 +1,282 @@
+[
+    {
+        "query": "What feature makes interacting with Tableau easy and intuitive?",
+        "response": "Drag-and-drop"
+    },
+    {
+        "query": "Fields from the Data pane in Tableau can also be placed onto which area?",
+        "response": "All of the answers are correct"
+    },
+    {
+        "query": "From which icon in Tableau can you add additional data source?",
+        "response": "The Tableau Icon"
+    },
+    {
+        "query": "In which type of dataset may some preprocessing of the data be necessary?",
+        "response": "Wide and long tables"
+    },
+    {
+        "query": "You can share your Tableau packaged workbook with friends, acquaintances, or colleagues who do not have a Tableau Desktop license with:",
+        "response": "Tableau Reader"
+    },
+    {
+        "query": "What is the unique feature of Tableau Prep?",
+        "response": "Data preparation"
+    },
+    {
+        "query": "What is the visual query language used in Tableau?",
+        "response": "vizQL"
+    },
+    {
+        "query": "Which Tableau version is recommended for newsrooms and bloggers?",
+        "response": "Tableau Public"
+    },
+    {
+        "query": "What does Tableau Online provide similar functionality to?",
+        "response": "Cloud-based"
+    },
+    {
+        "query": "What does a Tableau Workbook contain?",
+        "response": "Visualizations and metadata"
+    },
+    {
+        "query": "_______ are used to show the relationship between two measures, such as revenue and profit.",
+        "response": "Scatter plots"
+    },
+    {
+        "query": "If your database technology is not on the list, you still have the option to use a _______:",
+        "response": "JDBC and ODBC"
+    },
+    {
+        "query": "If your server type is not among the most common types listed, click _______:",
+        "response": "More"
+    },
+    {
+        "query": "_______ is a free tool to capture web traffic data for your website.",
+        "response": "Google Analytics"
+    },
+    {
+        "query": "With databases that require SSL, you will have to select _______ to establish the connection.",
+        "response": "Require SSL"
+    },
+    {
+        "query": "_______ ensures that Tableau queries the tables of the connection only when used explicitly in the view.",
+        "response": "Assume Referential Integrity option"
+    },
+    {
+        "query": "The drop-down menu in the Open dialog shows the _______:",
+        "response": "File types supported by Tableau"
+    },
+    {
+        "query": "All data sources are based on _______ structures.",
+        "response": "Relational"
+    },
+    {
+        "query": "In the Connect pane on the left side of the screen, you can see _______.",
+        "response": "All of the answers are correct"
+    },
+    {
+        "query": "In order to do performance optimization with large files, use _______.",
+        "response": "Data extracts and live connections"
+    },
+    {
+        "query": "_______ effectively show the cumulative sum of a series of positive and negative values.",
+        "response": "Waterfall charts"
+    },
+    {
+        "query": "By using the shortcut_______, you can swap the axes of bar charts and many other chart types.",
+        "response": "Ctrl+X"
+    },
+    {
+        "query": "_______ help you to demonstrate how a measure varies over two dimensions.",
+        "response": "Scatter plots"
+    },
+    {
+        "query": "_______  juxtapose two measures and show their relation to each other.",
+        "response": "Scatter plots"
+    },
+    {
+        "query": "If your time-series data contains gaps, it can make sense to use _______.",
+        "response": "Jump-lines"
+    },
+    {
+        "query": "You can use _______ to highlight the changes between two different data points.",
+        "response": "Line charts"
+    },
+    {
+        "query": "To include NULL values in an aggregation as zero values, first create a calculated field with the function _______.",
+        "response": "IFNULL"
+    },
+    {
+        "query": "By default, Tableau uses _______ as the aggregation.",
+        "response": "Sum"
+    },
+    {
+        "query": "Use the _______ operator in a calculation to differentiate between the first and second halves of the year.",
+        "response": "DATEPART"
+    },
+    {
+        "query": "_______ is a text operator that returns a specified number of characters of a string.",
+        "response": "LEFT"
+    },
+    {
+        "query": "_______ allow you to create computations that span across different marks in your visualization.",
+        "response": "Table calculations"
+    },
+    {
+        "query": "Level of Detail Calculations are always processed in _______.",
+        "response": "Tableau"
+    },
+    {
+        "query": "By using _______, you can visualize how the ranking of product categories changes over a year.",
+        "response": "Bump charts"
+    },
+    {
+        "query": "The contribution that long-term customers make to sales can be answered by _______.",
+        "response": "Cohort analysis"
+    },
+    {
+        "query": "Filters are applied before _______, while normal calculated fields and _______ will be evaluated before standard filters are applied.",
+        "response": "Table Calculations, Level of Detail Calculations"
+    },
+    {
+        "query": "In a dual axis chart, how can you change the order of the two charts?",
+        "response": "Dual axis chart"
+    },
+    {
+        "query": "What shows overall sales revenue, breaks down by product categories, and changes over time?",
+        "response": "Mark"
+    },
+    {
+        "query": "In Tableau, what style is the default background map?",
+        "response": "All of the answers are correct"
+    },
+    {
+        "query": "What marks specific geographic locations with circles, squares, or custom shapes?",
+        "response": "Symbol maps"
+    },
+    {
+        "query": "________ is the de facto standard in the world of Geographic Information System (GIS).",
+        "response": "Shapefile"
+    },
+    {
+        "query": "When you are connected to the internet, you can use the default maps, which are provided by:",
+        "response": "Wiki project OpenStreetMap"
+    },
+    {
+        "query": "What do Tableau maps consist of?",
+        "response": "Background maps and marks"
+    },
+    {
+        "query": "When you create a map in Tableau, it also adds a background map to provide more context for the individual marks. By default, this map is provided by:",
+        "response": "OpenStreetMap"
+    },
+    {
+        "query": "What are a good alternative to symbol maps when high concentrations of marks make it impossible to gauge the spatial distribution of individual marks?",
+        "response": "Density maps"
+    },
+    {
+        "query": "When combining a pie chart map with another field, what feature can be used?",
+        "response": "None of the answers are correct"
+    },
+    {
+        "query": "Which maps colour areas of relative concentration intensely?",
+        "response": "Density maps and heatmaps"
+    },
+    {
+        "query": "If a dimension is not recognized as a geographic field, you can provide the coordinates:",
+        "response": "Manually"
+    },
+    {
+        "query": "It is possible to merge existing shapes with new geographic entities. One way is to group them using the:",
+        "response": "Lasso tool"
+    },
+    {
+        "query": "What should you use to avoid filtering out individual pie segments?",
+        "response": "LOD Expression"
+    },
+    {
+        "query": "If a tooltip contains a lot of information, what should you consider creating instead?",
+        "response": "Dashboard"
+    },
+    {
+        "query": "A value close to _______ indicates that only recent values influence the forecast.",
+        "response": "One"
+    },
+    {
+        "query": "________ is an open-source programming language widely used in the scientific community because of its many packages for statistical analysis and the creation of statistical charts.",
+        "response": "R"
+    },
+    {
+        "query": "The accuracy degree of the trend line can be evaluated by:",
+        "response": "Regression and p-value"
+    },
+    {
+        "query": "The Models tab provides more details on the:",
+        "response": "All of the answers are correct"
+    },
+    {
+        "query": "In the field of marketing, _______ is often used to define different customer segments.",
+        "response": "Clustering"
+    },
+    {
+        "query": "In the forecasting process, there are cases where it can make sense to activate the option \"Fill In Missing Values With:\"",
+        "response": "Zeroes"
+    },
+    {
+        "query": "________ can sometimes be difficult to interpret when the data is very granular.",
+        "response": "Trend lines"
+    },
+    {
+        "query": "Tableau's advanced analytics tools include:",
+        "response": "All of the answers are correct"
+    },
+    {
+        "query": "With Custom, you can manually specify what type of model to use for the trend and for the seasonality.",
+        "response": "Custom"
+    },
+    {
+        "query": "________ lend themselves to demonstrating the clustering method.",
+        "response": "Scatter plots"
+    },
+    {
+        "query": "________ is a popular tool for managers and subject-matter experts alike, allowing them to stay up-to-date and to make better business decisions.",
+        "response": "Dashboard"
+    },
+    {
+        "query": "By using _______, you have a one-stop solution to the latest data available - assuming the underlying database provides updates in (near) real-time.",
+        "response": "Dashboard"
+    },
+    {
+        "query": "Having the right _______ available means you don't have to look for different data sources that may be distributed over multiple locations.",
+        "response": "Dashboard"
+    },
+    {
+        "query": "_______ allows you to access dashboards from your mobile device.",
+        "response": "Tableau Mobile"
+    },
+    {
+        "query": "_______ is an analytical platform for organizations that either runs on the organization's own servers (on-premises) or in the cloud.",
+        "response": "Tableau Server"
+    },
+    {
+        "query": "You can make your dashboards available via the web browser, using _______.",
+        "response": "All answers are correct"
+    },
+    {
+        "query": "When embedding a dashboard on a corporate intranet page, _______ is/are the better tool.",
+        "response": "Tableau Server and Tableau Online"
+    },
+    {
+        "query": "_______, often dubbed the \"YouTube for data,\" is an online platform for sharing data visualizations with the world.",
+        "response": "Tableau Public"
+    },
+    {
+        "query": "_______ is a cloud platform with functionality similar to Tableau Server. It is hosted by Tableau and is provided as a Software-as-a-Service (SaaS) solution.",
+        "response": "Tableau Online"
+    },
+    {
+        "query": "For embedding visualizations into public websites, the obvious choice is the free _______ platform.",
+        "response": "Tableau Public"
+    }
+]
