@@ -56,7 +56,7 @@
     "response": "Security Compliance Toolkit (SCT)"
   },
   {
-    "query": "Which group is the\u00a0Allow log on locally\u00a0right assigned to by default for workstations and member servers?",
+    "query": "Which group is the Allow log on locally right assigned to by default for workstations and member servers?",
     "response": "Administrators"
   },
   {
@@ -119,7 +119,7 @@
     "query": "The following PowerShell cmdlet lets you check for a SBM Multichannel connection:",
     "response": "Get-SmbConnection"
   },
-    {
+  {
     "query": "Your organization needs to restore an Azure VM to another availability zone in a secondary region. Which recovery option should they use?",
     "response": "Cross Zonal Restore"
   },
@@ -238,5 +238,141 @@
   {
     "query": "Using Event Viewer, you have created a Custom View to track Warning and Error events from both the Application and System logs. After a few days, there are several events in the Custom View. You would like to clear the messages from the view so that you only see messages starting from today. How do you make sure that any messages from today that are in the corresponding logs still exist?",
     "response": "Edit the Custom View properties and create a custom range for the logged events, starting with today's date."
+  },
+  {
+    "query": "You manage a Windows computer that is shared by multiple users. Recently, a user downloaded and installed two malware programs on the computer. The applications had an .msi extension. What is the first line of defense in protecting your system against applications like these from being copied or downloaded to your system?",
+    "response": "Use anti-malware software that provides real-time protection."
+  },
+  {
+    "query": "Once a piece of malware is detected and reverse-engineered, its unique characteristics are identified. Anti-malware programs use these characteristics to identify malware. What do anti-malware programs call these unique characteristics of malware?",
+    "response": "Signature"
+  },
+  {
+    "query": "A user keeps attempting to open a text file. All that happens is that a Command Prompt window flashes on the screen and then disappears. Which of the following actions will help you determine the cause of this issue?",
+    "response": "Enable the option in File Explorer to show file extensions."
+  },
+  {
+    "query": "A user reports that they receive a warning message when trying to access a particular website. As an administrator, you suspect that this might be due to Defender SmartScreen. What could be the reason for this warning message?",
+    "response": "The user is trying to access a website that is on the list of known malicious sites."
+  },
+  {
+    "query": "Which technology does Credential Guard use to isolate secrets stored within the LSA",
+    "response": "VBS"
+  },
+  {
+    "query": "As part of a new installation, you are deploying a domain controller. To prevent malicious actors from trying to gain access to the domain controller, you want to take all the necessary steps to harden the domain controller. Which of the following installation options for Windows Server 2022 should be used?",
+    "response": "Server Core"
+  },
+  {
+    "query": "Under which security option category would you enable a prompt for users to change their password before it expires?",
+    "response": "Interactive logon"
+  },
+  {
+    "query": "Which setting would you set to 0 to allow all users to reset their password immediately?",
+    "response": "Minimum password age"
+  },
+  {
+    "query": "Audit failure can be used to do which of the following?",
+    "response": "Identify patterns of attempted access."
+  },
+  {
+    "query": "Which of the following is a password restriction that applies to Azure AD?",
+    "response": "There is a global banned password list."
+  },
+  {
+    "query": "Permissions give you the ability to do which of the following?",
+    "response": "Access a printer"
+  },
+  {
+    "query": "Sentinel components include data connectors, log retention, workbooks, automation playbooks, analytic alerts, incident response, and threat investigation with artificial intelligence. Which of the following describes Azure workbooks?",
+    "response": "Helps you get an overall visualization of your data."
+  },
+  {
+    "query": "Encrypting File System (EFS) was added to the NTFS file system with the release of Windows 2000. EFS is exclusive to the Windows Operating System. EFS encrypts individual files and folders. Which of the following does EFS use for symmetric encryption?",
+    "response": "File Encryption Key (FEK)"
+  },
+  {
+    "query": "You have an on-premises data center and want to encrypt your data locally before it is received by an Azure service or application. What would meet this criteria?",
+    "response": "Client-side encryption"
+  },
+  {
+    "query": "You want to implement a scale-out file server to provide storage for applications and virtual machines that leave files open for an extended period of time. Which of the following is required for this type of clustered file server?",
+    "response": "Clustered shared volume"
+  },
+  {
+    "query": "During the process of setting up cluster roles, you are considering which application is cluster-aware and designed to support clustering. Which of the following is a cluster-aware application?",
+    "response": "DHCP server"
+  },
+  {
+    "query": "What is a requirement for using SMB Direct?",
+    "response": "RDMA-compatible NICs"
+  },
+  {
+    "query": "Which of the following is a requirement for the network connection between replication partners when using synchronous replication?",
+    "response": "Less than 5 ms latency on the network link."
+  },
+  {
+    "query": "Your organization needs to perform a Cross Region Restore for an Azure VM. Which of the following actions can be performed using this recovery option?",
+    "response": "Backups in the secondary region"
+  },
+  {
+    "query": "Which service tag should be allowed when using network security groups (NSGs) to manage outbound activity to ensure data can be written to the cache storage account from the VM?",
+    "response": "Storage"
+  },
+  {
+    "query": "A company wants to implement Storage Replica for disaster recovery purposes. They have two sites with a network latency of 4 ms between them. Which replication type should they use?",
+    "response": "Synchronous replication"
+  },
+  {
+    "query": "You have four Azure VMs running multi-tier applications and plan to implement Azure Site Recovery (ASR). Additionally, you want all four Azure VMs to failover as a group. Which of the following should you configure?",
+    "response": "A recovery plan"
+  },
+  {
+    "query": "You are planning to move multiple physical Windows servers to Azure using Azure Migrate. You need to assess the physical servers with the Azure Migrate: Discovery and assessment tool. This process utilizes the Azure Migrate appliance. The setup process includes downloading the Azure Migrate installer script from the Azure portal and extracting the contents of the zipped file on the server that will host the appliance. Which of the following is the installer?",
+    "response": "AzureMigrateInstaller.ps1"
+  },
+  {
+    "query": "Which of the following is a recommended method for migrating Active Directory Domain Services (AD DS)?",
+    "response": "Active Directory Migration Tool (ADMT)"
+  },
+  {
+    "query": "Which of the following statements is true about Azure file shares?",
+    "response": "They can be mounted as a drive in Windows and Linux."
+  },
+  {
+    "query": "Your company is hosting the corpnet.xyz website on an on-premises Windows server named CorpWeb running IIS. The website is running a Content Management System (CMS) web app. You plan to decommission the on-premises server and migrate to Azure App Service. Which of the following tools would you use?",
+    "response": "Azure App Service Migration Assistant"
+  },
+  {
+    "query": "You have set up an Azure Migrate appliance named LON-Migrate in your London office. You plan to migrate multiple virtual machines to Azure. The VMs are located on a Hyper-V host. What should you do to ensure the VMs are available for Azure Migrate?",
+    "response": "Add the Hyper-V host as a discovery source."
+  },
+  {
+    "query": "Which of the following can you use Active Directory Migration Tool (ADMT) to consolidate your parent-child domain structure?",
+    "response": "Intra-forest restructure"
+  },
+  {
+    "query": "You are analyzing the CPU utilization on you system. Why would you use Resource Monitor rather than Task Manager?",
+    "response": "Resource Monitor provides much more granular information than Task Manager."
+  },
+  {
+    "query": "What is the role of the Log Analytics agent in a hybrid resource setup?",
+    "response": "It gathers data from hybrid resources and sends it to Log Analytics Workspace."
+  },
+  {
+    "query": "When implementing Windows Admin Center (WAC), which of the following can be configured to assign specific management functions?",
+    "response": "Role-based access"
+  },
+  {
+    "query": "What is the tool that queues messages, checks several security and maintenance-related items, and consolidates messages and status updates for several other tools called?",
+    "response": "Windows Action Center"
+  },
+  {
+    "query": "What is a requirement for installing and using the Azure Diagnostics extension?",
+    "response": "The VM and storage account must be in the same region."
+  },
+  {
+    "query": "The Knowledge Consistency Checker (KCC) is a built-in process that runs on all domain controllers and generates replication paths for the Active Directory forest. Which of the following statements about KCC is correct?",
+    "response": "KCC generates replication paths every 15 minutes."
   }
 ]
