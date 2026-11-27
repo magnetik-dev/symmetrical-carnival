@@ -32,7 +32,8 @@
     { value: 'icno-quiz', label: 'ICNO Graded Quizes'},
     { value: 'ca-az800-module-quiz', label: 'AZ800 Module Quizes'},
     { value: 'ca-az800', label: 'AZ800 Quizes'},
-    { value: 'ca-az801', label: 'AZ801 Quizes'}
+    { value: 'ca-az801', label: 'AZ801 Quizes'},
+    { value: 'pwso', label: 'PWSO Quizes'}
   ];
 
   const dataOptions = [

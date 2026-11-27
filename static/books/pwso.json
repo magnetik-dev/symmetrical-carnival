@@ -1,0 +1,602 @@
+[
+  {
+    "query": "Which module is required to download from the PowerShell Gallery?",
+    "response": "PowerShellGet"
+  },
+  {
+    "query": "What command installs a module from a private repository?",
+    "response": "Install-Module"
+  },
+  {
+    "query": "What is the default execution policy required to allow script execution in PowerShell?",
+    "response": "Unrestricted"
+  },
+  {
+    "query": "What is the main purpose of a profile file in PowerShell?",
+    "response": "Customizing the shell environment"
+  },
+  {
+    "query": "PowerShell 7 is based on which framework?",
+    "response": ".NET Core"
+  },
+  {
+    "query": "Which host variable contains profile paths in PowerShell?",
+    "response": "$Profile"
+  },
+  {
+    "query": "How are VS Code extensions added during install?",
+    "response": "With AdditionalExtensions parameter"
+  },
+  {
+    "query": "What command adds a certificate to the Trusted Root store?",
+    "response": "Use .NET X509Store object"
+  },
+  {
+    "query": "What is the purpose of Set-Alias in a module?",
+    "response": "Defines a shortcut to a command"
+  },
+  {
+    "query": "Which VS Code file is updated for user settings?",
+    "response": "Settings.json"
+  },
+  {
+    "query": "How is a script downloaded using a URI?",
+    "response": "Invoke-WebRequest"
+  },
+  {
+    "query": "What is the base framework for PowerShell 7?",
+    "response": ".NET Core"
+  },
+  {
+    "query": "Which command allows viewing help for downloaded scripts?",
+    "response": "Get-Help"
+  },
+  {
+    "query": "What does EnablePSRemoting = $true enable?",
+    "response": "PowerShell Remoting"
+  },
+  {
+    "query": "Which profile is most commonly used by IT pros?",
+    "response": "CurrentUserCurrentHost"
+  },
+  {
+    "query": "What happens when a module is imported in compatibility mode?",
+    "response": "A remoting session is created"
+  },
+  {
+    "query": "Where is the PowerShell 7 deny list defined?",
+    "response": "powershell.config.json"
+  },
+  {
+    "query": "How can PowerShell 7 use commands not natively compatible?",
+    "response": "Using compatibility solution"
+  },
+  {
+    "query": "What does Import-PSSession do?",
+    "response": "Imports commands from a remote session"
+  },
+  {
+    "query": "Which command lists all PowerShell modules and their details?",
+    "response": "Get-Module"
+  },
+  {
+    "query": "What kind of module is MyModule2 with 1.0.0 and 2.0.0 versions?",
+    "response": "Versioned"
+  },
+  {
+    "query": "What command helps find if a module is script, manifest, or binary?",
+    "response": "Get-Module -ListAvailable"
+  },
+  {
+    "query": "What file structure is required for versioned modules?",
+    "response": ".psm1 and .psd1 in a versioned subfolder"
+  },
+  {
+    "query": "What PowerShell feature provides per-session environment control?",
+    "response": "$Profile"
+  },
+  {
+    "query": "What parameter's absence is noted in PowerShell 7 cmdlets?",
+    "response": "-ComputerName"
+  },
+  {
+    "query": "Which deprecated parameter was used for remote command execution?",
+    "response": "-ComputerName"
+  },
+  {
+    "query": "What is a key limitation of serialized objects in remoting?",
+    "response": "They lack methods"
+  },
+  {
+    "query": "How does PowerShell load module display formats in compatibility mode?",
+    "response": "Via remote formatting"
+  },
+  {
+    "query": "Which module includes the Add-Computer cmdlet, which is not supported in PowerShell 7?",
+    "response": "Microsoft.PowerShell.Management"
+  },
+  {
+    "query": "Which incompatibility cannot be resolved by remoting?",
+    "response": "Snap-ins"
+  },
+  {
+    "query": "Which environment variable is used to define executable paths?",
+    "response": "$env:Path"
+  },
+  {
+    "query": "What cmdlet is used to publish a module to a repository?",
+    "response": "Publish-Module"
+  },
+  {
+    "query": "What technique allows passing parameter sets using a hash table?",
+    "response": "Splatting"
+  },
+  {
+    "query": "What command is used to download PowerShell scripts?",
+    "response": "Save-Script"
+  },
+  {
+    "query": "What file contains user settings for VS Code?",
+    "response": "settings.json"
+  },
+  {
+    "query": "Which environment variable stores module paths?",
+    "response": "$env:PSModulePath"
+  },
+  {
+    "query": "Which file type holds PowerShell module logic?",
+    "response": ".psm1"
+  },
+  {
+    "query": "What is the default file that stores the current user's profile script in PowerShell?",
+    "response": "Microsoft.PowerShell_profile.ps1"
+  },
+  {
+    "query": "What is the executable name for launching PowerShell 7?",
+    "response": "pwsh.exe"
+  },
+  {
+    "query": "What scripting language does PowerShell 7 use?",
+    "response": "PowerShell"
+  },
+  {
+    "query": "What does 'Get-Help' provide in PowerShell?",
+    "response": "Command syntax and usage"
+  },
+  {
+    "query": "What is a key architectural difference between Windows PowerShell and PowerShell 7?",
+    "response": "PowerShell 7 is based on .NET Core and is cross-platform"
+  },
+  {
+    "query": "How can one bypass the deny list for module loading?",
+    "response": "Use -SkipEditionCheck"
+  },
+  {
+    "query": "How is the module analysis cache used?",
+    "response": "To improve autoload performance"
+  },
+  {
+    "query": "What is the effect of deserialization on .NET object types?",
+    "response": "Types change and lose methods"
+  },
+  {
+    "query": "What issue arises when data is passed from a remote session?",
+    "response": "Deserialized objects lack methods"
+  },
+  {
+    "query": "How do you import a specific version of a module?",
+    "response": "Import-Module -RequiredVersion \"1.0.0\""
+  },
+  {
+    "query": "How is implicit remoting initiated in PowerShell 7?",
+    "response": "Automatically via Import-Module"
+  },
+  {
+    "query": "What does PowerShell do when a module in the deny list is imported?",
+    "response": "Blocks the import"
+  },
+  {
+    "query": "What does PowerShell 7 use when loading incompatible modules?",
+    "response": "Compatibility mode via implicit remoting"
+  },
+  {
+    "query": "What parameter forces module import despite compatibility concerns?",
+    "response": "-SkipEditionCheck"
+  },
+  {
+    "query": "What is the recommended alternative to the WMI cmdlets?",
+    "response": "CIM cmdlets"
+  },
+  {
+    "query": "Which command can remove a module from the session?",
+    "response": "Remove-Module"
+  },
+  {
+    "query": "What is the effect of using Import-Module on a manifest module?",
+    "response": "It loads members according to the manifest"
+  },
+  {
+    "query": "What is the output stream number for verbose messages?",
+    "response": "4"
+  },
+  {
+    "query": "What is a characteristic of Write-Output?",
+    "response": "It writes only to the pipeline"
+  },
+  {
+    "query": "What does Set-PSDebug -Trace 1 do?",
+    "response": "Displays each line before execution"
+  },
+  {
+    "query": "What is the correct way to suppress all output from a command?",
+    "response": "| Out-Null"
+  },
+  {
+    "query": "What does $MyInvocation.MyCommand.Name return when used inside a script file?",
+    "response": "The name of the script file"
+  },
+  {
+    "query": "What does try { ... } catch { ... } provide?",
+    "response": "Error handling"
+  },
+  {
+    "query": "What command writes output directly to the console, bypassing the formatting system?",
+    "response": "Write-Host"
+  },
+  {
+    "query": "What happens if $null -eq \"\"?",
+    "response": "True"
+  },
+  {
+    "query": "What stream number is used for standard output?",
+    "response": "1"
+  },
+  {
+    "query": "What does the $using: scope modifier allow?",
+    "response": "Access variables in remote jobs"
+  },
+  {
+    "query": "What does Write-Host bypass?",
+    "response": "Pipeline"
+  },
+  {
+    "query": "What cmdlet is used to display all command history?",
+    "response": "Get-History"
+  },
+  {
+    "query": "How do you declare a constant value in PowerShell?",
+    "response": "New-Variable -Name \"X\" -Value 10 -Option Constant"
+  },
+  {
+    "query": "What does -contains do in PowerShell?",
+    "response": "Checks if array has value"
+  },
+  {
+    "query": "What is a key feature of dynamic typing in PowerShell?",
+    "response": "Type can change at runtime"
+  },
+  {
+    "query": "How do you create a new object with properties?",
+    "response": "New-Object"
+  },
+  {
+    "query": "Which of the following is a valid variable name?",
+    "response": "$value_name"
+  },
+  {
+    "query": "What is the output of \"Power\"+\"Shell\"?",
+    "response": "PowerShell"
+  },
+  {
+    "query": "Which data type is used for decimal numbers?",
+    "response": "[double]"
+  },
+  {
+    "query": "What does $array[-1] return?",
+    "response": "Last element"
+  },
+  {
+    "query": "What character is used to define a variable in PowerShell?",
+    "response": "$"
+  },
+  {
+    "query": "What is the value of $x = 5; $x + 3?",
+    "response": "8"
+  },
+  {
+    "query": "How can you check if a value is numeric?",
+    "response": "$val -is [int]"
+  },
+  {
+    "query": "What method converts a string to uppercase?",
+    "response": "ToUpper()"
+  },
+  {
+    "query": "What is $i++ equivalent to?",
+    "response": "$i = $i + 1"
+  },
+  {
+    "query": "Which loop can work with asynchronous blocks?",
+    "response": "ForEach-Object -Parallel"
+  },
+  {
+    "query": "What is the purpose of a while loop?",
+    "response": "Repeat as long as condition is true"
+  },
+  {
+    "query": "What operator tests equality in conditions?",
+    "response": "-eq"
+  },
+  {
+    "query": "What must precede loop code to allow parallelism?",
+    "response": "foreach-object -parallel"
+  },
+  {
+    "query": "What does foreach do?",
+    "response": "Iterates over each element in a collection"
+  },
+  {
+    "query": "What is the use of default in switch?",
+    "response": "Fallback match"
+  },
+  {
+    "query": "What keyword adds an alternate path after if?",
+    "response": "else"
+  },
+  {
+    "query": "What is the result of switch (3) {1 {\"one\"} 3 {\"three\"}}?",
+    "response": "three"
+  },
+  {
+    "query": "What does Start-Sleep -Seconds 1 do?",
+    "response": "Waits for 1 second"
+  },
+  {
+    "query": "What happens if loop condition is never false?",
+    "response": "Infinite loop"
+  },
+  {
+    "query": "What happens when continue is called?",
+    "response": "Current iteration ends"
+  },
+  {
+    "query": "What does [int]$x do in param block?",
+    "response": "Enforces integer input"
+  },
+  {
+    "query": "What is the behavior of [Parameter()]?",
+    "response": "Adds parameter attributes"
+  },
+  {
+    "query": "What happens if a mandatory parameter is not provided?",
+    "response": "Prompt appears"
+  },
+  {
+    "query": "What is used to call another function inside a script?",
+    "response": "functionname"
+  },
+  {
+    "query": "What function style supports pipeline processing?",
+    "response": "Advanced"
+  },
+  {
+    "query": "What is the effect of setting Mandatory=$true?",
+    "response": "Forces parameter value"
+  },
+  {
+    "query": "Which block in advanced functions can omit pipeline input?",
+    "response": "begin"
+  },
+  {
+    "query": "What is the result of multiple Write-Output calls?",
+    "response": "All are written to output"
+  },
+  {
+    "query": "What is the benefit of param() over $args?",
+    "response": "Better typing and validation"
+  },
+  {
+    "query": "Which symbol starts a comment block for help?",
+    "response": "<#"
+  },
+  {
+    "query": "What operator accesses parameter metadata?",
+    "response": "."
+  },
+  {
+    "query": "What does the param() block do?",
+    "response": "Declares parameters"
+  },
+  {
+    "query": "What object represents a print server in .NET?",
+    "response": "System.Printing.PrintServer"
+  },
+  {
+    "query": "What do you need to download drivers via PowerShell?",
+    "response": "Start-BitsTransfer"
+  },
+  {
+    "query": "Which command confirms multiple ports are assigned?",
+    "response": "Get-Printer | Format-Table PortName"
+  },
+  {
+    "query": "What cmdlet retrieves printer details?",
+    "response": "Get-Printer"
+  },
+  {
+    "query": "Which property sets the spool folder in .NET object?",
+    "response": "DefaultSpoolDirectory"
+  },
+  {
+    "query": "What is a print device in Windows terminology?",
+    "response": "Physical printer"
+  },
+  {
+    "query": "What cmdlet creates a printer port?",
+    "response": "Add-PrinterPort"
+  },
+  {
+    "query": "How can spool folder be changed in registry?",
+    "response": "Set-ItemProperty"
+  },
+  {
+    "query": "What must be done to save changes to spool folder?",
+    "response": "Commit()"
+  },
+  {
+    "query": "How do you install printer drivers manually?",
+    "response": "rundll32 printui.dll,PrintUIEntry"
+  },
+  {
+    "query": "How do you display the number of printers?",
+    "response": "$Printers.Count"
+  },
+  {
+    "query": "What .NET type defines spool permissions?",
+    "response": "System.Printing.PrintSystemDesiredAccess"
+  },
+  {
+    "query": "What does -LogonType set in a principal?",
+    "response": "User authentication method"
+  },
+  {
+    "query": "What happens if a job is missed during sleep?",
+    "response": "It runs at next boot"
+  },
+  {
+    "query": "What does AllSigned policy enforce?",
+    "response": "Only signed scripts can run"
+  },
+  {
+    "query": "What cmdlet defines task principal details?",
+    "response": "New-ScheduledTaskPrincipal"
+  },
+  {
+    "query": "What cmdlet deletes a task?",
+    "response": "Unregister-ScheduledTask"
+  },
+  {
+    "query": "Which cmdlet is used to create a scheduled job in PowerShell?",
+    "response": "Register-ScheduledJob"
+  },
+  {
+    "query": "Which parameter specifies the user account under which a scheduled job runs?",
+    "response": "-Credential"
+  },
+  {
+    "query": "What is used to define conditions for task execution?",
+    "response": "TaskCondition"
+  },
+  {
+    "query": "Which cmdlet combines all task components?",
+    "response": "New-ScheduledTask"
+  },
+  {
+    "query": "What cmdlet shows all job triggers?",
+    "response": "Get-JobTrigger"
+  },
+  {
+    "query": "Which task setting controls stop after idle?",
+    "response": "StopWhenIdleEnds"
+  },
+  {
+    "query": "What cmdlet views job execution history?",
+    "response": "Get-JobHistory"
+  },
+  {
+    "query": "What is $using: used for?",
+    "response": "Accesses local scope in background job"
+  },
+  {
+    "query": "How do you ensure code is thread-safe?",
+    "response": "Avoid shared state"
+  },
+  {
+    "query": "What module provides thread jobs?",
+    "response": "ThreadJobs"
+  },
+  {
+    "query": "Which job type allows full process isolation?",
+    "response": "Process job"
+  },
+  {
+    "query": "What is a PSSession?",
+    "response": "Persistent remote connection"
+  },
+  {
+    "query": "What cmdlet halts a running job?",
+    "response": "Stop-Job"
+  },
+  {
+    "query": "What is a drawback of thread jobs?",
+    "response": "Can't access GUI"
+  },
+  {
+    "query": "What cmdlet creates a background job?",
+    "response": "Start-Job"
+  },
+  {
+    "query": "Which cmdlet removes a job?",
+    "response": "Remove-Job"
+  },
+  {
+    "query": "Which syntax is used to define a script block in PowerShell?",
+    "response": "{}"
+  },
+  {
+    "query": "Which command combination shows detailed information about jobs?",
+    "response": "Get-Job | Format-List *"
+  },
+  {
+    "query": "What is the benefit of thread jobs?",
+    "response": "Shared memory context"
+  },
+  {
+    "query": "What parameter limits connection time?",
+    "response": "-ConnectionTimeout"
+  },
+  {
+    "query": "What file configures SSH access?",
+    "response": "sshd_config"
+  },
+  {
+    "query": "What cmdlet modifies listener settings?",
+    "response": "Set-WSManInstance"
+  },
+  {
+    "query": "Which parameter adds credentials to remote session?",
+    "response": "-Credential"
+  },
+  {
+    "query": "What cmdlet exports session config?",
+    "response": "Export-PSSession"
+  },
+  {
+    "query": "Which port is default for SSH remoting?",
+    "response": "22"
+  },
+  {
+    "query": "What must you do to allow remoting through a firewall?",
+    "response": "Add firewall rule"
+  },
+  {
+    "query": "What error occurs if WSMan is misconfigured?",
+    "response": "WSManFault"
+  },
+  {
+    "query": "Which command is specifically designed to test if a remote computer is ready for PowerShell remoting?",
+    "response": "Test-WSMan"
+  },
+  {
+    "query": "Which transport supports Linux-to-Windows remoting?",
+    "response": "SSH"
+  },
+  {
+    "query": "What cmdlet shows running remote sessions?",
+    "response": "Get-PSSession"
+  },
+  {
+    "query": "What is used to control which modules a user can use in JEA?",
+    "response": "Capability file"
+  }
+]
